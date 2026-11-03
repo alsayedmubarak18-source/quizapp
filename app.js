@@ -81,9 +81,8 @@ views.home = () => {
     <header class="top"><div><h1>كويزاتي</h1><p class="sub">اختبر نفسك وقارن ترتيبك بزملائك</p></div>
       ${store.mode === 'demo' ? '<span class="badge">وضع تجريبي: البيانات على جهازك فقط</span>' : ''}</header>
     <div class="tiles">
-      <button class="tile" data-act="go" data-v="quizzes"><b>حل كويز</b><span>درجتك وترتيبك بين كل من حلّ الكويز</span></button>
-      <button class="tile" data-act="go" data-v="join"><b>انضم للعبة لايف</b><span>أدخل الكود اللي مع المدرّس</span></button>
-      <button class="tile alt" data-act="go" data-v="teacher"><b>المدرّس</b><span>إنشاء الكويزات وإدارة اللعب اللايف</span></button>
+      <button class="tile" data-act="go" data-v="quizzes"><b>حل كويز</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></button>
+      <button class="tile alt" data-act="go" data-v="teacher"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></button>
     </div>
     ${S.installEv ? `<button class="btn primary install" data-act="install">ثبّت التطبيق على جهازك</button>` : ''}
     ${ios ? `<p class="hint">على الآيفون والآيباد: زر المشاركة ثم «إضافة إلى الشاشة الرئيسية» لتثبيت التطبيق.</p>` : ''}
@@ -262,8 +261,7 @@ views.teacher = () => {
   }
   const list = S.quizzes.length ? S.quizzes.map(z => `
     <article class="card qitem"><h3 dir="auto">${esc(z.title)}</h3><p class="meta">${z.questions.length} سؤال</p>
-      <div class="row"><button class="btn primary small" data-act="host" data-id="${z.id}">ابدأ لعبة لايف</button>
-      <button class="btn small" data-act="tboard" data-id="${z.id}">الترتيب</button>
+      <div class="row"><button class="btn small" data-act="tboard" data-id="${z.id}">الترتيب</button>
       <button class="btn small" data-act="edit" data-id="${z.id}">تعديل</button>
       ${S.confirmDel === z.id ? `<button class="btn small danger" data-act="del" data-id="${z.id}">تأكيد الحذف</button>` : `<button class="btn small" data-act="askdel" data-id="${z.id}">حذف</button>`}</div></article>`).join('')
     : `<div class="card empty">لا توجد كويزات بعد. أضف الكويزات الجاهزة أو أنشئ واحدًا.</div>`;
