@@ -87,3 +87,30 @@ export function readiness(attempts, unique, total) {
   const cover = Math.min(1, unique / total);
   return { score: 0.7 * recent + 0.3 * cover, recent, cover };
 }
+
+/* ---- flashcards (Leitner مبسّط) + إخفاء الاسم ---- */
+const CKEY = k => 'qz-cards:' + k, HKEY = 'qz-hide';
+const GAPS = [0, 1, 3, 7, 14, 30]; // أيام الانتظار حسب الصندوق
+export function loadCards(key) { try { return JSON.parse(localStorage.getItem(CKEY(key))) || {}; } catch (e) { return {}; } }
+export function rateCard(key, id, knew) {
+  const c = loadCards(key), o = c[id] || { box: 0 };
+  o.box = knew ? Math.min(GAPS.length - 1, o.box + 1) : 0;
+  o.due = Date.now() + GAPS[o.box] * 864e5; c[id] = o;
+  try { localStorage.setItem(CKEY(key), JSON.stringify(c)); } catch (e) {}
+  return c;
+}
+export const isDue = (cards, id) => !cards[id] || cards[id].due <= Date.now();
+export const getHide = () => localStorage.getItem(HKEY) === '1';
+export const setHide = v => { try { localStorage.setItem(HKEY, v ? '1' : '0'); } catch (e) {} };
+
+// الترتيب: Smart Score = الصح × الدقة (يكافئ الكمية والدقة معًا)
+export function leaderboard(rows, sinceMs, minAnswers = 10) {
+  const by = new Map();
+  rows.filter(a => a.at >= sinceMs).sort((a, b) => a.at - b.at).forEach(a => {
+    const o = by.get(a.key) || { key: a.key, name: a.name, quizzes: 0, n: 0, c: 0, hide: false };
+    o.quizzes++; o.name = a.name || o.name; o.hide = !!a.hide;
+    (a.ans || []).forEach(x => { o.n++; if (x[2]) o.c++; }); by.set(a.key, o);
+  });
+  return [...by.values()].filter(o => o.n >= minAnswers).map(o => ({ ...o, acc: o.c / o.n, smart: Math.round(o.c * o.c / o.n) }))
+    .sort((a, b) => b.smart - a.smart || b.acc - a.acc);
+}

@@ -63,6 +63,10 @@ async function makeFirebase(cfg) {
       const s = await F.getDocs(F.query(col('attempts'), F.where('key', '==', key), F.limit(500)));
       return s.docs.map(d => d.data());
     },
+    async fetchRecentAttempts(since) {
+      const s = await F.getDocs(F.query(col('attempts'), F.where('at', '>=', since), F.limit(3000)));
+      return s.docs.map(d => d.data());
+    },
     watchAttempts(cb, err) {
       return F.onSnapshot(F.query(col('attempts'), F.limit(5000)), s => cb(s.docs.map(d => d.data())), err);
     },
@@ -130,6 +134,7 @@ function makeDemo() {
 
     async saveAttempt(a) { write(d => { (d.attempts = d.attempts || []).push({ ...clone(a), uid }); }); },
     async fetchAttemptsByKey(key) { return (read().attempts || []).filter(a => a.key === key); },
+    async fetchRecentAttempts(since) { return (read().attempts || []).filter(a => a.at >= since); },
     watchAttempts(cb) { return watch(d => d.attempts || [], cb); },
 
     async createGame(code, g) { write(d => { d.games[code] = clone({ ...g, hostUid: uid, createdAt: Date.now() }); d.players[code] = {}; }); },

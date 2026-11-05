@@ -216,6 +216,7 @@ views.perf = () => {
     ${examHtml(st)}
     ${weakCards(st)}
     ${S.att.length ? `<h3 class="lbt">Performance over time</h3><div class="card">${chartSvg(tr.pts)}<p class="sub" style="margin:6px 0 0">${tr.delta === null ? 'محتاج 4 محاولات عشان نقارن بداياتك بمستواك الحالي.' : `مقارنة النصف الأول بالتاني من محاولاتك: متوسطك ${tr.delta >= 0 ? 'اتحسّن' : 'قلّ'} بـ <b dir="ltr">${tr.delta >= 0 ? '+' : ''}${tr.delta.toFixed(1)}</b> نقطة.`}${tr.secPerQ ? ` متوسط وقتك <b dir="ltr">${Math.round(tr.secPerQ)}s</b> للسؤال.` : ''}</p></div>` : ''}
+    <div class="row"><button class="btn" data-act="cardsopen">🃏 Flashcards (${dueCount()})</button><button class="btn" data-act="lbopen">🏆 Leaderboard</button></div>
     ${marks.size ? `<div class="row"><button class="btn" data-act="practicemarked">⚑ تدرّب على المعلّمة (${marks.size})</button></div>` : ''}
     ${st.A ? `<h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">Block ${b}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>
     <h3 class="lbt">By subject · مرتبة من الأضعف</h3>
@@ -225,6 +226,96 @@ views.perf = () => {
     </details>`).join('')}</div>` : `<div class="card empty">لسه ما حلّيتش أي كويز. بعد أول كويز هتظهر نتايجك هنا.</div>`}
     <p class="hint">الدقة محسوبة من كل إجاباتك. اللون: أحمر أقل من 60%، أصفر 60-80%، أخضر فوق 80%.</p>
     <div class="row"><button class="btn" data-act="slogout">تغيير الطالب</button></div>`;
+};
+
+
+/* ---------- exam mode ---------- */
+const mmss = ms => { const t = Math.max(0, Math.ceil(ms / 1000)); return String(Math.floor(t / 60)).padStart(2, '0') + ':' + String(t % 60).padStart(2, '0'); };
+function startExam(z) {
+  const qs = z.questions.map(q => {
+    const order = q.options.map((_, i) => i).filter(i => q.options[i].t.trim());
+    for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+    return { q: q.q, options: order.map(i => q.options[i]), correct: order.indexOf(q.correct), ref: q.ref || [z.id, z.questions.indexOf(q)] };
+  });
+  S.play = { quiz: z, lang: langOf(z), qs, i: 0, exam: true, ans: qs.map(() => null), confirm: false, limitMs: qs.length * 72000, score: 0, log: [], t0: Date.now() };
+  go('exam');
+  startTick(() => {
+    const p = S.play; if (!p || !p.exam || S.view !== 'exam') return;
+    const left = p.limitMs - (Date.now() - p.t0), el = document.getElementById('xt');
+    if (el) { el.textContent = mmss(left); el.classList.toggle('low', left < 120000); }
+    if (left <= 0) finishExam();
+  });
+}
+views.exam = () => {
+  const p = S.play, q = p.qs[p.i], L = T[p.lang], total = p.qs.length, left = p.limitMs - (Date.now() - p.t0);
+  const marks = S.profile ? PG.loadMarks(S.profile.key) : new Set(), unans = p.ans.filter(a => a === null).length;
+  $app.innerHTML = `<div dir="${L.dir}">
+    <div class="xbar"><span class="xtimer ${left < 120000 ? 'low' : ''}" id="xt" dir="ltr">${mmss(left)}</span><span dir="ltr">Item ${p.i + 1} of ${total}</span>
+      ${S.profile ? `<button class="mark ${marks.has(q.ref[0] + '#' + q.ref[1]) ? 'on' : ''}" data-act="mark" aria-label="Mark">⚑</button>` : ''}
+      <button class="btn small" data-act="xend">End Block</button></div>
+    <div class="xnav" dir="ltr">${p.qs.map((x, i) => `<button class="xn ${i === p.i ? 'cur' : ''} ${p.ans[i] !== null ? 'done' : ''}" data-act="xgo" data-oi="${i}">${i + 1}</button>`).join('')}</div>
+    <div class="question">${esc(q.q)}</div>
+    <div class="opts">${optsHtml(q, L, { picked: p.ans[p.i], act: 'xpick' })}</div>
+    ${p.confirm ? `<div class="card" style="border:2px solid #e0a526"><p style="margin:0 0 8px">${unans ? `لسه ${unans} سؤال من غير إجابة.` : 'جاوبت كل الأسئلة.'} تنهي الامتحان وتشوف النتيجة؟</p>
+      <div class="row"><button class="btn primary" data-act="xend2">إنهاء وعرض النتيجة</button><button class="btn" data-act="xcancel">كمّل</button></div></div>` : ''}
+    <div class="row xfoot"><button class="btn" data-act="xprev" ${p.i === 0 ? 'disabled' : ''}>Previous</button><button class="btn primary" data-act="xnext" ${p.i === total - 1 ? 'disabled' : ''}>Next</button></div>
+    <p class="hint">وضع امتحان: مفيش إجابات ولا شرح لحد ما تنهي. تقدر تغيّر إجاباتك وترجع لأي سؤال.</p></div>`;
+};
+async function finishExam() {
+  const p = S.play; if (!p || !p.exam) return;
+  p.exam = false;
+  p.log = p.qs.map((q, i) => ({ q: q.q, ok: p.ans[i] === q.correct, correct: q.options[q.correct].t, ref: q.ref }));
+  p.score = p.log.filter(x => x.ok).length;
+  await finishSolo();
+}
+
+/* ---------- flashcards ---------- */
+const qOf = id => { const [zid, qi] = [id.slice(0, id.lastIndexOf('#')), +id.slice(id.lastIndexOf('#') + 1)]; const z = S.quizzes.find(x => x.id === zid); return z && z.questions[qi] ? { z, q: z.questions[qi] } : null; };
+const cardIds = () => {
+  const st = stats(), set = new Set(st.mistakes.map(m => m.quizId + '#' + m.qi));
+  PG.loadMarks(S.profile.key).forEach(id => set.add(id));
+  return [...set].filter(id => qOf(id));
+};
+const dueCount = () => { const c = PG.loadCards(S.profile.key); return cardIds().filter(id => PG.isDue(c, id)).length; };
+function startCards() {
+  const c = PG.loadCards(S.profile.key), deck = cardIds().filter(id => PG.isDue(c, id));
+  for (let i = deck.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [deck[i], deck[j]] = [deck[j], deck[i]]; }
+  go('cards', { cd: { deck: deck.slice(0, 30), i: 0, flip: false, known: 0 } });
+}
+views.cards = () => {
+  const d = S.cd;
+  if (!d.deck.length || d.i >= d.deck.length) {
+    $app.innerHTML = `${backBar('Flashcards', 'perf')}<div class="card center"><h2>${d.deck.length ? 'خلّصت الدفعة 🎉' : 'مفيش كروت مستحقة دلوقتي'}</h2>
+      <p class="sub">${d.deck.length ? `عرفت ${d.known} من ${d.deck.length}. الكروت اللي ما عرفتهاش هترجع لك بكرة.` : 'الكروت بتتعمل من الأسئلة اللي غلطت فيها أو علّمتها ⚑، وبترجع لك على فترات (1، 3، 7، 14 يوم).'}</p>
+      <button class="btn" data-act="go" data-v="perf">رجوع لتقدمك</button></div>`; return;
+  }
+  const id = d.deck[d.i], { z, q } = qOf(id), m = metaOf(z.id, +id.slice(id.lastIndexOf('#') + 1)), ok = q.options[q.correct], L = T[langOf(z)];
+  $app.innerHTML = `${backBar('Flashcards', 'perf')}<div dir="${L.dir}"><p class="sub" dir="ltr">${d.i + 1} / ${d.deck.length} · ${esc(m ? m.subject + ' · ' + m.topic : '')}</p>
+    <div class="card fcard" data-act="flip" role="button" tabindex="0"><div class="question" style="margin:0">${esc(q.q)}</div>
+    ${d.flip ? `<hr><p style="margin:0 0 6px"><b>✓ ${esc(ok.t)}</b></p><p class="sub" style="margin:0">${esc(ok.e || '')}</p>` : '<p class="hint" style="margin-top:12px">اضغط على الكارت عشان تشوف الإجابة</p>'}</div>
+    ${d.flip ? `<div class="row"><button class="btn" data-act="cardno">😅 لسه</button><button class="btn primary" data-act="cardyes">✅ عرفتها</button></div>` : ''}</div>`;
+};
+
+/* ---------- leaderboard (week / month) ---------- */
+function openLb(period) {
+  go('lb', { lbPeriod: period || S.lbPeriod || 'week', lbRows: null });
+  store.fetchRecentAttempts(Date.now() - 30 * 864e5).then(r => { S.lbRows = r; if (S.view === 'lb') render(); })
+    .catch(e => { console.error(e); S.lbRows = []; S.err = 'تعذر تحميل الترتيب. تأكد من نشر قواعد Firestore.'; if (S.view === 'lb') render(); });
+}
+views.lb = () => {
+  const days = S.lbPeriod === 'month' ? 30 : 7, hide = PG.getHide(), me = S.profile && S.profile.key;
+  const rows = S.lbRows ? PG.leaderboard(S.lbRows, Date.now() - days * 864e5) : null;
+  const mine = rows ? rows.findIndex(r => r.key === me) : -1;
+  $app.innerHTML = `${backBar('Leaderboard')}
+    <div class="row" style="justify-content:space-between"><div class="seg"><button class="${days === 7 ? 'on' : ''}" data-act="lbp" data-id="week">Week</button><button class="${days === 30 ? 'on' : ''}" data-act="lbp" data-id="month">Month</button></div>
+      <button class="btn small" data-act="lbhide">${hide ? '👁 أظهر اسمي' : '🙈 أخفي اسمي'}</button></div>
+    ${S.err ? `<p class="msg err">${esc(S.err)}</p>` : ''}
+    ${!rows ? '<div class="card empty">جاري التحميل…</div>' : !rows.length ? '<div class="card empty">لسه محدش وصل لـ 10 إجابات في الفترة دي.</div>' : `
+    ${mine >= 0 ? `<div class="card rankbox"><p class="hint">ترتيبك</p><div class="big">#${mine + 1} من ${rows.length}</div></div>` : '<p class="hint">حلّ 10 أسئلة على الأقل في الفترة دي عشان تظهر في الترتيب.</p>'}
+    <div class="lbt2 hint" dir="ltr"><span>#</span><span>Student</span><span>Quizzes</span><span>Qs</span><span>Acc</span><span>Smart</span></div>
+    <ol class="lb lb2">${rows.slice(0, 50).map((r, i) => { const isMe = r.key === me, hid = isMe ? hide : r.hide;
+      return `<li class="${isMe ? 'me' : ''}" dir="ltr"><span class="rk">${i + 1}</span><span class="nm" dir="auto">${hid ? (isMe ? esc(r.name) + ' 🙈' : 'مجهول') : esc(r.name)}</span><span>${r.quizzes}</span><span>${r.n}</span><span class="${PG.pctColor(r.acc)}t">${pc(r.acc)}%</span><span class="sc">${r.smart}</span></li>`; }).join('')}</ol>`}
+    <p class="hint">Smart Score = عدد الإجابات الصح × الدقة، فبيكافئ الكمية والدقة مع بعض. بيظهر اللي حلّ 10 أسئلة+ في الفترة. إخفاء الاسم بيتطبّق على باقي الطلبة من أول كويز تحلّه بعد الضغط.</p>`;
 };
 
 /* ---------- teacher dashboard ---------- */
@@ -297,6 +388,8 @@ views.home = () => {
     <div class="tiles">
       <button class="tile" data-act="go" data-v="blocks">${ico('📚', '#d5f3ea')}<div class="tx"><b>Semester 1</b><span>كويزات كل محاضرة حسب البلوك والأسبوع</span></div></button>
       <button class="tile" data-act="go" data-v="perf">${ico('📊', '#dde7ff')}<div class="tx"><b>Performance &amp; Study Plan</b><span>مستواك، نقاط ضعفك، وخطة مذاكرة مخصصة</span></div></button>
+      ${S.profile ? `<button class="tile" data-act="lbopen">${ico('🏆', '#fff0c9')}<div class="tx"><b>Leaderboard</b><span>ترتيب الأسبوع والشهر بـ Smart Score</span></div></button>
+      <button class="tile" data-act="cardsopen">${ico('🃏', '#fde0ee')}<div class="tx"><b>Flashcards</b><span>${dueCount()} كارت مستحق من غلطاتك</span></div></button>` : ''}
       <button class="tile" data-act="go" data-v="quizzes">${ico('📝', '#ffecc9')}<div class="tx"><b>كل الكويزات</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></div></button>
       <button class="tile alt" data-act="go" data-v="teacher">${ico('🧑‍🏫', '#ece0ff')}<div class="tx"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></div></button>
     </div>
@@ -373,6 +466,7 @@ views.quizzes = () => {
   const list = S.quizzes.length ? S.quizzes.map(z => `
     <article class="card qitem"><h3 dir="auto">${esc(z.title)}</h3><p class="meta">${z.questions.length} سؤال</p>
       <div class="row"><button class="btn primary small" data-act="start" data-id="${z.id}">ابدأ</button>
+      <button class="btn small" data-act="startexam" data-id="${z.id}" dir="ltr">🕒 Exam</button>
       <button class="btn small" data-act="board" data-id="${z.id}">الترتيب</button>
       <button class="btn small" data-act="pdf" data-id="${z.id}" dir="ltr">📄 PDF</button></div></article>`).join('')
     : `<div class="card empty">لا توجد كويزات بعد.</div>`;
@@ -408,7 +502,7 @@ async function finishSolo() {
   const p = S.play, timeMs = Date.now() - p.t0, total = p.qs.length;
   S.result = { quizId: p.quiz.id, title: p.quiz.title, lang: p.lang, score: p.score, total, timeMs, custom: !!p.quiz.custom };
   if (S.profile) {
-    const at = { key: S.profile.key, name: S.profile.name, at: Date.now(), quizId: p.quiz.id, custom: !!p.quiz.custom, score: p.score, total, timeMs, ans: p.log.map(x => [x.ref[0], x.ref[1], x.ok ? 1 : 0]) };
+    const at = { key: S.profile.key, name: S.profile.name, at: Date.now(), quizId: p.quiz.id, custom: !!p.quiz.custom, score: p.score, total, timeMs, hide: PG.getHide() ? 1 : 0, ans: p.log.map(x => [x.ref[0], x.ref[1], x.ok ? 1 : 0]) };
     S.att = PG.addAttempt(S.profile.key, at);
     store.saveAttempt(at).catch(e => console.warn('attempt sync', e));
   }
@@ -740,6 +834,20 @@ $app.addEventListener('click', async e => {
     case 'slogin': await studentLogin(); break;
     case 'slogout': PG.clearProfile(); S.profile = null; S.att = []; S.name = ''; go('home'); break;
     case 'startq': { const z = S.quizzes.find(x => x.id === id); if (z) { S.ret = 'perf'; startSolo(z); } break; }
+    case 'startexam': { const z = S.quizzes.find(x => x.id === id); if (z) { S.ret = 'quizzes'; startExam(z); } break; }
+    case 'xpick': { const p = S.play; p.ans[p.i] = oi; render(); break; }
+    case 'xprev': S.play.i = Math.max(0, S.play.i - 1); render(); window.scrollTo(0, 0); break;
+    case 'xnext': S.play.i = Math.min(S.play.qs.length - 1, S.play.i + 1); render(); window.scrollTo(0, 0); break;
+    case 'xgo': S.play.i = oi; render(); window.scrollTo(0, 0); break;
+    case 'xend': S.play.confirm = true; render(); break;
+    case 'xcancel': S.play.confirm = false; render(); break;
+    case 'xend2': await finishExam(); break;
+    case 'cardsopen': startCards(); break;
+    case 'flip': S.cd.flip = !S.cd.flip; render(); break;
+    case 'cardyes': case 'cardno': { const d = S.cd; PG.rateCard(S.profile.key, d.deck[d.i], act === 'cardyes'); if (act === 'cardyes') d.known++; d.i++; d.flip = false; render(); window.scrollTo(0, 0); break; }
+    case 'lbopen': openLb('week'); break;
+    case 'lbp': openLb(id); break;
+    case 'lbhide': PG.setHide(!PG.getHide()); render(); break;
     case 'mark': { if (S.profile) { const q = S.play.qs[S.play.i]; PG.toggleMark(S.profile.key, q.ref[0] + '#' + q.ref[1]); render(); } break; }
     case 'setexam': { const d = document.getElementById('exd').value; if (d) PG.setExam(S.profile.key, { date: d }); render(); break; }
     case 'clearexam': PG.setExam(S.profile.key, null); render(); break;
