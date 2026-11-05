@@ -702,9 +702,7 @@ export const CURRICULUM = [
  }
 ];
 
-// ألعاب المحاضرات: مفتاح المحاضرة ← صفحة اللعبة
-export const GAMES = {
-  'w11-biochemistry-minerals-homeostasis': { title: 'Minerals Homeostasis: Game', url: 'games/minerals.html' }
-};
-// كويزات جاهزة بتتربط تلقائيًا (لو الكويز مفيهوش حقل lec). 'block-2' = كويز شامل للبلوك.
-export const LINKS = { 'seed-block2-1': 'block-2' };
+// ألعاب المحاضرات: مفتاح المحاضرة ← صفحة اللعبة (فاضي حاليًا)
+export const GAMES = {};
+// ربط تلقائي لكويزات جاهزة (فاضي حاليًا). 'block-2' = كويز شامل للبلوك.
+export const LINKS = {};

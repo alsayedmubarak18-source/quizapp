@@ -1,21 +1,21 @@
 /* Layout idea: one centered column; big tappable answer cards that turn green or red with the reason inside. */
 :root{
-  --bg:#f2f4f9; --surface:#ffffff; --ink:#16213a; --muted:#5b6784; --line:#dbe0eb;
-  --accent:#2f4bd8; --accent-ink:#ffffff; --gold:#b7791f;
-  --ok:#0f7a58; --ok-bg:#e1f5ec; --bad:#c42a39; --bad-bg:#fde8ea;
+  --bg:#eaf5ef; --surface:#ffffff; --ink:#1e3b35; --muted:#5f7b73; --line:#d4e6dc;
+  --accent:#23a094; --accent-ink:#ffffff; --gold:#e8a33d;
+  --ok:#1d9a67; --ok-bg:#def5e8; --bad:#d9525a; --bad-bg:#fdeaea;
   --display:'Reem Kufi','Cairo',system-ui,sans-serif; --body:'Cairo',system-ui,-apple-system,'Segoe UI',Tahoma,sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){
   :root{
-    --bg:#0e1322; --surface:#171e34; --ink:#e8ecf8; --muted:#9ba7c5; --line:#29324f;
-    --accent:#8197ff; --accent-ink:#0e1322; --gold:#f0b95a;
-    --ok:#4fd8a2; --ok-bg:#12372b; --bad:#ff7d89; --bad-bg:#3b1b22; color-scheme:dark;
+    --bg:#10201d; --surface:#18302b; --ink:#e3f3ee; --muted:#9bb8af; --line:#27453d;
+    --accent:#4fd1c0; --accent-ink:#0e1f1b; --gold:#f0b95a;
+    --ok:#52d89f; --ok-bg:#16382d; --bad:#ff8b92; --bad-bg:#3a2024; color-scheme:dark;
   }
 }
 *{box-sizing:border-box}
 html,body{margin:0}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.7;min-height:100%;padding-bottom:env(safe-area-inset-bottom)}
+body{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 12%,var(--bg)) 0,var(--bg) 260px) fixed var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.7;min-height:100%;padding-bottom:env(safe-area-inset-bottom)}
 #app{max-width:760px;margin:0 auto;padding:20px 16px 56px}
 h1,h2,h3{font-family:var(--display);margin:0;line-height:1.35;text-wrap:balance}
 h1{font-size:30px} h2{font-size:24px}
@@ -25,7 +25,7 @@ button{font:inherit;cursor:pointer}
 button:disabled{cursor:default}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .btn{border:1.5px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 16px;border-radius:12px;font-weight:600;min-height:44px}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);box-shadow:0 3px 0 color-mix(in srgb,var(--accent) 70%,#000)}
 .btn.small{min-height:38px;padding:4px 12px;font-size:15px}
 .btn.danger{color:var(--bad);border-color:var(--bad)}
 .btn.wide{width:100%}
@@ -33,7 +33,7 @@ button:disabled{cursor:default}
 .link{background:none;border:0;color:var(--accent);padding:6px 4px;font-weight:600}
 .link.danger{color:var(--bad)}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.card{background:var(--surface);border:1.5px solid var(--line);border-radius:16px;padding:16px}
+.card{background:var(--surface);border:1.5px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 2px 0 var(--line)}
 .list{display:flex;flex-direction:column;gap:12px;margin:14px 0 22px}
 .qitem h3{font-size:20px}
 .qitem .meta{color:var(--muted);font-size:14px;margin:0 0 12px}
@@ -49,7 +49,17 @@ textarea.inp{resize:vertical}
 
 /* home */
 .tiles{display:grid;gap:12px;margin:8px 0 18px}
-.tile{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:start;background:var(--surface);border:1.5px solid var(--line);border-radius:16px;padding:18px;color:var(--ink)}
+.tile{display:flex;flex-direction:row;align-items:center;gap:14px;text-align:start;background:var(--surface);border:1.5px solid var(--line);border-radius:20px;padding:14px 16px;color:var(--ink);box-shadow:0 3px 0 var(--line);transition:transform .12s}
+.tile:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line)}
+.tile .tx{display:flex;flex-direction:column;min-width:0;flex:1}
+.tile.lec{padding:10px 14px;border-radius:16px}
+.tile.lec b{font-size:17px}
+.tile.lec span{font-size:13px}
+.chipsub{letter-spacing:3px;font-size:16px!important}
+.ico{flex:none;width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-size:28px;font-style:normal;line-height:1;box-shadow:inset 0 -3px 0 rgba(0,0,0,.06)}
+.ico.sm{width:34px;height:34px;border-radius:11px;font-size:19px}
+.tile.lec .ico{width:44px;height:44px;font-size:24px;border-radius:14px}
+.subh{display:flex;align-items:center;gap:10px}
 .tile b{font-family:var(--display);font-size:22px}
 .tile span{color:var(--muted);font-size:15px}
 .tile:hover{border-color:var(--accent)}
