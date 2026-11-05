@@ -5,7 +5,7 @@ export const INSTRUCTOR = {
   title: 'MBBCH · Internal Medicine Resident',
   course: 'كورس الريان - السنة التانية',
   bio: '',        // نبذة قصيرة (اختياري)، فاضية = ما تظهرش
-  photo: '',      // مسار الصورة مثل 'img/instructor.jpg' (فاضي = تظهر الحروف الأولى)
+  photo: 'img/instructor.jpg',  // مسار الصورة (فاضي = تظهر الحروف الأولى)
   links: {
     telegram: 'https://t.me/+AFWWUYBND8RjNGE0',
     youtube: 'https://www.youtube.com/@medicalpearls1757',
