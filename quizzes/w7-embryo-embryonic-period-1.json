@@ -53,20 +53,20 @@
    "correct": 1,
    "options": [
     {
-     "t": "1st to 2nd week",
-     "e": "Wrong. Damage in the first 2 weeks is usually all-or-none: the embryo either dies or recovers fully."
+     "t": "2nd to 6th week",
+     "e": "Wrong. The most sensitive period for major malformations is the 3rd to 8th week, when organs form."
     },
     {
      "t": "3rd to 8th week",
      "e": "Correct. The embryonic period (organogenesis) is the critical period for major malformations."
     },
     {
-     "t": "9th to 16th week",
-     "e": "Wrong. The fetal period mainly causes growth and functional problems, not major malformations."
+     "t": "4th to 10th week",
+     "e": "Wrong. The window is the 3rd to 8th week, not 4th to 10th."
     },
     {
-     "t": "Last trimester",
-     "e": "Wrong. Late exposure affects growth and function, not organ formation."
+     "t": "3rd to 12th week",
+     "e": "Wrong. Organogenesis ends with the embryonic period at the end of week 8."
     }
    ]
   },
@@ -208,15 +208,15 @@
    "options": [
     {
      "t": "Cervical region",
-     "e": "Wrong. Cervical somites (8) form after the occipital ones."
+     "e": "Wrong. The first pair appears in the occipital region."
     },
     {
      "t": "Thoracic region",
-     "e": "Wrong. There are 12 thoracic somites, formed later."
+     "e": "Wrong. Somites form cranio-caudally starting occipitally."
     },
     {
-     "t": "Lumbar region",
-     "e": "Wrong. Lumbar somites appear much later in the craniocaudal sequence."
+     "t": "Upper cervical region",
+     "e": "Wrong. The first pair is occipital."
     },
     {
      "t": "Occipital region",
@@ -234,15 +234,15 @@
     },
     {
      "t": "Crown-rump length",
-     "e": "Wrong. CR length is used in the 2nd month."
+     "e": "Wrong. CR length is used later; in week 4 somite count is the best estimate."
+    },
+    {
+     "t": "Crown-heel length",
+     "e": "Wrong. Not used for the 4th week embryo."
     },
     {
      "t": "Head circumference",
-     "e": "Wrong. It is not used to date an embryo."
-    },
-    {
-     "t": "Foot length",
-     "e": "Wrong. It is used for fetal dating later in pregnancy."
+     "e": "Wrong. Not the best estimate for age in the 4th week."
     }
    ]
   },
@@ -340,7 +340,7 @@
    "options": [
     {
      "t": "Buccopharyngeal membrane",
-     "e": "Wrong. It lies at the cranial end of the gut."
+     "e": "Wrong. This is at the cranial end of the foregut."
     },
     {
      "t": "Primitive umbilical ring",
@@ -348,11 +348,11 @@
     },
     {
      "t": "Cloacal membrane",
-     "e": "Wrong. It lies at the caudal end of the gut."
+     "e": "Wrong. This is at the caudal end of the hindgut."
     },
     {
-     "t": "Septum transversum",
-     "e": "Wrong. It is a mesodermal structure moved caudal to the heart by folding."
+     "t": "Umbilical vein ring",
+     "e": "Wrong. Not a structure formed by the amnio-ectodermal junction."
     }
    ]
   },
@@ -362,19 +362,19 @@
    "options": [
     {
      "t": "Vitelline duct",
-     "e": "Wrong. It connects the midgut to the definitive yolk sac."
+     "e": "Wrong. This connects the midgut to the yolk sac."
     },
     {
-     "t": "Definitive yolk sac",
-     "e": "Wrong. It remains outside the embryo."
+     "t": "Urachus",
+     "e": "Wrong. This is the remnant of the allantois, not its origin."
     },
     {
      "t": "Allantois",
      "e": "Correct. The allantois is the hindgut diverticulum that enters the connecting stalk."
     },
     {
-     "t": "Primitive gut",
-     "e": "Wrong. It is the part of the yolk sac incorporated into the embryo."
+     "t": "Definitive yolk sac",
+     "e": "Wrong. The yolk sac is a separate structure."
     }
    ]
   },
@@ -409,16 +409,16 @@
      "e": "Correct. Upper limbs arise at C4 to T1; lower limbs at lumbar and upper sacral levels."
     },
     {
-     "t": "T2 to T8",
-     "e": "Wrong. These levels give no limb bud."
+     "t": "C5 to T2",
+     "e": "Wrong. Upper limb buds lie opposite C4 to T1."
     },
     {
-     "t": "T9 to L1",
-     "e": "Wrong. These levels give no limb bud."
+     "t": "C2 to C8",
+     "e": "Wrong. Upper limb buds lie opposite C4 to T1."
     },
     {
-     "t": "L2 to S2",
-     "e": "Wrong. This is the level of the lower limbs (lumbar and upper sacral)."
+     "t": "C4 to T3",
+     "e": "Wrong. The segments are C4 to T1."
     }
    ]
   },
@@ -431,16 +431,16 @@
      "e": "Correct. The CR length is used in the 2nd month and reaches about 3 cm at the end of the embryonic period."
     },
     {
+     "t": "1 cm",
+     "e": "Wrong. Too small for the end of week 8."
+    },
+    {
+     "t": "5 cm",
+     "e": "Wrong. About 3 cm at the end of the embryonic period."
+    },
+    {
      "t": "10 cm",
-     "e": "Wrong. This is much larger than the embryo at 8 weeks."
-    },
-    {
-     "t": "36 cm",
-     "e": "Wrong. This is the CR length at birth."
-    },
-    {
-     "t": "50 cm",
-     "e": "Wrong. This is the crown-heel length at birth."
+     "e": "Wrong. This is closer to the fetus at 3 months."
     }
    ]
   }
