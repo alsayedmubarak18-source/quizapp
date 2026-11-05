@@ -16,6 +16,7 @@ try {
 }
 
 const LETTERS = ['أ', 'ب', 'ج', 'د', 'هـ', 'و'];
+const APP_VERSION = 'v28'; // لازم يطابق CACHE في sw.js
 const T = {
   ar: { dir: 'rtl', letters: LETTERS, exit: 'خروج', next: 'السؤال التالي', result: 'عرض النتيجة', ok: 'أحسنت، إجابة صحيحة!', bad: 'إجابة خاطئة، الصحيحة باللون الأخضر.',
     tip: 'اضغط على أي إجابة أخرى لتعرف لماذا هي خاطئة.', yok: 'إجابتك صحيحة. السبب:', ybad: 'إجابتك خاطئة. السبب:', right: 'هذه هي الصحيحة. السبب:', wrong: 'خاطئة. السبب:',
@@ -480,6 +481,7 @@ views.home = () => {
       ${store.teacher ? `<button class="tile alt" data-act="go" data-v="teacher">${ico('🧑‍🏫', '#ece0ff')}<div class="tx"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></div></button>` : ''}
     </div>
     ${S.installEv ? `<button class="btn primary install" data-act="install">ثبّت التطبيق على جهازك</button>` : ''}
+    <p class="hint center" dir="ltr" style="opacity:.6;margin-top:18px">version ${APP_VERSION}</p>
     ${ios ? `<p class="hint">على الآيفون والآيباد: زر المشاركة ثم «إضافة إلى الشاشة الرئيسية» لتثبيت التطبيق.</p>` : ''}
     ${S.err ? `<p class="msg err">${esc(S.err)}</p>` : ''}`;
 };
