@@ -157,3 +157,5 @@ textarea.inp{resize:vertical}
 .about .bio{color:var(--muted);margin:10px 0 0}
 .about .links{display:grid;gap:10px;margin-top:18px}
 .about .links .btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+.avatar.ph{width:64px;height:96px;border-radius:14px;box-shadow:0 2px 0 var(--line)}
+.avatar.ph.lg{width:min(240px,70%);height:auto;aspect-ratio:2/3;border-radius:22px;margin:0 auto 12px;display:block}

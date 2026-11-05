@@ -77,7 +77,7 @@ function lbHtml(rows, { me, limit = 10, mode = 'solo' } = {}) {
 
 /* ---------- home ---------- */
 const avatar = (cls = '') => INSTRUCTOR.photo
-  ? `<img class="avatar ${cls}" src="${esc(INSTRUCTOR.photo)}" alt="${esc(INSTRUCTOR.name)}">`
+  ? `<img class="avatar ph ${cls}" src="${esc(INSTRUCTOR.photo)}" alt="${esc(INSTRUCTOR.name)}">`
   : `<span class="avatar ${cls}" aria-hidden="true">${esc(INSTRUCTOR.initials)}</span>`;
 views.about = () => {
   const I = INSTRUCTOR, L = I.links;
