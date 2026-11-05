@@ -1046,5 +1046,14 @@ $app.addEventListener('click', e => {
   const now = Date.now(); taps = taps.filter(t => now - t < 2500); taps.push(now);
   if (taps.length >= 5) { taps = []; openTeacher(); }
 });
-if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).catch(() => {});
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  // تحديث تلقائي: لما نسخة جديدة تستلم، الصفحة بتتحمّل تاني لوحدها (إلا لو بتحل كويز، فبتستنى لحد ما تخلّص)
+  const hadSw = !!navigator.serviceWorker.controller; let reloaded = false;
+  const busy = () => ['play', 'exam', 'live', 'host'].includes(S.view);
+  const reloadWhenIdle = () => { if (reloaded) return; if (busy()) return void setTimeout(reloadWhenIdle, 4000); reloaded = true; location.reload(); };
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadSw) reloadWhenIdle(); });
+  navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).then(reg => {
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) reg.update().catch(() => {}); });
+  }).catch(() => {});
+}
 render();
