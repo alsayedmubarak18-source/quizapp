@@ -24,7 +24,8 @@
      "t": "A-M are beta-1 selective; N-Z are non-selective",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Which drug is an exception being beta-1 selective in the N-Z group?",
@@ -46,7 +47,8 @@
      "t": "Nebivolol",
      "e": "Correct. Beta-1 selective and releases NO."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Which drugs are exceptions in the A-M group, being non-selective?",
@@ -68,7 +70,8 @@
      "t": "Metoprolol and nebivolol",
      "e": "Wrong. Beta-1 selective."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "What is the effect of beta blockers on blood pressure?",
@@ -90,7 +93,8 @@
      "t": "Lower BP in hypertensive people, no effect on normal BP",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Pharmacologic actions"
   },
   {
    "q": "How do beta blockers lower BP besides reducing cardiac output?",
@@ -112,7 +116,8 @@
      "t": "Increase renin",
      "e": "Wrong. Decrease renin."
     }
-   ]
+   ],
+   "topic": "Pharmacologic actions"
   },
   {
    "q": "A diabetic on insulin takes propranolol. Which effect is expected?",
@@ -134,7 +139,8 @@
      "t": "Hyperglycemia crisis",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Pharmacologic actions"
   },
   {
    "q": "Why are non-selective beta blockers contraindicated in asthma?",
@@ -156,7 +162,8 @@
      "t": "Beta-2 blockade causes bronchoconstriction",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Pharmacologic actions"
   },
   {
    "q": "In which angina can beta blockers be used?",
@@ -178,7 +185,8 @@
      "t": "All types of angina",
      "e": "Wrong. Only chronic stable."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "Which beta blockers are excluded in angina?",
@@ -200,7 +208,8 @@
      "t": "All non-selective ones",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "What do beta blockers do in atrial flutter and fibrillation?",
@@ -222,7 +231,8 @@
      "t": "Correct them by increasing refractory period of atria",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "Which beta blockers decrease sudden death after myocardial infarction?",
@@ -244,7 +254,8 @@
      "t": "Pindolol and acebutolol",
      "e": "Wrong. Partial agonists."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "Which beta blocker is used for variceal bleeding in portal hypertension?",
@@ -266,7 +277,8 @@
      "t": "Timolol",
      "e": "Wrong. Eye use."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "What are the actions of beta blockers in hyperthyroidism?",
@@ -288,7 +300,8 @@
      "t": "Decrease catecholamine effect on the heart and decrease T4 to T3 conversion",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "What rule applies to beta blockers in pheochromocytoma?",
@@ -310,7 +323,8 @@
      "t": "Never use alpha blockers",
      "e": "Wrong. Alpha blockers are used first."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "Which beta blocker is used in glaucoma and why is it better than pilocarpine?",
@@ -332,7 +346,8 @@
      "t": "Esmolol; it dilates the pupil",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "What happens on sudden withdrawal of a beta blocker?",
@@ -354,7 +369,8 @@
      "t": "Hypotension",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Therapeutic uses"
   },
   {
    "q": "Which are contraindications for ALL beta blockers?",
@@ -376,7 +392,8 @@
      "t": "Hypertension and angina",
      "e": "Wrong. Indications."
     }
-   ]
+   ],
+   "topic": "Side effects & contraindications"
   },
   {
    "q": "What is the advantage of selective beta-1 blockers?",
@@ -398,7 +415,8 @@
      "t": "No CNS effects",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Side effects & contraindications"
   },
   {
    "q": "Which drug decreases mortality in congestive heart failure?",
@@ -420,7 +438,8 @@
      "t": "Atenolol",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Labetalol & carvedilol"
   },
   {
    "q": "Which is the correct description of labetalol and carvedilol?",
@@ -442,7 +461,8 @@
      "t": "Irreversible alpha blockers",
      "e": "Wrong. Phenoxybenzamine."
     }
-   ]
+   ],
+   "topic": "Labetalol & carvedilol"
   }
  ]
 }

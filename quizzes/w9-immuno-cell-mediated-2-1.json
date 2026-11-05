@@ -24,7 +24,8 @@
      "t": "Recognition, activation, clonal expansion, differentiation, effector function, contraction, memory",
      "e": "Correct. Seven phases."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "Which cells are the most efficient stimulators of naive T cells?",
@@ -46,7 +47,8 @@
      "t": "Dendritic cells",
      "e": "Correct. They process and display antigens by MHC."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "What does a T cell do when it recognizes antigen?",
@@ -68,7 +70,8 @@
      "t": "Kills the APC",
      "e": "Wrong. Naive T cells cannot do effector functions."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "Which cytokine is secreted by naive T cells after antigen recognition to drive proliferation?",
@@ -90,7 +93,8 @@
      "t": "IL-2",
      "e": "Correct. Autocrine growth factor."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "What is signal 2 in naive T cell activation?",
@@ -112,7 +116,8 @@
      "t": "CD40L binding CD40",
      "e": "Wrong. Not signal 2 as stated."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "A naive T cell meets antigen on a resting APC lacking costimulators. What happens?",
@@ -134,7 +139,8 @@
      "t": "Immediate memory formation",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "What changes in the APC after exposure to microbes?",
@@ -156,7 +162,8 @@
      "t": "Increased B7 expression and cytokine secretion (e.g., IL-12)",
      "e": "Correct. Via innate immunity."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "What is the term for proliferation of antigen-specific T cells?",
@@ -178,7 +185,8 @@
      "t": "Class switching",
      "e": "Wrong. B cell process."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "What are memory T cells like?",
@@ -200,7 +208,8 @@
      "t": "Unable to respond to repeat exposure",
      "e": "Wrong. They respond rapidly."
     }
-   ]
+   ],
+   "topic": "T-cell activation"
   },
   {
    "q": "After viral infection, by how much do antigen-specific CD8+ cells expand?",
@@ -222,7 +231,8 @@
      "t": "About 1,000,000-fold",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Clonal expansion"
   },
   {
    "q": "Why do CD8+ cells expand more than CD4+ cells?",
@@ -244,7 +254,8 @@
      "t": "CD4+ cells never proliferate",
      "e": "Wrong. They do."
     }
-   ]
+   ],
+   "topic": "Clonal expansion"
   },
   {
    "q": "Which transcription factor is linked to each helper subset: Th1, Th2, Th17, Treg?",
@@ -266,7 +277,8 @@
      "t": "RORc, FOXP3, GATA-3, T-bet",
      "e": "Wrong. Mismatched."
     }
-   ]
+   ],
+   "topic": "CD4 differentiation"
   },
   {
    "q": "Which cytokine drives Th2 differentiation and which drives Th1?",
@@ -288,7 +300,8 @@
      "t": "IL-4; IL-12/IFN-gamma",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "CD4 differentiation"
   },
   {
    "q": "Which subset is associated with tolerance and pregnancy success?",
@@ -310,7 +323,8 @@
      "t": "Th2",
      "e": "Wrong. Extracellular parasites."
     }
-   ]
+   ],
+   "topic": "CD4 differentiation"
   },
   {
    "q": "Which cytokines inhibit Th1 production?",
@@ -332,7 +346,8 @@
      "t": "TNF-alpha",
      "e": "Wrong. Th1 effector."
     }
-   ]
+   ],
+   "topic": "CD4 differentiation"
   },
   {
    "q": "Which Th2 cytokine stimulates IgE and which activates eosinophils?",
@@ -354,7 +369,8 @@
      "t": "IL-12; IL-5",
      "e": "Wrong. IL-12 is from APCs."
     }
-   ]
+   ],
+   "topic": "CD4 differentiation"
   },
   {
    "q": "What do IL-4 and IL-13 do to macrophages?",
@@ -376,7 +392,8 @@
      "t": "Induce perforin release",
      "e": "Wrong. CTL mechanism."
     }
-   ]
+   ],
+   "topic": "CD4 differentiation"
   },
   {
    "q": "How do CD4+ T cells activate macrophages?",
@@ -398,7 +415,8 @@
      "t": "IgE binding to Fc receptors",
      "e": "Wrong. Th2 pathway."
     }
-   ]
+   ],
+   "topic": "CD4 differentiation"
   },
   {
    "q": "What is the correct order of CTL killing steps?",
@@ -420,7 +438,8 @@
      "t": "Apoptosis, activation, exocytosis, recognition",
      "e": "Wrong. Wrong order."
     }
-   ]
+   ],
+   "topic": "CTL killing"
   },
   {
    "q": "In an infected macrophage, which T cell deals with cytoplasmic microbes and why?",
@@ -442,7 +461,8 @@
      "t": "CD4+ T cell; it releases perforin",
      "e": "Wrong. CTL product."
     }
-   ]
+   ],
+   "topic": "CTL killing"
   }
  ]
 }

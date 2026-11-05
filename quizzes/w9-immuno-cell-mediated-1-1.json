@@ -24,7 +24,8 @@
      "t": "T lymphocytes",
      "e": "Correct. CMI is the T-cell arm of adaptive immunity."
     }
-   ]
+   ],
+   "topic": "Cell-mediated immunity basics"
   },
   {
    "q": "Which cells is CMI most effective at removing?",
@@ -46,7 +47,8 @@
      "t": "Virus-infected cells",
      "e": "Correct. Also helps against fungi, protozoa, cancers and intracellular bacteria."
     }
-   ]
+   ],
+   "topic": "Cell-mediated immunity basics"
   },
   {
    "q": "Which of these microbes survives in phagocyte vesicles?",
@@ -68,7 +70,8 @@
      "t": "Rickettsiae",
      "e": "Wrong. Infect non-phagocytic cells."
     }
-   ]
+   ],
+   "topic": "Cell-mediated immunity basics"
   },
   {
    "q": "Which of these microbes infects non-phagocytic cells?",
@@ -90,7 +93,8 @@
      "t": "All viruses, all rickettsiae, P. falciparum and Cryptosporidium parvum",
      "e": "Correct. Stated list."
     }
-   ]
+   ],
+   "topic": "Cell-mediated immunity basics"
   },
   {
    "q": "What limits what T cells can see?",
@@ -112,7 +116,8 @@
      "t": "Lipids on cell surfaces only",
      "e": "Wrong. Not the rule."
     }
-   ]
+   ],
+   "topic": "Cell-mediated immunity basics"
   },
   {
    "q": "Which describes the T cell receptor?",
@@ -134,7 +139,8 @@
      "t": "Three-chain complex binding free antigen",
      "e": "Wrong. Binds peptide-MHC."
     }
-   ]
+   ],
+   "topic": "Cell-mediated immunity basics"
   },
   {
    "q": "What generates the diverse T cell repertoire?",
@@ -156,7 +162,8 @@
      "t": "TCR gene rearrangement (VDJ recombination)",
      "e": "Correct. Clones differ in sequence and specificity."
     }
-   ]
+   ],
+   "topic": "TCR & T-cell selection"
   },
   {
    "q": "Which molecule transduces the signal received by the TCR?",
@@ -178,7 +185,8 @@
      "t": "CD8",
      "e": "Wrong. Co-receptor."
     }
-   ]
+   ],
+   "topic": "TCR & T-cell selection"
   },
   {
    "q": "What is selected during positive selection in the thymus?",
@@ -200,7 +208,8 @@
      "t": "T cells recognizing foreign MHC only",
      "e": "Wrong. Not the criterion."
     }
-   ]
+   ],
+   "topic": "TCR & T-cell selection"
   },
   {
    "q": "What happens to immature lymphocytes that strongly recognize self antigens?",
@@ -222,7 +231,8 @@
      "t": "They migrate to lymph nodes",
      "e": "Wrong. They are eliminated."
     }
-   ]
+   ],
+   "topic": "TCR & T-cell selection"
   },
   {
    "q": "What is the correct order of thymocyte phenotypes?",
@@ -244,7 +254,8 @@
      "t": "DN, SP, DP",
      "e": "Wrong. Wrong order."
     }
-   ]
+   ],
+   "topic": "TCR & T-cell selection"
   },
   {
    "q": "What is the role of CD4+ T cells compared with CD8+ CTLs?",
@@ -266,7 +277,8 @@
      "t": "Both kill via perforin",
      "e": "Wrong. CD8+ CTLs kill."
     }
-   ]
+   ],
+   "topic": "T-cell subsets"
   },
   {
    "q": "Which MHC class restricts CD4+ and which restricts CD8+ T cells?",
@@ -288,7 +300,8 @@
      "t": "CD4: MHC-II; CD8: MHC-I",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "T-cell subsets"
   },
   {
    "q": "Which subset is induced by IL-12 and IL-18 and its main cytokine?",
@@ -310,7 +323,8 @@
      "t": "Treg; IL-10",
      "e": "Wrong. Induced by TGF-beta/retinoic acid."
     }
-   ]
+   ],
+   "topic": "T-cell subsets"
   },
   {
    "q": "Which subset is induced by IL-6 plus TGF-beta?",
@@ -332,7 +346,8 @@
      "t": "TFH",
      "e": "Wrong. IL-6 and IL-21."
     }
-   ]
+   ],
+   "topic": "T-cell subsets"
   },
   {
    "q": "How do CD8+ cytotoxic T cells kill target cells?",
@@ -354,7 +369,8 @@
      "t": "Secrete IgE",
      "e": "Wrong. B cell product."
     }
-   ]
+   ],
+   "topic": "T-cell subsets"
   },
   {
    "q": "What do regulatory T cells do?",
@@ -376,7 +392,8 @@
      "t": "Secrete antibodies",
      "e": "Wrong. Plasma cells."
     }
-   ]
+   ],
+   "topic": "T-cell subsets"
   },
   {
    "q": "Which molecule is a co-stimulatory molecule binding B7 on APCs?",
@@ -398,7 +415,8 @@
      "t": "CD4",
      "e": "Wrong. Co-receptor."
     }
-   ]
+   ],
+   "topic": "Co-stimulation & trafficking"
   },
   {
    "q": "Where is CD40L found and what does it bind?",
@@ -420,7 +438,8 @@
      "t": "On macrophages; CD28",
      "e": "Wrong. Not correct."
     }
-   ]
+   ],
+   "topic": "Co-stimulation & trafficking"
   },
   {
    "q": "Where are IgG plasma cells and IgA plasma cells found?",
@@ -442,7 +461,8 @@
      "t": "Both in thymus",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Co-stimulation & trafficking"
   }
  ]
 }

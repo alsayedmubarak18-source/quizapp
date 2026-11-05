@@ -24,7 +24,8 @@
      "t": "First trimester",
      "e": "Correct. With the exception of HSV, infections during the first trimester have the worst outcome."
     }
-   ]
+   ],
+   "topic": "TORCH overview"
   },
   {
    "q": "A neonate is infected at birth by the herpes virus. Which type is most often responsible, and why?",
@@ -46,7 +47,8 @@
      "t": "HSV-2, because it predominantly causes genital infection",
      "e": "Correct. Newborns usually acquire HSV-2 from the maternal genital tract."
     }
-   ]
+   ],
+   "topic": "TORCH overview"
   },
   {
    "q": "In which situation is rubella infection common, according to the lecture?",
@@ -68,7 +70,8 @@
      "t": "Only in winter and spring",
      "e": "Wrong. Seasonality is mentioned for fifth disease."
     }
-   ]
+   ],
+   "topic": "TORCH overview"
   },
   {
    "q": "Approximately what proportion of all congenital anomalies is attributed to perinatal infections?",
@@ -90,7 +93,8 @@
      "t": "2% to 3%",
      "e": "Correct. About 2% to 3% of congenital anomalies are attributed to perinatal infections."
     }
-   ]
+   ],
+   "topic": "TORCH overview"
   },
   {
    "q": "Which list contains only the 'Other' infections named under TORCH in this lecture?",
@@ -112,7 +116,8 @@
      "t": "Syphilis, VZV, rubella, HIV",
      "e": "Wrong. Rubella is the R of TORCH."
     }
-   ]
+   ],
+   "topic": "TORCH overview"
   },
   {
    "q": "Which virus is NOT listed among the other viruses now known to cause congenital infections?",
@@ -134,7 +139,8 @@
      "t": "Adenovirus",
      "e": "Wrong. It is listed."
     }
-   ]
+   ],
+   "topic": "TORCH overview"
   },
   {
    "q": "A mother with untreated syphilis delivers a baby who is asymptomatic at birth. Within what period can symptoms appear?",
@@ -156,7 +162,8 @@
      "t": "At any time during the first two years of life",
      "e": "Correct. Infants are often asymptomatic at birth, with symptoms developing during the first two years."
     }
-   ]
+   ],
+   "topic": "Congenital syphilis"
   },
   {
    "q": "Which description fits Treponema pallidum?",
@@ -178,7 +185,8 @@
      "t": "Single-stranded DNA virus infecting erythroid progenitors",
      "e": "Wrong. This describes parvovirus B19."
     }
-   ]
+   ],
+   "topic": "Congenital syphilis"
   },
   {
    "q": "An infant has mucopurulent rhinitis, desquamating maculopapular skin lesions, hepatosplenomegaly and jaundice. What is the most likely diagnosis?",
@@ -200,7 +208,8 @@
      "t": "Congenital VZV syndrome",
      "e": "Wrong. This has skin lesions with cataracts and neurological defects."
     }
-   ]
+   ],
+   "topic": "Congenital syphilis"
   },
   {
    "q": "What is the treatment of choice for congenital syphilis, and the main infection-control measure?",
@@ -222,7 +231,8 @@
      "t": "Supportive care only; good hand hygiene",
      "e": "Wrong. Syphilis is treated with antibiotics."
     }
-   ]
+   ],
+   "topic": "Congenital syphilis"
   },
   {
    "q": "Which are recognized complications of congenital syphilis?",
@@ -244,7 +254,8 @@
      "t": "Cataracts, cerebellar atrophy and cutaneous scarring",
      "e": "Wrong. These are features of congenital VZV syndrome."
     }
-   ]
+   ],
+   "topic": "Congenital syphilis"
   },
   {
    "q": "A pregnant woman has a 'slapped cheek' rash with swelling and redness on her arms and legs. Which agent is responsible and which cells does it infect?",
@@ -266,7 +277,8 @@
      "t": "Varicella-zoster virus; dorsal root ganglion cells",
      "e": "Wrong. VZV remains dormant there but does not cause slapped cheek."
     }
-   ]
+   ],
+   "topic": "Fifth disease"
   },
   {
    "q": "What is the main management of congenital fifth disease?",
@@ -288,7 +300,8 @@
      "t": "No specific treatment; most patients recover naturally",
      "e": "Correct. Severe maternal anemia may require blood transfusion."
     }
-   ]
+   ],
+   "topic": "Fifth disease"
   },
   {
    "q": "When is the incidence of fifth disease highest?",
@@ -310,7 +323,8 @@
      "t": "Only in the first month of life",
      "e": "Wrong. It affects people of all ages."
     }
-   ]
+   ],
+   "topic": "Fifth disease"
   },
   {
    "q": "What is the genome and family of varicella-zoster virus?",
@@ -332,7 +346,8 @@
      "t": "Double-stranded DNA; Flaviviridae",
      "e": "Wrong. Flaviviridae are RNA viruses."
     }
-   ]
+   ],
+   "topic": "Congenital VZV"
   },
   {
    "q": "A newborn has skin lesions, cataracts, microcephaly and cerebellar atrophy. The mother had chickenpox in pregnancy. Which treatment reduces fetal transmission if given to the mother?",
@@ -354,7 +369,8 @@
      "t": "Supportive care only",
      "e": "Wrong. Antiviral treatment is available for VZV."
     }
-   ]
+   ],
+   "topic": "Congenital VZV"
   },
   {
    "q": "How can VZV be transmitted?",
@@ -376,7 +392,8 @@
      "t": "Contaminated blood transfusion only",
      "e": "Wrong. Not the described route."
     }
-   ]
+   ],
+   "topic": "Congenital VZV"
   },
   {
    "q": "A newborn from Brazil has microcephaly, seizures and feeding difficulty. What is the causative agent's classification?",
@@ -398,7 +415,8 @@
      "t": "Spirochete bacterium",
      "e": "Wrong. This is Treponema pallidum."
     }
-   ]
+   ],
+   "topic": "Congenital Zika"
   },
   {
    "q": "What is the transmission rate with maternal Zika infection in pregnancy, and what are the main preventive measures?",
@@ -420,7 +438,8 @@
      "t": "2% to 3%; acyclovir",
      "e": "Wrong. Acyclovir is not used for Zika."
     }
-   ]
+   ],
+   "topic": "Congenital Zika"
   },
   {
    "q": "What is the main route of Zika virus transmission to humans?",
@@ -442,7 +461,8 @@
      "t": "Fecal-oral spread",
      "e": "Wrong. Not a route described for Zika."
     }
-   ]
+   ],
+   "topic": "Congenital Zika"
   }
  ]
 }

@@ -24,7 +24,8 @@
      "t": "Follicular cells; C (parafollicular) cells",
      "e": "Correct. Follicular cells make T3/T4, C cells make calcitonin."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone synthesis"
   },
   {
    "q": "Where is thyroid hormone stored?",
@@ -46,7 +47,8 @@
      "t": "In the colloid, bound to thyroglobulin",
      "e": "Correct. Stored extracellularly as thyroglobulin-bound hormone."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone synthesis"
   },
   {
    "q": "Which transporter takes iodide into the follicular cell?",
@@ -68,7 +70,8 @@
      "t": "Thyroid peroxidase",
      "e": "Wrong. An enzyme, not a transporter."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone synthesis"
   },
   {
    "q": "Which channel secretes iodide into the colloid?",
@@ -90,7 +93,8 @@
      "t": "Pendrin",
      "e": "Correct. Pendrin secretes iodide to the colloid."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone synthesis"
   },
   {
    "q": "Which enzyme oxidizes iodide and iodinates thyroglobulin?",
@@ -112,7 +116,8 @@
      "t": "Lysosomal protease",
      "e": "Wrong. Cleaves T3/T4 from Tg."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone synthesis"
   },
   {
    "q": "Which products conjugate to form T3 and T4?",
@@ -134,7 +139,8 @@
      "t": "Thyroglobulin and TBG",
      "e": "Wrong. Not the precursors."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone synthesis"
   },
   {
    "q": "Where are T3 and T4 cleaved from thyroglobulin?",
@@ -156,7 +162,8 @@
      "t": "Lysosomes",
      "e": "Correct. Colloid is endocytosed and cleaved there."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone synthesis"
   },
   {
    "q": "Which enzyme converts T4 to T3?",
@@ -178,7 +185,8 @@
      "t": "Lysosomal protease",
      "e": "Wrong. Cleaves Tg."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone synthesis"
   },
   {
    "q": "In which tissues is O2 consumption NOT increased by thyroid hormone?",
@@ -200,7 +208,8 @@
      "t": "Liver and brain",
      "e": "Wrong. Liver is increased."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone actions"
   },
   {
    "q": "What is the net effect of thyroid hormone on protein metabolism?",
@@ -222,7 +231,8 @@
      "t": "Only synthesis rises",
      "e": "Wrong. Degradation also rises."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone actions"
   },
   {
    "q": "Which cardiovascular receptors does thyroid hormone up-regulate?",
@@ -244,7 +254,8 @@
      "t": "Beta-2 receptors",
      "e": "Wrong. Not the stated receptors."
     }
-   ]
+   ],
+   "topic": "Thyroid hormone actions"
   },
   {
    "q": "Which hypothalamic hormone stimulates TSH and which inhibits it?",
@@ -266,7 +277,8 @@
      "t": "GnRH stimulates; dopamine inhibits",
      "e": "Wrong. GnRH acts on LH/FSH."
     }
-   ]
+   ],
+   "topic": "Regulation & thyroid disorders"
   },
   {
    "q": "Which form of thyroid hormone takes part in negative feedback?",
@@ -288,7 +300,8 @@
      "t": "Free hormone only",
      "e": "Correct. Bound hormone does not feed back."
     }
-   ]
+   ],
+   "topic": "Regulation & thyroid disorders"
   },
   {
    "q": "Excess iodide inhibits thyroid hormone secretion. What is this effect called?",
@@ -310,7 +323,8 @@
      "t": "Pendrin effect",
      "e": "Wrong. Not a named effect."
     }
-   ]
+   ],
+   "topic": "Regulation & thyroid disorders"
   },
   {
    "q": "Which agents inhibit Na+-I- cotransport?",
@@ -332,7 +346,8 @@
      "t": "TSH",
      "e": "Wrong. Stimulates secretion."
     }
-   ]
+   ],
+   "topic": "Regulation & thyroid disorders"
   },
   {
    "q": "Propylthiouracil inhibits which enzyme?",
@@ -354,7 +369,8 @@
      "t": "Pendrin",
      "e": "Wrong. Not a target."
     }
-   ]
+   ],
+   "topic": "Regulation & thyroid disorders"
   },
   {
    "q": "A patient has Graves disease. What are her antibodies and TSH?",
@@ -376,7 +392,8 @@
      "t": "Antibodies against TPO; TSH decreased",
      "e": "Wrong. Not Graves."
     }
-   ]
+   ],
+   "topic": "Regulation & thyroid disorders"
   },
   {
    "q": "What is TSH in primary hypothyroidism?",
@@ -398,7 +415,8 @@
      "t": "Absent",
      "e": "Wrong. Not expected."
     }
-   ]
+   ],
+   "topic": "Fetal hormones"
   },
   {
    "q": "Which hormone is the sole source of thyroid hormone for the fetus in early pregnancy?",
@@ -420,7 +438,8 @@
      "t": "Fetal pituitary TSH",
      "e": "Wrong. Not the source."
     }
-   ]
+   ],
+   "topic": "Fetal hormones"
   },
   {
    "q": "Which hormone maintains the corpus luteum for progesterone production?",
@@ -442,7 +461,8 @@
      "t": "Prolactin",
      "e": "Wrong. Not the stated hormone."
     }
-   ]
+   ],
+   "topic": "Fetal hormones"
   }
  ]
 }

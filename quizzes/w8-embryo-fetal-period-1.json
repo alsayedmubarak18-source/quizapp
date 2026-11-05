@@ -24,7 +24,8 @@
      "t": "9th week",
      "e": "Correct. The fetal period runs from the 9th week to birth."
     }
-   ]
+   ],
+   "topic": "Fetal growth"
   },
   {
    "q": "Which pair correctly characterizes the fetal period?",
@@ -46,7 +47,8 @@
      "t": "Maturation of formed tissues and rapid growth",
      "e": "Correct. Organs are already formed; they mature and the fetus grows."
     }
-   ]
+   ],
+   "topic": "Fetal growth"
   },
   {
    "q": "When is most of the fetal length gained, and when is most of the weight gained?",
@@ -68,7 +70,8 @@
      "t": "Both late in pregnancy",
      "e": "Wrong. Length is mainly gained early."
     }
-   ]
+   ],
+   "topic": "Fetal growth"
   },
   {
    "q": "What is the crown-rump length at birth?",
@@ -90,7 +93,8 @@
      "t": "36 cm",
      "e": "Correct. CR length at birth is about 36 cm."
     }
-   ]
+   ],
+   "topic": "Fetal growth"
   },
   {
    "q": "What is the crown-heel length at birth?",
@@ -112,7 +116,8 @@
      "t": "60 cm",
      "e": "Wrong. Too long for a term neonate."
     }
-   ]
+   ],
+   "topic": "Fetal growth"
   },
   {
    "q": "From which month is crown-heel length measured?",
@@ -134,7 +139,8 @@
      "t": "5th month",
      "e": "Wrong. It starts earlier, at the 3rd month."
     }
-   ]
+   ],
+   "topic": "Head size"
   },
   {
    "q": "What is the relative size of the head at the 3rd month?",
@@ -156,7 +162,8 @@
      "t": "One half of the CR length",
      "e": "Correct. At 3 months the head is half the CR length."
     }
-   ]
+   ],
+   "topic": "Head size"
   },
   {
    "q": "What is the head size at the 5th month relative to the crown-heel length?",
@@ -178,7 +185,8 @@
      "t": "One fifth",
      "e": "Wrong. Not a value in the lecture."
     }
-   ]
+   ],
+   "topic": "Head size"
   },
   {
    "q": "What is the head size relative to CH length at birth?",
@@ -200,7 +208,8 @@
      "t": "One sixth",
      "e": "Wrong. Not the stated value."
     }
-   ]
+   ],
+   "topic": "Head size"
   },
   {
    "q": "Why does the head become relatively smaller during the fetal period?",
@@ -222,7 +231,8 @@
      "t": "The brain is formed later than the body",
      "e": "Wrong. This is not the explanation."
     }
-   ]
+   ],
+   "topic": "Growth & weight"
   },
   {
    "q": "What is the approximate fetal weight at the end of the 5th month?",
@@ -244,7 +254,8 @@
      "t": "3500 g",
      "e": "Wrong. This is the weight at birth."
     }
-   ]
+   ],
+   "topic": "Growth & weight"
   },
   {
    "q": "How much weight is gained during the last 2.5 months?",
@@ -266,7 +277,8 @@
      "t": "Two thirds of the full-term weight",
      "e": "Wrong. Too high."
     }
-   ]
+   ],
+   "topic": "Growth & weight"
   },
   {
    "q": "Which external structure develops in the 3rd month?",
@@ -288,7 +300,8 @@
      "t": "External genitalia",
      "e": "Correct. External genitalia develop in the 3rd month."
     }
-   ]
+   ],
+   "topic": "External features"
   },
   {
    "q": "Which feature appears in the 4th and 5th months?",
@@ -310,7 +323,8 @@
      "t": "Subcutaneous fat",
      "e": "Wrong. Fat is laid down in the last 2 months."
     }
-   ]
+   ],
+   "topic": "External features"
   },
   {
    "q": "Until what month is the fetal skin wrinkled?",
@@ -332,7 +346,8 @@
      "t": "End of the 3rd month",
      "e": "Wrong. Too early."
     }
-   ]
+   ],
+   "topic": "External features"
   },
   {
    "q": "What gives the fetus a well-rounded contour in the last 2 months?",
@@ -354,7 +369,8 @@
      "t": "Muscle growth",
      "e": "Wrong. Not the stated reason."
     }
-   ]
+   ],
+   "topic": "External features"
   },
   {
    "q": "The whitish fatty substance covering the skin at labor is derived mainly from which structure?",
@@ -376,7 +392,8 @@
      "t": "Lanugo follicles",
      "e": "Wrong. Hair follicles are not the source."
     }
-   ]
+   ],
+   "topic": "Fetal movements & birth"
   },
   {
    "q": "At which time do the testes normally descend into the scrotum?",
@@ -398,7 +415,8 @@
      "t": "In the 6th month",
      "e": "Wrong. Too early."
     }
-   ]
+   ],
+   "topic": "Fetal movements & birth"
   },
   {
    "q": "When does a primigravida first recognize fetal movements?",
@@ -420,7 +438,8 @@
      "t": "6th month",
      "e": "Wrong. Recognition occurs earlier."
     }
-   ]
+   ],
+   "topic": "Fetal movements & birth"
   },
   {
    "q": "When do multigravida women recognize fetal movements, and when does the first movement occur?",
@@ -442,7 +461,8 @@
      "t": "4th month; 5th month",
      "e": "Wrong. The first movement is not later than recognition."
     }
-   ]
+   ],
+   "topic": "Fetal movements & birth"
   }
  ]
 }

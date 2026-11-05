@@ -24,7 +24,8 @@
      "t": "Intermediate mesoderm",
      "e": "Wrong. It forms the paired urogenital organs."
     }
-   ]
+   ],
+   "topic": "Neural plate induction"
   },
   {
    "q": "A newborn has lumbosacral spina bifida with myelomeningocele. His mother took valproate during early pregnancy. Which structure failed to close, and on which day does it normally close?",
@@ -46,7 +47,8 @@
      "t": "Caudal neuropore, day 28",
      "e": "Correct. A lumbosacral defect means the posterior (caudal) neuropore, which closes on day 28."
     }
-   ]
+   ],
+   "topic": "Neural tube closure"
   },
   {
    "q": "A woman takes a known teratogen in the 5th week of pregnancy. During which period is the embryo most susceptible to major structural malformations?",
@@ -68,7 +70,8 @@
      "t": "3rd to 12th week",
      "e": "Wrong. Organogenesis ends with the embryonic period at the end of week 8."
     }
-   ]
+   ],
+   "topic": "Teratogenic period"
   },
   {
    "q": "A 2-year-old child has severe chronic constipation and a megacolon. Biopsy shows absence of ganglion cells in the distal colon. These ganglion cells normally arise from which embryonic cell population?",
@@ -90,7 +93,8 @@
      "t": "Endoderm of the gut",
      "e": "Wrong. Endoderm forms the epithelial lining of the gut."
     }
-   ]
+   ],
+   "topic": "Germ layer derivatives"
   },
   {
    "q": "A 40-year-old man has episodic headache, sweating and paroxysmal hypertension. Imaging shows a pheochromocytoma. Which row correctly gives the part of the suprarenal gland and its embryonic origin?",
@@ -112,7 +116,8 @@
      "t": "Cortex, surface ectoderm",
      "e": "Wrong. Surface ectoderm forms epidermis and related structures, not the adrenal."
     }
-   ]
+   ],
+   "topic": "Germ layer derivatives"
   },
   {
    "q": "A newborn is cyanotic and echocardiography shows a single arterial trunk (persistent truncus arteriosus) due to failure of the conotruncal septum to form. Which cells contribute to this septum?",
@@ -134,7 +139,8 @@
      "t": "Intermediate mesoderm cells",
      "e": "Wrong. They form the urogenital organs."
     }
-   ]
+   ],
+   "topic": "Germ layer derivatives"
   },
   {
    "q": "Which of the following meningeal layers is derived from neural crest spongioblasts?",
@@ -156,7 +162,8 @@
      "t": "Pia and arachnoid",
      "e": "Correct. The leptomeninges (pia and arachnoid) come from the neural crest."
     }
-   ]
+   ],
+   "topic": "Germ layer derivatives"
   },
   {
    "q": "A 35-year-old woman has a midline neck mass that moves with swallowing. Which of the following glands has a parenchyma of endodermal origin?",
@@ -178,7 +185,8 @@
      "t": "Mammary gland",
      "e": "Wrong. It is ectodermal, like other skin appendages."
     }
-   ]
+   ],
+   "topic": "Germ layer derivatives"
   },
   {
    "q": "A patient with chronic otitis media has infection of the tympanic cavity and Eustachian tube. The epithelium lining these structures arises from which germ layer?",
@@ -200,7 +208,8 @@
      "t": "Paraxial mesoderm",
      "e": "Wrong. It forms bone, muscle and dermis, not an epithelial lining."
     }
-   ]
+   ],
+   "topic": "Germ layer derivatives"
   },
   {
    "q": "An embryo is examined on day 20 of development. Where does the first pair of somites appear?",
@@ -222,7 +231,8 @@
      "t": "Occipital region",
      "e": "Correct. Somites start in the occipital region at about day 20 and form craniocaudally (7 somitomeres lie in the head)."
     }
-   ]
+   ],
+   "topic": "Somites"
   },
   {
    "q": "An aborted embryo in the 4th week of development is examined. Which parameter best estimates its age?",
@@ -244,7 +254,8 @@
      "t": "Head circumference",
      "e": "Wrong. Not the best estimate for age in the 4th week."
     }
-   ]
+   ],
+   "topic": "Somites"
   },
   {
    "q": "An infant has multiple hemivertebrae. Defective differentiation of which part of the somite is the cause?",
@@ -266,7 +277,8 @@
      "t": "Dermomyotome",
      "e": "Wrong. It is the dorsolateral part that gives the dermatome and myotome, not vertebrae."
     }
-   ]
+   ],
+   "topic": "Somites"
   },
   {
    "q": "A fetus has bilateral renal agenesis and absent gonads. Defective development of which part of the intraembryonic mesoderm is the most likely cause?",
@@ -288,7 +300,8 @@
      "t": "Visceral layer of lateral plate",
      "e": "Wrong. It forms cardiac and visceral smooth muscle."
     }
-   ]
+   ],
+   "topic": "Mesoderm derivatives"
   },
   {
    "q": "A child has a defect in the muscular wall of the gut and in the visceral serous membrane covering it. Which embryonic tissue is responsible?",
@@ -310,7 +323,8 @@
      "t": "Visceral (splanchnic) layer of lateral plate mesoderm",
      "e": "Correct. It gives cardiac muscle, smooth muscle of gut and respiratory organs, and visceral serous layers."
     }
-   ]
+   ],
+   "topic": "Mesoderm derivatives"
   },
   {
    "q": "Rapid growth of which structures causes the lateral folds of the embryonic disc in the 4th week?",
@@ -332,7 +346,8 @@
      "t": "Yolk sac",
      "e": "Wrong. The yolk sac is divided by folding; it does not cause it."
     }
-   ]
+   ],
+   "topic": "Embryonic folding"
   },
   {
    "q": "After folding of the embryonic disc, the amnio-ectodermal junction shifts to the ventral surface of the embryo. What ring does it form?",
@@ -354,7 +369,8 @@
      "t": "Umbilical vein ring",
      "e": "Wrong. Not a structure formed by the amnio-ectodermal junction."
     }
-   ]
+   ],
+   "topic": "Embryonic folding"
   },
   {
    "q": "Which structure extends as a diverticulum from the hindgut into the connecting stalk?",
@@ -376,7 +392,8 @@
      "t": "Definitive yolk sac",
      "e": "Wrong. The yolk sac is a separate structure."
     }
-   ]
+   ],
+   "topic": "Embryonic folding"
   },
   {
    "q": "A 12-year-old boy has painless rectal bleeding. A technetium scan shows ectopic gastric mucosa in an ileal outpouching about 60 cm from the ileocecal valve. Persistence of which embryonic structure causes this?",
@@ -398,7 +415,8 @@
      "t": "Vitelline duct",
      "e": "Correct. Persistence of the middle part of the vitelline duct gives Meckel's diverticulum."
     }
-   ]
+   ],
+   "topic": "Vitelline duct"
   },
   {
    "q": "At the beginning of the 5th week an embryo shows limb buds. The upper limb buds appear opposite which segments?",
@@ -420,7 +438,8 @@
      "t": "C4 to T3",
      "e": "Wrong. The segments are C4 to T1."
     }
-   ]
+   ],
+   "topic": "Embryonic period landmarks"
   },
   {
    "q": "At the end of the embryonic period (end of the 8th week), the crown-rump (CR) length of the embryo is about:",
@@ -442,7 +461,8 @@
      "t": "10 cm",
      "e": "Wrong. This is closer to the fetus at 3 months."
     }
-   ]
+   ],
+   "topic": "Embryonic period landmarks"
   }
  ]
 }

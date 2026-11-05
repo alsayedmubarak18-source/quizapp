@@ -2,11 +2,12 @@
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 const $app = document.getElementById('app');
 
-let store, CURRICULUM, GAMES, LINKS, INSTRUCTOR;
+let store, CURRICULUM, GAMES, LINKS, INSTRUCTOR, PG;
 try {
   ({ store } = await import('./store.js'));
   ({ CURRICULUM, GAMES, LINKS } = await import('./curriculum.js'));
   ({ INSTRUCTOR } = await import('./instructor.js'));
+  PG = await import('./progress.js');
 } catch (e) {
   $app.innerHTML = `<div class="card"><h2>تعذر الاتصال بـ Firebase</h2>
     <p>راجع إعدادات <b>config.js</b>، وتأكد من تفعيل Anonymous و Email/Password في Authentication.</p>
@@ -32,13 +33,17 @@ const fmtTime = ms => { const s = Math.round(ms / 1000); return `${Math.floor(s 
 const langOf = z => (z && z.lang === 'en' ? 'en' : 'ar');
 const cmpScore = (a, b) => (b.score - a.score) || ((a.timeMs || 0) - (b.timeMs || 0)) || ((a.at || 0) - (b.at || 0));
 
-let S = { view: 'home', quizzes: [], name: localStorage.getItem(NAME_KEY) || '', shuffle: false, err: '', rows: [], installEv: null, confirmDel: null };
+const PROFILE = PG.getProfile();
+let S = { view: 'home', quizzes: [], profile: PROFILE, att: PROFILE ? PG.loadAttempts(PROFILE.key) : [], name: (PROFILE && PROFILE.name) || localStorage.getItem(NAME_KEY) || '', shuffle: false, err: '', rows: [], installEv: null, confirmDel: null };
 let subs = [];
 const clearSubs = () => { subs.forEach(f => { try { f(); } catch (e) {} }); subs = []; };
 const startTick = fn => { const id = setInterval(fn, 250); subs.push(() => clearInterval(id)); };
 function go(view, extra) { clearSubs(); S.err = ''; Object.assign(S, { view }, extra || {}); render(); window.scrollTo(0, 0); }
 const views = {};
-function render() { (views[S.view] || views.home)(); }
+function render() {
+  const gate = !S.profile && !store.teacher && S.view !== 'teacher';
+  (views[gate ? 'login' : S.view] || views.home)();
+}
 const typing = () => { const a = document.activeElement; return a && (a.tagName === 'INPUT' || a.tagName === 'TEXTAREA' || a.tagName === 'SELECT'); };
 
 store.watchQuizzes(list => {
@@ -75,6 +80,144 @@ function lbHtml(rows, { me, limit = 10, mode = 'solo' } = {}) {
     ${mode === 'solo' ? `<span class="tm">${fmtTime(r.timeMs || 0)}</span><span class="sc">${r.score}/${r.total}</span>` : `<span class="sc">${r.score || 0}</span>`}</li>`).join('')}</ol>`;
 }
 
+
+/* ---------- student login + progress ---------- */
+const metaOf = (quizId, qi) => {
+  const z = S.quizzes.find(x => x.id === quizId); if (!z) return null;
+  const q = z.questions[qi]; if (!q) return null;
+  const f = findLec(quizLec(z));
+  return { subject: f ? f.it.s : 'Other', lec: f ? f.it.k : 'other', lecName: f ? f.it.c : z.title, week: f ? f.w.n : 0, block: f ? f.b.n : 0, topic: q.topic || (f ? f.it.c : z.title), text: q.q, title: z.title };
+};
+const stats = () => PG.analyse(S.att, metaOf);
+const pc = x => Math.round(x * 100);
+const barHtml = (n, c) => { const a = n ? c / n : 0; return `<div class="pbar ${PG.pctColor(a)}"><i style="width:${pc(a)}%"></i></div><span class="pv" dir="ltr">${pc(a)}% <small>(${c}/${n})</small></span>`; };
+
+views.login = () => {
+  $app.innerHTML = `
+    <header class="top"><div><h1>🩺 كويزاتي</h1><p class="sub">${esc(INSTRUCTOR.course)}</p></div></header>
+    <section class="card">
+      <h2 style="margin-top:0">أهلاً بيك 👋</h2>
+      <p class="sub">اكتب اسمك وكود الكورس. تقدمك هيتسجل باسمك وتقدر تكمل من أي جهاز بنفس الاسم.</p>
+      <label class="hint" for="lname">اسمك</label>
+      <input class="inp" id="lname" maxlength="30" value="${esc(S.name)}" placeholder="الاسم الثلاثي" autocomplete="name">
+      <label class="hint" for="lcode" style="display:block;margin-top:10px">كود الكورس</label>
+      <input class="inp" id="lcode" dir="ltr" maxlength="20" placeholder="CODE" autocapitalize="characters" autocomplete="off">
+      <p class="msg err">${esc(S.err)}</p>
+      <button class="btn primary wide" data-act="slogin">دخول</button>
+      <p class="hint" style="margin-top:14px">كود الكورس بتاخده من قناة التليجرام.</p>
+    </section>
+    <p class="center"><button class="link" data-act="go" data-v="teacher">دخول المدرّس</button></p>`;
+};
+async function studentLogin() {
+  const name = (document.getElementById('lname').value || '').trim().replace(/\s+/g, ' ');
+  const code = (document.getElementById('lcode').value || '').trim().toLowerCase();
+  S.name = name;
+  if (name.length < 3) { S.err = 'اكتب اسمك (3 حروف على الأقل).'; render(); return; }
+  if (code !== String(INSTRUCTOR.courseCode || '').toLowerCase()) { S.err = 'كود الكورس غير صحيح.'; render(); return; }
+  S.profile = PG.setProfile(name); S.name = S.profile.name; localStorage.setItem(NAME_KEY, S.name);
+  S.att = PG.loadAttempts(S.profile.key); S.err = '';
+  go('home');
+  try { const remote = await store.fetchAttemptsByKey(S.profile.key); S.att = PG.mergeAttempts(S.profile.key, remote); if (S.view === 'home' || S.view === 'perf') render(); } catch (e) { console.warn('sync', e); }
+}
+
+const todayPlan = () => {
+  const st = stats(), items = [];
+  if (st.mistakes.length) items.push({ act: 'review', ico: '🔁', t: 'راجع غلطاتك', d: `${st.mistakes.length} سؤال غلطت فيهم آخر مرة` });
+  st.weak.slice(0, 2).forEach(w => items.push({ act: 'practice', ico: '🎯', t: `تدرّب على: ${w.topic}`, d: `${w.subject} · دقتك ${pc(w.c / w.n)}٪`, subject: w.subject, topic: w.topic }));
+  const doneIds = new Set(S.att.map(a => a.quizId));
+  const nextQ = orderedQuizzes().find(z => !doneIds.has(z.id));
+  if (nextQ) items.push({ act: 'startq', ico: '🆕', t: 'كويز جديد لسه ما حلّيتوش', d: nextQ.title, id: nextQ.id });
+  return { st, items: items.slice(0, 4) };
+};
+const orderedQuizzes = () => {
+  const out = [];
+  CURRICULUM.forEach(b => b.weeks.forEach(w => w.items.forEach(i => quizzesOf(i.k).forEach(z => out.push(z)))));
+  return out;
+};
+const planHtml = (pl, full) => {
+  const { st, items } = pl;
+  const gate = st.A < PG.MIN_TOTAL ? `<p class="hint">حلّ ${PG.MIN_TOTAL - st.A} سؤال كمان على الأقل عشان نحلل نقاط ضعفك بدقة.</p>` : '';
+  const proj = st.proj ? `<p class="proj">لو رفعت أضعف ${st.proj.topics.length} مواضيع لـ ${pc(PG.TARGET)}%، متوسطك ممكن يتحسن من <b dir="ltr">${pc(st.proj.now)}%</b> إلى حوالي <b dir="ltr">${pc(st.proj.next)}%</b> <small>(تقدير حسابي مش وعد)</small></p>` : '';
+  return `${gate}<div class="list">${items.length ? items.map(it => `
+    <button class="tile plan" data-act="${it.act}" ${it.id ? `data-id="${esc(it.id)}"` : ''} ${it.topic ? `data-subject="${esc(it.subject)}" data-topic="${esc(it.topic)}"` : ''}>
+      ${ico(it.ico, '#e1f4ee')}<div class="tx"><b>${esc(it.t)}</b><span dir="auto">${esc(it.d)}</span></div></button>`).join('') : `<div class="card empty">ابدأ بأي كويز وهنجهز لك خطة مخصصة.</div>`}</div>${full ? proj : ''}`;
+};
+
+function buildPractice(kind, subject, topic) {
+  const st = stats(), bad = new Set(st.mistakes.map(m => m.quizId + '#' + m.qi)), seen = st.qMap;
+  const pool = [];
+  S.quizzes.forEach(z => z.questions.forEach((q, qi) => {
+    const m = metaOf(z.id, qi), id = z.id + '#' + qi;
+    if (kind === 'review' ? bad.has(id) : (m.subject === subject && m.topic === topic)) {
+      const o = seen.get(id);
+      pool.push({ ...q, ref: [z.id, qi], pr: bad.has(id) ? 0 : (o ? 2 : 1), lang: z.lang });
+    }
+  }));
+  pool.sort((a, b) => a.pr - b.pr || Math.random() - 0.5);
+  const qs = pool.slice(0, kind === 'review' ? 20 : 12);
+  if (!qs.length) return null;
+  const en = qs.filter(q => q.lang === 'en').length * 2 >= qs.length;
+  return { id: 'custom-' + kind + '-' + rid(5), custom: true, title: kind === 'review' ? 'Review your mistakes' : 'Practice: ' + topic, lang: en ? 'en' : 'ar', questions: qs.map(({ pr, lang, ...q }) => q) };
+}
+
+views.perf = () => {
+  const pl = todayPlan(), st = pl.st, sk = PG.streak(S.att);
+  const total = S.quizzes.reduce((n, z) => n + z.questions.length, 0);
+  const bySubj = [...st.subj.values()].sort((a, b) => a.c / a.n - b.c / b.n);
+  const lecBy = {}; [...st.lec.values()].forEach(l => (lecBy[l.subject] = lecBy[l.subject] || []).push(l));
+  const topBy = {}; [...st.topic.values()].forEach(t => (topBy[t.subject] = topBy[t.subject] || []).push(t));
+  const byBlock = {}; [...st.lec.values()].forEach(l => { const b = byBlock[l.block] = byBlock[l.block] || { n: 0, c: 0 }; b.n += l.n; b.c += l.c; });
+  $app.innerHTML = `${backBar('Performance')}
+    <div class="stats">
+      <div class="stat"><b dir="ltr">${st.A ? pc(st.C / st.A) + '%' : '-'}</b><span>دقتك الكلية</span></div>
+      <div class="stat"><b dir="ltr">${st.A}</b><span>إجابة</span></div>
+      <div class="stat"><b dir="ltr">${st.unique}/${total}</b><span>أسئلة مختلفة</span></div>
+      <div class="stat"><b>🔥 ${sk}</b><span>أيام متتالية</span></div>
+    </div>
+    <h3 class="lbt">Study plan · مطلوب منك النهاردة</h3>${planHtml(pl, true)}
+    ${st.A ? `<h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">Block ${b}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>
+    <h3 class="lbt">By subject · مرتبة من الأضعف</h3>
+    <div class="list">${bySubj.map(s => `<details class="card pdet"><summary><b dir="ltr">${esc(s.subject)}</b>${barHtml(s.n, s.c)}</summary>
+      <h4 dir="ltr">Lectures</h4>${(lecBy[s.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(l => `<div class="prow sm"><span dir="ltr">W${l.week} · ${esc(l.name)}</span>${barHtml(l.n, l.c)}</div>`).join('')}
+      <h4 dir="ltr">Topics</h4>${(topBy[s.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(t => `<div class="prow sm"><span dir="ltr">${esc(t.topic)}</span>${barHtml(t.n, t.c)}${t.n >= 1 && t.c / t.n < PG.TARGET ? `<button class="btn small" data-act="practice" data-subject="${esc(t.subject)}" data-topic="${esc(t.topic)}">تدرّب</button>` : ''}</div>`).join('')}
+    </details>`).join('')}</div>` : `<div class="card empty">لسه ما حلّيتش أي كويز. بعد أول كويز هتظهر نتايجك هنا.</div>`}
+    <p class="hint">الدقة محسوبة من كل إجاباتك. اللون: أحمر أقل من 60%، أصفر 60-80%، أخضر فوق 80%.</p>
+    <div class="row"><button class="btn" data-act="slogout">تغيير الطالب</button></div>`;
+};
+
+/* ---------- teacher dashboard ---------- */
+views.tdash = () => {
+  const rows = S.tatt || [];
+  const byKey = new Map();
+  rows.forEach(a => { const k = a.key; let o = byKey.get(k); if (!o) { o = { name: a.name, att: [], n: 0, c: 0, last: 0 }; byKey.set(k, o); } o.att.push(a); o.last = Math.max(o.last, a.at); o.name = a.name || o.name; (a.ans || []).forEach(x => { o.n++; if (x[2]) o.c++; }); });
+  const studs = [...byKey.values()].sort((a, b) => b.last - a.last);
+  const now = Date.now(), days = t => Math.floor((now - t) / 864e5);
+  const allN = studs.reduce((s, x) => s + x.n, 0), allC = studs.reduce((s, x) => s + x.c, 0);
+  const qs = new Map();
+  rows.forEach(a => (a.ans || []).forEach(([qz, qi, ok]) => { const k = qz + '#' + qi; const o = qs.get(k) || { qz, qi, n: 0, c: 0 }; o.n++; if (ok) o.c++; qs.set(k, o); }));
+  const hard = [...qs.values()].filter(o => o.n >= 5).sort((a, b) => a.c / a.n - b.c / b.n).slice(0, 10);
+  $app.innerHTML = `${backBar('لوحة المتابعة', 'teacher')}
+    ${S.derr ? `<p class="msg err">${esc(S.derr)}</p>` : ''}
+    <div class="stats"><div class="stat"><b>${studs.length}</b><span>طالب</span></div>
+      <div class="stat"><b dir="ltr">${allN ? pc(allC / allN) + '%' : '-'}</b><span>متوسط الكورس</span></div>
+      <div class="stat"><b>${studs.filter(x => days(x.last) >= 5).length}</b><span>غايبين 5 أيام+</span></div></div>
+    <div class="row"><button class="btn" data-act="csv">⬇️ تصدير Excel (CSV)</button></div>
+    <h3 class="lbt">الطلاب</h3>
+    <div class="list">${studs.length ? studs.map(x => { const d = days(x.last), a = x.n ? x.c / x.n : 0; return `<div class="card prow"><b dir="auto">${esc(x.name)}${d >= 5 ? ' ⚠️' : ''}</b>${barHtml(x.n, x.c)}<small>${x.att.length} محاولة · آخر نشاط ${d === 0 ? 'النهاردة' : 'من ' + d + ' يوم'}</small></div>`; }).join('') : '<div class="card empty">لا توجد محاولات بعد.</div>'}</div>
+    <h3 class="lbt">أصعب الأسئلة (5 إجابات+)</h3>
+    <div class="list">${hard.length ? hard.map(o => { const m = metaOf(o.qz, o.qi); return `<div class="card prow"><span dir="auto">${esc(m ? m.text : o.qz + ' #' + (o.qi + 1))}</span><small dir="auto">${esc(m ? m.title + ' · ' + m.topic : '')}</small>${barHtml(o.n, o.c)}</div>`; }).join('') : '<div class="card empty">محتاج بيانات أكتر.</div>'}</div>`;
+};
+function exportCsv() {
+  const rows = S.tatt || [], by = new Map();
+  rows.forEach(a => { const o = by.get(a.key) || { name: a.name, att: 0, n: 0, c: 0, last: 0 }; o.att++; o.last = Math.max(o.last, a.at); (a.ans || []).forEach(x => { o.n++; if (x[2]) o.c++; }); by.set(a.key, o); });
+  const q = v => '"' + String(v).replace(/"/g, '""') + '"';
+  const lines = [['Name', 'Attempts', 'Answers', 'Correct', 'Accuracy %', 'Last active'].map(q).join(',')];
+  by.forEach(o => lines.push([o.name, o.att, o.n, o.c, o.n ? Math.round(o.c / o.n * 100) : 0, new Date(o.last).toISOString().slice(0, 10)].map(q).join(',')));
+  const blob = new Blob(['﻿' + lines.join('\n')], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'students-progress.csv'; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+
 /* ---------- home ---------- */
 const avatar = (cls = '') => INSTRUCTOR.photo
   ? `<img class="avatar ph ${cls}" src="${esc(INSTRUCTOR.photo)}" alt="${esc(INSTRUCTOR.name)}">`
@@ -96,14 +239,22 @@ views.about = () => {
       </div>
     </section>`;
 };
+const homeToday = () => {
+  const pl = todayPlan(), sk = PG.streak(S.att), st = pl.st;
+  return `<section class="card today"><div class="row" style="justify-content:space-between"><b dir="auto">أهلاً ${esc(S.profile.name)}</b><span>🔥 ${sk} ${sk === 1 ? 'يوم' : 'أيام'}</span></div>
+    <p class="sub" style="margin:2px 0 8px">${st.A ? `دقتك الكلية <b dir="ltr">${pc(st.C / st.A)}%</b> من ${st.A} إجابة` : 'ابدأ أول كويز عشان نبدأ نتابع مستواك'}</p>
+    <h4 style="margin:6px 0">مطلوب منك النهاردة</h4>${planHtml({ st, items: pl.items.slice(0, 2) }, false)}</section>`;
+};
 views.home = () => {
   const ios = /iphone|ipad/i.test(navigator.userAgent) && !window.matchMedia('(display-mode: standalone)').matches;
   $app.innerHTML = `
     <header class="top"><div><h1>🩺 كويزاتي</h1><p class="sub">اختبر نفسك وقارن ترتيبك بزملائك</p></div>
       ${store.mode === 'demo' ? '<span class="badge">وضع تجريبي: البيانات على جهازك فقط</span>' : ''}</header>
+    ${S.profile ? homeToday() : ''}
     <button class="tile instr" data-act="go" data-v="about">${avatar()}<div class="tx"><b dir="ltr">${esc(INSTRUCTOR.name)}</b><span dir="ltr">${esc(INSTRUCTOR.title)}</span><span>${esc(INSTRUCTOR.course)}</span></div></button>
     <div class="tiles">
       <button class="tile" data-act="go" data-v="blocks">${ico('📚', '#d5f3ea')}<div class="tx"><b>Semester 1</b><span>كويزات كل محاضرة حسب البلوك والأسبوع</span></div></button>
+      <button class="tile" data-act="go" data-v="perf">${ico('📊', '#dde7ff')}<div class="tx"><b>Performance &amp; Study Plan</b><span>مستواك، نقاط ضعفك، وخطة مذاكرة مخصصة</span></div></button>
       <button class="tile" data-act="go" data-v="quizzes">${ico('📝', '#ffecc9')}<div class="tx"><b>كل الكويزات</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></div></button>
       <button class="tile alt" data-act="go" data-v="teacher">${ico('🧑‍🏫', '#ece0ff')}<div class="tx"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></div></button>
     </div>
@@ -195,7 +346,7 @@ function startSolo(z) {
   const qs = z.questions.map(q => {
     const order = q.options.map((_, i) => i).filter(i => q.options[i].t.trim());
     if (S.shuffle) for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
-    return { q: q.q, options: order.map(i => q.options[i]), correct: order.indexOf(q.correct) };
+    return { q: q.q, options: order.map(i => q.options[i]), correct: order.indexOf(q.correct), ref: q.ref || [z.id, z.questions.indexOf(q)] };
   });
   S.play = { quiz: z, lang: langOf(z), qs, i: 0, answered: null, revealed: new Set(), score: 0, log: [], t0: Date.now() };
   go('play');
@@ -213,8 +364,14 @@ views.play = () => {
 };
 async function finishSolo() {
   const p = S.play, timeMs = Date.now() - p.t0, total = p.qs.length;
-  S.result = { quizId: p.quiz.id, title: p.quiz.title, lang: p.lang, score: p.score, total, timeMs };
+  S.result = { quizId: p.quiz.id, title: p.quiz.title, lang: p.lang, score: p.score, total, timeMs, custom: !!p.quiz.custom };
+  if (S.profile) {
+    const at = { key: S.profile.key, name: S.profile.name, at: Date.now(), quizId: p.quiz.id, custom: !!p.quiz.custom, score: p.score, total, timeMs, ans: p.log.map(x => [x.ref[0], x.ref[1], x.ok ? 1 : 0]) };
+    S.att = PG.addAttempt(S.profile.key, at);
+    store.saveAttempt(at).catch(e => console.warn('attempt sync', e));
+  }
   go('result', { rows: [] });
+  if (p.quiz.custom) return;
   subs.push(store.watchScores(p.quiz.id, rows => { S.rows = rows; if (S.view === 'result') render(); }));
   try {
     const old = await store.getMyScore(p.quiz.id);
@@ -229,13 +386,13 @@ views.result = () => {
   $app.innerHTML = `
     <div class="card score"><p class="sub" dir="auto">${esc(r.title)}</p><div class="big" dir="ltr">${r.score} / ${r.total}</div>
       <p style="margin:4px 0 0;font-weight:600">${pct}% | ${esc(msg)} | ${fmtTime(r.timeMs)}</p></div>
-    <div class="card rankbox">${idx >= 0 ? `<p class="hint">ترتيبك بين من حلّوا الكويز</p><div class="big">المركز ${idx + 1} من ${rows.length}</div>` : `<p class="hint">جاري حساب ترتيبك…</p>`}</div>
+    ${r.custom ? '' : `<div class="card rankbox">${idx >= 0 ? `<p class="hint">ترتيبك بين من حلّوا الكويز</p><div class="big">المركز ${idx + 1} من ${rows.length}</div>` : `<p class="hint">جاري حساب ترتيبك…</p>`}</div>`}
     ${S.err ? `<p class="msg err">${esc(S.err)}</p>` : ''}
-    <h3 class="lbt">لوحة الصدارة</h3>${lbHtml(rows, { me: store.uid, limit: 10 })}
+    ${r.custom ? '' : `<h3 class="lbt">لوحة الصدارة</h3>${lbHtml(rows, { me: store.uid, limit: 10 })}`}
     <h3 class="lbt">مراجعة إجاباتك</h3>
     <div dir="${L.dir}"><ul class="rev">${p.log.map((x, i) => `<li class="${x.ok ? 'y' : 'n'}"><span class="ic">${x.ok ? '✓' : '✗'}</span>
       <div>${i + 1}. ${esc(x.q)}<small>${L.correctIs}${esc(x.correct)}</small></div></li>`).join('')}</ul></div>
-    <div class="row"><button class="btn primary" data-act="again">إعادة الكويز</button><button class="btn" data-act="go" data-v="home">الرئيسية</button></div>`;
+    <div class="row"><button class="btn primary" data-act="again">إعادة الكويز</button>${S.profile ? '<button class="btn" data-act="go" data-v="perf">📊 تقدمك</button>' : ''}<button class="btn" data-act="go" data-v="home">الرئيسية</button></div>`;
 };
 
 views.board = () => {
@@ -354,6 +511,7 @@ views.teacher = () => {
   $app.innerHTML = `${backBar('لوحة المدرّس')}
     <div class="row"><button class="btn primary" data-act="new">+ كويز جديد</button>
       <button class="btn" data-act="loadready">تحميل الكويزات الجاهزة</button>
+      <button class="btn" data-act="tdash">📈 لوحة المتابعة</button>
       ${S.quizzes.length ? (S.confirmAll ? '<button class="btn danger" data-act="delall">تأكيد: حذف كل الكويزات</button>' : '<button class="btn" data-act="askall">حذف كل الكويزات</button>') : ''}
       <button class="btn" data-act="logout">خروج</button></div>
     <p class="msg ${S.err ? 'err' : ''}">${esc(S.err || S.info || '')}</p>
@@ -404,7 +562,7 @@ function normalizeQuiz(o) {
   if (!o || !o.title || !Array.isArray(o.questions) || !o.questions.length) throw new Error('bad');
   return {
     title: String(o.title), lang: o.lang === 'en' ? 'en' : 'ar', lec: o.lec ? String(o.lec) : '',
-    questions: o.questions.map(q => ({ q: String(q.q || ''), correct: +q.correct || 0, options: (q.options || []).map(x => ({ t: String(x.t || ''), e: String(x.e || '') })) }))
+    questions: o.questions.map(q => ({ q: String(q.q || ''), ...(q.topic ? { topic: String(q.topic) } : {}), correct: +q.correct || 0, options: (q.options || []).map(x => ({ t: String(x.t || ''), e: String(x.e || '') })) }))
   };
 }
 
@@ -528,7 +686,7 @@ $app.addEventListener('click', async e => {
       if (p.answered === null) {
         p.answered = oi; p.revealed.add(oi); p.revealed.add(q.correct);
         const ok = oi === q.correct; if (ok) p.score++;
-        p.log.push({ q: q.q, ok, correct: q.options[q.correct].t });
+        p.log.push({ q: q.q, ok, correct: q.options[q.correct].t, ref: q.ref });
       } else p.revealed.add(oi);
       render(); break; }
     case 'next': {
@@ -537,6 +695,18 @@ $app.addEventListener('click', async e => {
       break; }
     case 'again': startSolo(S.quizzes.find(z => z.id === S.play.quiz.id) || S.play.quiz); break;
     case 'quit': go(S.ret || 'quizzes'); break;
+    case 'slogin': await studentLogin(); break;
+    case 'slogout': PG.clearProfile(); S.profile = null; S.att = []; S.name = ''; go('home'); break;
+    case 'startq': { const z = S.quizzes.find(x => x.id === id); if (z) { S.ret = 'perf'; startSolo(z); } break; }
+    case 'practice': case 'review': {
+      const z = buildPractice(act, b.dataset.subject, b.dataset.topic);
+      if (!z) { S.err = 'لا توجد أسئلة كافية لهذا الموضوع بعد.'; render(); break; }
+      S.ret = 'perf'; startSolo(z); break; }
+    case 'tdash':
+      go('tdash', { tatt: [], derr: '' });
+      subs.push(store.watchAttempts(r => { S.tatt = r; if (S.view === 'tdash') render(); }, e => { console.error(e); S.derr = 'تعذر قراءة المحاولات. انشر قواعد Firestore الجديدة من ملف firestore.rules.'; if (S.view === 'tdash') render(); }));
+      break;
+    case 'csv': exportCsv(); break;
     case 'joingame': joinGame(); break;
     case 'lpick': livePick(oi); break;
     case 'lshow': {

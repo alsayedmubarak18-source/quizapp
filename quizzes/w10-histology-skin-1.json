@@ -24,7 +24,8 @@
      "t": "Epidermis: ectoderm; dermis: mesoderm",
      "e": "Correct. Surface epithelium versus connective tissue."
     }
-   ]
+   ],
+   "topic": "Skin structure"
   },
   {
    "q": "Which statement about the hypodermis is correct?",
@@ -46,7 +47,8 @@
      "t": "It is loose connective tissue plus fat and is not part of the skin",
      "e": "Correct. Connects skin to underlying structures."
     }
-   ]
+   ],
+   "topic": "Skin structure"
   },
   {
    "q": "What is the basis for classifying skin into thick and thin?",
@@ -68,7 +70,8 @@
      "t": "Presence of sweat glands",
      "e": "Wrong. Not the basis."
     }
-   ]
+   ],
+   "topic": "Skin structure"
   },
   {
    "q": "Which feature is characteristic of thick skin?",
@@ -90,7 +93,8 @@
      "t": "Many sweat glands with no hair follicles or sebaceous glands",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Skin structure"
   },
   {
    "q": "What is the correct order of epidermal layers from deep to superficial in thick skin?",
@@ -112,7 +116,8 @@
      "t": "Basale, spinosum, lucidum, granulosum, corneum",
      "e": "Wrong. Wrong order."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "Which two layers form the Malpighian layer?",
@@ -134,7 +139,8 @@
      "t": "Stratum lucidum and stratum corneum",
      "e": "Wrong. Superficial layers."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "What are the percentage and name of the main epidermal cells?",
@@ -156,7 +162,8 @@
      "t": "Keratinocytes, 85%",
      "e": "Correct. Others: melanocytes, Langerhans and Merkel cells."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "Which junction fixes basal cells to the basement membrane?",
@@ -178,7 +185,8 @@
      "t": "Gap junctions",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "What forms the spiny appearance of the stratum spinosum?",
@@ -200,7 +208,8 @@
      "t": "Melanosomes",
      "e": "Wrong. Pigment granules."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "Which non-keratinocyte cell is located mainly in the stratum spinosum?",
@@ -222,7 +231,8 @@
      "t": "Fibroblast",
      "e": "Wrong. Dermal cell."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "What causes the intense basophilia of the stratum granulosum?",
@@ -244,7 +254,8 @@
      "t": "Tonofilaments",
      "e": "Wrong. Not the cause."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "What do membrane-coating granules contain and what is their function?",
@@ -266,7 +277,8 @@
      "t": "Glycogen; energy store",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "Which layer is present only in thick skin?",
@@ -288,7 +300,8 @@
      "t": "Stratum lucidum",
      "e": "Correct. Thin, clear, acidophilic."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "Which layers are basophilic and which are acidophilic?",
@@ -310,7 +323,8 @@
      "t": "All layers are acidophilic",
      "e": "Wrong. Not true."
     }
-   ]
+   ],
+   "topic": "Epidermal layers"
   },
   {
    "q": "How long does a cell take to move from the basal layer to the surface?",
@@ -332,7 +346,8 @@
      "t": "About 1 to 2 days",
      "e": "Wrong. Too fast."
     }
-   ]
+   ],
+   "topic": "Epidermal cells"
   },
   {
    "q": "Which enzyme is needed to form melanin in melanocytes?",
@@ -354,7 +369,8 @@
      "t": "Hyaluronidase",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Epidermal cells"
   },
   {
    "q": "What is the origin of Langerhans cells?",
@@ -376,7 +392,8 @@
      "t": "Neural crest",
      "e": "Wrong. Melanocytes arise from it in general, but the lecture says ectodermal."
     }
-   ]
+   ],
+   "topic": "Epidermal cells"
   },
   {
    "q": "Which cell acts as a sensory receptor in the epidermis?",
@@ -398,7 +415,8 @@
      "t": "Keratinocyte",
      "e": "Wrong. Structural."
     }
-   ]
+   ],
+   "topic": "Epidermal cells"
   },
   {
    "q": "Which description fits the dermal papillary layer compared with the reticular layer?",
@@ -420,7 +438,8 @@
      "t": "Thicker, loose connective tissue",
      "e": "Wrong. Papillary layer is thin."
     }
-   ]
+   ],
+   "topic": "Dermis & lesions"
   },
   {
    "q": "Which dermal skin lesion is defined as loss of epidermis plus at least upper dermis that heals with a scar?",
@@ -442,7 +461,8 @@
      "t": "Fissure",
      "e": "Wrong. Linear crack."
     }
-   ]
+   ],
+   "topic": "Dermis & lesions"
   }
  ]
 }

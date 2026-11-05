@@ -24,7 +24,8 @@
      "t": "Sarcoptes scabiei",
      "e": "Correct. Scabies."
     }
-   ]
+   ],
+   "topic": "Skin patterns"
   },
   {
    "q": "A patient has intense nocturnal itching with thin burrows and papules at finger webs and wrists. Which parasite is responsible?",
@@ -46,7 +47,8 @@
      "t": "Sarcoptes scabiei",
      "e": "Correct. Burrow lies in the stratum corneum."
     }
-   ]
+   ],
+   "topic": "Skin patterns"
   },
   {
    "q": "Which species cause cutaneous leishmaniasis and which cause mucocutaneous disease?",
@@ -68,7 +70,8 @@
      "t": "L. braziliensis; L. major",
      "e": "Wrong. Mucocutaneous is braziliensis only."
     }
-   ]
+   ],
+   "topic": "Skin patterns"
   },
   {
    "q": "A hiker has a serpiginous, intensely itchy track on the foot. Which parasite is responsible?",
@@ -90,7 +93,8 @@
      "t": "Ancylostoma braziliense",
      "e": "Correct. Cutaneous larva migrans."
     }
-   ]
+   ],
+   "topic": "Skin patterns"
   },
   {
    "q": "Rapidly migrating itchy streaks on the buttocks and waist suggest which parasite?",
@@ -112,7 +116,8 @@
      "t": "Enterobius vermicularis",
      "e": "Wrong. Perianal itching."
     }
-   ]
+   ],
+   "topic": "Skin patterns"
   },
   {
    "q": "A patient has lymphoedema and elephantiasis. Which parasite is responsible?",
@@ -134,7 +139,8 @@
      "t": "Sarcoptes scabiei",
      "e": "Wrong. Burrows."
     }
-   ]
+   ],
+   "topic": "Skin patterns"
   },
   {
    "q": "Which sizes are correct for adult Enterobius?",
@@ -156,7 +162,8 @@
      "t": "Female 8-13 mm; male 2-5 mm",
      "e": "Correct. Humans are the only hosts."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "What is autoinfection in Enterobius?",
@@ -178,7 +185,8 @@
      "t": "Ingestion of cysts",
      "e": "Wrong. Not Enterobius."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "What is retroinfection?",
@@ -200,7 +208,8 @@
      "t": "Larvae penetrating bare feet",
      "e": "Wrong. Hookworm-type route."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "When does the female Enterobius lay eggs and where?",
@@ -222,7 +231,8 @@
      "t": "In the appendix",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "Which stage of Enterobius is infective and which diagnostic?",
@@ -244,7 +254,8 @@
      "t": "Adult infective; egg in stool diagnostic",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "Appendicitis in enterobiasis is caused by what?",
@@ -266,7 +277,8 @@
      "t": "Secondary bacterial scratching infection",
      "e": "Wrong. Anal complication."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "Which test is used to diagnose Enterobius and when?",
@@ -288,7 +300,8 @@
      "t": "Graham (Scotch tape) swab in the morning before defecation and washing",
      "e": "Correct. Eggs on the perianal skin."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "What are the shape and size of the Enterobius egg?",
@@ -310,7 +323,8 @@
      "t": "Barrel-shaped with plugs",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "What are the drugs of choice for Enterobius and the schedule?",
@@ -332,7 +346,8 @@
      "t": "Praziquantel single dose",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "Why is the Enterobius dose repeated after 2 weeks?",
@@ -354,7 +369,8 @@
      "t": "To kill larvae in the lungs",
      "e": "Wrong. No lung phase."
     }
-   ]
+   ],
+   "topic": "Enterobius"
   },
   {
    "q": "What is the infective stage of Strongyloides stercoralis?",
@@ -376,7 +392,8 @@
      "t": "Cyst",
      "e": "Wrong. Protozoa."
     }
-   ]
+   ],
+   "topic": "Strongyloides"
   },
   {
    "q": "What is the route of Strongyloides larvae after skin penetration?",
@@ -398,7 +415,8 @@
      "t": "Arteries to the brain",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Strongyloides"
   },
   {
    "q": "What explains persistence of Strongyloides infection for up to 40 years?",
@@ -420,7 +438,8 @@
      "t": "Repeated reinfection only",
      "e": "Wrong. Autoinfection."
     }
-   ]
+   ],
+   "topic": "Strongyloides"
   },
   {
    "q": "A patient on corticosteroids develops severe bloody diarrhea, sepsis and meningitis with larvae in the gut. What is the diagnosis?",
@@ -442,7 +461,8 @@
      "t": "Cutaneous larva migrans",
      "e": "Wrong. Skin only."
     }
-   ]
+   ],
+   "topic": "Strongyloides"
   }
  ]
 }

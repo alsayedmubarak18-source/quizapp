@@ -2,6 +2,7 @@
 export const INSTRUCTOR = {
   name: 'Dr. Alsayed Mubarak',
   initials: 'AM',
+  courseCode: 'RAYAN2', // كود الكورس اللي الطلاب بيدخلوا بيه. غيّره كل ترم.
   title: 'MBBCH · Internal Medicine Resident',
   course: 'كورس الريان - السنة التانية',
   bio: '',        // نبذة قصيرة (اختياري)، فاضية = ما تظهرش

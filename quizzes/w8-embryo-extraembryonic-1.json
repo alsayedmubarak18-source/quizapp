@@ -24,7 +24,8 @@
      "t": "1.5 to 2 liters",
      "e": "Correct. The amount gradually increases to about 1.5-2 L."
     }
-   ]
+   ],
+   "topic": "Amniotic fluid"
   },
   {
    "q": "Which cells secrete amniotic fluid?",
@@ -46,7 +47,8 @@
      "t": "Amniotic cells",
      "e": "Correct. The fluid is secreted by amniotic cells."
     }
-   ]
+   ],
+   "topic": "Amniotic fluid"
   },
   {
    "q": "Which function of amniotic fluid permits muscle development and prevents adhesion?",
@@ -68,7 +70,8 @@
      "t": "Fetal swallowing",
      "e": "Wrong. Swallowing teaches suckling."
     }
-   ]
+   ],
+   "topic": "Amniotic fluid"
   },
   {
    "q": "What is the benefit of fetal swallowing of amniotic fluid?",
@@ -90,7 +93,8 @@
      "t": "The fetus learns suckling",
      "e": "Correct. Swallowing trains suckling."
     }
-   ]
+   ],
+   "topic": "Amniotic fluid"
   },
   {
    "q": "Which statement describes amniotic fluid during labor?",
@@ -112,7 +116,8 @@
      "t": "It nourishes the fetus directly",
      "e": "Wrong. Not a stated labor function."
     }
-   ]
+   ],
+   "topic": "Amniotic fluid"
   },
   {
    "q": "Polyhydramnios is defined as more than how much amniotic fluid?",
@@ -134,7 +139,8 @@
      "t": "3 liters",
      "e": "Wrong. The definition is 2 L."
     }
-   ]
+   ],
+   "topic": "Fluid abnormalities"
   },
   {
    "q": "A diabetic mother has polyhydramnios. Which other cause can produce it?",
@@ -156,7 +162,8 @@
      "t": "CNS or GIT anomalies",
      "e": "Correct. Causes: idiopathic, maternal diabetes, CNS or GIT anomalies."
     }
-   ]
+   ],
+   "topic": "Fluid abnormalities"
   },
   {
    "q": "Oligohydramnios means less than how much amniotic fluid?",
@@ -178,7 +185,8 @@
      "t": "2 liters",
      "e": "Wrong. This is the polyhydramnios limit."
     }
-   ]
+   ],
+   "topic": "Fluid abnormalities"
   },
   {
    "q": "Which is a cause of oligohydramnios?",
@@ -200,7 +208,8 @@
      "t": "Idiopathic polyhydramnios",
      "e": "Wrong. This is not oligohydramnios."
     }
-   ]
+   ],
+   "topic": "Fluid abnormalities"
   },
   {
    "q": "Which is an effect of oligohydramnios?",
@@ -222,7 +231,8 @@
      "t": "Fetal macrosomia",
      "e": "Wrong. Not a stated effect."
     }
-   ]
+   ],
+   "topic": "Fluid abnormalities"
   },
   {
    "q": "What is the effect of premature rupture of the amnion?",
@@ -244,7 +254,8 @@
      "t": "Twin separation",
      "e": "Wrong. Unrelated."
     }
-   ]
+   ],
+   "topic": "Fluid abnormalities"
   },
   {
    "q": "Which structure develops on the 9th day and what is its origin?",
@@ -266,7 +277,8 @@
      "t": "Chorion, from the endoderm",
      "e": "Wrong. Not correct."
     }
-   ]
+   ],
+   "topic": "Yolk sac"
   },
   {
    "q": "What does the blastocele become?",
@@ -288,7 +300,8 @@
      "t": "The primary yolk sac",
      "e": "Correct. The blastocele becomes the primary yolk sac."
     }
-   ]
+   ],
+   "topic": "Yolk sac"
   },
   {
    "q": "Which structure forms when the primary yolk sac is pinched off at the end of the 2nd week?",
@@ -310,7 +323,8 @@
      "t": "The vitelline duct",
      "e": "Wrong. This is a stalk after folding."
     }
-   ]
+   ],
+   "topic": "Yolk sac"
   },
   {
    "q": "After folding, which three derivatives come from the yolk sac?",
@@ -332,7 +346,8 @@
      "t": "Amnion, chorion and decidua",
      "e": "Wrong. Not yolk sac derivatives."
     }
-   ]
+   ],
+   "topic": "Yolk sac"
   },
   {
    "q": "Which structure extends from the hindgut into the umbilical cord?",
@@ -354,7 +369,8 @@
      "t": "Urachus",
      "e": "Wrong. The urachus is the later remnant of the allantois."
     }
-   ]
+   ],
+   "topic": "Yolk sac"
   },
   {
    "q": "Which cells appear in the wall of the yolk sac?",
@@ -376,7 +392,8 @@
      "t": "Neural crest cells",
      "e": "Wrong. Not the stated cells."
     }
-   ]
+   ],
+   "topic": "Yolk sac"
   },
   {
    "q": "Which term describes the endometrium of the pregnant uterus?",
@@ -398,7 +415,8 @@
      "t": "Trophoblast",
      "e": "Wrong. The trophoblast is the outer cell layer of the blastocyst."
     }
-   ]
+   ],
+   "topic": "Decidua & placenta"
   },
   {
    "q": "Which list gives the placenta's endocrine products?",
@@ -420,7 +438,8 @@
      "t": "hCG, cortisol, aldosterone, GH",
      "e": "Wrong. Not the stated list."
     }
-   ]
+   ],
+   "topic": "Decidua & placenta"
   },
   {
    "q": "Which umbilical cord finding is a structural anomaly?",
@@ -442,7 +461,8 @@
      "t": "Velamentous attachment",
      "e": "Wrong. This is an attachment abnormality of the placenta."
     }
-   ]
+   ],
+   "topic": "Umbilical cord"
   }
  ]
 }

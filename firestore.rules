@@ -31,6 +31,19 @@ service cloud.firestore {
       allow delete: if isTeacher();
     }
 
+    // محاولات الطلاب (للمتابعة ولوحة المدرّس): الكتابة لصاحبها فقط، والقراءة لأي مسجّل دخول.
+    // ملاحظة: القراءة مفتوحة عشان الطالب يسترجع تقدمه على جهاز تاني بالاسم، ففيها خصوصية بسيطة.
+    match /attempts/{id} {
+      allow read: if signedIn();
+      allow create: if signedIn()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.key is string
+        && request.resource.data.key.size() > 0
+        && request.resource.data.key.size() <= 40;
+      allow update: if false;
+      allow delete: if isTeacher();
+    }
+
     // اللعب اللايف
     match /games/{code} {
       allow read: if signedIn();

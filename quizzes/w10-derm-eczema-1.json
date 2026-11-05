@@ -24,7 +24,8 @@
      "t": "Spongiosis",
      "e": "Correct. Intercellular oedema in the epidermis."
     }
-   ]
+   ],
+   "topic": "Skin barrier"
   },
   {
    "q": "What is the number one occupational skin disease?",
@@ -46,7 +47,8 @@
      "t": "Contact dermatitis",
      "e": "Correct. Eczema overlaps in types."
     }
-   ]
+   ],
+   "topic": "Skin barrier"
   },
   {
    "q": "In the 'bricks and mortar' model of the skin barrier, what are the bricks and the mortar?",
@@ -68,7 +70,8 @@
      "t": "Bricks: fibroblasts; mortar: collagen",
      "e": "Wrong. Dermis."
     }
-   ]
+   ],
+   "topic": "Skin barrier"
   },
   {
    "q": "Which protein defect is the strongest genetic risk for atopic dermatitis?",
@@ -90,7 +93,8 @@
      "t": "Filaggrin (FLG) loss",
      "e": "Correct. Reduces NMF and raises pH."
     }
-   ]
+   ],
+   "topic": "Skin barrier"
   },
   {
    "q": "What does filaggrin degradation produce?",
@@ -112,7 +116,8 @@
      "t": "Keratohyalin granules",
      "e": "Wrong. Source of profilaggrin."
     }
-   ]
+   ],
+   "topic": "Skin barrier"
   },
   {
    "q": "A patient has an acute, oozing, crusted eczema with vesicles. What is the histology and treatment?",
@@ -134,7 +139,8 @@
      "t": "Acantholysis; antifungals",
      "e": "Wrong. Not eczema."
     }
-   ]
+   ],
+   "topic": "Eczema stages"
   },
   {
    "q": "A patient has chronic eczema with lichenification, fissuring and excoriations. What is the histology and treatment?",
@@ -156,7 +162,8 @@
      "t": "Acanthosis and hyperkeratosis; steroid ointment, hydration, short nails",
      "e": "Correct. Chronic stage."
     }
-   ]
+   ],
+   "topic": "Eczema stages"
   },
   {
    "q": "Which feature distinguishes irritant from allergic contact dermatitis?",
@@ -178,7 +185,8 @@
      "t": "Both need prior sensitization",
      "e": "Wrong. Irritant does not."
     }
-   ]
+   ],
+   "topic": "Contact dermatitis"
   },
   {
    "q": "Which test is the gold standard for allergic contact dermatitis?",
@@ -200,7 +208,8 @@
      "t": "Biopsy",
      "e": "Wrong. Not specific."
     }
-   ]
+   ],
+   "topic": "Contact dermatitis"
   },
   {
    "q": "How long is the sensitisation phase of allergic contact dermatitis and what happens?",
@@ -222,7 +231,8 @@
      "t": "48 hours with rash",
      "e": "Wrong. Patch test duration."
     }
-   ]
+   ],
+   "topic": "Contact dermatitis"
   },
   {
    "q": "When does the rash appear on re-exposure in allergic contact dermatitis?",
@@ -244,7 +254,8 @@
      "t": "After 2 weeks",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Contact dermatitis"
   },
   {
    "q": "Which allergen is common in jewellery and buckles?",
@@ -266,7 +277,8 @@
      "t": "Formaldehyde",
      "e": "Wrong. Preservative."
     }
-   ]
+   ],
+   "topic": "Contact dermatitis"
   },
   {
    "q": "Which allergen is found in hair dye and black henna?",
@@ -288,7 +300,8 @@
      "t": "PPD",
      "e": "Correct. Para-phenylenediamine."
     }
-   ]
+   ],
+   "topic": "Contact dermatitis"
   },
   {
    "q": "Which cytokines drive Th2 inflammation and reduced filaggrin in atopic dermatitis?",
@@ -310,7 +323,8 @@
      "t": "IL-17 and IL-23",
      "e": "Wrong. Th17."
     }
-   ]
+   ],
+   "topic": "Atopic dermatitis"
   },
   {
    "q": "Which cytokine mediates itch in atopic dermatitis?",
@@ -332,7 +346,8 @@
      "t": "IL-33",
      "e": "Wrong. Alarmin."
     }
-   ]
+   ],
+   "topic": "Atopic dermatitis"
   },
   {
    "q": "Which are keratinocyte alarmins in atopic dermatitis?",
@@ -354,7 +369,8 @@
      "t": "IL-12 and IL-18",
      "e": "Wrong. Th1 inducers."
     }
-   ]
+   ],
+   "topic": "Atopic dermatitis"
   },
   {
    "q": "Where does infantile atopic dermatitis typically occur?",
@@ -376,7 +392,8 @@
      "t": "Palms and soles only",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Atopic dermatitis"
   },
   {
    "q": "Where does childhood atopic dermatitis typically occur?",
@@ -398,7 +415,8 @@
      "t": "Scalp only",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Atopic dermatitis"
   },
   {
    "q": "A child with eczema becomes unwell with fever and clustered punched-out erosions. What is the diagnosis?",
@@ -420,7 +438,8 @@
      "t": "Scabies",
      "e": "Wrong. Burrows."
     }
-   ]
+   ],
+   "topic": "Complications & management"
   },
   {
    "q": "What are the three principles of eczema management?",
@@ -442,7 +461,8 @@
      "t": "Wet dressings, antihistamines, soap",
      "e": "Wrong. Not the principles."
     }
-   ]
+   ],
+   "topic": "Complications & management"
   }
  ]
 }

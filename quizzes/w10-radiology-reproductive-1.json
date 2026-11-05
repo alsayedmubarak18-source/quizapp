@@ -24,7 +24,8 @@
      "t": "Anechoic (black)",
      "e": "Correct. No reflection."
     }
-   ]
+   ],
+   "topic": "Female pelvis imaging"
   },
   {
    "q": "Which statement about the Fallopian tubes on ultrasound is correct?",
@@ -46,7 +47,8 @@
      "t": "They are not seen normally and appear only when fluid-filled or pathological",
      "e": "Correct. e.g. hydrosalpinx."
     }
-   ]
+   ],
+   "topic": "Female pelvis imaging"
   },
   {
    "q": "Which is the first-line imaging test for tubal patency?",
@@ -68,7 +70,8 @@
      "t": "CT",
      "e": "Wrong. Not first line."
     }
-   ]
+   ],
+   "topic": "Female pelvis imaging"
   },
   {
    "q": "On T2 MRI of the uterus, which zone appears as a dark band?",
@@ -90,7 +93,8 @@
      "t": "Junctional zone (up to 8 mm)",
      "e": "Correct. Compact smooth muscle with low water."
     }
-   ]
+   ],
+   "topic": "Female pelvis imaging"
   },
   {
    "q": "Which pairing of ovarian follicles on ultrasound and T2 MRI is correct?",
@@ -112,7 +116,8 @@
      "t": "Hyperechoic on US; bright on T2",
      "e": "Wrong. Follicles are anechoic."
     }
-   ]
+   ],
+   "topic": "Female pelvis imaging"
   },
   {
    "q": "What is the ultrasound appearance of the late proliferative endometrium?",
@@ -134,7 +139,8 @@
      "t": "Not visible",
      "e": "Wrong. Visible."
     }
-   ]
+   ],
+   "topic": "Female pelvis imaging"
   },
   {
    "q": "What is the ultrasound appearance of the secretory endometrium?",
@@ -156,7 +162,8 @@
      "t": "Thick, hyperechoic and homogeneous",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Female pelvis imaging"
   },
   {
    "q": "What is the normal testis volume?",
@@ -178,7 +185,8 @@
      "t": "60 mL",
      "e": "Wrong. Too large."
     }
-   ]
+   ],
+   "topic": "Male reproductive imaging"
   },
   {
    "q": "Which imaging modality assesses scrotal injury, torsion or orchitis?",
@@ -200,7 +208,8 @@
      "t": "HSG",
      "e": "Wrong. Female tubes."
     }
-   ]
+   ],
+   "topic": "Male reproductive imaging"
   },
   {
    "q": "When is MRI used for scrotal disease?",
@@ -222,7 +231,8 @@
      "t": "For routine screening",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Male reproductive imaging"
   },
   {
    "q": "Which structure is the capsule of the testis seen as a thin bright echogenic line on US?",
@@ -244,7 +254,8 @@
      "t": "Pampiniform plexus",
      "e": "Wrong. Vascular channels."
     }
-   ]
+   ],
+   "topic": "Male reproductive imaging"
   },
   {
    "q": "What is the normal prostate volume in young adults?",
@@ -266,7 +277,8 @@
      "t": "About 5 mL",
      "e": "Wrong. Too small."
     }
-   ]
+   ],
+   "topic": "Male reproductive imaging"
   },
   {
    "q": "Which period is the most accurate for dating the pregnancy?",
@@ -288,7 +300,8 @@
      "t": "First trimester",
      "e": "Correct. CRL is the gold standard."
     }
-   ]
+   ],
+   "topic": "Imaging in pregnancy"
   },
   {
    "q": "Which parameter is the gold standard for gestational age at 6-13 weeks?",
@@ -310,7 +323,8 @@
      "t": "Femur length",
      "e": "Wrong. Used later."
     }
-   ]
+   ],
+   "topic": "Imaging in pregnancy"
   },
   {
    "q": "What is the correct formula for mean sac diameter?",
@@ -332,7 +346,8 @@
      "t": "L x W x H",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Imaging in pregnancy"
   },
   {
    "q": "When is the anomaly scan done and which trimester does it belong to?",
@@ -354,7 +369,8 @@
      "t": "11-13 weeks; first trimester",
      "e": "Wrong. NT screening."
     }
-   ]
+   ],
+   "topic": "Imaging in pregnancy"
   },
   {
    "q": "Which sign indicates an early intrauterine pregnancy as two concentric echogenic rings?",
@@ -376,7 +392,8 @@
      "t": "Yolk sac sign",
      "e": "Wrong. Not the two rings."
     }
-   ]
+   ],
+   "topic": "Imaging in pregnancy"
   },
   {
    "q": "When must cardiac activity be seen on ultrasound?",
@@ -398,7 +415,8 @@
      "t": "At 12 weeks only",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Imaging in pregnancy"
   },
   {
    "q": "Which parameter is the most sensitive for growth abnormalities?",
@@ -420,7 +438,8 @@
      "t": "Head circumference",
      "e": "Wrong. Not most sensitive."
     }
-   ]
+   ],
+   "topic": "Imaging in pregnancy"
   },
   {
    "q": "Which test is used in suspected fetal growth restriction to assess placental function?",
@@ -442,7 +461,8 @@
      "t": "Plain X-ray",
      "e": "Wrong. Ionising."
     }
-   ]
+   ],
+   "topic": "Imaging in pregnancy"
   }
  ]
 }

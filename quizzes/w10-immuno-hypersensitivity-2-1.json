@@ -24,7 +24,8 @@
      "t": "Immune complex formation, deposition, inflammatory reaction",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "Which antibodies and antigen form are involved in Type III?",
@@ -46,7 +47,8 @@
      "t": "IgM and IgG (mostly IgG) with soluble antigens",
      "e": "Correct. The antigen is not cell-bound."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "Which size of immune complexes deposits in tissue?",
@@ -68,7 +70,8 @@
      "t": "Any size equally",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "Which complement fragment attracts neutrophils in Type III?",
@@ -90,7 +93,8 @@
      "t": "C5a",
      "e": "Correct. Chemotaxis."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "Where are immune complexes especially deposited?",
@@ -112,7 +116,8 @@
      "t": "Bone marrow",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "What is the local Type III reaction called?",
@@ -134,7 +139,8 @@
      "t": "Prausnitz-Kustner reaction",
      "e": "Wrong. Type I."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "A farmer develops alveolitis from inhaled mouldy hay spores. Which type of hypersensitivity is this?",
@@ -156,7 +162,8 @@
      "t": "Type III (extrinsic allergic alveolitis)",
      "e": "Correct. Hypersensitivity pneumonitis."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "What triggers pigeon fancier's lung?",
@@ -178,7 +185,8 @@
      "t": "Latex particles",
      "e": "Wrong. Type I."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "A patient develops fever, arthritis and vasculitis 10 days after horse antitetanus serum. What is the diagnosis?",
@@ -200,7 +208,8 @@
      "t": "Anaphylaxis",
      "e": "Wrong. Type I."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "What is the target of SLE immune complexes?",
@@ -222,7 +231,8 @@
      "t": "Acetylcholine receptor",
      "e": "Wrong. Myasthenia gravis."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "Which disease is linked to hepatitis B surface antigen immune complexes?",
@@ -244,7 +254,8 @@
      "t": "Henoch-Schonlein purpura",
      "e": "Wrong. Unknown antigen."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "How does Type III differ from Type II?",
@@ -266,7 +277,8 @@
      "t": "T cells versus antibodies",
      "e": "Wrong. Type IV."
     }
-   ]
+   ],
+   "topic": "Type III hypersensitivity"
   },
   {
    "q": "When does Type IV hypersensitivity begin after contact and what mediates it?",
@@ -288,7 +300,8 @@
      "t": "From 24 hours; T cells and macrophages",
      "e": "Correct. Antibody-independent."
     }
-   ]
+   ],
+   "topic": "Type IV hypersensitivity"
   },
   {
    "q": "Which CD4+ subsets cause cytokine-mediated inflammation in Type IV?",
@@ -310,7 +323,8 @@
      "t": "Treg and TFH",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type IV hypersensitivity"
   },
   {
    "q": "Which is the most potent macrophage-activating cytokine in Type IV?",
@@ -332,7 +346,8 @@
      "t": "IL-10",
      "e": "Wrong. Regulatory."
     }
-   ]
+   ],
+   "topic": "Type IV hypersensitivity"
   },
   {
    "q": "Which MHC presents antigen to CD8+ CTLs and what is their killing mechanism?",
@@ -354,7 +369,8 @@
      "t": "MHC class II; IgE release",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type IV hypersensitivity"
   },
   {
    "q": "What causes contact hypersensitivity dermatitis?",
@@ -376,7 +392,8 @@
      "t": "Antibodies to red cells",
      "e": "Wrong. Type II."
     }
-   ]
+   ],
+   "topic": "Type IV hypersensitivity"
   },
   {
    "q": "What is a granuloma?",
@@ -398,7 +415,8 @@
      "t": "A fibrin deposit",
      "e": "Wrong. Not a granuloma."
     }
-   ]
+   ],
+   "topic": "Type IV hypersensitivity"
   },
   {
    "q": "How is the tuberculin test read and what does a positive result indicate?",
@@ -420,7 +438,8 @@
      "t": "Hemolysis at 2 hours; Type II",
      "e": "Wrong. Not the tuberculin test."
     }
-   ]
+   ],
+   "topic": "Type IV hypersensitivity"
   },
   {
    "q": "Which disease is a Type IV disorder?",
@@ -442,7 +461,8 @@
      "t": "Allergic rhinitis",
      "e": "Wrong. Type I."
     }
-   ]
+   ],
+   "topic": "Type IV hypersensitivity"
   }
  ]
 }

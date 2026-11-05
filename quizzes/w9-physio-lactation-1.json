@@ -24,7 +24,8 @@
      "t": "Myoepithelial cell",
      "e": "Correct. Oxytocin acts on it."
     }
-   ]
+   ],
+   "topic": "Breast development"
   },
   {
    "q": "Which cell secretes milk?",
@@ -46,7 +47,8 @@
      "t": "Alveolar epithelial cell",
      "e": "Correct. It lines the alveolus."
     }
-   ]
+   ],
+   "topic": "Breast development"
   },
   {
    "q": "Which hormone drives milk production and which drives ejection?",
@@ -68,7 +70,8 @@
      "t": "hPL; oxytocin",
      "e": "Wrong. hPL helps development."
     }
-   ]
+   ],
+   "topic": "Breast development"
   },
   {
    "q": "Which hormones stimulate breast growth throughout pregnancy?",
@@ -90,7 +93,8 @@
      "t": "Estrogen and progesterone",
      "e": "Correct. Estrogen promotes ducts and progesterone alveolar-lobular formation."
     }
-   ]
+   ],
+   "topic": "Breast development"
   },
   {
    "q": "What does high estrogen promote and what does high progesterone stimulate?",
@@ -112,7 +116,8 @@
      "t": "Duct development; milk secretion",
      "e": "Wrong. Progesterone drives alveolar-lobular formation."
     }
-   ]
+   ],
+   "topic": "Breast development"
   },
   {
    "q": "Why does lactation not occur during pregnancy?",
@@ -134,7 +139,8 @@
      "t": "hPL inhibits milk",
      "e": "Wrong. hPL helps development."
     }
-   ]
+   ],
+   "topic": "Breast development"
   },
   {
    "q": "What is the correct order of the phases of lactation?",
@@ -156,7 +162,8 @@
      "t": "Mammogenesis, lactogenesis, galactokinesis, galactopoiesis",
      "e": "Correct. Four phases."
     }
-   ]
+   ],
+   "topic": "Phases of lactation"
   },
   {
    "q": "Which phase is the synthesis and secretion of milk by the alveoli?",
@@ -178,7 +185,8 @@
      "t": "Galactopoiesis",
      "e": "Wrong. Maintenance."
     }
-   ]
+   ],
+   "topic": "Phases of lactation"
   },
   {
    "q": "Which hormone regulates galactokinesis?",
@@ -200,7 +208,8 @@
      "t": "hPL",
      "e": "Wrong. Lactogenesis."
     }
-   ]
+   ],
+   "topic": "Phases of lactation"
   },
   {
    "q": "What is the most important galactopoietic hormone?",
@@ -222,7 +231,8 @@
      "t": "Progesterone",
      "e": "Wrong. Blocks lactation in pregnancy."
     }
-   ]
+   ],
+   "topic": "Phases of lactation"
   },
   {
    "q": "During which days is colostrum produced?",
@@ -244,7 +254,8 @@
      "t": "From day 10",
      "e": "Wrong. Mature milk."
     }
-   ]
+   ],
+   "topic": "Phases of lactation"
   },
   {
    "q": "When is transitional milk produced and when does mature milk start?",
@@ -266,7 +277,8 @@
      "t": "Days 1-3; from day 10",
      "e": "Wrong. Colostrum is days 1-3."
     }
-   ]
+   ],
+   "topic": "Phases of lactation"
   },
   {
    "q": "Which substances is colostrum rich in?",
@@ -288,7 +300,8 @@
      "t": "Proteins, minerals, immunoglobulins, phagocytes and lymphocytes",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Phases of lactation"
   },
   {
    "q": "Which hypothalamic factor inhibits prolactin secretion?",
@@ -310,7 +323,8 @@
      "t": "GnRH",
      "e": "Wrong. Acts on LH/FSH."
     }
-   ]
+   ],
+   "topic": "Prolactin"
   },
   {
    "q": "Which hypothalamic hormone stimulates prolactin secretion?",
@@ -332,7 +346,8 @@
      "t": "GHRH",
      "e": "Wrong. Stimulates GH."
     }
-   ]
+   ],
+   "topic": "Prolactin"
   },
   {
    "q": "Bromocriptine reduces prolactin. What is its class?",
@@ -354,7 +369,8 @@
      "t": "Estrogen",
      "e": "Wrong. Raises prolactin."
     }
-   ]
+   ],
+   "topic": "Prolactin"
   },
   {
    "q": "A patient on a dopamine antagonist develops raised prolactin. Why?",
@@ -376,7 +392,8 @@
      "t": "Increased somatostatin",
      "e": "Wrong. Inhibits."
     }
-   ]
+   ],
+   "topic": "Prolactin"
   },
   {
    "q": "How does high prolactin inhibit ovulation?",
@@ -398,7 +415,8 @@
      "t": "By raising oxytocin",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Prolactin"
   },
   {
    "q": "What is the effect of high prolactin in males?",
@@ -420,7 +438,8 @@
      "t": "Gynecomastia only",
      "e": "Wrong. Infertility is stated."
     }
-   ]
+   ],
+   "topic": "Prolactin"
   },
   {
    "q": "Which receptors detect suckling and which cells does oxytocin act on?",
@@ -442,7 +461,8 @@
      "t": "Thermoreceptors in the areola; myoepithelial cells",
      "e": "Wrong. Wrong receptors."
     }
-   ]
+   ],
+   "topic": "Suckling reflex"
   }
  ]
 }

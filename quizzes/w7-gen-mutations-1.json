@@ -24,7 +24,8 @@
      "t": "Somatic mutation, t(9;22)(q34;q11)",
      "e": "Correct. It is acquired, present in blood or marrow cells only, and not transmitted to offspring."
     }
-   ]
+   ],
+   "topic": "Mutation basics"
   },
   {
    "q": "A man homozygous for a 32-bp deletion in CCR5 remains uninfected despite repeated HIV exposure. What explains this?",
@@ -46,7 +47,8 @@
      "t": "His cells lack the CCR5 receptor",
      "e": "Correct. Without the receptor, HIV cannot enter the cell; this is a protective mutation."
     }
-   ]
+   ],
+   "topic": "Mutation basics"
   },
   {
    "q": "A 6-year-old with dry, scaly skin and extensive freckling burns after minimal sun exposure. Which UV-induced lesion is inadequately repaired in this disorder?",
@@ -68,7 +70,8 @@
      "t": "Double-strand breaks",
      "e": "Wrong. UV radiation does not mainly produce double-strand breaks here."
     }
-   ]
+   ],
+   "topic": "Mutation basics"
   },
   {
    "q": "Which of the following substitutions is a transition?",
@@ -90,7 +93,8 @@
      "t": "A to G",
      "e": "Correct. Purine for purine (A to G or G to A), or pyrimidine for pyrimidine, is a transition."
     }
-   ]
+   ],
+   "topic": "Point mutations"
   },
   {
    "q": "The codon UCA (serine) changes to UCG (serine). What type of mutation is this?",
@@ -112,7 +116,8 @@
      "t": "Frameshift",
      "e": "Wrong. A frameshift needs an insertion or deletion not divisible by three."
     }
-   ]
+   ],
+   "topic": "Point mutations"
   },
   {
    "q": "The codon UCA (serine) changes to UGA. What is the effect?",
@@ -134,7 +139,8 @@
      "t": "Stop-loss mutation giving an elongated chain",
      "e": "Wrong. Stop-loss occurs when a normal stop codon is mutated."
     }
-   ]
+   ],
+   "topic": "Point mutations"
   },
   {
    "q": "A patient has sickle cell disease due to GAG to GTG in the beta-globin gene. How is this mutation classified?",
@@ -156,7 +162,8 @@
      "t": "Missense; glutamic acid replaced by valine",
      "e": "Correct. Glutamic acid (two carboxyl groups) is replaced by valine (one), changing charge."
     }
-   ]
+   ],
+   "topic": "Point mutations"
   },
   {
    "q": "Cystic fibrosis due to CFTR G542X results from which kind of mutation?",
@@ -178,7 +185,8 @@
      "t": "Frameshift",
      "e": "Wrong. No loss or gain of nucleotides is implied by G542X."
     }
-   ]
+   ],
+   "topic": "Point mutations"
   },
   {
    "q": "Which description fits CFTR p.Phe508del?",
@@ -200,7 +208,8 @@
      "t": "In-frame insertion of three base pairs",
      "e": "Wrong. It is a deletion, not an insertion."
     }
-   ]
+   ],
+   "topic": "Point mutations"
   },
   {
    "q": "A boy has severe progressive muscle weakness from a dystrophin deletion that disrupts the reading frame. A different deletion in another patient is in-frame and causes milder disease. Which pair is correct?",
@@ -222,7 +231,8 @@
      "t": "Both are Becker; severity differs by deletion size only",
      "e": "Wrong. Reading frame decides severity."
     }
-   ]
+   ],
+   "topic": "Deletions & frameshift"
   },
   {
    "q": "Which deletion would be expected to cause a frameshift?",
@@ -244,7 +254,8 @@
      "t": "Deletion of 9 nucleotides",
      "e": "Wrong. A multiple of three preserves the frame."
     }
-   ]
+   ],
+   "topic": "Deletions & frameshift"
   },
   {
    "q": "Hemoglobin Constant Spring has an elongated alpha chain. Which mutation type explains this?",
@@ -266,7 +277,8 @@
      "t": "Silent mutation at codon 142",
      "e": "Wrong. A silent mutation would not alter chain length."
     }
-   ]
+   ],
+   "topic": "Deletions & frameshift"
   },
   {
    "q": "A fetus dies in utero with massive edema, heart failure and severe anemia. Absence of alpha chains is found. What is the usual molecular basis?",
@@ -288,7 +300,8 @@
      "t": "Deletions of the alpha-globin genes",
      "e": "Correct. Alpha-thalassemia is mostly due to deletions from unequal crossover; the severe form causes hydrops fetalis."
     }
-   ]
+   ],
+   "topic": "Deletions & frameshift"
   },
   {
    "q": "Achondroplasia due to FGFR3 G380R (rhizomelic shortening, large head, frontal bossing, normal intelligence) is an example of which mutational mechanism?",
@@ -310,7 +323,8 @@
      "t": "Dominant-negative",
      "e": "Wrong. This is a mutant product interfering with the normal allele, e.g. collagen."
     }
-   ]
+   ],
+   "topic": "Functional effects"
   },
   {
    "q": "A heterozygous mutation in a collagen gene produces a mutant chain that interferes with the normal chains, causing osteogenesis imperfecta. Which mechanism is this?",
@@ -332,7 +346,8 @@
      "t": "Loss of function in the homozygous state only",
      "e": "Wrong. Disease occurs in the heterozygote."
     }
-   ]
+   ],
+   "topic": "Functional effects"
   },
   {
    "q": "A patient has raised cholesterol without symptoms but a high risk of premature coronary artery disease; homozygous relatives have xanthomata. Which mechanism explains the heterozygote's phenotype?",
@@ -354,7 +369,8 @@
      "t": "Stop-loss",
      "e": "Wrong. This produces an elongated protein and is unrelated."
     }
-   ]
+   ],
+   "topic": "Functional effects"
   },
   {
    "q": "Which pairing of deletion syndrome and locus is correct?",
@@ -376,7 +392,8 @@
      "t": "Wolf-Hirschhorn syndrome: 11p13",
      "e": "Wrong. Wolf-Hirschhorn is 4p."
     }
-   ]
+   ],
+   "topic": "Chromosome deletion syndromes"
   },
   {
    "q": "A child has supravalvular aortic stenosis, peripheral pulmonary stenosis, a full lower lip, and is very outgoing. Which deletion is likely?",
@@ -398,7 +415,8 @@
      "t": "4p",
      "e": "Wrong. Wolf-Hirschhorn: severe learning difficulties, failure to thrive."
     }
-   ]
+   ],
+   "topic": "Chromosome deletion syndromes"
   },
   {
    "q": "A newborn has a cardiac outflow tract malformation, hypocalcemia from parathyroid hypoplasia and absent thymus. Which deletion is responsible?",
@@ -420,7 +438,8 @@
      "t": "4p",
      "e": "Wrong. Wolf-Hirschhorn syndrome."
     }
-   ]
+   ],
+   "topic": "Chromosome deletion syndromes"
   },
   {
    "q": "A deletion involving loss of part of a chromosome results in which of the following?",
@@ -442,7 +461,8 @@
      "t": "Triploidy",
      "e": "Wrong. Triploidy is a whole extra haploid set."
     }
-   ]
+   ],
+   "topic": "Chromosome deletion syndromes"
   }
  ]
 }

@@ -24,7 +24,8 @@
      "t": "Ampulla of the fallopian tube",
      "e": "Correct. Fertilization occurs in the ampulla."
     }
-   ]
+   ],
+   "topic": "Implantation & placenta"
   },
   {
    "q": "Which hormone drives decidualization of the endometrium, and from which source?",
@@ -46,7 +47,8 @@
      "t": "Progesterone from the corpus luteum",
      "e": "Correct. Decidualization follows progesterone."
     }
-   ]
+   ],
+   "topic": "Implantation & placenta"
   },
   {
    "q": "Which cell layer of the placental barrier is made by the fetus and lines the villi?",
@@ -68,7 +70,8 @@
      "t": "Myometrium",
      "e": "Wrong. Maternal tissue."
     }
-   ]
+   ],
+   "topic": "Implantation & placenta"
   },
   {
    "q": "Which layers form the placental barrier at term?",
@@ -90,7 +93,8 @@
      "t": "Fetal capillary endothelium, basal lamina and a thin syncytiotrophoblast",
      "e": "Correct. A barrier 5 micrometres or less."
     }
-   ]
+   ],
+   "topic": "Implantation & placenta"
   },
   {
    "q": "What gives the placenta its large surface area?",
@@ -112,7 +116,8 @@
      "t": "The intervillous space",
      "e": "Wrong. The blood-filled space between villi."
     }
-   ]
+   ],
+   "topic": "Implantation & placenta"
   },
   {
    "q": "What does hCG do to the corpus luteum?",
@@ -134,7 +139,8 @@
      "t": "Stimulates its immediate regression",
      "e": "Wrong. Opposite effect."
     }
-   ]
+   ],
+   "topic": "Placental hormones"
   },
   {
    "q": "Which placental hormone increases pubic symphysis flexibility and helps dilate the cervix?",
@@ -156,7 +162,8 @@
      "t": "Relaxin",
      "e": "Correct. Two stated functions."
     }
-   ]
+   ],
+   "topic": "Placental hormones"
   },
   {
    "q": "Which hormone decreases glucose use and increases fatty acid use for ATP production?",
@@ -178,7 +185,8 @@
      "t": "hCG",
      "e": "Wrong. Rescues the corpus luteum."
     }
-   ]
+   ],
+   "topic": "Placental hormones"
   },
   {
    "q": "Which fetal precursor does the placenta convert to estrogen?",
@@ -200,7 +208,8 @@
      "t": "Testosterone from the fetal testes",
      "e": "Wrong. Not the stated precursor."
     }
-   ]
+   ],
+   "topic": "Placental hormones"
   },
   {
    "q": "By what mechanism does the uterus enlarge during pregnancy?",
@@ -222,7 +231,8 @@
      "t": "Fluid retention only",
      "e": "Wrong. Not the mechanism."
     }
-   ]
+   ],
+   "topic": "Maternal adaptations"
   },
   {
    "q": "When does the corpus luteum enlarge during pregnancy?",
@@ -244,7 +254,8 @@
      "t": "32-36 weeks",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Maternal adaptations"
   },
   {
    "q": "Which pairing of skin change and name is correct?",
@@ -266,7 +277,8 @@
      "t": "Both are called cloasma",
      "e": "Wrong. Distinct changes."
     }
-   ]
+   ],
+   "topic": "Maternal adaptations"
   },
   {
    "q": "By how much does blood volume rise in pregnancy?",
@@ -288,7 +300,8 @@
      "t": "40-50%",
      "e": "Correct. Cardiac output rises and SVR falls."
     }
-   ]
+   ],
+   "topic": "Maternal adaptations"
   },
   {
    "q": "Which respiratory change is correct in pregnancy?",
@@ -310,7 +323,8 @@
      "t": "Tidal volume unchanged",
      "e": "Wrong. It rises."
     }
-   ]
+   ],
+   "topic": "Maternal adaptations"
   },
   {
    "q": "By how much does GFR increase in pregnancy?",
@@ -332,7 +346,8 @@
      "t": "It decreases",
      "e": "Wrong. It rises."
     }
-   ]
+   ],
+   "topic": "Maternal adaptations"
   },
   {
    "q": "Which hematologic state occurs in pregnancy?",
@@ -354,7 +369,8 @@
      "t": "Unchanged coagulation",
      "e": "Wrong. Changes occur."
     }
-   ]
+   ],
+   "topic": "Maternal adaptations"
   },
   {
    "q": "Which placental hormone enters the fetal circulation to start the onset of labor?",
@@ -376,7 +392,8 @@
      "t": "hPL",
      "e": "Wrong. Not the starter."
     }
-   ]
+   ],
+   "topic": "Parturition"
   },
   {
    "q": "What do increased estrogen levels do to the myometrium near labor?",
@@ -398,7 +415,8 @@
      "t": "Decreased oxytocin receptors",
      "e": "Wrong. Opposite."
     }
-   ]
+   ],
+   "topic": "Parturition"
   },
   {
    "q": "What is the correct duration of stage 1 of labor and its description?",
@@ -420,7 +438,8 @@
      "t": "8-15 hours; fetal expulsion",
      "e": "Wrong. This is stage 2."
     }
-   ]
+   ],
+   "topic": "Parturition"
   },
   {
    "q": "Which hormone maintains the endometrium and helps prepare mammary glands for lactation after the corpus luteum is rescued?",
@@ -442,7 +461,8 @@
      "t": "CRH",
      "e": "Wrong. Times birth."
     }
-   ]
+   ],
+   "topic": "Parturition"
   }
  ]
 }

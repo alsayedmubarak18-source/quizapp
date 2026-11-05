@@ -24,7 +24,8 @@
      "t": "Phenoxybenzamine and dibenamine",
      "e": "Correct. BEN = bonded."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Which pair are competitive non-selective alpha blockers?",
@@ -46,7 +47,8 @@
      "t": "Phentolamine and tolazoline",
      "e": "Correct. TOL = temporary."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Which drug is a selective alpha-2 blocker?",
@@ -68,7 +70,8 @@
      "t": "Tamsulosin",
      "e": "Wrong. Alpha-1a selective."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Why is the effect of phenoxybenzamine long-lasting?",
@@ -90,7 +93,8 @@
      "t": "It binds alpha receptors covalently so recovery needs new receptor synthesis",
      "e": "Correct. Releases ethyleneimonium ion."
     }
-   ]
+   ],
+   "topic": "Phenoxybenzamine"
   },
   {
    "q": "A patient on phenoxybenzamine receives a large dose of epinephrine. What happens to blood pressure?",
@@ -112,7 +116,8 @@
      "t": "It does not change",
      "e": "Wrong. It falls."
     }
-   ]
+   ],
+   "topic": "Phenoxybenzamine"
   },
   {
    "q": "Why does a large rapid IV dose of epinephrine first raise BP?",
@@ -134,7 +139,8 @@
      "t": "Beta-1 causes vasoconstriction",
      "e": "Wrong. Beta-1 acts on the heart."
     }
-   ]
+   ],
+   "topic": "Phenoxybenzamine"
   },
   {
    "q": "What causes tachycardia with non-selective alpha blockers?",
@@ -156,7 +162,8 @@
      "t": "Reflex plus blocked presynaptic alpha-2 raising NE release",
      "e": "Correct. Two mechanisms."
     }
-   ]
+   ],
+   "topic": "Phenoxybenzamine"
   },
   {
    "q": "Which pair of side effects is typical of non-selective alpha blockers?",
@@ -178,7 +185,8 @@
      "t": "Mydriasis and hypertension",
      "e": "Wrong. Not typical."
     }
-   ]
+   ],
+   "topic": "Phenoxybenzamine"
   },
   {
    "q": "What is the main therapeutic use of phenoxybenzamine?",
@@ -200,7 +208,8 @@
      "t": "Heart failure",
      "e": "Wrong. Prazosin is used."
     }
-   ]
+   ],
+   "topic": "Phenoxybenzamine"
   },
   {
    "q": "Which drug is used for hypotension after pheochromocytoma surgery?",
@@ -222,7 +231,8 @@
      "t": "Prazosin",
      "e": "Wrong. Causes hypotension."
     }
-   ]
+   ],
+   "topic": "Phenoxybenzamine"
   },
   {
    "q": "Why does failure of ejaculation occur with phenoxybenzamine?",
@@ -244,7 +254,8 @@
      "t": "Increased prolactin",
      "e": "Wrong. Not the mechanism."
     }
-   ]
+   ],
+   "topic": "Phenoxybenzamine"
   },
   {
    "q": "What is the mechanism of prazosin?",
@@ -266,7 +277,8 @@
      "t": "Blockade of alpha-2 receptors",
      "e": "Wrong. Yohimbine."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   },
   {
    "q": "Why does prazosin usually not cause tachycardia?",
@@ -288,7 +300,8 @@
      "t": "Alpha-2 receptors are not blocked, so presynaptic NE release is not increased",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   },
   {
    "q": "How does prazosin help in heart failure?",
@@ -310,7 +323,8 @@
      "t": "It increases preload",
      "e": "Wrong. Opposite."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   },
   {
    "q": "Which statement compares prazosin and terazosin correctly?",
@@ -332,7 +346,8 @@
      "t": "Prazosin has more than 90% bioavailability",
      "e": "Wrong. Prazosin has 70%; terazosin more than 90%."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   },
   {
    "q": "Why does tamsulosin cause little postural hypotension?",
@@ -354,7 +369,8 @@
      "t": "It blocks beta receptors",
      "e": "Wrong. Not tamsulosin."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   },
   {
    "q": "What is the first dose phenomenon of prazosin and when does it occur?",
@@ -376,7 +392,8 @@
      "t": "Hypertension at 30-90 minutes",
      "e": "Wrong. It is hypotension."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   },
   {
    "q": "How can the first dose phenomenon be reduced?",
@@ -398,7 +415,8 @@
      "t": "Rapid dose increase",
      "e": "Wrong. Can cause postural hypotension."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   },
   {
    "q": "Which mnemonic or rule is correct for selective alpha-1 blockers?",
@@ -420,7 +438,8 @@
      "t": "The -zole drugs",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   },
   {
    "q": "What reflex follows a norepinephrine-induced rise in BP?",
@@ -442,7 +461,8 @@
      "t": "No reflex",
      "e": "Wrong. A reflex occurs."
     }
-   ]
+   ],
+   "topic": "Prazosin & selective alpha-1 blockers"
   }
  ]
 }

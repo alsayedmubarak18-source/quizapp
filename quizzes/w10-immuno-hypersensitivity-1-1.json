@@ -24,7 +24,8 @@
      "t": "Gell and Coombs",
      "e": "Correct. Based on effector molecules."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Which mnemonic word matches each type: Type I, II, III, IV?",
@@ -46,7 +47,8 @@
      "t": "Allergic, Cytotoxic, Immune complex, Delayed",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Which drug can induce Types I, II, III and IV hypersensitivity?",
@@ -68,7 +70,8 @@
      "t": "Nickel",
      "e": "Wrong. Type IV."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Why are humoral hypersensitivity reactions called immediate?",
@@ -90,7 +93,8 @@
      "t": "They are evident within hours",
      "e": "Correct. Initiated by antibody or Ab-Ag complexes."
     }
-   ]
+   ],
+   "topic": "Classification"
   },
   {
    "q": "Which is the most common type of hypersensitivity?",
@@ -112,7 +116,8 @@
      "t": "Type IV",
      "e": "Wrong. Not the most common."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Who are atopic individuals?",
@@ -134,7 +139,8 @@
      "t": "Those with high IgM",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Which cells first process the allergen in sensitization and which T cell recognizes it?",
@@ -156,7 +162,8 @@
      "t": "Allergen-specific B cell on MHC II; CD4+ Th2",
      "e": "Correct. Stated."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Which cytokine induces class switching to IgE?",
@@ -178,7 +185,8 @@
      "t": "TGF-beta",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "What activates a sensitized mast cell?",
@@ -200,7 +208,8 @@
      "t": "IgG cross-linking",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Which mediators are released in the immediate phase of Type I?",
@@ -222,7 +231,8 @@
      "t": "Antibodies",
      "e": "Wrong. Not mediators."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Which effect is correct for leukotrienes and prostaglandins?",
@@ -244,7 +254,8 @@
      "t": "Both cause leukocyte recruitment",
      "e": "Wrong. Cytokines do."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Which cells are involved in the late phase of Type I?",
@@ -266,7 +277,8 @@
      "t": "NK cells only",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Which cytokines increase cell adhesion molecules on endothelium?",
@@ -288,7 +300,8 @@
      "t": "TNF-alpha and IL-1",
      "e": "Correct. Promote leukocyte migration."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Which T helper cell is involved in atopic versus non-atopic responses?",
@@ -310,7 +323,8 @@
      "t": "Atopic: Treg",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "A positive skin prick test appears as what?",
@@ -332,7 +346,8 @@
      "t": "No change",
      "e": "Wrong. Negative."
     }
-   ]
+   ],
+   "topic": "Type I hypersensitivity"
   },
   {
    "q": "Which antibodies mediate Type II hypersensitivity?",
@@ -354,7 +369,8 @@
      "t": "IgD",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type II hypersensitivity"
   },
   {
    "q": "Which disease/target pair is correct?",
@@ -376,7 +392,8 @@
      "t": "Immune thrombocytopenia: red cells",
      "e": "Wrong. Target is platelets."
     }
-   ]
+   ],
+   "topic": "Type II hypersensitivity"
   },
   {
    "q": "Which test is used for Type II reactions?",
@@ -398,7 +415,8 @@
      "t": "Patch test",
      "e": "Wrong. Type IV."
     }
-   ]
+   ],
+   "topic": "Type II hypersensitivity"
   },
   {
    "q": "An RhD-negative mother has an RhD-positive infant. How is hemolytic disease of later pregnancies prevented?",
@@ -420,7 +438,8 @@
      "t": "Penicillin",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Type II hypersensitivity"
   },
   {
    "q": "A patient with blood group B is transfused with group A blood. Which mechanism causes the reaction?",
@@ -442,7 +461,8 @@
      "t": "T cell cytotoxicity",
      "e": "Wrong. Type IV."
     }
-   ]
+   ],
+   "topic": "Type II hypersensitivity"
   }
  ]
 }

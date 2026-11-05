@@ -24,7 +24,8 @@
      "t": "Two arteries (deoxygenated) and one vein (oxygenated)",
      "e": "Correct. The vein brings oxygenated blood to the fetus."
     }
-   ]
+   ],
+   "topic": "Fetal shunts"
   },
   {
    "q": "Which vessel carries oxygenated blood from the placenta to the fetus?",
@@ -46,7 +47,8 @@
      "t": "Umbilical vein",
      "e": "Correct. Only the umbilical vein is oxygenated."
     }
-   ]
+   ],
+   "topic": "Fetal shunts"
   },
   {
    "q": "Which fetal shunt bypasses the liver?",
@@ -68,7 +70,8 @@
      "t": "Umbilical shunt",
      "e": "Wrong. Not a fetal shunt."
     }
-   ]
+   ],
+   "topic": "Fetal shunts"
   },
   {
    "q": "Which shunt carries oxygen-rich blood from the right atrium to the left atrium?",
@@ -90,7 +93,8 @@
      "t": "Foramen ovale",
      "e": "Correct. It bypasses the lungs."
     }
-   ]
+   ],
+   "topic": "Fetal shunts"
   },
   {
    "q": "Which shunt carries blood from the pulmonary artery to the descending aorta?",
@@ -112,7 +116,8 @@
      "t": "Ligamentum arteriosum",
      "e": "Wrong. This is the postnatal remnant."
     }
-   ]
+   ],
+   "topic": "Fetal shunts"
   },
   {
    "q": "Which two shunts bypass the lungs?",
@@ -134,7 +139,8 @@
      "t": "Ductus arteriosus only",
      "e": "Wrong. The foramen ovale also bypasses the lungs."
     }
-   ]
+   ],
+   "topic": "Fetal shunts"
   },
   {
    "q": "Why is fetal pulmonary vascular resistance high?",
@@ -156,7 +162,8 @@
      "t": "Low O2 causes hypoxic vasoconstriction in collapsed, fluid-filled lungs",
      "e": "Correct. Pulmonary vasculature is constricted."
     }
-   ]
+   ],
+   "topic": "Vascular resistance & oxygen transfer"
   },
   {
    "q": "Which statement about fetal vascular resistance is correct?",
@@ -178,7 +185,8 @@
      "t": "Both are very low",
      "e": "Wrong. PVR is high."
     }
-   ]
+   ],
+   "topic": "Vascular resistance & oxygen transfer"
   },
   {
    "q": "Why is fetal systemic vascular resistance low?",
@@ -200,7 +208,8 @@
      "t": "Fetal HbF is high",
      "e": "Wrong. Not the reason."
     }
-   ]
+   ],
+   "topic": "Vascular resistance & oxygen transfer"
   },
   {
    "q": "What is the fetal PO2 range?",
@@ -222,7 +231,8 @@
      "t": "10-15 mm Hg",
      "e": "Wrong. Too low."
     }
-   ]
+   ],
+   "topic": "Vascular resistance & oxygen transfer"
   },
   {
    "q": "How does HbF affect the O2 dissociation curve?",
@@ -244,7 +254,8 @@
      "t": "No effect",
      "e": "Wrong. HbF increases saturation."
     }
-   ]
+   ],
+   "topic": "Vascular resistance & oxygen transfer"
   },
   {
    "q": "Compared with adult blood, fetal blood has about how much more hemoglobin?",
@@ -266,7 +277,8 @@
      "t": "100%",
      "e": "Wrong. Too high."
     }
-   ]
+   ],
+   "topic": "Vascular resistance & oxygen transfer"
   },
   {
    "q": "Which describes the fetal circulation compared with the infant?",
@@ -288,7 +300,8 @@
      "t": "Low pressure, right-to-left shunting",
      "e": "Correct. The infant is high pressure with left-to-right flow."
     }
-   ]
+   ],
+   "topic": "Vascular resistance & oxygen transfer"
   },
   {
    "q": "Why are the fetal lungs kept deflated?",
@@ -310,7 +323,8 @@
      "t": "To increase PO2",
      "e": "Wrong. Not the stated reason."
     }
-   ]
+   ],
+   "topic": "Fetal organ systems"
   },
   {
    "q": "When are spinal and brain stem reflexes present?",
@@ -332,7 +346,8 @@
      "t": "7th-8th month",
      "e": "Wrong. Later than stated."
     }
-   ]
+   ],
+   "topic": "Fetal organ systems"
   },
   {
    "q": "When is meconium formed?",
@@ -354,7 +369,8 @@
      "t": "At birth",
      "e": "Wrong. It is formed before birth."
     }
-   ]
+   ],
+   "topic": "Fetal organ systems"
   },
   {
    "q": "When does the fetal kidney start producing urine and at what rate?",
@@ -376,7 +392,8 @@
      "t": "Second trimester; about 100 ml/hour",
      "e": "Wrong. Rate is lower."
     }
-   ]
+   ],
+   "topic": "Fetal metabolism"
   },
   {
    "q": "Which organ controls fluid and electrolyte balance in the fetus?",
@@ -398,7 +415,8 @@
      "t": "The fetal GIT",
      "e": "Wrong. Absorbs amniotic fluid."
     }
-   ]
+   ],
+   "topic": "Fetal metabolism"
   },
   {
    "q": "What is the sole source of energy for the fetus?",
@@ -420,7 +438,8 @@
      "t": "Ketone bodies",
      "e": "Wrong. Not the sole source."
     }
-   ]
+   ],
+   "topic": "Fetal metabolism"
   },
   {
    "q": "In which period of pregnancy is fetal bone ossification and weight gain rapid, with active calcium and phosphate metabolism?",
@@ -442,7 +461,8 @@
      "t": "20th to 40th week only",
      "e": "Wrong. Starts earlier, at week 12."
     }
-   ]
+   ],
+   "topic": "Fetal metabolism"
   }
  ]
 }

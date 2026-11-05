@@ -24,7 +24,8 @@
      "t": "Toxoplasma, Rubella, Cytomegalovirus, Herpes simplex virus",
      "e": "Correct. T = Toxoplasma gondii, R = Rubella, C = Cytomegalovirus, H = Herpes simplex virus; O stands for 'Other' infections."
     }
-   ]
+   ],
+   "topic": "TORCH"
   },
   {
    "q": "The only known definitive hosts of Toxoplasma gondii belong to which family?",
@@ -46,7 +47,8 @@
      "t": "Suidae",
      "e": "Wrong. Pigs are intermediate hosts; their meat can contain tissue cysts."
     }
-   ]
+   ],
+   "topic": "Life cycle & transmission"
   },
   {
    "q": "A cat sheds Toxoplasma in its feces. Which stage is shed, and how long does it need in the environment to become infective?",
@@ -68,7 +70,8 @@
      "t": "Tachyzoites; 1 to 5 days",
      "e": "Wrong. Tachyzoites are the rapidly dividing tissue stage, not the stage shed in feces."
     }
-   ]
+   ],
+   "topic": "Life cycle & transmission"
   },
   {
    "q": "Currently recommended drugs for toxoplasmosis act mainly on which stage of the parasite?",
@@ -90,7 +93,8 @@
      "t": "Tachyzoite",
      "e": "Correct. The drugs target tachyzoites and do not eradicate encysted parasites, so the infection is never completely cleared."
     }
-   ]
+   ],
+   "topic": "Life cycle & transmission"
   },
   {
    "q": "A 26-year-old woman at 10 weeks of gestation ate undercooked lamb. Which form of the parasite in the meat is responsible for her infection?",
@@ -112,7 +116,8 @@
      "t": "Mature oocyst in the muscle",
      "e": "Wrong. Oocysts are produced in the cat intestine; muscle contains tissue cysts."
     }
-   ]
+   ],
+   "topic": "Life cycle & transmission"
   },
   {
    "q": "A pregnant woman cannot avoid changing her cat's litter box. Which advice best reduces her risk?",
@@ -134,7 +139,8 @@
      "t": "Let the cat roam outdoors and wash hands after contact",
      "e": "Wrong. Cats should be kept indoors; outdoor cats hunt rodents and birds and acquire the parasite."
     }
-   ]
+   ],
+   "topic": "Life cycle & transmission"
   },
   {
    "q": "Which statement best describes toxoplasmosis in an immunocompetent adult?",
@@ -156,7 +162,8 @@
      "t": "Most patients completely clear the parasite and have no tissue cysts",
      "e": "Wrong. Tissue cysts remain in muscle, myocardium, brain and eyes, possibly for life."
     }
-   ]
+   ],
+   "topic": "Clinical picture"
   },
   {
    "q": "A 35-year-old woman with advanced AIDS presents with fever, headache, confusion and seizures. Imaging shows multiple small circular abscesses in the brain. What is the most likely presentation of Toxoplasma in this setting?",
@@ -178,7 +185,8 @@
      "t": "Myocarditis only",
      "e": "Wrong. The heart can be involved, but the most common presentation is CNS disease."
     }
-   ]
+   ],
+   "topic": "Clinical picture"
   },
   {
    "q": "A newborn has hydrocephalus, intracranial calcifications and chorioretinitis. Her mother had an infection acquired in pregnancy. Which organism is most likely responsible?",
@@ -200,7 +208,8 @@
      "t": "Toxoplasma gondii",
      "e": "Correct. Infection in the second trimester may cause hydrocephalus, intracranial calcification and other nervous system damage, with eye lesions."
     }
-   ]
+   ],
+   "topic": "Clinical picture"
   },
   {
    "q": "Eye lesions from congenital toxoplasmosis are often not identified at birth. When do they typically present?",
@@ -222,7 +231,8 @@
      "t": "After the age of 50",
      "e": "Wrong. Reactivation is typically seen in the second or third decade."
     }
-   ]
+   ],
+   "topic": "Clinical picture"
   },
   {
    "q": "Up to what percentage of children infected in utero develop decreased quality of vision?",
@@ -244,7 +254,8 @@
      "t": "95%",
      "e": "Wrong. 95% is the proportion of infected people in the general population who have no symptoms."
     }
-   ]
+   ],
+   "topic": "Clinical picture"
   },
   {
    "q": "A woman was infected with Toxoplasma several years before she became pregnant. What is the risk of transmitting the infection to her fetus?",
@@ -266,7 +277,8 @@
      "t": "The fetus is infected only if the mother is breastfeeding",
      "e": "Wrong. Breast milk transmission is theoretical and very unlikely, and not relevant before pregnancy."
     }
-   ]
+   ],
+   "topic": "Clinical picture"
   },
   {
    "q": "A pregnant woman's serology shows a high IgM titre against Toxoplasma. How is this result interpreted?",
@@ -288,7 +300,8 @@
      "t": "Active (recent) infection",
      "e": "Correct. A raised IgM indicates active infection, while a raised IgG indicates old infection."
     }
-   ]
+   ],
+   "topic": "Diagnosis"
   },
   {
    "q": "Which investigation is most useful to detect possible congenital transmission to the fetus?",
@@ -310,7 +323,8 @@
      "t": "Oocysts in maternal stool",
      "e": "Wrong. Oocysts are shed only in the stool of cats, not of humans."
     }
-   ]
+   ],
+   "topic": "Diagnosis"
   },
   {
    "q": "What is the drug of choice for infants with severe congenital toxoplasmosis?",
@@ -332,7 +346,8 @@
      "t": "Sulfadiazine",
      "e": "Wrong. It is the partner drug that must be added to pyrimethamine, not the main agent."
     }
-   ]
+   ],
+   "topic": "Treatment"
   },
   {
    "q": "Pyrimethamine causes dose-related bone marrow suppression. Which agent is given with it to protect the marrow?",
@@ -354,7 +369,8 @@
      "t": "Sulfadiazine",
      "e": "Wrong. It is the partner drug, not a marrow protector."
     }
-   ]
+   ],
+   "topic": "Treatment"
   },
   {
    "q": "A woman is diagnosed with acute toxoplasmosis at 14 weeks of gestation. There is no documented or suspected fetal infection. Which treatment is recommended?",
@@ -376,7 +392,8 @@
      "t": "Spiramycin",
      "e": "Correct. Spiramycin is recommended when infection is acquired and diagnosed before 18 weeks and fetal infection is not suspected; it reduces transmission, best if started within 8 weeks of seroconversion."
     }
-   ]
+   ],
+   "topic": "Treatment"
   },
   {
    "q": "A woman is diagnosed with toxoplasmosis at 24 weeks of gestation, and PCR of the amniotic fluid is positive. Which regimen is recommended?",
@@ -398,7 +415,8 @@
      "t": "Clindamycin alone",
      "e": "Wrong. Clindamycin is only an alternative for the sulfa component."
     }
-   ]
+   ],
+   "topic": "Treatment"
   },
   {
    "q": "A patient with AIDS on pyrimethamine and sulfadiazine for cerebral toxoplasmosis develops a hypersensitivity rash to the sulfonamide. Which drug replaces it?",
@@ -420,7 +438,8 @@
      "t": "Metronidazole",
      "e": "Wrong. It is not part of the recommended regimens for toxoplasmosis."
     }
-   ]
+   ],
+   "topic": "Treatment"
   },
   {
    "q": "Which description best fits Toxoplasma gondii?",
@@ -442,7 +461,8 @@
      "t": "Obligate intracellular virus",
      "e": "Wrong. It is a eukaryotic protozoan, not a virus."
     }
-   ]
+   ],
+   "topic": "Biology"
   }
  ]
 }

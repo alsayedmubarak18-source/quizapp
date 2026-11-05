@@ -24,7 +24,8 @@
      "t": "The first 10 weeks",
      "e": "Correct. Early infection causes miscarriage, fetal death and CRS."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "Which describes the rubella virus?",
@@ -46,7 +47,8 @@
      "t": "Enveloped, single-stranded positive-sense RNA virus, genus Rubivirus",
      "e": "Correct. Family Matonaviridae."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "Which conditions inactivate rubella virus?",
@@ -68,7 +70,8 @@
      "t": "Visible light only",
      "e": "Wrong. Not stated."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "What is the classic triad of congenital rubella syndrome?",
@@ -90,7 +93,8 @@
      "t": "Hearing impairment, congenital heart defects, eye anomalies",
      "e": "Correct. The CRS triad."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "Which eye anomaly is NOT classically a feature of CRS?",
@@ -112,7 +116,8 @@
      "t": "Congenital glaucoma",
      "e": "Wrong. A feature of CRS."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "What causes the salt-and-pepper retinopathy of CRS?",
@@ -134,7 +139,8 @@
      "t": "Retinal detachment",
      "e": "Wrong. Not the stated cause."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "Which skin finding in CRS is described as blueberry muffin?",
@@ -156,7 +162,8 @@
      "t": "Purpura",
      "e": "Correct. Skin purpura."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "When does jaundice appear in CRS?",
@@ -178,7 +185,8 @@
      "t": "At 3 months",
      "e": "Wrong. Too late."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "What is the treatment of CRS?",
@@ -200,7 +208,8 @@
      "t": "Penicillin",
      "e": "Wrong. For syphilis."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "How is the mother infected with rubella and the fetus?",
@@ -222,7 +231,8 @@
      "t": "Mother by fecal-oral route; fetus by breast milk",
      "e": "Wrong. Not rubella."
     }
-   ]
+   ],
+   "topic": "Rubella"
   },
   {
    "q": "What is the prevalence of congenital CMV in newborns worldwide?",
@@ -244,7 +254,8 @@
      "t": "About 0.01%",
      "e": "Wrong. Too low."
     }
-   ]
+   ],
+   "topic": "Cytomegalovirus"
   },
   {
    "q": "Which describes CMV?",
@@ -266,7 +277,8 @@
      "t": "Parvovirus replicating in erythroid cells",
      "e": "Wrong. Not CMV."
     }
-   ]
+   ],
+   "topic": "Cytomegalovirus"
   },
   {
    "q": "What is the mother-to-fetus transmission rate of CMV?",
@@ -288,7 +300,8 @@
      "t": "30-70%",
      "e": "Correct. Stated range."
     }
-   ]
+   ],
+   "topic": "Cytomegalovirus"
   },
   {
    "q": "Which maternal pattern transmits CMV?",
@@ -310,7 +323,8 @@
      "t": "Only chronic carriage in the cervix",
      "e": "Wrong. Not a stated pattern."
     }
-   ]
+   ],
+   "topic": "Cytomegalovirus"
   },
   {
    "q": "What is the status of most infants with congenital CMV at birth?",
@@ -332,7 +346,8 @@
      "t": "Hepatosplenomegaly",
      "e": "Wrong. Only in symptomatic infants."
     }
-   ]
+   ],
+   "topic": "Cytomegalovirus"
   },
   {
    "q": "What is the most common complication of congenital CMV?",
@@ -354,7 +369,8 @@
      "t": "Cataract",
      "e": "Wrong. A CRS feature."
     }
-   ]
+   ],
+   "topic": "Cytomegalovirus"
   },
   {
    "q": "Which finding is rare in CMV and indistinguishable from Zika by examination?",
@@ -376,7 +392,8 @@
      "t": "Hepatitis",
      "e": "Wrong. Not specific."
     }
-   ]
+   ],
+   "topic": "Cytomegalovirus"
   },
   {
    "q": "What is the genome and typical type in congenital herpes syndrome?",
@@ -398,7 +415,8 @@
      "t": "Single-stranded DNA; mostly HSV type 2",
      "e": "Wrong. HSV has double-stranded DNA."
     }
-   ]
+   ],
+   "topic": "Herpes simplex"
   },
   {
    "q": "When is the transmission risk of HSV highest?",
@@ -420,7 +438,8 @@
      "t": "Vaccination in pregnancy",
      "e": "Wrong. Not a risk."
     }
-   ]
+   ],
+   "topic": "Herpes simplex"
   },
   {
    "q": "Which agent among rubella, CMV and HSV has a specific antiviral treatment?",
@@ -442,7 +461,8 @@
      "t": "All three",
      "e": "Wrong. Only HSV."
     }
-   ]
+   ],
+   "topic": "Herpes simplex"
   }
  ]
 }

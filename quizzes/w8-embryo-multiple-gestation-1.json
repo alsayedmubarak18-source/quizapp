@@ -24,7 +24,8 @@
      "t": "Dizygotic",
      "e": "Correct. Dizygotic twins make up about 70% of twins."
     }
-   ]
+   ],
+   "topic": "Twin types"
   },
   {
    "q": "What proportion of twins is dizygotic?",
@@ -46,7 +47,8 @@
      "t": "70%",
      "e": "Correct. About 70%."
     }
-   ]
+   ],
+   "topic": "Twin types"
   },
   {
    "q": "What is the incidence of dizygotic twins per 1000 births?",
@@ -68,7 +70,8 @@
      "t": "15-20",
      "e": "Wrong. Too high."
     }
-   ]
+   ],
+   "topic": "Twin types"
   },
   {
    "q": "Dizygotic twins arise from how many ova and sperms?",
@@ -90,7 +93,8 @@
      "t": "2 ova and 2 sperms",
      "e": "Correct. Two ova are fertilized by two sperms."
     }
-   ]
+   ],
+   "topic": "Twin types"
   },
   {
    "q": "Which set of features describes dizygotic twins?",
@@ -112,7 +116,8 @@
      "t": "Same appearance, different sex, 2 placentae",
      "e": "Wrong. Appearance differs and sex can differ only in dizygotic twins."
     }
-   ]
+   ],
+   "topic": "Twin types"
   },
   {
    "q": "Which twin type is always of the same sex and looks identical?",
@@ -134,7 +139,8 @@
      "t": "Dichorionic diamnionic dizygotic",
      "e": "Wrong. This is dizygotic and may differ."
     }
-   ]
+   ],
+   "topic": "Twin types"
   },
   {
    "q": "What is the incidence of monozygotic twins per 1000 births?",
@@ -156,7 +162,8 @@
      "t": "3-4",
      "e": "Correct. Stated incidence."
     }
-   ]
+   ],
+   "topic": "Twin types"
   },
   {
    "q": "A monozygotic twin pregnancy has 2 placentae, 2 chorions and 2 amnions. When did separation occur?",
@@ -178,7 +185,8 @@
      "t": "After the germ disc stage",
      "e": "Wrong. Late separation leads to conjoined twins."
     }
-   ]
+   ],
+   "topic": "Placentation of monozygotic twins"
   },
   {
    "q": "Separation at the blastula stage gives which membranes?",
@@ -200,7 +208,8 @@
      "t": "2 placentae, 1 chorion, 2 amnions",
      "e": "Wrong. Not a described arrangement."
     }
-   ]
+   ],
+   "topic": "Placentation of monozygotic twins"
   },
   {
    "q": "Separation at the germ disc stage gives which membranes?",
@@ -222,7 +231,8 @@
      "t": "1 placenta, 2 chorions, 1 amnion",
      "e": "Wrong. Not a described arrangement."
     }
-   ]
+   ],
+   "topic": "Placentation of monozygotic twins"
   },
   {
    "q": "Which is the correct order from earliest to latest stage of monozygotic separation?",
@@ -244,7 +254,8 @@
      "t": "Morula, germ disc, blastula",
      "e": "Wrong. The blastula precedes the germ disc."
     }
-   ]
+   ],
+   "topic": "Placentation of monozygotic twins"
   },
   {
    "q": "What proportion of premature babies are twins?",
@@ -266,7 +277,8 @@
      "t": "50%",
      "e": "Wrong. Too high."
     }
-   ]
+   ],
+   "topic": "Twin complications"
   },
   {
    "q": "What is the perinatal mortality in twins compared with singletons?",
@@ -288,7 +300,8 @@
      "t": "10-20% versus 2%",
      "e": "Correct. Stated values."
     }
-   ]
+   ],
+   "topic": "Twin complications"
   },
   {
    "q": "What proportion of women pregnant with twins give birth to two infants?",
@@ -310,7 +323,8 @@
      "t": "10%",
      "e": "Wrong. Too low."
     }
-   ]
+   ],
+   "topic": "Twin complications"
   },
   {
    "q": "One twin dies in the 1st or early 2nd trimester and is completely absorbed. What is this called?",
@@ -332,7 +346,8 @@
      "t": "Twin-twin transfusion",
      "e": "Wrong. Not described."
     }
-   ]
+   ],
+   "topic": "Twin complications"
   },
   {
    "q": "A twin dies in the 2nd trimester and is crushed and flattened between the membranes. What is this called?",
@@ -354,7 +369,8 @@
      "t": "Pygopagus",
      "e": "Wrong. This is conjoined twins back to back."
     }
-   ]
+   ],
+   "topic": "Twin complications"
   },
   {
    "q": "What is the cause of conjoined twins?",
@@ -376,7 +392,8 @@
      "t": "Fusion of two blastocysts",
      "e": "Wrong. Not the stated cause."
     }
-   ]
+   ],
+   "topic": "Conjoined twins"
   },
   {
    "q": "Conjoined twins fused at the head are called?",
@@ -398,7 +415,8 @@
      "t": "Omphalopagus",
      "e": "Wrong. Not listed in the lecture."
     }
-   ]
+   ],
+   "topic": "Conjoined twins"
   },
   {
    "q": "Conjoined twins fused at the thorax are called?",
@@ -420,7 +438,8 @@
      "t": "Ischiopagus",
      "e": "Wrong. Not listed in the lecture."
     }
-   ]
+   ],
+   "topic": "Conjoined twins"
   },
   {
    "q": "Conjoined twins fused back to back at the buttocks are called?",
@@ -442,7 +461,8 @@
      "t": "Parapagus",
      "e": "Wrong. Not listed in the lecture."
     }
-   ]
+   ],
+   "topic": "Conjoined twins"
   }
  ]
 }

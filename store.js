@@ -58,6 +58,15 @@ async function makeFirebase(cfg) {
       return F.onSnapshot(F.query(col('scores'), F.where('quizId', '==', quizId), F.limit(1000)), s => cb(s.docs.map(d => d.data())));
     },
 
+    saveAttempt(a) { return F.addDoc(col('attempts'), clean({ ...a, uid: user.uid })); },
+    async fetchAttemptsByKey(key) {
+      const s = await F.getDocs(F.query(col('attempts'), F.where('key', '==', key), F.limit(500)));
+      return s.docs.map(d => d.data());
+    },
+    watchAttempts(cb, err) {
+      return F.onSnapshot(F.query(col('attempts'), F.limit(5000)), s => cb(s.docs.map(d => d.data())), err);
+    },
+
     createGame(code, g) { return F.setDoc(F.doc(fs, 'games', code), clean({ ...g, hostUid: user.uid, createdAt: Date.now() })); },
     updateGame(code, p) { return F.updateDoc(F.doc(fs, 'games', code), clean(p)); },
     watchGame(code, cb) { return F.onSnapshot(F.doc(fs, 'games', code), s => cb(s.exists() ? s.data() : null)); },
@@ -118,6 +127,10 @@ function makeDemo() {
     async getMyScore(quizId) { return read().scores[quizId + '_' + uid] || null; },
     async submitScore(s) { write(d => { d.scores[s.quizId + '_' + uid] = { ...s, uid, at: Date.now() }; }); },
     watchScores(quizId, cb) { return watch(d => Object.values(d.scores).filter(s => s.quizId === quizId), cb); },
+
+    async saveAttempt(a) { write(d => { (d.attempts = d.attempts || []).push({ ...clone(a), uid }); }); },
+    async fetchAttemptsByKey(key) { return (read().attempts || []).filter(a => a.key === key); },
+    watchAttempts(cb) { return watch(d => d.attempts || [], cb); },
 
     async createGame(code, g) { write(d => { d.games[code] = clone({ ...g, hostUid: uid, createdAt: Date.now() }); d.players[code] = {}; }); },
     async updateGame(code, p) { write(d => { if (d.games[code]) Object.assign(d.games[code], clone(p)); }); },
