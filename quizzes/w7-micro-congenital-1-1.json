@@ -1,0 +1,448 @@
+{
+ "id": "w7-micro-congenital-1-1",
+ "title": "Congenital Infections (1): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w7-microbiology-congenital-1",
+ "questions": [
+  {
+   "q": "According to the lecture, which trimester of infection generally gives the worst outcome, with the exception of HSV?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Second trimester",
+     "e": "Wrong. Early infection, when organs form, is worse."
+    },
+    {
+     "t": "Third trimester",
+     "e": "Wrong. Third-trimester infection is generally less damaging, except HSV."
+    },
+    {
+     "t": "Periconceptional period only",
+     "e": "Wrong. The lecture singles out the first trimester."
+    },
+    {
+     "t": "First trimester",
+     "e": "Correct. With the exception of HSV, infections during the first trimester have the worst outcome."
+    }
+   ]
+  },
+  {
+   "q": "A neonate is infected at birth by the herpes virus. Which type is most often responsible, and why?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "HSV-1, because it predominantly causes genital infection",
+     "e": "Wrong. HSV-2 is the predominant genital type."
+    },
+    {
+     "t": "HSV-2, because it is transmitted by Aedes mosquitoes",
+     "e": "Wrong. HSV is not mosquito-borne."
+    },
+    {
+     "t": "HSV-1, because it is acquired from the placenta only",
+     "e": "Wrong. Newborn disease is mostly acquired from the genital tract."
+    },
+    {
+     "t": "HSV-2, because it predominantly causes genital infection",
+     "e": "Correct. Newborns usually acquire HSV-2 from the maternal genital tract."
+    }
+   ]
+  },
+  {
+   "q": "In which situation is rubella infection common, according to the lecture?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "In countries with universal maternal screening",
+     "e": "Wrong. Screening is not what drives rubella prevalence."
+    },
+    {
+     "t": "Only in tropical regions with Aedes mosquitoes",
+     "e": "Wrong. Rubella is not mosquito-borne."
+    },
+    {
+     "t": "In countries where mothers are unvaccinated",
+     "e": "Correct. Rubella remains common where maternal vaccination is lacking."
+    },
+    {
+     "t": "Only in winter and spring",
+     "e": "Wrong. Seasonality is mentioned for fifth disease."
+    }
+   ]
+  },
+  {
+   "q": "Approximately what proportion of all congenital anomalies is attributed to perinatal infections?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "10% to 15%",
+     "e": "Wrong. This is too high."
+    },
+    {
+     "t": "30% to 70%",
+     "e": "Wrong. This is the Zika transmission rate with maternal infection."
+    },
+    {
+     "t": "20% to 25%",
+     "e": "Wrong. This is too high."
+    },
+    {
+     "t": "2% to 3%",
+     "e": "Correct. About 2% to 3% of congenital anomalies are attributed to perinatal infections."
+    }
+   ]
+  },
+  {
+   "q": "Which list contains only the 'Other' infections named under TORCH in this lecture?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Syphilis, VZV, fifth disease, measles",
+     "e": "Wrong. Measles is among 'other viruses now known', not the listed O group."
+    },
+    {
+     "t": "Syphilis, VZV, fifth disease, HIV",
+     "e": "Correct. These are the 'Other' infections named in the lecture."
+    },
+    {
+     "t": "Syphilis, CMV, fifth disease, HIV",
+     "e": "Wrong. CMV is the C of TORCH."
+    },
+    {
+     "t": "Syphilis, VZV, rubella, HIV",
+     "e": "Wrong. Rubella is the R of TORCH."
+    }
+   ]
+  },
+  {
+   "q": "Which virus is NOT listed among the other viruses now known to cause congenital infections?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Hepatitis E virus",
+     "e": "Wrong. It is listed."
+    },
+    {
+     "t": "Rotavirus",
+     "e": "Correct. It is not listed; the list includes West Nile, measles, enteroviruses, hepatitis E, adenovirus, LCMV and Zika."
+    },
+    {
+     "t": "Lymphocytic choriomeningitis virus",
+     "e": "Wrong. It is listed."
+    },
+    {
+     "t": "Adenovirus",
+     "e": "Wrong. It is listed."
+    }
+   ]
+  },
+  {
+   "q": "A mother with untreated syphilis delivers a baby who is asymptomatic at birth. Within what period can symptoms appear?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only within the first week of life",
+     "e": "Wrong. Symptoms may develop up to two years."
+    },
+    {
+     "t": "Only after five years of age",
+     "e": "Wrong. Symptoms develop in the first two years."
+    },
+    {
+     "t": "Only at birth",
+     "e": "Wrong. Infants are frequently asymptomatic at birth."
+    },
+    {
+     "t": "At any time during the first two years of life",
+     "e": "Correct. Infants are often asymptomatic at birth, with symptoms developing during the first two years."
+    }
+   ]
+  },
+  {
+   "q": "Which description fits Treponema pallidum?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Spirochete and strict human pathogen surviving in warm, moist sites",
+     "e": "Correct. It survives in genitalia, mucous membranes and bloodstream."
+    },
+    {
+     "t": "Gram-positive coccus found in soil",
+     "e": "Wrong. It is a spirochete."
+    },
+    {
+     "t": "Enveloped RNA virus carried by Aedes mosquitoes",
+     "e": "Wrong. This describes Zika virus."
+    },
+    {
+     "t": "Single-stranded DNA virus infecting erythroid progenitors",
+     "e": "Wrong. This describes parvovirus B19."
+    }
+   ]
+  },
+  {
+   "q": "An infant has mucopurulent rhinitis, desquamating maculopapular skin lesions, hepatosplenomegaly and jaundice. What is the most likely diagnosis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Congenital fifth disease",
+     "e": "Wrong. This causes a slapped-cheek rash and anemia."
+    },
+    {
+     "t": "Congenital Zika syndrome",
+     "e": "Wrong. This is defined by microcephaly."
+    },
+    {
+     "t": "Congenital syphilis",
+     "e": "Correct. These are typical features, with bone abnormalities also seen."
+    },
+    {
+     "t": "Congenital VZV syndrome",
+     "e": "Wrong. This has skin lesions with cataracts and neurological defects."
+    }
+   ]
+  },
+  {
+   "q": "What is the treatment of choice for congenital syphilis, and the main infection-control measure?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Penicillin; screening and treating pregnant women",
+     "e": "Correct. Antibiotics, typically penicillin, plus antenatal screening and treatment."
+    },
+    {
+     "t": "Acyclovir; screening and treating pregnant women",
+     "e": "Wrong. Acyclovir is used for VZV."
+    },
+    {
+     "t": "Penicillin; mosquito control",
+     "e": "Wrong. Mosquito control applies to Zika."
+    },
+    {
+     "t": "Supportive care only; good hand hygiene",
+     "e": "Wrong. Syphilis is treated with antibiotics."
+    }
+   ]
+  },
+  {
+   "q": "Which are recognized complications of congenital syphilis?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Microcephaly in all cases, seizures and feeding difficulty",
+     "e": "Wrong. This describes congenital Zika syndrome."
+    },
+    {
+     "t": "Neurosyphilis, blindness, deafness and developmental delay",
+     "e": "Correct. These are the complications listed."
+    },
+    {
+     "t": "Severe maternal anemia needing transfusion",
+     "e": "Wrong. This is fifth disease."
+    },
+    {
+     "t": "Cataracts, cerebellar atrophy and cutaneous scarring",
+     "e": "Wrong. These are features of congenital VZV syndrome."
+    }
+   ]
+  },
+  {
+   "q": "A pregnant woman has a 'slapped cheek' rash with swelling and redness on her arms and legs. Which agent is responsible and which cells does it infect?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Parvovirus B19; hepatocytes",
+     "e": "Wrong. It targets erythroid progenitors."
+    },
+    {
+     "t": "Parvovirus B19; erythroid progenitor cells in bone marrow",
+     "e": "Correct. It causes anemia and rashes, and is a single-stranded DNA virus of Parvoviridae."
+    },
+    {
+     "t": "Rubella virus; erythroid progenitor cells",
+     "e": "Wrong. Slapped cheek is caused by parvovirus B19."
+    },
+    {
+     "t": "Varicella-zoster virus; dorsal root ganglion cells",
+     "e": "Wrong. VZV remains dormant there but does not cause slapped cheek."
+    }
+   ]
+  },
+  {
+   "q": "What is the main management of congenital fifth disease?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Penicillin",
+     "e": "Wrong. This is for syphilis."
+    },
+    {
+     "t": "Acyclovir",
+     "e": "Wrong. This is for VZV."
+    },
+    {
+     "t": "Antiviral against Zika",
+     "e": "Wrong. There is no specific therapy or vaccine for Zika."
+    },
+    {
+     "t": "No specific treatment; most patients recover naturally",
+     "e": "Correct. Severe maternal anemia may require blood transfusion."
+    }
+   ]
+  },
+  {
+   "q": "When is the incidence of fifth disease highest?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "In summer and autumn",
+     "e": "Wrong. Incidence is highest in winter and spring."
+    },
+    {
+     "t": "In winter and spring",
+     "e": "Correct. It is seen worldwide in all ages and races."
+    },
+    {
+     "t": "Only during mosquito season",
+     "e": "Wrong. It is not mosquito-borne."
+    },
+    {
+     "t": "Only in the first month of life",
+     "e": "Wrong. It affects people of all ages."
+    }
+   ]
+  },
+  {
+   "q": "What is the genome and family of varicella-zoster virus?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Single-stranded DNA; Parvoviridae",
+     "e": "Wrong. This is parvovirus B19."
+    },
+    {
+     "t": "Single-stranded RNA; Flaviviridae",
+     "e": "Wrong. This is Zika virus."
+    },
+    {
+     "t": "Double-stranded DNA; Herpesviridae",
+     "e": "Correct. After chickenpox it stays dormant in dorsal root ganglia and reactivates as zoster."
+    },
+    {
+     "t": "Double-stranded DNA; Flaviviridae",
+     "e": "Wrong. Flaviviridae are RNA viruses."
+    }
+   ]
+  },
+  {
+   "q": "A newborn has skin lesions, cataracts, microcephaly and cerebellar atrophy. The mother had chickenpox in pregnancy. Which treatment reduces fetal transmission if given to the mother?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Acyclovir",
+     "e": "Correct. Acyclovir can treat primary maternal infection and reduce fetal transmission."
+    },
+    {
+     "t": "Penicillin",
+     "e": "Wrong. This is for syphilis."
+    },
+    {
+     "t": "Ribavirin",
+     "e": "Wrong. Not named in the lecture."
+    },
+    {
+     "t": "Supportive care only",
+     "e": "Wrong. Antiviral treatment is available for VZV."
+    }
+   ]
+  },
+  {
+   "q": "How can VZV be transmitted?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Airborne droplets, contact with skin lesions, or across the placenta",
+     "e": "Correct. Congenital VZV occurs with primary infection or reactivation in pregnancy."
+    },
+    {
+     "t": "Aedes mosquito bite",
+     "e": "Wrong. This is the main route for Zika."
+    },
+    {
+     "t": "Sexual contact only",
+     "e": "Wrong. This is typical of syphilis."
+    },
+    {
+     "t": "Contaminated blood transfusion only",
+     "e": "Wrong. Not the described route."
+    }
+   ]
+  },
+  {
+   "q": "A newborn from Brazil has microcephaly, seizures and feeding difficulty. What is the causative agent's classification?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Non-enveloped, single-stranded DNA virus (Parvoviridae)",
+     "e": "Wrong. This is parvovirus B19."
+    },
+    {
+     "t": "Double-stranded DNA virus (Herpesviridae)",
+     "e": "Wrong. This is VZV."
+    },
+    {
+     "t": "Enveloped, positive-sense, single-stranded RNA virus (Flaviviridae)",
+     "e": "Correct. Zika shares the family with dengue, West Nile and yellow fever."
+    },
+    {
+     "t": "Spirochete bacterium",
+     "e": "Wrong. This is Treponema pallidum."
+    }
+   ]
+  },
+  {
+   "q": "What is the transmission rate with maternal Zika infection in pregnancy, and what are the main preventive measures?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "30% to 70%; mosquito control, safe sex, donor blood screening",
+     "e": "Correct. There is no specific treatment or vaccine."
+    },
+    {
+     "t": "2% to 3%; penicillin prophylaxis",
+     "e": "Wrong. Penicillin is for syphilis."
+    },
+    {
+     "t": "30% to 70%; vaccination of mothers",
+     "e": "Wrong. There is no vaccine."
+    },
+    {
+     "t": "2% to 3%; acyclovir",
+     "e": "Wrong. Acyclovir is not used for Zika."
+    }
+   ]
+  },
+  {
+   "q": "What is the main route of Zika virus transmission to humans?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Airborne droplets",
+     "e": "Wrong. This is a route for VZV."
+    },
+    {
+     "t": "Ingestion of undercooked meat",
+     "e": "Wrong. This is a route for Toxoplasma."
+    },
+    {
+     "t": "Bite of an infected Aedes mosquito",
+     "e": "Correct. It can also be transmitted congenitally, sexually, by transfusion and by laboratory exposure."
+    },
+    {
+     "t": "Fecal-oral spread",
+     "e": "Wrong. Not a route described for Zika."
+    }
+   ]
+  }
+ ]
+}

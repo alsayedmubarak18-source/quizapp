@@ -1,0 +1,448 @@
+{
+ "id": "w7-gen-mutations-1",
+ "title": "Mutations (Molecular Genetics): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w7-genetics-molecular-gen",
+ "questions": [
+  {
+   "q": "A 45-year-old man with CML has the Philadelphia chromosome in marrow cells but not in skin fibroblasts. How is this abnormality best described?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Germline mutation, t(9;22)(q34;q11)",
+     "e": "Wrong. A germline mutation would be present in all body cells and transmissible."
+    },
+    {
+     "t": "Somatic mutation, t(11;22)(q24;q11)",
+     "e": "Wrong. The Philadelphia chromosome involves chromosomes 9 and 22, not 11 and 22."
+    },
+    {
+     "t": "Germline mutation, t(9;22)(q11;q34)",
+     "e": "Wrong. It is not inherited, and the breakpoints are reversed."
+    },
+    {
+     "t": "Somatic mutation, t(9;22)(q34;q11)",
+     "e": "Correct. It is acquired, present in blood or marrow cells only, and not transmitted to offspring."
+    }
+   ]
+  },
+  {
+   "q": "A man homozygous for a 32-bp deletion in CCR5 remains uninfected despite repeated HIV exposure. What explains this?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "His cells overproduce the CCR5 receptor",
+     "e": "Wrong. A deletion would not cause overproduction."
+    },
+    {
+     "t": "His CCR5 protein is abnormally elongated",
+     "e": "Wrong. Elongation is typical of stop-loss mutations, not this deletion."
+    },
+    {
+     "t": "The deletion is present only in his T cells",
+     "e": "Wrong. It is a germline variant present in all cells."
+    },
+    {
+     "t": "His cells lack the CCR5 receptor",
+     "e": "Correct. Without the receptor, HIV cannot enter the cell; this is a protective mutation."
+    }
+   ]
+  },
+  {
+   "q": "A 6-year-old with dry, scaly skin and extensive freckling burns after minimal sun exposure. Which UV-induced lesion is inadequately repaired in this disorder?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Purine dimers",
+     "e": "Wrong. UV causes dimers between adjacent pyrimidines, not purines."
+    },
+    {
+     "t": "Mismatched bases",
+     "e": "Wrong. Mismatches are repaired by mismatch repair, not by nucleotide excision repair."
+    },
+    {
+     "t": "Pyrimidine dimers",
+     "e": "Correct. In xeroderma pigmentosum nucleotide excision repair fails to remove pyrimidine dimers."
+    },
+    {
+     "t": "Double-strand breaks",
+     "e": "Wrong. UV radiation does not mainly produce double-strand breaks here."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following substitutions is a transition?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A to C",
+     "e": "Wrong. Purine to pyrimidine is a transversion."
+    },
+    {
+     "t": "G to T",
+     "e": "Wrong. Purine to pyrimidine is a transversion."
+    },
+    {
+     "t": "C to A",
+     "e": "Wrong. Pyrimidine to purine is a transversion."
+    },
+    {
+     "t": "A to G",
+     "e": "Correct. Purine for purine (A to G or G to A), or pyrimidine for pyrimidine, is a transition."
+    }
+   ]
+  },
+  {
+   "q": "The codon UCA (serine) changes to UCG (serine). What type of mutation is this?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Missense",
+     "e": "Wrong. A missense change alters the amino acid, for example UCA to UUA (Ser to Leu)."
+    },
+    {
+     "t": "Silent (synonymous)",
+     "e": "Correct. The same amino acid is encoded, usually due to third-position degeneracy of the code."
+    },
+    {
+     "t": "Nonsense",
+     "e": "Wrong. A nonsense change creates a stop codon, for example UCA to UGA."
+    },
+    {
+     "t": "Frameshift",
+     "e": "Wrong. A frameshift needs an insertion or deletion not divisible by three."
+    }
+   ]
+  },
+  {
+   "q": "The codon UCA (serine) changes to UGA. What is the effect?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Missense mutation to a different amino acid",
+     "e": "Wrong. UGA does not code for an amino acid."
+    },
+    {
+     "t": "Nonsense mutation causing premature termination",
+     "e": "Correct. UGA is a stop codon; mRNA is often degraded by nonsense-mediated decay."
+    },
+    {
+     "t": "Silent mutation with serine retained",
+     "e": "Wrong. Serine is no longer encoded."
+    },
+    {
+     "t": "Stop-loss mutation giving an elongated chain",
+     "e": "Wrong. Stop-loss occurs when a normal stop codon is mutated."
+    }
+   ]
+  },
+  {
+   "q": "A patient has sickle cell disease due to GAG to GTG in the beta-globin gene. How is this mutation classified?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Nonsense; glutamic acid replaced by a stop",
+     "e": "Wrong. No stop codon is created."
+    },
+    {
+     "t": "Silent; glutamic acid retained",
+     "e": "Wrong. The amino acid does change."
+    },
+    {
+     "t": "Missense; valine replaced by glutamic acid",
+     "e": "Wrong. The direction is reversed."
+    },
+    {
+     "t": "Missense; glutamic acid replaced by valine",
+     "e": "Correct. Glutamic acid (two carboxyl groups) is replaced by valine (one), changing charge."
+    }
+   ]
+  },
+  {
+   "q": "Cystic fibrosis due to CFTR G542X results from which kind of mutation?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Nonsense",
+     "e": "Correct. G542X means glycine at position 542 is replaced by a stop signal."
+    },
+    {
+     "t": "Missense",
+     "e": "Wrong. A missense change would show a second amino acid, as in G551D."
+    },
+    {
+     "t": "In-frame deletion",
+     "e": "Wrong. In-frame deletion is Phe508del."
+    },
+    {
+     "t": "Frameshift",
+     "e": "Wrong. No loss or gain of nucleotides is implied by G542X."
+    }
+   ]
+  },
+  {
+   "q": "Which description fits CFTR p.Phe508del?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Frameshift deletion of one base pair",
+     "e": "Wrong. A one-base deletion would disrupt the frame."
+    },
+    {
+     "t": "Nonsense substitution at codon 508",
+     "e": "Wrong. Nonsense is typified by G542X."
+    },
+    {
+     "t": "In-frame deletion of three base pairs removing phenylalanine",
+     "e": "Correct. Three adjacent base pairs are lost at codon 508, preserving the reading frame."
+    },
+    {
+     "t": "In-frame insertion of three base pairs",
+     "e": "Wrong. It is a deletion, not an insertion."
+    }
+   ]
+  },
+  {
+   "q": "A boy has severe progressive muscle weakness from a dystrophin deletion that disrupts the reading frame. A different deletion in another patient is in-frame and causes milder disease. Which pair is correct?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Frame disrupted: Duchenne; in-frame: Becker",
+     "e": "Correct. Becker's downstream amino acid sequence is largely normal, explaining the milder phenotype."
+    },
+    {
+     "t": "Frame disrupted: Becker; in-frame: Duchenne",
+     "e": "Wrong. This reverses the pair."
+    },
+    {
+     "t": "Both are Duchenne; severity differs by deletion size only",
+     "e": "Wrong. Reading frame, not size, decides severity."
+    },
+    {
+     "t": "Both are Becker; severity differs by deletion size only",
+     "e": "Wrong. Reading frame decides severity."
+    }
+   ]
+  },
+  {
+   "q": "Which deletion would be expected to cause a frameshift?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Deletion of 3 nucleotides",
+     "e": "Wrong. A multiple of three preserves the frame."
+    },
+    {
+     "t": "Deletion of 4 nucleotides",
+     "e": "Correct. A number not divisible by three disrupts the frame, often giving a premature stop downstream."
+    },
+    {
+     "t": "Deletion of 6 nucleotides",
+     "e": "Wrong. A multiple of three preserves the frame."
+    },
+    {
+     "t": "Deletion of 9 nucleotides",
+     "e": "Wrong. A multiple of three preserves the frame."
+    }
+   ]
+  },
+  {
+   "q": "Hemoglobin Constant Spring has an elongated alpha chain. Which mutation type explains this?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Nonsense mutation at codon 142",
+     "e": "Wrong. Nonsense shortens the chain by premature termination."
+    },
+    {
+     "t": "Stop-loss mutation in the termination codon (codon 142)",
+     "e": "Correct. Mutating the stop codon gives an elongated chain."
+    },
+    {
+     "t": "Frameshift deletion at codon 142",
+     "e": "Wrong. Not the mechanism described for Constant Spring."
+    },
+    {
+     "t": "Silent mutation at codon 142",
+     "e": "Wrong. A silent mutation would not alter chain length."
+    }
+   ]
+  },
+  {
+   "q": "A fetus dies in utero with massive edema, heart failure and severe anemia. Absence of alpha chains is found. What is the usual molecular basis?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Point mutation in the beta-globin gene",
+     "e": "Wrong. This causes beta-chain disease such as sickle cell disease."
+    },
+    {
+     "t": "Splice-site mutation of beta-globin",
+     "e": "Wrong. This is a mechanism for beta-thalassemia."
+    },
+    {
+     "t": "Trinucleotide repeat expansion",
+     "e": "Wrong. Repeat expansions cause Fragile X, Huntington and myotonic dystrophy."
+    },
+    {
+     "t": "Deletions of the alpha-globin genes",
+     "e": "Correct. Alpha-thalassemia is mostly due to deletions from unequal crossover; the severe form causes hydrops fetalis."
+    }
+   ]
+  },
+  {
+   "q": "Achondroplasia due to FGFR3 G380R (rhizomelic shortening, large head, frontal bossing, normal intelligence) is an example of which mutational mechanism?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Loss of function",
+     "e": "Wrong. This reduces or abolishes product, as in CFTR."
+    },
+    {
+     "t": "Gain of function",
+     "e": "Correct. Increased expression or new function of FGFR3 produces the phenotype."
+    },
+    {
+     "t": "Haploinsufficiency",
+     "e": "Wrong. This is half-normal product from a loss-of-function allele, e.g. familial hypercholesterolemia."
+    },
+    {
+     "t": "Dominant-negative",
+     "e": "Wrong. This is a mutant product interfering with the normal allele, e.g. collagen."
+    }
+   ]
+  },
+  {
+   "q": "A heterozygous mutation in a collagen gene produces a mutant chain that interferes with the normal chains, causing osteogenesis imperfecta. Which mechanism is this?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Haploinsufficiency",
+     "e": "Wrong. Here half the product is simply insufficient; the mutant does not interfere."
+    },
+    {
+     "t": "Gain of function",
+     "e": "Wrong. This implies increased activity, as in FGFR3."
+    },
+    {
+     "t": "Dominant-negative",
+     "e": "Correct. Common in dimers and multimers such as collagens."
+    },
+    {
+     "t": "Loss of function in the homozygous state only",
+     "e": "Wrong. Disease occurs in the heterozygote."
+    }
+   ]
+  },
+  {
+   "q": "A patient has raised cholesterol without symptoms but a high risk of premature coronary artery disease; homozygous relatives have xanthomata. Which mechanism explains the heterozygote's phenotype?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Haploinsufficiency",
+     "e": "Correct. Half the normal gene product is not enough; homozygotes are more severely affected."
+    },
+    {
+     "t": "Dominant-negative effect",
+     "e": "Wrong. No interference by a mutant product is described."
+    },
+    {
+     "t": "Gain of function",
+     "e": "Wrong. Activity is reduced, not increased."
+    },
+    {
+     "t": "Stop-loss",
+     "e": "Wrong. This produces an elongated protein and is unrelated."
+    }
+   ]
+  },
+  {
+   "q": "Which pairing of deletion syndrome and locus is correct?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "WAGR syndrome: 11p13",
+     "e": "Correct. Wilms tumor, aniridia, genitourinary abnormalities, retardation."
+    },
+    {
+     "t": "Williams syndrome: 22q11.2",
+     "e": "Wrong. Williams is 7q11; 22q11.2 is DiGeorge."
+    },
+    {
+     "t": "DiGeorge syndrome: 7q11",
+     "e": "Wrong. DiGeorge is 22q11.2."
+    },
+    {
+     "t": "Wolf-Hirschhorn syndrome: 11p13",
+     "e": "Wrong. Wolf-Hirschhorn is 4p."
+    }
+   ]
+  },
+  {
+   "q": "A child has supravalvular aortic stenosis, peripheral pulmonary stenosis, a full lower lip, and is very outgoing. Which deletion is likely?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "22q11.2",
+     "e": "Wrong. DiGeorge: outflow tract defects, thymic and parathyroid hypoplasia, cleft palate."
+    },
+    {
+     "t": "11p13",
+     "e": "Wrong. WAGR: Wilms tumor, aniridia."
+    },
+    {
+     "t": "7q11",
+     "e": "Correct. This is Williams syndrome."
+    },
+    {
+     "t": "4p",
+     "e": "Wrong. Wolf-Hirschhorn: severe learning difficulties, failure to thrive."
+    }
+   ]
+  },
+  {
+   "q": "A newborn has a cardiac outflow tract malformation, hypocalcemia from parathyroid hypoplasia and absent thymus. Which deletion is responsible?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "22q11.2",
+     "e": "Correct. DiGeorge syndrome: heart malformations, thymic and parathyroid hypoplasia, cleft palate."
+    },
+    {
+     "t": "7q11",
+     "e": "Wrong. Williams syndrome."
+    },
+    {
+     "t": "11p13",
+     "e": "Wrong. WAGR syndrome."
+    },
+    {
+     "t": "4p",
+     "e": "Wrong. Wolf-Hirschhorn syndrome."
+    }
+   ]
+  },
+  {
+   "q": "A deletion involving loss of part of a chromosome results in which of the following?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Trisomy for that segment",
+     "e": "Wrong. Trisomy needs extra material, as in duplication."
+    },
+    {
+     "t": "A balanced rearrangement",
+     "e": "Wrong. Deletion removes material, so it is unbalanced."
+    },
+    {
+     "t": "Monosomy for that segment",
+     "e": "Correct. Loss of part of a chromosome gives monosomy for the segment."
+    },
+    {
+     "t": "Triploidy",
+     "e": "Wrong. Triploidy is a whole extra haploid set."
+    }
+   ]
+  }
+ ]
+}

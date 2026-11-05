@@ -1,0 +1,448 @@
+{
+ "id": "w7-bio-signal-transduction-1",
+ "title": "Signal Transduction: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w7-biochemistry-signal-transduction",
+ "questions": [
+  {
+   "q": "Which group of hormones acts through intracellular receptors and is transported in plasma bound to carrier proteins?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Polypeptides and glycoproteins (Group II)",
+     "e": "Wrong. These are hydrophilic, use plasma-membrane receptors and need no transport proteins."
+    },
+    {
+     "t": "Catecholamines (Group II)",
+     "e": "Wrong. Catecholamines are hydrophilic and act on cell surface receptors."
+    },
+    {
+     "t": "Insulin and growth hormone (Group II)",
+     "e": "Wrong. They act through cell surface tyrosine kinase cascades."
+    },
+    {
+     "t": "Steroids, thyroid hormones, calcitriol and retinoids (Group I)",
+     "e": "Correct. Lipophilic Group I hormones use intracellular receptors, travel on transport proteins and have long half-lives."
+    }
+   ]
+  },
+  {
+   "q": "Which feature is found only in Group II hormones and not in Group I hormones?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Effects on gene transcription",
+     "e": "Wrong. Both groups can alter gene transcription."
+    },
+    {
+     "t": "Plasma half-life of hours to days",
+     "e": "Wrong. Long half-life is a Group I feature."
+    },
+    {
+     "t": "Mediation by the receptor-hormone complex",
+     "e": "Wrong. This is the Group I mediator."
+    },
+    {
+     "t": "Effects including protein translocation and protein modification",
+     "e": "Correct. Both groups affect gene transcription, transporters and channels; only Group II also cause protein translocation and modification."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone acts through the cAMP second messenger system?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Atrial natriuretic peptide",
+     "e": "Wrong. ANP uses cGMP."
+    },
+    {
+     "t": "Angiotensin II",
+     "e": "Wrong. Angiotensin II uses the calcium/phosphatidylinositol system."
+    },
+    {
+     "t": "Glucagon",
+     "e": "Correct. Glucagon, ACTH, FSH, LH, TSH, PTH, calcitonin and renal V2 ADH use Gs, adenylyl cyclase and cAMP."
+    },
+    {
+     "t": "Insulin",
+     "e": "Wrong. Insulin uses a tyrosine kinase cascade."
+    }
+   ]
+  },
+  {
+   "q": "After a hormone binds a Gs-coupled receptor, what happens first at the G protein?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "GTP on the alpha subunit is hydrolyzed to GDP",
+     "e": "Wrong. GTP hydrolysis switches the G protein off."
+    },
+    {
+     "t": "Adenylyl cyclase converts ATP to cAMP",
+     "e": "Wrong. This happens after alpha-GTP dissociates and activates the enzyme."
+    },
+    {
+     "t": "Protein kinase A releases its catalytic subunits",
+     "e": "Wrong. This follows the rise in cAMP."
+    },
+    {
+     "t": "GDP on the alpha subunit is replaced by GTP",
+     "e": "Correct. The receptor conformational change is followed by GDP-GTP exchange on the alpha subunit."
+    }
+   ]
+  },
+  {
+   "q": "How does cAMP activate protein kinase A?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It binds the catalytic subunits and phosphorylates them",
+     "e": "Wrong. cAMP binds the regulatory subunits."
+    },
+    {
+     "t": "It binds the regulatory subunits, releasing two active catalytic subunits",
+     "e": "Correct. The freed catalytic subunits phosphorylate substrates using phosphate from ATP."
+    },
+    {
+     "t": "It phosphorylates the regulatory subunits directly",
+     "e": "Wrong. cAMP is an allosteric activator, not a kinase."
+    },
+    {
+     "t": "It binds the receptor and activates adenylyl cyclase",
+     "e": "Wrong. cAMP is made by adenylyl cyclase, not an activator of it."
+    }
+   ]
+  },
+  {
+   "q": "Which enzyme degrades cAMP to AMP and thereby helps terminate the signal?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Protein phosphatase",
+     "e": "Wrong. Phosphatase removes phosphate from the protein substrate."
+    },
+    {
+     "t": "Phosphodiesterase",
+     "e": "Correct. Phosphodiesterase breaks cAMP into AMP."
+    },
+    {
+     "t": "Adenylyl cyclase",
+     "e": "Wrong. This enzyme makes cAMP from ATP."
+    },
+    {
+     "t": "Guanylate cyclase",
+     "e": "Wrong. This enzyme makes cGMP from GTP."
+    }
+   ]
+  },
+  {
+   "q": "Which property of the G protein alpha subunit allows it to switch itself off?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Intrinsic adenylyl cyclase activity",
+     "e": "Wrong. Adenylyl cyclase is a separate effector enzyme."
+    },
+    {
+     "t": "Intrinsic tyrosine kinase activity",
+     "e": "Wrong. This is a feature of the insulin receptor beta chain."
+    },
+    {
+     "t": "Intrinsic phosphodiesterase activity",
+     "e": "Wrong. Phosphodiesterase is a separate enzyme."
+    },
+    {
+     "t": "Intrinsic GTPase activity",
+     "e": "Correct. It hydrolyzes GTP to GDP and then rebinds the beta-gamma subunits."
+    }
+   ]
+  },
+  {
+   "q": "Phospholipase C cleaves PIP2 into which two second messengers?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "DAG and IP3",
+     "e": "Correct. PIP2 (phosphatidylinositol 4,5-bisphosphate) yields diacylglycerol and inositol trisphosphate."
+    },
+    {
+     "t": "cAMP and PKA",
+     "e": "Wrong. cAMP is made by adenylyl cyclase, and PKA is a kinase."
+    },
+    {
+     "t": "PKC and nitric oxide",
+     "e": "Wrong. PKC is a kinase and NO acts via cGMP."
+    },
+    {
+     "t": "cGMP and Ca2+",
+     "e": "Wrong. cGMP is made by guanylate cyclase from GTP."
+    }
+   ]
+  },
+  {
+   "q": "Where does IP3 bind to cause release of calcium?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Its receptor on the plasma membrane",
+     "e": "Wrong. IP3 is a soluble messenger acting inside the cell."
+    },
+    {
+     "t": "The regulatory subunit of protein kinase A",
+     "e": "Wrong. That site binds cAMP."
+    },
+    {
+     "t": "Its receptor on the endoplasmic reticulum",
+     "e": "Correct. IP3 binding on the ER releases Ca2+ into the cytosol."
+    },
+    {
+     "t": "The insulin receptor alpha chain",
+     "e": "Wrong. That binds insulin."
+    }
+   ]
+  },
+  {
+   "q": "Which combination synergistically activates protein kinase C?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Calcium and DAG",
+     "e": "Correct. The C in PKC reflects calcium dependence."
+    },
+    {
+     "t": "Calcium and cAMP",
+     "e": "Wrong. cAMP activates protein kinase A."
+    },
+    {
+     "t": "IP3 and cGMP",
+     "e": "Wrong. IP3 releases calcium; cGMP acts via protein kinase G."
+    },
+    {
+     "t": "DAG and cAMP",
+     "e": "Wrong. cAMP does not activate protein kinase C."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone acts through the phosphatidylinositol/calcium system?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "ACTH",
+     "e": "Wrong. ACTH uses cAMP."
+    },
+    {
+     "t": "Angiotensin II",
+     "e": "Correct. Muscarinic ACh, alpha-1 catecholamines, angiotensin II and extra-renal V1 ADH use this pathway."
+    },
+    {
+     "t": "PTH",
+     "e": "Wrong. PTH uses cAMP."
+    },
+    {
+     "t": "Erythropoietin",
+     "e": "Wrong. Erythropoietin uses a tyrosine kinase cascade."
+    }
+   ]
+  },
+  {
+   "q": "Which pairing of vasopressin receptors and effects is correct?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "V1: cAMP, antidiuresis; V2: phosphatidylinositol/calcium, vasoconstriction",
+     "e": "Wrong. This reverses the pairing."
+    },
+    {
+     "t": "V1: phosphatidylinositol/calcium, vasoconstriction; V2: cAMP, antidiuresis",
+     "e": "Correct. V2 in the kidney acts via adenylyl cyclase and cAMP."
+    },
+    {
+     "t": "V1: cGMP, vasodilatation; V2: cAMP, antidiuresis",
+     "e": "Wrong. V1 does not use cGMP."
+    },
+    {
+     "t": "V1: tyrosine kinase, growth; V2: phosphatidylinositol, antidiuresis",
+     "e": "Wrong. Neither receptor uses a tyrosine kinase cascade."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone's receptor directly activates guanylate cyclase to convert GTP to cGMP?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Glucagon",
+     "e": "Wrong. Glucagon uses cAMP."
+    },
+    {
+     "t": "Growth hormone",
+     "e": "Wrong. GH uses a tyrosine kinase cascade."
+    },
+    {
+     "t": "Vasopressin V1",
+     "e": "Wrong. V1 uses phospholipase C."
+    },
+    {
+     "t": "Atrial natriuretic peptide",
+     "e": "Correct. The ANP receptor itself has guanylate cyclase activity."
+    }
+   ]
+  },
+  {
+   "q": "Which part of the insulin receptor forms the insulin binding site?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The transmembrane beta chain",
+     "e": "Wrong. The beta chain spans the membrane and carries the tyrosine kinase domain."
+    },
+    {
+     "t": "The extracellular alpha chain",
+     "e": "Correct. The alpha chains are extracellular and bind insulin."
+    },
+    {
+     "t": "The intracellular alpha chain",
+     "e": "Wrong. Alpha chains are extracellular."
+    },
+    {
+     "t": "The G protein beta-gamma dimer",
+     "e": "Wrong. The insulin receptor is not G-protein coupled."
+    }
+   ]
+  },
+  {
+   "q": "Which is the correct order of events after insulin binds its receptor?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IRS phosphorylation, beta autophosphorylation, conformational change, kinase activation",
+     "e": "Wrong. IRS phosphorylation follows autophosphorylation."
+    },
+    {
+     "t": "GDP/GTP exchange, adenylyl cyclase activation, cAMP rise, PKA activation",
+     "e": "Wrong. This is the cAMP pathway, not insulin signaling."
+    },
+    {
+     "t": "Conformational change, beta autophosphorylation, IRS phosphorylation, kinase activation",
+     "e": "Correct. Tyrosine autophosphorylation precedes phosphorylation of IRS proteins."
+    },
+    {
+     "t": "PIP2 cleavage, IP3 release, calcium rise, PKC activation",
+     "e": "Wrong. This is the phosphatidylinositol pathway."
+    }
+   ]
+  },
+  {
+   "q": "Which statement correctly pairs an embryonic signaling factor with its receptor system?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "TGF-beta/Nodal: serine/threonine kinase receptors acting through Smad",
+     "e": "Correct. These control left-right axis, dorsal-ventral patterning and gastrulation."
+    },
+    {
+     "t": "FGF: serine/threonine kinase receptors acting through Smad",
+     "e": "Wrong. FGFs signal through receptor tyrosine kinases and MAPK."
+    },
+    {
+     "t": "hCG: receptor tyrosine kinase acting through MAPK",
+     "e": "Wrong. hCG acts through a GPCR and cAMP/PKA."
+    },
+    {
+     "t": "IGF: JAK/STAT",
+     "e": "Wrong. IGFs use RTK with PI3K/Akt; GH and prolactin use JAK/STAT."
+    }
+   ]
+  },
+  {
+   "q": "Which sequence correctly describes the Ras/MAPK branch of FGF receptor signaling?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "GRB2, SOS, RAS, RAF, MAPKK, MAPK, AP-1",
+     "e": "Correct. RAS is converted from GDP-bound to GTP-bound form, ending with the transcription factor AP-1."
+    },
+    {
+     "t": "PI3K, PDK, AKT, TSC1/2, RHEB, mTOR",
+     "e": "Wrong. This is the PI3K/Akt branch."
+    },
+    {
+     "t": "Gs, adenylyl cyclase, cAMP, PKA",
+     "e": "Wrong. This is the cAMP pathway."
+    },
+    {
+     "t": "Phospholipase C, DAG, IP3, PKC",
+     "e": "Wrong. This is the phosphatidylinositol pathway."
+    }
+   ]
+  },
+  {
+   "q": "Which protein opposes the PI3K/Akt branch by reversing PIP2 to PIP3 conversion?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "RAF",
+     "e": "Wrong. RAF belongs to the Ras/MAPK branch."
+    },
+    {
+     "t": "RHEB",
+     "e": "Wrong. RHEB activates mTOR downstream of Akt."
+    },
+    {
+     "t": "PTEN",
+     "e": "Correct. PTEN opposes this branch."
+    },
+    {
+     "t": "SOS",
+     "e": "Wrong. SOS activates RAS in the MAPK branch."
+    }
+   ]
+  },
+  {
+   "q": "Which hypothalamic hormone is a cyclic peptide that inhibits GH and TSH?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Somatostatin",
+     "e": "Correct. It is a 14-amino-acid cyclic peptide inhibiting GH, TSH and gut, pancreatic and gastric secretion."
+    },
+    {
+     "t": "TRH",
+     "e": "Wrong. TRH is a tripeptide that stimulates TSH and prolactin."
+    },
+    {
+     "t": "GnRH",
+     "e": "Wrong. GnRH is a decapeptide releasing LH and FSH."
+    },
+    {
+     "t": "GHRH",
+     "e": "Wrong. GHRH stimulates GH secretion."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone acts through a tyrosine kinase cascade rather than a G protein?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "TSH",
+     "e": "Wrong. TSH uses Gs and cAMP."
+    },
+    {
+     "t": "Calcitonin",
+     "e": "Wrong. Calcitonin uses cAMP."
+    },
+    {
+     "t": "Erythropoietin",
+     "e": "Correct. Insulin, GH, prolactin and erythropoietin use receptor tyrosine kinase cascades."
+    },
+    {
+     "t": "Muscarinic acetylcholine",
+     "e": "Wrong. It uses the phosphatidylinositol/calcium system."
+    }
+   ]
+  }
+ ]
+}

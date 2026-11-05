@@ -1,0 +1,448 @@
+{
+ "id": "w7-para-toxoplasma-1",
+ "title": "Toxoplasmosis: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w7-parasitology-toxoplasma",
+ "questions": [
+  {
+   "q": "Which of the following lists correctly gives the four named members of the TORCH complex?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Toxoplasma, Rubella, Cytomegalovirus, Varicella-zoster virus",
+     "e": "Wrong. Varicella (chickenpox) is listed under 'O' (other infections), not under H."
+    },
+    {
+     "t": "Treponema, Rubella, Cytomegalovirus, Herpes simplex virus",
+     "e": "Wrong. Treponema is not the 'T' of TORCH; the T is Toxoplasma."
+    },
+    {
+     "t": "Toxoplasma, Rubeola, Cytomegalovirus, Herpes simplex virus",
+     "e": "Wrong. Rubeola is measles; the R of TORCH is Rubella (German measles)."
+    },
+    {
+     "t": "Toxoplasma, Rubella, Cytomegalovirus, Herpes simplex virus",
+     "e": "Correct. T = Toxoplasma gondii, R = Rubella, C = Cytomegalovirus, H = Herpes simplex virus; O stands for 'Other' infections."
+    }
+   ]
+  },
+  {
+   "q": "The only known definitive hosts of Toxoplasma gondii belong to which family?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Felidae",
+     "e": "Correct. Only cats and their relatives support the sexual cycle and shed oocysts in feces."
+    },
+    {
+     "t": "Canidae",
+     "e": "Wrong. Dogs are not definitive hosts of T. gondii."
+    },
+    {
+     "t": "Muridae",
+     "e": "Wrong. Rodents are intermediate hosts that carry tissue cysts."
+    },
+    {
+     "t": "Suidae",
+     "e": "Wrong. Pigs are intermediate hosts; their meat can contain tissue cysts."
+    }
+   ]
+  },
+  {
+   "q": "A cat sheds Toxoplasma in its feces. Which stage is shed, and how long does it need in the environment to become infective?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Mature oocysts; infective immediately",
+     "e": "Wrong. Freshly shed oocysts are not yet infective; that is why daily litter changing works."
+    },
+    {
+     "t": "Immature oocysts; 1 to 5 days",
+     "e": "Correct. Oocysts are shed immature and need 1 to 5 days in the environment to become infective."
+    },
+    {
+     "t": "Tissue cysts; 1 to 5 days",
+     "e": "Wrong. Tissue cysts are found in the tissues of intermediate hosts, not shed in cat feces."
+    },
+    {
+     "t": "Tachyzoites; 1 to 5 days",
+     "e": "Wrong. Tachyzoites are the rapidly dividing tissue stage, not the stage shed in feces."
+    }
+   ]
+  },
+  {
+   "q": "Currently recommended drugs for toxoplasmosis act mainly on which stage of the parasite?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bradyzoite within tissue cysts",
+     "e": "Wrong. This is exactly the stage the drugs fail to eradicate; it persists inside tissue cysts."
+    },
+    {
+     "t": "Oocyst",
+     "e": "Wrong. Oocysts are the environmental stage shed by cats, not a drug target in the patient."
+    },
+    {
+     "t": "Sporozoite",
+     "e": "Wrong. This is not the stage targeted by anti-toxoplasma drugs."
+    },
+    {
+     "t": "Tachyzoite",
+     "e": "Correct. The drugs target tachyzoites and do not eradicate encysted parasites, so the infection is never completely cleared."
+    }
+   ]
+  },
+  {
+   "q": "A 26-year-old woman at 10 weeks of gestation ate undercooked lamb. Which form of the parasite in the meat is responsible for her infection?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Immature oocyst",
+     "e": "Wrong. Immature oocysts are in cat feces and are not yet infective."
+    },
+    {
+     "t": "Tissue cyst containing bradyzoites",
+     "e": "Correct. Undercooked meat of infected animals harbours tissue cysts, one of the main routes of human infection."
+    },
+    {
+     "t": "Free tachyzoite on the meat surface",
+     "e": "Wrong. Tachyzoites are the dividing stage inside cells, not the form that survives in meat."
+    },
+    {
+     "t": "Mature oocyst in the muscle",
+     "e": "Wrong. Oocysts are produced in the cat intestine; muscle contains tissue cysts."
+    }
+   ]
+  },
+  {
+   "q": "A pregnant woman cannot avoid changing her cat's litter box. Which advice best reduces her risk?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Change the litter once a week and wear gloves",
+     "e": "Wrong. Weekly changing lets oocysts mature to the infective stage."
+    },
+    {
+     "t": "Change the litter daily, wear disposable gloves and wash hands afterwards",
+     "e": "Correct. Oocysts are not infectious until 1 to 5 days after shedding, so daily changing removes them before they become infective."
+    },
+    {
+     "t": "Feed the cat raw meat to keep it healthy and keep it indoors",
+     "e": "Wrong. Raw or undercooked meat is a source of tissue cysts; cats should eat dry or canned food."
+    },
+    {
+     "t": "Let the cat roam outdoors and wash hands after contact",
+     "e": "Wrong. Cats should be kept indoors; outdoor cats hunt rodents and birds and acquire the parasite."
+    }
+   ]
+  },
+  {
+   "q": "Which statement best describes toxoplasmosis in an immunocompetent adult?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Most patients develop cervical lymphadenopathy and a flu-like illness",
+     "e": "Wrong. Only 10% to 20% of acute infections cause lymphadenopathy or flu-like illness."
+    },
+    {
+     "t": "Most patients develop meningoencephalitis with multiple small abscesses",
+     "e": "Wrong. This is the typical picture in immunocompromised patients, especially AIDS."
+    },
+    {
+     "t": "Up to 95% of infected people have no symptoms and carry inactive tissue cysts",
+     "e": "Correct. The parasite stays latent and can reactivate if the person later becomes immunosuppressed."
+    },
+    {
+     "t": "Most patients completely clear the parasite and have no tissue cysts",
+     "e": "Wrong. Tissue cysts remain in muscle, myocardium, brain and eyes, possibly for life."
+    }
+   ]
+  },
+  {
+   "q": "A 35-year-old woman with advanced AIDS presents with fever, headache, confusion and seizures. Imaging shows multiple small circular abscesses in the brain. What is the most likely presentation of Toxoplasma in this setting?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Destructive meningoencephalitis",
+     "e": "Correct. This is the most common presentation of toxoplasmosis in severely immunosuppressed patients."
+    },
+    {
+     "t": "Isolated cervical lymphadenopathy",
+     "e": "Wrong. This occurs in a minority of immunocompetent patients with acute infection."
+    },
+    {
+     "t": "Isolated retinochoroiditis",
+     "e": "Wrong. Ocular disease is typical of congenital infection reactivating in the second or third decade."
+    },
+    {
+     "t": "Myocarditis only",
+     "e": "Wrong. The heart can be involved, but the most common presentation is CNS disease."
+    }
+   ]
+  },
+  {
+   "q": "A newborn has hydrocephalus, intracranial calcifications and chorioretinitis. Her mother had an infection acquired in pregnancy. Which organism is most likely responsible?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cytomegalovirus",
+     "e": "Wrong. CMV classically gives microcephaly with periventricular calcifications, not hydrocephalus with chorioretinitis."
+    },
+    {
+     "t": "Rubella virus",
+     "e": "Wrong. Rubella gives the triad of cataract, deafness and heart defects."
+    },
+    {
+     "t": "Herpes simplex virus",
+     "e": "Wrong. HSV usually gives skin, eye and mouth lesions or disseminated disease, mostly at delivery."
+    },
+    {
+     "t": "Toxoplasma gondii",
+     "e": "Correct. Infection in the second trimester may cause hydrocephalus, intracranial calcification and other nervous system damage, with eye lesions."
+    }
+   ]
+  },
+  {
+   "q": "Eye lesions from congenital toxoplasmosis are often not identified at birth. When do they typically present?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "At birth",
+     "e": "Wrong. They are often not identified at birth."
+    },
+    {
+     "t": "During early infancy only",
+     "e": "Wrong. Most symptoms appear in the first year, but eye disease continues to develop into the second or third decade."
+    },
+    {
+     "t": "In the second or third decade of life",
+     "e": "Correct. Eye lesions reactivate months or years later, usually in the second or third decade, as retinochoroiditis."
+    },
+    {
+     "t": "After the age of 50",
+     "e": "Wrong. Reactivation is typically seen in the second or third decade."
+    }
+   ]
+  },
+  {
+   "q": "Up to what percentage of children infected in utero develop decreased quality of vision?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "20%",
+     "e": "Wrong. This is close to the lower limit of the 20% to 80% range quoted for eye lesions reactivating later."
+    },
+    {
+     "t": "50%",
+     "e": "Wrong. Not the figure given in the lecture."
+    },
+    {
+     "t": "85%",
+     "e": "Correct. Up to 85% of children infected in utero develop decreased vision, usually revealed in the first year but progressing until the second or third decade."
+    },
+    {
+     "t": "95%",
+     "e": "Wrong. 95% is the proportion of infected people in the general population who have no symptoms."
+    }
+   ]
+  },
+  {
+   "q": "A woman was infected with Toxoplasma several years before she became pregnant. What is the risk of transmitting the infection to her fetus?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The fetus is infected in every pregnancy",
+     "e": "Wrong. Fetal infection follows infection acquired during or just before pregnancy."
+    },
+    {
+     "t": "Transmission does not occur because the exposure was before pregnancy",
+     "e": "Correct. Women exposed to the parasite before pregnancy do not transmit the infection to the fetus."
+    },
+    {
+     "t": "The fetus is infected only in the third trimester",
+     "e": "Wrong. Timing matters for new infections, but past infection does not give fetal infection."
+    },
+    {
+     "t": "The fetus is infected only if the mother is breastfeeding",
+     "e": "Wrong. Breast milk transmission is theoretical and very unlikely, and not relevant before pregnancy."
+    }
+   ]
+  },
+  {
+   "q": "A pregnant woman's serology shows a high IgM titre against Toxoplasma. How is this result interpreted?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Old (past) infection",
+     "e": "Wrong. Old infection is accompanied by raised IgG."
+    },
+    {
+     "t": "Protective immunity after vaccination",
+     "e": "Wrong. There is no vaccine against toxoplasmosis."
+    },
+    {
+     "t": "Latent infection that cannot reach the fetus",
+     "e": "Wrong. A raised IgM means active infection, which can be transmitted to the fetus."
+    },
+    {
+     "t": "Active (recent) infection",
+     "e": "Correct. A raised IgM indicates active infection, while a raised IgG indicates old infection."
+    }
+   ]
+  },
+  {
+   "q": "Which investigation is most useful to detect possible congenital transmission to the fetus?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Maternal IgG titre alone",
+     "e": "Wrong. Maternal IgG indicates exposure, not fetal infection."
+    },
+    {
+     "t": "PCR for parasite DNA in the amniotic fluid",
+     "e": "Correct. PCR on amniotic fluid (often at 18 weeks) shows whether the fetus is infected."
+    },
+    {
+     "t": "Tachyzoites in maternal CSF",
+     "e": "Wrong. CSF and lymph node aspirates show tachyzoites in active infection, but do not answer the fetal question."
+    },
+    {
+     "t": "Oocysts in maternal stool",
+     "e": "Wrong. Oocysts are shed only in the stool of cats, not of humans."
+    }
+   ]
+  },
+  {
+   "q": "What is the drug of choice for infants with severe congenital toxoplasmosis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Pyrimethamine",
+     "e": "Correct. Pyrimethamine is the most effective drug, given with a sulfonamide and leucovorin."
+    },
+    {
+     "t": "Spiramycin",
+     "e": "Wrong. Spiramycin is used in pregnancy to reduce transmission to the fetus, not as the main drug for infected infants."
+    },
+    {
+     "t": "Clindamycin",
+     "e": "Wrong. It is an alternative second drug for patients hypersensitive to sulfa drugs."
+    },
+    {
+     "t": "Sulfadiazine",
+     "e": "Wrong. It is the partner drug that must be added to pyrimethamine, not the main agent."
+    }
+   ]
+  },
+  {
+   "q": "Pyrimethamine causes dose-related bone marrow suppression. Which agent is given with it to protect the marrow?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Folinic acid (leucovorin)",
+     "e": "Correct. Pyrimethamine is a folic acid antagonist; leucovorin protects the bone marrow from its toxic effects."
+    },
+    {
+     "t": "Folic acid",
+     "e": "Wrong. The agent named for marrow protection is folinic acid, not plain folic acid."
+    },
+    {
+     "t": "Vitamin B12",
+     "e": "Wrong. It is not used to prevent pyrimethamine toxicity."
+    },
+    {
+     "t": "Sulfadiazine",
+     "e": "Wrong. It is the partner drug, not a marrow protector."
+    }
+   ]
+  },
+  {
+   "q": "A woman is diagnosed with acute toxoplasmosis at 14 weeks of gestation. There is no documented or suspected fetal infection. Which treatment is recommended?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Pyrimethamine, sulfadiazine and folinic acid",
+     "e": "Wrong. This regimen is for infection at or after 18 weeks, or when fetal infection is documented or suspected."
+    },
+    {
+     "t": "Pyrimethamine alone",
+     "e": "Wrong. Pyrimethamine must be combined with a second drug."
+    },
+    {
+     "t": "No treatment because most healthy people recover",
+     "e": "Wrong. That applies to non-pregnant healthy people, not to pregnancy."
+    },
+    {
+     "t": "Spiramycin",
+     "e": "Correct. Spiramycin is recommended when infection is acquired and diagnosed before 18 weeks and fetal infection is not suspected; it reduces transmission, best if started within 8 weeks of seroconversion."
+    }
+   ]
+  },
+  {
+   "q": "A woman is diagnosed with toxoplasmosis at 24 weeks of gestation, and PCR of the amniotic fluid is positive. Which regimen is recommended?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Spiramycin alone",
+     "e": "Wrong. Spiramycin is for infection before 18 weeks with no evidence of fetal infection."
+    },
+    {
+     "t": "Pyrimethamine and folic acid",
+     "e": "Wrong. A second anti-parasitic drug and folinic acid are required."
+    },
+    {
+     "t": "Pyrimethamine, sulfadiazine and folinic acid",
+     "e": "Correct. This triple regimen is used for infection acquired at or after 18 weeks, or when fetal infection is documented or suspected."
+    },
+    {
+     "t": "Clindamycin alone",
+     "e": "Wrong. Clindamycin is only an alternative for the sulfa component."
+    }
+   ]
+  },
+  {
+   "q": "A patient with AIDS on pyrimethamine and sulfadiazine for cerebral toxoplasmosis develops a hypersensitivity rash to the sulfonamide. Which drug replaces it?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Clindamycin",
+     "e": "Correct. Clindamycin is the alternative second drug when the patient is hypersensitive to sulfa drugs."
+    },
+    {
+     "t": "Spiramycin",
+     "e": "Wrong. It is used in pregnancy to reduce fetal transmission, not as a sulfa replacement in AIDS."
+    },
+    {
+     "t": "Leucovorin",
+     "e": "Wrong. It protects the bone marrow and is not an anti-parasitic drug."
+    },
+    {
+     "t": "Metronidazole",
+     "e": "Wrong. It is not part of the recommended regimens for toxoplasmosis."
+    }
+   ]
+  },
+  {
+   "q": "Which description best fits Toxoplasma gondii?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Facultative intracellular bacterium",
+     "e": "Wrong. Toxoplasma is a protozoan, not a bacterium."
+    },
+    {
+     "t": "Extracellular blood fluke",
+     "e": "Wrong. It is not a helminth and lives inside host cells."
+    },
+    {
+     "t": "Obligate intracellular protozoan with a crescent shape",
+     "e": "Correct. The name comes from the crescent shape (toxon = arc) and the organism is an obligate intracellular protozoan."
+    },
+    {
+     "t": "Obligate intracellular virus",
+     "e": "Wrong. It is a eukaryotic protozoan, not a virus."
+    }
+   ]
+  }
+ ]
+}
