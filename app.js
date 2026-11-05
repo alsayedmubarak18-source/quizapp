@@ -462,6 +462,7 @@ const weekQuizCount = w => w.items.reduce((t, i) => t + quizzesOf(i.k).length, 0
 const quizCard = (z, ret) => `
   <article class="card qitem"><h3 dir="auto">${esc(z.title)}</h3><p class="meta">${z.questions.length} سؤال</p>
     <div class="row"><button class="btn primary small" data-act="start" data-id="${z.id}" data-ret="${ret}">ابدأ</button>
+    <button class="btn small" data-act="startexam" data-id="${z.id}" data-ret="${ret}" dir="ltr">🕒 Exam</button>
     <button class="btn small" data-act="board" data-id="${z.id}" data-ret="${ret}">الترتيب</button>
     <button class="btn small" data-act="pdf" data-id="${z.id}" dir="ltr">📄 PDF</button></div></article>`;
 
@@ -880,7 +881,7 @@ $app.addEventListener('click', async e => {
     case 'slogin': await studentLogin(); break;
     case 'slogout': PG.clearProfile(); S.profile = null; S.att = []; S.name = ''; go('home'); break;
     case 'startq': { const z = S.quizzes.find(x => x.id === id); if (z) { S.ret = 'perf'; startSolo(z); } break; }
-    case 'startexam': { const z = S.quizzes.find(x => x.id === id); if (z) { S.ret = 'quizzes'; startExam(z); } break; }
+    case 'startexam': { const z = S.quizzes.find(x => x.id === id); if (z) { S.ret = b.dataset.ret || 'quizzes'; startExam(z); } break; }
     case 'xpick': { const p = S.play; p.ans[p.i] = oi; render(); break; }
     case 'xprev': S.play.i = Math.max(0, S.play.i - 1); render(); window.scrollTo(0, 0); break;
     case 'xnext': S.play.i = Math.min(S.play.qs.length - 1, S.play.i + 1); render(); window.scrollTo(0, 0); break;
