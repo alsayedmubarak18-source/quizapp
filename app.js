@@ -2,10 +2,9 @@
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 const $app = document.getElementById('app');
 
-let store, SEED, CURRICULUM, GAMES, LINKS;
+let store, CURRICULUM, GAMES, LINKS;
 try {
   ({ store } = await import('./store.js'));
-  ({ SEED } = await import('./seed.js'));
   ({ CURRICULUM, GAMES, LINKS } = await import('./curriculum.js'));
 } catch (e) {
   $app.innerHTML = `<div class="card"><h2>تعذر الاتصال بـ Firebase</h2>
@@ -330,6 +329,7 @@ views.teacher = () => {
     : `<div class="card empty">لا توجد كويزات بعد. أنشئ كويزًا جديدًا أو استورده من كود JSON.</div>`;
   $app.innerHTML = `${backBar('لوحة المدرّس')}
     <div class="row"><button class="btn primary" data-act="new">+ كويز جديد</button>
+      <button class="btn" data-act="loadready">تحميل الكويزات الجاهزة</button>
       ${S.quizzes.length ? (S.confirmAll ? '<button class="btn danger" data-act="delall">تأكيد: حذف كل الكويزات</button>' : '<button class="btn" data-act="askall">حذف كل الكويزات</button>') : ''}
       <button class="btn" data-act="logout">خروج</button></div>
     <p class="msg ${S.err ? 'err' : ''}">${esc(S.err || S.info || '')}</p>
@@ -482,6 +482,19 @@ $app.addEventListener('click', async e => {
     case 'edit': go('edit', { draft: clone(quiz()), derr: '' }); break;
     case 'askdel': S.confirmDel = id; render(); break;
     case 'del': S.confirmDel = null; try { await store.deleteQuiz(id); } catch (err) { S.err = 'تعذر الحذف.'; } render(); break;
+    case 'loadready': {
+      S.info = 'جاري التحميل…'; S.err = ''; render();
+      try {
+        const idx = await (await fetch('quizzes/index.json', { cache: 'no-cache' })).json();
+        let n = 0;
+        for (const f of idx) {
+          const z = await (await fetch('quizzes/' + f, { cache: 'no-cache' })).json();
+          if (!z.id) continue;
+          await store.saveQuiz({ id: String(z.id), ...normalizeQuiz(z) }); n++;
+        }
+        S.info = n ? `تم تحميل ${n} كويز (الموجود بنفس الرقم اتحدّث).` : 'لا توجد كويزات جاهزة بعد.';
+      } catch (err) { console.error(err); S.info = ''; S.err = 'تعذر التحميل. تأكد أنك مسجّل كمدرّس وأن ملفات quizzes/ سليمة.'; }
+      render(); break; }
     case 'askall': S.confirmAll = true; render(); break;
     case 'delall': {
       S.confirmAll = false;
