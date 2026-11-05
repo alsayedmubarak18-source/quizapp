@@ -2,10 +2,11 @@
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 const $app = document.getElementById('app');
 
-let store, CURRICULUM, GAMES, LINKS;
+let store, CURRICULUM, GAMES, LINKS, INSTRUCTOR;
 try {
   ({ store } = await import('./store.js'));
   ({ CURRICULUM, GAMES, LINKS } = await import('./curriculum.js'));
+  ({ INSTRUCTOR } = await import('./instructor.js'));
 } catch (e) {
   $app.innerHTML = `<div class="card"><h2>تعذر الاتصال بـ Firebase</h2>
     <p>راجع إعدادات <b>config.js</b>، وتأكد من تفعيل Anonymous و Email/Password في Authentication.</p>
@@ -75,11 +76,31 @@ function lbHtml(rows, { me, limit = 10, mode = 'solo' } = {}) {
 }
 
 /* ---------- home ---------- */
+const avatar = (cls = '') => INSTRUCTOR.photo
+  ? `<img class="avatar ${cls}" src="${esc(INSTRUCTOR.photo)}" alt="${esc(INSTRUCTOR.name)}">`
+  : `<span class="avatar ${cls}" aria-hidden="true">${esc(INSTRUCTOR.initials)}</span>`;
+views.about = () => {
+  const I = INSTRUCTOR, L = I.links;
+  $app.innerHTML = `${backBar('About')}
+    <section class="card about">
+      ${avatar('lg')}
+      <h1 dir="ltr">${esc(I.name)}</h1>
+      <p class="sub" dir="ltr">${esc(I.title)}</p>
+      <p class="course">${esc(I.course)}</p>
+      ${I.bio ? `<p class="bio">${esc(I.bio)}</p>` : ''}
+      <div class="links">
+        <a class="btn primary wide" href="${esc(L.telegram)}" target="_blank" rel="noopener">✈️ انضم لقناة الكورس على تليجرام</a>
+        <a class="btn wide" href="${esc(L.youtube)}" target="_blank" rel="noopener">▶️ قناة اليوتيوب</a>
+        <a class="btn wide" href="${esc(L.whatsapp)}" target="_blank" rel="noopener">💬 تواصل واتساب</a>
+      </div>
+    </section>`;
+};
 views.home = () => {
   const ios = /iphone|ipad/i.test(navigator.userAgent) && !window.matchMedia('(display-mode: standalone)').matches;
   $app.innerHTML = `
     <header class="top"><div><h1>🩺 كويزاتي</h1><p class="sub">اختبر نفسك وقارن ترتيبك بزملائك</p></div>
       ${store.mode === 'demo' ? '<span class="badge">وضع تجريبي: البيانات على جهازك فقط</span>' : ''}</header>
+    <button class="tile instr" data-act="go" data-v="about">${avatar()}<div class="tx"><b dir="ltr">${esc(INSTRUCTOR.name)}</b><span dir="ltr">${esc(INSTRUCTOR.title)}</span><span>${esc(INSTRUCTOR.course)}</span></div></button>
     <div class="tiles">
       <button class="tile" data-act="go" data-v="blocks">${ico('📚', '#d5f3ea')}<div class="tx"><b>Semester 1</b><span>كويزات كل محاضرة حسب البلوك والأسبوع</span></div></button>
       <button class="tile" data-act="go" data-v="quizzes">${ico('📝', '#ffecc9')}<div class="tx"><b>كل الكويزات</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></div></button>
@@ -403,7 +424,7 @@ function quizPdf(z) {
 *{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 body{font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#23332c;margin:0;padding:18px;background:#fff;max-width:820px;margin-inline:auto}
 header{border-bottom:3px solid #4fb58a;padding-bottom:10px;margin-bottom:16px}
-header h1{margin:0;font-size:22px;color:#1f6b4d}header p{margin:4px 0 0;color:#5d7268}
+header h1{margin:0;font-size:22px;color:#1f6b4d}header p{margin:4px 0 0;color:#5d7268}header .by{font-weight:700;color:#1f6b4d}footer{margin-top:18px;padding:12px 14px;border-top:3px solid #4fb58a;background:#eaf7f0;border-radius:10px;font-size:12.5px;color:#2b5b45;break-inside:avoid;word-break:break-all}
 .bar{background:#eaf7f0;border:1px solid #c9e9d9;border-radius:10px;padding:8px 12px;margin-bottom:16px;font-size:13px;color:#2b5b45}
 .q{break-inside:avoid;page-break-inside:avoid;margin:0 0 18px;padding:12px 14px;border:1px solid #e1ebe6;border-radius:14px;background:#fcfefd}
 h2{font-size:15px;margin:0 0 10px;display:flex;gap:10px;align-items:flex-start}
@@ -420,9 +441,10 @@ h2{font-size:15px;margin:0 0 10px;display:flex;gap:10px;align-items:flex-start}
 @media print{.pbtn,.bar{display:none}body{padding:0}}
 </style></head><body>
 <button class="pbtn" onclick="window.print()">Save as PDF</button>
-<header><h1>${esc(z.title)}</h1><p>${z.questions.length} questions · correct answers in green · every choice explained</p></header>
+<header><h1>${esc(z.title)}</h1><p>${z.questions.length} questions · correct answers in green · every choice explained</p><p class="by">By ${esc(INSTRUCTOR.name)} · ${esc(INSTRUCTOR.title)}</p></header>
 <div class="bar">Tip: tap <b>Save as PDF</b> and choose "Save as PDF" as the printer.</div>
 ${body}
+<footer><b>${esc(INSTRUCTOR.name)}</b> · ${esc(INSTRUCTOR.title)}<br>${esc(INSTRUCTOR.course)}<br>Telegram: ${esc(INSTRUCTOR.links.telegram)}<br>YouTube: ${esc(INSTRUCTOR.links.youtube)}<br>WhatsApp: ${esc(INSTRUCTOR.links.whatsapp)}</footer>
 <script>setTimeout(function(){try{window.print()}catch(e){}},500)<\/script>
 </body></html>`;
   const w = window.open('', '_blank');
