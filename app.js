@@ -197,35 +197,39 @@ const examHtml = st => {
     <div class="row"><input class="inp" id="exd" type="date" dir="ltr" value="${ex ? esc(ex.date) : ''}" style="flex:1"><button class="btn small" data-act="setexam">حفظ</button>${ex ? '<button class="btn small" data-act="clearexam">مسح</button>' : ''}</div>${info}</div>`;
 };
 
+const PTABS = [['ov', '🏠', 'ملخص'], ['plan', '🎯', 'الخطة'], ['weak', '⚠️', 'الضعف'], ['prog', '📈', 'التقدم'], ['subj', '📚', 'المواد']];
 views.perf = () => {
   const pl = todayPlan(), st = pl.st, sk = PG.streak(S.att), tr = PG.trend(S.att), marks = PG.loadMarks(S.profile.key);
-  const total = S.quizzes.reduce((n, z) => n + z.questions.length, 0);
+  const total = S.quizzes.reduce((n, z) => n + z.questions.length, 0), tab = S.ptab || 'ov';
   const bySubj = [...st.subj.values()].sort((a, b) => a.c / a.n - b.c / b.n);
   const lecBy = {}; [...st.lec.values()].forEach(l => (lecBy[l.subject] = lecBy[l.subject] || []).push(l));
   const topBy = {}; [...st.topic.values()].forEach(t => (topBy[t.subject] = topBy[t.subject] || []).push(t));
   const byBlock = {}; [...st.lec.values()].forEach(l => { const b = byBlock[l.block] = byBlock[l.block] || { n: 0, c: 0 }; b.n += l.n; b.c += l.c; });
-  $app.innerHTML = `${backBar('Performance')}
-    <div class="stats">
+  const empty = '<div class="card empty">لسه ما حلّيتش أي كويز. بعد أول كويز هتظهر نتايجك هنا.</div>';
+  let body = '';
+  if (tab === 'ov') body = `<div class="stats s2">
       <div class="stat"><b dir="ltr">${st.A ? pc(st.C / st.A) + '%' : '-'}</b><span>دقتك الكلية</span></div>
       <div class="stat"><b dir="ltr">${st.A}</b><span>إجابة</span></div>
       <div class="stat"><b dir="ltr">${st.unique}/${total}</b><span>أسئلة مختلفة</span></div>
-      <div class="stat"><b>🔥 ${sk}</b><span>أيام متتالية</span></div>
-    </div>
+      <div class="stat"><b>🔥 ${sk}</b><span>أيام متتالية</span></div></div>
     ${readyHtml(st)}
-    <h3 class="lbt">Study plan · مطلوب منك النهاردة</h3>${planHtml(pl, true)}
-    ${examHtml(st)}
-    ${weakCards(st)}
-    ${S.att.length ? `<h3 class="lbt">Performance over time</h3><div class="card">${chartSvg(tr.pts)}<p class="sub" style="margin:6px 0 0">${tr.delta === null ? 'محتاج 4 محاولات عشان نقارن بداياتك بمستواك الحالي.' : `مقارنة النصف الأول بالتاني من محاولاتك: متوسطك ${tr.delta >= 0 ? 'اتحسّن' : 'قلّ'} بـ <b dir="ltr">${tr.delta >= 0 ? '+' : ''}${tr.delta.toFixed(1)}</b> نقطة.`}${tr.secPerQ ? ` متوسط وقتك <b dir="ltr">${Math.round(tr.secPerQ)}s</b> للسؤال.` : ''}</p></div>` : ''}
-    <div class="row"><button class="btn" data-act="cardsopen">🃏 Flashcards (${dueCount()})</button><button class="btn" data-act="lbopen">🏆 Leaderboard</button></div>
-    ${marks.size ? `<div class="row"><button class="btn" data-act="practicemarked">⚑ تدرّب على المعلّمة (${marks.size})</button></div>` : ''}
-    ${st.A ? `<h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">Block ${b}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>
-    <h3 class="lbt">By subject · مرتبة من الأضعف</h3>
-    <div class="list">${bySubj.map(s => `<details class="card pdet"><summary><b dir="ltr">${esc(s.subject)}</b>${barHtml(s.n, s.c)}</summary>
-      <h4 dir="ltr">Lectures</h4>${(lecBy[s.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(l => `<div class="prow sm"><span dir="ltr">W${l.week} · ${esc(l.name)}</span>${barHtml(l.n, l.c)}</div>`).join('')}
-      <h4 dir="ltr">Topics</h4>${(topBy[s.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(t => `<div class="prow sm"><span dir="ltr">${esc(t.topic)}</span>${barHtml(t.n, t.c)}${t.n >= 1 && t.c / t.n < PG.TARGET ? `<button class="btn small" data-act="practice" data-subject="${esc(t.subject)}" data-topic="${esc(t.topic)}">تدرّب</button>` : ''}</div>`).join('')}
-    </details>`).join('')}</div>` : `<div class="card empty">لسه ما حلّيتش أي كويز. بعد أول كويز هتظهر نتايجك هنا.</div>`}
-    <p class="hint">الدقة محسوبة من كل إجاباتك. اللون: أحمر أقل من 60%، أصفر 60-80%، أخضر فوق 80%.</p>
-    <div class="row"><button class="btn" data-act="slogout">تغيير الطالب</button></div>`;
+    <div class="qa"><button class="btn" data-act="cardsopen">🃏 Flashcards <small>(${dueCount()})</small></button><button class="btn" data-act="lbopen">🏆 Leaderboard</button>${marks.size ? `<button class="btn" data-act="practicemarked">⚑ المعلّمة (${marks.size})</button>` : ''}</div>
+    ${examHtml(st)}`;
+  else if (tab === 'plan') body = `<h3 class="lbt">مطلوب منك النهاردة</h3>${planHtml(pl, true)}`;
+  else if (tab === 'weak') body = st.A ? (weakCards(st).replace(/<h3 class="lbt">.*?<\/h3>/, '') || '<div class="card empty">مفيش نقاط ضعف واضحة لحد دلوقتي. كمّل حل وهنحللها بعد 20 إجابة.</div>') : empty;
+  else if (tab === 'prog') body = S.att.length ? `<div class="card">${chartSvg(tr.pts)}<p class="sub" style="margin:6px 0 0">${tr.delta === null ? 'محتاج 4 محاولات عشان نقارن بداياتك بمستواك الحالي.' : `متوسطك ${tr.delta >= 0 ? 'اتحسّن' : 'قلّ'} بـ <b dir="ltr">${tr.delta >= 0 ? '+' : ''}${tr.delta.toFixed(1)}</b> نقطة بين النصف الأول والتاني من محاولاتك.`}${tr.secPerQ ? ` متوسط وقتك <b dir="ltr">${Math.round(tr.secPerQ)}s</b> للسؤال.` : ''}</p></div>
+    <h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">Block ${b}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>` : empty;
+  else if (tab === 'subj') {
+    const cur = S.psub && st.subj.get(S.psub);
+    if (!st.A) body = empty;
+    else if (cur) body = `<button class="link" data-act="psub" data-id="">‹ كل المواد</button><h3 class="lbt" dir="ltr">${esc(cur.subject)}</h3><div class="card prow">${barHtml(cur.n, cur.c)}</div>
+      <div class="scr"><h4 dir="ltr">Topics</h4>${(topBy[cur.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(t => `<div class="prow sm"><span dir="ltr">${esc(t.topic)}</span>${barHtml(t.n, t.c)}${t.c / t.n < PG.TARGET ? `<button class="btn small" data-act="practice" data-subject="${esc(t.subject)}" data-topic="${esc(t.topic)}">تدرّب</button>` : ''}</div>`).join('')}
+      <h4 dir="ltr">Lectures</h4>${(lecBy[cur.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(l => `<div class="prow sm"><span dir="ltr">W${l.week} · ${esc(l.name)}</span>${barHtml(l.n, l.c)}</div>`).join('')}</div>`;
+    else body = `<p class="hint" style="margin:0 0 6px">مرتبة من الأضعف. اضغط على مادة تشوف مواضيعها ومحاضراتها.</p><div class="list">${bySubj.map(s => `<button class="card prow subj" data-act="psub" data-id="${esc(s.subject)}"><b dir="ltr">${esc(s.subject)}</b>${barHtml(s.n, s.c)}</button>`).join('')}</div>`;
+  }
+  $app.innerHTML = `${backBar('Performance')}
+    <nav class="ptabs" role="tablist">${PTABS.map(([k, e, t]) => `<button role="tab" aria-selected="${k === tab}" class="${k === tab ? 'on' : ''}" data-act="ptab" data-id="${k}"><i>${e}</i><span>${t}</span></button>`).join('')}</nav>
+    <div class="pbody">${body}</div>`;
 };
 
 
@@ -889,6 +893,8 @@ $app.addEventListener('click', async e => {
     case 'xend': S.play.confirm = true; render(); break;
     case 'xcancel': S.play.confirm = false; render(); break;
     case 'xend2': await finishExam(); break;
+    case 'ptab': S.ptab = id; S.psub = ''; render(); window.scrollTo(0, 0); break;
+    case 'psub': S.psub = id; render(); window.scrollTo(0, 0); break;
     case 'cardsopen': startCards(); break;
     case 'asstudent': S.forceLogin = true; render(); break;
     case 'flip': S.cd.flip = !S.cd.flip; render(); break;
