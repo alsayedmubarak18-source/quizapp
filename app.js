@@ -82,7 +82,7 @@ views.home = () => {
     <header class="top"><div><h1>🩺 كويزاتي</h1><p class="sub">اختبر نفسك وقارن ترتيبك بزملائك</p></div>
       ${store.mode === 'demo' ? '<span class="badge">وضع تجريبي: البيانات على جهازك فقط</span>' : ''}</header>
     <div class="tiles">
-      <button class="tile" data-act="go" data-v="blocks">${ico('📚', '#d5f3ea')}<div class="tx"><b>Semester 1</b><span>Block 1 · Block 2 · Block 3: كويزات كل محاضرة</span></div></button>
+      <button class="tile" data-act="go" data-v="blocks">${ico('📚', '#d5f3ea')}<div class="tx"><b>Semester 1</b><span>كويزات كل محاضرة حسب البلوك والأسبوع</span></div></button>
       <button class="tile" data-act="go" data-v="quizzes">${ico('📝', '#ffecc9')}<div class="tx"><b>كل الكويزات</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></div></button>
       <button class="tile alt" data-act="go" data-v="teacher">${ico('🧑‍🏫', '#ece0ff')}<div class="tx"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></div></button>
     </div>
