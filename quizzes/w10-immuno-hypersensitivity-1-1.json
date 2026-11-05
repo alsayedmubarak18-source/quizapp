@@ -1,0 +1,448 @@
+{
+ "id": "w10-immuno-hypersensitivity-1-1",
+ "title": "Hypersensitivity I (Types I & II): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w10-immunology-hypersensitivity-1",
+ "questions": [
+  {
+   "q": "Which classification divides hypersensitivity into four types?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Koch and Henle",
+     "e": "Wrong. Not an immunological classification."
+    },
+    {
+     "t": "Gram and Ziehl",
+     "e": "Wrong. Staining."
+    },
+    {
+     "t": "Burnet and Medawar",
+     "e": "Wrong. Tolerance work."
+    },
+    {
+     "t": "Gell and Coombs",
+     "e": "Correct. Based on effector molecules."
+    }
+   ]
+  },
+  {
+   "q": "Which mnemonic word matches each type: Type I, II, III, IV?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cytotoxic, Allergic, Delayed, Immune complex",
+     "e": "Wrong. Mismatched."
+    },
+    {
+     "t": "Allergic, Immune complex, Cytotoxic, Delayed",
+     "e": "Wrong. Mismatched."
+    },
+    {
+     "t": "Delayed, Cytotoxic, Allergic, Immune complex",
+     "e": "Wrong. Mismatched."
+    },
+    {
+     "t": "Allergic, Cytotoxic, Immune complex, Delayed",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "Which drug can induce Types I, II, III and IV hypersensitivity?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Aspirin",
+     "e": "Wrong. Type I mainly."
+    },
+    {
+     "t": "Latex",
+     "e": "Wrong. Not a drug."
+    },
+    {
+     "t": "Penicillin",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Nickel",
+     "e": "Wrong. Type IV."
+    }
+   ]
+  },
+  {
+   "q": "Why are humoral hypersensitivity reactions called immediate?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "They require T cells",
+     "e": "Wrong. Cell-mediated reactions."
+    },
+    {
+     "t": "They need more than a day",
+     "e": "Wrong. Delayed."
+    },
+    {
+     "t": "They occur only after a vaccine",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "They are evident within hours",
+     "e": "Correct. Initiated by antibody or Ab-Ag complexes."
+    }
+   ]
+  },
+  {
+   "q": "Which is the most common type of hypersensitivity?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Type II",
+     "e": "Wrong. Not the most common."
+    },
+    {
+     "t": "Type I (IgE-mediated)",
+     "e": "Correct. Onset within minutes."
+    },
+    {
+     "t": "Type III",
+     "e": "Wrong. Not the most common."
+    },
+    {
+     "t": "Type IV",
+     "e": "Wrong. Not the most common."
+    }
+   ]
+  },
+  {
+   "q": "Who are atopic individuals?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Those with deficient IgE",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Those with a genetic predisposition to make high levels of IgE",
+     "e": "Correct. Th2 driven."
+    },
+    {
+     "t": "Those lacking mast cells",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Those with high IgM",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which cells first process the allergen in sensitization and which T cell recognizes it?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Dendritic cell on MHC I; CD8+ T cell",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Mast cell on MHC II; Th1",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Macrophage on MHC I; Th17",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Allergen-specific B cell on MHC II; CD4+ Th2",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "Which cytokine induces class switching to IgE?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "IL-4",
+     "e": "Correct. From Th2 cells."
+    },
+    {
+     "t": "IFN-gamma",
+     "e": "Wrong. Th1."
+    },
+    {
+     "t": "IL-12",
+     "e": "Wrong. Th1 inducer."
+    },
+    {
+     "t": "TGF-beta",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What activates a sensitized mast cell?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IgE binding without allergen",
+     "e": "Wrong. No effect until allergen returns."
+    },
+    {
+     "t": "Complement C5a only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Allergen cross-linking IgE bound to Fc receptors",
+     "e": "Correct. IgE alone has no effect."
+    },
+    {
+     "t": "IgG cross-linking",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which mediators are released in the immediate phase of Type I?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Vasoactive amines and lipid mediators",
+     "e": "Correct. Histamine, leukotrienes, prostaglandins, PAF."
+    },
+    {
+     "t": "Cytokines only",
+     "e": "Wrong. Late phase."
+    },
+    {
+     "t": "Perforin and granzyme",
+     "e": "Wrong. CTLs."
+    },
+    {
+     "t": "Antibodies",
+     "e": "Wrong. Not mediators."
+    }
+   ]
+  },
+  {
+   "q": "Which effect is correct for leukotrienes and prostaglandins?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Leukotrienes: vascular dilation; prostaglandins: smooth muscle contraction",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Leukotrienes: smooth muscle contraction; prostaglandins: vascular dilation",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Both cause tissue damage",
+     "e": "Wrong. Proteases do."
+    },
+    {
+     "t": "Both cause leukocyte recruitment",
+     "e": "Wrong. Cytokines do."
+    }
+   ]
+  },
+  {
+   "q": "Which cells are involved in the late phase of Type I?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Mast cells only",
+     "e": "Wrong. Immediate phase."
+    },
+    {
+     "t": "Eosinophils, neutrophils and T cells",
+     "e": "Correct. Milder, hours to days later."
+    },
+    {
+     "t": "Plasma cells only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "NK cells only",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which cytokines increase cell adhesion molecules on endothelium?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "IL-4 and IL-5",
+     "e": "Wrong. Th2."
+    },
+    {
+     "t": "IFN-gamma and IL-2",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "IL-10 and TGF-beta",
+     "e": "Wrong. Regulatory."
+    },
+    {
+     "t": "TNF-alpha and IL-1",
+     "e": "Correct. Promote leukocyte migration."
+    }
+   ]
+  },
+  {
+   "q": "Which T helper cell is involved in atopic versus non-atopic responses?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Atopic: Th1; non-atopic: Th2",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Atopic: Th2 with IgE; non-atopic: Th1 with IgM/IgG",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Both Th17",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Atopic: Treg",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "A positive skin prick test appears as what?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "An induration at 48-72 hours",
+     "e": "Wrong. Tuberculin test."
+    },
+    {
+     "t": "A vesicle with crust",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "A raised, red bump at the site",
+     "e": "Correct. Allergen extract pricked into the skin."
+    },
+    {
+     "t": "No change",
+     "e": "Wrong. Negative."
+    }
+   ]
+  },
+  {
+   "q": "Which antibodies mediate Type II hypersensitivity?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "IgG and IgM",
+     "e": "Correct. Targets on cells or extracellular matrix."
+    },
+    {
+     "t": "IgE",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "IgA",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "IgD",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which disease/target pair is correct?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Graves disease: TSH receptor",
+     "e": "Correct. Antibodies increase thyroxine."
+    },
+    {
+     "t": "Myasthenia gravis: thyroid peroxidase",
+     "e": "Wrong. Target is the acetylcholine receptor."
+    },
+    {
+     "t": "Goodpasture: platelets",
+     "e": "Wrong. Target is basement membrane."
+    },
+    {
+     "t": "Immune thrombocytopenia: red cells",
+     "e": "Wrong. Target is platelets."
+    }
+   ]
+  },
+  {
+   "q": "Which test is used for Type II reactions?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Skin prick test",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "Tuberculin test",
+     "e": "Wrong. Type IV."
+    },
+    {
+     "t": "Direct and indirect Coombs test",
+     "e": "Correct. Detects antibodies on red cells."
+    },
+    {
+     "t": "Patch test",
+     "e": "Wrong. Type IV."
+    }
+   ]
+  },
+  {
+   "q": "An RhD-negative mother has an RhD-positive infant. How is hemolytic disease of later pregnancies prevented?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Anti-RhD antibody given after each RhD+ birth",
+     "e": "Correct. Removes fetal cells before sensitization."
+    },
+    {
+     "t": "Anti-RhD antibody given to the infant",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "RhD vaccination of the mother",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Penicillin",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "A patient with blood group B is transfused with group A blood. Which mechanism causes the reaction?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IgE-mediated mast cell degranulation",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "Immune complex deposition",
+     "e": "Wrong. Type III."
+    },
+    {
+     "t": "Preformed anti-A IgM causing complement-mediated hemolysis",
+     "e": "Correct. Acute hemolytic transfusion reaction."
+    },
+    {
+     "t": "T cell cytotoxicity",
+     "e": "Wrong. Type IV."
+    }
+   ]
+  }
+ ]
+}

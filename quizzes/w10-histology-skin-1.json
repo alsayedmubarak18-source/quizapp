@@ -1,0 +1,448 @@
+{
+ "id": "w10-histology-skin-1",
+ "title": "Histology of Skin: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w10-histology-skin",
+ "questions": [
+  {
+   "q": "What is the origin of the epidermis and of the dermis?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Epidermis: mesoderm; dermis: ectoderm",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Both ectoderm",
+     "e": "Wrong. Dermis is connective tissue."
+    },
+    {
+     "t": "Both mesoderm",
+     "e": "Wrong. Epidermis is epithelial."
+    },
+    {
+     "t": "Epidermis: ectoderm; dermis: mesoderm",
+     "e": "Correct. Surface epithelium versus connective tissue."
+    }
+   ]
+  },
+  {
+   "q": "Which statement about the hypodermis is correct?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "It is the deepest layer of the dermis",
+     "e": "Wrong. Not part of the dermis."
+    },
+    {
+     "t": "It is the deepest layer of the epidermis",
+     "e": "Wrong. Not epidermal."
+    },
+    {
+     "t": "It is dense irregular collagen only",
+     "e": "Wrong. Loose connective tissue plus adipose."
+    },
+    {
+     "t": "It is loose connective tissue plus fat and is not part of the skin",
+     "e": "Correct. Connects skin to underlying structures."
+    }
+   ]
+  },
+  {
+   "q": "What is the basis for classifying skin into thick and thin?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Thickness of the dermis",
+     "e": "Wrong. Not the basis."
+    },
+    {
+     "t": "Presence of hair",
+     "e": "Wrong. Hair is a feature, not the basis."
+    },
+    {
+     "t": "Thickness of the epidermis",
+     "e": "Correct. Thick skin is found on palms and soles."
+    },
+    {
+     "t": "Presence of sweat glands",
+     "e": "Wrong. Not the basis."
+    }
+   ]
+  },
+  {
+   "q": "Which feature is characteristic of thick skin?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Hair follicles and sebaceous glands present",
+     "e": "Wrong. Thin skin."
+    },
+    {
+     "t": "No sweat glands",
+     "e": "Wrong. Many are present."
+    },
+    {
+     "t": "No stratum lucidum",
+     "e": "Wrong. Present in thick skin."
+    },
+    {
+     "t": "Many sweat glands with no hair follicles or sebaceous glands",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "What is the correct order of epidermal layers from deep to superficial in thick skin?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Basale, granulosum, spinosum, lucidum, corneum",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Basale, spinosum, granulosum, lucidum, corneum",
+     "e": "Correct. Five layers."
+    },
+    {
+     "t": "Spinosum, basale, granulosum, corneum, lucidum",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Basale, spinosum, lucidum, granulosum, corneum",
+     "e": "Wrong. Wrong order."
+    }
+   ]
+  },
+  {
+   "q": "Which two layers form the Malpighian layer?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Stratum spinosum and stratum granulosum",
+     "e": "Wrong. Not regenerative layers."
+    },
+    {
+     "t": "Stratum basale and stratum spinosum",
+     "e": "Correct. Regeneration of the epidermis."
+    },
+    {
+     "t": "Stratum granulosum and stratum lucidum",
+     "e": "Wrong. Not regenerative layers."
+    },
+    {
+     "t": "Stratum lucidum and stratum corneum",
+     "e": "Wrong. Superficial layers."
+    }
+   ]
+  },
+  {
+   "q": "What are the percentage and name of the main epidermal cells?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Melanocytes, 85%",
+     "e": "Wrong. Not the main cells."
+    },
+    {
+     "t": "Langerhans cells, 85%",
+     "e": "Wrong. Not the main cells."
+    },
+    {
+     "t": "Merkel cells, 85%",
+     "e": "Wrong. Not the main cells."
+    },
+    {
+     "t": "Keratinocytes, 85%",
+     "e": "Correct. Others: melanocytes, Langerhans and Merkel cells."
+    }
+   ]
+  },
+  {
+   "q": "Which junction fixes basal cells to the basement membrane?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hemidesmosomes",
+     "e": "Correct. Desmosomes join cells to each other."
+    },
+    {
+     "t": "Desmosomes",
+     "e": "Wrong. Join cells to each other."
+    },
+    {
+     "t": "Tight junctions",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Gap junctions",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What forms the spiny appearance of the stratum spinosum?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hemidesmosomes",
+     "e": "Wrong. In stratum basale."
+    },
+    {
+     "t": "Keratohyalin granules",
+     "e": "Wrong. In stratum granulosum."
+    },
+    {
+     "t": "Many desmosomes joining the cells",
+     "e": "Correct. Spines in preparations."
+    },
+    {
+     "t": "Melanosomes",
+     "e": "Wrong. Pigment granules."
+    }
+   ]
+  },
+  {
+   "q": "Which non-keratinocyte cell is located mainly in the stratum spinosum?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Langerhans cell",
+     "e": "Correct. Immune function."
+    },
+    {
+     "t": "Melanocyte",
+     "e": "Wrong. In or under stratum basale."
+    },
+    {
+     "t": "Merkel cell",
+     "e": "Wrong. In or near stratum basale."
+    },
+    {
+     "t": "Fibroblast",
+     "e": "Wrong. Dermal cell."
+    }
+   ]
+  },
+  {
+   "q": "What causes the intense basophilia of the stratum granulosum?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Membrane-coating granules",
+     "e": "Wrong. Lipid."
+    },
+    {
+     "t": "Keratohyalin granules",
+     "e": "Correct. Not membrane-bound; protein."
+    },
+    {
+     "t": "Melanin",
+     "e": "Wrong. Pigment."
+    },
+    {
+     "t": "Tonofilaments",
+     "e": "Wrong. Not the cause."
+    }
+   ]
+  },
+  {
+   "q": "What do membrane-coating granules contain and what is their function?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Protein; bind tonofilaments",
+     "e": "Wrong. This describes keratohyalin granules."
+    },
+    {
+     "t": "Lipid; cement forming the skin barrier",
+     "e": "Correct. Membrane-bound granules."
+    },
+    {
+     "t": "Melanin; UV protection",
+     "e": "Wrong. Melanosomes."
+    },
+    {
+     "t": "Glycogen; energy store",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which layer is present only in thick skin?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Stratum granulosum",
+     "e": "Wrong. Present in both."
+    },
+    {
+     "t": "Stratum spinosum",
+     "e": "Wrong. Present in both."
+    },
+    {
+     "t": "Stratum corneum",
+     "e": "Wrong. Present in both."
+    },
+    {
+     "t": "Stratum lucidum",
+     "e": "Correct. Thin, clear, acidophilic."
+    }
+   ]
+  },
+  {
+   "q": "Which layers are basophilic and which are acidophilic?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Basale through granulosum are acidophilic",
+     "e": "Wrong. Basophilic."
+    },
+    {
+     "t": "Basale through granulosum are basophilic; lucidum and corneum are acidophilic",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Lucidum and corneum are basophilic",
+     "e": "Wrong. Acidophilic."
+    },
+    {
+     "t": "All layers are acidophilic",
+     "e": "Wrong. Not true."
+    }
+   ]
+  },
+  {
+   "q": "How long does a cell take to move from the basal layer to the surface?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "About 3 to 4 days",
+     "e": "Wrong. Too fast."
+    },
+    {
+     "t": "About 3 to 4 months",
+     "e": "Wrong. Too slow."
+    },
+    {
+     "t": "About 3 to 4 weeks",
+     "e": "Correct. Keratinization."
+    },
+    {
+     "t": "About 1 to 2 days",
+     "e": "Wrong. Too fast."
+    }
+   ]
+  },
+  {
+   "q": "Which enzyme is needed to form melanin in melanocytes?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Tyrosinase",
+     "e": "Correct. Forms melanosomes."
+    },
+    {
+     "t": "Peroxidase",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Keratinase",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Hyaluronidase",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What is the origin of Langerhans cells?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Mesodermal; derived from blood monocytes",
+     "e": "Correct. Role in immunity."
+    },
+    {
+     "t": "Ectodermal",
+     "e": "Wrong. Melanocytes and Merkel cells."
+    },
+    {
+     "t": "Endodermal",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Neural crest",
+     "e": "Wrong. Melanocytes arise from it in general, but the lecture says ectodermal."
+    }
+   ]
+  },
+  {
+   "q": "Which cell acts as a sensory receptor in the epidermis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Langerhans cell",
+     "e": "Wrong. Immune function."
+    },
+    {
+     "t": "Melanocyte",
+     "e": "Wrong. Pigment."
+    },
+    {
+     "t": "Merkel cell",
+     "e": "Correct. In or near stratum basale, mainly thick skin."
+    },
+    {
+     "t": "Keratinocyte",
+     "e": "Wrong. Structural."
+    }
+   ]
+  },
+  {
+   "q": "Which description fits the dermal papillary layer compared with the reticular layer?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Thinner, loose connective tissue, more cellular and vascular",
+     "e": "Correct. Reticular is thicker, dense and less cellular."
+    },
+    {
+     "t": "Thicker, dense connective tissue, less vascular",
+     "e": "Wrong. Reticular layer."
+    },
+    {
+     "t": "Thinner, dense connective tissue",
+     "e": "Wrong. Loose in papillary layer."
+    },
+    {
+     "t": "Thicker, loose connective tissue",
+     "e": "Wrong. Papillary layer is thin."
+    }
+   ]
+  },
+  {
+   "q": "Which dermal skin lesion is defined as loss of epidermis plus at least upper dermis that heals with a scar?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Erosion",
+     "e": "Wrong. Epidermis only."
+    },
+    {
+     "t": "Excoriation",
+     "e": "Wrong. Linear scratch."
+    },
+    {
+     "t": "Ulcer",
+     "e": "Correct. Erosion heals without scar."
+    },
+    {
+     "t": "Fissure",
+     "e": "Wrong. Linear crack."
+    }
+   ]
+  }
+ ]
+}

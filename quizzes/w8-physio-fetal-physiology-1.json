@@ -1,0 +1,448 @@
+{
+ "id": "w8-physio-fetal-physiology-1",
+ "title": "Fetal Physiology: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w8-physiology-fetal-physio",
+ "questions": [
+  {
+   "q": "How many vessels does the umbilical cord contain and what do they carry?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Two veins (oxygenated) and one artery",
+     "e": "Wrong. Reversed vessel numbers."
+    },
+    {
+     "t": "Two arteries and one vein, all oxygenated",
+     "e": "Wrong. The arteries carry deoxygenated blood from the fetus."
+    },
+    {
+     "t": "One artery and one vein",
+     "e": "Wrong. The cord has three vessels."
+    },
+    {
+     "t": "Two arteries (deoxygenated) and one vein (oxygenated)",
+     "e": "Correct. The vein brings oxygenated blood to the fetus."
+    }
+   ]
+  },
+  {
+   "q": "Which vessel carries oxygenated blood from the placenta to the fetus?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Umbilical artery",
+     "e": "Wrong. Carries deoxygenated blood from the fetus."
+    },
+    {
+     "t": "Ductus arteriosus",
+     "e": "Wrong. A shunt from the pulmonary artery to the aorta."
+    },
+    {
+     "t": "Ductus venosus",
+     "e": "Wrong. A shunt that bypasses the liver."
+    },
+    {
+     "t": "Umbilical vein",
+     "e": "Correct. Only the umbilical vein is oxygenated."
+    }
+   ]
+  },
+  {
+   "q": "Which fetal shunt bypasses the liver?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Foramen ovale",
+     "e": "Wrong. It bypasses the lungs."
+    },
+    {
+     "t": "Ductus arteriosus",
+     "e": "Wrong. It bypasses the lungs."
+    },
+    {
+     "t": "Ductus venosus",
+     "e": "Correct. It opens into the IVC."
+    },
+    {
+     "t": "Umbilical shunt",
+     "e": "Wrong. Not a fetal shunt."
+    }
+   ]
+  },
+  {
+   "q": "Which shunt carries oxygen-rich blood from the right atrium to the left atrium?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Ductus arteriosus",
+     "e": "Wrong. It joins the pulmonary artery to the descending aorta."
+    },
+    {
+     "t": "Ductus venosus",
+     "e": "Wrong. It bypasses the liver."
+    },
+    {
+     "t": "Interventricular foramen",
+     "e": "Wrong. Not a fetal shunt."
+    },
+    {
+     "t": "Foramen ovale",
+     "e": "Correct. It bypasses the lungs."
+    }
+   ]
+  },
+  {
+   "q": "Which shunt carries blood from the pulmonary artery to the descending aorta?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Foramen ovale",
+     "e": "Wrong. It joins the atria."
+    },
+    {
+     "t": "Ductus arteriosus",
+     "e": "Correct. It bypasses the lungs."
+    },
+    {
+     "t": "Ductus venosus",
+     "e": "Wrong. It bypasses the liver."
+    },
+    {
+     "t": "Ligamentum arteriosum",
+     "e": "Wrong. This is the postnatal remnant."
+    }
+   ]
+  },
+  {
+   "q": "Which two shunts bypass the lungs?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Foramen ovale and ductus venosus",
+     "e": "Wrong. The ductus venosus bypasses the liver."
+    },
+    {
+     "t": "Foramen ovale and ductus arteriosus",
+     "e": "Correct. Both bypass the non-functional lungs."
+    },
+    {
+     "t": "Ductus venosus and ductus arteriosus",
+     "e": "Wrong. The ductus venosus bypasses the liver."
+    },
+    {
+     "t": "Ductus arteriosus only",
+     "e": "Wrong. The foramen ovale also bypasses the lungs."
+    }
+   ]
+  },
+  {
+   "q": "Why is fetal pulmonary vascular resistance high?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "High O2 causes vasodilation",
+     "e": "Wrong. The fetal PO2 is low."
+    },
+    {
+     "t": "The lungs are fully inflated",
+     "e": "Wrong. The lungs are collapsed."
+    },
+    {
+     "t": "The placenta increases PVR",
+     "e": "Wrong. The placenta has low resistance."
+    },
+    {
+     "t": "Low O2 causes hypoxic vasoconstriction in collapsed, fluid-filled lungs",
+     "e": "Correct. Pulmonary vasculature is constricted."
+    }
+   ]
+  },
+  {
+   "q": "Which statement about fetal vascular resistance is correct?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "PVR is greater than SVR",
+     "e": "Correct. SVR is low because it includes the placenta."
+    },
+    {
+     "t": "SVR is greater than PVR",
+     "e": "Wrong. This is the adult pattern."
+    },
+    {
+     "t": "PVR equals SVR",
+     "e": "Wrong. Not the fetal pattern."
+    },
+    {
+     "t": "Both are very low",
+     "e": "Wrong. PVR is high."
+    }
+   ]
+  },
+  {
+   "q": "Why is fetal systemic vascular resistance low?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The lungs are functional",
+     "e": "Wrong. The lungs are non-functional."
+    },
+    {
+     "t": "Ductus venosus closes",
+     "e": "Wrong. It is open in fetal life."
+    },
+    {
+     "t": "The systemic circulation includes the low-resistance placenta",
+     "e": "Correct. The placenta is a very low-resistance pathway."
+    },
+    {
+     "t": "Fetal HbF is high",
+     "e": "Wrong. Not the reason."
+    }
+   ]
+  },
+  {
+   "q": "What is the fetal PO2 range?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "30-35 mm Hg",
+     "e": "Correct. The placenta is not very effective at gas exchange."
+    },
+    {
+     "t": "60-70 mm Hg",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "90-100 mm Hg",
+     "e": "Wrong. The adult arterial value."
+    },
+    {
+     "t": "10-15 mm Hg",
+     "e": "Wrong. Too low."
+    }
+   ]
+  },
+  {
+   "q": "How does HbF affect the O2 dissociation curve?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It shifts it to the right",
+     "e": "Wrong. This would lower affinity."
+    },
+    {
+     "t": "It shifts it to the left",
+     "e": "Correct. HbF has high O2 affinity."
+    },
+    {
+     "t": "It flattens the curve",
+     "e": "Wrong. Not the stated effect."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. HbF increases saturation."
+    }
+   ]
+  },
+  {
+   "q": "Compared with adult blood, fetal blood has about how much more hemoglobin?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "50%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "20%",
+     "e": "Correct. Higher Hb increases O2 carrying capacity."
+    },
+    {
+     "t": "5%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Too high."
+    }
+   ]
+  },
+  {
+   "q": "Which describes the fetal circulation compared with the infant?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "High pressure, right-to-left shunting",
+     "e": "Wrong. Fetus is low pressure."
+    },
+    {
+     "t": "Low pressure, left-to-right flow",
+     "e": "Wrong. Fetal shunting is right to left."
+    },
+    {
+     "t": "High pressure, left-to-right flow",
+     "e": "Wrong. This describes the infant."
+    },
+    {
+     "t": "Low pressure, right-to-left shunting",
+     "e": "Correct. The infant is high pressure with left-to-right flow."
+    }
+   ]
+  },
+  {
+   "q": "Why are the fetal lungs kept deflated?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Because surfactant is absent",
+     "e": "Wrong. Not the stated reason."
+    },
+    {
+     "t": "To prevent filling with fluid and meconium debris",
+     "e": "Correct. No air exists in amniotic fluid so there is no breathing."
+    },
+    {
+     "t": "Because the ductus is open",
+     "e": "Wrong. Not the stated reason."
+    },
+    {
+     "t": "To increase PO2",
+     "e": "Wrong. Not the stated reason."
+    }
+   ]
+  },
+  {
+   "q": "When are spinal and brain stem reflexes present?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "1st-2nd month",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "5th-6th month",
+     "e": "Wrong. Later than stated."
+    },
+    {
+     "t": "3rd-4th month",
+     "e": "Correct. The cerebral cortex is still immature."
+    },
+    {
+     "t": "7th-8th month",
+     "e": "Wrong. Later than stated."
+    }
+   ]
+  },
+  {
+   "q": "When is meconium formed?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "During the last 2-3 months",
+     "e": "Correct. It forms in the late GIT."
+    },
+    {
+     "t": "In the first trimester",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "At 12 weeks",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "At birth",
+     "e": "Wrong. It is formed before birth."
+    }
+   ]
+  },
+  {
+   "q": "When does the fetal kidney start producing urine and at what rate?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Second trimester; about 10 ml/hour",
+     "e": "Correct. Fetal urine contributes 70-80% of amniotic fluid."
+    },
+    {
+     "t": "First trimester; about 50 ml/hour",
+     "e": "Wrong. Wrong timing and rate."
+    },
+    {
+     "t": "Third trimester; about 10 ml/hour",
+     "e": "Wrong. Production begins earlier."
+    },
+    {
+     "t": "Second trimester; about 100 ml/hour",
+     "e": "Wrong. Rate is lower."
+    }
+   ]
+  },
+  {
+   "q": "Which organ controls fluid and electrolyte balance in the fetus?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The fetal kidney",
+     "e": "Wrong. It depends on the placenta."
+    },
+    {
+     "t": "The fetal liver",
+     "e": "Wrong. Partially functional only."
+    },
+    {
+     "t": "The placenta",
+     "e": "Correct. The fetal kidney does not control it."
+    },
+    {
+     "t": "The fetal GIT",
+     "e": "Wrong. Absorbs amniotic fluid."
+    }
+   ]
+  },
+  {
+   "q": "What is the sole source of energy for the fetus?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Glucose",
+     "e": "Correct. Glucose is the fetal fuel."
+    },
+    {
+     "t": "Fatty acids",
+     "e": "Wrong. Not the sole source."
+    },
+    {
+     "t": "Amino acids",
+     "e": "Wrong. Not the sole source."
+    },
+    {
+     "t": "Ketone bodies",
+     "e": "Wrong. Not the sole source."
+    }
+   ]
+  },
+  {
+   "q": "In which period of pregnancy is fetal bone ossification and weight gain rapid, with active calcium and phosphate metabolism?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "3rd to 8th week",
+     "e": "Wrong. This is the embryonic period."
+    },
+    {
+     "t": "1st to 12th week",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "12th to 40th week",
+     "e": "Correct. Calcium and phosphate metabolism is active from week 12 to 40."
+    },
+    {
+     "t": "20th to 40th week only",
+     "e": "Wrong. Starts earlier, at week 12."
+    }
+   ]
+  }
+ ]
+}

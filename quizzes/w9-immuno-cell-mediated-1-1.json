@@ -1,0 +1,448 @@
+{
+ "id": "w9-immuno-cell-mediated-1-1",
+ "title": "Cell-Mediated Immunity I: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w9-immunology-cell-mediated-1",
+ "questions": [
+  {
+   "q": "Which cells mediate cell-mediated immunity?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "B lymphocytes",
+     "e": "Wrong. They mediate humoral immunity."
+    },
+    {
+     "t": "Plasma cells",
+     "e": "Wrong. They secrete antibodies."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Innate cells."
+    },
+    {
+     "t": "T lymphocytes",
+     "e": "Correct. CMI is the T-cell arm of adaptive immunity."
+    }
+   ]
+  },
+  {
+   "q": "Which cells is CMI most effective at removing?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Extracellular bacteria",
+     "e": "Wrong. Handled by antibodies."
+    },
+    {
+     "t": "Helminths",
+     "e": "Wrong. Handled by Th2/IgE/eosinophils."
+    },
+    {
+     "t": "Free toxins",
+     "e": "Wrong. Neutralized by antibodies."
+    },
+    {
+     "t": "Virus-infected cells",
+     "e": "Correct. Also helps against fungi, protozoa, cancers and intracellular bacteria."
+    }
+   ]
+  },
+  {
+   "q": "Which of these microbes survives in phagocyte vesicles?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hepatitis B virus",
+     "e": "Wrong. Infects non-phagocytic cells."
+    },
+    {
+     "t": "Plasmodium falciparum",
+     "e": "Wrong. Infects non-phagocytic cells."
+    },
+    {
+     "t": "Mycobacteria",
+     "e": "Correct. Also Listeria, Legionella, Cryptococcus, Leishmania and T. cruzi."
+    },
+    {
+     "t": "Rickettsiae",
+     "e": "Wrong. Infect non-phagocytic cells."
+    }
+   ]
+  },
+  {
+   "q": "Which of these microbes infects non-phagocytic cells?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Listeria and Legionella",
+     "e": "Wrong. Phagocyte-resistant bacteria."
+    },
+    {
+     "t": "Leishmania and T. cruzi",
+     "e": "Wrong. Phagocyte protozoa."
+    },
+    {
+     "t": "Cryptococcus neoformans",
+     "e": "Wrong. Phagocyte-resistant fungus."
+    },
+    {
+     "t": "All viruses, all rickettsiae, P. falciparum and Cryptosporidium parvum",
+     "e": "Correct. Stated list."
+    }
+   ]
+  },
+  {
+   "q": "What limits what T cells can see?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Free antigen in plasma",
+     "e": "Wrong. B cells see this."
+    },
+    {
+     "t": "Specificity for peptides displayed by MHC molecules",
+     "e": "Correct. MHC restriction."
+    },
+    {
+     "t": "Carbohydrate antigens",
+     "e": "Wrong. Not recognized by TCR."
+    },
+    {
+     "t": "Lipids on cell surfaces only",
+     "e": "Wrong. Not the rule."
+    }
+   ]
+  },
+  {
+   "q": "Which describes the T cell receptor?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Secreted gamma and delta chains",
+     "e": "Wrong. Not the usual TCR in this lecture."
+    },
+    {
+     "t": "Membrane-bound alpha and beta chains each with V and C regions",
+     "e": "Correct. Not secreted."
+    },
+    {
+     "t": "Secreted alpha chain only",
+     "e": "Wrong. Membrane receptor."
+    },
+    {
+     "t": "Three-chain complex binding free antigen",
+     "e": "Wrong. Binds peptide-MHC."
+    }
+   ]
+  },
+  {
+   "q": "What generates the diverse T cell repertoire?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Somatic hypermutation of TCR",
+     "e": "Wrong. B cells."
+    },
+    {
+     "t": "Class switching",
+     "e": "Wrong. B cells."
+    },
+    {
+     "t": "Complement activation",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "TCR gene rearrangement (VDJ recombination)",
+     "e": "Correct. Clones differ in sequence and specificity."
+    }
+   ]
+  },
+  {
+   "q": "Which molecule transduces the signal received by the TCR?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "CD3",
+     "e": "Correct. Signal-transducing molecule."
+    },
+    {
+     "t": "CD28",
+     "e": "Wrong. Co-stimulatory molecule."
+    },
+    {
+     "t": "CD40L",
+     "e": "Wrong. On activated Th cells."
+    },
+    {
+     "t": "CD8",
+     "e": "Wrong. Co-receptor."
+    }
+   ]
+  },
+  {
+   "q": "What is selected during positive selection in the thymus?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "T cells that strongly recognize self antigens",
+     "e": "Wrong. They are negatively selected."
+    },
+    {
+     "t": "T cells with no TCR",
+     "e": "Wrong. Die by neglect."
+    },
+    {
+     "t": "T cells that recognize peptide displayed by self MHC",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "T cells recognizing foreign MHC only",
+     "e": "Wrong. Not the criterion."
+    }
+   ]
+  },
+  {
+   "q": "What happens to immature lymphocytes that strongly recognize self antigens?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "They are negatively selected",
+     "e": "Correct. Prevents self-reactivity."
+    },
+    {
+     "t": "They become Tregs only",
+     "e": "Wrong. Not the general fate."
+    },
+    {
+     "t": "They are positively selected",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "They migrate to lymph nodes",
+     "e": "Wrong. They are eliminated."
+    }
+   ]
+  },
+  {
+   "q": "What is the correct order of thymocyte phenotypes?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "DP, DN, SP",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "DN, DP, then SP",
+     "e": "Correct. CD4-CD8-, then CD4+CD8+, then single positive."
+    },
+    {
+     "t": "SP, DP, DN",
+     "e": "Wrong. Reverse."
+    },
+    {
+     "t": "DN, SP, DP",
+     "e": "Wrong. Wrong order."
+    }
+   ]
+  },
+  {
+   "q": "What is the role of CD4+ T cells compared with CD8+ CTLs?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "CD4+ kill infected cells; CD8+ activate macrophages",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "CD4+ activate macrophages; CD8+ kill cells with cytoplasmic microbes",
+     "e": "Correct. Two cell-mediated reactions."
+    },
+    {
+     "t": "Both only secrete antibodies",
+     "e": "Wrong. B cells do this."
+    },
+    {
+     "t": "Both kill via perforin",
+     "e": "Wrong. CD8+ CTLs kill."
+    }
+   ]
+  },
+  {
+   "q": "Which MHC class restricts CD4+ and which restricts CD8+ T cells?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "CD4: MHC-I; CD8: MHC-II",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Both MHC-I",
+     "e": "Wrong. CD4 uses II."
+    },
+    {
+     "t": "Both MHC-II",
+     "e": "Wrong. CD8 uses I."
+    },
+    {
+     "t": "CD4: MHC-II; CD8: MHC-I",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "Which subset is induced by IL-12 and IL-18 and its main cytokine?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Th2; IL-4",
+     "e": "Wrong. Induced by IL-4."
+    },
+    {
+     "t": "Th1; IFN-gamma",
+     "e": "Correct. Activates macrophages."
+    },
+    {
+     "t": "Th17; IL-17",
+     "e": "Wrong. Induced by IL-6 and TGF-beta."
+    },
+    {
+     "t": "Treg; IL-10",
+     "e": "Wrong. Induced by TGF-beta/retinoic acid."
+    }
+   ]
+  },
+  {
+   "q": "Which subset is induced by IL-6 plus TGF-beta?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Th1",
+     "e": "Wrong. IL-12 and IL-18."
+    },
+    {
+     "t": "Th2",
+     "e": "Wrong. IL-4."
+    },
+    {
+     "t": "Th17",
+     "e": "Correct. Attracts neutrophils."
+    },
+    {
+     "t": "TFH",
+     "e": "Wrong. IL-6 and IL-21."
+    }
+   ]
+  },
+  {
+   "q": "How do CD8+ cytotoxic T cells kill target cells?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Release perforin forming a pore causing lysis",
+     "e": "Correct. Also granzymes."
+    },
+    {
+     "t": "Release IL-4",
+     "e": "Wrong. Th2 cytokine."
+    },
+    {
+     "t": "Activate complement",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Secrete IgE",
+     "e": "Wrong. B cell product."
+    }
+   ]
+  },
+  {
+   "q": "What do regulatory T cells do?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Shut down T cell immunity late in a response and suppress autoreactive T cells",
+     "e": "Correct. Maintain tolerance."
+    },
+    {
+     "t": "Kill virus-infected cells",
+     "e": "Wrong. CTLs."
+    },
+    {
+     "t": "Present antigen",
+     "e": "Wrong. APCs."
+    },
+    {
+     "t": "Secrete antibodies",
+     "e": "Wrong. Plasma cells."
+    }
+   ]
+  },
+  {
+   "q": "Which molecule is a co-stimulatory molecule binding B7 on APCs?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "CD3",
+     "e": "Wrong. Signal transduction."
+    },
+    {
+     "t": "CD40L",
+     "e": "Wrong. Binds CD40."
+    },
+    {
+     "t": "CD28",
+     "e": "Correct. Delivers a signal for T cell activation."
+    },
+    {
+     "t": "CD4",
+     "e": "Wrong. Co-receptor."
+    }
+   ]
+  },
+  {
+   "q": "Where is CD40L found and what does it bind?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "On activated Th cells; CD40 on APCs",
+     "e": "Correct. Involved in B-cell activation."
+    },
+    {
+     "t": "On B cells; CD40 on T cells",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "On CTLs; MHC-I",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "On macrophages; CD28",
+     "e": "Wrong. Not correct."
+    }
+   ]
+  },
+  {
+   "q": "Where are IgG plasma cells and IgA plasma cells found?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IgG: mucosa; IgA: bone marrow",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "IgG: thymus; IgA: spleen",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "IgG: bone marrow; IgA: mucosa",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Both in thymus",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  }
+ ]
+}

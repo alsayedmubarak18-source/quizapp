@@ -1,0 +1,448 @@
+{
+ "id": "w9-pharma-alpha-blockers-1",
+ "title": "Alpha Blockers (Autonomic Drugs 3): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w9-pharmacology-autonomic-drugs-3",
+ "questions": [
+  {
+   "q": "Which pair are irreversible non-selective alpha blockers?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Phentolamine and tolazoline",
+     "e": "Wrong. Competitive and temporary."
+    },
+    {
+     "t": "Prazosin and terazosin",
+     "e": "Wrong. Selective alpha-1 blockers."
+    },
+    {
+     "t": "Yohimbine and prazosin",
+     "e": "Wrong. Yohimbine is alpha-2 selective."
+    },
+    {
+     "t": "Phenoxybenzamine and dibenamine",
+     "e": "Correct. BEN = bonded."
+    }
+   ]
+  },
+  {
+   "q": "Which pair are competitive non-selective alpha blockers?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Phenoxybenzamine and dibenamine",
+     "e": "Wrong. Irreversible."
+    },
+    {
+     "t": "Doxazosin and terazosin",
+     "e": "Wrong. Selective alpha-1."
+    },
+    {
+     "t": "Labetalol and carvedilol",
+     "e": "Wrong. Alpha and beta blockers."
+    },
+    {
+     "t": "Phentolamine and tolazoline",
+     "e": "Correct. TOL = temporary."
+    }
+   ]
+  },
+  {
+   "q": "Which drug is a selective alpha-2 blocker?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Prazosin",
+     "e": "Wrong. Selective alpha-1."
+    },
+    {
+     "t": "Phentolamine",
+     "e": "Wrong. Non-selective."
+    },
+    {
+     "t": "Yohimbine",
+     "e": "Correct. Selective alpha-2."
+    },
+    {
+     "t": "Tamsulosin",
+     "e": "Wrong. Alpha-1a selective."
+    }
+   ]
+  },
+  {
+   "q": "Why is the effect of phenoxybenzamine long-lasting?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "It has a long half-life in plasma only",
+     "e": "Wrong. Not the main reason."
+    },
+    {
+     "t": "It inhibits catecholamine synthesis",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "It is stored in nerve endings",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "It binds alpha receptors covalently so recovery needs new receptor synthesis",
+     "e": "Correct. Releases ethyleneimonium ion."
+    }
+   ]
+  },
+  {
+   "q": "A patient on phenoxybenzamine receives a large dose of epinephrine. What happens to blood pressure?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It rises markedly",
+     "e": "Wrong. The alpha effect is blocked."
+    },
+    {
+     "t": "It falls (epinephrine reversal)",
+     "e": "Correct. Alpha pressor effect is blocked; beta-2 vasodilation is unopposed."
+    },
+    {
+     "t": "It rises then falls",
+     "e": "Wrong. This is without an alpha blocker."
+    },
+    {
+     "t": "It does not change",
+     "e": "Wrong. It falls."
+    }
+   ]
+  },
+  {
+   "q": "Why does a large rapid IV dose of epinephrine first raise BP?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Beta-2 action is stronger initially",
+     "e": "Wrong. Beta-2 gives vasodilation."
+    },
+    {
+     "t": "Alpha receptors outnumber beta-2 receptors",
+     "e": "Correct. Alpha effect appears first."
+    },
+    {
+     "t": "Epinephrine acts only on alpha receptors",
+     "e": "Wrong. It also acts on beta."
+    },
+    {
+     "t": "Beta-1 causes vasoconstriction",
+     "e": "Wrong. Beta-1 acts on the heart."
+    }
+   ]
+  },
+  {
+   "q": "What causes tachycardia with non-selective alpha blockers?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Direct beta-1 stimulation",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Blocked beta-2 receptors",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Direct SA node stimulation by the drug",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Reflex plus blocked presynaptic alpha-2 raising NE release",
+     "e": "Correct. Two mechanisms."
+    }
+   ]
+  },
+  {
+   "q": "Which pair of side effects is typical of non-selective alpha blockers?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Miosis and nasal stuffiness",
+     "e": "Correct. Vasodilation of nasal vessels."
+    },
+    {
+     "t": "Mydriasis and dry mouth",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "Bronchospasm and bradycardia",
+     "e": "Wrong. Beta blocker effects."
+    },
+    {
+     "t": "Mydriasis and hypertension",
+     "e": "Wrong. Not typical."
+    }
+   ]
+  },
+  {
+   "q": "What is the main therapeutic use of phenoxybenzamine?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Essential hypertension",
+     "e": "Wrong. Limited by postural hypotension and tachycardia."
+    },
+    {
+     "t": "Benign prostatic hyperplasia",
+     "e": "Wrong. Selective alpha-1 blockers are used."
+    },
+    {
+     "t": "Pheochromocytoma",
+     "e": "Correct. Before surgery or inoperable tumor."
+    },
+    {
+     "t": "Heart failure",
+     "e": "Wrong. Prazosin is used."
+    }
+   ]
+  },
+  {
+   "q": "Which drug is used for hypotension after pheochromocytoma surgery?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Large-dose dopamine",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Phenoxybenzamine",
+     "e": "Wrong. Causes hypotension."
+    },
+    {
+     "t": "Propranolol",
+     "e": "Wrong. Not used for this."
+    },
+    {
+     "t": "Prazosin",
+     "e": "Wrong. Causes hypotension."
+    }
+   ]
+  },
+  {
+   "q": "Why does failure of ejaculation occur with phenoxybenzamine?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Blockade of beta-2 receptors",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Inhibition of smooth muscle contraction of the vas and ejaculatory duct",
+     "e": "Correct. Stated mechanism."
+    },
+    {
+     "t": "Inhibition of spermatogenesis",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Increased prolactin",
+     "e": "Wrong. Not the mechanism."
+    }
+   ]
+  },
+  {
+   "q": "What is the mechanism of prazosin?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Irreversible alpha blockade",
+     "e": "Wrong. Phenoxybenzamine."
+    },
+    {
+     "t": "Competitive blockade of alpha-1 receptors with very low alpha-2 affinity",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Beta-1 blockade",
+     "e": "Wrong. Not prazosin."
+    },
+    {
+     "t": "Blockade of alpha-2 receptors",
+     "e": "Wrong. Yohimbine."
+    }
+   ]
+  },
+  {
+   "q": "Why does prazosin usually not cause tachycardia?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "It blocks beta-1 receptors",
+     "e": "Wrong. Not prazosin."
+    },
+    {
+     "t": "It is irreversible",
+     "e": "Wrong. Not prazosin."
+    },
+    {
+     "t": "It lowers cardiac output directly",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "Alpha-2 receptors are not blocked, so presynaptic NE release is not increased",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "How does prazosin help in heart failure?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It increases contractility",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "It decreases preload and afterload",
+     "e": "Correct. Venous and arterial dilation."
+    },
+    {
+     "t": "It increases heart rate",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "It increases preload",
+     "e": "Wrong. Opposite."
+    }
+   ]
+  },
+  {
+   "q": "Which statement compares prazosin and terazosin correctly?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Terazosin is more potent; prazosin lasts longer",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Both last 4-6 hours",
+     "e": "Wrong. Terazosin lasts 18 hours."
+    },
+    {
+     "t": "Prazosin is more potent; terazosin has a longer duration (18 h)",
+     "e": "Correct. Mnemonic: Potent versus Time."
+    },
+    {
+     "t": "Prazosin has more than 90% bioavailability",
+     "e": "Wrong. Prazosin has 70%; terazosin more than 90%."
+    }
+   ]
+  },
+  {
+   "q": "Why does tamsulosin cause little postural hypotension?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "It is selective for alpha-1a with no effect on vascular alpha-1B receptors",
+     "e": "Correct. Selective for bladder neck and prostate."
+    },
+    {
+     "t": "It blocks alpha-2 receptors",
+     "e": "Wrong. Not tamsulosin."
+    },
+    {
+     "t": "It is irreversible",
+     "e": "Wrong. Not tamsulosin."
+    },
+    {
+     "t": "It blocks beta receptors",
+     "e": "Wrong. Not tamsulosin."
+    }
+   ]
+  },
+  {
+   "q": "What is the first dose phenomenon of prazosin and when does it occur?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Postural hypotension and syncope 30-90 minutes after the first dose",
+     "e": "Correct. Reduce by a small first dose at bedtime."
+    },
+    {
+     "t": "Tachycardia within 5 minutes",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Bradycardia after 24 hours",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Hypertension at 30-90 minutes",
+     "e": "Wrong. It is hypotension."
+    }
+   ]
+  },
+  {
+   "q": "How can the first dose phenomenon be reduced?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A large first dose in the morning",
+     "e": "Wrong. Worsens it."
+    },
+    {
+     "t": "Adding a second antihypertensive",
+     "e": "Wrong. Can cause postural hypotension."
+    },
+    {
+     "t": "A small first dose at bedtime",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Rapid dose increase",
+     "e": "Wrong. Can cause postural hypotension."
+    }
+   ]
+  },
+  {
+   "q": "Which mnemonic or rule is correct for selective alpha-1 blockers?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The -osin drugs",
+     "e": "Correct. Prazosin, terazosin, doxazosin."
+    },
+    {
+     "t": "The -olol drugs",
+     "e": "Wrong. Beta blockers."
+    },
+    {
+     "t": "The -ine drugs",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "The -zole drugs",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What reflex follows a norepinephrine-induced rise in BP?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Reflex tachycardia",
+     "e": "Wrong. Occurs with vasodilators."
+    },
+    {
+     "t": "Reflex vasoconstriction",
+     "e": "Wrong. Not the reflex."
+    },
+    {
+     "t": "Reflex bradycardia",
+     "e": "Correct. Baroreceptor reflex."
+    },
+    {
+     "t": "No reflex",
+     "e": "Wrong. A reflex occurs."
+    }
+   ]
+  }
+ ]
+}

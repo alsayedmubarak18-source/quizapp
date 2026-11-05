@@ -1,0 +1,448 @@
+{
+ "id": "w10-derm-eczema-1",
+ "title": "Eczema (Dermatitis): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w10-clinical-session-title-to-be-announced",
+ "questions": [
+  {
+   "q": "What is the histological hallmark of eczema?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Acantholysis",
+     "e": "Wrong. Seen in pemphigus, not eczema."
+    },
+    {
+     "t": "Parakeratosis with Munro microabscesses",
+     "e": "Wrong. Psoriasis feature."
+    },
+    {
+     "t": "Interface dermatitis",
+     "e": "Wrong. Lichen planus feature."
+    },
+    {
+     "t": "Spongiosis",
+     "e": "Correct. Intercellular oedema in the epidermis."
+    }
+   ]
+  },
+  {
+   "q": "What is the number one occupational skin disease?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Atopic dermatitis",
+     "e": "Wrong. Not the leading occupational disease."
+    },
+    {
+     "t": "Psoriasis",
+     "e": "Wrong. Not occupational."
+    },
+    {
+     "t": "Scabies",
+     "e": "Wrong. Infestation."
+    },
+    {
+     "t": "Contact dermatitis",
+     "e": "Correct. Eczema overlaps in types."
+    }
+   ]
+  },
+  {
+   "q": "In the 'bricks and mortar' model of the skin barrier, what are the bricks and the mortar?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Bricks: ceramides; mortar: corneocytes",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Bricks: keratohyalin granules; mortar: melanin",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Bricks: corneocytes; mortar: ceramides, cholesterol and free fatty acids",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Bricks: fibroblasts; mortar: collagen",
+     "e": "Wrong. Dermis."
+    }
+   ]
+  },
+  {
+   "q": "Which protein defect is the strongest genetic risk for atopic dermatitis?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Keratin 14",
+     "e": "Wrong. Epidermolysis bullosa simplex."
+    },
+    {
+     "t": "Desmoglein 3",
+     "e": "Wrong. Pemphigus."
+    },
+    {
+     "t": "Collagen VII",
+     "e": "Wrong. Dystrophic EB."
+    },
+    {
+     "t": "Filaggrin (FLG) loss",
+     "e": "Correct. Reduces NMF and raises pH."
+    }
+   ]
+  },
+  {
+   "q": "What does filaggrin degradation produce?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Ceramides",
+     "e": "Wrong. Mortar lipids."
+    },
+    {
+     "t": "Natural moisturising factor for hydration and acidic pH",
+     "e": "Correct. Also bundles keratin filaments."
+    },
+    {
+     "t": "Melanin",
+     "e": "Wrong. Pigment."
+    },
+    {
+     "t": "Keratohyalin granules",
+     "e": "Wrong. Source of profilaggrin."
+    }
+   ]
+  },
+  {
+   "q": "A patient has an acute, oozing, crusted eczema with vesicles. What is the histology and treatment?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Acanthosis and hyperkeratosis; steroid ointment",
+     "e": "Wrong. Chronic stage."
+    },
+    {
+     "t": "Marked spongiosis with vesicles; wet dressings plus steroid cream or lotion",
+     "e": "Correct. Acute stage."
+    },
+    {
+     "t": "Spongiosis with early thickening; dry scales",
+     "e": "Wrong. Subacute stage."
+    },
+    {
+     "t": "Acantholysis; antifungals",
+     "e": "Wrong. Not eczema."
+    }
+   ]
+  },
+  {
+   "q": "A patient has chronic eczema with lichenification, fissuring and excoriations. What is the histology and treatment?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Marked spongiosis; wet dressings",
+     "e": "Wrong. Acute stage."
+    },
+    {
+     "t": "Spongiosis only; steroid lotion",
+     "e": "Wrong. Subacute stage."
+    },
+    {
+     "t": "Epidermal atrophy; emollients only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Acanthosis and hyperkeratosis; steroid ointment, hydration, short nails",
+     "e": "Correct. Chronic stage."
+    }
+   ]
+  },
+  {
+   "q": "Which feature distinguishes irritant from allergic contact dermatitis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Irritant burns and has no immune memory; allergic itches and is type IV",
+     "e": "Correct. Patch test is for allergic."
+    },
+    {
+     "t": "Irritant itches and is type IV; allergic burns",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Both are type IV",
+     "e": "Wrong. Irritant is innate."
+    },
+    {
+     "t": "Both need prior sensitization",
+     "e": "Wrong. Irritant does not."
+    }
+   ]
+  },
+  {
+   "q": "Which test is the gold standard for allergic contact dermatitis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Skin prick test",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "Serum IgE",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "Patch test",
+     "e": "Correct. Allergens under occlusion for 48 h."
+    },
+    {
+     "t": "Biopsy",
+     "e": "Wrong. Not specific."
+    }
+   ]
+  },
+  {
+   "q": "How long is the sensitisation phase of allergic contact dermatitis and what happens?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "10-15 days, no rash",
+     "e": "Correct. Memory T cells form."
+    },
+    {
+     "t": "24-72 hours with rash",
+     "e": "Wrong. Elicitation."
+    },
+    {
+     "t": "Minutes with wheal",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "48 hours with rash",
+     "e": "Wrong. Patch test duration."
+    }
+   ]
+  },
+  {
+   "q": "When does the rash appear on re-exposure in allergic contact dermatitis?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "10 to 15 days",
+     "e": "Wrong. Sensitisation."
+    },
+    {
+     "t": "24 to 72 hours (elicitation)",
+     "e": "Correct. Memory T cells release cytokines."
+    },
+    {
+     "t": "Within minutes",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "After 2 weeks",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which allergen is common in jewellery and buckles?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Chromate",
+     "e": "Wrong. Cement and leather."
+    },
+    {
+     "t": "Nickel",
+     "e": "Correct. Nickel (jewellery, buckles) is a key allergen in allergic contact dermatitis."
+    },
+    {
+     "t": "PPD",
+     "e": "Wrong. Hair dye."
+    },
+    {
+     "t": "Formaldehyde",
+     "e": "Wrong. Preservative."
+    }
+   ]
+  },
+  {
+   "q": "Which allergen is found in hair dye and black henna?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Nickel",
+     "e": "Wrong. Jewellery."
+    },
+    {
+     "t": "Chromate",
+     "e": "Wrong. Cement."
+    },
+    {
+     "t": "Balsam of Peru",
+     "e": "Wrong. Fragrance."
+    },
+    {
+     "t": "PPD",
+     "e": "Correct. Para-phenylenediamine."
+    }
+   ]
+  },
+  {
+   "q": "Which cytokines drive Th2 inflammation and reduced filaggrin in atopic dermatitis?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "IL-31",
+     "e": "Wrong. Itch."
+    },
+    {
+     "t": "IL-4 and IL-13",
+     "e": "Correct. Alarmins TSLP and IL-33 initiate."
+    },
+    {
+     "t": "IFN-gamma and IL-12",
+     "e": "Wrong. Th1."
+    },
+    {
+     "t": "IL-17 and IL-23",
+     "e": "Wrong. Th17."
+    }
+   ]
+  },
+  {
+   "q": "Which cytokine mediates itch in atopic dermatitis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IL-4",
+     "e": "Wrong. Th2 inflammation."
+    },
+    {
+     "t": "TSLP",
+     "e": "Wrong. Alarmin."
+    },
+    {
+     "t": "IL-31",
+     "e": "Correct. Itch-scratch cycle."
+    },
+    {
+     "t": "IL-33",
+     "e": "Wrong. Alarmin."
+    }
+   ]
+  },
+  {
+   "q": "Which are keratinocyte alarmins in atopic dermatitis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "TSLP and IL-33",
+     "e": "Correct. Lead to Th2 response."
+    },
+    {
+     "t": "IL-4 and IL-13",
+     "e": "Wrong. Th2 effector cytokines."
+    },
+    {
+     "t": "IL-31 and IL-5",
+     "e": "Wrong. Not alarmins."
+    },
+    {
+     "t": "IL-12 and IL-18",
+     "e": "Wrong. Th1 inducers."
+    }
+   ]
+  },
+  {
+   "q": "Where does infantile atopic dermatitis typically occur?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Cheeks, scalp and extensors, sparing the napkin area",
+     "e": "Correct. 2 months to 2 years."
+    },
+    {
+     "t": "Flexures, lichenified",
+     "e": "Wrong. Childhood form."
+    },
+    {
+     "t": "Napkin area, flexures only",
+     "e": "Wrong. Napkin area is spared."
+    },
+    {
+     "t": "Palms and soles only",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Where does childhood atopic dermatitis typically occur?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cheeks and extensors",
+     "e": "Wrong. Infantile form."
+    },
+    {
+     "t": "Napkin area",
+     "e": "Wrong. Spared in infants."
+    },
+    {
+     "t": "Flexures such as elbows, knees, wrists and neck",
+     "e": "Correct. Lichenified."
+    },
+    {
+     "t": "Scalp only",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "A child with eczema becomes unwell with fever and clustered punched-out erosions. What is the diagnosis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Eczema herpeticum (HSV), an emergency",
+     "e": "Correct. Complication of atopic dermatitis."
+    },
+    {
+     "t": "Staphylococcus aureus impetiginization",
+     "e": "Wrong. Yellow crusts and weeping."
+    },
+    {
+     "t": "Irritant contact dermatitis",
+     "e": "Wrong. Not feverish."
+    },
+    {
+     "t": "Scabies",
+     "e": "Wrong. Burrows."
+    }
+   ]
+  },
+  {
+   "q": "What are the three principles of eczema management?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Antibiotics, antifungals, antivirals",
+     "e": "Wrong. Not the principles."
+    },
+    {
+     "t": "Oral steroids, immunosuppressants, phototherapy first-line",
+     "e": "Wrong. Not first-line."
+    },
+    {
+     "t": "Repair the barrier, calm inflammation, avoid triggers",
+     "e": "Correct. Emollients, topical steroids, trigger avoidance."
+    },
+    {
+     "t": "Wet dressings, antihistamines, soap",
+     "e": "Wrong. Not the principles."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,448 @@
+{
+ "id": "w9-physio-pregnancy-changes-1",
+ "title": "Physiological Changes During Pregnancy: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w9-physiology-physio-changes-during-pregnancy",
+ "questions": [
+  {
+   "q": "Where does fertilization normally take place?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Isthmus of the fallopian tube",
+     "e": "Wrong. The isthmus is the narrow part near the uterus."
+    },
+    {
+     "t": "Uterine cavity",
+     "e": "Wrong. Implantation, not fertilization, occurs there."
+    },
+    {
+     "t": "Infundibulum",
+     "e": "Wrong. The funnel-shaped opening near the ovary."
+    },
+    {
+     "t": "Ampulla of the fallopian tube",
+     "e": "Correct. Fertilization occurs in the ampulla."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone drives decidualization of the endometrium, and from which source?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Estrogen from the placenta",
+     "e": "Wrong. Estrogen is not the driver stated."
+    },
+    {
+     "t": "hCG from the syncytiotrophoblast",
+     "e": "Wrong. hCG rescues the corpus luteum."
+    },
+    {
+     "t": "FSH from the pituitary",
+     "e": "Wrong. Not the driver."
+    },
+    {
+     "t": "Progesterone from the corpus luteum",
+     "e": "Correct. Decidualization follows progesterone."
+    }
+   ]
+  },
+  {
+   "q": "Which cell layer of the placental barrier is made by the fetus and lines the villi?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Decidua basalis",
+     "e": "Wrong. Maternal tissue."
+    },
+    {
+     "t": "Basal plate",
+     "e": "Wrong. Maternal side of the placenta."
+    },
+    {
+     "t": "Syncytiotrophoblast",
+     "e": "Correct. It forms the thin outer layer of the barrier."
+    },
+    {
+     "t": "Myometrium",
+     "e": "Wrong. Maternal tissue."
+    }
+   ]
+  },
+  {
+   "q": "Which layers form the placental barrier at term?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Maternal endothelium, decidua and amnion",
+     "e": "Wrong. Not the barrier layers."
+    },
+    {
+     "t": "Chorionic plate, basal plate and myometrium",
+     "e": "Wrong. Not the barrier layers."
+    },
+    {
+     "t": "Amnion, chorion and decidua parietalis",
+     "e": "Wrong. Membranes, not the exchange barrier."
+    },
+    {
+     "t": "Fetal capillary endothelium, basal lamina and a thin syncytiotrophoblast",
+     "e": "Correct. A barrier 5 micrometres or less."
+    }
+   ]
+  },
+  {
+   "q": "What gives the placenta its large surface area?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The basal plate",
+     "e": "Wrong. Maternal side."
+    },
+    {
+     "t": "Villous trees lined with microvilli",
+     "e": "Correct. They maximize transfer."
+    },
+    {
+     "t": "The chorionic plate",
+     "e": "Wrong. Fetal side."
+    },
+    {
+     "t": "The intervillous space",
+     "e": "Wrong. The blood-filled space between villi."
+    }
+   ]
+  },
+  {
+   "q": "What does hCG do to the corpus luteum?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Causes its involution at implantation",
+     "e": "Wrong. Opposite effect."
+    },
+    {
+     "t": "Rescues it from degeneration until the 3rd-4th month",
+     "e": "Correct. The corpus luteum keeps secreting progesterone and estrogen."
+    },
+    {
+     "t": "Converts it to the placenta",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stimulates its immediate regression",
+     "e": "Wrong. Opposite effect."
+    }
+   ]
+  },
+  {
+   "q": "Which placental hormone increases pubic symphysis flexibility and helps dilate the cervix?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "hPL",
+     "e": "Wrong. Acts on metabolism and breast."
+    },
+    {
+     "t": "CRH",
+     "e": "Wrong. Times birth."
+    },
+    {
+     "t": "Estrogen",
+     "e": "Wrong. Prepares the body for birth in general."
+    },
+    {
+     "t": "Relaxin",
+     "e": "Correct. Two stated functions."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone decreases glucose use and increases fatty acid use for ATP production?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "hCS (hPL)",
+     "e": "Correct. Spares glucose for the fetus."
+    },
+    {
+     "t": "Insulin",
+     "e": "Wrong. Increases glucose use."
+    },
+    {
+     "t": "Relaxin",
+     "e": "Wrong. Not metabolic."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Rescues the corpus luteum."
+    }
+   ]
+  },
+  {
+   "q": "Which fetal precursor does the placenta convert to estrogen?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cortisol",
+     "e": "Wrong. Cortisol matures the lungs."
+    },
+    {
+     "t": "Progesterone",
+     "e": "Wrong. The placenta makes it from cholesterol."
+    },
+    {
+     "t": "DHEA from the fetal adrenal cortex",
+     "e": "Correct. Placenta uses fetal DHEA."
+    },
+    {
+     "t": "Testosterone from the fetal testes",
+     "e": "Wrong. Not the stated precursor."
+    }
+   ]
+  },
+  {
+   "q": "By what mechanism does the uterus enlarge during pregnancy?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Myometrial hypertrophy and hyperplasia",
+     "e": "Correct. Volume rises from a few mL to 5-7 L."
+    },
+    {
+     "t": "Myometrial hyperplasia only",
+     "e": "Wrong. Hypertrophy also occurs."
+    },
+    {
+     "t": "Endometrial hypertrophy only",
+     "e": "Wrong. Myometrium is the cause."
+    },
+    {
+     "t": "Fluid retention only",
+     "e": "Wrong. Not the mechanism."
+    }
+   ]
+  },
+  {
+   "q": "When does the corpus luteum enlarge during pregnancy?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "4-6 weeks",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "12-16 weeks",
+     "e": "Correct. Ovarian change."
+    },
+    {
+     "t": "20-24 weeks",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "32-36 weeks",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which pairing of skin change and name is correct?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Pigmentation: stria gravidarum; linear scars: cloasma",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Pigmentation: cloasma; linear scars: stria gravidarum",
+     "e": "Correct. Stated changes."
+    },
+    {
+     "t": "Pigmentation: linea alba; scars: cloasma",
+     "e": "Wrong. Linea alba is a pigmented line."
+    },
+    {
+     "t": "Both are called cloasma",
+     "e": "Wrong. Distinct changes."
+    }
+   ]
+  },
+  {
+   "q": "By how much does blood volume rise in pregnancy?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "10-15%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "5%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "40-50%",
+     "e": "Correct. Cardiac output rises and SVR falls."
+    }
+   ]
+  },
+  {
+   "q": "Which respiratory change is correct in pregnancy?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Tidal volume down, FRC increased",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Tidal volume up 30-40%, FRC decreased",
+     "e": "Correct. Enhances O2 delivery to the fetus."
+    },
+    {
+     "t": "Tidal volume up, FRC increased",
+     "e": "Wrong. FRC falls."
+    },
+    {
+     "t": "Tidal volume unchanged",
+     "e": "Wrong. It rises."
+    }
+   ]
+  },
+  {
+   "q": "By how much does GFR increase in pregnancy?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "10-20%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "80-100%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "40-50%",
+     "e": "Correct. Renal plasma flow rises 30-50%."
+    },
+    {
+     "t": "It decreases",
+     "e": "Wrong. It rises."
+    }
+   ]
+  },
+  {
+   "q": "Which hematologic state occurs in pregnancy?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hypercoagulable, with increased clotting factors and decreased fibrinolysis",
+     "e": "Correct. Stated state."
+    },
+    {
+     "t": "Hypocoagulable with increased fibrinolysis",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Hypercoagulable with increased fibrinolysis",
+     "e": "Wrong. Fibrinolysis decreases."
+    },
+    {
+     "t": "Unchanged coagulation",
+     "e": "Wrong. Changes occur."
+    }
+   ]
+  },
+  {
+   "q": "Which placental hormone enters the fetal circulation to start the onset of labor?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "CRH",
+     "e": "Correct. It raises fetal ACTH and cortisol."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Not the starter."
+    },
+    {
+     "t": "Relaxin",
+     "e": "Wrong. Acts on symphysis and cervix."
+    },
+    {
+     "t": "hPL",
+     "e": "Wrong. Not the starter."
+    }
+   ]
+  },
+  {
+   "q": "What do increased estrogen levels do to the myometrium near labor?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Fewer gap junctions and more progesterone",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "More relaxin receptors only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "More gap junctions, oxytocin receptors and prostaglandins",
+     "e": "Correct. The uterus contracts as a unit."
+    },
+    {
+     "t": "Decreased oxytocin receptors",
+     "e": "Wrong. Opposite."
+    }
+   ]
+  },
+  {
+   "q": "What is the correct duration of stage 1 of labor and its description?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "8-15 hours; cervical dilation",
+     "e": "Correct. Stage 1 ends with full dilation."
+    },
+    {
+     "t": "45-100 minutes; cervical dilation",
+     "e": "Wrong. This is stage 2 duration."
+    },
+    {
+     "t": "Within minutes; cervical dilation",
+     "e": "Wrong. Stage 3 duration."
+    },
+    {
+     "t": "8-15 hours; fetal expulsion",
+     "e": "Wrong. This is stage 2."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone maintains the endometrium and helps prepare mammary glands for lactation after the corpus luteum is rescued?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Relaxin",
+     "e": "Wrong. Acts on symphysis and cervix."
+    },
+    {
+     "t": "hPL",
+     "e": "Wrong. Acts on mammary growth and metabolism."
+    },
+    {
+     "t": "Progesterone and estrogens",
+     "e": "Correct. Also prepare the mother's body for birth."
+    },
+    {
+     "t": "CRH",
+     "e": "Wrong. Times birth."
+    }
+   ]
+  }
+ ]
+}

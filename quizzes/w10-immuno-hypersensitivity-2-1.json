@@ -1,0 +1,448 @@
+{
+ "id": "w10-immuno-hypersensitivity-2-1",
+ "title": "Hypersensitivity II (Types III & IV): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w10-immunology-hypersensitivity-2",
+ "questions": [
+  {
+   "q": "Which is the order of the three steps of Type III hypersensitivity?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Deposition, formation, inflammation",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Inflammation, formation, deposition",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Formation, inflammation, deposition",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Immune complex formation, deposition, inflammatory reaction",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "Which antibodies and antigen form are involved in Type III?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "IgE with cell-bound antigens",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "IgG with cell surface antigens",
+     "e": "Wrong. Type II."
+    },
+    {
+     "t": "T cells with cell-bound antigens",
+     "e": "Wrong. Type IV."
+    },
+    {
+     "t": "IgM and IgG (mostly IgG) with soluble antigens",
+     "e": "Correct. The antigen is not cell-bound."
+    }
+   ]
+  },
+  {
+   "q": "Which size of immune complexes deposits in tissue?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Very large",
+     "e": "Wrong. Cleared by phagocytes."
+    },
+    {
+     "t": "Very small",
+     "e": "Wrong. Not deposited."
+    },
+    {
+     "t": "Intermediate",
+     "e": "Correct. Very large are cleared; very small stay in circulation."
+    },
+    {
+     "t": "Any size equally",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which complement fragment attracts neutrophils in Type III?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "C3b",
+     "e": "Wrong. Opsonin."
+    },
+    {
+     "t": "C5b-9",
+     "e": "Wrong. MAC."
+    },
+    {
+     "t": "C1q",
+     "e": "Wrong. Classical pathway start."
+    },
+    {
+     "t": "C5a",
+     "e": "Correct. Chemotaxis."
+    }
+   ]
+  },
+  {
+   "q": "Where are immune complexes especially deposited?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Brain and thyroid",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Blood vessels, kidneys, lungs, skin and joints",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Liver and spleen only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Bone marrow",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What is the local Type III reaction called?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Mantoux reaction",
+     "e": "Wrong. Type IV."
+    },
+    {
+     "t": "Arthus reaction",
+     "e": "Correct. e.g. after tetanus vaccination."
+    },
+    {
+     "t": "Serum sickness",
+     "e": "Wrong. Systemic."
+    },
+    {
+     "t": "Prausnitz-Kustner reaction",
+     "e": "Wrong. Type I."
+    }
+   ]
+  },
+  {
+   "q": "A farmer develops alveolitis from inhaled mouldy hay spores. Which type of hypersensitivity is this?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Type I",
+     "e": "Wrong. IgE."
+    },
+    {
+     "t": "Type II",
+     "e": "Wrong. Cell-bound antigens."
+    },
+    {
+     "t": "Type IV only",
+     "e": "Wrong. Not the classification used here."
+    },
+    {
+     "t": "Type III (extrinsic allergic alveolitis)",
+     "e": "Correct. Hypersensitivity pneumonitis."
+    }
+   ]
+  },
+  {
+   "q": "What triggers pigeon fancier's lung?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Avian serum and fecal proteins from pigeon dung",
+     "e": "Correct. Type III."
+    },
+    {
+     "t": "Mould spores from hay",
+     "e": "Wrong. Farmer's lung."
+    },
+    {
+     "t": "Protozoa in air conditioners",
+     "e": "Wrong. Humidifier fever."
+    },
+    {
+     "t": "Latex particles",
+     "e": "Wrong. Type I."
+    }
+   ]
+  },
+  {
+   "q": "A patient develops fever, arthritis and vasculitis 10 days after horse antitetanus serum. What is the diagnosis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Arthus reaction",
+     "e": "Wrong. Local reaction."
+    },
+    {
+     "t": "Contact dermatitis",
+     "e": "Wrong. Type IV."
+    },
+    {
+     "t": "Serum sickness",
+     "e": "Correct. Antibodies to heterologous protein form complexes."
+    },
+    {
+     "t": "Anaphylaxis",
+     "e": "Wrong. Type I."
+    }
+   ]
+  },
+  {
+   "q": "What is the target of SLE immune complexes?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Nuclear antigens, causing nephritis, skin lesions and arthritis",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Streptococcal cell wall, causing nephritis",
+     "e": "Wrong. Post-streptococcal GN."
+    },
+    {
+     "t": "HBsAg, causing vasculitis",
+     "e": "Wrong. Polyarteritis nodosa."
+    },
+    {
+     "t": "Acetylcholine receptor",
+     "e": "Wrong. Myasthenia gravis."
+    }
+   ]
+  },
+  {
+   "q": "Which disease is linked to hepatitis B surface antigen immune complexes?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Post-streptococcal glomerulonephritis",
+     "e": "Wrong. Streptococcal antigens."
+    },
+    {
+     "t": "Polyarteritis nodosa",
+     "e": "Correct. Systemic vasculitis."
+    },
+    {
+     "t": "Reactive arthritis",
+     "e": "Wrong. Bacterial antigens."
+    },
+    {
+     "t": "Henoch-Schonlein purpura",
+     "e": "Wrong. Unknown antigen."
+    }
+   ]
+  },
+  {
+   "q": "How does Type III differ from Type II?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cell-bound antigen versus soluble antigen",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Soluble antigen versus antigen on cell surfaces",
+     "e": "Correct. Complement activation rapid and strong in Type III."
+    },
+    {
+     "t": "IgE versus IgG",
+     "e": "Wrong. Type I versus others."
+    },
+    {
+     "t": "T cells versus antibodies",
+     "e": "Wrong. Type IV."
+    }
+   ]
+  },
+  {
+   "q": "When does Type IV hypersensitivity begin after contact and what mediates it?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Within minutes; IgE",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "2-24 hours; IgG",
+     "e": "Wrong. Type II."
+    },
+    {
+     "t": "Within hours; immune complexes",
+     "e": "Wrong. Type III."
+    },
+    {
+     "t": "From 24 hours; T cells and macrophages",
+     "e": "Correct. Antibody-independent."
+    }
+   ]
+  },
+  {
+   "q": "Which CD4+ subsets cause cytokine-mediated inflammation in Type IV?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Th2 and Treg",
+     "e": "Wrong. Not injury subsets here."
+    },
+    {
+     "t": "Th1 and Th17",
+     "e": "Correct. Recruit and activate macrophages."
+    },
+    {
+     "t": "Th2 and Th9",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Treg and TFH",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which is the most potent macrophage-activating cytokine in Type IV?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IL-4",
+     "e": "Wrong. Th2."
+    },
+    {
+     "t": "IL-17",
+     "e": "Wrong. Recruits leukocytes."
+    },
+    {
+     "t": "IFN-gamma",
+     "e": "Correct. From Th1 cells."
+    },
+    {
+     "t": "IL-10",
+     "e": "Wrong. Regulatory."
+    }
+   ]
+  },
+  {
+   "q": "Which MHC presents antigen to CD8+ CTLs and what is their killing mechanism?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "MHC class I; perforin-granzyme leading to apoptosis",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "MHC class II; complement lysis",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "MHC class I; antibody-dependent killing",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "MHC class II; IgE release",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What causes contact hypersensitivity dermatitis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Haptens penetrating skin and combining with proteins, e.g., nickel and poison ivy",
+     "e": "Correct. Presented by Langerhans cells."
+    },
+    {
+     "t": "IgE cross-linking by pollen",
+     "e": "Wrong. Type I."
+    },
+    {
+     "t": "Immune complexes in capillaries",
+     "e": "Wrong. Type III."
+    },
+    {
+     "t": "Antibodies to red cells",
+     "e": "Wrong. Type II."
+    }
+   ]
+  },
+  {
+   "q": "What is a granuloma?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A collection of neutrophils with pus",
+     "e": "Wrong. Not a granuloma."
+    },
+    {
+     "t": "A cluster of plasma cells",
+     "e": "Wrong. Not a granuloma."
+    },
+    {
+     "t": "A collection of macrophages filled with intracellular antigens",
+     "e": "Correct. Macrophages cannot destroy antigen."
+    },
+    {
+     "t": "A fibrin deposit",
+     "e": "Wrong. Not a granuloma."
+    }
+   ]
+  },
+  {
+   "q": "How is the tuberculin test read and what does a positive result indicate?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Induration measured at 48-72 hours; Type IV hypersensitivity",
+     "e": "Correct. PPD intradermally."
+    },
+    {
+     "t": "Wheal at 15 minutes; Type I",
+     "e": "Wrong. Not the tuberculin test."
+    },
+    {
+     "t": "Erythema at 6 hours; Type III",
+     "e": "Wrong. Not the tuberculin test."
+    },
+    {
+     "t": "Hemolysis at 2 hours; Type II",
+     "e": "Wrong. Not the tuberculin test."
+    }
+   ]
+  },
+  {
+   "q": "Which disease is a Type IV disorder?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Serum sickness",
+     "e": "Wrong. Type III."
+    },
+    {
+     "t": "Goodpasture syndrome",
+     "e": "Wrong. Type II."
+    },
+    {
+     "t": "Contact dermatitis due to poison ivy",
+     "e": "Correct. Urushiol; also Mantoux test and chronic graft rejection."
+    },
+    {
+     "t": "Allergic rhinitis",
+     "e": "Wrong. Type I."
+    }
+   ]
+  }
+ ]
+}

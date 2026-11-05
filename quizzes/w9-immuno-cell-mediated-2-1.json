@@ -1,0 +1,448 @@
+{
+ "id": "w9-immuno-cell-mediated-2-1",
+ "title": "Cell-Mediated Immunity II: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w9-immunology-cell-mediated-2",
+ "questions": [
+  {
+   "q": "What is the correct order of the phases of the T cell response?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Activation, recognition, differentiation, expansion, effector function, memory, contraction",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Recognition, clonal expansion, activation, differentiation, contraction, effector function, memory",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Recognition, activation, effector function, expansion, differentiation, memory, contraction",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Recognition, activation, clonal expansion, differentiation, effector function, contraction, memory",
+     "e": "Correct. Seven phases."
+    }
+   ]
+  },
+  {
+   "q": "Which cells are the most efficient stimulators of naive T cells?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Resting B cells",
+     "e": "Wrong. Not the most efficient."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Not APCs for naive T cells."
+    },
+    {
+     "t": "Eosinophils",
+     "e": "Wrong. Not APCs for naive T cells."
+    },
+    {
+     "t": "Dendritic cells",
+     "e": "Correct. They process and display antigens by MHC."
+    }
+   ]
+  },
+  {
+   "q": "What does a T cell do when it recognizes antigen?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Starts rapid migration",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Secretes antibodies",
+     "e": "Wrong. B cells."
+    },
+    {
+     "t": "Transiently stops moving and starts its activation program",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Kills the APC",
+     "e": "Wrong. Naive T cells cannot do effector functions."
+    }
+   ]
+  },
+  {
+   "q": "Which cytokine is secreted by naive T cells after antigen recognition to drive proliferation?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "IL-4",
+     "e": "Wrong. Th2."
+    },
+    {
+     "t": "IL-12",
+     "e": "Wrong. From APCs."
+    },
+    {
+     "t": "IFN-gamma",
+     "e": "Wrong. Th1 effector."
+    },
+    {
+     "t": "IL-2",
+     "e": "Correct. Autocrine growth factor."
+    }
+   ]
+  },
+  {
+   "q": "What is signal 2 in naive T cell activation?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "MHC-peptide binding TCR",
+     "e": "Wrong. This is signal 1."
+    },
+    {
+     "t": "CD80/CD86 (B7) binding CD28",
+     "e": "Correct. Co-stimulation."
+    },
+    {
+     "t": "Cytokine secretion",
+     "e": "Wrong. This is signal 3."
+    },
+    {
+     "t": "CD40L binding CD40",
+     "e": "Wrong. Not signal 2 as stated."
+    }
+   ]
+  },
+  {
+   "q": "A naive T cell meets antigen on a resting APC lacking costimulators. What happens?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Full activation",
+     "e": "Wrong. Needs signal 2."
+    },
+    {
+     "t": "No response, or anergy/apoptosis",
+     "e": "Correct. Signal 1 alone is not enough."
+    },
+    {
+     "t": "Differentiation to Th1",
+     "e": "Wrong. Needs costimulation."
+    },
+    {
+     "t": "Immediate memory formation",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What changes in the APC after exposure to microbes?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Decreased B7 expression",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Loss of MHC",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Secretion of IgE",
+     "e": "Wrong. Not an APC product."
+    },
+    {
+     "t": "Increased B7 expression and cytokine secretion (e.g., IL-12)",
+     "e": "Correct. Via innate immunity."
+    }
+   ]
+  },
+  {
+   "q": "What is the term for proliferation of antigen-specific T cells?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Clonal expansion",
+     "e": "Correct. Begins within 1-2 days."
+    },
+    {
+     "t": "Clonal deletion",
+     "e": "Wrong. Elimination of cells."
+    },
+    {
+     "t": "Clonal anergy",
+     "e": "Wrong. Unresponsiveness."
+    },
+    {
+     "t": "Class switching",
+     "e": "Wrong. B cell process."
+    }
+   ]
+  },
+  {
+   "q": "What are memory T cells like?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Short-lived and highly active",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Found only in the thymus",
+     "e": "Wrong. Circulate."
+    },
+    {
+     "t": "Long-lived and functionally inactive until re-exposure",
+     "e": "Correct. Circulate for months or years."
+    },
+    {
+     "t": "Unable to respond to repeat exposure",
+     "e": "Wrong. They respond rapidly."
+    }
+   ]
+  },
+  {
+   "q": "After viral infection, by how much do antigen-specific CD8+ cells expand?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "About 100,000-fold",
+     "e": "Correct. CD4+ expand 100-1000-fold."
+    },
+    {
+     "t": "About 100 to 1000-fold",
+     "e": "Wrong. This is CD4+."
+    },
+    {
+     "t": "About 10-fold",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "About 1,000,000-fold",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Why do CD8+ cells expand more than CD4+ cells?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "CD4+ cells are fewer in number",
+     "e": "Wrong. Not the stated reason."
+    },
+    {
+     "t": "CD8+ cells are the effector cells that kill infected cells",
+     "e": "Correct. CD4+ effectors secrete cytokines, so little is enough."
+    },
+    {
+     "t": "CD8+ cells need no antigen",
+     "e": "Wrong. Antigen is needed."
+    },
+    {
+     "t": "CD4+ cells never proliferate",
+     "e": "Wrong. They do."
+    }
+   ]
+  },
+  {
+   "q": "Which transcription factor is linked to each helper subset: Th1, Th2, Th17, Treg?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "GATA-3, T-bet, FOXP3, RORc",
+     "e": "Wrong. Mismatched."
+    },
+    {
+     "t": "T-bet, GATA-3, RORc, FOXP3",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "FOXP3, RORc, T-bet, GATA-3",
+     "e": "Wrong. Mismatched."
+    },
+    {
+     "t": "RORc, FOXP3, GATA-3, T-bet",
+     "e": "Wrong. Mismatched."
+    }
+   ]
+  },
+  {
+   "q": "Which cytokine drives Th2 differentiation and which drives Th1?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "IL-12; IL-4",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "TGF-beta; IL-6",
+     "e": "Wrong. Th17 and Treg."
+    },
+    {
+     "t": "IL-10; IL-4",
+     "e": "Wrong. IL-10 inhibits Th1."
+    },
+    {
+     "t": "IL-4; IL-12/IFN-gamma",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "Which subset is associated with tolerance and pregnancy success?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Th17",
+     "e": "Wrong. Autoimmunity and pregnancy loss."
+    },
+    {
+     "t": "Treg",
+     "e": "Correct. Effector cytokines TGF-beta and IL-10."
+    },
+    {
+     "t": "Th1",
+     "e": "Wrong. Intracellular parasites."
+    },
+    {
+     "t": "Th2",
+     "e": "Wrong. Extracellular parasites."
+    }
+   ]
+  },
+  {
+   "q": "Which cytokines inhibit Th1 production?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IFN-gamma and IL-12",
+     "e": "Wrong. Drive Th1."
+    },
+    {
+     "t": "IL-2 and IL-18",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "IL-10 and IL-4",
+     "e": "Correct. IFN-gamma drives Th1."
+    },
+    {
+     "t": "TNF-alpha",
+     "e": "Wrong. Th1 effector."
+    }
+   ]
+  },
+  {
+   "q": "Which Th2 cytokine stimulates IgE and which activates eosinophils?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "IL-4; IL-5",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "IL-5; IL-4",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "IFN-gamma; IL-4",
+     "e": "Wrong. Th1 cytokine."
+    },
+    {
+     "t": "IL-12; IL-5",
+     "e": "Wrong. IL-12 is from APCs."
+    }
+   ]
+  },
+  {
+   "q": "What do IL-4 and IL-13 do to macrophages?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Alternative macrophage activation (tissue repair, fibrosis)",
+     "e": "Correct. Th2 effects."
+    },
+    {
+     "t": "Classical activation to kill microbes",
+     "e": "Wrong. IFN-gamma does this."
+    },
+    {
+     "t": "Inhibit all macrophage function",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Induce perforin release",
+     "e": "Wrong. CTL mechanism."
+    }
+   ]
+  },
+  {
+   "q": "How do CD4+ T cells activate macrophages?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Perforin and granzymes",
+     "e": "Wrong. CTL mechanism."
+    },
+    {
+     "t": "Complement C3b",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "CD40L binds CD40 on the macrophage plus IFN-gamma",
+     "e": "Correct. Kills phagocytosed microbes."
+    },
+    {
+     "t": "IgE binding to Fc receptors",
+     "e": "Wrong. Th2 pathway."
+    }
+   ]
+  },
+  {
+   "q": "What is the correct order of CTL killing steps?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Antigen recognition and conjugate formation, activation, granule exocytosis, apoptosis of target",
+     "e": "Correct. Four steps."
+    },
+    {
+     "t": "Granule exocytosis, conjugate formation, activation, apoptosis",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Activation, apoptosis, conjugate formation, exocytosis",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Apoptosis, activation, exocytosis, recognition",
+     "e": "Wrong. Wrong order."
+    }
+   ]
+  },
+  {
+   "q": "In an infected macrophage, which T cell deals with cytoplasmic microbes and why?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "CD4+ T cell; it activates the macrophage",
+     "e": "Wrong. Vesicular microbes."
+    },
+    {
+     "t": "CD8+ T cell; it activates phagolysosomes",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "CD8+ CTL; it kills the infected cell, eliminating the reservoir",
+     "e": "Correct. CD4+ help vesicular microbes."
+    },
+    {
+     "t": "CD4+ T cell; it releases perforin",
+     "e": "Wrong. CTL product."
+    }
+   ]
+  }
+ ]
+}

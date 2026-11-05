@@ -1,0 +1,448 @@
+{
+ "id": "w8-embryo-multiple-gestation-1",
+ "title": "Multiple Gestation: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w8-embryology-multiple",
+ "questions": [
+  {
+   "q": "Which type of twins is more common?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Monozygotic",
+     "e": "Wrong. Monozygotic twins are about 30%."
+    },
+    {
+     "t": "Conjoined",
+     "e": "Wrong. Conjoined twins are a rare variant of monozygotic twins."
+    },
+    {
+     "t": "Monochorionic",
+     "e": "Wrong. This is a membrane type, not a twin type."
+    },
+    {
+     "t": "Dizygotic",
+     "e": "Correct. Dizygotic twins make up about 70% of twins."
+    }
+   ]
+  },
+  {
+   "q": "What proportion of twins is dizygotic?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "30%",
+     "e": "Wrong. This is the monozygotic proportion."
+    },
+    {
+     "t": "50%",
+     "e": "Wrong. Not the stated value."
+    },
+    {
+     "t": "90%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "70%",
+     "e": "Correct. About 70%."
+    }
+   ]
+  },
+  {
+   "q": "What is the incidence of dizygotic twins per 1000 births?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "3-4",
+     "e": "Wrong. This is the monozygotic incidence."
+    },
+    {
+     "t": "1-2",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "7-11",
+     "e": "Correct. Stated incidence for dizygotic twins."
+    },
+    {
+     "t": "15-20",
+     "e": "Wrong. Too high."
+    }
+   ]
+  },
+  {
+   "q": "Dizygotic twins arise from how many ova and sperms?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "1 ovum and 1 sperm",
+     "e": "Wrong. This is monozygotic twinning."
+    },
+    {
+     "t": "2 ova and 1 sperm",
+     "e": "Wrong. Each ovum needs its own sperm."
+    },
+    {
+     "t": "1 ovum and 2 sperms",
+     "e": "Wrong. This would be polyspermy."
+    },
+    {
+     "t": "2 ova and 2 sperms",
+     "e": "Correct. Two ova are fertilized by two sperms."
+    }
+   ]
+  },
+  {
+   "q": "Which set of features describes dizygotic twins?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Same appearance, same sex, 1 chorion",
+     "e": "Wrong. These suggest monozygotic twins."
+    },
+    {
+     "t": "Different appearance, same or different sex, 2 amnions, 2 chorions, 2 placentae",
+     "e": "Correct. Typical dizygotic findings."
+    },
+    {
+     "t": "Different appearance, always the same sex, 1 placenta",
+     "e": "Wrong. Sex may differ and placentae are two."
+    },
+    {
+     "t": "Same appearance, different sex, 2 placentae",
+     "e": "Wrong. Appearance differs and sex can differ only in dizygotic twins."
+    }
+   ]
+  },
+  {
+   "q": "Which twin type is always of the same sex and looks identical?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Dizygotic",
+     "e": "Wrong. Appearance differs and sex can differ."
+    },
+    {
+     "t": "Monozygotic",
+     "e": "Correct. One ovum and one sperm give identical twins."
+    },
+    {
+     "t": "Fraternal",
+     "e": "Wrong. Fraternal is another name for dizygotic."
+    },
+    {
+     "t": "Dichorionic diamnionic dizygotic",
+     "e": "Wrong. This is dizygotic and may differ."
+    }
+   ]
+  },
+  {
+   "q": "What is the incidence of monozygotic twins per 1000 births?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "7-11",
+     "e": "Wrong. This is dizygotic."
+    },
+    {
+     "t": "10-15",
+     "e": "Wrong. Not the stated value."
+    },
+    {
+     "t": "1",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "3-4",
+     "e": "Correct. Stated incidence."
+    }
+   ]
+  },
+  {
+   "q": "A monozygotic twin pregnancy has 2 placentae, 2 chorions and 2 amnions. When did separation occur?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "At or before the morula stage",
+     "e": "Correct. Early separation gives dichorionic diamnionic twins."
+    },
+    {
+     "t": "At the blastula stage",
+     "e": "Wrong. This gives 1 placenta, 1 chorion, 2 amnions."
+    },
+    {
+     "t": "At the germ disc stage",
+     "e": "Wrong. This gives 1 placenta, 1 chorion, 1 amnion."
+    },
+    {
+     "t": "After the germ disc stage",
+     "e": "Wrong. Late separation leads to conjoined twins."
+    }
+   ]
+  },
+  {
+   "q": "Separation at the blastula stage gives which membranes?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "2 placentae, 2 chorions, 2 amnions",
+     "e": "Wrong. This follows separation at or before the morula."
+    },
+    {
+     "t": "1 placenta, 1 chorion, 1 amnion",
+     "e": "Wrong. This follows separation at the germ disc."
+    },
+    {
+     "t": "1 placenta, 1 chorion, 2 amnions",
+     "e": "Correct. Diamnionic monochorionic."
+    },
+    {
+     "t": "2 placentae, 1 chorion, 2 amnions",
+     "e": "Wrong. Not a described arrangement."
+    }
+   ]
+  },
+  {
+   "q": "Separation at the germ disc stage gives which membranes?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "1 placenta, 1 chorion, 1 amnion",
+     "e": "Correct. Monoamnionic monochorionic."
+    },
+    {
+     "t": "1 placenta, 1 chorion, 2 amnions",
+     "e": "Wrong. This is the blastula stage."
+    },
+    {
+     "t": "2 placentae, 2 chorions, 2 amnions",
+     "e": "Wrong. This is at or before the morula."
+    },
+    {
+     "t": "1 placenta, 2 chorions, 1 amnion",
+     "e": "Wrong. Not a described arrangement."
+    }
+   ]
+  },
+  {
+   "q": "Which is the correct order from earliest to latest stage of monozygotic separation?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Blastula, morula, germ disc",
+     "e": "Wrong. The morula precedes the blastula."
+    },
+    {
+     "t": "Morula, blastula, germ disc",
+     "e": "Correct. Earliest to latest."
+    },
+    {
+     "t": "Germ disc, blastula, morula",
+     "e": "Wrong. This reverses the order."
+    },
+    {
+     "t": "Morula, germ disc, blastula",
+     "e": "Wrong. The blastula precedes the germ disc."
+    }
+   ]
+  },
+  {
+   "q": "What proportion of premature babies are twins?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "2%",
+     "e": "Wrong. This is the single-pregnancy perinatal mortality."
+    },
+    {
+     "t": "12%",
+     "e": "Correct. About 12% of premature babies are twins."
+    },
+    {
+     "t": "29%",
+     "e": "Wrong. This is the proportion of twin pregnancies delivering two infants."
+    },
+    {
+     "t": "50%",
+     "e": "Wrong. Too high."
+    }
+   ]
+  },
+  {
+   "q": "What is the perinatal mortality in twins compared with singletons?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "2% versus 10-20%",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "5-10% versus 2%",
+     "e": "Wrong. Not the stated twin value."
+    },
+    {
+     "t": "30% versus 5%",
+     "e": "Wrong. Not the stated values."
+    },
+    {
+     "t": "10-20% versus 2%",
+     "e": "Correct. Stated values."
+    }
+   ]
+  },
+  {
+   "q": "What proportion of women pregnant with twins give birth to two infants?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "50%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "29%",
+     "e": "Correct. Only 29% do, due to losses such as vanishing twin."
+    },
+    {
+     "t": "75%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "10%",
+     "e": "Wrong. Too low."
+    }
+   ]
+  },
+  {
+   "q": "One twin dies in the 1st or early 2nd trimester and is completely absorbed. What is this called?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Fetus papyraceus",
+     "e": "Wrong. The dead fetus is compressed, not absorbed."
+    },
+    {
+     "t": "Conjoined twin",
+     "e": "Wrong. This is incomplete separation."
+    },
+    {
+     "t": "Vanishing twin",
+     "e": "Correct. The healthy single pregnancy continues."
+    },
+    {
+     "t": "Twin-twin transfusion",
+     "e": "Wrong. Not described."
+    }
+   ]
+  },
+  {
+   "q": "A twin dies in the 2nd trimester and is crushed and flattened between the membranes. What is this called?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Fetus papyraceus",
+     "e": "Correct. The dead twin is mummified while the survivor enlarges."
+    },
+    {
+     "t": "Vanishing twin",
+     "e": "Wrong. The vanishing twin is absorbed."
+    },
+    {
+     "t": "Craniopagus",
+     "e": "Wrong. This is conjoined twins at the head."
+    },
+    {
+     "t": "Pygopagus",
+     "e": "Wrong. This is conjoined twins back to back."
+    }
+   ]
+  },
+  {
+   "q": "What is the cause of conjoined twins?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Incomplete separation of the germ disc",
+     "e": "Correct. They occur in monozygotic twins."
+    },
+    {
+     "t": "Fertilization of two ova",
+     "e": "Wrong. This gives dizygotic twins."
+    },
+    {
+     "t": "Separation at the morula stage",
+     "e": "Wrong. This gives separate placentae."
+    },
+    {
+     "t": "Fusion of two blastocysts",
+     "e": "Wrong. Not the stated cause."
+    }
+   ]
+  },
+  {
+   "q": "Conjoined twins fused at the head are called?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Thoracopagus",
+     "e": "Wrong. Fusion at the thorax."
+    },
+    {
+     "t": "Pygopagus",
+     "e": "Wrong. Fusion at the buttocks."
+    },
+    {
+     "t": "Craniopagus",
+     "e": "Correct. Cranio means head."
+    },
+    {
+     "t": "Omphalopagus",
+     "e": "Wrong. Not listed in the lecture."
+    }
+   ]
+  },
+  {
+   "q": "Conjoined twins fused at the thorax are called?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Thoracopagus",
+     "e": "Correct. Thoraco means chest."
+    },
+    {
+     "t": "Craniopagus",
+     "e": "Wrong. Fusion at the head."
+    },
+    {
+     "t": "Pygopagus",
+     "e": "Wrong. Fusion at the buttocks."
+    },
+    {
+     "t": "Ischiopagus",
+     "e": "Wrong. Not listed in the lecture."
+    }
+   ]
+  },
+  {
+   "q": "Conjoined twins fused back to back at the buttocks are called?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Craniopagus",
+     "e": "Wrong. Fusion at the head."
+    },
+    {
+     "t": "Thoracopagus",
+     "e": "Wrong. Fusion at the thorax."
+    },
+    {
+     "t": "Pygopagus",
+     "e": "Correct. Pygo means buttocks."
+    },
+    {
+     "t": "Parapagus",
+     "e": "Wrong. Not listed in the lecture."
+    }
+   ]
+  }
+ ]
+}

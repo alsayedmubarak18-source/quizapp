@@ -1,0 +1,448 @@
+{
+ "id": "w9-pharma-beta-blockers-1",
+ "title": "Beta Blockers (Autonomic Drugs 4): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w9-pharmacology-autonomic-drugs-4",
+ "questions": [
+  {
+   "q": "Which letter rule applies to beta blockers?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A-M are non-selective; N-Z are beta-1 selective",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "A-M are alpha blockers",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "N-Z are beta-1 selective",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "A-M are beta-1 selective; N-Z are non-selective",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "Which drug is an exception being beta-1 selective in the N-Z group?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Nadolol",
+     "e": "Wrong. Non-selective."
+    },
+    {
+     "t": "Pindolol",
+     "e": "Wrong. Non-selective."
+    },
+    {
+     "t": "Timolol",
+     "e": "Wrong. Non-selective."
+    },
+    {
+     "t": "Nebivolol",
+     "e": "Correct. Beta-1 selective and releases NO."
+    }
+   ]
+  },
+  {
+   "q": "Which drugs are exceptions in the A-M group, being non-selective?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Atenolol and metoprolol",
+     "e": "Wrong. Beta-1 selective."
+    },
+    {
+     "t": "Acebutolol and esmolol",
+     "e": "Wrong. Beta-1 selective."
+    },
+    {
+     "t": "Labetalol and carvedilol",
+     "e": "Correct. Block alpha-1, beta-1 and beta-2."
+    },
+    {
+     "t": "Metoprolol and nebivolol",
+     "e": "Wrong. Beta-1 selective."
+    }
+   ]
+  },
+  {
+   "q": "What is the effect of beta blockers on blood pressure?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Lower BP in everyone",
+     "e": "Wrong. Normal BP is unaffected."
+    },
+    {
+     "t": "Raise BP in hypertensives",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "No effect on hypertensive people",
+     "e": "Wrong. They lower it."
+    },
+    {
+     "t": "Lower BP in hypertensive people, no effect on normal BP",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "How do beta blockers lower BP besides reducing cardiac output?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Block beta-2 on arterioles",
+     "e": "Wrong. Not the stated mechanism."
+    },
+    {
+     "t": "Block beta-1 on juxtaglomerular cells, decreasing renin",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Increase aldosterone",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Increase renin",
+     "e": "Wrong. Decrease renin."
+    }
+   ]
+  },
+  {
+   "q": "A diabetic on insulin takes propranolol. Which effect is expected?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increased glycogenolysis",
+     "e": "Wrong. Decreased."
+    },
+    {
+     "t": "Delayed recovery from hypoglycemia with masked tachycardia and tremors",
+     "e": "Correct. Beta-2 blockade decreases glycogenolysis."
+    },
+    {
+     "t": "Impaired insulin release in most patients",
+     "e": "Wrong. Rarely occurs."
+    },
+    {
+     "t": "Hyperglycemia crisis",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Why are non-selective beta blockers contraindicated in asthma?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Beta-1 blockade causes bronchospasm",
+     "e": "Wrong. Beta-1 is cardiac."
+    },
+    {
+     "t": "Alpha blockade causes bronchospasm",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Increased renin",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Beta-2 blockade causes bronchoconstriction",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "In which angina can beta blockers be used?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Chronic stable angina only",
+     "e": "Correct. Not in acute attack or variant angina."
+    },
+    {
+     "t": "Acute angina attacks",
+     "e": "Wrong. Not used."
+    },
+    {
+     "t": "Variant angina",
+     "e": "Wrong. Not used."
+    },
+    {
+     "t": "All types of angina",
+     "e": "Wrong. Only chronic stable."
+    }
+   ]
+  },
+  {
+   "q": "Which beta blockers are excluded in angina?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Beta-1 selective ones",
+     "e": "Wrong. Not excluded."
+    },
+    {
+     "t": "Those that cross the BBB",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "Those with partial agonist activity",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "All non-selective ones",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What do beta blockers do in atrial flutter and fibrillation?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Do not correct them but protect the ventricle by decreasing AV nodal conduction",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Convert them to sinus rhythm",
+     "e": "Wrong. They do not."
+    },
+    {
+     "t": "Increase AV nodal conduction",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Correct them by increasing refractory period of atria",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which beta blockers decrease sudden death after myocardial infarction?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Atenolol only",
+     "e": "Wrong. Not listed here."
+    },
+    {
+     "t": "Propranolol, metoprolol and timolol",
+     "e": "Correct. Post-MI prophylaxis."
+    },
+    {
+     "t": "Labetalol and carvedilol",
+     "e": "Wrong. Not listed here."
+    },
+    {
+     "t": "Pindolol and acebutolol",
+     "e": "Wrong. Partial agonists."
+    }
+   ]
+  },
+  {
+   "q": "Which beta blocker is used for variceal bleeding in portal hypertension?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Atenolol",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Propranolol",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Esmolol",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Timolol",
+     "e": "Wrong. Eye use."
+    }
+   ]
+  },
+  {
+   "q": "What are the actions of beta blockers in hyperthyroidism?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Block thyroid peroxidase",
+     "e": "Wrong. PTU."
+    },
+    {
+     "t": "Block NIS",
+     "e": "Wrong. Perchlorate."
+    },
+    {
+     "t": "Increase TSH",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Decrease catecholamine effect on the heart and decrease T4 to T3 conversion",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "What rule applies to beta blockers in pheochromocytoma?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Give before an alpha blocker",
+     "e": "Wrong. Dangerous."
+    },
+    {
+     "t": "Give after an alpha blocker to avoid a marked rise in BP",
+     "e": "Correct. Alpha first, beta after."
+    },
+    {
+     "t": "Give alone",
+     "e": "Wrong. Dangerous."
+    },
+    {
+     "t": "Never use alpha blockers",
+     "e": "Wrong. Alpha blockers are used first."
+    }
+   ]
+  },
+  {
+   "q": "Which beta blocker is used in glaucoma and why is it better than pilocarpine?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Atenolol; it constricts the pupil",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Propranolol; it increases outflow",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Timolol; it decreases aqueous formation without affecting pupil size or accommodation",
+     "e": "Correct. T = Tears."
+    },
+    {
+     "t": "Esmolol; it dilates the pupil",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What happens on sudden withdrawal of a beta blocker?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Exaggeration of symptoms due to receptor up-regulation",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Rebound occurs."
+    },
+    {
+     "t": "Bradycardia",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Hypotension",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which are contraindications for ALL beta blockers?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Congestive heart failure and conduction defects",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Asthma and diabetes",
+     "e": "Wrong. Non-selective only."
+    },
+    {
+     "t": "Peripheral vascular disease",
+     "e": "Wrong. Non-selective only."
+    },
+    {
+     "t": "Hypertension and angina",
+     "e": "Wrong. Indications."
+    }
+   ]
+  },
+  {
+   "q": "What is the advantage of selective beta-1 blockers?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Safer in heart failure",
+     "e": "Wrong. Contraindicated for all."
+    },
+    {
+     "t": "Better in conduction defects",
+     "e": "Wrong. Contraindicated for all."
+    },
+    {
+     "t": "Safer in asthma, diabetes and peripheral vascular disease",
+     "e": "Correct. Selectivity is lost at large doses."
+    },
+    {
+     "t": "No CNS effects",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which drug decreases mortality in congestive heart failure?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Carvedilol",
+     "e": "Correct. Also has antioxidant activity."
+    },
+    {
+     "t": "Propranolol",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Labetalol",
+     "e": "Wrong. Not stated for mortality."
+    },
+    {
+     "t": "Atenolol",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which is the correct description of labetalol and carvedilol?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Block alpha-2 and beta-1 only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Selective beta-1 blockers with NO release",
+     "e": "Wrong. This is nebivolol."
+    },
+    {
+     "t": "Block beta-1, beta-2 and alpha-1 receptors with about 10 times higher beta affinity",
+     "e": "Correct. Like propranolol plus prazosin."
+    },
+    {
+     "t": "Irreversible alpha blockers",
+     "e": "Wrong. Phenoxybenzamine."
+    }
+   ]
+  }
+ ]
+}

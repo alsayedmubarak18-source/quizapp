@@ -1,0 +1,448 @@
+{
+ "id": "w8-embryo-extraembryonic-1",
+ "title": "Extraembryonic Structures: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w8-embryology-extraembryonic",
+ "questions": [
+  {
+   "q": "What is the volume of amniotic fluid at full term?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "0.5 liter",
+     "e": "Wrong. This is the upper limit of oligohydramnios."
+    },
+    {
+     "t": "3 liters",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "1 to 1.5 liters",
+     "e": "Wrong. Not the stated value."
+    },
+    {
+     "t": "1.5 to 2 liters",
+     "e": "Correct. The amount gradually increases to about 1.5-2 L."
+    }
+   ]
+  },
+  {
+   "q": "Which cells secrete amniotic fluid?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Chorionic cells",
+     "e": "Wrong. Not the stated source."
+    },
+    {
+     "t": "Decidual cells",
+     "e": "Wrong. Not the stated source."
+    },
+    {
+     "t": "Yolk sac cells",
+     "e": "Wrong. Not the stated source."
+    },
+    {
+     "t": "Amniotic cells",
+     "e": "Correct. The fluid is secreted by amniotic cells."
+    }
+   ]
+  },
+  {
+   "q": "Which function of amniotic fluid permits muscle development and prevents adhesion?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Absorbing shocks",
+     "e": "Wrong. Shock absorption is a mechanical protection."
+    },
+    {
+     "t": "Heat insulation",
+     "e": "Wrong. This is thermal."
+    },
+    {
+     "t": "Allowing fetal movements",
+     "e": "Correct. Free movement develops muscle and prevents adhesions."
+    },
+    {
+     "t": "Fetal swallowing",
+     "e": "Wrong. Swallowing teaches suckling."
+    }
+   ]
+  },
+  {
+   "q": "What is the benefit of fetal swallowing of amniotic fluid?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Shock absorption",
+     "e": "Wrong. A separate function."
+    },
+    {
+     "t": "Cervical dilation",
+     "e": "Wrong. This acts during labor."
+    },
+    {
+     "t": "Heat insulation",
+     "e": "Wrong. A separate function."
+    },
+    {
+     "t": "The fetus learns suckling",
+     "e": "Correct. Swallowing trains suckling."
+    }
+   ]
+  },
+  {
+   "q": "Which statement describes amniotic fluid during labor?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It forms urine and meconium",
+     "e": "Wrong. Urine and meconium accumulate in the amniotic space."
+    },
+    {
+     "t": "It dilates the cervix and washes the vagina",
+     "e": "Correct. These are labor functions with protection from strong contractions."
+    },
+    {
+     "t": "It secretes hCG",
+     "e": "Wrong. hCG comes from the placenta."
+    },
+    {
+     "t": "It nourishes the fetus directly",
+     "e": "Wrong. Not a stated labor function."
+    }
+   ]
+  },
+  {
+   "q": "Polyhydramnios is defined as more than how much amniotic fluid?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1.5 liters",
+     "e": "Wrong. This is the normal term amount."
+    },
+    {
+     "t": "2 liters",
+     "e": "Correct. More than 2 L is polyhydramnios."
+    },
+    {
+     "t": "0.5 liter",
+     "e": "Wrong. This is the oligohydramnios limit."
+    },
+    {
+     "t": "3 liters",
+     "e": "Wrong. The definition is 2 L."
+    }
+   ]
+  },
+  {
+   "q": "A diabetic mother has polyhydramnios. Which other cause can produce it?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Placental insufficiency",
+     "e": "Wrong. This causes oligohydramnios."
+    },
+    {
+     "t": "Urinary tract anomalies",
+     "e": "Wrong. These cause oligohydramnios."
+    },
+    {
+     "t": "Premature rupture of the amnion",
+     "e": "Wrong. This causes premature labor."
+    },
+    {
+     "t": "CNS or GIT anomalies",
+     "e": "Correct. Causes: idiopathic, maternal diabetes, CNS or GIT anomalies."
+    }
+   ]
+  },
+  {
+   "q": "Oligohydramnios means less than how much amniotic fluid?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "0.5 liter",
+     "e": "Correct. Less than 0.5 L is oligohydramnios."
+    },
+    {
+     "t": "1 liter",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "1.5 liters",
+     "e": "Wrong. This is within the normal range at term."
+    },
+    {
+     "t": "2 liters",
+     "e": "Wrong. This is the polyhydramnios limit."
+    }
+   ]
+  },
+  {
+   "q": "Which is a cause of oligohydramnios?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Maternal diabetes",
+     "e": "Wrong. This causes polyhydramnios."
+    },
+    {
+     "t": "CNS anomalies",
+     "e": "Wrong. These cause polyhydramnios."
+    },
+    {
+     "t": "Urinary tract anomalies",
+     "e": "Correct. Placental insufficiency or urinary tract anomalies reduce fluid."
+    },
+    {
+     "t": "Idiopathic polyhydramnios",
+     "e": "Wrong. This is not oligohydramnios."
+    }
+   ]
+  },
+  {
+   "q": "Which is an effect of oligohydramnios?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Fetal adhesions and malformations",
+     "e": "Correct. Low fluid causes adhesions and malformations."
+    },
+    {
+     "t": "Preterm labor",
+     "e": "Wrong. This is an effect of polyhydramnios."
+    },
+    {
+     "t": "Maternal distress",
+     "e": "Wrong. This is associated with polyhydramnios."
+    },
+    {
+     "t": "Fetal macrosomia",
+     "e": "Wrong. Not a stated effect."
+    }
+   ]
+  },
+  {
+   "q": "What is the effect of premature rupture of the amnion?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Postmature labor",
+     "e": "Wrong. Opposite effect."
+    },
+    {
+     "t": "Premature labor",
+     "e": "Correct. Rupture leads to premature labor."
+    },
+    {
+     "t": "Oligohydramnios only",
+     "e": "Wrong. Not the stated effect."
+    },
+    {
+     "t": "Twin separation",
+     "e": "Wrong. Unrelated."
+    }
+   ]
+  },
+  {
+   "q": "Which structure develops on the 9th day and what is its origin?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Amnion, from the connecting stalk",
+     "e": "Wrong. Not the 9th-day structure."
+    },
+    {
+     "t": "Heuser's (Houser's) membrane, lining the blastocele",
+     "e": "Correct. The primary yolk sac forms from the blastocele."
+    },
+    {
+     "t": "Allantois, from the hindgut",
+     "e": "Wrong. The allantois forms from the hindgut later."
+    },
+    {
+     "t": "Chorion, from the endoderm",
+     "e": "Wrong. Not correct."
+    }
+   ]
+  },
+  {
+   "q": "What does the blastocele become?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "The secondary yolk sac",
+     "e": "Wrong. The secondary yolk sac forms after pinching off."
+    },
+    {
+     "t": "The amniotic cavity",
+     "e": "Wrong. This forms separately in the epiblast."
+    },
+    {
+     "t": "The chorionic cavity",
+     "e": "Wrong. Not the stated fate."
+    },
+    {
+     "t": "The primary yolk sac",
+     "e": "Correct. The blastocele becomes the primary yolk sac."
+    }
+   ]
+  },
+  {
+   "q": "Which structure forms when the primary yolk sac is pinched off at the end of the 2nd week?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The definitive yolk sac",
+     "e": "Wrong. This forms after folding."
+    },
+    {
+     "t": "The secondary yolk sac",
+     "e": "Correct. This follows pinching off."
+    },
+    {
+     "t": "The allantois",
+     "e": "Wrong. The allantois arises from the hindgut."
+    },
+    {
+     "t": "The vitelline duct",
+     "e": "Wrong. This is a stalk after folding."
+    }
+   ]
+  },
+  {
+   "q": "After folding, which three derivatives come from the yolk sac?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Gut, allantois and amnion",
+     "e": "Wrong. The amnion and allantois are not yolk sac derivatives."
+    },
+    {
+     "t": "Gut, chorion and decidua",
+     "e": "Wrong. Not yolk sac derivatives."
+    },
+    {
+     "t": "Gut, definitive yolk sac and vitelline duct",
+     "e": "Correct. These are the stated derivatives."
+    },
+    {
+     "t": "Amnion, chorion and decidua",
+     "e": "Wrong. Not yolk sac derivatives."
+    }
+   ]
+  },
+  {
+   "q": "Which structure extends from the hindgut into the umbilical cord?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Allantois",
+     "e": "Correct. The allantois extends from the hindgut."
+    },
+    {
+     "t": "Vitelline duct",
+     "e": "Wrong. This connects midgut and yolk sac."
+    },
+    {
+     "t": "Neurenteric canal",
+     "e": "Wrong. This forms during notochord formation."
+    },
+    {
+     "t": "Urachus",
+     "e": "Wrong. The urachus is the later remnant of the allantois."
+    }
+   ]
+  },
+  {
+   "q": "Which cells appear in the wall of the yolk sac?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Primordial germ cells",
+     "e": "Correct. They are found in the yolk sac wall."
+    },
+    {
+     "t": "Spermatogonia only",
+     "e": "Wrong. Not the stated cells."
+    },
+    {
+     "t": "Hepatocytes",
+     "e": "Wrong. Not the stated cells."
+    },
+    {
+     "t": "Neural crest cells",
+     "e": "Wrong. Not the stated cells."
+    }
+   ]
+  },
+  {
+   "q": "Which term describes the endometrium of the pregnant uterus?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Chorion",
+     "e": "Wrong. The chorion is an embryonic membrane."
+    },
+    {
+     "t": "Amnion",
+     "e": "Wrong. The amnion surrounds the amniotic cavity."
+    },
+    {
+     "t": "Decidua",
+     "e": "Correct. The decidua is the pregnant endometrium."
+    },
+    {
+     "t": "Trophoblast",
+     "e": "Wrong. The trophoblast is the outer cell layer of the blastocyst."
+    }
+   ]
+  },
+  {
+   "q": "Which list gives the placenta's endocrine products?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "hCG, estrogen, progesterone, melanin spreading factor, somatomammotropin",
+     "e": "Correct. These are the stated endocrine functions."
+    },
+    {
+     "t": "hCG, insulin, glucagon, TSH",
+     "e": "Wrong. Not placental products."
+    },
+    {
+     "t": "FSH, LH, prolactin, oxytocin",
+     "e": "Wrong. Not placental products."
+    },
+    {
+     "t": "hCG, cortisol, aldosterone, GH",
+     "e": "Wrong. Not the stated list."
+    }
+   ]
+  },
+  {
+   "q": "Which umbilical cord finding is a structural anomaly?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Omphalocele",
+     "e": "Wrong. This is the anterior wall anomaly."
+    },
+    {
+     "t": "True knots",
+     "e": "Wrong. This is the knot anomaly."
+    },
+    {
+     "t": "Single umbilical artery",
+     "e": "Correct. This is the structural anomaly listed."
+    },
+    {
+     "t": "Velamentous attachment",
+     "e": "Wrong. This is an attachment abnormality of the placenta."
+    }
+   ]
+  }
+ ]
+}

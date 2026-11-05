@@ -1,0 +1,448 @@
+{
+ "id": "w10-parasitology-dermatological-1",
+ "title": "Parasites and Skin: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w10-parasitology-dermatological",
+ "questions": [
+  {
+   "q": "Which parasite is an ectoparasite causing a skin disease?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Leishmania tropica",
+     "e": "Wrong. Endoparasite protozoan."
+    },
+    {
+     "t": "Strongyloides stercoralis",
+     "e": "Wrong. Endoparasite nematode."
+    },
+    {
+     "t": "Wuchereria bancrofti",
+     "e": "Wrong. Endoparasite nematode."
+    },
+    {
+     "t": "Sarcoptes scabiei",
+     "e": "Correct. Scabies."
+    }
+   ]
+  },
+  {
+   "q": "A patient has intense nocturnal itching with thin burrows and papules at finger webs and wrists. Which parasite is responsible?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Enterobius vermicularis",
+     "e": "Wrong. Perianal itching."
+    },
+    {
+     "t": "Ancylostoma braziliense",
+     "e": "Wrong. Serpiginous track."
+    },
+    {
+     "t": "Leishmania major",
+     "e": "Wrong. Ulcerative lesion."
+    },
+    {
+     "t": "Sarcoptes scabiei",
+     "e": "Correct. Burrow lies in the stratum corneum."
+    }
+   ]
+  },
+  {
+   "q": "Which species cause cutaneous leishmaniasis and which cause mucocutaneous disease?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "L. braziliensis complex; L. tropica",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "L. major; L. tropica",
+     "e": "Wrong. Both cutaneous."
+    },
+    {
+     "t": "L. tropica and L. major; L. braziliensis complex",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "L. braziliensis; L. major",
+     "e": "Wrong. Mucocutaneous is braziliensis only."
+    }
+   ]
+  },
+  {
+   "q": "A hiker has a serpiginous, intensely itchy track on the foot. Which parasite is responsible?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Strongyloides stercoralis",
+     "e": "Wrong. Larva currens: rapidly migrating, near buttocks and waist."
+    },
+    {
+     "t": "Wuchereria bancrofti",
+     "e": "Wrong. Lymphoedema."
+    },
+    {
+     "t": "Enterobius vermicularis",
+     "e": "Wrong. Perianal itching."
+    },
+    {
+     "t": "Ancylostoma braziliense",
+     "e": "Correct. Cutaneous larva migrans."
+    }
+   ]
+  },
+  {
+   "q": "Rapidly migrating itchy streaks on the buttocks and waist suggest which parasite?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Ancylostoma braziliense",
+     "e": "Wrong. Slower cutaneous larva migrans."
+    },
+    {
+     "t": "Strongyloides stercoralis",
+     "e": "Correct. Larva currens."
+    },
+    {
+     "t": "Sarcoptes scabiei",
+     "e": "Wrong. Burrows."
+    },
+    {
+     "t": "Enterobius vermicularis",
+     "e": "Wrong. Perianal itching."
+    }
+   ]
+  },
+  {
+   "q": "A patient has lymphoedema and elephantiasis. Which parasite is responsible?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Leishmania tropica",
+     "e": "Wrong. Chronic ulcer."
+    },
+    {
+     "t": "Wuchereria bancrofti",
+     "e": "Correct. Lymphatic filariasis; skin changes follow lymphatic damage."
+    },
+    {
+     "t": "Strongyloides stercoralis",
+     "e": "Wrong. Larva currens."
+    },
+    {
+     "t": "Sarcoptes scabiei",
+     "e": "Wrong. Burrows."
+    }
+   ]
+  },
+  {
+   "q": "Which sizes are correct for adult Enterobius?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Female 2-5 mm; male 8-13 mm",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Female 20-30 mm; male 10 mm",
+     "e": "Wrong. Too large."
+    },
+    {
+     "t": "Female 1 mm; male 0.5 mm",
+     "e": "Wrong. Too small."
+    },
+    {
+     "t": "Female 8-13 mm; male 2-5 mm",
+     "e": "Correct. Humans are the only hosts."
+    }
+   ]
+  },
+  {
+   "q": "What is autoinfection in Enterobius?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Transfer of infective eggs to the mouth by hands that scratched the perianal area",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Hatching of larvae on the anal skin with return to the rectum",
+     "e": "Wrong. This is retroinfection."
+    },
+    {
+     "t": "Inhalation of eggs",
+     "e": "Wrong. Small contribution."
+    },
+    {
+     "t": "Ingestion of cysts",
+     "e": "Wrong. Not Enterobius."
+    }
+   ]
+  },
+  {
+   "q": "What is retroinfection?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Eggs carried to the mouth by hands",
+     "e": "Wrong. Autoinfection."
+    },
+    {
+     "t": "Eggs swallowed from food",
+     "e": "Wrong. Ingestion."
+    },
+    {
+     "t": "Larvae hatch on anal skin and migrate back into the rectum",
+     "e": "Correct. Frequency unknown."
+    },
+    {
+     "t": "Larvae penetrating bare feet",
+     "e": "Wrong. Hookworm-type route."
+    }
+   ]
+  },
+  {
+   "q": "When does the female Enterobius lay eggs and where?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "During sleep, on the perianal skin",
+     "e": "Correct. Low body temperature and less movement."
+    },
+    {
+     "t": "In the colon lumen",
+     "e": "Wrong. Not the site."
+    },
+    {
+     "t": "During the day, in the stool",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "In the appendix",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Which stage of Enterobius is infective and which diagnostic?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Larva infective; adult in stool diagnostic",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Embryonated egg infective; egg on perianal folds diagnostic",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Egg infective; larva in stool diagnostic",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Adult infective; egg in stool diagnostic",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Appendicitis in enterobiasis is caused by what?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Eggs invading the appendix wall",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "The adult obstructing the appendicular opening",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Larvae migrating to the appendix",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Secondary bacterial scratching infection",
+     "e": "Wrong. Anal complication."
+    }
+   ]
+  },
+  {
+   "q": "Which test is used to diagnose Enterobius and when?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Stool concentration in the evening",
+     "e": "Wrong. Eggs are in stool in about 5% only."
+    },
+    {
+     "t": "Serology",
+     "e": "Wrong. Not used."
+    },
+    {
+     "t": "Blood film at night",
+     "e": "Wrong. Not used."
+    },
+    {
+     "t": "Graham (Scotch tape) swab in the morning before defecation and washing",
+     "e": "Correct. Eggs on the perianal skin."
+    }
+   ]
+  },
+  {
+   "q": "What are the shape and size of the Enterobius egg?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Round, 100 micrometres, thin-walled",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Plano-convex (D-shaped), 50 x 25 micrometres, double-walled",
+     "e": "Correct. Contains mature larva."
+    },
+    {
+     "t": "Oval, bile-stained, 60 micrometres",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Barrel-shaped with plugs",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What are the drugs of choice for Enterobius and the schedule?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Mebendazole daily for 10 days",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Albendazole 400 mg for 3 weeks",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Mebendazole or pyrantel pamoate; single dose repeated after 2 weeks",
+     "e": "Correct. Drugs kill adults only."
+    },
+    {
+     "t": "Praziquantel single dose",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "Why is the Enterobius dose repeated after 2 weeks?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "To kill newly ingested eggs that developed into adults",
+     "e": "Correct. Drugs do not affect eggs or larvae."
+    },
+    {
+     "t": "Because the drug is inactive on adults",
+     "e": "Wrong. It kills adults."
+    },
+    {
+     "t": "To treat resistance",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "To kill larvae in the lungs",
+     "e": "Wrong. No lung phase."
+    }
+   ]
+  },
+  {
+   "q": "What is the infective stage of Strongyloides stercoralis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Filariform larva",
+     "e": "Correct. Penetrates skin of bare feet."
+    },
+    {
+     "t": "Rhabditiform larva",
+     "e": "Wrong. Passed in the stool."
+    },
+    {
+     "t": "Embryonated egg",
+     "e": "Wrong. Enterobius."
+    },
+    {
+     "t": "Cyst",
+     "e": "Wrong. Protozoa."
+    }
+   ]
+  },
+  {
+   "q": "What is the route of Strongyloides larvae after skin penetration?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lymphatics to the colon",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Portal vein to the liver, then bile ducts",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Veins, right heart, lungs, alveoli, pharynx, swallowed to the small intestine",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Arteries to the brain",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What explains persistence of Strongyloides infection for up to 40 years?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Autoinfection",
+     "e": "Correct. Rhabditiform become filariform within the host."
+    },
+    {
+     "t": "Long-lived adult worms",
+     "e": "Wrong. Adults live months."
+    },
+    {
+     "t": "Free-living cycle in the host",
+     "e": "Wrong. Soil."
+    },
+    {
+     "t": "Repeated reinfection only",
+     "e": "Wrong. Autoinfection."
+    }
+   ]
+  },
+  {
+   "q": "A patient on corticosteroids develops severe bloody diarrhea, sepsis and meningitis with larvae in the gut. What is the diagnosis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Enterobiasis",
+     "e": "Wrong. Mild."
+    },
+    {
+     "t": "Scabies",
+     "e": "Wrong. Skin."
+    },
+    {
+     "t": "Strongyloides hyperinfection with dissemination",
+     "e": "Correct. Impaired immunity increases autoinfection."
+    },
+    {
+     "t": "Cutaneous larva migrans",
+     "e": "Wrong. Skin only."
+    }
+   ]
+  }
+ ]
+}

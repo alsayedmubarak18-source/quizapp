@@ -1,0 +1,448 @@
+{
+ "id": "w8-physio-endocrine-fetal-growth-1",
+ "title": "Endocrine Regulation of Fetal Growth: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w8-physiology-endocrine",
+ "questions": [
+  {
+   "q": "Which thyroid cells secrete T3 and T4, and which secrete calcitonin?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "C cells; follicular cells",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Follicular cells; follicular cells",
+     "e": "Wrong. Calcitonin comes from C cells."
+    },
+    {
+     "t": "Parafollicular cells; parafollicular cells",
+     "e": "Wrong. T3/T4 come from follicular cells."
+    },
+    {
+     "t": "Follicular cells; C (parafollicular) cells",
+     "e": "Correct. Follicular cells make T3/T4, C cells make calcitonin."
+    }
+   ]
+  },
+  {
+   "q": "Where is thyroid hormone stored?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "In follicular cell cytoplasm as free T4",
+     "e": "Wrong. Stored in colloid."
+    },
+    {
+     "t": "In C cells",
+     "e": "Wrong. C cells make calcitonin."
+    },
+    {
+     "t": "In lysosomes",
+     "e": "Wrong. Lysosomes cleave the hormone for release."
+    },
+    {
+     "t": "In the colloid, bound to thyroglobulin",
+     "e": "Correct. Stored extracellularly as thyroglobulin-bound hormone."
+    }
+   ]
+  },
+  {
+   "q": "Which transporter takes iodide into the follicular cell?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Pendrin",
+     "e": "Wrong. Pendrin moves iodide into the colloid."
+    },
+    {
+     "t": "Na+-K+ ATPase",
+     "e": "Wrong. It maintains the Na+ gradient."
+    },
+    {
+     "t": "NIS (Na+/I- symporter)",
+     "e": "Correct. It transports I- with 2 Na+."
+    },
+    {
+     "t": "Thyroid peroxidase",
+     "e": "Wrong. An enzyme, not a transporter."
+    }
+   ]
+  },
+  {
+   "q": "Which channel secretes iodide into the colloid?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "NIS",
+     "e": "Wrong. NIS takes iodide up from blood."
+    },
+    {
+     "t": "Na+-K+ ATPase",
+     "e": "Wrong. It maintains the Na+ gradient."
+    },
+    {
+     "t": "TPO",
+     "e": "Wrong. An enzyme."
+    },
+    {
+     "t": "Pendrin",
+     "e": "Correct. Pendrin secretes iodide to the colloid."
+    }
+   ]
+  },
+  {
+   "q": "Which enzyme oxidizes iodide and iodinates thyroglobulin?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "5'-iodinase",
+     "e": "Wrong. Converts T4 to T3."
+    },
+    {
+     "t": "Thyroid peroxidase",
+     "e": "Correct. TPO oxidizes iodide and forms MIT and DIT."
+    },
+    {
+     "t": "Pendrin",
+     "e": "Wrong. A channel."
+    },
+    {
+     "t": "Lysosomal protease",
+     "e": "Wrong. Cleaves T3/T4 from Tg."
+    }
+   ]
+  },
+  {
+   "q": "Which products conjugate to form T3 and T4?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "T3 and rT3",
+     "e": "Wrong. Not the precursors."
+    },
+    {
+     "t": "MIT and DIT",
+     "e": "Correct. Coupling of MIT and DIT gives T3/T4."
+    },
+    {
+     "t": "Tyrosine and iodine",
+     "e": "Wrong. These form MIT/DIT first."
+    },
+    {
+     "t": "Thyroglobulin and TBG",
+     "e": "Wrong. Not the precursors."
+    }
+   ]
+  },
+  {
+   "q": "Where are T3 and T4 cleaved from thyroglobulin?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Colloid",
+     "e": "Wrong. This is the storage site."
+    },
+    {
+     "t": "Golgi",
+     "e": "Wrong. Not the cleavage site."
+    },
+    {
+     "t": "Endoplasmic reticulum",
+     "e": "Wrong. Not the cleavage site."
+    },
+    {
+     "t": "Lysosomes",
+     "e": "Correct. Colloid is endocytosed and cleaved there."
+    }
+   ]
+  },
+  {
+   "q": "Which enzyme converts T4 to T3?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "5'-iodinase",
+     "e": "Correct. It activates T4 in tissues."
+    },
+    {
+     "t": "Thyroid peroxidase",
+     "e": "Wrong. Iodinates Tg."
+    },
+    {
+     "t": "Pendrin",
+     "e": "Wrong. A channel."
+    },
+    {
+     "t": "Lysosomal protease",
+     "e": "Wrong. Cleaves Tg."
+    }
+   ]
+  },
+  {
+   "q": "In which tissues is O2 consumption NOT increased by thyroid hormone?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Heart, liver and kidney",
+     "e": "Wrong. O2 consumption increases there."
+    },
+    {
+     "t": "Skeletal muscle and heart",
+     "e": "Wrong. Increased there."
+    },
+    {
+     "t": "Brain, gonads and spleen",
+     "e": "Correct. Exceptions to the calorigenic effect."
+    },
+    {
+     "t": "Liver and brain",
+     "e": "Wrong. Liver is increased."
+    }
+   ]
+  },
+  {
+   "q": "What is the net effect of thyroid hormone on protein metabolism?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Net catabolic",
+     "e": "Correct. Both synthesis and degradation increase."
+    },
+    {
+     "t": "Net anabolic",
+     "e": "Wrong. Not the net effect."
+    },
+    {
+     "t": "No change",
+     "e": "Wrong. Both increase."
+    },
+    {
+     "t": "Only synthesis rises",
+     "e": "Wrong. Degradation also rises."
+    }
+   ]
+  },
+  {
+   "q": "Which cardiovascular receptors does thyroid hormone up-regulate?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Alpha-1 receptors",
+     "e": "Wrong. Not the stated receptors."
+    },
+    {
+     "t": "Beta-1 adrenergic receptors",
+     "e": "Correct. Increases heart rate and output."
+    },
+    {
+     "t": "Muscarinic M2 receptors",
+     "e": "Wrong. Not the stated receptors."
+    },
+    {
+     "t": "Beta-2 receptors",
+     "e": "Wrong. Not the stated receptors."
+    }
+   ]
+  },
+  {
+   "q": "Which hypothalamic hormone stimulates TSH and which inhibits it?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Somatostatin stimulates; TRH inhibits",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "TRH stimulates; somatostatin inhibits",
+     "e": "Correct. Stated regulation."
+    },
+    {
+     "t": "CRH stimulates; TRH inhibits",
+     "e": "Wrong. CRH acts on ACTH."
+    },
+    {
+     "t": "GnRH stimulates; dopamine inhibits",
+     "e": "Wrong. GnRH acts on LH/FSH."
+    }
+   ]
+  },
+  {
+   "q": "Which form of thyroid hormone takes part in negative feedback?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Total hormone",
+     "e": "Wrong. Only free is active."
+    },
+    {
+     "t": "TBG-bound hormone",
+     "e": "Wrong. Protected, not active."
+    },
+    {
+     "t": "Thyroglobulin",
+     "e": "Wrong. Intrathyroid storage."
+    },
+    {
+     "t": "Free hormone only",
+     "e": "Correct. Bound hormone does not feed back."
+    }
+   ]
+  },
+  {
+   "q": "Excess iodide inhibits thyroid hormone secretion. What is this effect called?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Jod-Basedow effect",
+     "e": "Wrong. Not in the lecture."
+    },
+    {
+     "t": "Wolff-Chaikoff effect",
+     "e": "Correct. High iodide inhibits secretion."
+    },
+    {
+     "t": "Graves effect",
+     "e": "Wrong. Autoimmune hyperthyroidism."
+    },
+    {
+     "t": "Pendrin effect",
+     "e": "Wrong. Not a named effect."
+    }
+   ]
+  },
+  {
+   "q": "Which agents inhibit Na+-I- cotransport?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Propylthiouracil",
+     "e": "Wrong. Inhibits peroxidase."
+    },
+    {
+     "t": "Excess iodide",
+     "e": "Wrong. Wolff-Chaikoff effect."
+    },
+    {
+     "t": "Perchlorate and thiocyanate",
+     "e": "Correct. They block NIS."
+    },
+    {
+     "t": "TSH",
+     "e": "Wrong. Stimulates secretion."
+    }
+   ]
+  },
+  {
+   "q": "Propylthiouracil inhibits which enzyme?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Peroxidase",
+     "e": "Correct. Blocks organification."
+    },
+    {
+     "t": "5'-iodinase only",
+     "e": "Wrong. Not the main target here."
+    },
+    {
+     "t": "NIS",
+     "e": "Wrong. Perchlorate acts on NIS."
+    },
+    {
+     "t": "Pendrin",
+     "e": "Wrong. Not a target."
+    }
+   ]
+  },
+  {
+   "q": "A patient has Graves disease. What are her antibodies and TSH?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Antibodies against the TSH receptor; TSH decreased",
+     "e": "Correct. Feedback inhibition by high T3/T4."
+    },
+    {
+     "t": "Antibodies against the TSH receptor; TSH increased",
+     "e": "Wrong. TSH is low from feedback."
+    },
+    {
+     "t": "Antibodies against thyroglobulin; TSH increased",
+     "e": "Wrong. Not Graves."
+    },
+    {
+     "t": "Antibodies against TPO; TSH decreased",
+     "e": "Wrong. Not Graves."
+    }
+   ]
+  },
+  {
+   "q": "What is TSH in primary hypothyroidism?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Decreased",
+     "e": "Wrong. This occurs with hypothalamic or pituitary defects."
+    },
+    {
+     "t": "Normal",
+     "e": "Wrong. Not expected."
+    },
+    {
+     "t": "Increased",
+     "e": "Correct. Low T3/T4 reduce feedback."
+    },
+    {
+     "t": "Absent",
+     "e": "Wrong. Not expected."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone is the sole source of thyroid hormone for the fetus in early pregnancy?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Maternal thyroid hormone",
+     "e": "Correct. The fetal thyroid works only from mid to late pregnancy."
+    },
+    {
+     "t": "Fetal thyroid hormone",
+     "e": "Wrong. Not yet functioning."
+    },
+    {
+     "t": "Placental thyroid hormone",
+     "e": "Wrong. The placenta does not produce it."
+    },
+    {
+     "t": "Fetal pituitary TSH",
+     "e": "Wrong. Not the source."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone maintains the corpus luteum for progesterone production?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "hPL",
+     "e": "Wrong. Acts on metabolism and mammary growth."
+    },
+    {
+     "t": "Estrogen",
+     "e": "Wrong. Not the maintainer."
+    },
+    {
+     "t": "hCG",
+     "e": "Correct. Placental hormone."
+    },
+    {
+     "t": "Prolactin",
+     "e": "Wrong. Not the stated hormone."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,448 @@
+{
+ "id": "w8-embryo-fetal-period-1",
+ "title": "Fetal Period: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w8-embryology-fetal-period",
+ "questions": [
+  {
+   "q": "From which week until birth does the fetal period extend?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "8th week",
+     "e": "Wrong. The 8th week is the end of the embryonic period."
+    },
+    {
+     "t": "12th week",
+     "e": "Wrong. The fetal period starts earlier, at week 9."
+    },
+    {
+     "t": "13th week",
+     "e": "Wrong. This marks the start of the second trimester, not the fetal period."
+    },
+    {
+     "t": "9th week",
+     "e": "Correct. The fetal period runs from the 9th week to birth."
+    }
+   ]
+  },
+  {
+   "q": "Which pair correctly characterizes the fetal period?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Organogenesis and rapid growth",
+     "e": "Wrong. Organogenesis is the embryonic period (3rd-8th week)."
+    },
+    {
+     "t": "Gastrulation and maturation",
+     "e": "Wrong. Gastrulation occurs in the 3rd week."
+    },
+    {
+     "t": "Implantation and rapid growth",
+     "e": "Wrong. Implantation occurs at the end of week 1."
+    },
+    {
+     "t": "Maturation of formed tissues and rapid growth",
+     "e": "Correct. Organs are already formed; they mature and the fetus grows."
+    }
+   ]
+  },
+  {
+   "q": "When is most of the fetal length gained, and when is most of the weight gained?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Length late, weight early in pregnancy",
+     "e": "Wrong. This reverses the pattern."
+    },
+    {
+     "t": "Both early in pregnancy",
+     "e": "Wrong. Weight is mainly gained late."
+    },
+    {
+     "t": "Length early, weight late in pregnancy",
+     "e": "Correct. Length rises mainly in the first half, weight in the last months."
+    },
+    {
+     "t": "Both late in pregnancy",
+     "e": "Wrong. Length is mainly gained early."
+    }
+   ]
+  },
+  {
+   "q": "What is the crown-rump length at birth?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "50 cm",
+     "e": "Wrong. 50 cm is the crown-heel length at birth."
+    },
+    {
+     "t": "30 cm",
+     "e": "Wrong. Not the CR length at birth."
+    },
+    {
+     "t": "25 cm",
+     "e": "Wrong. Too short for a term baby."
+    },
+    {
+     "t": "36 cm",
+     "e": "Correct. CR length at birth is about 36 cm."
+    }
+   ]
+  },
+  {
+   "q": "What is the crown-heel length at birth?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "36 cm",
+     "e": "Wrong. 36 cm is the crown-rump length."
+    },
+    {
+     "t": "50 cm",
+     "e": "Correct. CH length at term is about 50 cm."
+    },
+    {
+     "t": "45 cm",
+     "e": "Wrong. Not the stated value."
+    },
+    {
+     "t": "60 cm",
+     "e": "Wrong. Too long for a term neonate."
+    }
+   ]
+  },
+  {
+   "q": "From which month is crown-heel length measured?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "2nd month",
+     "e": "Wrong. CR length is used at this stage."
+    },
+    {
+     "t": "3rd month",
+     "e": "Correct. CH length is measured from the 3rd month."
+    },
+    {
+     "t": "4th month",
+     "e": "Wrong. It starts earlier, at the 3rd month."
+    },
+    {
+     "t": "5th month",
+     "e": "Wrong. It starts earlier, at the 3rd month."
+    }
+   ]
+  },
+  {
+   "q": "What is the relative size of the head at the 3rd month?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "One third of the CR length",
+     "e": "Wrong. This is the head at the 5th month relative to CH length."
+    },
+    {
+     "t": "One quarter of the CR length",
+     "e": "Wrong. This is the head at birth relative to CH length."
+    },
+    {
+     "t": "One fifth of the CR length",
+     "e": "Wrong. Not a value in the lecture."
+    },
+    {
+     "t": "One half of the CR length",
+     "e": "Correct. At 3 months the head is half the CR length."
+    }
+   ]
+  },
+  {
+   "q": "What is the head size at the 5th month relative to the crown-heel length?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "One third",
+     "e": "Correct. The head is one third of CH length at 5 months."
+    },
+    {
+     "t": "One half",
+     "e": "Wrong. This is the 3rd-month value (relative to CR length)."
+    },
+    {
+     "t": "One quarter",
+     "e": "Wrong. This is the value at birth."
+    },
+    {
+     "t": "One fifth",
+     "e": "Wrong. Not a value in the lecture."
+    }
+   ]
+  },
+  {
+   "q": "What is the head size relative to CH length at birth?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "One third",
+     "e": "Wrong. This is the 5th-month value."
+    },
+    {
+     "t": "One half",
+     "e": "Wrong. This is the 3rd-month value (relative to CR length)."
+    },
+    {
+     "t": "One quarter",
+     "e": "Correct. The head is one quarter of CH length at birth."
+    },
+    {
+     "t": "One sixth",
+     "e": "Wrong. Not the stated value."
+    }
+   ]
+  },
+  {
+   "q": "Why does the head become relatively smaller during the fetal period?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The body grows faster than the head",
+     "e": "Correct. Both grow, but the body grows faster."
+    },
+    {
+     "t": "The head stops growing",
+     "e": "Wrong. The head keeps growing."
+    },
+    {
+     "t": "The head shrinks after the 5th month",
+     "e": "Wrong. The head does not shrink."
+    },
+    {
+     "t": "The brain is formed later than the body",
+     "e": "Wrong. This is not the explanation."
+    }
+   ]
+  },
+  {
+   "q": "What is the approximate fetal weight at the end of the 5th month?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "250 g",
+     "e": "Wrong. Too low for the end of the 5th month."
+    },
+    {
+     "t": "500 g",
+     "e": "Correct. About 500 g at the end of the 5th month."
+    },
+    {
+     "t": "1000 g",
+     "e": "Wrong. Too high for this stage."
+    },
+    {
+     "t": "3500 g",
+     "e": "Wrong. This is the weight at birth."
+    }
+   ]
+  },
+  {
+   "q": "How much weight is gained during the last 2.5 months?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "One quarter of the full-term weight",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "One half of the full-term weight",
+     "e": "Correct. Half of the term weight is gained in the last 2.5 months."
+    },
+    {
+     "t": "One third of the full-term weight",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "Two thirds of the full-term weight",
+     "e": "Wrong. Too high."
+    }
+   ]
+  },
+  {
+   "q": "Which external structure develops in the 3rd month?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Lanugo hair",
+     "e": "Wrong. Lanugo appears in the 4th-5th months."
+    },
+    {
+     "t": "Vernix caseosa",
+     "e": "Wrong. Vernix covers the skin near labor."
+    },
+    {
+     "t": "Subcutaneous fat",
+     "e": "Wrong. Fat gives rounded contours in the last 2 months."
+    },
+    {
+     "t": "External genitalia",
+     "e": "Correct. External genitalia develop in the 3rd month."
+    }
+   ]
+  },
+  {
+   "q": "Which feature appears in the 4th and 5th months?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "External genitalia",
+     "e": "Wrong. These develop in the 3rd month."
+    },
+    {
+     "t": "Lanugo hair, head hair and eyebrows",
+     "e": "Correct. These appear in the 4th-5th months."
+    },
+    {
+     "t": "Vernix caseosa only",
+     "e": "Wrong. Vernix is prominent near labor."
+    },
+    {
+     "t": "Subcutaneous fat",
+     "e": "Wrong. Fat is laid down in the last 2 months."
+    }
+   ]
+  },
+  {
+   "q": "Until what month is the fetal skin wrinkled?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "End of the 4th month",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "End of the 8th month",
+     "e": "Wrong. Too late."
+    },
+    {
+     "t": "End of the 6th month",
+     "e": "Correct. The skin stays wrinkled until the end of the 6th month."
+    },
+    {
+     "t": "End of the 3rd month",
+     "e": "Wrong. Too early."
+    }
+   ]
+  },
+  {
+   "q": "What gives the fetus a well-rounded contour in the last 2 months?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Subcutaneous fat",
+     "e": "Correct. Subcutaneous fat accumulates in the last 2 months."
+    },
+    {
+     "t": "Lanugo hair",
+     "e": "Wrong. Lanugo is thin hair, not fat."
+    },
+    {
+     "t": "Vernix caseosa",
+     "e": "Wrong. Vernix is a whitish covering, not the cause of contour."
+    },
+    {
+     "t": "Muscle growth",
+     "e": "Wrong. Not the stated reason."
+    }
+   ]
+  },
+  {
+   "q": "The whitish fatty substance covering the skin at labor is derived mainly from which structure?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Sebaceous glands",
+     "e": "Correct. Vernix caseosa comes from sebaceous gland activity."
+    },
+    {
+     "t": "Sweat glands",
+     "e": "Wrong. Sweat glands do not form vernix."
+    },
+    {
+     "t": "Mammary glands",
+     "e": "Wrong. Not related."
+    },
+    {
+     "t": "Lanugo follicles",
+     "e": "Wrong. Hair follicles are not the source."
+    }
+   ]
+  },
+  {
+   "q": "At which time do the testes normally descend into the scrotum?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "In the 3rd month",
+     "e": "Wrong. External genitalia appear then."
+    },
+    {
+     "t": "In the 5th month",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "At labor",
+     "e": "Correct. Testes descend to the scrotum at labor."
+    },
+    {
+     "t": "In the 6th month",
+     "e": "Wrong. Too early."
+    }
+   ]
+  },
+  {
+   "q": "When does a primigravida first recognize fetal movements?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "5th month",
+     "e": "Correct. Recognition is in the 5th month in primigravidas."
+    },
+    {
+     "t": "4th month",
+     "e": "Wrong. This is for multigravidas."
+    },
+    {
+     "t": "3rd month",
+     "e": "Wrong. The first movement occurs in the 3rd month but is not felt."
+    },
+    {
+     "t": "6th month",
+     "e": "Wrong. Recognition occurs earlier."
+    }
+   ]
+  },
+  {
+   "q": "When do multigravida women recognize fetal movements, and when does the first movement occur?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "5th month; 4th month",
+     "e": "Wrong. Not the stated months."
+    },
+    {
+     "t": "3rd month; 2nd month",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "4th month; 3rd month",
+     "e": "Correct. Multigravidas feel movements in the 4th month; the first movement is in the 3rd."
+    },
+    {
+     "t": "4th month; 5th month",
+     "e": "Wrong. The first movement is not later than recognition."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,448 @@
+{
+ "id": "w9-physio-lactation-1",
+ "title": "Physiology of Lactation: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w9-physiology-physio-of-lactation",
+ "questions": [
+  {
+   "q": "Which cell surrounds the alveoli and contracts to eject milk?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Alveolar epithelial cell",
+     "e": "Wrong. It secretes milk."
+    },
+    {
+     "t": "Adipocyte",
+     "e": "Wrong. Surrounds lobules."
+    },
+    {
+     "t": "Ductal epithelial cell",
+     "e": "Wrong. Does not eject milk."
+    },
+    {
+     "t": "Myoepithelial cell",
+     "e": "Correct. Oxytocin acts on it."
+    }
+   ]
+  },
+  {
+   "q": "Which cell secretes milk?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Myoepithelial cell",
+     "e": "Wrong. Ejects milk."
+    },
+    {
+     "t": "Fibroblast",
+     "e": "Wrong. Not secretory."
+    },
+    {
+     "t": "Adipocyte",
+     "e": "Wrong. Not secretory."
+    },
+    {
+     "t": "Alveolar epithelial cell",
+     "e": "Correct. It lines the alveolus."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone drives milk production and which drives ejection?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Oxytocin; prolactin",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Prolactin; prolactin",
+     "e": "Wrong. Ejection is oxytocin."
+    },
+    {
+     "t": "Prolactin; oxytocin",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "hPL; oxytocin",
+     "e": "Wrong. hPL helps development."
+    }
+   ]
+  },
+  {
+   "q": "Which hormones stimulate breast growth throughout pregnancy?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Prolactin and oxytocin",
+     "e": "Wrong. Prolactin acts on enzymes; oxytocin on ejection."
+    },
+    {
+     "t": "hCG and FSH",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "GH and TSH",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Estrogen and progesterone",
+     "e": "Correct. Estrogen promotes ducts and progesterone alveolar-lobular formation."
+    }
+   ]
+  },
+  {
+   "q": "What does high estrogen promote and what does high progesterone stimulate?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Alveolar formation; duct development",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Duct development; alveolar-lobular formation",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Milk secretion; ejection",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Duct development; milk secretion",
+     "e": "Wrong. Progesterone drives alveolar-lobular formation."
+    }
+   ]
+  },
+  {
+   "q": "Why does lactation not occur during pregnancy?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Prolactin is absent",
+     "e": "Wrong. Prolactin is present."
+    },
+    {
+     "t": "High estrogen and progesterone block prolactin action on the breast",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Oxytocin is absent",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "hPL inhibits milk",
+     "e": "Wrong. hPL helps development."
+    }
+   ]
+  },
+  {
+   "q": "What is the correct order of the phases of lactation?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Lactogenesis, mammogenesis, galactopoiesis, galactokinesis",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Mammogenesis, galactokinesis, lactogenesis, galactopoiesis",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Galactopoiesis, lactogenesis, mammogenesis, galactokinesis",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Mammogenesis, lactogenesis, galactokinesis, galactopoiesis",
+     "e": "Correct. Four phases."
+    }
+   ]
+  },
+  {
+   "q": "Which phase is the synthesis and secretion of milk by the alveoli?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Lactogenesis",
+     "e": "Correct. Prolactin, hPL, cortisol, IGF-1, thyroid hormones and GH."
+    },
+    {
+     "t": "Mammogenesis",
+     "e": "Wrong. Preparation of the breasts."
+    },
+    {
+     "t": "Galactokinesis",
+     "e": "Wrong. Ejection."
+    },
+    {
+     "t": "Galactopoiesis",
+     "e": "Wrong. Maintenance."
+    }
+   ]
+  },
+  {
+   "q": "Which hormone regulates galactokinesis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Prolactin",
+     "e": "Wrong. Galactopoiesis."
+    },
+    {
+     "t": "Estrogen",
+     "e": "Wrong. Mammogenesis."
+    },
+    {
+     "t": "Oxytocin",
+     "e": "Correct. Ejection of milk."
+    },
+    {
+     "t": "hPL",
+     "e": "Wrong. Lactogenesis."
+    }
+   ]
+  },
+  {
+   "q": "What is the most important galactopoietic hormone?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Prolactin",
+     "e": "Correct. Maintains lactation."
+    },
+    {
+     "t": "Oxytocin",
+     "e": "Wrong. Ejection."
+    },
+    {
+     "t": "Cortisol",
+     "e": "Wrong. Supportive."
+    },
+    {
+     "t": "Progesterone",
+     "e": "Wrong. Blocks lactation in pregnancy."
+    }
+   ]
+  },
+  {
+   "q": "During which days is colostrum produced?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Days 3 to 5",
+     "e": "Wrong. Transitional milk."
+    },
+    {
+     "t": "Days 1 to 3",
+     "e": "Correct. Rich in immunoglobulins."
+    },
+    {
+     "t": "Days 5 to 10",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "From day 10",
+     "e": "Wrong. Mature milk."
+    }
+   ]
+  },
+  {
+   "q": "When is transitional milk produced and when does mature milk start?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Days 1-3; from day 5",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Days 3-5; from day 10",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Days 5-10; from day 14",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Days 1-3; from day 10",
+     "e": "Wrong. Colostrum is days 1-3."
+    }
+   ]
+  },
+  {
+   "q": "Which substances is colostrum rich in?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Lactose and fat only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Casein only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Glucose and insulin",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Proteins, minerals, immunoglobulins, phagocytes and lymphocytes",
+     "e": "Correct. Stated."
+    }
+   ]
+  },
+  {
+   "q": "Which hypothalamic factor inhibits prolactin secretion?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "TRH",
+     "e": "Wrong. Stimulates prolactin."
+    },
+    {
+     "t": "Dopamine",
+     "e": "Correct. PIH."
+    },
+    {
+     "t": "Somatostatin",
+     "e": "Wrong. Inhibits GH/TSH; listed as inhibitory."
+    },
+    {
+     "t": "GnRH",
+     "e": "Wrong. Acts on LH/FSH."
+    }
+   ]
+  },
+  {
+   "q": "Which hypothalamic hormone stimulates prolactin secretion?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Dopamine",
+     "e": "Wrong. Inhibits."
+    },
+    {
+     "t": "Somatostatin",
+     "e": "Wrong. Inhibits."
+    },
+    {
+     "t": "TRH",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "GHRH",
+     "e": "Wrong. Stimulates GH."
+    }
+   ]
+  },
+  {
+   "q": "Bromocriptine reduces prolactin. What is its class?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Dopamine agonist",
+     "e": "Correct. Acts like dopamine."
+    },
+    {
+     "t": "Dopamine antagonist",
+     "e": "Wrong. Antagonists stimulate prolactin."
+    },
+    {
+     "t": "TRH analog",
+     "e": "Wrong. TRH stimulates."
+    },
+    {
+     "t": "Estrogen",
+     "e": "Wrong. Raises prolactin."
+    }
+   ]
+  },
+  {
+   "q": "A patient on a dopamine antagonist develops raised prolactin. Why?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Loss of dopamine's inhibition of prolactin",
+     "e": "Correct. Antagonists stimulate secretion."
+    },
+    {
+     "t": "Direct stimulation of the breast",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Increased oxytocin",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Increased somatostatin",
+     "e": "Wrong. Inhibits."
+    }
+   ]
+  },
+  {
+   "q": "How does high prolactin inhibit ovulation?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "By increasing FSH",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "By blocking estrogen receptors in the ovary",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "By inhibiting GnRH synthesis and release",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "By raising oxytocin",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What is the effect of high prolactin in males?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Inhibition of GnRH and spermatogenesis, causing infertility",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Increased testosterone",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Increased spermatogenesis",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Gynecomastia only",
+     "e": "Wrong. Infertility is stated."
+    }
+   ]
+  },
+  {
+   "q": "Which receptors detect suckling and which cells does oxytocin act on?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Chemoreceptors in the nipple; alveolar epithelial cells",
+     "e": "Wrong. Wrong."
+    },
+    {
+     "t": "Mechanoreceptors in the nipple; alveolar epithelial cells",
+     "e": "Wrong. Prolactin acts on those."
+    },
+    {
+     "t": "Mechanoreceptors in the nipple; myoepithelial cells",
+     "e": "Correct. Hypothalamus integrates."
+    },
+    {
+     "t": "Thermoreceptors in the areola; myoepithelial cells",
+     "e": "Wrong. Wrong receptors."
+    }
+   ]
+  }
+ ]
+}

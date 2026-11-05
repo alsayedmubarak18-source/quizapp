@@ -1,0 +1,448 @@
+{
+ "id": "w8-micro-congenital-2-1",
+ "title": "Congenital Infections (2): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w8-microbiology-congenital-2",
+ "questions": [
+  {
+   "q": "Which gestational period carries the highest risk in maternal rubella?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Weeks 10 to 20",
+     "e": "Wrong. Risk is highest earlier."
+    },
+    {
+     "t": "Second trimester",
+     "e": "Wrong. Highest risk is the first 10 weeks."
+    },
+    {
+     "t": "Third trimester",
+     "e": "Wrong. Lowest risk."
+    },
+    {
+     "t": "The first 10 weeks",
+     "e": "Correct. Early infection causes miscarriage, fetal death and CRS."
+    }
+   ]
+  },
+  {
+   "q": "Which describes the rubella virus?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Double-stranded DNA herpesvirus",
+     "e": "Wrong. This describes CMV or HSV."
+    },
+    {
+     "t": "Non-enveloped DNA virus",
+     "e": "Wrong. Not rubella."
+    },
+    {
+     "t": "Single-stranded DNA parvovirus",
+     "e": "Wrong. This is parvovirus B19."
+    },
+    {
+     "t": "Enveloped, single-stranded positive-sense RNA virus, genus Rubivirus",
+     "e": "Correct. Family Matonaviridae."
+    }
+   ]
+  },
+  {
+   "q": "Which conditions inactivate rubella virus?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cold below 4 C",
+     "e": "Wrong. Not inactivating."
+    },
+    {
+     "t": "pH 7",
+     "e": "Wrong. Neutral pH is tolerated."
+    },
+    {
+     "t": "Heat above 56 C, UV light, pH below 6.8 or above 8.1",
+     "e": "Correct. Stated conditions."
+    },
+    {
+     "t": "Visible light only",
+     "e": "Wrong. Not stated."
+    }
+   ]
+  },
+  {
+   "q": "What is the classic triad of congenital rubella syndrome?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Hydrocephalus, calcifications, chorioretinitis",
+     "e": "Wrong. This is toxoplasmosis."
+    },
+    {
+     "t": "Microcephaly, seizures, hepatosplenomegaly",
+     "e": "Wrong. Not the triad."
+    },
+    {
+     "t": "Cataract, rash, fever",
+     "e": "Wrong. Not the triad."
+    },
+    {
+     "t": "Hearing impairment, congenital heart defects, eye anomalies",
+     "e": "Correct. The CRS triad."
+    }
+   ]
+  },
+  {
+   "q": "Which eye anomaly is NOT classically a feature of CRS?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cataract",
+     "e": "Wrong. A feature of CRS."
+    },
+    {
+     "t": "Optic neuritis",
+     "e": "Correct. The stated anomalies are cataract, pigmentary retinopathy, chorioretinitis and glaucoma."
+    },
+    {
+     "t": "Pigmentary retinopathy",
+     "e": "Wrong. A feature of CRS."
+    },
+    {
+     "t": "Congenital glaucoma",
+     "e": "Wrong. A feature of CRS."
+    }
+   ]
+  },
+  {
+   "q": "What causes the salt-and-pepper retinopathy of CRS?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lens opacification",
+     "e": "Wrong. This is cataract."
+    },
+    {
+     "t": "Progressive photoreceptor damage",
+     "e": "Correct. Stated mechanism."
+    },
+    {
+     "t": "Optic nerve atrophy",
+     "e": "Wrong. Not the stated cause."
+    },
+    {
+     "t": "Retinal detachment",
+     "e": "Wrong. Not the stated cause."
+    }
+   ]
+  },
+  {
+   "q": "Which skin finding in CRS is described as blueberry muffin?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Vesicles",
+     "e": "Wrong. Typical of HSV."
+    },
+    {
+     "t": "Maculopapular desquamation",
+     "e": "Wrong. Typical of syphilis."
+    },
+    {
+     "t": "Slapped cheek erythema",
+     "e": "Wrong. Fifth disease."
+    },
+    {
+     "t": "Purpura",
+     "e": "Correct. Skin purpura."
+    }
+   ]
+  },
+  {
+   "q": "When does jaundice appear in CRS?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Within 24 hours after birth",
+     "e": "Correct. Early jaundice."
+    },
+    {
+     "t": "After 1 week",
+     "e": "Wrong. Too late."
+    },
+    {
+     "t": "After 1 month",
+     "e": "Wrong. Too late."
+    },
+    {
+     "t": "At 3 months",
+     "e": "Wrong. Too late."
+    }
+   ]
+  },
+  {
+   "q": "What is the treatment of CRS?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Acyclovir",
+     "e": "Wrong. For HSV."
+    },
+    {
+     "t": "Ganciclovir",
+     "e": "Wrong. Not stated for rubella."
+    },
+    {
+     "t": "No specific treatment; supportive",
+     "e": "Correct. Control by vaccination and education."
+    },
+    {
+     "t": "Penicillin",
+     "e": "Wrong. For syphilis."
+    }
+   ]
+  },
+  {
+   "q": "How is the mother infected with rubella and the fetus?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Mother by aerosols; fetus through the placenta",
+     "e": "Correct. Stated routes."
+    },
+    {
+     "t": "Mother by mosquito; fetus by delivery",
+     "e": "Wrong. Not rubella."
+    },
+    {
+     "t": "Mother by sexual contact; fetus by delivery",
+     "e": "Wrong. Not rubella."
+    },
+    {
+     "t": "Mother by fecal-oral route; fetus by breast milk",
+     "e": "Wrong. Not rubella."
+    }
+   ]
+  },
+  {
+   "q": "What is the prevalence of congenital CMV in newborns worldwide?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "About 10%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "About 0.5-2%",
+     "e": "Correct. Stated prevalence."
+    },
+    {
+     "t": "About 20%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "About 0.01%",
+     "e": "Wrong. Too low."
+    }
+   ]
+  },
+  {
+   "q": "Which describes CMV?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Alpha-herpesvirus replicating in neurons",
+     "e": "Wrong. This describes HSV."
+    },
+    {
+     "t": "Herpesvirus with double-stranded DNA replicating in lymphocytes and macrophages",
+     "e": "Correct. Stated features."
+    },
+    {
+     "t": "RNA virus replicating in lymphocytes",
+     "e": "Wrong. CMV has a DNA genome."
+    },
+    {
+     "t": "Parvovirus replicating in erythroid cells",
+     "e": "Wrong. Not CMV."
+    }
+   ]
+  },
+  {
+   "q": "What is the mother-to-fetus transmission rate of CMV?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "2-3%",
+     "e": "Wrong. Not the stated range."
+    },
+    {
+     "t": "90-100%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "10-15%",
+     "e": "Wrong. Not the stated range."
+    },
+    {
+     "t": "30-70%",
+     "e": "Correct. Stated range."
+    }
+   ]
+  },
+  {
+   "q": "Which maternal pattern transmits CMV?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only third-trimester primary infection",
+     "e": "Wrong. Not the stated pattern."
+    },
+    {
+     "t": "Primary infection in first/second trimester or reactivation",
+     "e": "Correct. Stated patterns."
+    },
+    {
+     "t": "Only vaccination",
+     "e": "Wrong. Not a pattern."
+    },
+    {
+     "t": "Only chronic carriage in the cervix",
+     "e": "Wrong. Not a stated pattern."
+    }
+   ]
+  },
+  {
+   "q": "What is the status of most infants with congenital CMV at birth?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Severe microcephaly",
+     "e": "Wrong. Rare."
+    },
+    {
+     "t": "Chorioretinitis",
+     "e": "Wrong. Only in symptomatic infants."
+    },
+    {
+     "t": "No signs or symptoms",
+     "e": "Correct. Most remain well."
+    },
+    {
+     "t": "Hepatosplenomegaly",
+     "e": "Wrong. Only in symptomatic infants."
+    }
+   ]
+  },
+  {
+   "q": "What is the most common complication of congenital CMV?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hearing loss",
+     "e": "Correct. Stated most common."
+    },
+    {
+     "t": "Blindness",
+     "e": "Wrong. Not the most common."
+    },
+    {
+     "t": "Seizures",
+     "e": "Wrong. Less common."
+    },
+    {
+     "t": "Cataract",
+     "e": "Wrong. A CRS feature."
+    }
+   ]
+  },
+  {
+   "q": "Which finding is rare in CMV and indistinguishable from Zika by examination?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Severe microcephaly",
+     "e": "Correct. Stated overlap."
+    },
+    {
+     "t": "Hearing loss",
+     "e": "Wrong. Common in CMV."
+    },
+    {
+     "t": "Jaundice",
+     "e": "Wrong. Not specific."
+    },
+    {
+     "t": "Hepatitis",
+     "e": "Wrong. Not specific."
+    }
+   ]
+  },
+  {
+   "q": "What is the genome and typical type in congenital herpes syndrome?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Single-stranded RNA; mostly HSV type 1",
+     "e": "Wrong. HSV is DNA and type 2 predominates."
+    },
+    {
+     "t": "Double-stranded DNA; mostly HSV type 1",
+     "e": "Wrong. Type 2 predominates."
+    },
+    {
+     "t": "Linear double-stranded DNA; mostly HSV type 2",
+     "e": "Correct. Alpha herpesvirus."
+    },
+    {
+     "t": "Single-stranded DNA; mostly HSV type 2",
+     "e": "Wrong. HSV has double-stranded DNA."
+    }
+   ]
+  },
+  {
+   "q": "When is the transmission risk of HSV highest?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "First herpes outbreak during pregnancy, particularly third trimester",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "Recurrent outbreak in first trimester",
+     "e": "Wrong. Not the highest."
+    },
+    {
+     "t": "Asymptomatic carriage in first trimester",
+     "e": "Wrong. Not the highest."
+    },
+    {
+     "t": "Vaccination in pregnancy",
+     "e": "Wrong. Not a risk."
+    }
+   ]
+  },
+  {
+   "q": "Which agent among rubella, CMV and HSV has a specific antiviral treatment?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Rubella",
+     "e": "Wrong. No specific treatment."
+    },
+    {
+     "t": "CMV",
+     "e": "Wrong. Management is supportive."
+    },
+    {
+     "t": "HSV (acyclovir)",
+     "e": "Correct. Stated."
+    },
+    {
+     "t": "All three",
+     "e": "Wrong. Only HSV."
+    }
+   ]
+  }
+ ]
+}
