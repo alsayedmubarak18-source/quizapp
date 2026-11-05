@@ -92,13 +92,13 @@ export function readiness(attempts, unique, total) {
 const CKEY = k => 'qz-cards:' + k, HKEY = 'qz-hide';
 const GAPS = [0, 1, 3, 7, 14, 30]; // أيام الانتظار حسب الصندوق
 export function loadCards(key) { try { return JSON.parse(localStorage.getItem(CKEY(key))) || {}; } catch (e) { return {}; } }
-export function rateCard(key, id, knew) {
-  const c = loadCards(key), o = c[id] || { box: 0 };
-  o.box = knew ? Math.min(GAPS.length - 1, o.box + 1) : 0;
-  o.due = Date.now() + GAPS[o.box] * 864e5; c[id] = o;
+export function rateCard(key, id, knew, gapMs) {
+  const c = loadCards(key), now = Date.now();
+  c[id] = { known: knew ? 1 : 0, gap: knew ? gapMs : 0, due: now + (knew ? gapMs : 0), at: now };
   try { localStorage.setItem(CKEY(key), JSON.stringify(c)); } catch (e) {}
   return c;
 }
+export const cardKnown = o => !!o && (o.known !== undefined ? !!o.known : o.box > 0);
 export const isDue = (cards, id) => !cards[id] || cards[id].due <= Date.now();
 export const getHide = () => localStorage.getItem(HKEY) === '1';
 export const setHide = v => { try { localStorage.setItem(HKEY, v ? '1' : '0'); } catch (e) {} };

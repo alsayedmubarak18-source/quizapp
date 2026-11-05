@@ -274,30 +274,51 @@ async function finishExam() {
 }
 
 /* ---------- flashcards ---------- */
+const GAPS = [['10 دقايق', 6e5], ['ساعة', 36e5], ['6 ساعات', 216e5], ['يوم', 864e5], ['3 أيام', 3 * 864e5], ['أسبوع', 7 * 864e5], ['أسبوعين', 14 * 864e5], ['شهر', 30 * 864e5]];
 const qOf = id => { const [zid, qi] = [id.slice(0, id.lastIndexOf('#')), +id.slice(id.lastIndexOf('#') + 1)]; const z = S.quizzes.find(x => x.id === zid); return z && z.questions[qi] ? { z, q: z.questions[qi] } : null; };
+const knownIds = () => { const c = PG.loadCards(S.profile.key); return Object.keys(c).filter(id => PG.cardKnown(c[id]) && qOf(id)).sort((a, b) => c[a].due - c[b].due); };
 const cardIds = () => {
   const st = stats(), set = new Set(st.mistakes.map(m => m.quizId + '#' + m.qi));
   PG.loadMarks(S.profile.key).forEach(id => set.add(id));
+  knownIds().forEach(id => set.add(id));
   return [...set].filter(id => qOf(id));
 };
-const dueCount = () => { const c = PG.loadCards(S.profile.key); return cardIds().filter(id => PG.isDue(c, id)).length; };
-function startCards() {
-  const c = PG.loadCards(S.profile.key), deck = cardIds().filter(id => PG.isDue(c, id));
-  for (let i = deck.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [deck[i], deck[j]] = [deck[j], deck[i]]; }
-  go('cards', { cd: { deck: deck.slice(0, 30), i: 0, flip: false, known: 0 } });
+const dueIds = () => { const c = PG.loadCards(S.profile.key); return cardIds().filter(id => PG.isDue(c, id)); };
+const dueCount = () => dueIds().length;
+const fmtDue = ms => { const d = ms - Date.now(); if (d <= 0) return 'مستحقة الآن'; const m = Math.round(d / 6e4); if (m < 60) return `بعد ${m} دقيقة`; const h = Math.round(m / 60); if (h < 24) return `بعد ${h} ساعة`; return `بعد ${Math.round(h / 24)} يوم`; };
+function openFc(tab) { go('fc', { fctab: tab || S.fctab || 'due' }); }
+function runDeck(ids, shuffle = true) {
+  const deck = ids.slice(0, 40);
+  if (shuffle) for (let i = deck.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [deck[i], deck[j]] = [deck[j], deck[i]]; }
+  go('cards', { cd: { deck, i: 0, flip: false, known: 0 } });
 }
+views.fc = () => {
+  const due = dueIds(), kn = knownIds(), c = PG.loadCards(S.profile.key), tab = S.fctab || 'due';
+  let body;
+  if (tab === 'due') body = due.length ? `<div class="card center"><div class="big">${due.length}</div><p class="sub" style="margin:0 0 10px">كارت مستحق للمراجعة دلوقتي</p><button class="btn primary wide" data-act="fcstart">ابدأ المراجعة</button></div>
+      <p class="hint">الكروت بتتعمل من الأسئلة اللي غلطت فيها أو علّمتها ⚑. لما تضغط «عرفتها» انت اللي بتحدد ترجع لك امتى.</p>`
+    : `<div class="card center"><h3>مفيش كروت مستحقة دلوقتي 🎉</h3><p class="sub">ارجع بعدين، أو راجع اللي عرفته من خانة «عرفتها».</p></div>`;
+  else body = kn.length ? `<button class="btn primary wide" data-act="fcknown">🔁 راجع كل اللي عرفته دلوقتي (${kn.length})</button>
+      <div class="scr kl">${kn.map(id => { const o = qOf(id), m = metaOf(o.z.id, +id.slice(id.lastIndexOf('#') + 1)); return `<button class="card kc" data-act="fcone" data-id="${esc(id)}"><span class="kq" dir="auto">${esc(o.q.q)}</span><small dir="auto">${esc(m ? m.topic : '')} · ${fmtDue(c[id].due)}</small></button>`; }).join('')}</div>`
+    : `<div class="card center"><h3>لسه ما عرفتش كروت</h3><p class="sub">أي كارت تضغط عليه «عرفتها» هيتحفظ هنا، وتقدر تراجعه في أي وقت.</p></div>`;
+  $app.innerHTML = `${backBar('Flashcards', 'perf')}
+    <div class="seg" style="display:flex"><button style="flex:1" class="${tab === 'due' ? 'on' : ''}" data-act="fctab" data-id="due">🃏 المستحقة (${due.length})</button><button style="flex:1" class="${tab === 'known' ? 'on' : ''}" data-act="fctab" data-id="known">✅ عرفتها (${kn.length})</button></div>
+    <div class="pbody" style="margin-top:10px">${body}</div>`;
+};
 views.cards = () => {
   const d = S.cd;
   if (!d.deck.length || d.i >= d.deck.length) {
-    $app.innerHTML = `${backBar('Flashcards', 'perf')}<div class="card center"><h2>${d.deck.length ? 'خلّصت الدفعة 🎉' : 'مفيش كروت مستحقة دلوقتي'}</h2>
-      <p class="sub">${d.deck.length ? `عرفت ${d.known} من ${d.deck.length}. الكروت اللي ما عرفتهاش هترجع لك بكرة.` : 'الكروت بتتعمل من الأسئلة اللي غلطت فيها أو علّمتها ⚑، وبترجع لك على فترات (1، 3، 7، 14 يوم).'}</p>
-      <button class="btn" data-act="go" data-v="perf">رجوع لتقدمك</button></div>`; return;
+    $app.innerHTML = `${backBar('Flashcards', 'fc')}<div class="card center"><h2>خلّصت الدفعة 🎉</h2>
+      <p class="sub">عرفت ${d.known} من ${d.deck.length}. الكروت اللي ما عرفتهاش هترجع لك فورًا.</p>
+      <button class="btn primary" data-act="fcback">رجوع للكروت</button></div>`; return;
   }
   const id = d.deck[d.i], { z, q } = qOf(id), m = metaOf(z.id, +id.slice(id.lastIndexOf('#') + 1)), ok = q.options[q.correct], L = T[langOf(z)];
-  $app.innerHTML = `${backBar('Flashcards', 'perf')}<div dir="${L.dir}"><p class="sub" dir="ltr">${d.i + 1} / ${d.deck.length} · ${esc(m ? m.subject + ' · ' + m.topic : '')}</p>
+  $app.innerHTML = `${backBar('Flashcards', 'fc')}<div dir="${L.dir}"><p class="sub" dir="ltr">${d.i + 1} / ${d.deck.length} · ${esc(m ? m.subject + ' · ' + m.topic : '')}</p>
     <div class="card fcard" data-act="flip" role="button" tabindex="0"><div class="question" style="margin:0">${esc(q.q)}</div>
     ${d.flip ? `<hr><p style="margin:0 0 6px"><b>✓ ${esc(ok.t)}</b></p><p class="sub" style="margin:0">${esc(ok.e || '')}</p>` : '<p class="hint" style="margin-top:12px">اضغط على الكارت عشان تشوف الإجابة</p>'}</div>
-    ${d.flip ? `<div class="row"><button class="btn" data-act="cardno">😅 لسه</button><button class="btn primary" data-act="cardyes">✅ عرفتها</button></div>` : ''}</div>`;
+    ${d.flip ? `<div class="row"><button class="btn" data-act="cardno">😅 لسه، رجّعه فورًا</button></div>
+      <p class="hint" style="margin:8px 0 4px">✅ عرفتها، رجّعه لي بعد:</p>
+      <div class="gaps">${GAPS.map(([t, ms]) => `<button class="btn small" data-act="cardyes" data-id="${ms}">${t}</button>`).join('')}</div>` : ''}</div>`;
 };
 
 /* ---------- leaderboard (week / month) ---------- */
@@ -345,7 +366,8 @@ const GUIDE = [
   { c: '#e0699a', e: '🃏', t: 'Flashcards', items: [
     'الكروت بتتعمل من الأسئلة اللي <b>غلطت فيها</b> أو علّمتها <b>⚑</b>.',
     'اقرا السؤال، فكّر، واضغط على الكارت تشوف الإجابة والسبب.',
-    '<b>عرفتها ✅</b> ترجع لك بعد 1، 3، 7، 14، 30 يوم. <b>لسه 😅</b> ترجع بكرة. الأسلوب ده بيثبّت المعلومة.' ] },
+    'لما تضغط <b>عرفتها ✅</b> انت اللي بتحدد ترجع لك امتى: 10 دقايق، ساعة، 6 ساعات، يوم، أسبوع، شهر. و<b>لسه 😅</b> بترجع فورًا.',
+    'كل اللي عرفته بتلاقيه في خانة <b>«عرفتها»</b> وتقدر تراجعه تاني في أي وقت، كارت كارت أو كله مرة واحدة.' ] },
   { c: '#d9822b', e: '🏆', t: 'Leaderboard', items: [
     'الترتيب <b>أسبوعي</b> أو <b>شهري</b>، ويظهر فيه اللي حلّ 10 أسئلة أو أكتر في الفترة.',
     '<b>Smart Score</b> = الإجابات الصح × الدقة، فبيكافئ الكمية والدقة مع بعض.',
@@ -895,10 +917,15 @@ $app.addEventListener('click', async e => {
     case 'xend2': await finishExam(); break;
     case 'ptab': S.ptab = id; S.psub = ''; render(); window.scrollTo(0, 0); break;
     case 'psub': S.psub = id; render(); window.scrollTo(0, 0); break;
-    case 'cardsopen': startCards(); break;
+    case 'cardsopen': openFc('due'); break;
+    case 'fctab': S.fctab = id; render(); break;
+    case 'fcstart': runDeck(dueIds()); break;
+    case 'fcknown': runDeck(knownIds()); break;
+    case 'fcone': runDeck([id], false); break;
+    case 'fcback': openFc(); break;
     case 'asstudent': S.forceLogin = true; render(); break;
     case 'flip': S.cd.flip = !S.cd.flip; render(); break;
-    case 'cardyes': case 'cardno': { const d = S.cd; PG.rateCard(S.profile.key, d.deck[d.i], act === 'cardyes'); if (act === 'cardyes') d.known++; d.i++; d.flip = false; render(); window.scrollTo(0, 0); break; }
+    case 'cardyes': case 'cardno': { const d = S.cd; PG.rateCard(S.profile.key, d.deck[d.i], act === 'cardyes', +id); if (act === 'cardyes') d.known++; d.i++; d.flip = false; render(); window.scrollTo(0, 0); break; }
     case 'lbopen': openLb('week'); break;
     case 'lbp': openLb(id); break;
     case 'lbhide': PG.setHide(!PG.getHide()); render(); break;
