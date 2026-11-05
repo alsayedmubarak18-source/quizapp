@@ -2,10 +2,11 @@
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 const $app = document.getElementById('app');
 
-let store, SEED;
+let store, SEED, CURRICULUM, GAMES, LINKS;
 try {
   ({ store } = await import('./store.js'));
   ({ SEED } = await import('./seed.js'));
+  ({ CURRICULUM, GAMES, LINKS } = await import('./curriculum.js'));
 } catch (e) {
   $app.innerHTML = `<div class="card"><h2>تعذر الاتصال بـ Firebase</h2>
     <p>راجع إعدادات <b>config.js</b>، وتأكد من تفعيل Anonymous و Email/Password في Authentication.</p>
@@ -42,7 +43,7 @@ const typing = () => { const a = document.activeElement; return a && (a.tagName 
 
 store.watchQuizzes(list => {
   S.quizzes = list.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
-  if (['home', 'quizzes', 'teacher'].includes(S.view) && !typing()) render();
+  if (['home', 'quizzes', 'teacher', 'blocks', 'block', 'week', 'lecture'].includes(S.view) && !typing()) render();
 }, e => { S.err = 'تعذر تحميل الكويزات. راجع قواعد Firestore.'; console.error(e); });
 
 const backBar = (title, to = 'home') => `<div class="back"><button class="link" data-act="go" data-v="${to}">‹ رجوع</button><h2>${esc(title)}</h2></div>`;
@@ -81,8 +82,8 @@ views.home = () => {
     <header class="top"><div><h1>كويزاتي</h1><p class="sub">اختبر نفسك وقارن ترتيبك بزملائك</p></div>
       ${store.mode === 'demo' ? '<span class="badge">وضع تجريبي: البيانات على جهازك فقط</span>' : ''}</header>
     <div class="tiles">
-      <button class="tile" data-act="go" data-v="quizzes"><b>حل كويز</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></button>
-      <a class="tile" href="games/minerals.html" style="text-decoration:none;color:inherit"><b>🎮 ألعاب المحاضرات</b><span>Minerals Homeostasis: مراجعة بالتفاعل وبدون ضغط</span></a>
+      <button class="tile" data-act="go" data-v="blocks"><b>📚 Semester 1</b><span>Block 1 · Block 2 · Block 3: كويزات وألعاب كل محاضرة</span></button>
+      <button class="tile" data-act="go" data-v="quizzes"><b>كل الكويزات</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></button>
       <button class="tile alt" data-act="go" data-v="teacher"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></button>
     </div>
     ${S.installEv ? `<button class="btn primary install" data-act="install">ثبّت التطبيق على جهازك</button>` : ''}
@@ -90,6 +91,63 @@ views.home = () => {
     ${S.err ? `<p class="msg err">${esc(S.err)}</p>` : ''}`;
 };
 window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); S.installEv = e; if (S.view === 'home') render(); });
+
+/* ---------- curriculum navigation: Block > Week > Subject > Lecture ---------- */
+const SUBCOL = ['#e8590c', '#1c7ed6', '#2f9e44', '#9c36b5', '#c2255c', '#0c8599', '#e67700', '#5f3dc4', '#d6336c', '#087f5b', '#495057', '#a61e4d', '#3b5bdb'];
+const subColor = s => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return SUBCOL[h % SUBCOL.length]; };
+const quizLec = z => z.lec || LINKS[z.id] || '';
+const quizzesOf = key => S.quizzes.filter(z => quizLec(z) === key);
+const findBlock = n => CURRICULUM.find(b => b.n === n);
+const findWeek = n => { for (const b of CURRICULUM) { const w = b.weeks.find(x => x.n === n); if (w) return w; } return null; };
+const findLec = key => { for (const b of CURRICULUM) for (const w of b.weeks) { const it = w.items.find(x => x.k === key); if (it) return { it, w, b }; } return null; };
+const blockQuizCount = b => quizzesOf('block-' + b.n).length + b.weeks.reduce((s, w) => s + w.items.reduce((t, i) => t + quizzesOf(i.k).length, 0), 0);
+const weekQuizCount = w => w.items.reduce((t, i) => t + quizzesOf(i.k).length, 0);
+const quizCard = (z, ret) => `
+  <article class="card qitem"><h3 dir="auto">${esc(z.title)}</h3><p class="meta">${z.questions.length} سؤال</p>
+    <div class="row"><button class="btn primary small" data-act="start" data-id="${z.id}" data-ret="${ret}">ابدأ</button>
+    <button class="btn small" data-act="board" data-id="${z.id}" data-ret="${ret}">الترتيب</button></div></article>`;
+
+views.blocks = () => {
+  $app.innerHTML = `${backBar('Semester 1')}<div class="tiles">${CURRICULUM.map(b => {
+    const lecs = b.weeks.reduce((s, w) => s + w.items.length, 0), nq = blockQuizCount(b);
+    return `<button class="tile" data-act="blk" data-n="${b.n}"><b dir="ltr">Block ${b.n}</b><span dir="ltr">Weeks ${b.weeks[0].n}–${b.weeks[b.weeks.length - 1].n} · ${lecs} lectures · ${nq} quiz${nq === 1 ? '' : 'zes'}</span></button>`;
+  }).join('')}</div>`;
+};
+views.block = () => {
+  const b = findBlock(S.blk), comp = quizzesOf('block-' + b.n);
+  $app.innerHTML = `${backBar('Block ' + b.n, 'blocks')}
+    <label class="hint" for="name">اسمك (يظهر في الترتيب)</label>
+    <input class="inp" id="name" maxlength="30" value="${esc(S.name)}" placeholder="اكتب اسمك" autocomplete="nickname">
+    <p class="msg err">${esc(S.err)}</p>
+    ${comp.length ? `<h3 class="lbt" dir="ltr">Comprehensive</h3><div class="list">${comp.map(z => quizCard(z, 'block')).join('')}</div>` : ''}
+    <h3 class="lbt" dir="ltr">Weeks</h3>
+    <div class="tiles">${b.weeks.map(w => {
+      const nq = weekQuizCount(w), subs = [...new Set(w.items.map(i => i.s))];
+      return `<button class="tile" data-act="wk" data-n="${w.n}"><b dir="ltr">Week ${w.n}</b><span dir="ltr">${w.items.length} lectures · ${nq} quiz${nq === 1 ? '' : 'zes'}</span><span dir="ltr" style="font-size:13px">${subs.join(' · ')}</span></button>`;
+    }).join('')}</div>`;
+};
+views.week = () => {
+  const w = findWeek(S.wk), groups = {};
+  w.items.forEach(i => (groups[i.s] = groups[i.s] || []).push(i));
+  $app.innerHTML = `${backBar('Week ' + w.n, 'block')}` + Object.keys(groups).map(s => `
+    <h3 class="lbt subh" dir="ltr" style="border-inline-start:5px solid ${subColor(s)};padding-inline-start:8px">${esc(s)}</h3>
+    <div class="list">${groups[s].map(i => {
+      const nq = quizzesOf(i.k).length, g = GAMES[i.k];
+      return `<button class="tile lec" data-act="lec" data-k="${i.k}"><b dir="ltr" style="font-size:16px">${esc(i.c)}</b>
+        <span dir="ltr" style="font-size:13px">${g ? '🎮 Game' + (nq ? ' · ' : '') : ''}${nq ? nq + ' quiz' + (nq === 1 ? '' : 'zes') : (g ? '' : 'Coming soon')}</span></button>`;
+    }).join('')}</div>`).join('');
+};
+views.lecture = () => {
+  const f = findLec(S.lec), qz = quizzesOf(S.lec), g = GAMES[S.lec];
+  $app.innerHTML = `${backBar(f.it.c, 'week')}
+    <p class="sub" dir="ltr"><span style="color:${subColor(f.it.s)};font-weight:700">${esc(f.it.s)}</span> · Block ${f.b.n} · Week ${f.w.n}</p>
+    <label class="hint" for="name">اسمك (يظهر في الترتيب)</label>
+    <input class="inp" id="name" maxlength="30" value="${esc(S.name)}" placeholder="اكتب اسمك" autocomplete="nickname">
+    <p class="msg err">${esc(S.err)}</p>
+    ${g ? `<a class="tile" href="${g.url}" style="text-decoration:none;color:inherit;margin-bottom:12px"><b>🎮 ${esc(g.title)}</b><span>مراجعة بالتفاعل وبدون ضغط</span></a>` : ''}
+    ${qz.length ? `<div class="list">${qz.map(z => quizCard(z, 'lecture')).join('')}</div>` : ''}
+    ${!g && !qz.length ? `<div class="card empty" dir="ltr">Coming soon. Quizzes for this lecture will appear here automatically.</div>` : ''}`;
+};
 
 /* ---------- quizzes list + solo play ---------- */
 views.quizzes = () => {
@@ -278,6 +336,8 @@ views.teacher = () => {
 };
 
 /* editor */
+const lecOptions = sel => '<option value="">Not linked</option>' + CURRICULUM.map(b => `<optgroup label="Block ${b.n}"><option value="block-${b.n}" ${sel === 'block-' + b.n ? 'selected' : ''}>Block ${b.n}: Comprehensive</option>` +
+  b.weeks.map(w => w.items.map(i => `<option value="${i.k}" ${sel === i.k ? 'selected' : ''}>W${w.n} · ${esc(i.s)} · ${esc(i.c)}</option>`).join('')).join('') + '</optgroup>').join('');
 const blankQ = () => ({ q: '', correct: 0, options: [{ t: '', e: '' }, { t: '', e: '' }, { t: '', e: '' }, { t: '', e: '' }] });
 views.edit = () => {
   const d = S.draft;
@@ -295,6 +355,8 @@ views.edit = () => {
     <label class="hint" for="title">عنوان الكويز</label><input class="inp" id="title" dir="auto" value="${esc(d.title)}" placeholder="مثال: مراجعة الوحدة الأولى">
     <label class="hint" for="lang" style="display:block;margin-top:10px">لغة الكويز</label>
     <select class="inp" id="lang"><option value="ar" ${d.lang !== 'en' ? 'selected' : ''}>العربية</option><option value="en" ${d.lang === 'en' ? 'selected' : ''}>English</option></select>
+    <label class="hint" for="lec" style="display:block;margin-top:10px">المحاضرة المرتبط بها (تظهر للطلبة في المنهج)</label>
+    <select class="inp" id="lec" dir="ltr">${lecOptions(d.lec || LINKS[d.id] || '')}</select>
     ${qs}<button class="btn" data-act="addq">+ إضافة سؤال</button>
     <div class="savebar"><button class="btn primary" data-act="save">حفظ الكويز</button><button class="btn" data-act="go" data-v="teacher">رجوع</button>
       <span class="msg ${S.derr ? 'err' : ''}" style="align-self:center">${esc(S.derr || '')}</span></div>`;
@@ -313,7 +375,7 @@ function validateDraft(d) {
 function normalizeQuiz(o) {
   if (!o || !o.title || !Array.isArray(o.questions) || !o.questions.length) throw new Error('bad');
   return {
-    title: String(o.title), lang: o.lang === 'en' ? 'en' : 'ar',
+    title: String(o.title), lang: o.lang === 'en' ? 'en' : 'ar', lec: o.lec ? String(o.lec) : '',
     questions: o.questions.map(q => ({ q: String(q.q || ''), correct: +q.correct || 0, options: (q.options || []).map(x => ({ t: String(x.t || ''), e: String(x.e || '') })) }))
   };
 }
@@ -378,10 +440,14 @@ $app.addEventListener('click', async e => {
   switch (act) {
     case 'go': go(b.dataset.v); break;
     case 'install': S.installEv.prompt(); S.installEv = null; render(); break;
+    case 'blk': go('block', { blk: +b.dataset.n }); break;
+    case 'wk': go('week', { wk: +b.dataset.n }); break;
+    case 'lec': go('lecture', { lec: b.dataset.k }); break;
     case 'start': {
+      S.ret = b.dataset.ret || 'quizzes';
       if (!S.name.trim()) { S.err = 'اكتب اسمك الأول.'; render(); break; }
       localStorage.setItem(NAME_KEY, S.name.trim()); startSolo(quiz()); break; }
-    case 'board': openBoard(quiz(), 'quizzes'); break;
+    case 'board': S.ret = b.dataset.ret || 'quizzes'; openBoard(quiz(), S.ret); break;
     case 'tboard': openBoard(quiz(), 'teacher'); break;
     case 'pick': {
       const p = S.play, q = p.qs[p.i];
@@ -396,7 +462,7 @@ $app.addEventListener('click', async e => {
       if (p.i + 1 < p.qs.length) { p.i++; p.answered = null; p.revealed = new Set(); render(); window.scrollTo(0, 0); } else finishSolo();
       break; }
     case 'again': startSolo(S.quizzes.find(z => z.id === S.play.quiz.id) || S.play.quiz); break;
-    case 'quit': go('quizzes'); break;
+    case 'quit': go(S.ret || 'quizzes'); break;
     case 'joingame': joinGame(); break;
     case 'lpick': livePick(oi); break;
     case 'lshow': {
@@ -433,7 +499,7 @@ $app.addEventListener('click', async e => {
     case 'save': {
       S.derr = validateDraft(S.draft);
       if (S.derr) { render(); break; }
-      const out = clone(S.draft); delete out.isNew;
+      const out = clone(S.draft); delete out.isNew; if (!out.lec) delete out.lec;
       out.questions.forEach(q => {
         const keep = q.options.map((_, i) => i).filter(i => q.options[i].t.trim());
         q.correct = keep.indexOf(q.correct); q.options = keep.map(i => q.options[i]);
@@ -457,6 +523,7 @@ $app.addEventListener('input', e => {
   if (S.view !== 'edit' || !S.draft) return;
   if (t.id === 'title') { S.draft.title = t.value; return; }
   if (t.id === 'lang') { S.draft.lang = t.value; return; }
+  if (t.id === 'lec') { S.draft.lec = t.value; return; }
   const f = t.dataset.f; if (!f) return;
   const q = S.draft.questions[+t.dataset.qi], oi = +t.dataset.oi;
   if (f === 'q') q.q = t.value; else if (f === 'correct') q.correct = oi; else q.options[oi][f] = t.value;
