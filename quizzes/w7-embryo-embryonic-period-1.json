@@ -1,0 +1,448 @@
+{
+ "id": "w7-embryo-embryonic-period-1",
+ "title": "Embryonic Period: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w7-embryology-embryonic-period",
+ "questions": [
+  {
+   "q": "An embryologist removes the notochord from an experimental embryo, and the overlying ectoderm fails to thicken into a neural plate. Which structure normally induces the neural plate?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Paraxial mesoderm",
+     "e": "Wrong. It segments into somitomeres and somites; it is not the inducer of the neural plate."
+    },
+    {
+     "t": "Notochord",
+     "e": "Correct. The notochord induces the overlying ectoderm to become taller and form the neural plate. / النوتوكورد هو اللي يحفّز الأديم الظاهر يكوّن الصفيحة العصبية."
+    },
+    {
+     "t": "Neural crest",
+     "e": "Wrong. The crest is a product of the neural folds, formed after the plate; it cannot induce it."
+    },
+    {
+     "t": "Intermediate mesoderm",
+     "e": "Wrong. It forms the paired urogenital organs."
+    }
+   ]
+  },
+  {
+   "q": "A newborn has lumbosacral spina bifida with myelomeningocele. His mother took valproate during early pregnancy. Which structure failed to close, and on which day does it normally close?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cranial neuropore, day 25",
+     "e": "Wrong pair. Failure of the cranial (anterior) neuropore, which closes on day 25, causes anencephaly."
+    },
+    {
+     "t": "Caudal neuropore, day 25",
+     "e": "Wrong day. The caudal neuropore closes on day 28, not 25."
+    },
+    {
+     "t": "Cranial neuropore, day 28",
+     "e": "Wrong pair. The cranial neuropore closes earlier, on day 25."
+    },
+    {
+     "t": "Caudal neuropore, day 28",
+     "e": "Correct. A lumbosacral defect means the posterior (caudal) neuropore, which closes on day 28. / الـ caudal neuropore بيقفل يوم 28."
+    }
+   ]
+  },
+  {
+   "q": "A woman takes a known teratogen in the 5th week of pregnancy. During which period is the embryo most susceptible to major structural malformations?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1st to 2nd week",
+     "e": "Wrong. Damage in the first 2 weeks is usually all-or-none: the embryo either dies or recovers fully."
+    },
+    {
+     "t": "3rd to 8th week",
+     "e": "Correct. The embryonic period (organogenesis) is the critical period for major malformations. / فترة تكوّن الأعضاء."
+    },
+    {
+     "t": "9th to 16th week",
+     "e": "Wrong. The fetal period mainly causes growth and functional problems, not major malformations."
+    },
+    {
+     "t": "Last trimester",
+     "e": "Wrong. Late exposure affects growth and function, not organ formation."
+    }
+   ]
+  },
+  {
+   "q": "A 2-year-old child has severe chronic constipation and a megacolon. Biopsy shows absence of ganglion cells in the distal colon. These ganglion cells normally arise from which embryonic cell population?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Neural crest cells",
+     "e": "Correct. Autonomic (including enteric) ganglia are neural crest derivatives; Hirschsprung disease is failed crest migration. / الخلايا العصبية في جدار الأمعاء من الـ neural crest."
+    },
+    {
+     "t": "Neuroepithelium of the neural tube",
+     "e": "Wrong. The neural tube forms the CNS (brain and spinal cord), not peripheral ganglia."
+    },
+    {
+     "t": "Splanchnic lateral plate mesoderm",
+     "e": "Wrong. It forms smooth muscle and serosa of the gut wall, not the ganglion cells."
+    },
+    {
+     "t": "Endoderm of the gut",
+     "e": "Wrong. Endoderm forms the epithelial lining of the gut."
+    }
+   ]
+  },
+  {
+   "q": "A 40-year-old man has episodic headache, sweating and paroxysmal hypertension. Imaging shows a pheochromocytoma. Which row correctly gives the part of the suprarenal gland and its embryonic origin?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Medulla, intermediate mesoderm",
+     "e": "Wrong. Intermediate mesoderm gives the suprarenal cortex (per lecture), not the medulla."
+    },
+    {
+     "t": "Cortex, neural crest",
+     "e": "Wrong. The cortex is mesodermal; only the medulla is a crest derivative."
+    },
+    {
+     "t": "Medulla, neural crest",
+     "e": "Correct. Chromaffin cells of the suprarenal medulla come from the neural crest. / النخاع من الـ neural crest."
+    },
+    {
+     "t": "Cortex, surface ectoderm",
+     "e": "Wrong. Surface ectoderm forms epidermis and related structures, not the adrenal."
+    }
+   ]
+  },
+  {
+   "q": "A newborn is cyanotic and echocardiography shows a single arterial trunk (persistent truncus arteriosus) due to failure of the conotruncal septum to form. Which cells contribute to this septum?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Paraxial mesoderm cells",
+     "e": "Wrong. They form somites (vertebrae, skeletal muscle, dermis)."
+    },
+    {
+     "t": "Endodermal cells",
+     "e": "Wrong. Endoderm forms epithelial linings and gland parenchyma."
+    },
+    {
+     "t": "Neural crest cells",
+     "e": "Correct. The conotruncal septum of the heart is a neural crest derivative. / الحاجز المخروطي الجذعي من الـ neural crest."
+    },
+    {
+     "t": "Intermediate mesoderm cells",
+     "e": "Wrong. They form the urogenital organs."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following meningeal layers is derived from neural crest spongioblasts?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Dura mater only",
+     "e": "Wrong. The dura is mesodermal, not a crest derivative."
+    },
+    {
+     "t": "Dura and arachnoid",
+     "e": "Wrong. Arachnoid is a crest derivative but the dura is not."
+    },
+    {
+     "t": "Pia and dura",
+     "e": "Wrong. Pia is a crest derivative but the dura is not."
+    },
+    {
+     "t": "Pia and arachnoid",
+     "e": "Correct. The leptomeninges (pia and arachnoid) come from the neural crest. / الأم الحنون والعنكبوتية من الـ neural crest."
+    }
+   ]
+  },
+  {
+   "q": "A 35-year-old woman has a midline neck mass that moves with swallowing. Which of the following glands has a parenchyma of endodermal origin?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lacrimal gland",
+     "e": "Wrong. It is ectodermal."
+    },
+    {
+     "t": "Thyroid gland",
+     "e": "Correct. Thyroid, parathyroid, liver, pancreas, thymus and tonsils have endodermal parenchyma. / الغدة الدرقية أصلها endoderm."
+    },
+    {
+     "t": "Pituitary gland",
+     "e": "Wrong. It is ectodermal (the anterior lobe arises from oral ectoderm)."
+    },
+    {
+     "t": "Mammary gland",
+     "e": "Wrong. It is ectodermal, like other skin appendages."
+    }
+   ]
+  },
+  {
+   "q": "A patient with chronic otitis media has infection of the tympanic cavity and Eustachian tube. The epithelium lining these structures arises from which germ layer?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Surface ectoderm",
+     "e": "Wrong. Surface ectoderm forms the external auditory meatus and outer layer of the tympanic membrane, not the cavity."
+    },
+    {
+     "t": "Neural crest",
+     "e": "Wrong. It forms ganglia, Schwann cells and some skull bones, not the lining epithelium."
+    },
+    {
+     "t": "Endoderm",
+     "e": "Correct. The tympanic cavity and Eustachian tube are endodermal. / تجويف الأذن الوسطى endoderm."
+    },
+    {
+     "t": "Paraxial mesoderm",
+     "e": "Wrong. It forms bone, muscle and dermis, not an epithelial lining."
+    }
+   ]
+  },
+  {
+   "q": "An embryo is examined on day 20 of development. Where does the first pair of somites appear?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cervical region",
+     "e": "Wrong. Cervical somites (8) form after the occipital ones."
+    },
+    {
+     "t": "Thoracic region",
+     "e": "Wrong. There are 12 thoracic somites, formed later."
+    },
+    {
+     "t": "Lumbar region",
+     "e": "Wrong. Lumbar somites appear much later in the craniocaudal sequence."
+    },
+    {
+     "t": "Occipital region",
+     "e": "Correct. Somites start in the occipital region at about day 20 and form craniocaudally (7 somitomeres lie in the head). / أول زوج في الـ occipital."
+    }
+   ]
+  },
+  {
+   "q": "An aborted embryo in the 4th week of development is examined. Which parameter best estimates its age?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Number of somites",
+     "e": "Correct. The 1st month is the somite period (3 somites appear daily from day 20 to 30). / في الشهر الأول العمر بعدد الـ somites."
+    },
+    {
+     "t": "Crown-rump length",
+     "e": "Wrong. CR length is used in the 2nd month."
+    },
+    {
+     "t": "Head circumference",
+     "e": "Wrong. It is not used to date an embryo."
+    },
+    {
+     "t": "Foot length",
+     "e": "Wrong. It is used for fetal dating later in pregnancy."
+    }
+   ]
+  },
+  {
+   "q": "An infant has multiple hemivertebrae. Defective differentiation of which part of the somite is the cause?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Dermatome",
+     "e": "Wrong. It forms the dermis of the skin."
+    },
+    {
+     "t": "Sclerotome",
+     "e": "Correct. The ventromedial part of the somite, the sclerotome, forms the vertebral column. / الـ sclerotome يكوّن العمود الفقري."
+    },
+    {
+     "t": "Myotome",
+     "e": "Wrong. It forms striated (skeletal) muscle."
+    },
+    {
+     "t": "Dermomyotome",
+     "e": "Wrong. It is the dorsolateral part that gives the dermatome and myotome, not vertebrae."
+    }
+   ]
+  },
+  {
+   "q": "A fetus has bilateral renal agenesis and absent gonads. Defective development of which part of the intraembryonic mesoderm is the most likely cause?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Paraxial mesoderm",
+     "e": "Wrong. It forms somites and their derivatives."
+    },
+    {
+     "t": "Somatic layer of lateral plate",
+     "e": "Wrong. It forms body wall muscles and parietal serous membranes."
+    },
+    {
+     "t": "Intermediate mesoderm",
+     "e": "Correct. It gives the paired urogenital organs: gonads, genital ducts, kidneys and ureters. / الـ intermediate يكوّن الكلى والغدد التناسلية."
+    },
+    {
+     "t": "Visceral layer of lateral plate",
+     "e": "Wrong. It forms cardiac and visceral smooth muscle."
+    }
+   ]
+  },
+  {
+   "q": "A child has a defect in the muscular wall of the gut and in the visceral serous membrane covering it. Which embryonic tissue is responsible?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Somatic (parietal) layer of lateral plate mesoderm",
+     "e": "Wrong. It forms abdominal and thoracic wall muscles and parietal serous layers."
+    },
+    {
+     "t": "Paraxial mesoderm",
+     "e": "Wrong. It forms somites (bone, skeletal muscle, dermis)."
+    },
+    {
+     "t": "Intermediate mesoderm",
+     "e": "Wrong. It forms urogenital organs."
+    },
+    {
+     "t": "Visceral (splanchnic) layer of lateral plate mesoderm",
+     "e": "Correct. It gives cardiac muscle, smooth muscle of gut and respiratory organs, and visceral serous layers. / الطبقة الحشوية للـ lateral plate."
+    }
+   ]
+  },
+  {
+   "q": "Rapid growth of which structures causes the lateral folds of the embryonic disc in the 4th week?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Somites",
+     "e": "Correct. Growth of the somites widens the disc and causes lateral folding. / نمو الـ somites يعمل الـ lateral folds."
+    },
+    {
+     "t": "Central nervous system",
+     "e": "Wrong. CNS growth lengthens the disc and causes the head and tail folds."
+    },
+    {
+     "t": "Notochord",
+     "e": "Wrong. It induces the neural plate; it is not the cause of folding."
+    },
+    {
+     "t": "Yolk sac",
+     "e": "Wrong. The yolk sac is divided by folding; it does not cause it."
+    }
+   ]
+  },
+  {
+   "q": "After folding of the embryonic disc, the amnio-ectodermal junction shifts to the ventral surface of the embryo. What ring does it form?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Buccopharyngeal membrane",
+     "e": "Wrong. It lies at the cranial end of the gut."
+    },
+    {
+     "t": "Primitive umbilical ring",
+     "e": "Correct. The shifted junction forms the primitive umbilical ring, and the connecting stalk becomes the umbilical cord. / الحلقة السُرّية البدائية."
+    },
+    {
+     "t": "Cloacal membrane",
+     "e": "Wrong. It lies at the caudal end of the gut."
+    },
+    {
+     "t": "Septum transversum",
+     "e": "Wrong. It is a mesodermal structure moved caudal to the heart by folding."
+    }
+   ]
+  },
+  {
+   "q": "Which structure extends as a diverticulum from the hindgut into the connecting stalk?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Vitelline duct",
+     "e": "Wrong. It connects the midgut to the definitive yolk sac."
+    },
+    {
+     "t": "Definitive yolk sac",
+     "e": "Wrong. It remains outside the embryo."
+    },
+    {
+     "t": "Allantois",
+     "e": "Correct. The allantois is the hindgut diverticulum that enters the connecting stalk. / الـ allantois امتداد من الـ hindgut."
+    },
+    {
+     "t": "Primitive gut",
+     "e": "Wrong. It is the part of the yolk sac incorporated into the embryo."
+    }
+   ]
+  },
+  {
+   "q": "A 12-year-old boy has painless rectal bleeding. A technetium scan shows ectopic gastric mucosa in an ileal outpouching about 60 cm from the ileocecal valve. Persistence of which embryonic structure causes this?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Allantois",
+     "e": "Wrong. It extends from the hindgut into the connecting stalk."
+    },
+    {
+     "t": "Connecting stalk",
+     "e": "Wrong. It becomes the umbilical cord."
+    },
+    {
+     "t": "Cloacal membrane",
+     "e": "Wrong. It lies at the caudal end of the gut."
+    },
+    {
+     "t": "Vitelline duct",
+     "e": "Correct. Persistence of the middle part of the vitelline duct gives Meckel's diverticulum. / الـ vitelline duct بيربط الـ midgut بالـ yolk sac."
+    }
+   ]
+  },
+  {
+   "q": "At the beginning of the 5th week an embryo shows limb buds. The upper limb buds appear opposite which segments?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "C4 to T1",
+     "e": "Correct. Upper limbs arise at C4 to T1; lower limbs at lumbar and upper sacral levels. / الطرف العلوي من C4 لـ T1."
+    },
+    {
+     "t": "T2 to T8",
+     "e": "Wrong. These levels give no limb bud."
+    },
+    {
+     "t": "T9 to L1",
+     "e": "Wrong. These levels give no limb bud."
+    },
+    {
+     "t": "L2 to S2",
+     "e": "Wrong. This is the level of the lower limbs (lumbar and upper sacral)."
+    }
+   ]
+  },
+  {
+   "q": "At the end of the embryonic period (end of the 8th week), the crown-rump (CR) length of the embryo is about:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "3 cm",
+     "e": "Correct. The CR length is used in the 2nd month and reaches about 3 cm at the end of the embryonic period. / نهاية الشهر الثاني تقريبًا 3 سم."
+    },
+    {
+     "t": "10 cm",
+     "e": "Wrong. This is much larger than the embryo at 8 weeks."
+    },
+    {
+     "t": "36 cm",
+     "e": "Wrong. This is the CR length at birth."
+    },
+    {
+     "t": "50 cm",
+     "e": "Wrong. This is the crown-heel length at birth."
+    }
+   ]
+  }
+ ]
+}
