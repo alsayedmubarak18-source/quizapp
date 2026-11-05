@@ -41,7 +41,7 @@ const startTick = fn => { const id = setInterval(fn, 250); subs.push(() => clear
 function go(view, extra) { clearSubs(); S.err = ''; Object.assign(S, { view }, extra || {}); render(); window.scrollTo(0, 0); }
 const views = {};
 function render() {
-  const gate = !S.profile && !store.teacher && S.view !== 'teacher';
+  const gate = !S.profile && (!store.teacher || S.forceLogin) && S.view !== 'teacher';
   (views[gate ? 'login' : S.view] || views.home)();
 }
 const typing = () => { const a = document.activeElement; return a && (a.tagName === 'INPUT' || a.tagName === 'TEXTAREA' || a.tagName === 'SELECT'); };
@@ -114,7 +114,7 @@ async function studentLogin() {
   S.name = name;
   if (name.length < 3) { S.err = 'اكتب اسمك (3 حروف على الأقل).'; render(); return; }
   if (code !== String(INSTRUCTOR.courseCode || '').toLowerCase()) { S.err = 'كود الكورس غير صحيح.'; render(); return; }
-  S.profile = PG.setProfile(name); S.name = S.profile.name; localStorage.setItem(NAME_KEY, S.name);
+  S.forceLogin = false; S.profile = PG.setProfile(name); S.name = S.profile.name; localStorage.setItem(NAME_KEY, S.name);
   S.att = PG.loadAttempts(S.profile.key); S.err = '';
   go('home');
   try { const remote = await store.fetchAttemptsByKey(S.profile.key); S.att = PG.mergeAttempts(S.profile.key, remote); if (S.view === 'home' || S.view === 'perf') render(); } catch (e) { console.warn('sync', e); }
@@ -390,6 +390,8 @@ views.home = () => {
       <button class="tile" data-act="go" data-v="perf">${ico('📊', '#dde7ff')}<div class="tx"><b>Performance &amp; Study Plan</b><span>مستواك، نقاط ضعفك، وخطة مذاكرة مخصصة</span></div></button>
       ${S.profile ? `<button class="tile" data-act="lbopen">${ico('🏆', '#fff0c9')}<div class="tx"><b>Leaderboard</b><span>ترتيب الأسبوع والشهر بـ Smart Score</span></div></button>
       <button class="tile" data-act="cardsopen">${ico('🃏', '#fde0ee')}<div class="tx"><b>Flashcards</b><span>${dueCount()} كارت مستحق من غلطاتك</span></div></button>` : ''}
+      ${!S.profile && store.teacher ? `<button class="tile" data-act="lbopen">${ico('🏆', '#fff0c9')}<div class="tx"><b>Leaderboard</b><span>ترتيب الأسبوع والشهر بـ Smart Score</span></div></button>
+      <button class="tile" data-act="asstudent">${ico('👁', '#fde0ee')}<div class="tx"><b>ادخل كطالب (معاينة)</b><span>جرّب الخطة والفلاش كاردز والامتحان زي الطالب</span></div></button>` : ''}
       <button class="tile" data-act="go" data-v="quizzes">${ico('📝', '#ffecc9')}<div class="tx"><b>كل الكويزات</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></div></button>
       <button class="tile alt" data-act="go" data-v="teacher">${ico('🧑‍🏫', '#ece0ff')}<div class="tx"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></div></button>
     </div>
@@ -843,6 +845,7 @@ $app.addEventListener('click', async e => {
     case 'xcancel': S.play.confirm = false; render(); break;
     case 'xend2': await finishExam(); break;
     case 'cardsopen': startCards(); break;
+    case 'asstudent': S.forceLogin = true; render(); break;
     case 'flip': S.cd.flip = !S.cd.flip; render(); break;
     case 'cardyes': case 'cardno': { const d = S.cd; PG.rateCard(S.profile.key, d.deck[d.i], act === 'cardyes'); if (act === 'cardyes') d.known++; d.i++; d.flip = false; render(); window.scrollTo(0, 0); break; }
     case 'lbopen': openLb('week'); break;
