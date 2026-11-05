@@ -33,6 +33,9 @@ async function makeFirebase(cfg) {
 
   const col = (...p) => F.collection(fs, ...p);
   const clean = o => JSON.parse(JSON.stringify(o)); // يشيل undefined
+  // Firestore بيرفض المصفوفات المتداخلة، فبنخزّن ans كـ [{q,i,ok}] ونرجّعها [quizId, qi, ok] عند القراءة
+  const encAns = a => ({ ...a, ans: (a.ans || []).map(x => ({ q: x[0], i: x[1], ok: x[2] ? 1 : 0 })) });
+  const decAns = d => { const a = d.data(); return { ...a, ans: (a.ans || []).map(x => (Array.isArray(x) ? x : [x.q, x.i, x.ok])) }; };
 
   return {
     mode: 'firebase',
@@ -58,17 +61,17 @@ async function makeFirebase(cfg) {
       return F.onSnapshot(F.query(col('scores'), F.where('quizId', '==', quizId), F.limit(1000)), s => cb(s.docs.map(d => d.data())));
     },
 
-    saveAttempt(a) { return F.addDoc(col('attempts'), clean({ ...a, uid: user.uid })); },
+    saveAttempt(a) { return F.addDoc(col('attempts'), clean({ ...encAns(a), uid: user.uid })); },
     async fetchAttemptsByKey(key) {
       const s = await F.getDocs(F.query(col('attempts'), F.where('key', '==', key), F.limit(500)));
-      return s.docs.map(d => d.data());
+      return s.docs.map(decAns);
     },
     async fetchRecentAttempts(since) {
       const s = await F.getDocs(F.query(col('attempts'), F.where('at', '>=', since), F.limit(3000)));
-      return s.docs.map(d => d.data());
+      return s.docs.map(decAns);
     },
     watchAttempts(cb, err) {
-      return F.onSnapshot(F.query(col('attempts'), F.limit(5000)), s => cb(s.docs.map(d => d.data())), err);
+      return F.onSnapshot(F.query(col('attempts'), F.limit(5000)), s => cb(s.docs.map(decAns)), err);
     },
 
     createGame(code, g) { return F.setDoc(F.doc(fs, 'games', code), clean({ ...g, hostUid: user.uid, createdAt: Date.now() })); },

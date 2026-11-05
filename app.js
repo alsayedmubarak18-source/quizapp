@@ -551,7 +551,7 @@ async function finishSolo() {
   if (S.profile) {
     const at = { key: S.profile.key, name: S.profile.name, at: Date.now(), quizId: p.quiz.id, custom: !!p.quiz.custom, score: p.score, total, timeMs, hide: PG.getHide() ? 1 : 0, ans: p.log.map(x => [x.ref[0], x.ref[1], x.ok ? 1 : 0]) };
     S.att = PG.addAttempt(S.profile.key, at);
-    store.saveAttempt(at).catch(e => console.warn('attempt sync', e));
+    try { store.saveAttempt(at).catch(e => console.warn('attempt sync', e)); } catch (e) { console.warn('attempt sync', e); }
   }
   go('result', { rows: [] });
   if (p.quiz.custom) return;
