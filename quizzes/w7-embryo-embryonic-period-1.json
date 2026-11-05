@@ -14,7 +14,7 @@
     },
     {
      "t": "Notochord",
-     "e": "Correct. The notochord induces the overlying ectoderm to become taller and form the neural plate. / النوتوكورد هو اللي يحفّز الأديم الظاهر يكوّن الصفيحة العصبية."
+     "e": "Correct. The notochord induces the overlying ectoderm to become taller and form the neural plate."
     },
     {
      "t": "Neural crest",
@@ -44,7 +44,7 @@
     },
     {
      "t": "Caudal neuropore, day 28",
-     "e": "Correct. A lumbosacral defect means the posterior (caudal) neuropore, which closes on day 28. / الـ caudal neuropore بيقفل يوم 28."
+     "e": "Correct. A lumbosacral defect means the posterior (caudal) neuropore, which closes on day 28."
     }
    ]
   },
@@ -58,7 +58,7 @@
     },
     {
      "t": "3rd to 8th week",
-     "e": "Correct. The embryonic period (organogenesis) is the critical period for major malformations. / فترة تكوّن الأعضاء."
+     "e": "Correct. The embryonic period (organogenesis) is the critical period for major malformations."
     },
     {
      "t": "9th to 16th week",
@@ -76,7 +76,7 @@
    "options": [
     {
      "t": "Neural crest cells",
-     "e": "Correct. Autonomic (including enteric) ganglia are neural crest derivatives; Hirschsprung disease is failed crest migration. / الخلايا العصبية في جدار الأمعاء من الـ neural crest."
+     "e": "Correct. Autonomic (including enteric) ganglia are neural crest derivatives; Hirschsprung disease is failed crest migration."
     },
     {
      "t": "Neuroepithelium of the neural tube",
@@ -106,7 +106,7 @@
     },
     {
      "t": "Medulla, neural crest",
-     "e": "Correct. Chromaffin cells of the suprarenal medulla come from the neural crest. / النخاع من الـ neural crest."
+     "e": "Correct. Chromaffin cells of the suprarenal medulla come from the neural crest."
     },
     {
      "t": "Cortex, surface ectoderm",
@@ -128,7 +128,7 @@
     },
     {
      "t": "Neural crest cells",
-     "e": "Correct. The conotruncal septum of the heart is a neural crest derivative. / الحاجز المخروطي الجذعي من الـ neural crest."
+     "e": "Correct. The conotruncal septum of the heart is a neural crest derivative."
     },
     {
      "t": "Intermediate mesoderm cells",
@@ -154,7 +154,7 @@
     },
     {
      "t": "Pia and arachnoid",
-     "e": "Correct. The leptomeninges (pia and arachnoid) come from the neural crest. / الأم الحنون والعنكبوتية من الـ neural crest."
+     "e": "Correct. The leptomeninges (pia and arachnoid) come from the neural crest."
     }
    ]
   },
@@ -168,7 +168,7 @@
     },
     {
      "t": "Thyroid gland",
-     "e": "Correct. Thyroid, parathyroid, liver, pancreas, thymus and tonsils have endodermal parenchyma. / الغدة الدرقية أصلها endoderm."
+     "e": "Correct. Thyroid, parathyroid, liver, pancreas, thymus and tonsils have endodermal parenchyma."
     },
     {
      "t": "Pituitary gland",
@@ -194,7 +194,7 @@
     },
     {
      "t": "Endoderm",
-     "e": "Correct. The tympanic cavity and Eustachian tube are endodermal. / تجويف الأذن الوسطى endoderm."
+     "e": "Correct. The tympanic cavity and Eustachian tube are endodermal."
     },
     {
      "t": "Paraxial mesoderm",
@@ -220,7 +220,7 @@
     },
     {
      "t": "Occipital region",
-     "e": "Correct. Somites start in the occipital region at about day 20 and form craniocaudally (7 somitomeres lie in the head). / أول زوج في الـ occipital."
+     "e": "Correct. Somites start in the occipital region at about day 20 and form craniocaudally (7 somitomeres lie in the head)."
     }
    ]
   },
@@ -230,7 +230,7 @@
    "options": [
     {
      "t": "Number of somites",
-     "e": "Correct. The 1st month is the somite period (3 somites appear daily from day 20 to 30). / في الشهر الأول العمر بعدد الـ somites."
+     "e": "Correct. The 1st month is the somite period (3 somites appear daily from day 20 to 30)."
     },
     {
      "t": "Crown-rump length",
@@ -256,7 +256,7 @@
     },
     {
      "t": "Sclerotome",
-     "e": "Correct. The ventromedial part of the somite, the sclerotome, forms the vertebral column. / الـ sclerotome يكوّن العمود الفقري."
+     "e": "Correct. The ventromedial part of the somite, the sclerotome, forms the vertebral column."
     },
     {
      "t": "Myotome",
@@ -282,7 +282,7 @@
     },
     {
      "t": "Intermediate mesoderm",
-     "e": "Correct. It gives the paired urogenital organs: gonads, genital ducts, kidneys and ureters. / الـ intermediate يكوّن الكلى والغدد التناسلية."
+     "e": "Correct. It gives the paired urogenital organs: gonads, genital ducts, kidneys and ureters."
     },
     {
      "t": "Visceral layer of lateral plate",
@@ -308,7 +308,7 @@
     },
     {
      "t": "Visceral (splanchnic) layer of lateral plate mesoderm",
-     "e": "Correct. It gives cardiac muscle, smooth muscle of gut and respiratory organs, and visceral serous layers. / الطبقة الحشوية للـ lateral plate."
+     "e": "Correct. It gives cardiac muscle, smooth muscle of gut and respiratory organs, and visceral serous layers."
     }
    ]
   },
@@ -318,7 +318,7 @@
    "options": [
     {
      "t": "Somites",
-     "e": "Correct. Growth of the somites widens the disc and causes lateral folding. / نمو الـ somites يعمل الـ lateral folds."
+     "e": "Correct. Growth of the somites widens the disc and causes lateral folding."
     },
     {
      "t": "Central nervous system",
@@ -344,7 +344,7 @@
     },
     {
      "t": "Primitive umbilical ring",
-     "e": "Correct. The shifted junction forms the primitive umbilical ring, and the connecting stalk becomes the umbilical cord. / الحلقة السُرّية البدائية."
+     "e": "Correct. The shifted junction forms the primitive umbilical ring, and the connecting stalk becomes the umbilical cord."
     },
     {
      "t": "Cloacal membrane",
@@ -370,7 +370,7 @@
     },
     {
      "t": "Allantois",
-     "e": "Correct. The allantois is the hindgut diverticulum that enters the connecting stalk. / الـ allantois امتداد من الـ hindgut."
+     "e": "Correct. The allantois is the hindgut diverticulum that enters the connecting stalk."
     },
     {
      "t": "Primitive gut",
@@ -396,7 +396,7 @@
     },
     {
      "t": "Vitelline duct",
-     "e": "Correct. Persistence of the middle part of the vitelline duct gives Meckel's diverticulum. / الـ vitelline duct بيربط الـ midgut بالـ yolk sac."
+     "e": "Correct. Persistence of the middle part of the vitelline duct gives Meckel's diverticulum."
     }
    ]
   },
@@ -406,7 +406,7 @@
    "options": [
     {
      "t": "C4 to T1",
-     "e": "Correct. Upper limbs arise at C4 to T1; lower limbs at lumbar and upper sacral levels. / الطرف العلوي من C4 لـ T1."
+     "e": "Correct. Upper limbs arise at C4 to T1; lower limbs at lumbar and upper sacral levels."
     },
     {
      "t": "T2 to T8",
@@ -428,7 +428,7 @@
    "options": [
     {
      "t": "3 cm",
-     "e": "Correct. The CR length is used in the 2nd month and reaches about 3 cm at the end of the embryonic period. / نهاية الشهر الثاني تقريبًا 3 سم."
+     "e": "Correct. The CR length is used in the 2nd month and reaches about 3 cm at the end of the embryonic period."
     },
     {
      "t": "10 cm",
