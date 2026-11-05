@@ -108,7 +108,8 @@ const weekQuizCount = w => w.items.reduce((t, i) => t + quizzesOf(i.k).length, 0
 const quizCard = (z, ret) => `
   <article class="card qitem"><h3 dir="auto">${esc(z.title)}</h3><p class="meta">${z.questions.length} سؤال</p>
     <div class="row"><button class="btn primary small" data-act="start" data-id="${z.id}" data-ret="${ret}">ابدأ</button>
-    <button class="btn small" data-act="board" data-id="${z.id}" data-ret="${ret}">الترتيب</button></div></article>`;
+    <button class="btn small" data-act="board" data-id="${z.id}" data-ret="${ret}">الترتيب</button>
+    <button class="btn small" data-act="pdf" data-id="${z.id}" dir="ltr">📄 PDF</button></div></article>`;
 
 views.blocks = () => {
   $app.innerHTML = `${backBar('Semester 1')}<div class="tiles">${CURRICULUM.map(b => {
@@ -157,7 +158,8 @@ views.quizzes = () => {
   const list = S.quizzes.length ? S.quizzes.map(z => `
     <article class="card qitem"><h3 dir="auto">${esc(z.title)}</h3><p class="meta">${z.questions.length} سؤال</p>
       <div class="row"><button class="btn primary small" data-act="start" data-id="${z.id}">ابدأ</button>
-      <button class="btn small" data-act="board" data-id="${z.id}">الترتيب</button></div></article>`).join('')
+      <button class="btn small" data-act="board" data-id="${z.id}">الترتيب</button>
+      <button class="btn small" data-act="pdf" data-id="${z.id}" dir="ltr">📄 PDF</button></div></article>`).join('')
     : `<div class="card empty">لا توجد كويزات بعد.</div>`;
   $app.innerHTML = `${backBar('الكويزات')}
     <label class="hint" for="name">اسمك (يظهر في الترتيب)</label>
@@ -384,6 +386,50 @@ function normalizeQuiz(o) {
   };
 }
 
+/* ---------- printable study sheet (Save as PDF) ---------- */
+function quizPdf(z) {
+  if (!z) return;
+  const L = 'ABCDEFGH';
+  const body = z.questions.map((q, i) => {
+    const opts = q.options.filter(o => o.t.trim()).map((o, k) => {
+      const ok = q.options[q.correct] === o;
+      return `<div class="o ${ok ? 'ok' : 'no'}"><div class="ot"><span class="lt">${L[k]}</span><span class="tx">${esc(o.t)}</span><span class="tag">${ok ? '&#10003; Correct' : '&#10007; Wrong'}</span></div>${o.e ? `<div class="ex">${esc(o.e)}</div>` : ''}</div>`;
+    }).join('');
+    return `<section class="q"><h2><span class="n">${i + 1}</span>${esc(q.q)}</h2>${opts}</section>`;
+  }).join('');
+  const html = `<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><title>${esc(z.title)}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><style>
+@page{size:A4;margin:14mm}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#23332c;margin:0;padding:18px;background:#fff;max-width:820px;margin-inline:auto}
+header{border-bottom:3px solid #4fb58a;padding-bottom:10px;margin-bottom:16px}
+header h1{margin:0;font-size:22px;color:#1f6b4d}header p{margin:4px 0 0;color:#5d7268}
+.bar{background:#eaf7f0;border:1px solid #c9e9d9;border-radius:10px;padding:8px 12px;margin-bottom:16px;font-size:13px;color:#2b5b45}
+.q{break-inside:avoid;page-break-inside:avoid;margin:0 0 18px;padding:12px 14px;border:1px solid #e1ebe6;border-radius:14px;background:#fcfefd}
+h2{font-size:15px;margin:0 0 10px;display:flex;gap:10px;align-items:flex-start}
+.n{flex:none;background:#4fb58a;color:#fff;border-radius:50%;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;font-size:13px}
+.o{margin:6px 0;padding:8px 10px;border-radius:10px;border:1px solid #e6ece9;background:#f7f9f8}
+.o.ok{background:#dff5e8;border:1.5px solid #3aa876}
+.o.no{background:#fdf1f0;border-color:#f2d3d0}
+.ot{display:flex;gap:8px;align-items:baseline}
+.lt{font-weight:700;color:#5d7268;flex:none}.ok .lt{color:#1f7a52}
+.tx{flex:1;font-weight:600}.ok .tx{color:#14603f}
+.tag{flex:none;font-size:12px;font-weight:700}.ok .tag{color:#1f7a52}.no .tag{color:#c0524a}
+.ex{margin:4px 0 0 22px;font-size:13px;color:#42554c}
+.pbtn{position:fixed;top:10px;right:10px;background:#4fb58a;color:#fff;border:0;border-radius:12px;padding:10px 16px;font-size:14px;font-weight:700;cursor:pointer}
+@media print{.pbtn,.bar{display:none}body{padding:0}}
+</style></head><body>
+<button class="pbtn" onclick="window.print()">Save as PDF</button>
+<header><h1>${esc(z.title)}</h1><p>${z.questions.length} questions · correct answers in green · every choice explained</p></header>
+<div class="bar">Tip: tap <b>Save as PDF</b> and choose "Save as PDF" as the printer.</div>
+${body}
+<script>setTimeout(function(){try{window.print()}catch(e){}},500)<\/script>
+</body></html>`;
+  const w = window.open('', '_blank');
+  if (!w) { S.err = 'اسمح بالنوافذ المنبثقة عشان يتفتح ملف الـ PDF.'; render(); return; }
+  w.document.open(); w.document.write(html); w.document.close();
+}
+
 /* ---------- live: host ---------- */
 let H = null;
 views.host = () => {
@@ -452,6 +498,7 @@ $app.addEventListener('click', async e => {
       if (!S.name.trim()) { S.err = 'اكتب اسمك الأول.'; render(); break; }
       localStorage.setItem(NAME_KEY, S.name.trim()); startSolo(quiz()); break; }
     case 'board': S.ret = b.dataset.ret || 'quizzes'; openBoard(quiz(), S.ret); break;
+    case 'pdf': quizPdf(quiz()); break;
     case 'tboard': openBoard(quiz(), 'teacher'); break;
     case 'pick': {
       const p = S.play, q = p.qs[p.i];
