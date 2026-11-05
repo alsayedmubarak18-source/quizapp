@@ -144,24 +144,61 @@ const planHtml = (pl, full) => {
 };
 
 function buildPractice(kind, subject, topic) {
-  const st = stats(), bad = new Set(st.mistakes.map(m => m.quizId + '#' + m.qi)), seen = st.qMap;
+  const st = stats(), bad = new Set(st.mistakes.map(m => m.quizId + '#' + m.qi)), seen = st.qMap, marked = PG.loadMarks(S.profile.key);
   const pool = [];
   S.quizzes.forEach(z => z.questions.forEach((q, qi) => {
     const m = metaOf(z.id, qi), id = z.id + '#' + qi;
-    if (kind === 'review' ? bad.has(id) : (m.subject === subject && m.topic === topic)) {
+    if (kind === 'review' ? bad.has(id) : kind === 'marked' ? marked.has(id) : (m.subject === subject && m.topic === topic)) {
       const o = seen.get(id);
       pool.push({ ...q, ref: [z.id, qi], pr: bad.has(id) ? 0 : (o ? 2 : 1), lang: z.lang });
     }
   }));
   pool.sort((a, b) => a.pr - b.pr || Math.random() - 0.5);
-  const qs = pool.slice(0, kind === 'review' ? 20 : 12);
+  const qs = pool.slice(0, kind === 'review' || kind === 'marked' ? 20 : 12);
   if (!qs.length) return null;
   const en = qs.filter(q => q.lang === 'en').length * 2 >= qs.length;
-  return { id: 'custom-' + kind + '-' + rid(5), custom: true, title: kind === 'review' ? 'Review your mistakes' : 'Practice: ' + topic, lang: en ? 'en' : 'ar', questions: qs.map(({ pr, lang, ...q }) => q) };
+  return { id: 'custom-' + kind + '-' + rid(5), custom: true, title: kind === 'review' ? 'Review your mistakes' : kind === 'marked' ? 'Marked questions' : 'Practice: ' + topic, lang: en ? 'en' : 'ar', questions: qs.map(({ pr, lang, ...q }) => q) };
 }
 
+
+const chartSvg = pts => {
+  if (pts.length < 2) return '<p class="hint">حلّ كويزين على الأقل عشان يظهر منحنى تقدمك.</p>';
+  const W = 320, H = 120, P = 18, last = pts.slice(-30), x = i => P + i * (W - 2 * P) / (last.length - 1), y = v => H - P - v * (H - 2 * P);
+  const line = last.map((q, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(q.p).toFixed(1)).join(' ');
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Performance over time">
+    ${[0, .5, .8, 1].map(v => `<line x1="${P}" x2="${W - P}" y1="${y(v)}" y2="${y(v)}" class="${v === .8 ? 'tg' : 'gl'}"/><text x="2" y="${y(v) + 3}" class="ax">${v * 100}</text>`).join('')}
+    <path d="${line}" class="ln"/>${last.map((q, i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(q.p).toFixed(1)}" r="3" class="${q.p >= .8 ? 'g' : q.p >= .6 ? 'y' : 'r'}"/>`).join('')}</svg>`;
+};
+const weakCards = st => {
+  const bySubj = new Map();
+  st.weak.forEach(t => { const o = bySubj.get(t.subject) || { subject: t.subject, topics: [], wrong: 0 }; o.topics.push(t); o.wrong += t.n - t.c; bySubj.set(t.subject, o); });
+  const cards = [...bySubj.values()].map(o => ({ ...o, acc: st.subj.get(o.subject) ? st.subj.get(o.subject).c / st.subj.get(o.subject).n : 0 })).sort((a, b) => a.acc - b.acc).slice(0, 4);
+  if (!cards.length) return '';
+  return `<h3 class="lbt">Weak areas · نقاط الضعف</h3><div class="weak">${cards.map(c => `<div class="card wk"><div class="row" style="justify-content:space-between"><b dir="ltr">${esc(c.subject)}</b><span class="pill ${PG.pctColor(c.acc)}" dir="ltr">${pc(c.acc)}%</span></div>
+    <small>${c.wrong} غلطة في ${c.topics.length} مواضيع</small>
+    ${c.topics.slice(0, 3).map(t => `<button class="btn small" dir="ltr" data-act="practice" data-subject="${esc(t.subject)}" data-topic="${esc(t.topic)}">${esc(t.topic)}</button>`).join('')}</div>`).join('')}</div>`;
+};
+const readyHtml = st => {
+  const r = PG.readiness(S.att, st.unique, S.quizzes.reduce((n, z) => n + z.questions.length, 0));
+  if (!r || st.A < PG.MIN_TOTAL) return '';
+  const lvl = r.score >= .8 ? ['جاهز تقريبًا', 'g'] : r.score >= .6 ? ['في الطريق', 'y'] : ['محتاج مجهود أكتر', 'r'];
+  return `<div class="card ready"><div class="row" style="justify-content:space-between"><b>Readiness · الجاهزية</b><span class="pill ${lvl[1]}" dir="ltr">${pc(r.score)}%</span></div>
+    <p class="sub" style="margin:4px 0 0">${lvl[0]} — آخر 5 محاولات <b dir="ltr">${pc(r.recent)}%</b> وغطّيت <b dir="ltr">${pc(r.cover)}%</b> من الأسئلة. <small>(تقدير حسابي مش درجة الامتحان)</small></p></div>`;
+};
+const examHtml = st => {
+  const ex = PG.getExam(S.profile.key), total = S.quizzes.reduce((n, z) => n + z.questions.length, 0);
+  const left = ex ? Math.ceil((new Date(ex.date + 'T23:59:59') - Date.now()) / 864e5) : 0;
+  let info = '';
+  if (ex && left > 0) {
+    const rest = Math.max(0, total - st.unique), perDay = Math.ceil(rest / Math.max(1, left)), review = Math.min(st.mistakes.length, Math.ceil(st.mistakes.length / Math.max(1, left)));
+    info = `<p class="proj">فاضل <b>${left}</b> يوم على الامتحان. هدفك اليومي: <b>${perDay}</b> سؤال جديد${review ? ` + <b>${review}</b> سؤال من غلطاتك` : ''}.</p>`;
+  } else if (ex) info = '<p class="hint">ميعاد الامتحان عدّى، حدّد ميعاد جديد.</p>';
+  return `<h3 class="lbt">Study planner · خطة لحد الامتحان</h3><div class="card"><label class="hint" for="exd">ميعاد امتحانك</label>
+    <div class="row"><input class="inp" id="exd" type="date" dir="ltr" value="${ex ? esc(ex.date) : ''}" style="flex:1"><button class="btn small" data-act="setexam">حفظ</button>${ex ? '<button class="btn small" data-act="clearexam">مسح</button>' : ''}</div>${info}</div>`;
+};
+
 views.perf = () => {
-  const pl = todayPlan(), st = pl.st, sk = PG.streak(S.att);
+  const pl = todayPlan(), st = pl.st, sk = PG.streak(S.att), tr = PG.trend(S.att), marks = PG.loadMarks(S.profile.key);
   const total = S.quizzes.reduce((n, z) => n + z.questions.length, 0);
   const bySubj = [...st.subj.values()].sort((a, b) => a.c / a.n - b.c / b.n);
   const lecBy = {}; [...st.lec.values()].forEach(l => (lecBy[l.subject] = lecBy[l.subject] || []).push(l));
@@ -174,7 +211,12 @@ views.perf = () => {
       <div class="stat"><b dir="ltr">${st.unique}/${total}</b><span>أسئلة مختلفة</span></div>
       <div class="stat"><b>🔥 ${sk}</b><span>أيام متتالية</span></div>
     </div>
+    ${readyHtml(st)}
     <h3 class="lbt">Study plan · مطلوب منك النهاردة</h3>${planHtml(pl, true)}
+    ${examHtml(st)}
+    ${weakCards(st)}
+    ${S.att.length ? `<h3 class="lbt">Performance over time</h3><div class="card">${chartSvg(tr.pts)}<p class="sub" style="margin:6px 0 0">${tr.delta === null ? 'محتاج 4 محاولات عشان نقارن بداياتك بمستواك الحالي.' : `مقارنة النصف الأول بالتاني من محاولاتك: متوسطك ${tr.delta >= 0 ? 'اتحسّن' : 'قلّ'} بـ <b dir="ltr">${tr.delta >= 0 ? '+' : ''}${tr.delta.toFixed(1)}</b> نقطة.`}${tr.secPerQ ? ` متوسط وقتك <b dir="ltr">${Math.round(tr.secPerQ)}s</b> للسؤال.` : ''}</p></div>` : ''}
+    ${marks.size ? `<div class="row"><button class="btn" data-act="practicemarked">⚑ تدرّب على المعلّمة (${marks.size})</button></div>` : ''}
     ${st.A ? `<h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">Block ${b}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>
     <h3 class="lbt">By subject · مرتبة من الأضعف</h3>
     <div class="list">${bySubj.map(s => `<details class="card pdet"><summary><b dir="ltr">${esc(s.subject)}</b>${barHtml(s.n, s.c)}</summary>
@@ -356,7 +398,7 @@ views.play = () => {
   const gotIt = done && p.answered === q.correct;
   $app.innerHTML = `<div dir="${L.dir}">
     <div class="prog"><button class="link" data-act="quit">${L.exit}</button>
-      <div class="bar"><i style="width:${((p.i + (done ? 1 : 0)) / total) * 100}%"></i></div><span dir="ltr">${p.i + 1} / ${total}</span></div>
+      <div class="bar"><i style="width:${((p.i + (done ? 1 : 0)) / total) * 100}%"></i></div><span dir="ltr">${p.i + 1} / ${total}</span>${S.profile ? `<button class="mark ${PG.loadMarks(S.profile.key).has(q.ref[0] + '#' + q.ref[1]) ? 'on' : ''}" data-act="mark" aria-label="Mark">⚑</button>` : ''}</div>
     <div class="question">${esc(q.q)}</div>
     <div class="opts" aria-live="polite">${optsHtml(q, L, { reveal: p.revealed, mine: p.answered, act: 'pick', dim: done })}</div>
     ${done ? `<div class="verdict ${gotIt ? 'ok' : 'bad'}">${gotIt ? L.ok : L.bad}</div><p class="tip">${L.tip}</p>
@@ -698,8 +740,11 @@ $app.addEventListener('click', async e => {
     case 'slogin': await studentLogin(); break;
     case 'slogout': PG.clearProfile(); S.profile = null; S.att = []; S.name = ''; go('home'); break;
     case 'startq': { const z = S.quizzes.find(x => x.id === id); if (z) { S.ret = 'perf'; startSolo(z); } break; }
-    case 'practice': case 'review': {
-      const z = buildPractice(act, b.dataset.subject, b.dataset.topic);
+    case 'mark': { if (S.profile) { const q = S.play.qs[S.play.i]; PG.toggleMark(S.profile.key, q.ref[0] + '#' + q.ref[1]); render(); } break; }
+    case 'setexam': { const d = document.getElementById('exd').value; if (d) PG.setExam(S.profile.key, { date: d }); render(); break; }
+    case 'clearexam': PG.setExam(S.profile.key, null); render(); break;
+    case 'practicemarked': case 'practice': case 'review': {
+      const z = buildPractice(act === 'practicemarked' ? 'marked' : act, b.dataset.subject, b.dataset.topic);
       if (!z) { S.err = 'لا توجد أسئلة كافية لهذا الموضوع بعد.'; render(); break; }
       S.ret = 'perf'; startSolo(z); break; }
     case 'tdash':

@@ -56,3 +56,34 @@ export function streak(attempts) {
 }
 
 export const pctColor = p => (p >= 0.8 ? 'g' : p >= 0.6 ? 'y' : 'r');
+
+/* ---- marked questions + exam planner + trend ---- */
+const MKEY = k => 'qz-marks:' + k, EKEY = k => 'qz-exam:' + k;
+export function loadMarks(key) { try { return new Set(JSON.parse(localStorage.getItem(MKEY(key))) || []); } catch (e) { return new Set(); } }
+export function toggleMark(key, id) {
+  const s = loadMarks(key); s.has(id) ? s.delete(id) : s.add(id);
+  try { localStorage.setItem(MKEY(key), JSON.stringify([...s])); } catch (e) {}
+  return s;
+}
+export function getExam(key) { try { return JSON.parse(localStorage.getItem(EKEY(key))) || null; } catch (e) { return null; } }
+export function setExam(key, e) { try { e ? localStorage.setItem(EKEY(key), JSON.stringify(e)) : localStorage.removeItem(EKEY(key)); } catch (x) {} }
+
+// نقاط الأداء بمرور الوقت (نسبة كل محاولة) + الفرق بين النصف الأول والتاني
+export function trend(attempts) {
+  const pts = attempts.filter(a => a.total).map(a => ({ at: a.at, p: a.score / a.total, ms: a.timeMs || 0, n: a.total }));
+  let delta = null;
+  if (pts.length >= 4) {
+    const h = Math.floor(pts.length / 2), avg = l => l.reduce((s, x) => s + x.p, 0) / l.length;
+    delta = (avg(pts.slice(h)) - avg(pts.slice(0, h))) * 100;
+  }
+  const secs = pts.filter(x => x.ms).reduce((s, x) => s + x.ms, 0), qn = pts.filter(x => x.ms).reduce((s, x) => s + x.n, 0);
+  return { pts, delta, secPerQ: qn ? secs / qn / 1000 : 0 };
+}
+// الجاهزية: آخر 5 محاولات (70%) + نسبة الأسئلة اللي غطيتها (30%). تقدير مش توقع حقيقي.
+export function readiness(attempts, unique, total) {
+  const last = attempts.slice(-5).filter(a => a.total);
+  if (!last.length || !total) return null;
+  const recent = last.reduce((s, a) => s + a.score, 0) / last.reduce((s, a) => s + a.total, 0);
+  const cover = Math.min(1, unique / total);
+  return { score: 0.7 * recent + 0.3 * cover, recent, cover };
+}

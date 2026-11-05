@@ -184,3 +184,7 @@ textarea.inp{resize:vertical}
 .pdet h4{margin:10px 12px 2px;color:var(--muted);font-size:14px}
 .pdet > .prow:last-child{margin-bottom:10px}
 .pbar{direction:ltr}
+.chart{width:100%;height:auto;direction:ltr}.chart .gl{stroke:#e3e8e6;stroke-width:1}.chart .tg{stroke:#2a9d78;stroke-dasharray:4 3;stroke-width:1}.chart .ax{font-size:8px;fill:#8a9690}.chart .ln{fill:none;stroke:#3b6fd4;stroke-width:2}.chart circle.g{fill:#2a9d78}.chart circle.y{fill:#e0a526}.chart circle.r{fill:#d64545}
+.weak{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}.wk{display:flex;flex-direction:column;gap:6px}.wk .btn{text-align:start}
+.pill{padding:2px 10px;border-radius:99px;font-weight:700;font-size:13px}.pill.g{background:#d8f3e8;color:#1c7a57}.pill.y{background:#fff0c9;color:#8a6200}.pill.r{background:#fde0e0;color:#a52a2a}
+.mark{background:none;border:1px solid #cfd8d4;border-radius:8px;font-size:18px;color:#9aa5a0;padding:2px 9px;cursor:pointer}.mark.on{background:#fff0c9;color:#c98a00;border-color:#e0a526}
