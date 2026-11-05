@@ -1,5 +1,5 @@
 // Service worker: يخزّن ملفات التطبيق عشان يفتح بسرعة وبدون نت، والشبكة أولًا عشان التحديثات توصل.
-const CACHE = 'quizapp-v7';
+const CACHE = 'quizapp-v8';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'store.js', 'seed.js', 'curriculum.js', 'config.js', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'games/minerals.html'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
@@ -8,7 +8,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const u = new URL(e.request.url);
   if (e.request.method !== 'GET' || u.origin !== location.origin) return;
-  e.respondWith(fetch(e.request).then(r => {
+  e.respondWith(fetch(e.request, { cache: 'no-cache' }).then(r => {
     const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return r;
   }).catch(() => caches.match(e.request).then(r => r || caches.match('./'))));
 });
