@@ -9,6 +9,7 @@ export const INSTRUCTOR = {
   links: {
     telegram: 'https://t.me/+AFWWUYBND8RjNGE0',
     youtube: 'https://www.youtube.com/@medicalpearls1757',
-    whatsapp: 'https://wa.me/201027844707'
+    whatsapp: 'https://wa.me/201027844707',
+    x: 'https://x.com/DrMubarak184647'
   }
 };

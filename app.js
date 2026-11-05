@@ -92,6 +92,7 @@ views.about = () => {
         <a class="btn primary wide" href="${esc(L.telegram)}" target="_blank" rel="noopener">✈️ انضم لقناة الكورس على تليجرام</a>
         <a class="btn wide" href="${esc(L.youtube)}" target="_blank" rel="noopener">▶️ قناة اليوتيوب</a>
         <a class="btn wide" href="${esc(L.whatsapp)}" target="_blank" rel="noopener">💬 تواصل واتساب</a>
+        <a class="btn wide" href="${esc(L.x)}" target="_blank" rel="noopener" dir="ltr">𝕏 @DrMubarak184647</a>
       </div>
     </section>`;
 };
@@ -444,7 +445,7 @@ h2{font-size:15px;margin:0 0 10px;display:flex;gap:10px;align-items:flex-start}
 <header><h1>${esc(z.title)}</h1><p>${z.questions.length} questions · correct answers in green · every choice explained</p><p class="by">By ${esc(INSTRUCTOR.name)} · ${esc(INSTRUCTOR.title)}</p></header>
 <div class="bar">Tip: tap <b>Save as PDF</b> and choose "Save as PDF" as the printer.</div>
 ${body}
-<footer><b>${esc(INSTRUCTOR.name)}</b> · ${esc(INSTRUCTOR.title)}<br>${esc(INSTRUCTOR.course)}<br>Telegram: ${esc(INSTRUCTOR.links.telegram)}<br>YouTube: ${esc(INSTRUCTOR.links.youtube)}<br>WhatsApp: ${esc(INSTRUCTOR.links.whatsapp)}</footer>
+<footer><b>${esc(INSTRUCTOR.name)}</b> · ${esc(INSTRUCTOR.title)}<br>${esc(INSTRUCTOR.course)}<br>Telegram: ${esc(INSTRUCTOR.links.telegram)}<br>YouTube: ${esc(INSTRUCTOR.links.youtube)}<br>WhatsApp: ${esc(INSTRUCTOR.links.whatsapp)}<br>X: ${esc(INSTRUCTOR.links.x)}</footer>
 <script>setTimeout(function(){try{window.print()}catch(e){}},500)<\/script>
 </body></html>`;
   const w = window.open('', '_blank');
