@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>رحلة المعادن - Minerals Homeostasis</title>
+<style>
+:root{--bg:#f4e3cf;--paper:#fffdf7;--ink:#2d2a26;--muted:#7a7268;--yellow:#ffe98a;--green:#2eb872;--greenbg:#dff6e9;--red:#e5484d;--redbg:#fde3e4;--blue:#3b82f6;--line:#e8dccb}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%}
+body{background:var(--bg);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;color:var(--ink);display:flex;justify-content:center}
+#app{width:100%;max-width:480px;min-height:100%;display:flex;flex-direction:column;padding:12px 14px 20px}
+.top{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.back{border:0;background:var(--paper);width:38px;height:38px;border-radius:12px;font-size:18px;box-shadow:0 1px 0 var(--line);cursor:pointer}
+.bar{flex:1;height:10px;background:#ead6bd;border-radius:9px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--green);border-radius:9px;transition:width .4s}
+.title{background:var(--yellow);border:2px solid #e6cf6a;border-radius:10px;padding:10px 12px;text-align:center;font-weight:700;line-height:1.5;margin-bottom:12px}
+.card{background:var(--paper);border-radius:18px;padding:16px;box-shadow:0 2px 0 var(--line);margin-bottom:12px}
+h1{font-size:22px;margin:4px 0 2px}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px;line-height:1.6}
+.tile{display:flex;gap:12px;align-items:center;width:100%;border:0;background:var(--paper);border-radius:18px;padding:14px;margin-bottom:10px;box-shadow:0 2px 0 var(--line);cursor:pointer;text-align:start;font:inherit;color:inherit}
+.tile:active{transform:translateY(1px)}
+.tile .ic{font-size:30px;width:46px;height:46px;border-radius:14px;background:#fff3c4;display:flex;align-items:center;justify-content:center;flex:none}
+.tile b{display:block;font-size:16px}
+.tile span.d{font-size:13px;color:var(--muted);line-height:1.5}
+.stars{margin-inline-start:auto;font-size:15px;letter-spacing:2px;white-space:nowrap}
+.opt{display:block;width:100%;border:2px solid var(--line);background:var(--paper);border-radius:14px;padding:13px 14px;margin-bottom:9px;font:inherit;font-size:15px;text-align:start;line-height:1.5;cursor:pointer;color:inherit}
+.opt:active{transform:scale(.99)}
+.opt.ok{background:var(--greenbg);border-color:var(--green)}
+.opt.no{background:var(--redbg);border-color:var(--red);animation:shake .35s}
+.opt.dim{opacity:.55}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.fb{border-radius:14px;padding:12px 14px;margin:6px 0 10px;line-height:1.7;font-size:14.5px;animation:pop .25s}
+.fb.ok{background:var(--greenbg);border:2px solid var(--green)}
+.fb.no{background:var(--redbg);border:2px solid var(--red)}
+.fb b{display:block;margin-bottom:2px}
+@keyframes pop{from{transform:translateY(8px);opacity:0}}
+.btn{display:block;width:100%;border:0;border-radius:14px;padding:14px;font:inherit;font-weight:700;font-size:16px;background:var(--blue);color:#fff;cursor:pointer;box-shadow:0 3px 0 #2563c4}
+.btn.alt{background:var(--paper);color:var(--ink);box-shadow:0 2px 0 var(--line)}
+.btn+.btn{margin-top:9px}
+.gauge{position:relative;height:44px;border-radius:12px;overflow:hidden;display:flex;margin:6px 0 4px;direction:ltr}
+.gauge .z{height:100%}
+.gauge .needle{position:absolute;top:-2px;bottom:-2px;width:5px;background:var(--ink);border-radius:3px;transition:left .8s cubic-bezier(.3,1.4,.5,1)}
+.glab{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);direction:ltr;margin-bottom:8px}
+.gval{text-align:center;font-weight:800;font-size:20px;direction:ltr;margin-bottom:2px}
+.swipe{position:relative;height:210px;touch-action:pan-y;margin-bottom:10px}
+.sc{position:absolute;inset:0;background:var(--paper);border:2px solid var(--line);border-radius:20px;padding:22px 18px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:18px;line-height:1.6;font-weight:600;box-shadow:0 3px 0 var(--line);user-select:none;transition:transform .25s,background .2s}
+.sc.dragging{transition:none}
+.sc.ok{background:var(--greenbg)}.sc.no{background:var(--redbg)}
+.hint{text-align:center;color:var(--muted);font-size:12.5px;margin-bottom:8px}
+.row2{display:flex;gap:10px}
+.row2 .btn{flex:1}
+.btn.t{background:var(--green);box-shadow:0 3px 0 #1f9159}.btn.f{background:var(--red);box-shadow:0 3px 0 #b8353a}
+.mt{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.mt button{border:2px solid var(--line);background:var(--paper);border-radius:14px;padding:12px 8px;min-height:64px;font:inherit;font-size:13.5px;line-height:1.45;cursor:pointer;color:inherit}
+.mt button.sel{border-color:var(--blue);background:#e8f0ff}
+.mt button.done{background:var(--greenbg);border-color:var(--green);opacity:.55;pointer-events:none}
+.mt button.bad{background:var(--redbg);border-color:var(--red);animation:shake .35s}
+.clue{background:#fff3c4;border-radius:12px;padding:10px 12px;margin-bottom:8px;line-height:1.55;font-size:15px;animation:pop .3s}
+.big{font-size:64px;text-align:center;margin:8px 0}
+.center{text-align:center}
+.pill{display:inline-block;background:#fff3c4;border-radius:20px;padding:3px 10px;font-size:12.5px;margin:2px}
+ul.rev{padding-inline-start:20px;margin:6px 0;line-height:1.7;font-size:14px}
+.ltr{direction:ltr;unicode-bidi:isolate}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+/* ============ المحتوى (من محاضرة Minerals Homeostasis فقط) ============ */
+const L1=[
+ {ev:"الكالسيوم نزل لـ 7.8 mg/dl 😟",ca:7.8,q:"الجسم يعمل إيه؟",o:["PTH يشتغل + calcitonin يقف","Calcitonin يشتغل + PTH يقف","الاتنين يقفوا"],c:0,why:"Low Ca ⟵ PTH on, calcitonin off. الـ PTH يسحب Ca من العظم ويحفظه في الكلية."},
+ {ev:"الكالسيوم طلع لـ 11.8 mg/dl 🥵",ca:11.8,q:"الجسم يعمل إيه؟",o:["PTH يشتغل + calcitonin يقف","Calcitonin يشتغل + PTH يقف","الاتنين يشتغلوا"],c:1,why:"High Ca ⟵ PTH off, calcitonin on. الـ calcitonin يمنع تكسير العظم فينزل Ca."},
+ {ev:"مريض فشل كلوي: Phosphate عالي وCa واطي (7.4)",ca:7.4,q:"أخطر علامة متوقعة؟",o:["Tetany (تشنجات)","Rickets","Hypercalcemia stones"],c:0,why:"Ca × P ثابت تقريبًا: لما P يعلى Ca ينزل ⟵ tetany. (الحاصل 40 للكبار و50 للأطفال)."},
+ {ev:"طالب بيتنفس بسرعة من التوتر (respiratory alkalosis) 😮‍💨",ca:null,q:"إيه اللي بيحصل للـ ionized Ca؟",o:["يقل (Ca يلزق أكتر في البروتين) ⟵ tetany","يزيد","مفيش تغيير"],c:0,why:"Alkalosis ⟵ Ca يرتبط بالبروتين أكتر ⟵ ionized Ca ينزل. Acidosis العكس."},
+ {ev:"Albumin نزل 2 g/dl (مريض كبد)",ca:8.6,q:"الـ total Ca ينزل كام، والأعراض؟",o:["1.6 mg/dl بدون أعراض","0.8 mg/dl بأعراض tetany","مفيش تغيير خالص"],c:0,why:"كل 1 g/dl albumin = 0.8 mg/dl من total Ca. لكن الـ ionized طبيعي ⟵ مفيش أعراض."},
+ {ev:"الشمس ⟵ الجلد ⟵ الكبد ⟵ ؟",ca:null,q:"أنهي عضو يطلّع الـ calcitriol النشط؟",o:["الكلية: 1-hydroxylation","الكبد: 25-hydroxylation","الجلد: 7-dehydrocholesterol"],c:0,why:"الجلد يصنع cholecalciferol، الكبد 25-OH، والكلية 1-OH فتطلع calcitriol (1,25-(OH)₂D)."},
+ {ev:"مريض Ca عنده 12.5 mg/dl مع جفاف وقيء",ca:12.5,q:"أول علاج؟",o:["IV saline + IV furosemide","Calcium gluconate IV","Magnesium sulfate IV"],c:0,why:"Hypercalcemia ⟵ ترطيب بالـ saline وfurosemide لطرد Ca، وبعدها نعالج السبب."},
+ {ev:"Tetany ومعاه Ca طبيعي تقريبًا، وماستجابش للكالسيوم 🤔",ca:null,q:"الاحتمال الأقوى؟",o:["Magnesium deficiency","Vitamin D excess","Hyperparathyroidism"],c:0,why:"Hypomagnesemia تشبه نقص Ca ولا تتصلح إلا بـ Mg (IV magnesium sulfate)."}
+];
+
+const L2=[
+ {s:"Calcitriol و calcitonin هما نفس الهرمون",a:false,why:"Calcitriol = فيتامين D النشط. Calcitonin = ببتيد من الغدة الدرقية. مختلفين تمامًا."},
+ {s:"99% من كالسيوم الجسم في العظام",a:true,why:"العظم هو المخزن الرئيسي، والباقي 1% في السوائل خارج الخلايا."},
+ {s:"الـ Ionized Ca هو الجزء المرتبط بالبروتين",a:false,why:"المرتبط بالبروتين (4 من 10) non-diffusible. الـ ionized (5) هو النشط."},
+ {s:"Phytic acid في الحبوب يزوّد امتصاص الكالسيوم",a:false,why:"Phytic acid و oxalates يقللوا الامتصاص. أما الحموضة و calcitriol يزودوه."},
+ {s:"الكالسيوم يتمتص بالنقل النشط في أول وتاني الـ duodenum",a:true,why:"بيحتاج طاقة وناقل calbindin مع Ca-dependent ATPase."},
+ {s:"PTH يخلي الكلية تطرد Phosphate ويحتفظ بـ Ca",a:true,why:"PTH يحافظ على Ca فقط، لكن calcitriol يعيد امتصاص Ca و P الاتنين."},
+ {s:"Hyperparathyroidism: Ca عالي و Phosphate واطي",a:true,why:"Low P, high Ca ⟵ hyperparathyroidism أو sarcoidosis."},
+ {s:"Pseudohypoparathyroidism: مستوى الـ PTH واطي",a:false,why:"الـ PTH طبيعي، لكن الأعضاء المستهدفة مش بتستجيب."},
+ {s:"الكلية تعيد امتصاص Mg في الـ proximal tubule",a:false,why:"Mg يتعاد امتصاصه في الـ loop of Henle مش الـ proximal."},
+ {s:"معظم Mg الجسم (60%) في العظام",a:true,why:"25 g في الجسم، 60% منه في العظم. وهو ثاني أكتر cation داخل الخلايا."},
+ {s:"Hypermagnesemia تثبّط الـ PTH فيقل Ca",a:true,why:"Mg العالي يمنع إفراز PTH ⟵ serum Ca ينزل."},
+ {s:"Zinc و copper يمنعوا امتصاص بعض، وبيُستخدم Zn في Wilson's disease",a:true,why:"Zn يقلل امتصاص Cu، فيفيد في Wilson. ويُعطى مع الحديد."},
+ {s:"Calcitonin يُستخدم كـ tumor marker في medullary carcinoma of thyroid",a:true,why:"بيطلع من parafollicular cells، وبيظهر كمان في MEN وبعض أورام الرئة."},
+ {s:"الـ Macrominerals نحتاجها أقل من 100 mg في اليوم",a:false,why:"Macro = أكتر من 100 mg/day. Micro (trace) = أقل من 100 mg."},
+ {s:"FGF-23 الزايد يسبب Phosphate واطي و rickets / osteomalacia",a:true,why:"FGF-23 يمنع إعادة امتصاص P في الكلية ويقلل تصنيع calcitriol."},
+ {s:"Ethereal sulfate في البول علامة على intestinal putrefaction",a:true,why:"هو 10% من الكبريت البولي (phenol و indoxyl conjugates). الـ inorganic هو 80%."}
+];
+
+const L3=[
+ {name:"توصيل (1): مين صاحب الدليل؟",pairs:[
+  ["Osteopetrosis","Marble bone: carbonic anhydrase II mutation"],
+  ["Paget's disease","Disordered repair بعد 40 سنة، بيعالج بـ bisphosphonates"],
+  ["Zinc","Gustin في اللعاب = حاسة التذوق"],
+  ["Sulfur","PAPS = sulfate donor"],
+  ["Phosphate","FGF-23 ينظم مستواه"],
+  ["Calcium","Calmodulin يربط 4 Ca²⁺"]]},
+ {name:"توصيل (2): العلامة والتفسير",pairs:[
+  ["Chvostek's sign","ضرب على facial nerve ⟵ الوش يرتعش"],
+  ["Trousseau's sign","BP cuff لمدة 3 دقايق ⟵ carpopedal spasm"],
+  ["Calcitonin","يقلل Ca في الدم"],
+  ["Calbindin","يتحفّز بـ calcitriol في الأمعاء"],
+  ["Metallothionein","تخزين Zn في الكبد"],
+  ["Acrodermatitis enteropathica","Zn deficiency: dermatitis + diarrhea + alopecia"]]}
+];
+
+const L4=[
+ {ans:"PTH",o:["PTH","Calcitonin","Calcitriol","FGF-23"],clues:["أنا 84 amino acid (الجزء النشط 35)","بتصنعني chief cells في 4 غدد","بخلي الكلية تطرد phosphate","برفع Ca الدم من العظم والكلية"],why:"PTH: 84 aa، من الـ parathyroid، يرفع Ca ويخرّج P."},
+ {ans:"Magnesium",o:["Calcium","Magnesium","Zinc","Phosphorus"],clues:["جسمك فيه حوالي 25 g مني","60% مني في العظم","الكلية تعيد امتصاصي في loop of Henle","لما أقل، tetany مبتتصلحش بالكالسيوم"],why:"Mg: ثاني cation داخل الخلايا، وعلاج نقصه IV magnesium sulfate."},
+ {ans:"Zinc",o:["Zinc","Copper","Magnesium","Sulfur"],clues:["جسمك فيه 2 g مني بس","أعلى تركيز مني في hippocampus و prostatic secretion","أنا مطلوب لأكتر من 300 enzyme","نقصي: جروح مابتلتئمش وفقدان حاسة التذوق"],why:"Zn: carbonic anhydrase و ALP و SOD وغيرها، وgustin للتذوق."},
+ {ans:"Calcitriol",o:["Calcitriol","Calcitonin","PTH","Calbindin"],clues:["بدايتي من الشمس على الجلد","أتحوّل في الكبد ثم الكلية","بعمل calbindin في الأمعاء","بزوّد امتصاص Ca و P الاتنين، ونقصي = rickets"],why:"Calcitriol = 1,25-(OH)₂D: يرفع امتصاص Ca و P ويعمل mineralization."},
+ {ans:"Calcium",o:["Calcium","Phosphorus","Sulfur","Zinc"],clues:["99% مني في العظام","مستواي في الدم 9–11 mg/dl","محتاج 500 mg يوميًا للكبار و1200 للأطفال","أفعّل calmodulin وأربط troponin C"],why:"Ca: 1–1.5 kg في الجسم، والمصدر الأفضل اللبن."}
+];
+
+const LEVELS=[
+ {id:"l1",ic:"⚖️",t:"ميزان الكالسيوم",d:"الجسم عايز Ca بين 9 و11. اختار الرد الصح 8 مواقف."},
+ {id:"l2",ic:"👆",t:"صح ولا غلط؟",d:"اسحب الكارت يمين (صح) أو شمال (غلط). سريع وخفيف."},
+ {id:"l3",ic:"🔗",t:"وصّل الدليل",d:"وصّل كل مصطلح بوصفه. جولتين."},
+ {id:"l4",ic:"🕵️",t:"مين أنا؟",d:"أدلة تظهر واحدة واحدة. كل ما خمّنت بدري، نجومك أكتر."}
+];
+
+/* ============ الحالة ============ */
+let prog={};
+try{prog=JSON.parse(localStorage.getItem("minq")||"{}")}catch(e){}
+function save(){try{localStorage.setItem("minq",JSON.stringify(prog))}catch(e){}}
+const $=s=>document.querySelector(s);
+const app=document.getElementById("app");
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const starStr=n=>"★".repeat(n)+"☆".repeat(3-n);
+const praise=["برافو 👏","ممتاز!","كمّل كده 🔥","دماغك شغالة 🧠","جامد!"];
+const soft=["قرّبت 🙂","مش مشكلة، هتفتكرها","ولا يهمك، الغلط بيثبّت المعلومة"];
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+
+/* ============ القايمة ============ */
+function menu(){
+  const total=LEVELS.reduce((s,l)=>s+(prog[l.id]||0),0);
+  app.innerHTML=`<div class="center" style="margin:6px 0 14px"><div style="font-size:42px">🦴🧪</div><h1>رحلة المعادن</h1>
+  <p class="sub">Minerals Homeostasis · Biochemistry<br>جلسات قصيرة، من غير قلوب ولا وقت. الغلط بيرجع لك تاني لحد ما يثبت.</p></div>
+  ${LEVELS.map(l=>`<button class="tile" data-id="${l.id}"><div class="ic">${l.ic}</div><div><b>${l.t}</b><span class="d">${l.d}</span></div><div class="stars">${starStr(prog[l.id]||0)}</div></button>`).join("")}
+  <a class="btn alt" style="text-align:center;text-decoration:none;margin-bottom:10px" href="../">← الرجوع للتطبيق</a><div class="card center" style="margin-top:4px"><b>إتقان المحاضرة: ${total} / 12 ★</b>
+  <div class="bar" style="margin-top:8px"><i style="width:${total/12*100}%"></i></div></div>`;
+  app.querySelectorAll(".tile").forEach(b=>b.onclick=()=>start(b.dataset.id));
+}
+function start(id){
+  if(id==="l1")runLevel(id,shuffle(L1).map(x=>({...x})),renderMCQ,"⚖️ ميزان الكالسيوم");
+  if(id==="l2")runLevel(id,shuffle(L2).slice(0,12).map(x=>({...x})),renderTF,"👆 صح ولا غلط؟");
+  if(id==="l3")runLevel(id,L3.map(x=>({...x})),renderMatch,"🔗 وصّل الدليل");
+  if(id==="l4")runLevel(id,shuffle(L4).slice(0,4).map(x=>({...x})),renderWho,"🕵️ مين أنا؟");
+}
+
+/* ============ المحرك العام: الغلط يرجع بعد شوية ============ */
+function runLevel(id,items,render,name){
+  const total=items.length;let q=items.slice(),solved=0,first=0,stars=0,missed=[];
+  app.innerHTML=`<div class="top"><button class="back" id="bk">✕</button><div class="bar"><i id="pb"></i></div></div><div id="stage"></div>`;
+  $("#bk").onclick=menu;
+  function next(){
+    $("#pb").style.width=(solved/total*100)+"%";
+    if(!q.length)return finish();
+    const it=q.shift();
+    render(it,$("#stage"),(ok,extraStars)=>{
+      if(ok){ if(!it._m)first++; solved++; if(extraStars!=null)stars+=extraStars; }
+      else{ it._m=(it._m||0)+1; if(!missed.includes(it))missed.push(it);
+        if(it._m<2)q.splice(Math.min(q.length,2),0,it); else solved++; }
+      next();
+    });
+  }
+  function finish(){
+    $("#pb").style.width="100%";
+    let s;
+    if(render===renderWho)s=Math.max(1,Math.min(3,Math.round(stars/total)));
+    else{const r=first/total;s=r>=.85?3:r>=.6?2:1}
+    prog[id]=Math.max(prog[id]||0,s);save();
+    $("#stage").innerHTML=`<div class="card center"><div class="big">${s===3?"🏆":s===2?"🎉":"💪"}</div><h1>${starStr(s)}</h1>
+    <p class="sub">${s===3?"إتقان تام! 👏":s===2?"كويس جدًا، جولة كمان وتوصل 3 نجوم":"بداية حلوة. كل جولة بتثبّت أكتر"}</p></div>
+    ${missed.length?`<div class="card"><b>🔁 النقاط اللي تستاهل مراجعة سريعة:</b><ul class="rev" dir="auto">${missed.map(m=>`<li>${m.why||m.name}</li>`).join("")}</ul></div>`:""}
+    <button class="btn" id="again">العب تاني (أسئلة جديدة)</button><button class="btn alt" id="home">القايمة</button>`;
+    $("#again").onclick=()=>start(id);$("#home").onclick=menu;
+  }
+  next();
+}
+function feedback(host,ok,why,cb){
+  const f=document.createElement("div");f.className="fb "+(ok?"ok":"no");
+  f.innerHTML=`<b>${ok?pick(praise):pick(soft)}</b><span dir="auto">${why}</span>`;
+  host.appendChild(f);
+  const b=document.createElement("button");b.className="btn";b.textContent="التالي ←";b.onclick=()=>cb(ok);host.appendChild(b);
+  b.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+/* ============ نوع 1: ميزان + اختيار ============ */
+function gaugeHTML(v){
+  const lo=6,hi=14,pos=v==null?null:Math.max(0,Math.min(100,(v-lo)/(hi-lo)*100));
+  const w=x=>(x-lo)/(hi-lo)*100;
+  return `<div class="gval" id="gv">${v==null?"":v.toFixed(1)+" mg/dl"}</div>
+  <div class="gauge"><div class="z" style="width:${w(8.8)}%;background:#f9b4b6"></div><div class="z" style="width:${w(9)-w(8.8)}%;background:#ffe5a8"></div><div class="z" style="width:${w(11)-w(9)}%;background:#9fe3bd"></div><div class="z" style="width:${100-w(11)}%;background:#f9b4b6"></div>
+  ${pos==null?"":`<div class="needle" id="nd" style="left:${pos}%"></div>`}</div>
+  <div class="glab"><span>6</span><span>8.8</span><span>9 – 11 طبيعي</span><span>14</span></div>`;
+}
+function renderMCQ(it,host,cb){
+  host.innerHTML=`<div class="title" dir="auto">${it.ev}</div><div class="card">${it.ca!=null?gaugeHTML(it.ca):""}<b dir="auto">${it.q}</b></div><div id="ops"></div>`;
+  const ops=$("#ops");let locked=false;
+  const order=shuffle(it.o.map((t,i)=>({t,i})));
+  order.forEach(o=>{
+    const b=document.createElement("button");b.className="opt";b.setAttribute("dir","auto");b.textContent=o.t;
+    b.onclick=()=>{
+      if(locked)return;locked=true;const ok=o.i===it.c;
+      b.classList.add(ok?"ok":"no");
+      if(!ok)[...ops.children].forEach((x,k)=>{if(order[k].i===it.c)x.classList.add("ok")});
+      [...ops.children].forEach(x=>{if(!x.classList.contains("ok")&&!x.classList.contains("no"))x.classList.add("dim")});
+      if(ok&&it.ca!=null){const n=$("#nd");if(n){n.style.left=((10-6)/8*100)+"%";$("#gv").textContent="10.0 mg/dl ✓"}}
+      feedback(host,ok,it.why,cb);
+    };
+    ops.appendChild(b);
+  });
+}
+
+/* ============ نوع 2: سحب صح/غلط ============ */
+function renderTF(it,host,cb){
+  host.innerHTML=`<div class="title">صح ولا غلط؟</div>
+  <div class="hint">اسحب ➡️ صح · ⬅️ غلط (أو اضغط الزرار)</div>
+  <div class="swipe"><div class="sc" id="sc" dir="auto">${it.s}</div></div>
+  <div class="row2" id="tfb"><button class="btn f" id="bf">✗ غلط</button><button class="btn t" id="bt">✓ صح</button></div><div id="fbh"></div>`;
+  const sc=$("#sc");let sx=0,dx=0,drag=false,done=false;
+  function answer(v){
+    if(done)return;done=true;const ok=v===it.a;
+    sc.classList.remove("dragging");sc.classList.add(ok?"ok":"no");
+    sc.style.transform=`translateX(${v?60:-60}px) rotate(${v?4:-4}deg)`;
+    $("#tfb").style.display="none";feedback($("#fbh"),ok,(it.a?"✓ العبارة صحيحة. ":"✗ العبارة غلط. ")+it.why,cb);
+  }
+  $("#bt").onclick=()=>answer(true);$("#bf").onclick=()=>answer(false);
+  sc.addEventListener("pointerdown",e=>{if(done)return;drag=true;sx=e.clientX;sc.classList.add("dragging");sc.setPointerCapture(e.pointerId)});
+  sc.addEventListener("pointermove",e=>{if(!drag)return;dx=e.clientX-sx;sc.style.transform=`translateX(${dx}px) rotate(${dx/18}deg)`;sc.style.background=dx>30?"#dff6e9":dx<-30?"#fde3e4":""});
+  const up=()=>{if(!drag)return;drag=false;sc.classList.remove("dragging");if(dx>80)answer(true);else if(dx<-80)answer(false);else{sc.style.transform="";sc.style.background=""}dx=0};
+  sc.addEventListener("pointerup",up);sc.addEventListener("pointercancel",up);
+}
+
+/* ============ نوع 3: توصيل ============ */
+function renderMatch(it,host,cb){
+  host.innerHTML=`<div class="title">${it.name}</div><div class="hint">اضغط مصطلح ثم وصفه</div><div class="mt" id="mt"></div><div id="fbh"></div>`;
+  const grid=$("#mt");let L=shuffle(it.pairs.map((p,i)=>({t:p[0],i}))),R=shuffle(it.pairs.map((p,i)=>({t:p[1],i})));
+  let sel=null,left=it.pairs.length,mistakes=0;
+  const btns=[];
+  for(let k=0;k<it.pairs.length;k++){
+    [[L[k],"L"],[R[k],"R"]].forEach(([o,side])=>{
+      const b=document.createElement("button");b.setAttribute("dir","ltr");b.textContent=o.t;b.dataset.i=o.i;b.dataset.s=side;
+      b.onclick=()=>{
+        if(sel&&sel.dataset.s===side){sel.classList.remove("sel");sel=(sel===b)?null:b;if(sel)b.classList.add("sel");return}
+        if(!sel){sel=b;b.classList.add("sel");return}
+        if(sel.dataset.i===b.dataset.i){sel.classList.remove("sel");sel.classList.add("done");b.classList.add("done");sel=null;left--;
+          if(!left){const ok=mistakes<=1;feedback(host.querySelector("#fbh"),ok,ok?"وصّلت كل الأزواج. المعلومات دي بتتذكر بسهولة كزوج واحد.":"كانت فيها أكتر من غلطة، هنعيدها مرة تانية وهتبقى أسهل.",cb)}}
+        else{mistakes++;const a=sel,c=b;a.classList.remove("sel");a.classList.add("bad");c.classList.add("bad");setTimeout(()=>{a.classList.remove("bad");c.classList.remove("bad")},400);sel=null}
+      };
+      btns.push(b);
+    });
+  }
+  btns.forEach(b=>grid.appendChild(b));
+}
+
+/* ============ نوع 4: مين أنا ============ */
+function renderWho(it,host,cb){
+  let shown=1,locked=false;
+  host.innerHTML=`<div class="title">مين أنا؟ 🕵️</div><div id="cl"></div><div class="hint" id="hn"></div><div id="ops"></div><div id="more"></div>`;
+  function paint(){
+    $("#cl").innerHTML=it.clues.slice(0,shown).map((c,i)=>`<div class="clue" dir="auto">${i+1}. ${c}</div>`).join("");
+    $("#hn").textContent=`الدليل ${shown} من ${it.clues.length} · ${shown===1?"⭐⭐⭐":shown===2?"⭐⭐":"⭐"} لو جاوبت دلوقتي`;
+  }
+  paint();
+  const ops=$("#ops");
+  shuffle(it.o).forEach(t=>{
+    const b=document.createElement("button");b.className="opt";b.setAttribute("dir","ltr");b.style.textAlign="center";b.textContent=t;
+    b.onclick=()=>{
+      if(locked||b.classList.contains("no"))return;
+      const ok=t===it.ans;
+      if(ok){locked=true;b.classList.add("ok");[...ops.children].forEach(x=>{if(x!==b)x.classList.add("dim")});$("#more").innerHTML="";
+        const st=Math.max(1,4-shown);
+        const f=document.createElement("div");f.className="fb ok";f.innerHTML=`<b>${pick(praise)} ${starStr(Math.min(3,st))}</b><span dir="auto">${it.why}</span>`;host.appendChild(f);
+        const nb=document.createElement("button");nb.className="btn";nb.textContent="التالي ←";nb.onclick=()=>cb(true,Math.min(3,st));host.appendChild(nb);nb.scrollIntoView({behavior:"smooth",block:"nearest"});
+      }else{
+        b.classList.add("no");
+        if(shown<it.clues.length){shown++;paint()}
+        else{locked=true;[...ops.children].forEach(x=>{if(x.textContent===it.ans)x.classList.add("ok")});
+          const f=document.createElement("div");f.className="fb no";f.innerHTML=`<b>${pick(soft)}</b><span dir="auto">الإجابة: ${it.ans}. ${it.why}</span>`;host.appendChild(f);
+          const nb=document.createElement("button");nb.className="btn";nb.textContent="التالي ←";nb.onclick=()=>cb(false);host.appendChild(nb);}
+      }
+    };
+    ops.appendChild(b);
+  });
+}
+menu();
+</script>
+</body>
+</html>

@@ -82,6 +82,7 @@ views.home = () => {
       ${store.mode === 'demo' ? '<span class="badge">وضع تجريبي: البيانات على جهازك فقط</span>' : ''}</header>
     <div class="tiles">
       <button class="tile" data-act="go" data-v="quizzes"><b>حل كويز</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></button>
+      <a class="tile" href="games/minerals.html" style="text-decoration:none;color:inherit"><b>🎮 ألعاب المحاضرات</b><span>Minerals Homeostasis: مراجعة بالتفاعل وبدون ضغط</span></a>
       <button class="tile alt" data-act="go" data-v="teacher"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></button>
     </div>
     ${S.installEv ? `<button class="btn primary install" data-act="install">ثبّت التطبيق على جهازك</button>` : ''}
