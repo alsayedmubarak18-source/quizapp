@@ -105,8 +105,7 @@ views.login = () => {
       <p class="msg err">${esc(S.err)}</p>
       <button class="btn primary wide" data-act="slogin">دخول</button>
       <p class="hint" style="margin-top:14px">كود الكورس بتاخده من قناة التليجرام.</p>
-    </section>
-    <p class="center"><button class="link" data-act="go" data-v="teacher">دخول المدرّس</button></p>`;
+    </section>`;
 };
 async function studentLogin() {
   const name = (document.getElementById('lname').value || '').trim().replace(/\s+/g, ' ');
@@ -478,7 +477,7 @@ views.home = () => {
       ${!S.profile && store.teacher ? `<button class="tile" data-act="lbopen">${ico('🏆', '#fff0c9')}<div class="tx"><b>Leaderboard</b><span>ترتيب الأسبوع والشهر بـ Smart Score</span></div></button>
       <button class="tile" data-act="asstudent">${ico('👁', '#fde0ee')}<div class="tx"><b>ادخل كطالب (معاينة)</b><span>جرّب الخطة والفلاش كاردز والامتحان زي الطالب</span></div></button>` : ''}
       <button class="tile" data-act="go" data-v="quizzes">${ico('📝', '#ffecc9')}<div class="tx"><b>كل الكويزات</b><span>قارن درجتك النهائية بكل من حلّ الكويز قبلك</span></div></button>
-      <button class="tile alt" data-act="go" data-v="teacher">${ico('🧑‍🏫', '#ece0ff')}<div class="tx"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></div></button>
+      ${store.teacher ? `<button class="tile alt" data-act="go" data-v="teacher">${ico('🧑‍🏫', '#ece0ff')}<div class="tx"><b>المدرّس</b><span>إنشاء الكويزات وإدارتها</span></div></button>` : ''}
     </div>
     ${S.installEv ? `<button class="btn primary install" data-act="install">ثبّت التطبيق على جهازك</button>` : ''}
     ${ios ? `<p class="hint">على الآيفون والآيباد: زر المشاركة ثم «إضافة إلى الشاشة الرئيسية» لتثبيت التطبيق.</p>` : ''}
@@ -1037,5 +1036,15 @@ $app.addEventListener('input', e => {
   if (f === 'q') q.q = t.value; else if (f === 'correct') q.correct = oi; else q.options[oi][f] = t.value;
 });
 
+// دخول المدرّس مخفي عن الطلبة: افتح الرابط مع #teacher، أو اضغط 5 مرات سريعة على عنوان «كويزاتي»
+const openTeacher = () => { if (S.view !== 'teacher') go('teacher'); };
+if (location.hash === '#teacher') S.view = 'teacher';
+window.addEventListener('hashchange', () => { if (location.hash === '#teacher') openTeacher(); });
+let taps = [];
+$app.addEventListener('click', e => {
+  if (!e.target.closest('h1')) return;
+  const now = Date.now(); taps = taps.filter(t => now - t < 2500); taps.push(now);
+  if (taps.length >= 5) { taps = []; openTeacher(); }
+});
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).catch(() => {});
 render();
