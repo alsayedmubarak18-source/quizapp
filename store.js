@@ -61,6 +61,15 @@ async function makeFirebase(cfg) {
       return F.onSnapshot(F.query(col('scores'), F.where('quizId', '==', quizId), F.limit(1000)), s => cb(s.docs.map(d => d.data())));
     },
 
+    // حذف كل بيانات طالب (المحاولات + درجاته في ترتيب الكويزات). للمدرّس فقط بحكم القواعد.
+    async deleteStudent(key, nameMatch) {
+      let n = 0;
+      const at = await F.getDocs(F.query(col('attempts'), F.where('key', '==', key), F.limit(500)));
+      for (const d of at.docs) { await F.deleteDoc(d.ref); n++; }
+      const sc = await F.getDocs(col('scores'));
+      for (const d of sc.docs) if (nameMatch(d.data().name || '')) { await F.deleteDoc(d.ref); n++; }
+      return n;
+    },
     saveAttempt(a) { return F.addDoc(col('attempts'), clean({ ...encAns(a), uid: user.uid })); },
     async fetchAttemptsByKey(key) {
       const s = await F.getDocs(F.query(col('attempts'), F.where('key', '==', key), F.limit(500)));
@@ -135,6 +144,14 @@ function makeDemo() {
     async submitScore(s) { write(d => { d.scores[s.quizId + '_' + uid] = { ...s, uid, at: Date.now() }; }); },
     watchScores(quizId, cb) { return watch(d => Object.values(d.scores).filter(s => s.quizId === quizId), cb); },
 
+    async deleteStudent(key, nameMatch) {
+      let n = 0;
+      write(d => {
+        const a = d.attempts || []; d.attempts = a.filter(x => x.key !== key); n += a.length - d.attempts.length;
+        Object.keys(d.scores || {}).forEach(k => { if (nameMatch(d.scores[k].name || '')) { delete d.scores[k]; n++; } });
+      });
+      return n;
+    },
     async saveAttempt(a) { write(d => { (d.attempts = d.attempts || []).push({ ...clone(a), uid }); }); },
     async fetchAttemptsByKey(key) { return (read().attempts || []).filter(a => a.key === key); },
     async fetchRecentAttempts(since) { return (read().attempts || []).filter(a => a.at >= since); },

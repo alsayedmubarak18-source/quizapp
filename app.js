@@ -16,7 +16,7 @@ try {
 }
 
 const LETTERS = ['أ', 'ب', 'ج', 'د', 'هـ', 'و'];
-const APP_VERSION = 'v28'; // لازم يطابق CACHE في sw.js
+const APP_VERSION = 'v29'; // لازم يطابق CACHE في sw.js
 const T = {
   ar: { dir: 'rtl', letters: LETTERS, exit: 'خروج', next: 'السؤال التالي', result: 'عرض النتيجة', ok: 'أحسنت، إجابة صحيحة!', bad: 'إجابة خاطئة، الصحيحة باللون الأخضر.',
     tip: 'اضغط على أي إجابة أخرى لتعرف لماذا هي خاطئة.', yok: 'إجابتك صحيحة. السبب:', ybad: 'إجابتك خاطئة. السبب:', right: 'هذه هي الصحيحة. السبب:', wrong: 'خاطئة. السبب:',
@@ -406,7 +406,7 @@ views.help = () => {
 views.tdash = () => {
   const rows = S.tatt || [];
   const byKey = new Map();
-  rows.forEach(a => { const k = a.key; let o = byKey.get(k); if (!o) { o = { name: a.name, att: [], n: 0, c: 0, last: 0 }; byKey.set(k, o); } o.att.push(a); o.last = Math.max(o.last, a.at); o.name = a.name || o.name; (a.ans || []).forEach(x => { o.n++; if (x[2]) o.c++; }); });
+  rows.forEach(a => { const k = a.key; let o = byKey.get(k); if (!o) { o = { key: k, name: a.name, att: [], n: 0, c: 0, last: 0 }; byKey.set(k, o); } o.att.push(a); o.last = Math.max(o.last, a.at); o.name = a.name || o.name; (a.ans || []).forEach(x => { o.n++; if (x[2]) o.c++; }); });
   const studs = [...byKey.values()].sort((a, b) => b.last - a.last);
   const now = Date.now(), days = t => Math.floor((now - t) / 864e5);
   const allN = studs.reduce((s, x) => s + x.n, 0), allC = studs.reduce((s, x) => s + x.c, 0);
@@ -414,13 +414,13 @@ views.tdash = () => {
   rows.forEach(a => (a.ans || []).forEach(([qz, qi, ok]) => { const k = qz + '#' + qi; const o = qs.get(k) || { qz, qi, n: 0, c: 0 }; o.n++; if (ok) o.c++; qs.set(k, o); }));
   const hard = [...qs.values()].filter(o => o.n >= 5).sort((a, b) => a.c / a.n - b.c / b.n).slice(0, 10);
   $app.innerHTML = `${backBar('لوحة المتابعة', 'teacher')}
-    ${S.derr ? `<p class="msg err">${esc(S.derr)}</p>` : ''}
+    ${S.derr ? `<p class="msg err">${esc(S.derr)}</p>` : ''}${S.dmsg ? `<p class="msg ok">${esc(S.dmsg)}</p>` : ''}
     <div class="stats"><div class="stat"><b>${studs.length}</b><span>طالب</span></div>
       <div class="stat"><b dir="ltr">${allN ? pc(allC / allN) + '%' : '-'}</b><span>متوسط الكورس</span></div>
       <div class="stat"><b>${studs.filter(x => days(x.last) >= 5).length}</b><span>غايبين 5 أيام+</span></div></div>
     <div class="row"><button class="btn" data-act="csv">⬇️ تصدير Excel (CSV)</button></div>
     <h3 class="lbt">الطلاب</h3>
-    <div class="list">${studs.length ? studs.map(x => { const d = days(x.last), a = x.n ? x.c / x.n : 0; return `<div class="card prow"><b dir="auto">${esc(x.name)}${d >= 5 ? ' ⚠️' : ''}</b>${barHtml(x.n, x.c)}<small>${x.att.length} محاولة · آخر نشاط ${d === 0 ? 'النهاردة' : 'من ' + d + ' يوم'}</small></div>`; }).join('') : '<div class="card empty">لا توجد محاولات بعد.</div>'}</div>
+    <div class="list">${studs.length ? studs.map(x => { const d = days(x.last), a = x.n ? x.c / x.n : 0; return `<div class="card prow"><b dir="auto">${esc(x.name)}${d >= 5 ? ' ⚠️' : ''}</b>${barHtml(x.n, x.c)}<small>${x.att.length} محاولة · آخر نشاط ${d === 0 ? 'النهاردة' : 'من ' + d + ' يوم'}</small><button class="btn small danger" data-act="delstu" data-id="${esc(x.key)}" data-name="${esc(x.name)}">🗑 حذف بيانات الطالب</button></div>`; }).join('') : '<div class="card empty">لا توجد محاولات بعد.</div>'}</div>
     <h3 class="lbt">أصعب الأسئلة (5 إجابات+)</h3>
     <div class="list">${hard.length ? hard.map(o => { const m = metaOf(o.qz, o.qi); return `<div class="card prow"><span dir="auto">${esc(m ? m.text : o.qz + ' #' + (o.qi + 1))}</span><small dir="auto">${esc(m ? m.title + ' · ' + m.topic : '')}</small>${barHtml(o.n, o.c)}</div>`; }).join('') : '<div class="card empty">محتاج بيانات أكتر.</div>'}</div>`;
 };
@@ -939,6 +939,12 @@ $app.addEventListener('click', async e => {
     case 'fcknown': runDeck(knownIds()); break;
     case 'fcone': runDeck([id], false); break;
     case 'fcback': openFc(); break;
+    case 'delstu': {
+      const nm = b.dataset.name || id;
+      if (!confirm(`حذف كل بيانات «${nm}» نهائيًا؟\nهيتمسح: محاولاته وتحليل أدائه ودرجاته في ترتيب الكويزات. مفيش تراجع.`)) break;
+      try { const n = await store.deleteStudent(id, v => PG.normKey(v) === id); S.tatt = (S.tatt || []).filter(a => a.key !== id); S.derr = ''; S.dmsg = `اتحذفت بيانات «${nm}» (${n} سجل).`; }
+      catch (e) { console.error(e); S.derr = 'تعذر الحذف. تأكد إنك داخل بحساب المدرّس وإن القواعد منشورة.'; }
+      render(); break; }
     case 'asstudent': S.forceLogin = true; render(); break;
     case 'flip': S.cd.flip = !S.cd.flip; render(); break;
     case 'cardyes': case 'cardno': { const d = S.cd; PG.rateCard(S.profile.key, d.deck[d.i], act === 'cardyes', +id); if (act === 'cardyes') d.known++; d.i++; d.flip = false; render(); window.scrollTo(0, 0); break; }
@@ -953,7 +959,7 @@ $app.addEventListener('click', async e => {
       if (!z) { S.err = 'لا توجد أسئلة كافية لهذا الموضوع بعد.'; render(); break; }
       S.ret = 'perf'; startSolo(z); break; }
     case 'tdash':
-      go('tdash', { tatt: [], derr: '' });
+      go('tdash', { tatt: [], derr: '', dmsg: '' });
       subs.push(store.watchAttempts(r => { S.tatt = r; if (S.view === 'tdash') render(); }, e => { console.error(e); S.derr = 'تعذر قراءة المحاولات. انشر قواعد Firestore الجديدة من ملف firestore.rules.'; if (S.view === 'tdash') render(); }));
       break;
     case 'csv': exportCsv(); break;

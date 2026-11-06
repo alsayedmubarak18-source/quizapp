@@ -230,3 +230,4 @@ textarea.inp{resize:vertical}
 .gaps{display:flex;flex-wrap:wrap;gap:6px}.gaps .btn{flex:1 1 30%}
 .kl{display:grid;gap:8px;margin-top:10px;max-height:58vh}
 .kc{width:100%;text-align:start;display:block;padding:10px 14px;border:1.5px solid var(--line)}.kq{display:block;font-weight:600;line-height:1.5}.kc small{color:var(--muted)}
+.msg.ok{color:var(--ok);font-weight:600}
