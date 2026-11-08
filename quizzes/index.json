@@ -69,5 +69,10 @@
  "w5-physio-female-sexual-cycle-1.json",
  "w5-physio-spermatogenesis-1.json",
  "w5-genetics-aneuploidy-1.json",
- "w5-genetics-inheritance-1.json"
+ "w5-genetics-inheritance-1.json",
+ "w9-clinical-lactation-1.json",
+ "w11-histo-cartilage-1.json",
+ "w11-histo-bone-1.json",
+ "w11-bio-minerals-homeostasis-1.json",
+ "w11-bio-endocrine-control-pth-calcitonin-1.json"
 ]

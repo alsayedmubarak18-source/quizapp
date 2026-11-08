@@ -1,0 +1,652 @@
+{
+ "id": "w9-clinical-lactation-1",
+ "title": "Lactation (Clinical): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w9-clinical-lactation",
+ "questions": [
+  {
+   "q": "WHO recommends exclusive breastfeeding for:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "1 month",
+     "e": "Wrong. Too short."
+    },
+    {
+     "t": "12 months",
+     "e": "Wrong. Not exclusive."
+    },
+    {
+     "t": "3 months",
+     "e": "Wrong. Too short."
+    },
+    {
+     "t": "6 months",
+     "e": "Correct. Then continue with foods up to 2 years or beyond."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Average daily milk output once lactation is established is about:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "50 mL",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "3 L",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "750 mL",
+     "e": "Correct. Costs about 500 kcal/day."
+    },
+    {
+     "t": "200 mL",
+     "e": "Wrong. Too low."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "How many lobes are in each breast?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "2-3",
+     "e": "Wrong. Too few."
+    },
+    {
+     "t": "15-20",
+     "e": "Correct. Lobes, lobules, alveoli."
+    },
+    {
+     "t": "50-60",
+     "e": "Wrong. Too many."
+    },
+    {
+     "t": "1",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Anatomy"
+  },
+  {
+   "q": "The mammary gland is a modified:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Apocrine sweat gland",
+     "e": "Correct. In the superficial fascia."
+    },
+    {
+     "t": "Sebaceous gland",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Eccrine gland",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Exocrine pancreas",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Anatomy"
+  },
+  {
+   "q": "The breast is supported by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Pectoral fascia only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Rib cartilage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Latissimus dorsi",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cooper's ligaments",
+     "e": "Correct. Suspensory ligaments."
+    }
+   ],
+   "topic": "Anatomy"
+  },
+  {
+   "q": "About what percentage of breast lymph drains to axillary nodes?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "10%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "About 75%",
+     "e": "Correct. Rest to parasternal nodes."
+    },
+    {
+     "t": "25%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Anatomy"
+  },
+  {
+   "q": "The nipple is supplied by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "C5",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "T4 intercostal nerve",
+     "e": "Correct. Drives suckling reflexes."
+    },
+    {
+     "t": "L1",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "T10",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Anatomy"
+  },
+  {
+   "q": "Myoepithelial cells:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Contract with oxytocin to expel milk",
+     "e": "Correct. Around alveoli."
+    },
+    {
+     "t": "Make milk lipids",
+     "e": "Wrong. Luminal cells."
+    },
+    {
+     "t": "Secrete prolactin",
+     "e": "Wrong. Pituitary."
+    },
+    {
+     "t": "Store milk only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Histology"
+  },
+  {
+   "q": "The resting mammary gland mainly contains:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Distended alveoli",
+     "e": "Wrong. Lactating."
+    },
+    {
+     "t": "Only fat",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only alveoli",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ducts in fat and connective tissue with few rudimentary alveoli",
+     "e": "Correct. Lactating gland has distended alveoli."
+    }
+   ],
+   "topic": "Histology"
+  },
+  {
+   "q": "At puberty mammary ductal growth is driven by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Progesterone",
+     "e": "Wrong. Lobules."
+    },
+    {
+     "t": "Oxytocin",
+     "e": "Wrong. Ejection."
+    },
+    {
+     "t": "Estrogen",
+     "e": "Correct. With GH and IGF-1."
+    },
+    {
+     "t": "Prolactin alone",
+     "e": "Wrong. Milk synthesis."
+    }
+   ],
+   "topic": "Development"
+  },
+  {
+   "q": "Lobuloalveolar growth in pregnancy needs:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Estrogen alone",
+     "e": "Wrong. Ducts."
+    },
+    {
+     "t": "Progesterone, prolactin and hPL",
+     "e": "Correct. On estrogen-built ducts."
+    },
+    {
+     "t": "Oxytocin only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Testosterone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Development"
+  },
+  {
+   "q": "Involution after weaning occurs through:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Alveolar cell apoptosis",
+     "e": "Correct. Gland remodels."
+    },
+    {
+     "t": "Hyperplasia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Necrosis only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increase in alveoli",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Development"
+  },
+  {
+   "q": "Prolactin's main role is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Milk ejection",
+     "e": "Wrong. Oxytocin."
+    },
+    {
+     "t": "Ductal growth",
+     "e": "Wrong. Estrogen."
+    },
+    {
+     "t": "Inhibiting lactation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Alveolar differentiation and milk synthesis",
+     "e": "Correct. From anterior pituitary lactotrophs."
+    }
+   ],
+   "topic": "Hormones"
+  },
+  {
+   "q": "High progesterone in pregnancy:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Triggers copious milk",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Causes ejection",
+     "e": "Wrong. Oxytocin."
+    },
+    {
+     "t": "Blocks prolactin's action on the breast until delivery",
+     "e": "Correct. Falls after placenta delivery."
+    },
+    {
+     "t": "Has no effect",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Hormones"
+  },
+  {
+   "q": "Lactogenesis II ('milk coming in') is triggered by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Rise in estrogen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The fall in progesterone after delivery of the placenta while prolactin stays high",
+     "e": "Correct. Day 2-3 to 5."
+    },
+    {
+     "t": "Rise in progesterone",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Weaning",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Lactogenesis"
+  },
+  {
+   "q": "In lactogenesis I (mid-pregnancy) the breast makes:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Small amounts of colostrum",
+     "e": "Correct. Tight junctions are leaky."
+    },
+    {
+     "t": "Copious mature milk",
+     "e": "Wrong. Lactogenesis II."
+    },
+    {
+     "t": "No secretory differentiation",
+     "e": "Wrong. Begins."
+    },
+    {
+     "t": "Only fat",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Lactogenesis"
+  },
+  {
+   "q": "Lactogenesis III is controlled by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Progesterone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Estrogen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Placental hormones",
+     "e": "Wrong. Gone."
+    },
+    {
+     "t": "Milk removal: supply equals demand",
+     "e": "Correct. Autocrine control."
+    }
+   ],
+   "topic": "Lactogenesis"
+  },
+  {
+   "q": "Milk stasis lowers output via:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Increased prolactin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increased oxytocin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Feedback inhibitor of lactation (FIL)",
+     "e": "Correct. Accumulating in the breast."
+    },
+    {
+     "t": "Estrogen",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Lactogenesis"
+  },
+  {
+   "q": "The prolactin reflex involves:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increased dopamine",
+     "e": "Wrong. Inhibits prolactin."
+    },
+    {
+     "t": "Suckling lowers hypothalamic dopamine, so lactotrophs release prolactin",
+     "e": "Correct. Prolactin made during a feed is for the next feed."
+    },
+    {
+     "t": "Posterior pituitary release",
+     "e": "Wrong. Oxytocin."
+    },
+    {
+     "t": "Estrogen surge",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Reflexes"
+  },
+  {
+   "q": "The oxytocin reflex acts to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Contract myoepithelial cells causing let-down",
+     "e": "Correct. Also uterine contraction."
+    },
+    {
+     "t": "Increase milk synthesis",
+     "e": "Wrong. Prolactin."
+    },
+    {
+     "t": "Inhibit ejection",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Raise prolactin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Reflexes"
+  },
+  {
+   "q": "Stress and pain reduce let-down because:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "They raise oxytocin",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "They increase prolactin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "They have no effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adrenaline inhibits oxytocin release",
+     "e": "Correct. Relaxation promotes."
+    }
+   ],
+   "topic": "Supply"
+  },
+  {
+   "q": "Which raises prolactin?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cabergoline",
+     "e": "Wrong. Dopamine agonist lowers prolactin."
+    },
+    {
+     "t": "Bromocriptine",
+     "e": "Wrong. Dopamine agonist lowers prolactin."
+    },
+    {
+     "t": "Dopamine antagonists such as metoclopramide and domperidone",
+     "e": "Correct. Dopamine inhibits prolactin."
+    },
+    {
+     "t": "Estrogen-containing contraceptives",
+     "e": "Wrong. Reduce supply."
+    }
+   ],
+   "topic": "Supply"
+  },
+  {
+   "q": "Which is a cause of low milk supply?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Frequent suckling",
+     "e": "Wrong. Increases."
+    },
+    {
+     "t": "Sheehan syndrome or retained placental fragments",
+     "e": "Correct. Also hypothyroidism."
+    },
+    {
+     "t": "Skin-to-skin contact",
+     "e": "Wrong. Promotes."
+    },
+    {
+     "t": "Early initiation",
+     "e": "Wrong. Promotes."
+    }
+   ],
+   "topic": "Supply"
+  },
+  {
+   "q": "The enzyme complex making lactose is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Lactose synthase (galactosyltransferase + alpha-lactalbumin)",
+     "e": "Correct. In the Golgi."
+    },
+    {
+     "t": "Lactase",
+     "e": "Wrong. Digests lactose."
+    },
+    {
+     "t": "Amylase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lipase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Biochemistry"
+  },
+  {
+   "q": "Alpha-lactalbumin:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Digests lactose",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is an antibody",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is a fat",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lowers the Km of galactosyltransferase for glucose, so lactose is made only in the lactating gland",
+     "e": "Correct. Induced by prolactin."
+    }
+   ],
+   "topic": "Biochemistry"
+  },
+  {
+   "q": "Lactose largely determines milk volume because:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "It is a fat",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "It is a protein",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "It is the main osmole drawing water into Golgi vesicles",
+     "e": "Correct. Milk is isosmotic."
+    },
+    {
+     "t": "It blocks water",
+     "e": "Wrong. Opposite."
+    }
+   ],
+   "topic": "Biochemistry"
+  },
+  {
+   "q": "Prolactin signaling in alveolar cells uses:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "cAMP-PKA only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "JAK2-STAT5",
+     "e": "Correct. Switches on milk protein genes."
+    },
+    {
+     "t": "Insulin receptor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Steroid receptor",
+     "e": "Wrong. Prolactin receptor is cytokine-family."
+    }
+   ],
+   "topic": "Biochemistry"
+  },
+  {
+   "q": "Milk fat de novo synthesis produces mainly:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Medium-chain fatty acids (C8-C14)",
+     "e": "Correct. Via acetyl-CoA carboxylase and FAS."
+    },
+    {
+     "t": "Very long chain fatty acids",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cholesterol only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "DHA",
+     "e": "Wrong. From maternal diet."
+    }
+   ],
+   "topic": "Biochemistry"
+  }
+ ]
+}

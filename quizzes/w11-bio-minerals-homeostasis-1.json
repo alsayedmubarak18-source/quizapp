@@ -1,0 +1,698 @@
+{
+ "id": "w11-bio-minerals-homeostasis-1",
+ "title": "Minerals Homeostasis (Ca, P, Mg, S): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w11-biochemistry-minerals-homeostasis",
+ "questions": [
+  {
+   "q": "Macrominerals are those needed in a daily amount of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Less than 100 mg",
+     "e": "Wrong. Microminerals."
+    },
+    {
+     "t": "Exactly 1 g",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "More than 100 mg",
+     "e": "Correct. Ca, Mg, P, Na, K, Cl."
+    },
+    {
+     "t": "Micrograms only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "The mineral phase of bone is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hydroxyapatite, Ca10(PO4)6(OH)2",
+     "e": "Correct. On a type I collagen matrix."
+    },
+    {
+     "t": "Calcium carbonate only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Magnesium sulfate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calcium oxalate",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Bone"
+  },
+  {
+   "q": "Alkaline phosphatase promotes mineralization by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Resorbing bone",
+     "e": "Wrong. Osteoclasts."
+    },
+    {
+     "t": "Binding calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Forming collagen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Freeing phosphate so local Ca x P reaches supersaturation",
+     "e": "Correct. Calcitriol raises its secretion."
+    }
+   ],
+   "topic": "Bone"
+  },
+  {
+   "q": "What percentage of body calcium is in bone?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "99%",
+     "e": "Correct. 1% in ECF."
+    },
+    {
+     "t": "50%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "10%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "75%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcium"
+  },
+  {
+   "q": "Daily calcium requirement during pregnancy and lactation is about:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "100 mg",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "500 mg",
+     "e": "Wrong. Adult."
+    },
+    {
+     "t": "3000 mg",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "1500 mg",
+     "e": "Correct. Adult 500 mg, child 1200 mg."
+    }
+   ],
+   "topic": "Calcium"
+  },
+  {
+   "q": "Calcium is absorbed mainly in the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Colon",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "First and second parts of the duodenum by active transport",
+     "e": "Correct. Needs calbindin."
+    },
+    {
+     "t": "Stomach",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ileum only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcium"
+  },
+  {
+   "q": "Calcium absorption is increased by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Calcitriol (induces calbindin) and acidity",
+     "e": "Correct. Also lysine and arginine."
+    },
+    {
+     "t": "Phytic acid",
+     "e": "Wrong. Decreases."
+    },
+    {
+     "t": "Oxalates",
+     "e": "Wrong. Decreases."
+    },
+    {
+     "t": "Excess phosphate",
+     "e": "Wrong. Decreases."
+    }
+   ],
+   "topic": "Calcium"
+  },
+  {
+   "q": "Which decreases calcium absorption?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Calcitriol",
+     "e": "Wrong. Increases."
+    },
+    {
+     "t": "Acidity",
+     "e": "Wrong. Increases."
+    },
+    {
+     "t": "Lysine",
+     "e": "Wrong. Increases."
+    },
+    {
+     "t": "Oxalates and phytates",
+     "e": "Correct. Insoluble salts."
+    }
+   ],
+   "topic": "Calcium"
+  },
+  {
+   "q": "In muscle, calcium triggers contraction by binding:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Troponin C",
+     "e": "Correct. Released from sarcoplasmic reticulum."
+    },
+    {
+     "t": "Myosin heavy chain",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Actin directly",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tropomyosin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcium"
+  },
+  {
+   "q": "Total serum calcium is normally:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "2-3 mg/dl",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "15-20 mg/dl",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "9-11 mg/dl",
+     "e": "Correct. Ionized 5 mg/dl."
+    },
+    {
+     "t": "5-6 mg/dl",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Blood calcium"
+  },
+  {
+   "q": "The physiologically active fraction of serum calcium is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Protein-bound",
+     "e": "Wrong. Non-diffusible."
+    },
+    {
+     "t": "Ionized, about 5 mg/dl",
+     "e": "Correct. Diffusible."
+    },
+    {
+     "t": "Complexed with citrate",
+     "e": "Wrong. Diffusible but inactive."
+    },
+    {
+     "t": "Total",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Blood calcium"
+  },
+  {
+   "q": "A fall of 1 g/dl in albumin lowers total calcium by about:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "0.8 mg/dl, with normal ionized calcium and no symptoms",
+     "e": "Correct. Nephrosis, malnutrition."
+    },
+    {
+     "t": "8 mg/dl",
+     "e": "Wrong. Too much."
+    },
+    {
+     "t": "0.08 mg/dl",
+     "e": "Wrong. Too little."
+    },
+    {
+     "t": "It raises calcium",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Blood calcium"
+  },
+  {
+   "q": "Alkalosis causes tetany because:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Total calcium falls",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "PTH rises",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calcitonin rises",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "More calcium is bound to protein, so ionized calcium falls",
+     "e": "Correct. Total calcium normal."
+    }
+   ],
+   "topic": "Blood calcium"
+  },
+  {
+   "q": "Calcitriol is formed by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hydroxylation in the intestine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Synthesis in the thyroid",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "25-hydroxylation in the liver then 1-hydroxylation in the kidney",
+     "e": "Correct. From 7-dehydrocholesterol in skin."
+    },
+    {
+     "t": "Conversion in the parathyroid",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcitriol"
+  },
+  {
+   "q": "In the kidney calcitriol increases reabsorption of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Calcium only",
+     "e": "Wrong. PTH."
+    },
+    {
+     "t": "Both calcium and phosphate",
+     "e": "Correct. PTH conserves only Ca."
+    },
+    {
+     "t": "Phosphate only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Neither",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcitriol"
+  },
+  {
+   "q": "PTH is secreted by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Chief cells of the parathyroid",
+     "e": "Correct. Mature 84 aa."
+    },
+    {
+     "t": "Parafollicular cells",
+     "e": "Wrong. Calcitonin."
+    },
+    {
+     "t": "Thyroid follicular cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adrenal cortex",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "PTH release is controlled by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Positive feedback of calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "TSH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "ACTH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Negative feedback of ionized calcium via CaSR",
+     "e": "Correct. Low Ca raises PTH."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "An inactivating mutation of the calcium-sensing receptor causes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hypocalcemia with hypercalciuria",
+     "e": "Wrong. Activating mutation."
+    },
+    {
+     "t": "Rickets",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hypercalcemia with hypocalciuria",
+     "e": "Correct. Set point shifted."
+    },
+    {
+     "t": "Tetany",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "PTH affects phosphate by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increasing renal reabsorption",
+     "e": "Wrong. Calcitriol."
+    },
+    {
+     "t": "Increasing its urinary excretion",
+     "e": "Correct. Inhibits tubular reabsorption."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Binding it in bone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "Calcitonin comes from and acts to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Parafollicular cells; lowers blood calcium",
+     "e": "Correct. Tumor marker of medullary thyroid carcinoma."
+    },
+    {
+     "t": "Chief cells; raises calcium",
+     "e": "Wrong. PTH."
+    },
+    {
+     "t": "Liver; raises calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Kidney; lowers phosphate only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcitonin"
+  },
+  {
+   "q": "Hypercalcemia is mainly caused by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Vitamin D deficiency",
+     "e": "Wrong. Causes hypocalcemia."
+    },
+    {
+     "t": "Hypoparathyroidism",
+     "e": "Wrong. Hypocalcemia."
+    },
+    {
+     "t": "Alkalosis",
+     "e": "Wrong. Lowers ionized Ca."
+    },
+    {
+     "t": "Hyperparathyroidism (adenoma)",
+     "e": "Correct. Calcium above 11 mg/dl."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Labs in primary hyperparathyroidism show:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Low calcium and high phosphate",
+     "e": "Wrong. Hypoparathyroidism."
+    },
+    {
+     "t": "High calcium and high phosphate",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "High calcium and low phosphate",
+     "e": "Correct. ALP may be high."
+    },
+    {
+     "t": "Low both",
+     "e": "Wrong. Not typical."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Treatment of acute tetany is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Oral vitamin D only",
+     "e": "Wrong. Too slow."
+    },
+    {
+     "t": "IV furosemide",
+     "e": "Wrong. For hypercalcemia."
+    },
+    {
+     "t": "Calcitonin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IV calcium gluconate given slowly",
+     "e": "Correct. 10 ml of 10% over 10 min."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Vitamin D deficiency typically causes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Tetany",
+     "e": "Wrong. Hypoparathyroidism."
+    },
+    {
+     "t": "Osteopetrosis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Rickets with only a marginal fall in calcium, not tetany",
+     "e": "Correct. Lecture point."
+    },
+    {
+     "t": "Hypercalcemia",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "In pseudohypoparathyroidism:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "PTH is absent",
+     "e": "Wrong. Hypoparathyroidism."
+    },
+    {
+     "t": "PTH is normal but target organs are resistant, giving hypocalcemia and hyperphosphatemia",
+     "e": "Correct. X-linked dominant."
+    },
+    {
+     "t": "Calcium is high",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Phosphate is low",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Osteopetrosis is caused by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Carbonic anhydrase II mutation so osteoclasts cannot resorb bone",
+     "e": "Correct. Marble bone."
+    },
+    {
+     "t": "Vitamin D deficiency",
+     "e": "Wrong. Rickets."
+    },
+    {
+     "t": "Low estrogen",
+     "e": "Wrong. Osteoporosis."
+    },
+    {
+     "t": "PTH excess",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Bone disease"
+  },
+  {
+   "q": "The osteoclast-specific marker of resorption is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Osteocalcin",
+     "e": "Wrong. Formation marker."
+    },
+    {
+     "t": "PINP",
+     "e": "Wrong. Formation marker."
+    },
+    {
+     "t": "TRAP 5b",
+     "e": "Correct. Tartrate-resistant acid phosphatase."
+    },
+    {
+     "t": "Bone ALP",
+     "e": "Wrong. Formation marker."
+    }
+   ],
+   "topic": "Bone markers"
+  },
+  {
+   "q": "FGF-23 acts to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increase phosphate reabsorption",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Inhibit renal phosphate reabsorption and 1,25-(OH)2D synthesis",
+     "e": "Correct. Excess gives rickets or osteomalacia."
+    },
+    {
+     "t": "Increase calcitriol",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Raise serum phosphate",
+     "e": "Wrong. Opposite."
+    }
+   ],
+   "topic": "Phosphorus"
+  },
+  {
+   "q": "Magnesium is the ___ most abundant intracellular cation.",
+   "correct": 1,
+   "options": [
+    {
+     "t": "First",
+     "e": "Wrong. Potassium."
+    },
+    {
+     "t": "Second",
+     "e": "Correct. Fourth in the body overall."
+    },
+    {
+     "t": "Third",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fifth",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Magnesium"
+  },
+  {
+   "q": "Hypomagnesemia presents like calcium deficiency but:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Corrects with calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Corrects with vitamin D",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Needs no treatment",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Corrects only with magnesium",
+     "e": "Correct. Test when tetany resists calcium."
+    }
+   ],
+   "topic": "Magnesium"
+  }
+ ]
+}

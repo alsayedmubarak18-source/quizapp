@@ -1,0 +1,537 @@
+{
+ "id": "w11-bio-endocrine-control-pth-calcitonin-1",
+ "title": "Endocrine Control of Mineral Metabolism (PTH, Calcitonin): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w11-biochemistry-endocrine-control",
+ "questions": [
+  {
+   "q": "PTH is made as prepro-PTH of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "84 then 115",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "35 then 84",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "115 amino acids, processed to 84 amino acid PTH",
+     "e": "Correct. 35 aa are active."
+    },
+    {
+     "t": "200 amino acids",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "The biologically active part of PTH is the first:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "84",
+     "e": "Wrong. Whole hormone."
+    },
+    {
+     "t": "35 amino acids",
+     "e": "Correct. N-terminal."
+    },
+    {
+     "t": "115",
+     "e": "Wrong. Prepro."
+    },
+    {
+     "t": "10",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "PTH storage in the gland is about:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "1 hour",
+     "e": "Correct. Insulin days; thyroxine weeks."
+    },
+    {
+     "t": "1 week",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "1 month",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "1 year",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "Normal serum PTH is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "1000 ng/L",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "1 ng/L",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "500 ng/L",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "10-60 ng/L",
+     "e": "Correct. About 100 ng/L in primary hyperparathyroidism."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "PTH receptor signals through:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Tyrosine kinase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Nuclear receptor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adenyl cyclase, cAMP",
+     "e": "Correct. 70 kDa receptor."
+    },
+    {
+     "t": "Guanylyl cyclase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "PTH's effect on bone is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Mineralization",
+     "e": "Wrong. Calcitonin side."
+    },
+    {
+     "t": "Demineralization via more osteoclasts, lactate and collagenase",
+     "e": "Correct. Hydroxyproline in urine."
+    },
+    {
+     "t": "Inhibition of osteoclasts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "PTH's effect on the kidney is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Increased calcium reabsorption and increased phosphate excretion",
+     "e": "Correct. Also stimulates 1-hydroxylation."
+    },
+    {
+     "t": "Increased phosphate reabsorption",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Decreased calcium reabsorption",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "PTH raises intestinal calcium absorption:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Directly via calbindin",
+     "e": "Wrong. Calcitriol."
+    },
+    {
+     "t": "By acidifying",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "It lowers absorption",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Indirectly through calcitriol",
+     "e": "Correct. Stimulates renal 1-hydroxylase."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "Percentage of filtered phosphate normally reabsorbed is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "10%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "50%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "90%",
+     "e": "Correct. PTH inhibits this."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PTH"
+  },
+  {
+   "q": "Primary hyperparathyroidism is typically due to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Persistent hypocalcemia",
+     "e": "Wrong. Secondary."
+    },
+    {
+     "t": "Parathyroid adenoma or ectopic PTH-secreting tumor",
+     "e": "Correct. Ca high, P low."
+    },
+    {
+     "t": "Surgical removal",
+     "e": "Wrong. Hypoparathyroidism."
+    },
+    {
+     "t": "Vitamin D excess",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Secondary hyperparathyroidism follows:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Persistent hypocalcemia, e.g., renal disease, with osteitis fibrosa",
+     "e": "Correct. High turnover."
+    },
+    {
+     "t": "A parathyroid adenoma",
+     "e": "Wrong. Primary."
+    },
+    {
+     "t": "Hypercalcemia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Excess calcitonin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Bone X-ray in primary hyperparathyroidism shows:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increased density",
+     "e": "Wrong. Osteopetrosis."
+    },
+    {
+     "t": "Normal bone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Looser zones only",
+     "e": "Wrong. Osteomalacia."
+    },
+    {
+     "t": "Punched-out areas and risk of pathological fracture",
+     "e": "Correct. Osteoporosis."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Hypoparathyroidism gives:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "High calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Low phosphate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Low calcium, high phosphate, tetany",
+     "e": "Correct. Urinary Ca and P low."
+    },
+    {
+     "t": "Osteitis fibrosa",
+     "e": "Wrong. Hyperparathyroidism."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "The EDTA test in normal persons shows:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "No change in calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calcium recovers in 6-12 hours, longer in hypoparathyroidism",
+     "e": "Correct. EDTA lowers Ca."
+    },
+    {
+     "t": "Calcium rises",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Immediate recovery in hypoparathyroidism",
+     "e": "Wrong. Delayed."
+    }
+   ],
+   "topic": "Tests"
+  },
+  {
+   "q": "In the calcium load test in normal persons:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "IV calcium lowers PTH",
+     "e": "Correct. Negative feedback."
+    },
+    {
+     "t": "PTH rises",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "PTH is unchanged",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calcitonin falls",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Tests"
+  },
+  {
+   "q": "Calcitonin is secreted by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Chief cells",
+     "e": "Wrong. PTH."
+    },
+    {
+     "t": "Follicular cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adrenal medulla",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Parafollicular (clear) cells of the thyroid",
+     "e": "Correct. 32-34 amino acids."
+    }
+   ],
+   "topic": "Calcitonin"
+  },
+  {
+   "q": "Calcitonin secretion is stimulated by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Low calcium",
+     "e": "Wrong. Inhibits."
+    },
+    {
+     "t": "PTH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Serum calcium, gastrin, glucagon and biological amines",
+     "e": "Correct. Lecture list."
+    },
+    {
+     "t": "TSH",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcitonin"
+  },
+  {
+   "q": "Calcitonin effect on blood calcium and bone is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Raises calcium",
+     "e": "Wrong. PTH."
+    },
+    {
+     "t": "Lowers calcium; inhibits resorption with fewer osteoclasts",
+     "e": "Correct. Opposes PTH."
+    },
+    {
+     "t": "Increases resorption",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcitonin"
+  },
+  {
+   "q": "Calcitonin effect on renal phosphate is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Increases phosphorus excretion like PTH",
+     "e": "Correct. Both raise excretion."
+    },
+    {
+     "t": "Decreases excretion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increases reabsorption",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Calcitonin"
+  },
+  {
+   "q": "Calcitonin is raised in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Hypoparathyroidism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Rickets",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hyperparathyroidism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Medullary carcinoma of thyroid (tumor marker), MEN, and ectopic secretion from lung tumors",
+     "e": "Correct. Clinical use."
+    }
+   ],
+   "topic": "Calcitonin"
+  },
+  {
+   "q": "When blood calcium falls:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "PTH inhibited",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Calcitonin stimulated",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "PTH is stimulated and calcitonin inhibited",
+     "e": "Correct. Bone releases Ca."
+    },
+    {
+     "t": "No change",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Integration"
+  },
+  {
+   "q": "When blood calcium rises:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "PTH stimulated",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "PTH is inhibited and calcitonin secreted so calcium moves into bone",
+     "e": "Correct. Opposite of low Ca."
+    },
+    {
+     "t": "Calcitonin inhibited",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Bone demineralizes",
+     "e": "Wrong. Opposite."
+    }
+   ],
+   "topic": "Integration"
+  },
+  {
+   "q": "Which compares correctly?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Vitamin D raises calcium via gut absorption; PTH via bone demineralization; calcitonin lowers",
+     "e": "Correct. Lecture comparison."
+    },
+    {
+     "t": "Calcitonin raises calcium",
+     "e": "Wrong. Lowers."
+    },
+    {
+     "t": "PTH lowers calcium",
+     "e": "Wrong. Raises."
+    },
+    {
+     "t": "Vitamin D lowers calcium",
+     "e": "Wrong. Raises."
+    }
+   ],
+   "topic": "Integration"
+  }
+ ]
+}

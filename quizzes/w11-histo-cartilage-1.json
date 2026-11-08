@@ -1,0 +1,537 @@
+{
+ "id": "w11-histo-cartilage-1",
+ "title": "Histology of Cartilage: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w11-histology-chondral-tissue",
+ "questions": [
+  {
+   "q": "Cartilage is derived from:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Ectoderm",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mesenchyme",
+     "e": "Correct. Supportive CT."
+    },
+    {
+     "t": "Endoderm",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Neural crest only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "General"
+  },
+  {
+   "q": "The three types of cartilage are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hyaline, elastic and fibrocartilage",
+     "e": "Correct. Classification."
+    },
+    {
+     "t": "Hyaline, bony, elastic",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Compact, spongy, elastic",
+     "e": "Wrong. Bone types."
+    },
+    {
+     "t": "Hyaline only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "General"
+  },
+  {
+   "q": "Cartilage is characteristically:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Highly vascular",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Innervated richly",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calcified",
+     "e": "Wrong. Bone."
+    },
+    {
+     "t": "Avascular with anaerobic metabolism",
+     "e": "Correct. Nutrition by diffusion."
+    }
+   ],
+   "topic": "General"
+  },
+  {
+   "q": "The perichondrium is absent in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Elastic cartilage",
+     "e": "Wrong. Present."
+    },
+    {
+     "t": "Tracheal hyaline cartilage",
+     "e": "Wrong. Present."
+    },
+    {
+     "t": "Articular hyaline cartilage and fibrocartilage",
+     "e": "Correct. Present elsewhere."
+    },
+    {
+     "t": "Costal cartilage",
+     "e": "Wrong. Present."
+    }
+   ],
+   "topic": "Perichondrium"
+  },
+  {
+   "q": "The perichondrium outer layer is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cellular chondroblast layer",
+     "e": "Wrong. Inner."
+    },
+    {
+     "t": "Fibrous (collagen, fibroblasts, vessels)",
+     "e": "Correct. Inner layer is cellular."
+    },
+    {
+     "t": "Calcified",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Elastic",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Perichondrium"
+  },
+  {
+   "q": "Articular cartilage is nourished by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Synovial fluid",
+     "e": "Correct. No perichondrium."
+    },
+    {
+     "t": "Perichondrial vessels",
+     "e": "Wrong. Absent."
+    },
+    {
+     "t": "Direct blood vessels",
+     "e": "Wrong. Avascular."
+    },
+    {
+     "t": "Bone marrow only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Nutrition"
+  },
+  {
+   "q": "Fibrocartilage is nourished by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Synovial fluid",
+     "e": "Wrong. Articular."
+    },
+    {
+     "t": "Its own vessels",
+     "e": "Wrong. Avascular."
+    },
+    {
+     "t": "Perichondrium",
+     "e": "Wrong. Absent."
+    },
+    {
+     "t": "Surrounding connective tissue",
+     "e": "Correct. No perichondrium."
+    }
+   ],
+   "topic": "Nutrition"
+  },
+  {
+   "q": "Hyaline cartilage matrix fibers are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Type I bundles",
+     "e": "Wrong. Fibrocartilage."
+    },
+    {
+     "t": "Elastic fibers only",
+     "e": "Wrong. Elastic."
+    },
+    {
+     "t": "Type II collagen fibrils",
+     "e": "Correct. Basophilic matrix."
+    },
+    {
+     "t": "Reticular",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Hyaline"
+  },
+  {
+   "q": "Hyaline cartilage is found in:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Ear pinna",
+     "e": "Wrong. Elastic."
+    },
+    {
+     "t": "Fetal skeleton, epiphyseal plate, articular surfaces, costal cartilage and large airways",
+     "e": "Correct. Most common."
+    },
+    {
+     "t": "Intervertebral disc",
+     "e": "Wrong. Fibro."
+    },
+    {
+     "t": "Epiglottis",
+     "e": "Wrong. Elastic."
+    }
+   ],
+   "topic": "Hyaline"
+  },
+  {
+   "q": "Chondroblasts are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Young surface cells without lacunae with basophilic cytoplasm",
+     "e": "Correct. Synthesize matrix."
+    },
+    {
+     "t": "Mature cells in lacunae",
+     "e": "Wrong. Chondrocytes."
+    },
+    {
+     "t": "Bone-resorbing cells",
+     "e": "Wrong. Osteoclasts."
+    },
+    {
+     "t": "Stem cells of bone",
+     "e": "Wrong. Osteogenic."
+    }
+   ],
+   "topic": "Cells"
+  },
+  {
+   "q": "Chondrocytes are found:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "On the surface",
+     "e": "Wrong. Chondroblasts."
+    },
+    {
+     "t": "In the perichondrium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Without matrix",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inside lacunae, singly or in groups of up to 8 (cell nests)",
+     "e": "Correct. Mature."
+    }
+   ],
+   "topic": "Cells"
+  },
+  {
+   "q": "The territorial (capsular) matrix is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Between capsules",
+     "e": "Wrong. Interterritorial."
+    },
+    {
+     "t": "Calcified",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Around each lacuna, rich in ground substance and more basophilic",
+     "e": "Correct. Interterritorial is fiber-rich."
+    },
+    {
+     "t": "Fibrous",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Matrix"
+  },
+  {
+   "q": "Ground substance of cartilage contains:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only collagen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hyaluronic acid, proteoglycans and glycoproteins (chondronectin)",
+     "e": "Correct. Chondroitin sulphate."
+    },
+    {
+     "t": "Only water",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hydroxyapatite",
+     "e": "Wrong. Bone."
+    }
+   ],
+   "topic": "Matrix"
+  },
+  {
+   "q": "Fresh elastic cartilage is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Yellowish",
+     "e": "Correct. Rich in elastic fibers."
+    },
+    {
+     "t": "Bluish-white",
+     "e": "Wrong. Hyaline."
+    },
+    {
+     "t": "White opaque",
+     "e": "Wrong. Fibro."
+    },
+    {
+     "t": "Red",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Elastic"
+  },
+  {
+   "q": "The '4 Es' of elastic cartilage are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Esophagus, ear, eye, epiglottis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Elbow, ear, eye, epiglottis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ear, eyelid, esophagus, epiglottis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ear pinna, external auditory canal, Eustachian tube, epiglottis",
+     "e": "Correct. Sites."
+    }
+   ],
+   "topic": "Elastic"
+  },
+  {
+   "q": "Fibrocartilage matrix contains:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Type II fibrils",
+     "e": "Wrong. Hyaline."
+    },
+    {
+     "t": "Elastic fibers",
+     "e": "Wrong. Elastic."
+    },
+    {
+     "t": "Type I collagen bundles with chondrocytes in rows",
+     "e": "Correct. No perichondrium."
+    },
+    {
+     "t": "Calcium salts",
+     "e": "Wrong. Bone."
+    }
+   ],
+   "topic": "Fibro"
+  },
+  {
+   "q": "Fibrocartilage is found in:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Trachea",
+     "e": "Wrong. Hyaline."
+    },
+    {
+     "t": "Intervertebral discs and symphysis pubis",
+     "e": "Correct. Shock absorber."
+    },
+    {
+     "t": "Epiglottis",
+     "e": "Wrong. Elastic."
+    },
+    {
+     "t": "Nose",
+     "e": "Wrong. Hyaline."
+    }
+   ],
+   "topic": "Fibro"
+  },
+  {
+   "q": "The annulus fibrosus is formed of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Fibrocartilage surrounded by dense CT",
+     "e": "Correct. Peripheral."
+    },
+    {
+     "t": "Mucous CT",
+     "e": "Wrong. Nucleus pulposus."
+    },
+    {
+     "t": "Hyaline cartilage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Disc"
+  },
+  {
+   "q": "The nucleus pulposus is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Fibrocartilage",
+     "e": "Wrong. Annulus."
+    },
+    {
+     "t": "Elastic cartilage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Compact bone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mucous connective tissue at the center",
+     "e": "Correct. Remnant of notochord."
+    }
+   ],
+   "topic": "Disc"
+  },
+  {
+   "q": "Interstitial growth of cartilage occurs by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Division of chondroblasts under perichondrium",
+     "e": "Wrong. Appositional."
+    },
+    {
+     "t": "Calcification",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Division of chondrocytes inside the cartilage",
+     "e": "Correct. Early cartilage, epiphyseal plate."
+    },
+    {
+     "t": "Osteoblasts",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Growth"
+  },
+  {
+   "q": "Appositional growth occurs by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Division of chondrocytes",
+     "e": "Wrong. Interstitial."
+    },
+    {
+     "t": "Division of chondroblasts under the perichondrium",
+     "e": "Correct. From outside; more pronounced."
+    },
+    {
+     "t": "Osteoclasts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fibroblasts only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Growth"
+  },
+  {
+   "q": "Cartilage growth is stimulated by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "GH, thyroxine and testosterone",
+     "e": "Correct. Inhibited by cortisone and estradiol."
+    },
+    {
+     "t": "Cortisone",
+     "e": "Wrong. Inhibits."
+    },
+    {
+     "t": "Estradiol",
+     "e": "Wrong. Inhibits."
+    },
+    {
+     "t": "Hydrocortisone",
+     "e": "Wrong. Inhibits."
+    }
+   ],
+   "topic": "Growth"
+  },
+  {
+   "q": "Cartilage regeneration is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Rapid",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "By osteoclasts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Absent in children",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Slow and mostly by the perichondrium",
+     "e": "Correct. Degeneration increases with age."
+    }
+   ],
+   "topic": "Growth"
+  }
+ ]
+}

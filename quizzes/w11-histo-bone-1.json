@@ -1,0 +1,537 @@
+{
+ "id": "w11-histo-bone-1",
+ "title": "Histology of Bone: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w11-histology-osteal-tissue",
+ "questions": [
+  {
+   "q": "Bone is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Specialized connective tissue with calcified matrix, derived from mesenchyme",
+     "e": "Correct. Supportive."
+    },
+    {
+     "t": "Avascular cartilage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Epithelial tissue",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Muscle",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "General"
+  },
+  {
+   "q": "Which is NOT a function of bone?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Calcium and phosphate storage",
+     "e": "Wrong. Function."
+    },
+    {
+     "t": "Protection of vital organs",
+     "e": "Wrong. Function."
+    },
+    {
+     "t": "Haemopoiesis in marrow",
+     "e": "Wrong. Function."
+    },
+    {
+     "t": "Insulin secretion",
+     "e": "Correct. Not a bone function."
+    }
+   ],
+   "topic": "General"
+  },
+  {
+   "q": "The organic matter of bone matrix is mainly:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Type II collagen",
+     "e": "Wrong. Cartilage."
+    },
+    {
+     "t": "Elastin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Type I collagen, proteoglycans and glycoproteins",
+     "e": "Correct. Inorganic is calcium phosphate."
+    },
+    {
+     "t": "Keratin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Matrix"
+  },
+  {
+   "q": "The main inorganic component is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Sodium chloride",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calcium phosphate",
+     "e": "Correct. About 45%."
+    },
+    {
+     "t": "Magnesium only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Iron",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Matrix"
+  },
+  {
+   "q": "Osteogenic cells are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Stem cells in periosteum and endosteum",
+     "e": "Correct. Spindle shaped."
+    },
+    {
+     "t": "Bone resorbing cells",
+     "e": "Wrong. Osteoclasts."
+    },
+    {
+     "t": "Bone-forming cells",
+     "e": "Wrong. Osteoblasts."
+    },
+    {
+     "t": "Trapped cells in lacunae",
+     "e": "Wrong. Osteocytes."
+    }
+   ],
+   "topic": "Cells"
+  },
+  {
+   "q": "Osteogenic cells differentiate into osteoblasts in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Poorly vascularized areas",
+     "e": "Wrong. Chondroblasts."
+    },
+    {
+     "t": "Marrow only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cartilage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Well-vascularized areas with high O2 tension",
+     "e": "Correct. Chondroblasts in poorly vascularized."
+    }
+   ],
+   "topic": "Cells"
+  },
+  {
+   "q": "Osteoblasts are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Multinucleated cells",
+     "e": "Wrong. Osteoclasts."
+    },
+    {
+     "t": "Flat cells in lacunae",
+     "e": "Wrong. Osteocytes."
+    },
+    {
+     "t": "Cuboidal basophilic cells that synthesize organic matrix and deposit calcium",
+     "e": "Correct. On bone surfaces."
+    },
+    {
+     "t": "Spindle stem cells",
+     "e": "Wrong. Osteogenic."
+    }
+   ],
+   "topic": "Cells"
+  },
+  {
+   "q": "Osteocytes are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Bone resorbers",
+     "e": "Wrong. Osteoclasts."
+    },
+    {
+     "t": "Cells in lacunae connected by canaliculi that maintain bone",
+     "e": "Correct. Do not divide."
+    },
+    {
+     "t": "Stem cells",
+     "e": "Wrong. Osteogenic."
+    },
+    {
+     "t": "Matrix synthesizers on surfaces",
+     "e": "Wrong. Osteoblasts."
+    }
+   ],
+   "topic": "Cells"
+  },
+  {
+   "q": "Osteoclasts derive from:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Blood monocytes",
+     "e": "Correct. Large multinucleated."
+    },
+    {
+     "t": "Osteoblasts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mesenchymal fibroblasts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lymphocytes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cells"
+  },
+  {
+   "q": "The ruffled border is found in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Osteoblasts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Osteocytes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chondrocytes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Osteoclasts at Howship's lacunae",
+     "e": "Correct. Resorption."
+    }
+   ],
+   "topic": "Cells"
+  },
+  {
+   "q": "Primary (immature) bone differs from secondary bone by being:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Less cellular with regular lamellae",
+     "e": "Wrong. Secondary."
+    },
+    {
+     "t": "More mineralized",
+     "e": "Wrong. Secondary."
+    },
+    {
+     "t": "More cellular, with irregular collagen and fewer minerals",
+     "e": "Correct. Temporary."
+    },
+    {
+     "t": "Permanent",
+     "e": "Wrong. Secondary."
+    }
+   ],
+   "topic": "Types"
+  },
+  {
+   "q": "Primary bone persists in adults near:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Femur shaft",
+     "e": "Wrong. Replaced."
+    },
+    {
+     "t": "Skull sutures",
+     "e": "Correct. Otherwise replaced."
+    },
+    {
+     "t": "Vertebral bodies",
+     "e": "Wrong. Replaced."
+    },
+    {
+     "t": "Phalanges",
+     "e": "Wrong. Replaced."
+    }
+   ],
+   "topic": "Types"
+  },
+  {
+   "q": "Compact bone is found in:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The shaft of long bones",
+     "e": "Correct. Regular lamellae."
+    },
+    {
+     "t": "Vertebrae",
+     "e": "Wrong. Spongy."
+    },
+    {
+     "t": "Epiphyses",
+     "e": "Wrong. Spongy."
+    },
+    {
+     "t": "Flat bones mainly",
+     "e": "Wrong. Spongy centre."
+    }
+   ],
+   "topic": "Compact"
+  },
+  {
+   "q": "The periosteum has:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only cartilage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only osteoclasts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A single layer of epithelium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "An outer fibrous layer and an inner cellular layer of osteogenic cells and osteoblasts",
+     "e": "Correct. Vascular CT."
+    }
+   ],
+   "topic": "Compact"
+  },
+  {
+   "q": "The endosteum lines:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The outer surface",
+     "e": "Wrong. Periosteum."
+    },
+    {
+     "t": "Joint cavities",
+     "e": "Wrong. Synovium."
+    },
+    {
+     "t": "The inner surface of bone and marrow cavities",
+     "e": "Correct. Osteogenic cells and osteoblasts."
+    },
+    {
+     "t": "Haversian canals only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Compact"
+  },
+  {
+   "q": "Sharpey's fibers:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Connect osteons",
+     "e": "Wrong. Volkmann's canals."
+    },
+    {
+     "t": "Fix the periosteum to the bone",
+     "e": "Correct. Extend into outer circumferential lamellae."
+    },
+    {
+     "t": "Carry blood",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Are elastic fibers",
+     "e": "Wrong. Collagen."
+    }
+   ],
+   "topic": "Compact"
+  },
+  {
+   "q": "A Haversian system consists of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "4-20 concentric lamellae around a Haversian canal",
+     "e": "Correct. Osteon."
+    },
+    {
+     "t": "Irregular trabeculae",
+     "e": "Wrong. Spongy."
+    },
+    {
+     "t": "Cartilage cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bone marrow",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Compact"
+  },
+  {
+   "q": "Volkmann's canals:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Run inside osteons longitudinally",
+     "e": "Wrong. Haversian."
+    },
+    {
+     "t": "Contain osteoclasts only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Are lacunae",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Connect Haversian canals with each other and with periosteum/endosteum",
+     "e": "Correct. Transverse or oblique."
+    }
+   ],
+   "topic": "Compact"
+  },
+  {
+   "q": "Interstitial lamellae are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lamellae under the periosteum",
+     "e": "Wrong. External circumferential."
+    },
+    {
+     "t": "Lamellae next to the endosteum",
+     "e": "Wrong. Internal."
+    },
+    {
+     "t": "Irregular lamellae between Haversian systems",
+     "e": "Correct. Remnants of old osteons."
+    },
+    {
+     "t": "Concentric lamellae",
+     "e": "Wrong. Haversian."
+    }
+   ],
+   "topic": "Compact"
+  },
+  {
+   "q": "Spongy bone differs from compact bone by having:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Regular osteons",
+     "e": "Wrong. Compact."
+    },
+    {
+     "t": "Irregular trabeculae and no Haversian systems",
+     "e": "Correct. Many marrow cavities."
+    },
+    {
+     "t": "A single marrow cavity",
+     "e": "Wrong. Compact."
+    },
+    {
+     "t": "Volkmann's canals",
+     "e": "Wrong. Compact."
+    }
+   ],
+   "topic": "Spongy"
+  },
+  {
+   "q": "Osteocytes of spongy bone are nourished by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Diffusion from marrow cavities through canaliculi",
+     "e": "Correct. No Haversian canals."
+    },
+    {
+     "t": "Haversian canals",
+     "e": "Wrong. Compact."
+    },
+    {
+     "t": "Synovial fluid",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Perichondrium",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Spongy"
+  },
+  {
+   "q": "Spongy bone is found in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Shaft of femur",
+     "e": "Wrong. Compact."
+    },
+    {
+     "t": "Trachea",
+     "e": "Wrong. Cartilage."
+    },
+    {
+     "t": "Skin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vertebrae, epiphyses and flat bones",
+     "e": "Correct. Trabecular."
+    }
+   ],
+   "topic": "Spongy"
+  },
+  {
+   "q": "In a ground compact bone section, lacunae and canaliculi appear black because:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "They contain pigment",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "They contain blood",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "They are filled with air",
+     "e": "Correct. Unstained ground section."
+    },
+    {
+     "t": "They contain fat",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Practical"
+  }
+ ]
+}
