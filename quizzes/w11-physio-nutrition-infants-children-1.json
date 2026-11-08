@@ -1,0 +1,859 @@
+{
+ "id": "w11-physio-nutrition-infants-children-1",
+ "title": "Nutrition in Infants and Children: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w11-physiology-child-growth",
+ "questions": [
+  {
+   "q": "Compared with adults, the infant's metabolic rate per kg is about:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Half",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The same",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ten times",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Twice as high",
+     "e": "Correct. Large surface area and rapid growth."
+    }
+   ],
+   "topic": "Infant physiology"
+  },
+  {
+   "q": "Birth weight doubles by about ___ and triples by ___.",
+   "correct": 2,
+   "options": [
+    {
+     "t": "1 month; 3 months",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "1 year; 3 years",
+     "e": "Wrong. Too late."
+    },
+    {
+     "t": "5 months; 1 year",
+     "e": "Correct. Length increases 50% in year 1."
+    },
+    {
+     "t": "2 months; 6 months",
+     "e": "Wrong. Too early."
+    }
+   ],
+   "topic": "Infant physiology"
+  },
+  {
+   "q": "Infants tolerate fasting and dehydration poorly because:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "They have large glycogen stores",
+     "e": "Wrong. Small stores."
+    },
+    {
+     "t": "They have small energy and fluid reserves",
+     "e": "Correct. Also immature kidney."
+    },
+    {
+     "t": "Their kidneys concentrate well",
+     "e": "Wrong. Poor concentrating ability."
+    },
+    {
+     "t": "Their metabolic rate is low",
+     "e": "Wrong. High."
+    }
+   ],
+   "topic": "Infant physiology"
+  },
+  {
+   "q": "Infant energy requirement is about:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "100-120 kcal/kg/day",
+     "e": "Correct. Adult 25-30."
+    },
+    {
+     "t": "25-30 kcal/kg/day",
+     "e": "Wrong. Adult."
+    },
+    {
+     "t": "300 kcal/kg/day",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "10 kcal/kg/day",
+     "e": "Wrong. Too low."
+    }
+   ],
+   "topic": "Requirements"
+  },
+  {
+   "q": "Infant protein requirement is about:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "0.8 g/kg/day",
+     "e": "Wrong. Adult."
+    },
+    {
+     "t": "5 g/kg/day",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "0.2 g/kg/day",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "2 g/kg/day",
+     "e": "Correct. Adult 0.8."
+    }
+   ],
+   "topic": "Requirements"
+  },
+  {
+   "q": "Infant water requirement is about:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "30 mL/kg/day",
+     "e": "Wrong. Adult."
+    },
+    {
+     "t": "500 mL/kg/day",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "150 mL/kg/day",
+     "e": "Correct. Adult 30-40."
+    },
+    {
+     "t": "10 mL/kg/day",
+     "e": "Wrong. Too low."
+    }
+   ],
+   "topic": "Requirements"
+  },
+  {
+   "q": "Fat provides what share of infant energy?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "10%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "40-50%",
+     "e": "Correct. Adult 25-30%."
+    },
+    {
+     "t": "80%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "25-30%",
+     "e": "Wrong. Adult."
+    }
+   ],
+   "topic": "Requirements"
+  },
+  {
+   "q": "Gastric pH in the newborn is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "6-7, falling to 2-3 by 2-3 months",
+     "e": "Correct. Adult pattern by 2 years."
+    },
+    {
+     "t": "1-2",
+     "e": "Wrong. Adult."
+    },
+    {
+     "t": "9",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Constant at 2",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Digestion"
+  },
+  {
+   "q": "Pancreatic amylase in the neonate is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Very high",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adult level at birth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Absent forever",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Very low, rising significantly at 4-6 months",
+     "e": "Correct. Adult by 2 years."
+    }
+   ],
+   "topic": "Digestion"
+  },
+  {
+   "q": "Fat digestion in infants is compensated by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "High pancreatic lipase",
+     "e": "Wrong. Low."
+    },
+    {
+     "t": "Amylase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lingual/gastric lipases and breast milk bile salt-stimulated lipase",
+     "e": "Correct. Low pancreatic lipase and bile salts."
+    },
+    {
+     "t": "Pepsin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Digestion"
+  },
+  {
+   "q": "Infant gut permeability is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Low",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "High, allowing macromolecule uptake, closing within weeks to months",
+     "e": "Correct. IgA and antigens."
+    },
+    {
+     "t": "Zero",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Constant",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Digestion"
+  },
+  {
+   "q": "Physiological jaundice in neonates is due to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Immature glucuronyl transferase",
+     "e": "Correct. Liver conjugation."
+    },
+    {
+     "t": "High bile salts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hemolysis only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "High lipase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Metabolism"
+  },
+  {
+   "q": "Neonatal bleeding risk is due to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "High vitamin K",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Excess calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "High iron",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Low vitamin K stores and sterile gut",
+     "e": "Correct. 1 mg IM at birth."
+    }
+   ],
+   "topic": "Metabolism"
+  },
+  {
+   "q": "Hypoglycemia risk in infants is due to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Large glycogen stores",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "High insulin always",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Small liver glycogen stores",
+     "e": "Correct. Energy reserves."
+    },
+    {
+     "t": "Low metabolic rate",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Metabolism"
+  },
+  {
+   "q": "Breast milk protein is about 1% with whey:casein ratio of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "20:80",
+     "e": "Wrong. Cow milk."
+    },
+    {
+     "t": "60:40",
+     "e": "Correct. Cow milk is 20:80."
+    },
+    {
+     "t": "50:50",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "100:0",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Breast milk"
+  },
+  {
+   "q": "Whey-predominant curd in breast milk results in:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Soft, easily digestible curd and faster gastric emptying",
+     "e": "Correct. Compared with casein."
+    },
+    {
+     "t": "Hard curd",
+     "e": "Wrong. Casein."
+    },
+    {
+     "t": "Slow emptying",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No digestion",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Breast milk"
+  },
+  {
+   "q": "Lactose content of breast milk versus cow milk is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "4.5% versus 7%",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Equal",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "0% in breast milk",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "About 7% versus 4.5%",
+     "e": "Correct. Higher in human milk."
+    }
+   ],
+   "topic": "Breast milk"
+  },
+  {
+   "q": "Breast milk renal load and iron are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "High load, poor iron",
+     "e": "Wrong. Cow milk."
+    },
+    {
+     "t": "High load, well absorbed",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Low load with well-absorbed iron",
+     "e": "Correct. Cow milk: high load, poor iron."
+    },
+    {
+     "t": "No iron",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Breast milk"
+  },
+  {
+   "q": "Immune components of breast milk include:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "IgE",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Secretory IgA, lactoferrin and lysozyme",
+     "e": "Correct. Passive mucosal immunity."
+    },
+    {
+     "t": "IgM only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "None",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Breast milk"
+  },
+  {
+   "q": "Lactoferrin acts by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Binding iron and being antimicrobial",
+     "e": "Correct. Antimicrobial."
+    },
+    {
+     "t": "Digesting fat",
+     "e": "Wrong. Lipase."
+    },
+    {
+     "t": "Digesting protein",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Providing lactose",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Breast milk"
+  },
+  {
+   "q": "Human milk oligosaccharides:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Are digested by lactase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Are fats",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cause infections",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Are prebiotic, fuel Bifidobacterium infantis and act as decoy receptors",
+     "e": "Correct. Pass undigested to colon."
+    }
+   ],
+   "topic": "Breast milk"
+  },
+  {
+   "q": "Lactose provides about what share of early infant energy?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "5%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "90%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "40%",
+     "e": "Correct. Hydrolyzed by lactase to glucose and galactose."
+    },
+    {
+     "t": "0%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Macronutrients"
+  },
+  {
+   "q": "Galactose from lactose is used for:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Fat synthesis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Myelin galactolipid synthesis in the brain",
+     "e": "Correct. Brain development."
+    },
+    {
+     "t": "Bone formation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Collagen",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Macronutrients"
+  },
+  {
+   "q": "DHA accumulates rapidly in the brain during:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The first 2 years of life",
+     "e": "Correct. 50% of dry brain weight is lipid."
+    },
+    {
+     "t": "Adolescence",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adulthood",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "After age 10",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Macronutrients"
+  },
+  {
+   "q": "Conditionally essential nutrients in infants include:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Glucose",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin C",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Sodium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Histidine, cysteine and taurine",
+     "e": "Correct. Immature hepatic biosynthesis."
+    }
+   ],
+   "topic": "Macronutrients"
+  },
+  {
+   "q": "Taurine is important for:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Collagen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Clotting",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bile acid conjugation and retinal neural differentiation",
+     "e": "Correct. Conditionally essential."
+    },
+    {
+     "t": "Bone mineralization",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Macronutrients"
+  },
+  {
+   "q": "Prenatal hepatic iron stores deplete by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1 month",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "4-6 months",
+     "e": "Correct. Iron-rich foods from 6 months."
+    },
+    {
+     "t": "18 months",
+     "e": "Wrong. Too late."
+    },
+    {
+     "t": "Never",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Micronutrients"
+  },
+  {
+   "q": "Recommended vitamin D for infants is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "400 IU/day",
+     "e": "Correct. Human milk is low (~25 IU/L)."
+    },
+    {
+     "t": "40 IU/day",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "4000 IU/day",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "None",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Micronutrients"
+  },
+  {
+   "q": "Zinc is important for:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Vision only",
+     "e": "Wrong. Vitamin A."
+    },
+    {
+     "t": "Clotting",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Collagen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mucosal repair, immunity and linear growth",
+     "e": "Correct. Cofactor for more than 300 enzymes."
+    }
+   ],
+   "topic": "Micronutrients"
+  },
+  {
+   "q": "Iodine deficiency harms the infant because:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "It causes jaundice",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "It causes rickets",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Thyroid hormone is needed for CNS development",
+     "e": "Correct. Lecture."
+    },
+    {
+     "t": "It stops bone growth only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Micronutrients"
+  },
+  {
+   "q": "Infant B12 deficiency can result from:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Excess meat",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Strict maternal vegan diet",
+     "e": "Correct. Low maternal stores."
+    },
+    {
+     "t": "High iron",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cow milk",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Micronutrients"
+  },
+  {
+   "q": "Solid foods are generally introduced at about:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "6 months",
+     "e": "Correct. When developmentally ready."
+    },
+    {
+     "t": "1 month",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "12 months",
+     "e": "Wrong. Too late."
+    },
+    {
+     "t": "3 months",
+     "e": "Wrong. Too early."
+    }
+   ],
+   "topic": "Solids"
+  },
+  {
+   "q": "Good first foods at about 6 months are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Honey and cow milk as main drink",
+     "e": "Wrong. Not advised."
+    },
+    {
+     "t": "Low iron fruits only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fats only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Iron-rich foods such as meat, fortified cereal or legumes",
+     "e": "Correct. Replenish iron."
+    }
+   ],
+   "topic": "Solids"
+  },
+  {
+   "q": "Exclusive breastfeeding on demand with vitamin D is recommended during:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "0-1 month only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "6-12 months",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "0-6 months",
+     "e": "Correct. Then add iron-rich foods."
+    },
+    {
+     "t": "Never",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Solids"
+  },
+  {
+   "q": "Marasmus is due to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Protein deficiency with adequate calories",
+     "e": "Wrong. Kwashiorkor."
+    },
+    {
+     "t": "Total calorie deficit with wasting and alert, hungry child",
+     "e": "Correct. Mild albumin drop."
+    },
+    {
+     "t": "Excess calories",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin C deficiency",
+     "e": "Wrong. Scurvy."
+    }
+   ],
+   "topic": "Malnutrition"
+  },
+  {
+   "q": "Kwashiorkor features include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Edema, pot belly and fatty liver with markedly low albumin",
+     "e": "Correct. Apathetic, irritable."
+    },
+    {
+     "t": "Wasted old-man face",
+     "e": "Wrong. Marasmus."
+    },
+    {
+     "t": "Mildly low albumin",
+     "e": "Wrong. Marasmus."
+    },
+    {
+     "t": "Alert and hungry",
+     "e": "Wrong. Marasmus."
+    }
+   ],
+   "topic": "Malnutrition"
+  },
+  {
+   "q": "Edema in kwashiorkor results from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increased albumin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Heart failure",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Excess salt only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hypoalbuminemia lowering plasma oncotic pressure",
+     "e": "Correct. Protein deficiency."
+    }
+   ],
+   "topic": "Malnutrition"
+  }
+ ]
+}
