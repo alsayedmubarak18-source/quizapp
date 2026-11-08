@@ -1,0 +1,468 @@
+{
+ "id": "rs-types-of-data-1",
+ "title": "Types of Data: High-Yield Quiz",
+ "lang": "en",
+ "lec": "rs-types-of-data",
+ "questions": [
+  {
+   "q": "The weights of students (Kg) in a college/school is a:",
+   "correct": 1,
+   "topic": "Discrete vs continuous",
+   "options": [
+    {
+     "t": "Discrete variable",
+     "e": "Wrong. Discrete data are counted; weight is measured."
+    },
+    {
+     "t": "Continuous variable",
+     "e": "Correct. Weight is measured and can take any value within a range, so it is continuous."
+    },
+    {
+     "t": "Qualitative variable",
+     "e": "Wrong. Weight is numerical (quantitative), not categorical."
+    },
+    {
+     "t": "None of the above",
+     "e": "Wrong. Weight is clearly one of the other types, so 'none of the above' cannot be right."
+    }
+   ]
+  },
+  {
+   "q": "The number of accidents in a city during 2017 is:",
+   "correct": 0,
+   "topic": "Discrete vs continuous",
+   "options": [
+    {
+     "t": "Discrete variable",
+     "e": "Correct. The number of accidents is counted in whole numbers, so it is discrete."
+    },
+    {
+     "t": "Continuous variable",
+     "e": "Wrong. You cannot have 2.5 accidents, so it is not continuous."
+    },
+    {
+     "t": "Qualitative variable",
+     "e": "Wrong. A count is numerical, not qualitative."
+    },
+    {
+     "t": "Constant",
+     "e": "Wrong. A constant does not vary, but the number of accidents does."
+    }
+   ]
+  },
+  {
+   "q": "The number of seizures a patient has per week is:",
+   "correct": 3,
+   "topic": "Discrete vs continuous",
+   "options": [
+    {
+     "t": "Continuous data",
+     "e": "Wrong. Seizures are counted, not measured."
+    },
+    {
+     "t": "Nominal data",
+     "e": "Wrong. Nominal data are unordered categories, not counts."
+    },
+    {
+     "t": "Ordinal data",
+     "e": "Wrong. Ordinal data are ordered categories, not counts."
+    },
+    {
+     "t": "Discrete data",
+     "e": "Correct. The number of seizures per week is a whole-number count, so it is discrete."
+    }
+   ]
+  },
+  {
+   "q": "A sample of 400 Regina households is selected and several variables are recorded. Which of the following statements is correct?",
+   "correct": 2,
+   "topic": "Types of data",
+   "options": [
+    {
+     "t": "Total household income (in $) is interval level data.",
+     "e": "Wrong. Household income in dollars is ratio-level data (true zero), not interval."
+    },
+    {
+     "t": "Socioeconomic status (recorded as “low income”, “middle income”, or “high income”) is nominal level data.",
+     "e": "Wrong. Low, middle and high income are ordered, so this is ordinal, not nominal."
+    },
+    {
+     "t": "The number of people living in a household is a discrete variable.",
+     "e": "Correct. The number of people in a household is counted in whole numbers, so it is discrete."
+    },
+    {
+     "t": "The primary language spoken in the household is ordinal level data.",
+     "e": "Wrong. Primary language has no order, so it is nominal, not ordinal."
+    }
+   ]
+  },
+  {
+   "q": "Select from the following the variable which can be measured on a nominal scale:",
+   "correct": 1,
+   "topic": "Nominal scale",
+   "options": [
+    {
+     "t": "Height in cm",
+     "e": "Wrong. Height in cm is a measured, continuous variable."
+    },
+    {
+     "t": "Ethnic group",
+     "e": "Correct. Ethnic group consists of unordered named categories, so it is nominal."
+    },
+    {
+     "t": "Age categorized as young, middle-aged or old",
+     "e": "Wrong. Young, middle-aged and old have an order, so this is ordinal."
+    },
+    {
+     "t": "Age in years",
+     "e": "Wrong. Age in years is numerical."
+    }
+   ]
+  },
+  {
+   "q": "Blood group is an example of:",
+   "correct": 3,
+   "topic": "Nominal data",
+   "options": [
+    {
+     "t": "Ordinal data",
+     "e": "Wrong. Blood group has no natural order."
+    },
+    {
+     "t": "Discrete data",
+     "e": "Wrong. Blood group is not a count."
+    },
+    {
+     "t": "Continuous data",
+     "e": "Wrong. Blood group is not measured on a continuum."
+    },
+    {
+     "t": "Nominal data",
+     "e": "Correct. Blood groups (A, B, AB, O) are unordered categories, so they are nominal."
+    }
+   ]
+  },
+  {
+   "q": "The stage of an illness (1st stage, 2nd stage, 3rd stage) is:",
+   "correct": 2,
+   "topic": "Ordinal data",
+   "options": [
+    {
+     "t": "Continuous data",
+     "e": "Wrong. Stage is not measured on a continuum."
+    },
+    {
+     "t": "Discrete data",
+     "e": "Wrong. Stage is a category, not a count of things."
+    },
+    {
+     "t": "Ordinal data",
+     "e": "Correct. Stages of illness are categories with a meaningful order, so they are ordinal."
+    },
+    {
+     "t": "Nominal data",
+     "e": "Wrong. Nominal categories have no order, but stages do."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following data transformations is possible?",
+   "correct": 2,
+   "topic": "Data transformation",
+   "options": [
+    {
+     "t": "Nominal data into continuous data",
+     "e": "Not possible. Categories cannot be converted into measured values."
+    },
+    {
+     "t": "Ordinal data into continuous data",
+     "e": "Not possible. Ranks cannot be turned into measurements you never took."
+    },
+    {
+     "t": "Continuous data into ordinal data",
+     "e": "Correct. You can always reduce detail, for example blood pressure values grouped into low, normal and high."
+    },
+    {
+     "t": "Ordinal data into interval data",
+     "e": "Not possible. Ordinal data have no equal intervals, so they cannot become interval data."
+    }
+   ]
+  },
+  {
+   "q": "In a research study to find out if child use of smartphone and tablet affects child development, the child use of smartphone and tablet would be the ________ variable.",
+   "correct": 0,
+   "topic": "Independent variable",
+   "options": [
+    {
+     "t": "Independent",
+     "e": "Correct. Smartphone and tablet use is the exposure whose effect is assessed, so it is the independent variable."
+    },
+    {
+     "t": "Dependent",
+     "e": "Wrong. The dependent variable would be child development."
+    },
+    {
+     "t": "Outcome",
+     "e": "Wrong. 'Outcome' is another name for the dependent variable, and development is the outcome here."
+    },
+    {
+     "t": "Controlled",
+     "e": "Wrong. Smartphone use is not held constant; it is the factor being studied."
+    }
+   ]
+  },
+  {
+   "q": "In a study to find out if vaping (E-Cigarettes use) is associated with lung scarring, which type of variable does vaping represent?",
+   "correct": 1,
+   "topic": "Independent variable",
+   "options": [
+    {
+     "t": "Dependent",
+     "e": "Wrong. The dependent variable is lung scarring."
+    },
+    {
+     "t": "Independent",
+     "e": "Correct. Vaping is the exposure (risk factor) being studied, so it is the independent variable."
+    },
+    {
+     "t": "Confounding",
+     "e": "Wrong. A confounder is related to both exposure and outcome and is not the main exposure."
+    },
+    {
+     "t": "Response",
+     "e": "Wrong. 'Response' is another name for the dependent variable, and that is lung scarring."
+    }
+   ]
+  },
+  {
+   "q": "The variable that represents the outcome or condition whose variation is being studied is the ________ variable.",
+   "correct": 3,
+   "topic": "Dependent variable",
+   "options": [
+    {
+     "t": "Independent",
+     "e": "Wrong. The independent variable is the cause or exposure."
+    },
+    {
+     "t": "Confounding",
+     "e": "Wrong. A confounder distorts the exposure-outcome relationship."
+    },
+    {
+     "t": "Constant",
+     "e": "Wrong. A constant does not vary."
+    },
+    {
+     "t": "Dependent",
+     "e": "Correct. The dependent (response or outcome) variable is the condition whose variation is studied."
+    }
+   ]
+  },
+  {
+   "q": "You want to study whether a low-carb diet can cause weight loss. The level of exercise will be:",
+   "correct": 3,
+   "topic": "Confounding",
+   "options": [
+    {
+     "t": "Explanatory",
+     "e": "Wrong. Diet is the explanatory (independent) variable."
+    },
+    {
+     "t": "Dependent",
+     "e": "Wrong. Weight loss is the dependent variable."
+    },
+    {
+     "t": "Independent",
+     "e": "Wrong. Exercise is not the exposure of interest here."
+    },
+    {
+     "t": "Confounding",
+     "e": "Correct. Exercise is linked to the diet and also affects weight loss, so it is a confounder."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a condition for a variable to be a confounder?",
+   "correct": 2,
+   "topic": "Confounder conditions",
+   "options": [
+    {
+     "t": "It is associated with the exposure",
+     "e": "A condition. A confounder must be associated with the exposure."
+    },
+    {
+     "t": "It is an independent risk factor for the outcome",
+     "e": "A condition. A confounder must be an independent risk factor for the outcome."
+    },
+    {
+     "t": "It is an intermediate step on the causal pathway between exposure and outcome",
+     "e": "Correct. A variable on the causal pathway is a mediator, not a confounder, so this is NOT a condition."
+    },
+    {
+     "t": "It is associated with the dependent variable",
+     "e": "A condition. A confounder must be associated with the dependent variable."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a method of controlling confounding?",
+   "correct": 1,
+   "topic": "Controlling confounding",
+   "options": [
+    {
+     "t": "Randomization",
+     "e": "A method. Randomization balances confounders between groups."
+    },
+    {
+     "t": "Data transformation",
+     "e": "Correct. Data transformation changes how data are expressed and does not control confounding."
+    },
+    {
+     "t": "Restriction",
+     "e": "A method. Restriction limits the study to one level of the confounder."
+    },
+    {
+     "t": "Matching",
+     "e": "A method. Matching makes groups similar for the confounder."
+    }
+   ]
+  },
+  {
+   "q": "A study found that coffee consumption is associated with coronary heart disease, but smokers drink more coffee and smoking is a risk factor for the disease. In this study, smoking is the:",
+   "correct": 0,
+   "topic": "Confounding",
+   "options": [
+    {
+     "t": "Confounder",
+     "e": "Correct. Smoking is associated with coffee drinking and independently causes heart disease, so it is the confounder."
+    },
+    {
+     "t": "Dependent variable",
+     "e": "Wrong. The dependent variable is coronary heart disease."
+    },
+    {
+     "t": "Independent variable",
+     "e": "Wrong. The independent variable is coffee consumption."
+    },
+    {
+     "t": "Constant",
+     "e": "Wrong. Smoking varies between people, so it is not a constant."
+    }
+   ]
+  },
+  {
+   "q": "The population mean (µ) is an example of a:",
+   "correct": 2,
+   "topic": "Parameter vs statistic",
+   "options": [
+    {
+     "t": "Statistic",
+     "e": "Wrong. A statistic describes a sample, such as the sample mean x-bar."
+    },
+    {
+     "t": "Variable",
+     "e": "Wrong. A variable is a characteristic that varies between subjects."
+    },
+    {
+     "t": "Parameter",
+     "e": "Correct. A parameter describes the whole population, such as the population mean (µ)."
+    },
+    {
+     "t": "Constant",
+     "e": "Wrong. A constant does not vary."
+    }
+   ]
+  },
+  {
+   "q": "A systematic review of published articles on hypertension among school students uses ________ data.",
+   "correct": 1,
+   "topic": "Secondary data",
+   "options": [
+    {
+     "t": "Primary",
+     "e": "Wrong. Primary data are collected by the researcher directly."
+    },
+    {
+     "t": "Secondary",
+     "e": "Correct. A systematic review uses data already collected by others, which is secondary data."
+    },
+    {
+     "t": "Raw",
+     "e": "Wrong. Raw data are unprocessed data and can be primary or secondary."
+    },
+    {
+     "t": "Qualitative",
+     "e": "Wrong. Qualitative describes the type of data, not its source."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is an advantage of secondary data?",
+   "correct": 2,
+   "topic": "Secondary data",
+   "options": [
+    {
+     "t": "It always meets the researcher's specific needs",
+     "e": "Wrong. Secondary data may not meet the researcher's specific needs."
+    },
+    {
+     "t": "It is always up to date",
+     "e": "Wrong. Secondary data may be outdated."
+    },
+    {
+     "t": "It is faster and less expensive to obtain",
+     "e": "Correct. Secondary data are faster and cheaper to obtain."
+    },
+    {
+     "t": "It uses the same definitions as the researcher",
+     "e": "Wrong. Definitions often vary between sources."
+    }
+   ]
+  },
+  {
+   "q": "A focus group usually includes how many people?",
+   "correct": 1,
+   "topic": "Focus groups",
+   "options": [
+    {
+     "t": "2 to 4",
+     "e": "Too small. A group of 2 to 4 people does not give enough varied discussion."
+    },
+    {
+     "t": "6 to 12",
+     "e": "Correct. A focus group usually has 6 to 12 participants."
+    },
+    {
+     "t": "20 to 30",
+     "e": "Too large. A group of 20 to 30 is hard to moderate."
+    },
+    {
+     "t": "50 to 100",
+     "e": "Too large. 50 to 100 is a survey sample, not a discussion group."
+    }
+   ]
+  },
+  {
+   "q": "On a five-point Likert scale, “strongly agree” is usually assigned a score of:",
+   "correct": 3,
+   "topic": "Likert scale",
+   "options": [
+    {
+     "t": "1",
+     "e": "Wrong. A score of 1 is usually given to 'strongly disagree'."
+    },
+    {
+     "t": "3",
+     "e": "Wrong. A score of 3 is the neutral midpoint."
+    },
+    {
+     "t": "4",
+     "e": "Wrong. A score of 4 is usually 'agree'."
+    },
+    {
+     "t": "5",
+     "e": "Correct. On a five-point scale, 'strongly agree' is usually scored 5."
+    }
+   ]
+  }
+ ]
+}

@@ -706,3 +706,12 @@ export const CURRICULUM = [
 export const GAMES = {};
 // ربط تلقائي لكويزات جاهزة (فاضي حاليًا). 'block-2' = كويز شامل للبلوك.
 export const LINKS = {};
+
+// مادة Research: قسم مستقل عن Semester 1 (بدون Block أو Week). المفتاح k بيربط الكويزات بالمحاضرة.
+export const RESEARCH = {
+  items: [
+    { k: 'rs-intro-to-methods', s: 'Research', c: 'Introduction to Methods' },
+    { k: 'rs-types-of-data', s: 'Research', c: 'Types of Data' },
+    { k: 'rs-scales-of-measurement', s: 'Research', c: 'Scales of Measurement' }
+  ]
+};

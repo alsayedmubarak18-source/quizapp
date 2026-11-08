@@ -1,0 +1,468 @@
+{
+ "id": "rs-scales-of-measurement-1",
+ "title": "Scales of Measurement: High-Yield Quiz",
+ "lang": "en",
+ "lec": "rs-scales-of-measurement",
+ "questions": [
+  {
+   "q": "According to the lecture, which scales are classified as numerical (scale) data?",
+   "correct": 0,
+   "topic": "Scales of measurement",
+   "options": [
+    {
+     "t": "Interval and ratio",
+     "e": "Correct. Interval and ratio are numerical (scale) data; nominal and ordinal are categorical."
+    },
+    {
+     "t": "Nominal and ordinal",
+     "e": "Wrong. Nominal and ordinal are categorical."
+    },
+    {
+     "t": "Nominal and interval",
+     "e": "Wrong. Nominal is categorical, so this pair mixes categorical and numerical."
+    },
+    {
+     "t": "Ordinal and ratio",
+     "e": "Wrong. Ordinal is categorical, so this pair mixes categorical and numerical."
+    }
+   ]
+  },
+  {
+   "q": "Which is the only mathematical procedure typically used with nominal scale data?",
+   "correct": 2,
+   "topic": "Nominal scale",
+   "options": [
+    {
+     "t": "Ranking",
+     "e": "Wrong. Ranking needs an order, which nominal data do not have."
+    },
+    {
+     "t": "Addition",
+     "e": "Wrong. Addition needs numerical values."
+    },
+    {
+     "t": "Counting",
+     "e": "Correct. With nominal data you can only count how many fall in each category."
+    },
+    {
+     "t": "Division",
+     "e": "Wrong. Division needs numerical values."
+    }
+   ]
+  },
+  {
+   "q": "Select from the following, the variable which can be measured on a nominal scale :",
+   "correct": 1,
+   "topic": "Nominal scale",
+   "options": [
+    {
+     "t": "Height in cm.",
+     "e": "Wrong. Height in cm is a ratio-scale measurement."
+    },
+    {
+     "t": "Ethnic group.",
+     "e": "Correct. Ethnic group consists of unordered named categories, so it is nominal."
+    },
+    {
+     "t": "Age categorized as young, middle-aged or old.",
+     "e": "Wrong. Young, middle-aged and old have an order, so this is ordinal."
+    },
+    {
+     "t": "Age in years",
+     "e": "Wrong. Age in years is numerical (ratio)."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a nominal-scale variable?",
+   "correct": 3,
+   "topic": "Nominal scale",
+   "options": [
+    {
+     "t": "Blood group",
+     "e": "Nominal. Blood group has no order."
+    },
+    {
+     "t": "Religion",
+     "e": "Nominal. Religion has no order."
+    },
+    {
+     "t": "Eye colour",
+     "e": "Nominal. Eye colour has no order."
+    },
+    {
+     "t": "Cancer staging (Stage I-IV)",
+     "e": "Correct. Cancer stages I to IV have a meaningful order, so they are ordinal, not nominal."
+    }
+   ]
+  },
+  {
+   "q": "Blood group (A, B, AB, O) is best described as a:",
+   "correct": 1,
+   "topic": "Dichotomous vs polychotomous",
+   "options": [
+    {
+     "t": "Dichotomous variable",
+     "e": "Wrong. A dichotomous variable has only two categories."
+    },
+    {
+     "t": "Polychotomous (multinomial) variable",
+     "e": "Correct. Blood group has four unordered categories, so it is polychotomous (multinomial)."
+    },
+    {
+     "t": "Ordinal variable",
+     "e": "Wrong. The four groups have no order."
+    },
+    {
+     "t": "Ratio variable",
+     "e": "Wrong. Blood group has no true zero or numerical meaning."
+    }
+   ]
+  },
+  {
+   "q": "A categorical variable has 5 categories. How many dummy variables are needed to represent it?",
+   "correct": 3,
+   "topic": "Dummy variables",
+   "options": [
+    {
+     "t": "3",
+     "e": "Wrong. Three dummies represent only four categories."
+    },
+    {
+     "t": "5",
+     "e": "Wrong. Using one dummy per category is redundant; one category must be the reference."
+    },
+    {
+     "t": "6",
+     "e": "Wrong. More dummies than categories is not possible."
+    },
+    {
+     "t": "4",
+     "e": "Correct. A variable with k categories needs k minus 1 dummy variables, so 5 categories need 4."
+    }
+   ]
+  },
+  {
+   "q": "Which statement about dummy variables is NOT correct?",
+   "correct": 2,
+   "topic": "Dummy variables",
+   "options": [
+    {
+     "t": "They are dichotomous variables coded 0 and 1.",
+     "e": "True. Dummy variables are dichotomous and coded 0 and 1."
+    },
+    {
+     "t": "The omitted category serves as the reference group.",
+     "e": "True. The omitted category is the reference group."
+    },
+    {
+     "t": "The number 1 means \"more\" than the number 0.",
+     "e": "Correct. This statement is NOT correct: 1 only means the characteristic is present, not that there is 'more' of it."
+    },
+    {
+     "t": "A value of 1 represents the presence of the characteristic.",
+     "e": "True. A value of 1 represents the presence of the characteristic."
+    }
+   ]
+  },
+  {
+   "q": "The ordinal scale differs from the nominal scale because its categories:",
+   "correct": 0,
+   "topic": "Ordinal scale",
+   "options": [
+    {
+     "t": "Can be ranked in a meaningful order",
+     "e": "Correct. Ordinal categories can be ranked in a meaningful order, which nominal categories cannot."
+    },
+    {
+     "t": "Have a true zero",
+     "e": "Wrong. A true zero belongs to the ratio scale."
+    },
+    {
+     "t": "Have equal intervals",
+     "e": "Wrong. Equal intervals belong to interval and ratio scales."
+    },
+    {
+     "t": "Are expressed in units of measurement",
+     "e": "Wrong. Units of measurement belong to numerical scales."
+    }
+   ]
+  },
+  {
+   "q": "Patient status classified as \"unimproved, stable, improved\" is measured on which scale?",
+   "correct": 2,
+   "topic": "Ordinal scale",
+   "options": [
+    {
+     "t": "Nominal",
+     "e": "Wrong. Nominal categories have no order, but these do."
+    },
+    {
+     "t": "Ratio",
+     "e": "Wrong. Ratio data are measured in units with a true zero."
+    },
+    {
+     "t": "Ordinal",
+     "e": "Correct. 'Unimproved, stable, improved' are ordered categories with unequal or unknown spacing."
+    },
+    {
+     "t": "Interval",
+     "e": "Wrong. Interval data have equal spacing between values."
+    }
+   ]
+  },
+  {
+   "q": "Why is the Glasgow Coma Scale considered an ordinal variable?",
+   "correct": 0,
+   "topic": "Glasgow Coma Scale",
+   "options": [
+    {
+     "t": "Its categories can be ordered, but the intervals between them are unequal or unknown",
+     "e": "Correct. The categories are ordered, but the gaps between scores are unequal or unknown, which makes it ordinal."
+    },
+    {
+     "t": "It has an absolute zero",
+     "e": "Wrong. An absolute zero would make it a ratio scale."
+    },
+    {
+     "t": "It is measured in units",
+     "e": "Wrong. It is not measured in physical units."
+    },
+    {
+     "t": "Its categories cannot be ordered",
+     "e": "Wrong. Its categories can be ordered."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is NOT appropriate for ordinal data?",
+   "correct": 3,
+   "topic": "Ordinal summary measures",
+   "options": [
+    {
+     "t": "Median",
+     "e": "Appropriate. The median suits ordinal data."
+    },
+    {
+     "t": "Mode",
+     "e": "Appropriate. The mode suits ordinal data."
+    },
+    {
+     "t": "Interquartile range",
+     "e": "Appropriate. The interquartile range suits ordinal data."
+    },
+    {
+     "t": "Mean",
+     "e": "Correct. The mean needs equal intervals, so it is not appropriate for ordinal data."
+    }
+   ]
+  },
+  {
+   "q": "A scale with order and equal distances between points, but no true zero, is:",
+   "correct": 1,
+   "topic": "Interval scale",
+   "options": [
+    {
+     "t": "Ordinal",
+     "e": "Wrong. Ordinal data have order but not equal distances."
+    },
+    {
+     "t": "Interval",
+     "e": "Correct. An interval scale has order and equal distances but no true zero."
+    },
+    {
+     "t": "Nominal",
+     "e": "Wrong. Nominal data have no order."
+    },
+    {
+     "t": "Ratio",
+     "e": "Wrong. A ratio scale has a true zero."
+    }
+   ]
+  },
+  {
+   "q": "Temperature in Celsius is an interval scale because:",
+   "correct": 0,
+   "topic": "Interval scale",
+   "options": [
+    {
+     "t": "Zero does not represent the absence of temperature",
+     "e": "Correct. Zero in Celsius is arbitrary and does not mean no temperature, so it is interval."
+    },
+    {
+     "t": "It cannot be ranked",
+     "e": "Wrong. Celsius can be ranked."
+    },
+    {
+     "t": "It has an absolute zero",
+     "e": "Wrong. Celsius has no absolute zero, which is why it is not ratio."
+    },
+    {
+     "t": "Ratios between its values are meaningful",
+     "e": "Wrong. Ratios are not meaningful on the Celsius scale, so 20 degrees is not twice 10."
+    }
+   ]
+  },
+  {
+   "q": "All of the following are interval-scale variables EXCEPT:",
+   "correct": 3,
+   "topic": "Interval scale",
+   "options": [
+    {
+     "t": "Temperature in Celsius",
+     "e": "Interval. Celsius has an arbitrary zero."
+    },
+    {
+     "t": "Calendar years",
+     "e": "Interval. Calendar years have no true zero."
+    },
+    {
+     "t": "Temperature in Fahrenheit",
+     "e": "Interval. Fahrenheit has an arbitrary zero."
+    },
+    {
+     "t": "Weight in kilograms",
+     "e": "Correct. Weight in kilograms has a true zero, so it is a ratio-scale variable."
+    }
+   ]
+  },
+  {
+   "q": "Which scale has an absolute, non-arbitrary zero?",
+   "correct": 0,
+   "topic": "Ratio scale",
+   "options": [
+    {
+     "t": "Ratio",
+     "e": "Correct. The ratio scale has an absolute, non-arbitrary zero."
+    },
+    {
+     "t": "Interval",
+     "e": "Wrong. The interval scale's zero is arbitrary."
+    },
+    {
+     "t": "Ordinal",
+     "e": "Wrong. Ordinal data have no numerical zero."
+    },
+    {
+     "t": "Nominal",
+     "e": "Wrong. Nominal data have no zero."
+    }
+   ]
+  },
+  {
+   "q": "A pulse rate of 120 is twice a pulse rate of 60. This statement is meaningful only on which scale?",
+   "correct": 1,
+   "topic": "Ratio scale",
+   "options": [
+    {
+     "t": "Ordinal",
+     "e": "Wrong. Ratios are meaningless for ordinal data."
+    },
+    {
+     "t": "Ratio",
+     "e": "Correct. Saying that 120 is twice 60 requires a true zero, so it is meaningful only on the ratio scale."
+    },
+    {
+     "t": "Nominal",
+     "e": "Wrong. Nominal data cannot be compared as ratios."
+    },
+    {
+     "t": "Interval",
+     "e": "Wrong. Interval data have no true zero, so ratios are not meaningful."
+    }
+   ]
+  },
+  {
+   "q": "Which scale gives differences but not ratios (no natural starting point)?",
+   "correct": 3,
+   "topic": "Interval vs ratio",
+   "options": [
+    {
+     "t": "Ratio",
+     "e": "Wrong. The ratio scale gives both differences and ratios."
+    },
+    {
+     "t": "Nominal",
+     "e": "Wrong. Nominal data give neither."
+    },
+    {
+     "t": "Ordinal",
+     "e": "Wrong. Ordinal data give order but not meaningful differences."
+    },
+    {
+     "t": "Interval",
+     "e": "Correct. The interval scale gives meaningful differences but, with no natural starting point, no ratios."
+    }
+   ]
+  },
+  {
+   "q": "Which operations make sense for ordinal variables?",
+   "correct": 1,
+   "topic": "Ordinal operations",
+   "options": [
+    {
+     "t": "Counting only",
+     "e": "Too limited. Counting is allowed, but ranking is also possible."
+    },
+    {
+     "t": "Counting and ranking",
+     "e": "Correct. Ordinal data allow counting and ranking only."
+    },
+    {
+     "t": "Counting, ranking and addition/subtraction",
+     "e": "Wrong. Addition and subtraction need equal intervals."
+    },
+    {
+     "t": "All four operations",
+     "e": "Wrong. All four operations need a ratio scale."
+    }
+   ]
+  },
+  {
+   "q": "The characteristic question \"By how many units do A and B differ?\" belongs to which scale?",
+   "correct": 2,
+   "topic": "Scale characteristics",
+   "options": [
+    {
+     "t": "Nominal",
+     "e": "Wrong. Nominal data cannot be subtracted to give a difference."
+    },
+    {
+     "t": "Ordinal",
+     "e": "Wrong. Ordinal data show order only, not how far apart values are."
+    },
+    {
+     "t": "Interval",
+     "e": "Correct. The question 'By how many units do A and B differ?' needs equal intervals, which is the interval scale."
+    },
+    {
+     "t": "Ratio",
+     "e": "Not the best fit here. Ratio data also give differences, but the characteristic question for the ratio scale is 'how many times?'"
+    }
+   ]
+  },
+  {
+   "q": "A sample of 400 Regina households is selected and several variables are recorded. Which of the following statements is correct?",
+   "correct": 2,
+   "topic": "Types of data",
+   "options": [
+    {
+     "t": "Total household income (in $) is interval level data.",
+     "e": "Wrong. Household income in dollars is ratio-level data (true zero), not interval."
+    },
+    {
+     "t": "Socioeconomic status (recorded as “low income”, “middle income”, or “high income” is nominal level data.",
+     "e": "Wrong. Low, middle and high income are ordered, so this is ordinal, not nominal."
+    },
+    {
+     "t": "The number of people living in a household is a discrete variable.",
+     "e": "Correct. The number of people in a household is counted in whole numbers, so it is discrete."
+    },
+    {
+     "t": "The primary language spoken in the household is ordinal level data.",
+     "e": "Wrong. Primary language has no order, so it is nominal, not ordinal."
+    }
+   ]
+  }
+ ]
+}

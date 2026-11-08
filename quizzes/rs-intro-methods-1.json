@@ -1,0 +1,468 @@
+{
+ "id": "rs-intro-methods-1",
+ "title": "Introduction to Methods: High-Yield Quiz",
+ "lang": "en",
+ "lec": "rs-intro-to-methods",
+ "questions": [
+  {
+   "q": "A researcher wants to study the association between obesity and diabetes. Which type of study design would be most appropriate?",
+   "correct": 0,
+   "topic": "Study designs",
+   "options": [
+    {
+     "t": "Cross-sectional study",
+     "e": "Correct. Obesity and diabetes can both be measured in one sample at one point in time, which is exactly what a cross-sectional study does to describe an association."
+    },
+    {
+     "t": "Case-control study",
+     "e": "Not the best choice. A case-control study starts from the outcome and suits rare diseases; diabetes is common and the question only asks for an association."
+    },
+    {
+     "t": "Cohort study",
+     "e": "Too slow and costly here. A cohort follows people over time to measure incidence; it is not needed just to look for an association."
+    },
+    {
+     "t": "Experimental study",
+     "e": "Wrong. An experimental study assigns an intervention, and you cannot ethically assign people to be obese."
+    }
+   ]
+  },
+  {
+   "q": "In a case-control study, what is the use of the odds ratio?",
+   "correct": 0,
+   "topic": "Odds ratio",
+   "options": [
+    {
+     "t": "To measure the association between exposure and outcome.",
+     "e": "Correct. The odds ratio is the measure of association between exposure and outcome in a case-control study."
+    },
+    {
+     "t": "To calculate the prevalence of the disease in the population.",
+     "e": "Wrong. Prevalence needs the whole population sample, which a case-control design does not provide."
+    },
+    {
+     "t": "To determine the incidence rate of the disease.",
+     "e": "Wrong. Incidence cannot be calculated in a case-control study because subjects are chosen by outcome, not followed over time."
+    },
+    {
+     "t": "To identify the risk factors for the disease.",
+     "e": "Too vague. The OR measures the strength of association for a risk factor, but 'identifying' risk factors is not its specific use."
+    }
+   ]
+  },
+  {
+   "q": "An epidemiological research team is investigating the incidence of birth defects among pregnant women using Paroxetine, to determine the association between using Paroxetine during pregnancy and the risk of developing birth defects. Which type of study design could be used to investigate this association?",
+   "correct": 2,
+   "topic": "Cohort study",
+   "options": [
+    {
+     "t": "Cross-sectional study",
+     "e": "Wrong. Cross-sectional measures exposure and outcome together, so it cannot show that exposure came before birth defects."
+    },
+    {
+     "t": "Case-control study",
+     "e": "Wrong. Case-control starts from babies with defects; here the team follows exposed pregnant women to see who develops the outcome."
+    },
+    {
+     "t": "Cohort study",
+     "e": "Correct. Following women exposed and unexposed to Paroxetine forward in time measures the incidence of defects and the risk."
+    },
+    {
+     "t": "Randomized controlled trial",
+     "e": "Wrong. Randomly assigning pregnant women to a possibly harmful drug would be unethical."
+    }
+   ]
+  },
+  {
+   "q": "Study design is best described as:",
+   "correct": 1,
+   "topic": "Study design definition",
+   "options": [
+    {
+     "t": "A statistical test used to compare means.",
+     "e": "Wrong. That describes a statistical test, not a design."
+    },
+    {
+     "t": "The plan for determining, selecting and allocating the study participants and for collecting and analysing data.",
+     "e": "Correct. Study design is the plan for selecting and allocating participants and for collecting and analysing data."
+    },
+    {
+     "t": "The final section of a research paper.",
+     "e": "Wrong. The final section of a paper is the discussion or conclusion."
+    },
+    {
+     "t": "A method of presenting results in tables.",
+     "e": "Wrong. That describes data presentation."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a component of research methodology?",
+   "correct": 3,
+   "topic": "Methodology components",
+   "options": [
+    {
+     "t": "Study area/setting",
+     "e": "A component. Study area/setting is a standard part of the methodology section."
+    },
+    {
+     "t": "Sampling technique",
+     "e": "A component. Sampling technique is part of the methodology."
+    },
+    {
+     "t": "Ethical considerations",
+     "e": "A component. Ethical considerations are reported in the methodology."
+    },
+    {
+     "t": "Abstract",
+     "e": "Correct. The abstract is a summary of the whole paper, not a component of the methodology."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a descriptive study?",
+   "correct": 3,
+   "topic": "Descriptive studies",
+   "options": [
+    {
+     "t": "Case series",
+     "e": "A descriptive study. A case series describes a group of patients."
+    },
+    {
+     "t": "Ecological study",
+     "e": "A descriptive study. An ecological study describes groups or populations."
+    },
+    {
+     "t": "Case report",
+     "e": "A descriptive study. A case report describes one patient."
+    },
+    {
+     "t": "Randomized controlled trial",
+     "e": "Correct. An RCT is an experimental (analytical) study because the investigator assigns the intervention."
+    }
+   ]
+  },
+  {
+   "q": "Case reports and case series are the only means of describing:",
+   "correct": 1,
+   "topic": "Case reports and series",
+   "options": [
+    {
+     "t": "Common chronic diseases",
+     "e": "Wrong. Common chronic diseases are described better by surveys or cross-sectional studies."
+    },
+    {
+     "t": "A rare clinical event",
+     "e": "Correct. Case reports and series are the only way to describe a rare clinical event or a new disease."
+    },
+    {
+     "t": "Disease prevalence",
+     "e": "Wrong. Prevalence needs a defined population sample."
+    },
+    {
+     "t": "Disease incidence",
+     "e": "Wrong. Incidence needs a defined population followed over time."
+    }
+   ]
+  },
+  {
+   "q": "In an ecological study, the unit of observation is:",
+   "correct": 2,
+   "topic": "Ecological study",
+   "options": [
+    {
+     "t": "An individual patient",
+     "e": "Wrong. Individual patients are the unit in individual-level designs."
+    },
+    {
+     "t": "A matched pair of case and control",
+     "e": "Wrong. Matched pairs are used in case-control designs."
+    },
+    {
+     "t": "A group, not separate individuals",
+     "e": "Correct. In an ecological study the unit of observation is a group or population, not separate individuals."
+    },
+    {
+     "t": "A single clinical case",
+     "e": "Wrong. A single case is the unit of a case report."
+    }
+   ]
+  },
+  {
+   "q": "Cross-sectional studies measure exposure and outcome:",
+   "correct": 1,
+   "topic": "Cross-sectional study",
+   "options": [
+    {
+     "t": "In the past only",
+     "e": "Wrong. Looking at the past only is a retrospective approach such as case-control."
+    },
+    {
+     "t": "At the same point in time",
+     "e": "Correct. Cross-sectional studies measure exposure and outcome at the same point in time (a snapshot)."
+    },
+    {
+     "t": "After following the subjects for years",
+     "e": "Wrong. Following subjects for years is a cohort study."
+    },
+    {
+     "t": "After allocating treatment randomly",
+     "e": "Wrong. Random allocation of treatment is an RCT."
+    }
+   ]
+  },
+  {
+   "q": "Prevalence refers to:",
+   "correct": 2,
+   "topic": "Prevalence",
+   "options": [
+    {
+     "t": "Only the new cases of a disease",
+     "e": "Wrong. New cases only describes incidence."
+    },
+    {
+     "t": "Only the old cases of a disease",
+     "e": "Wrong. Prevalence is not limited to old cases."
+    },
+    {
+     "t": "The existing cases (old and new) at one point in time",
+     "e": "Correct. Prevalence is all existing cases, old and new, at a point in time."
+    },
+    {
+     "t": "The number of deaths among cases",
+     "e": "Wrong. Deaths among cases describe case fatality or mortality."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is NOT an advantage of cross-sectional studies?",
+   "correct": 3,
+   "topic": "Cross-sectional advantages",
+   "options": [
+    {
+     "t": "They are relatively quick.",
+     "e": "An advantage. They are relatively quick."
+    },
+    {
+     "t": "They are inexpensive.",
+     "e": "An advantage. They are inexpensive compared with cohorts and trials."
+    },
+    {
+     "t": "They are useful for hypothesis generation.",
+     "e": "An advantage. They help generate hypotheses."
+    },
+    {
+     "t": "They can establish a cause-and-effect relationship.",
+     "e": "Correct. They cannot establish cause and effect because exposure and outcome are measured together, so temporality is unclear."
+    }
+   ]
+  },
+  {
+   "q": "Cross-sectional studies are NOT suitable for:",
+   "correct": 0,
+   "topic": "Cross-sectional limitations",
+   "options": [
+    {
+     "t": "Rare diseases",
+     "e": "Correct. In rare diseases a random sample will contain few or no cases, so cross-sectional studies are unsuitable."
+    },
+    {
+     "t": "Estimating disease prevalence",
+     "e": "Suitable. Estimating prevalence is the main use."
+    },
+    {
+     "t": "Hypothesis generation",
+     "e": "Suitable. They are good for hypothesis generation."
+    },
+    {
+     "t": "Avoiding loss to follow-up",
+     "e": "Suitable. There is no follow-up, so there is no loss to follow-up."
+    }
+   ]
+  },
+  {
+   "q": "Case-control studies begin with:",
+   "correct": 1,
+   "topic": "Case-control design",
+   "options": [
+    {
+     "t": "A group of exposed people",
+     "e": "Wrong. Starting with exposed people is a cohort approach."
+    },
+    {
+     "t": "People with the disease (outcome), then a control group without the disease",
+     "e": "Correct. A case-control study starts with people who have the disease (cases) and compares them with a control group without it."
+    },
+    {
+     "t": "A treatment randomly allocated to participants",
+     "e": "Wrong. Random allocation of treatment is an RCT."
+    },
+    {
+     "t": "A sample of the general population followed forward",
+     "e": "Wrong. Following a general sample forward is a cohort study."
+    }
+   ]
+  },
+  {
+   "q": "In a case-control study, controls should be matched to the cases for:",
+   "correct": 2,
+   "topic": "Matching controls",
+   "options": [
+    {
+     "t": "The exposure being studied",
+     "e": "Wrong. Matching on the exposure would hide the very association being studied."
+    },
+    {
+     "t": "The outcome under study",
+     "e": "Wrong. Controls are by definition free of the outcome."
+    },
+    {
+     "t": "Factors that are not being studied, such as age, gender and race",
+     "e": "Correct. Controls are matched for factors not under study, such as age, gender and race, to reduce confounding."
+    },
+    {
+     "t": "No factor; matching is not allowed",
+     "e": "Wrong. Matching is allowed and commonly used."
+    }
+   ]
+  },
+  {
+   "q": "In case-control studies, the ratio between cases and controls should be at least 1:1 and can be increased up to:",
+   "correct": 3,
+   "topic": "Case:control ratio",
+   "options": [
+    {
+     "t": "1:2",
+     "e": "Not the maximum. A 1:2 ratio is allowed but the ratio can go higher."
+    },
+    {
+     "t": "1:3",
+     "e": "Not the maximum. 1:3 is allowed but the ratio can go higher."
+    },
+    {
+     "t": "1:10",
+     "e": "Wrong. 1:10 adds almost no statistical power beyond 1:4."
+    },
+    {
+     "t": "1:4",
+     "e": "Correct. The ratio is at least 1:1 and can be increased up to 1:4; beyond that the gain in power is minimal."
+    }
+   ]
+  },
+  {
+   "q": "An odds ratio less than 1 indicates:",
+   "correct": 1,
+   "topic": "Interpreting the odds ratio",
+   "options": [
+    {
+     "t": "No association",
+     "e": "Wrong. No association corresponds to an OR of 1."
+    },
+    {
+     "t": "Reduced odds (reduced risk)",
+     "e": "Correct. An OR below 1 means reduced odds, so exposure is protective (reduced risk)."
+    },
+    {
+     "t": "Increased odds (increased risk)",
+     "e": "Wrong. Increased risk corresponds to an OR above 1."
+    },
+    {
+     "t": "A perfect association",
+     "e": "Wrong. Association strength is not 'perfect' at OR below 1; OR below 1 simply means a protective association."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following is NOT an advantage of case-control studies?",
+   "correct": 3,
+   "topic": "Case-control advantages",
+   "options": [
+    {
+     "t": "Suitable for rare diseases",
+     "e": "An advantage. They suit rare diseases because cases are selected directly."
+    },
+    {
+     "t": "Less time consuming",
+     "e": "An advantage. They take less time than cohorts."
+    },
+    {
+     "t": "Can examine many potential risk factors",
+     "e": "An advantage. Many potential risk factors can be examined for one outcome."
+    },
+    {
+     "t": "Provides the incidence of the disease",
+     "e": "Correct. They cannot give disease incidence because the numbers of cases and controls are chosen by the investigator."
+    }
+   ]
+  },
+  {
+   "q": "Which of the following are recognized disadvantages of case-control studies?",
+   "correct": 2,
+   "topic": "Case-control biases",
+   "options": [
+    {
+     "t": "Contamination bias and timing bias",
+     "e": "Wrong. Contamination and timing bias are mainly problems of trials."
+    },
+    {
+     "t": "Observer bias and performance bias",
+     "e": "Wrong. Observer and performance bias are mainly problems of trials and cohorts."
+    },
+    {
+     "t": "Selection bias and recall bias",
+     "e": "Correct. Selection bias (choosing controls) and recall bias (cases remember exposures differently) are the classic disadvantages."
+    },
+    {
+     "t": "Compliance bias and withdrawal bias",
+     "e": "Wrong. Compliance and withdrawal bias are mainly problems of trials."
+    }
+   ]
+  },
+  {
+   "q": "Random error (chance) can be minimized by:",
+   "correct": 0,
+   "topic": "Random error",
+   "options": [
+    {
+     "t": "Increasing the sample size and replicating measurements",
+     "e": "Correct. Chance is reduced by increasing the sample size and by replicating measurements."
+    },
+    {
+     "t": "Selecting only volunteers",
+     "e": "Wrong. Selecting only volunteers introduces selection bias, a systematic error."
+    },
+    {
+     "t": "Matching on the exposure",
+     "e": "Wrong. Matching on the exposure does not reduce chance and would distort the association."
+    },
+    {
+     "t": "Using a retrospective design",
+     "e": "Wrong. A retrospective design does not reduce random error."
+    }
+   ]
+  },
+  {
+   "q": "Selection bias may result in:",
+   "correct": 0,
+   "topic": "Selection bias",
+   "options": [
+    {
+     "t": "A sample that is unrepresentative of the population of interest",
+     "e": "Correct. Selection bias means the sample differs systematically from the target population, so it is unrepresentative."
+    },
+    {
+     "t": "Differences in how the intervention was carried out",
+     "e": "Wrong. Differences in how the intervention was carried out are performance bias."
+    },
+    {
+     "t": "Errors in how the outcome was measured",
+     "e": "Wrong. Errors in outcome measurement are measurement (information) bias."
+    },
+    {
+     "t": "Random variation due to a small sample",
+     "e": "Wrong. Random variation from a small sample is chance (random error), not bias."
+    }
+   ]
+  }
+ ]
+}

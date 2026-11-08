@@ -2,10 +2,10 @@
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 const $app = document.getElementById('app');
 
-let store, CURRICULUM, GAMES, LINKS, INSTRUCTOR, PG;
+let store, CURRICULUM, GAMES, LINKS, RESEARCH, INSTRUCTOR, PG;
 try {
   ({ store } = await import('./store.js'));
-  ({ CURRICULUM, GAMES, LINKS } = await import('./curriculum.js'));
+  ({ CURRICULUM, GAMES, LINKS, RESEARCH } = await import('./curriculum.js'));
   ({ INSTRUCTOR } = await import('./instructor.js'));
   PG = await import('./progress.js');
 } catch (e) {
@@ -16,7 +16,7 @@ try {
 }
 
 const LETTERS = ['أ', 'ب', 'ج', 'د', 'هـ', 'و'];
-const APP_VERSION = 'v29'; // لازم يطابق CACHE في sw.js
+const APP_VERSION = 'v30'; // لازم يطابق CACHE في sw.js
 const T = {
   ar: { dir: 'rtl', letters: LETTERS, exit: 'خروج', next: 'السؤال التالي', result: 'عرض النتيجة', ok: 'أحسنت، إجابة صحيحة!', bad: 'إجابة خاطئة، الصحيحة باللون الأخضر.',
     tip: 'اضغط على أي إجابة أخرى لتعرف لماذا هي خاطئة.', yok: 'إجابتك صحيحة. السبب:', ybad: 'إجابتك خاطئة. السبب:', right: 'هذه هي الصحيحة. السبب:', wrong: 'خاطئة. السبب:',
@@ -49,7 +49,7 @@ const typing = () => { const a = document.activeElement; return a && (a.tagName 
 
 store.watchQuizzes(list => {
   S.quizzes = list.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
-  if (['home', 'quizzes', 'teacher', 'blocks', 'block', 'week', 'lecture'].includes(S.view) && !typing()) render();
+  if (['home', 'quizzes', 'teacher', 'blocks', 'block', 'week', 'lecture', 'research'].includes(S.view) && !typing()) render();
 }, e => { S.err = 'تعذر تحميل الكويزات. راجع قواعد Firestore.'; console.error(e); });
 
 const backBar = (title, to = 'home') => `<div class="back"><button class="link" data-act="go" data-v="${to}">‹ رجوع</button><h2>${esc(title)}</h2></div>`;
@@ -132,6 +132,7 @@ const todayPlan = () => {
 const orderedQuizzes = () => {
   const out = [];
   CURRICULUM.forEach(b => b.weeks.forEach(w => w.items.forEach(i => quizzesOf(i.k).forEach(z => out.push(z)))));
+  RESEARCH.items.forEach(i => quizzesOf(i.k).forEach(z => out.push(z)));
   return out;
 };
 const planHtml = (pl, full) => {
@@ -219,13 +220,13 @@ views.perf = () => {
   else if (tab === 'plan') body = `<h3 class="lbt">مطلوب منك النهاردة</h3>${planHtml(pl, true)}`;
   else if (tab === 'weak') body = st.A ? (weakCards(st).replace(/<h3 class="lbt">.*?<\/h3>/, '') || '<div class="card empty">مفيش نقاط ضعف واضحة لحد دلوقتي. كمّل حل وهنحللها بعد 20 إجابة.</div>') : empty;
   else if (tab === 'prog') body = S.att.length ? `<div class="card">${chartSvg(tr.pts)}<p class="sub" style="margin:6px 0 0">${tr.delta === null ? 'محتاج 4 محاولات عشان نقارن بداياتك بمستواك الحالي.' : `متوسطك ${tr.delta >= 0 ? 'اتحسّن' : 'قلّ'} بـ <b dir="ltr">${tr.delta >= 0 ? '+' : ''}${tr.delta.toFixed(1)}</b> نقطة بين النصف الأول والتاني من محاولاتك.`}${tr.secPerQ ? ` متوسط وقتك <b dir="ltr">${Math.round(tr.secPerQ)}s</b> للسؤال.` : ''}</p></div>
-    <h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">Block ${b}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>` : empty;
+    <h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">${+b ? 'Block ' + b : 'Research'}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>` : empty;
   else if (tab === 'subj') {
     const cur = S.psub && st.subj.get(S.psub);
     if (!st.A) body = empty;
     else if (cur) body = `<button class="link" data-act="psub" data-id="">‹ كل المواد</button><h3 class="lbt" dir="ltr">${esc(cur.subject)}</h3><div class="card prow">${barHtml(cur.n, cur.c)}</div>
       <div class="scr"><h4 dir="ltr">Topics</h4>${(topBy[cur.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(t => `<div class="prow sm"><span dir="ltr">${esc(t.topic)}</span>${barHtml(t.n, t.c)}${t.c / t.n < PG.TARGET ? `<button class="btn small" data-act="practice" data-subject="${esc(t.subject)}" data-topic="${esc(t.topic)}">تدرّب</button>` : ''}</div>`).join('')}
-      <h4 dir="ltr">Lectures</h4>${(lecBy[cur.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(l => `<div class="prow sm"><span dir="ltr">W${l.week} · ${esc(l.name)}</span>${barHtml(l.n, l.c)}</div>`).join('')}</div>`;
+      <h4 dir="ltr">Lectures</h4>${(lecBy[cur.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(l => `<div class="prow sm"><span dir="ltr">${l.week ? 'W' + l.week + ' · ' : ''}${esc(l.name)}</span>${barHtml(l.n, l.c)}</div>`).join('')}</div>`;
     else body = `<p class="hint" style="margin:0 0 6px">مرتبة من الأضعف. اضغط على مادة تشوف مواضيعها ومحاضراتها.</p><div class="list">${bySubj.map(s => `<button class="card prow subj" data-act="psub" data-id="${esc(s.subject)}"><b dir="ltr">${esc(s.subject)}</b>${barHtml(s.n, s.c)}</button>`).join('')}</div>`;
   }
   $app.innerHTML = `${backBar('Performance')}
@@ -472,6 +473,7 @@ views.home = () => {
     <div class="tiles">
       <button class="tile help" data-act="go" data-v="help">${ico('📖', '#e6e0ff')}<div class="tx"><b>تعليمات الاستخدام</b><span>إزاي تستخدم التطبيق خطوة بخطوة</span></div></button>
       <button class="tile" data-act="go" data-v="blocks">${ico('📚', '#d5f3ea')}<div class="tx"><b>Semester 1</b><span>كويزات كل محاضرة حسب البلوك والأسبوع</span></div></button>
+      <button class="tile" data-act="go" data-v="research">${ico('📊', '#dde7ff')}<div class="tx"><b>Research</b><span>كويزات مادة البحث العلمي حسب المحاضرة</span></div></button>
       <button class="tile" data-act="go" data-v="perf">${ico('📊', '#dde7ff')}<div class="tx"><b>Performance &amp; Study Plan</b><span>مستواك، نقاط ضعفك، وخطة مذاكرة مخصصة</span></div></button>
       ${S.profile ? `<button class="tile" data-act="lbopen">${ico('🏆', '#fff0c9')}<div class="tx"><b>Leaderboard</b><span>ترتيب الأسبوع والشهر بـ Smart Score</span></div></button>
       <button class="tile" data-act="cardsopen">${ico('🃏', '#fde0ee')}<div class="tx"><b>Flashcards</b><span>${dueCount()} كارت مستحق من غلطاتك</span></div></button>` : ''}
@@ -488,7 +490,7 @@ views.home = () => {
 window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); S.installEv = e; if (S.view === 'home') render(); });
 
 /* ---------- curriculum navigation: Block > Week > Subject > Lecture ---------- */
-const SUBICO = { Pathology: ['🔬', '#ffe0e0'], Microbiology: ['🦠', '#dff6d2'], Parasitology: ['🪱', '#ffecc9'], Pharmacology: ['💊', '#dde7ff'], Immunology: ['🛡️', '#d9f0ff'], Genetics: ['🧬', '#f0e0ff'], Physiology: ['🫀', '#ffdfe8'], Theme: ['💡', '#fff3bf'], Embryology: ['👶', '#ffe6d6'], Histology: ['🔍', '#e6deff'], Clinical: ['🩺', '#d5f3ea'], Biochemistry: ['⚗️', '#e3f7c9'], Radiology: ['🩻', '#e1e8f0'], Anatomy: ['🦴', '#f5e8d3'] };
+const SUBICO = { Pathology: ['🔬', '#ffe0e0'], Microbiology: ['🦠', '#dff6d2'], Parasitology: ['🪱', '#ffecc9'], Pharmacology: ['💊', '#dde7ff'], Immunology: ['🛡️', '#d9f0ff'], Genetics: ['🧬', '#f0e0ff'], Physiology: ['🫀', '#ffdfe8'], Theme: ['💡', '#fff3bf'], Embryology: ['👶', '#ffe6d6'], Histology: ['🔍', '#e6deff'], Clinical: ['🩺', '#d5f3ea'], Biochemistry: ['⚗️', '#e3f7c9'], Radiology: ['🩻', '#e1e8f0'], Anatomy: ['🦴', '#f5e8d3'], Research: ['📊', '#dde7ff'] };
 const ico = (e, bg, cls = '') => `<i class="ico ${cls}" style="background:${bg}">${e}</i>`;
 const subIco = (s, cls) => { const [e, bg] = SUBICO[s] || ['📘', '#e5ecff']; return ico(e, bg, cls); };
 const BLKICO = { 1: ['🌱', '#dff6d2'], 2: ['🌿', '#d5f3ea'], 3: ['🌳', '#ffecc9'] };
@@ -498,7 +500,7 @@ const quizLec = z => z.lec || LINKS[z.id] || '';
 const quizzesOf = key => S.quizzes.filter(z => quizLec(z) === key);
 const findBlock = n => CURRICULUM.find(b => b.n === n);
 const findWeek = n => { for (const b of CURRICULUM) { const w = b.weeks.find(x => x.n === n); if (w) return w; } return null; };
-const findLec = key => { for (const b of CURRICULUM) for (const w of b.weeks) { const it = w.items.find(x => x.k === key); if (it) return { it, w, b }; } return null; };
+const findLec = key => { for (const b of CURRICULUM) for (const w of b.weeks) { const it = w.items.find(x => x.k === key); if (it) return { it, w, b }; } const r = RESEARCH.items.find(x => x.k === key); return r ? { it: r, w: { n: 0 }, b: { n: 0 }, research: true } : null; };
 const blockQuizCount = b => quizzesOf('block-' + b.n).length + b.weeks.reduce((s, w) => s + w.items.reduce((t, i) => t + quizzesOf(i.k).length, 0), 0);
 const weekQuizCount = w => w.items.reduce((t, i) => t + quizzesOf(i.k).length, 0);
 const quizCard = (z, ret) => `
@@ -508,6 +510,12 @@ const quizCard = (z, ret) => `
     <button class="btn small" data-act="board" data-id="${z.id}" data-ret="${ret}">الترتيب</button>
     <button class="btn small" data-act="pdf" data-id="${z.id}" dir="ltr">📄 PDF</button></div></article>`;
 
+views.research = () => {
+  $app.innerHTML = `${backBar('Research')}<div class="list">${RESEARCH.items.map(i => {
+    const nq = quizzesOf(i.k).length;
+    return `<button class="tile lec" data-act="lec" data-k="${i.k}">${subIco(i.s)}<div class="tx"><b dir="ltr">${esc(i.c)}</b><span dir="ltr">${nq ? nq + ' quiz' + (nq === 1 ? '' : 'zes') : 'Coming soon'}</span></div></button>`;
+  }).join('')}</div>`;
+};
 views.blocks = () => {
   $app.innerHTML = `${backBar('Semester 1')}<div class="tiles">${CURRICULUM.map(b => {
     const lecs = b.weeks.reduce((s, w) => s + w.items.length, 0), nq = blockQuizCount(b);
@@ -540,8 +548,8 @@ views.week = () => {
 };
 views.lecture = () => {
   const f = findLec(S.lec), qz = quizzesOf(S.lec), g = GAMES[S.lec];
-  $app.innerHTML = `${backBar(f.it.c, 'week')}
-    <p class="sub" dir="ltr"><b>${esc(f.it.s)}</b> · Block ${f.b.n} · Week ${f.w.n}</p>
+  $app.innerHTML = `${backBar(f.it.c, f.research ? 'research' : 'week')}
+    <p class="sub" dir="ltr"><b>${esc(f.it.s)}</b>${f.research ? '' : ` · Block ${f.b.n} · Week ${f.w.n}`}</p>
     <label class="hint" for="name">اسمك (يظهر في الترتيب)</label>
     <input class="inp" id="name" maxlength="30" value="${esc(S.name)}" placeholder="اكتب اسمك" autocomplete="nickname">
     <p class="msg err">${esc(S.err)}</p>
@@ -747,7 +755,7 @@ views.teacher = () => {
 };
 
 /* editor */
-const lecOptions = sel => '<option value="">Not linked</option>' + CURRICULUM.map(b => `<optgroup label="Block ${b.n}"><option value="block-${b.n}" ${sel === 'block-' + b.n ? 'selected' : ''}>Block ${b.n}: Comprehensive</option>` +
+const lecOptions = sel => '<option value="">Not linked</option>' + `<optgroup label="Research">${RESEARCH.items.map(i => `<option value="${i.k}" ${sel === i.k ? 'selected' : ''}>${esc(i.c)}</option>`).join('')}</optgroup>` + CURRICULUM.map(b => `<optgroup label="Block ${b.n}"><option value="block-${b.n}" ${sel === 'block-' + b.n ? 'selected' : ''}>Block ${b.n}: Comprehensive</option>` +
   b.weeks.map(w => w.items.map(i => `<option value="${i.k}" ${sel === i.k ? 'selected' : ''}>W${w.n} · ${esc(i.s)} · ${esc(i.c)}</option>`).join('')).join('') + '</optgroup>').join('');
 const blankQ = () => ({ q: '', correct: 0, options: [{ t: '', e: '' }, { t: '', e: '' }, { t: '', e: '' }, { t: '', e: '' }] });
 views.edit = () => {
