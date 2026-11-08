@@ -1,0 +1,491 @@
+{
+ "id": "w1-immuno-natural-immune-response-1-1",
+ "title": "Natural Immune Response 1: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-immunology-natural-immune-response-1",
+ "questions": [
+  {
+   "q": "Which feature is characteristic of innate immunity?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "High specificity",
+     "e": "Wrong. Adaptive."
+    },
+    {
+     "t": "Lack of memory",
+     "e": "Correct. It does not remember specific pathogens."
+    },
+    {
+     "t": "Slow onset",
+     "e": "Wrong. It is rapid."
+    },
+    {
+     "t": "Dependence on clonal expansion",
+     "e": "Wrong. Adaptive."
+    }
+   ],
+   "topic": "Innate features"
+  },
+  {
+   "q": "Innate immunity protects the host:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Before and during development of adaptive immunity",
+     "e": "Correct. It also shapes adaptive responses."
+    },
+    {
+     "t": "Only after adaptive immunity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only against viruses",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only in neonates",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Innate features"
+  },
+  {
+   "q": "Which receptors let innate cells recognize PAMPs?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "T cell receptors",
+     "e": "Wrong. Adaptive."
+    },
+    {
+     "t": "B cell receptors",
+     "e": "Wrong. Adaptive."
+    },
+    {
+     "t": "Fc receptors for self",
+     "e": "Wrong. Not the answer."
+    },
+    {
+     "t": "Pattern recognition receptors",
+     "e": "Correct. They detect conserved microbial structures."
+    }
+   ],
+   "topic": "PRRs"
+  },
+  {
+   "q": "PAMPs are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Molecules released by damaged host cells",
+     "e": "Wrong. Those are DAMPs."
+    },
+    {
+     "t": "Antibodies",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Conserved molecular structures characteristic of microorganisms",
+     "e": "Correct. Detected by PRRs."
+    },
+    {
+     "t": "Complement fragments",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PRRs"
+  },
+  {
+   "q": "DAMPs include:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "LPS and flagellin",
+     "e": "Wrong. PAMPs."
+    },
+    {
+     "t": "Uric acid, extracellular ATP, DNA fragments and heat shock proteins",
+     "e": "Correct. Endogenous molecules released from damaged cells."
+    },
+    {
+     "t": "Peptidoglycan",
+     "e": "Wrong. PAMP."
+    },
+    {
+     "t": "Double-stranded viral RNA",
+     "e": "Wrong. PAMP."
+    }
+   ],
+   "topic": "PRRs"
+  },
+  {
+   "q": "LPS from Gram-negative bacteria is recognized mainly by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "TLR4",
+     "e": "Correct. The classic receptor for LPS."
+    },
+    {
+     "t": "TLR3",
+     "e": "Wrong. dsRNA."
+    },
+    {
+     "t": "TLR9",
+     "e": "Wrong. CpG DNA."
+    },
+    {
+     "t": "Dectin-1",
+     "e": "Wrong. Beta-glucans."
+    }
+   ],
+   "topic": "PRRs"
+  },
+  {
+   "q": "Double-stranded viral RNA is sensed by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "TLR7/8",
+     "e": "Wrong. Single-stranded RNA."
+    },
+    {
+     "t": "TLR9",
+     "e": "Wrong. CpG DNA."
+    },
+    {
+     "t": "TLR2",
+     "e": "Wrong. Lipoproteins and peptidoglycan."
+    },
+    {
+     "t": "TLR3",
+     "e": "Correct. Also cytosolic RNA sensors."
+    }
+   ],
+   "topic": "PRRs"
+  },
+  {
+   "q": "Single-stranded viral RNA is recognized by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "TLR3",
+     "e": "Wrong. dsRNA."
+    },
+    {
+     "t": "TLR4",
+     "e": "Wrong. LPS."
+    },
+    {
+     "t": "TLR7/TLR8",
+     "e": "Correct. Endosomal receptors."
+    },
+    {
+     "t": "Dectin-1",
+     "e": "Wrong. Beta-glucans."
+    }
+   ],
+   "topic": "PRRs"
+  },
+  {
+   "q": "Beta-glucans of fungi are recognized by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "TLR9",
+     "e": "Wrong. CpG DNA."
+    },
+    {
+     "t": "Dectin-1",
+     "e": "Correct. A C-type lectin receptor."
+    },
+    {
+     "t": "TLR3",
+     "e": "Wrong. dsRNA."
+    },
+    {
+     "t": "TLR7",
+     "e": "Wrong. ssRNA."
+    }
+   ],
+   "topic": "PRRs"
+  },
+  {
+   "q": "Which are membrane-bound PRRs?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Toll-like receptors and C-type lectin receptors",
+     "e": "Correct. Transmembrane receptors."
+    },
+    {
+     "t": "NOD-like receptors",
+     "e": "Wrong. Endosomal/cytosolic."
+    },
+    {
+     "t": "RIG-I-like receptors",
+     "e": "Wrong. Endosomal/cytosolic."
+    },
+    {
+     "t": "T cell receptors",
+     "e": "Wrong. Not PRRs."
+    }
+   ],
+   "topic": "PRRs"
+  },
+  {
+   "q": "Which of the following is a chemical barrier?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cilia of the trachea",
+     "e": "Wrong. Mechanical."
+    },
+    {
+     "t": "Cough reflex",
+     "e": "Wrong. Reflex action."
+    },
+    {
+     "t": "Skin epithelium",
+     "e": "Wrong. Physical barrier."
+    },
+    {
+     "t": "Lysozyme in saliva",
+     "e": "Correct. An antimicrobial substance."
+    }
+   ],
+   "topic": "Barriers"
+  },
+  {
+   "q": "Gastric and vaginal acidity are examples of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Physical barriers",
+     "e": "Wrong. Skin and mucosa."
+    },
+    {
+     "t": "Reflex actions",
+     "e": "Wrong. Cough, blinking."
+    },
+    {
+     "t": "Chemical barriers",
+     "e": "Correct. They destroy many microbes."
+    },
+    {
+     "t": "Normal flora",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Barriers"
+  },
+  {
+   "q": "The flushing action of tears and urine is a:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Chemical barrier of acidity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Reflex or washing action",
+     "e": "Correct. Part of mechanical defence."
+    },
+    {
+     "t": "Complement action",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adaptive response",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Barriers"
+  },
+  {
+   "q": "Which statement about the normal flora is correct?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "They resist colonization by pathogens",
+     "e": "Correct. Part of protective host defence."
+    },
+    {
+     "t": "Viruses and parasites are members of normal flora",
+     "e": "Wrong. They are not considered normal flora."
+    },
+    {
+     "t": "They suppress immune system development",
+     "e": "Wrong. They stimulate its development."
+    },
+    {
+     "t": "They are always pathogenic",
+     "e": "Wrong. Mostly harmless."
+    }
+   ],
+   "topic": "Normal flora"
+  },
+  {
+   "q": "Bowel bacteria protect by producing:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Complement",
+     "e": "Wrong. Produced by the liver."
+    },
+    {
+     "t": "Interferons",
+     "e": "Wrong. Produced by infected cells."
+    },
+    {
+     "t": "Antibodies against self",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bacteriocins and acids that kill harmful bacteria",
+     "e": "Correct. Antimicrobial substances."
+    }
+   ],
+   "topic": "Normal flora"
+  },
+  {
+   "q": "Lysozyme acts by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Forming pores in membranes",
+     "e": "Wrong. Defensins or MAC."
+    },
+    {
+     "t": "Blocking viral replication",
+     "e": "Wrong. Interferon."
+    },
+    {
+     "t": "Destroying peptidoglycan, leading to bacterial lysis",
+     "e": "Correct. Antimicrobial enzyme."
+    },
+    {
+     "t": "Presenting antigen",
+     "e": "Wrong. APCs."
+    }
+   ],
+   "topic": "Humoral"
+  },
+  {
+   "q": "Defensins are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Antibodies",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antimicrobial peptides that disrupt bacterial membranes",
+     "e": "Correct. From epithelial cells and neutrophils."
+    },
+    {
+     "t": "Complement proteins",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cytokines for T cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Humoral"
+  },
+  {
+   "q": "Which humoral factor has an antiviral role?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Interferon",
+     "e": "Correct. Part of the innate humoral defence."
+    },
+    {
+     "t": "Lysozyme",
+     "e": "Wrong. Antibacterial."
+    },
+    {
+     "t": "Defensin",
+     "e": "Wrong. Mainly antibacterial."
+    },
+    {
+     "t": "C-reactive protein",
+     "e": "Wrong. Acute phase protein."
+    }
+   ],
+   "topic": "Humoral"
+  },
+  {
+   "q": "Humoral innate factors help initiate immune responses by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Producing memory B cells",
+     "e": "Wrong. Adaptive."
+    },
+    {
+     "t": "Reducing inflammation only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Blocking all pathogens permanently",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Causing vasodilation, increased permeability and chemotaxis",
+     "e": "Correct. Increase blood flow and attract cells."
+    }
+   ],
+   "topic": "Humoral"
+  },
+  {
+   "q": "Which receptors on phagocytes bind opsonized microbes?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "T cell receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "BCR",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fc receptors and complement receptors",
+     "e": "Correct. They bind antibody- or complement-coated microbes."
+    },
+    {
+     "t": "Cytokine receptors only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Phagocytes"
+  },
+  {
+   "q": "Which cells are the main phagocytes of innate immunity?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Plasma cells",
+     "e": "Wrong. Antibody-producing."
+    },
+    {
+     "t": "Macrophages and neutrophils",
+     "e": "Correct. They engulf and destroy pathogens."
+    },
+    {
+     "t": "Cytotoxic T cells",
+     "e": "Wrong. Adaptive."
+    },
+    {
+     "t": "Red blood cells",
+     "e": "Wrong. Not phagocytes."
+    }
+   ],
+   "topic": "Phagocytes"
+  }
+ ]
+}

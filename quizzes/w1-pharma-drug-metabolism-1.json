@@ -1,0 +1,537 @@
+{
+ "id": "w1-pharma-drug-metabolism-1",
+ "title": "Drug Metabolism: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-pharmacology-drug-metabolism",
+ "questions": [
+  {
+   "q": "Drug metabolism (biotransformation) converts:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Hydrophilic into lipophilic",
+     "e": "Wrong. The opposite."
+    },
+    {
+     "t": "Active into excreted without change",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Drugs into proteins",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Lipophilic drugs into hydrophilic compounds easily excreted",
+     "e": "Correct. Mainly in the liver."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The major site of drug metabolism is the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Spleen",
+     "e": "Wrong. Not major."
+    },
+    {
+     "t": "Bone marrow",
+     "e": "Wrong. Not major."
+    },
+    {
+     "t": "Liver",
+     "e": "Correct. Also lungs, kidneys, adrenals and first pass sites."
+    },
+    {
+     "t": "Pancreas",
+     "e": "Wrong. Not major."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Phase I reactions include:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Conjugation with glucuronic acid",
+     "e": "Wrong. Phase II."
+    },
+    {
+     "t": "Oxidation, reduction and hydrolysis",
+     "e": "Correct. Most use the cytochrome P450 system."
+    },
+    {
+     "t": "Acetylation",
+     "e": "Wrong. Phase II."
+    },
+    {
+     "t": "Methylation",
+     "e": "Wrong. Phase II."
+    }
+   ],
+   "topic": "Phase I"
+  },
+  {
+   "q": "Phase I reactions can cause the drug's activity to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Increase, decrease, or remain unchanged",
+     "e": "Correct. Active, inactive or unaltered."
+    },
+    {
+     "t": "Only decrease",
+     "e": "Wrong. Not always."
+    },
+    {
+     "t": "Only increase",
+     "e": "Wrong. Not always."
+    },
+    {
+     "t": "Always stay unchanged",
+     "e": "Wrong. Not true."
+    }
+   ],
+   "topic": "Phase I"
+  },
+  {
+   "q": "The enzyme system most involved in phase I metabolism is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Glucuronyl transferase",
+     "e": "Wrong. Phase II."
+    },
+    {
+     "t": "Acetyltransferase",
+     "e": "Wrong. Phase II."
+    },
+    {
+     "t": "Glutathione transferase",
+     "e": "Wrong. Phase II."
+    },
+    {
+     "t": "Cytochrome P450 (microsomal mixed-function oxidases)",
+     "e": "Correct. Key phase I enzyme system."
+    }
+   ],
+   "topic": "Phase I"
+  },
+  {
+   "q": "Which drugs are enzyme inducers?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Ketoconazole, cimetidine, erythromycin",
+     "e": "Wrong. Enzyme inhibitors."
+    },
+    {
+     "t": "Omeprazole and ritonavir",
+     "e": "Wrong. Inhibitors."
+    },
+    {
+     "t": "Phenobarbital, rifampin, carbamazepine",
+     "e": "Correct. They increase biotransformation of other drugs."
+    },
+    {
+     "t": "Propranolol and morphine",
+     "e": "Wrong. High first-pass drugs."
+    }
+   ],
+   "topic": "Inducers"
+  },
+  {
+   "q": "A patient on phenobarbital is given diazepam. What is expected?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Decreased metabolism and increased effect",
+     "e": "Wrong. This describes inhibition."
+    },
+    {
+     "t": "Increased metabolism of diazepam and decreased effect",
+     "e": "Correct. Phenobarbital induces CYP enzymes."
+    },
+    {
+     "t": "No interaction",
+     "e": "Wrong. There is induction."
+    },
+    {
+     "t": "Complete lack of metabolism",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Inducers"
+  },
+  {
+   "q": "Enzyme inducers cause:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Decreased plasma concentrations of drugs metabolized by the induced CYPs",
+     "e": "Correct. Faster biotransformation."
+    },
+    {
+     "t": "Increased plasma concentrations",
+     "e": "Wrong. Inhibitors do that."
+    },
+    {
+     "t": "No change",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Direct renal toxicity",
+     "e": "Wrong. Not the effect."
+    }
+   ],
+   "topic": "Inducers"
+  },
+  {
+   "q": "Which drug is an enzyme inhibitor?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Rifampin",
+     "e": "Wrong. Inducer."
+    },
+    {
+     "t": "Carbamazepine",
+     "e": "Wrong. Inducer."
+    },
+    {
+     "t": "Phenobarbital",
+     "e": "Wrong. Inducer."
+    },
+    {
+     "t": "Ketoconazole",
+     "e": "Correct. Also omeprazole, erythromycin, ritonavir, cimetidine."
+    }
+   ],
+   "topic": "Inhibitors"
+  },
+  {
+   "q": "Consequence of CYP inhibition is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lower blood levels",
+     "e": "Wrong. Induction."
+    },
+    {
+     "t": "Faster excretion",
+     "e": "Wrong. Not the effect."
+    },
+    {
+     "t": "Higher blood levels, increased therapeutic or toxic effects",
+     "e": "Correct. Serious drug interactions."
+    },
+    {
+     "t": "No change",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Inhibitors"
+  },
+  {
+   "q": "Phase II reactions are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Oxidation and reduction",
+     "e": "Wrong. Phase I."
+    },
+    {
+     "t": "Conjugation with endogenous substrates",
+     "e": "Correct. For example glucuronide, sulfate, acetyl."
+    },
+    {
+     "t": "Hydrolysis only",
+     "e": "Wrong. Phase I."
+    },
+    {
+     "t": "Absorption",
+     "e": "Wrong. Not metabolism."
+    }
+   ],
+   "topic": "Phase II"
+  },
+  {
+   "q": "The most common phase II reaction is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Glucuronide conjugation",
+     "e": "Correct. Catalyzed by microsomal glucuronyl transferase."
+    },
+    {
+     "t": "Sulfation",
+     "e": "Wrong. Less common."
+    },
+    {
+     "t": "Methylation",
+     "e": "Wrong. Less common."
+    },
+    {
+     "t": "Acetylation",
+     "e": "Wrong. Less common."
+    }
+   ],
+   "topic": "Phase II"
+  },
+  {
+   "q": "Glucuronide conjugation occurs with:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only steroids",
+     "e": "Wrong. Sulfate example."
+    },
+    {
+     "t": "Only norepinephrine",
+     "e": "Wrong. Methylation example."
+    },
+    {
+     "t": "Only ethacrynic acid",
+     "e": "Wrong. Glutathione example."
+    },
+    {
+     "t": "Phenols, alcohols and carboxylic acids",
+     "e": "Correct. Couples drug with glucuronic acid."
+    }
+   ],
+   "topic": "Phase II"
+  },
+  {
+   "q": "Glutathione conjugation is exemplified by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Steroids",
+     "e": "Wrong. Sulfate conjugation."
+    },
+    {
+     "t": "Norepinephrine",
+     "e": "Wrong. Methylation."
+    },
+    {
+     "t": "Ethacrynic acid",
+     "e": "Correct. Non-glucuronide conjugation."
+    },
+    {
+     "t": "Salicylic acid",
+     "e": "Wrong. Glycine conjugation."
+    }
+   ],
+   "topic": "Phase II"
+  },
+  {
+   "q": "Which statement about phase II is true?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It always precedes phase I",
+     "e": "Wrong. It may follow or precede."
+    },
+    {
+     "t": "It generally inactivates the drug and makes it polar and easily excreted",
+     "e": "Correct. Highly polar compounds."
+    },
+    {
+     "t": "It converts hydrophilic into lipophilic",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "It activates all drugs",
+     "e": "Wrong. Generally inactivates."
+    }
+   ],
+   "topic": "Phase II"
+  },
+  {
+   "q": "Prodrugs are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Drugs activated by metabolism",
+     "e": "Correct. Inactive until biotransformed."
+    },
+    {
+     "t": "Drugs inactivated by metabolism",
+     "e": "Wrong. Typical drug."
+    },
+    {
+     "t": "Drugs excreted unchanged",
+     "e": "Wrong. Not prodrugs."
+    },
+    {
+     "t": "Drugs that inhibit enzymes",
+     "e": "Wrong. Not prodrugs."
+    }
+   ],
+   "topic": "Metabolism"
+  },
+  {
+   "q": "First-pass metabolism refers to metabolism:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "After the drug reaches the systemic circulation",
+     "e": "Wrong. General metabolism."
+    },
+    {
+     "t": "In the kidney only",
+     "e": "Wrong. Not specific."
+    },
+    {
+     "t": "Only in the lung",
+     "e": "Wrong. Not specific."
+    },
+    {
+     "t": "Before the drug reaches the systemic circulation",
+     "e": "Correct. In gut wall and liver after oral absorption."
+    }
+   ],
+   "topic": "First pass"
+  },
+  {
+   "q": "First-pass metabolism affects bioavailability by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Increasing it",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Leaving it unchanged",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Decreasing it",
+     "e": "Correct. Less unchanged drug reaches the circulation."
+    },
+    {
+     "t": "Doubling it",
+     "e": "Wrong. Not true."
+    }
+   ],
+   "topic": "First pass"
+  },
+  {
+   "q": "Nitroglycerin is given sublingually because:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It is irritant to the stomach",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "More than 90% is cleared in one hepatic pass",
+     "e": "Correct. Sublingual route avoids first pass."
+    },
+    {
+     "t": "It is too lipophilic",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "It is destroyed by plasma proteins",
+     "e": "Wrong. Not the reason."
+    }
+   ],
+   "topic": "First pass"
+  },
+  {
+   "q": "Which pair are drugs with high first-pass metabolism?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Propranolol and morphine",
+     "e": "Correct. Oral dose is extensively metabolized."
+    },
+    {
+     "t": "Aspirin and warfarin",
+     "e": "Wrong. Not given as examples."
+    },
+    {
+     "t": "Digoxin and quinidine",
+     "e": "Wrong. Not given as examples."
+    },
+    {
+     "t": "Rifampin and cimetidine",
+     "e": "Wrong. Enzyme modulators."
+    }
+   ],
+   "topic": "First pass"
+  },
+  {
+   "q": "Gray baby syndrome results from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Sulfonamide displacement of bilirubin",
+     "e": "Wrong. That causes kernicterus."
+    },
+    {
+     "t": "Phenobarbital induction",
+     "e": "Wrong. Not the cause."
+    },
+    {
+     "t": "Slow acetylation of isoniazid",
+     "e": "Wrong. Not the cause."
+    },
+    {
+     "t": "Inability of neonatal liver to detoxify chloramphenicol",
+     "e": "Correct. A patient-related factor."
+    }
+   ],
+   "topic": "Factors"
+  },
+  {
+   "q": "Rapid versus slow acetylation of isoniazid is an example of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Dietary influence",
+     "e": "Wrong. Starvation depleting glycine."
+    },
+    {
+     "t": "Gender influence",
+     "e": "Wrong. Barbiturate sedation."
+    },
+    {
+     "t": "Genetic influence on biotransformation",
+     "e": "Correct. Patient-related factor."
+    },
+    {
+     "t": "Disease influence",
+     "e": "Wrong. Liver disease."
+    }
+   ],
+   "topic": "Factors"
+  },
+  {
+   "q": "Succinylcholine hydrolysis depends on:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "CYP3A4",
+     "e": "Wrong. Not mentioned."
+    },
+    {
+     "t": "Pseudocholinesterase enzyme",
+     "e": "Correct. A genetic factor affects it."
+    },
+    {
+     "t": "Glutathione transferase",
+     "e": "Wrong. Not mentioned."
+    },
+    {
+     "t": "Glucuronyl transferase",
+     "e": "Wrong. Not mentioned."
+    }
+   ],
+   "topic": "Factors"
+  }
+ ]
+}

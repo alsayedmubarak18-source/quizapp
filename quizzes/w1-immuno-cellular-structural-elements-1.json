@@ -1,0 +1,537 @@
+{
+ "id": "w1-immuno-cellular-structural-elements-1",
+ "title": "Cells and Organs of the Immune System: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-immunology-cellular-structural-elements-of-immunity",
+ "questions": [
+  {
+   "q": "Primary lymphoid organs are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Bone marrow and thymus",
+     "e": "Correct. Sites of production and maturation of lymphocytes."
+    },
+    {
+     "t": "Spleen and lymph nodes",
+     "e": "Wrong. Secondary organs."
+    },
+    {
+     "t": "Tonsils and appendix",
+     "e": "Wrong. Secondary lymphoid tissue."
+    },
+    {
+     "t": "Peyer's patches",
+     "e": "Wrong. Part of GALT, a secondary tissue."
+    }
+   ],
+   "topic": "Lymphoid organs"
+  },
+  {
+   "q": "Which organ is the origin of all blood cell types?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Thymus",
+     "e": "Wrong. T cell maturation."
+    },
+    {
+     "t": "Spleen",
+     "e": "Wrong. Secondary organ."
+    },
+    {
+     "t": "Liver",
+     "e": "Wrong. Not the primary source in adults."
+    },
+    {
+     "t": "Bone marrow",
+     "e": "Correct. Source of pluripotent hematopoietic stem cells."
+    }
+   ],
+   "topic": "Lymphoid organs"
+  },
+  {
+   "q": "T cells mature in the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Bone marrow",
+     "e": "Wrong. B cells partially mature there."
+    },
+    {
+     "t": "Spleen",
+     "e": "Wrong. Secondary organ."
+    },
+    {
+     "t": "Thymus",
+     "e": "Correct. Under the effect of thymosin."
+    },
+    {
+     "t": "Lymph node",
+     "e": "Wrong. Secondary organ."
+    }
+   ],
+   "topic": "Lymphoid organs"
+  },
+  {
+   "q": "Thymic education refers to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Production of antibodies",
+     "e": "Wrong. B cell function."
+    },
+    {
+     "t": "Programming T cells to recognize foreign antigens and ignore self",
+     "e": "Correct. Positive and negative selection."
+    },
+    {
+     "t": "Production of red cells",
+     "e": "Wrong. Bone marrow."
+    },
+    {
+     "t": "Filtration of blood",
+     "e": "Wrong. Spleen."
+    }
+   ],
+   "topic": "T cells"
+  },
+  {
+   "q": "What percentage of thymocytes become mature T cells?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "About 2%",
+     "e": "Correct. Most die during development."
+    },
+    {
+     "t": "About 50%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "About 98%",
+     "e": "Wrong. Most die."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not true."
+    }
+   ],
+   "topic": "T cells"
+  },
+  {
+   "q": "The sequence of T cell development in the thymus is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Single positive, double positive, double negative",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "CD4+ only throughout",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "CD8+ only throughout",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Double negative, double positive (CD4+CD8+), then single positive",
+     "e": "Correct. Followed by release to periphery."
+    }
+   ],
+   "topic": "T cells"
+  },
+  {
+   "q": "Which T cell subset recognizes antigens presented on MHC-I?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "T helper cells (CD4+)",
+     "e": "Wrong. MHC-II."
+    },
+    {
+     "t": "Regulatory T cells",
+     "e": "Wrong. Limit responses."
+    },
+    {
+     "t": "Cytotoxic T cells (CD8+)",
+     "e": "Correct. They trigger apoptosis of the presenting cell."
+    },
+    {
+     "t": "Memory T cells only",
+     "e": "Wrong. Not specific."
+    }
+   ],
+   "topic": "T cells"
+  },
+  {
+   "q": "CD4+ T helper cells recognize antigen presented with:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "MHC-I",
+     "e": "Wrong. CD8+ cells."
+    },
+    {
+     "t": "MHC-II",
+     "e": "Correct. On antigen-presenting cells."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antibody Fc",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "T cells"
+  },
+  {
+   "q": "TH1 cells primarily:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Initiate cellular immunity and macrophage stimulation",
+     "e": "Correct. Cell-mediated response."
+    },
+    {
+     "t": "Initiate antibody production",
+     "e": "Wrong. TH2."
+    },
+    {
+     "t": "Limit excessive responses",
+     "e": "Wrong. Tregs."
+    },
+    {
+     "t": "Cause tissue inflammation by IL-17",
+     "e": "Wrong. TH17."
+    }
+   ],
+   "topic": "T cells"
+  },
+  {
+   "q": "TH2 cells primarily:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Stimulate macrophages",
+     "e": "Wrong. TH1."
+    },
+    {
+     "t": "Kill infected cells",
+     "e": "Wrong. CD8+."
+    },
+    {
+     "t": "Suppress immunity",
+     "e": "Wrong. Tregs."
+    },
+    {
+     "t": "Cooperate with B lymphocytes for immunoglobulin production",
+     "e": "Correct. Humoral response."
+    }
+   ],
+   "topic": "T cells"
+  },
+  {
+   "q": "Regulatory T cells function to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Kill virus-infected cells",
+     "e": "Wrong. CD8+ cells."
+    },
+    {
+     "t": "Produce antibodies",
+     "e": "Wrong. B cells."
+    },
+    {
+     "t": "Limit excessive immune responses",
+     "e": "Correct. Protect against overreaction."
+    },
+    {
+     "t": "Stimulate macrophages",
+     "e": "Wrong. TH1."
+    }
+   ],
+   "topic": "T cells"
+  },
+  {
+   "q": "The largest lymphoid organ is the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Thymus",
+     "e": "Wrong. Primary organ."
+    },
+    {
+     "t": "Spleen",
+     "e": "Correct. It filters blood and responds to bloodborne antigens."
+    },
+    {
+     "t": "Lymph node",
+     "e": "Wrong. Smaller."
+    },
+    {
+     "t": "Tonsil",
+     "e": "Wrong. Smaller."
+    }
+   ],
+   "topic": "Secondary organs"
+  },
+  {
+   "q": "The spleen responds best to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Bloodborne antigens",
+     "e": "Correct. It is directly connected to the circulation."
+    },
+    {
+     "t": "Skin antigens",
+     "e": "Wrong. Not specific."
+    },
+    {
+     "t": "Gut antigens",
+     "e": "Wrong. GALT."
+    },
+    {
+     "t": "Inhaled antigens",
+     "e": "Wrong. BALT."
+    }
+   ],
+   "topic": "Secondary organs"
+  },
+  {
+   "q": "Lymph nodes enlarge because of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Fat accumulation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Loss of lymphocytes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Thymic involution",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Proliferation and recruitment of immune cells after antigenic stimulus",
+     "e": "Correct. A visible sign of an ongoing response."
+    }
+   ],
+   "topic": "Secondary organs"
+  },
+  {
+   "q": "In a lymph node, antigens are presented to T cells by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Red blood cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Platelets",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antigen-presenting cells",
+     "e": "Correct. They engulf the antigen and present fragments."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Secondary organs"
+  },
+  {
+   "q": "MALT stands for:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Macrophage-associated lymphoid tissue",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mucosal-associated lymphoid tissue",
+     "e": "Correct. Includes BALT, NALT, GALT, and others."
+    },
+    {
+     "t": "Marrow-associated lymphoid tissue",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mature antibody lymphoid tissue",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Secondary organs"
+  },
+  {
+   "q": "Peyer's patches are part of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "GALT in the small intestine",
+     "e": "Correct. Gut-associated lymphoid tissue."
+    },
+    {
+     "t": "BALT",
+     "e": "Wrong. Bronchus."
+    },
+    {
+     "t": "NALT",
+     "e": "Wrong. Nasal."
+    },
+    {
+     "t": "SALT",
+     "e": "Wrong. Skin."
+    }
+   ],
+   "topic": "Secondary organs"
+  },
+  {
+   "q": "White blood cells make up about what percentage of total blood cells?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "About 20%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "About 45%",
+     "e": "Wrong. That's hematocrit."
+    },
+    {
+     "t": "About 75%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "About 1%",
+     "e": "Correct. Derived from hematopoietic stem cells."
+    }
+   ],
+   "topic": "Hematopoiesis"
+  },
+  {
+   "q": "B cells produce antibodies:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Constantly when naive",
+     "e": "Wrong. They don't until activated."
+    },
+    {
+     "t": "Only in the thymus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only after becoming fully activated",
+     "e": "Correct. Until then they carry BCR on the surface."
+    },
+    {
+     "t": "Never",
+     "e": "Wrong. Plasma cells secrete antibodies."
+    }
+   ],
+   "topic": "B cells"
+  },
+  {
+   "q": "The B cell receptor (BCR) is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A secreted complement protein",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A membrane-bound immunoglobulin binding one particular antigen",
+     "e": "Correct. Main protein in activation."
+    },
+    {
+     "t": "The same as the TCR",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A cytokine",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "B cells"
+  },
+  {
+   "q": "If a developing B cell strongly binds self-antigen, one fate is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Clonal deletion, receptor editing, anergy, or ignorance",
+     "e": "Correct. The four fates."
+    },
+    {
+     "t": "Immediate antibody secretion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Migration to the thymus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Conversion to a T cell",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "B cells"
+  },
+  {
+   "q": "Immature B cells migrate to the spleen as:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Thymocytes",
+     "e": "Wrong. T cells."
+    },
+    {
+     "t": "Plasma cells",
+     "e": "Wrong. Not at that stage."
+    },
+    {
+     "t": "Memory cells",
+     "e": "Wrong. Not at that stage."
+    },
+    {
+     "t": "Transitional B cells that become follicular or marginal zone B cells",
+     "e": "Correct. T1 to T2 then FO or MZ."
+    }
+   ],
+   "topic": "B cells"
+  },
+  {
+   "q": "According to clonal selection theory, activated lymphocytes differentiate into:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Only memory cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only effector cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Effector cells and memory cells",
+     "e": "Correct. Effectors defend now; memory cells persist."
+    },
+    {
+     "t": "Complement proteins",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clonal selection"
+  }
+ ]
+}

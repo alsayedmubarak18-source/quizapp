@@ -1,0 +1,445 @@
+{
+ "id": "w1-immuno-overview-1",
+ "title": "Immunology Overview: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-immunology-overview",
+ "questions": [
+  {
+   "q": "The immune system is best described as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "A network of cells, tissues, organs and molecules defending against foreign invaders",
+     "e": "Correct. This is the core definition."
+    },
+    {
+     "t": "A single organ in the thorax",
+     "e": "Wrong. It is a network, not one organ."
+    },
+    {
+     "t": "A system that reacts only against self",
+     "e": "Wrong. It normally tolerates self."
+    },
+    {
+     "t": "A hormonal system",
+     "e": "Wrong. Not the definition."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "A normal immune system usually:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Responds equally to self and non-self",
+     "e": "Wrong. This would cause autoimmunity."
+    },
+    {
+     "t": "Ignores all antigens",
+     "e": "Wrong. It would not defend the body."
+    },
+    {
+     "t": "Attacks only cancer cells",
+     "e": "Wrong. It also fights pathogens."
+    },
+    {
+     "t": "Responds to non-self antigens but not to self antigens",
+     "e": "Correct. This is self-tolerance."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Which is NOT a main role of the immune system?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Fighting pathogens",
+     "e": "Wrong. A main role."
+    },
+    {
+     "t": "Neutralizing toxic substances",
+     "e": "Wrong. A main role."
+    },
+    {
+     "t": "Producing digestive enzymes",
+     "e": "Correct. This is a digestive function."
+    },
+    {
+     "t": "Fighting cancer cells",
+     "e": "Wrong. A main role."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The immune response is defined as:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A response to self antigens only",
+     "e": "Wrong. Wrong."
+    },
+    {
+     "t": "A collective, coordinated response to foreign substances mediated by immune cells and molecules",
+     "e": "Correct. This is the definition."
+    },
+    {
+     "t": "Only antibody production",
+     "e": "Wrong. Too narrow."
+    },
+    {
+     "t": "A response to food only",
+     "e": "Wrong. Wrong."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Immune-competence means:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The immune system works properly and can mount an appropriate response after antigen exposure",
+     "e": "Correct. Normal function."
+    },
+    {
+     "t": "Immune defenses are low",
+     "e": "Wrong. This is immune-compromised."
+    },
+    {
+     "t": "Failed immune system",
+     "e": "Wrong. This is immune-deficient."
+    },
+    {
+     "t": "Overreaction to self",
+     "e": "Wrong. This is autoimmunity."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Which patient is immune-compromised?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A healthy athlete",
+     "e": "Wrong. Immune-competent."
+    },
+    {
+     "t": "A newborn vaccinated normally",
+     "e": "Wrong. Not described as compromised."
+    },
+    {
+     "t": "A person with seasonal allergy only",
+     "e": "Wrong. Not an example."
+    },
+    {
+     "t": "A patient on immunosuppressive medication",
+     "e": "Correct. Also chronic disease, cancer therapy, transplantation, smoking."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Immune-deficient refers to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Mildly reduced defences from smoking",
+     "e": "Wrong. Immune-compromised."
+    },
+    {
+     "t": "A fully functional system",
+     "e": "Wrong. Immune-competent."
+    },
+    {
+     "t": "A patient with a failed immune system, such as late-stage AIDS",
+     "e": "Correct. Inability to function properly."
+    },
+    {
+     "t": "An allergic person",
+     "e": "Wrong. Not immune-deficient."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Innate immunity is also called:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Acquired immunity",
+     "e": "Wrong. Adaptive immunity."
+    },
+    {
+     "t": "Natural or non-specific immunity",
+     "e": "Correct. Present from birth."
+    },
+    {
+     "t": "Specific immunity",
+     "e": "Wrong. Adaptive."
+    },
+    {
+     "t": "Passive immunity",
+     "e": "Wrong. Not the synonym."
+    }
+   ],
+   "topic": "Innate"
+  },
+  {
+   "q": "The innate immune response is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Fast acting and non-specific",
+     "e": "Correct. It does not differ by pathogen."
+    },
+    {
+     "t": "Slow and specific",
+     "e": "Wrong. Adaptive."
+    },
+    {
+     "t": "Dependent on lymphocytes only",
+     "e": "Wrong. Adaptive."
+    },
+    {
+     "t": "Able to form memory",
+     "e": "Wrong. Innate lacks memory."
+    }
+   ],
+   "topic": "Innate"
+  },
+  {
+   "q": "Adaptive immunity is mediated by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Skin and mucous membranes",
+     "e": "Wrong. Innate barriers."
+    },
+    {
+     "t": "Complement only",
+     "e": "Wrong. Innate humoral."
+    },
+    {
+     "t": "Neutrophils only",
+     "e": "Wrong. Innate cells."
+    },
+    {
+     "t": "Lymphocytes and their products",
+     "e": "Correct. B and T cells."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Compared to innate, adaptive immunity is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Faster and non-specific",
+     "e": "Wrong. Innate."
+    },
+    {
+     "t": "Present only at birth",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Slower but more accurate, with memory",
+     "e": "Correct. It targets the specific pathogen."
+    },
+    {
+     "t": "Without memory",
+     "e": "Wrong. Memory is a feature."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Which is a cardinal feature of adaptive immunity?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Non-specificity",
+     "e": "Wrong. Innate."
+    },
+    {
+     "t": "Specificity",
+     "e": "Correct. Individual lymphocytes recognize particular antigens."
+    },
+    {
+     "t": "Absence of memory",
+     "e": "Wrong. Adaptive has memory."
+    },
+    {
+     "t": "Reaction against self",
+     "e": "Wrong. It shows non-reactivity to self."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Diversity of the adaptive system means:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "It can recognize a vast variety of antigens, estimated at 10^9 to 10^11",
+     "e": "Correct. Large repertoire of receptors."
+    },
+    {
+     "t": "It recognizes only one antigen",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "It ignores new antigens",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "It responds identically to all microbes",
+     "e": "Wrong. Responses are optimized."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Immunological memory means:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Slower secondary response",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Identical primary and secondary responses",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "No response to reinfection",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Faster, larger, qualitatively different secondary responses",
+     "e": "Correct. On repeat exposure."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Self-limitation means:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Response never ends",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Reacting to self",
+     "e": "Wrong. That's autoimmunity."
+    },
+    {
+     "t": "After eliminating the microbe, the immune system returns to its basal state",
+     "e": "Correct. Response subsides."
+    },
+    {
+     "t": "Producing memory",
+     "e": "Wrong. Different feature."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Non-reactivity to self is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The ability to ignore microbes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The ability to respond to non-self without harmful reaction to self",
+     "e": "Correct. Self-tolerance."
+    },
+    {
+     "t": "Antibody production only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A feature of innate only",
+     "e": "Wrong. It's an adaptive feature."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Clonal selection occurs when:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "An antigen selects a lymphocyte clone whose receptor matches it",
+     "e": "Correct. Followed by clonal expansion."
+    },
+    {
+     "t": "All lymphocytes are activated",
+     "e": "Wrong. Only specific clones."
+    },
+    {
+     "t": "Antibodies select antigens",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Complement selects lymphocytes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Clonal expansion is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Death of lymphocytes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Reduction in antigen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Conversion of B cells to T cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increase in the number of antigen-specific lymphocytes",
+     "e": "Correct. Proliferation of the selected clone."
+    }
+   ],
+   "topic": "Adaptive"
+  },
+  {
+   "q": "Why do medical students study immunology?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Only to learn about allergy",
+     "e": "Wrong. Too narrow."
+    },
+    {
+     "t": "Only for research",
+     "e": "Wrong. Too narrow."
+    },
+    {
+     "t": "To understand disease mechanisms, vaccination, and therapies such as monoclonal antibodies",
+     "e": "Correct. Several clinical applications."
+    },
+    {
+     "t": "It has no clinical relevance",
+     "e": "Wrong. Wrong."
+    }
+   ],
+   "topic": "Importance"
+  }
+ ]
+}

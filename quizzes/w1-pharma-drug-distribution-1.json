@@ -1,0 +1,514 @@
+{
+ "id": "w1-pharma-drug-distribution-1",
+ "title": "Drug Distribution: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-pharmacology-drug-distribution",
+ "questions": [
+  {
+   "q": "After administration, drugs are first rapidly distributed to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Fat and skin",
+     "e": "Wrong. These receive drug later."
+    },
+    {
+     "t": "Blood-rich organs: heart, liver, kidney, brain",
+     "e": "Correct. Then to muscle, fat and skin with poor blood supply."
+    },
+    {
+     "t": "Bone",
+     "e": "Wrong. Only specific drugs accumulate there."
+    },
+    {
+     "t": "Muscle only",
+     "e": "Wrong. Distributes later."
+    }
+   ],
+   "topic": "Distribution"
+  },
+  {
+   "q": "Which properties give a drug wide distribution into tissues?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Unionized, highly lipid soluble, low plasma protein binding",
+     "e": "Correct. They pass easily to interstitial and cellular compartments."
+    },
+    {
+     "t": "Ionized and water soluble",
+     "e": "Wrong. Remains mostly in plasma."
+    },
+    {
+     "t": "Highly plasma-protein bound",
+     "e": "Wrong. Stays in the vascular space."
+    },
+    {
+     "t": "Large molecular weight",
+     "e": "Wrong. Restricts distribution."
+    }
+   ],
+   "topic": "Distribution"
+  },
+  {
+   "q": "Iodide selectively accumulates in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bone",
+     "e": "Wrong. Tetracyclines."
+    },
+    {
+     "t": "Eye and liver",
+     "e": "Wrong. Chloroquine."
+    },
+    {
+     "t": "Brain",
+     "e": "Wrong. Protected by a barrier."
+    },
+    {
+     "t": "Thyroid tissue",
+     "e": "Correct. Selective tissue accumulation."
+    }
+   ],
+   "topic": "Selective accumulation"
+  },
+  {
+   "q": "Tetracyclines accumulate in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Thyroid",
+     "e": "Wrong. Iodide."
+    },
+    {
+     "t": "Eye",
+     "e": "Wrong. Chloroquine."
+    },
+    {
+     "t": "Bone",
+     "e": "Correct. They bind calcium in bone and teeth."
+    },
+    {
+     "t": "Muscle",
+     "e": "Wrong. Not selective."
+    }
+   ],
+   "topic": "Selective accumulation"
+  },
+  {
+   "q": "Chloroquine accumulates selectively in:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Thyroid",
+     "e": "Wrong. Iodide."
+    },
+    {
+     "t": "Eye and liver",
+     "e": "Correct. Selective accumulation."
+    },
+    {
+     "t": "Bone",
+     "e": "Wrong. Tetracyclines."
+    },
+    {
+     "t": "Adipose tissue only",
+     "e": "Wrong. Not classically."
+    }
+   ],
+   "topic": "Selective accumulation"
+  },
+  {
+   "q": "The redistribution phenomenon is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Termination of action by moving the drug from the site of action to other tissues",
+     "e": "Correct. The drug is still active but not producing action there."
+    },
+    {
+     "t": "Excretion by the kidney",
+     "e": "Wrong. Elimination, not redistribution."
+    },
+    {
+     "t": "Metabolism in the liver",
+     "e": "Wrong. Biotransformation."
+    },
+    {
+     "t": "Protein binding in plasma",
+     "e": "Wrong. Different phenomenon."
+    }
+   ],
+   "topic": "Redistribution"
+  },
+  {
+   "q": "The classic example of redistribution is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Digoxin",
+     "e": "Wrong. High Vd drug."
+    },
+    {
+     "t": "Aspirin",
+     "e": "Wrong. Low Vd drug."
+    },
+    {
+     "t": "Warfarin",
+     "e": "Wrong. Highly protein bound."
+    },
+    {
+     "t": "Thiopental",
+     "e": "Correct. Ultrashort barbiturate moving from CNS to muscle and fat."
+    }
+   ],
+   "topic": "Redistribution"
+  },
+  {
+   "q": "Thiopental anaesthesia ends within 10-15 minutes mainly because of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Rapid renal excretion",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Complete metabolism in 10 minutes",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Redistribution from CNS to muscle and fat",
+     "e": "Correct. Highly lipid soluble."
+    },
+    {
+     "t": "Plasma protein binding",
+     "e": "Wrong. Not the mechanism."
+    }
+   ],
+   "topic": "Redistribution"
+  },
+  {
+   "q": "What happens after repeated injections of thiopental?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Action shortens",
+     "e": "Wrong. The opposite."
+    },
+    {
+     "t": "Storage sites saturate and action is prolonged",
+     "e": "Correct. Termination then depends on metabolism and excretion."
+    },
+    {
+     "t": "No change",
+     "e": "Wrong. Saturation changes it."
+    },
+    {
+     "t": "Toxicity never occurs",
+     "e": "Wrong. Prolonged action can occur."
+    }
+   ],
+   "topic": "Redistribution"
+  },
+  {
+   "q": "A drug bound to plasma proteins is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Inactive, not metabolized and not excreted",
+     "e": "Correct. It cannot diffuse out of the vascular space."
+    },
+    {
+     "t": "Active and quickly excreted",
+     "e": "Wrong. Only the free drug does that."
+    },
+    {
+     "t": "Always toxic",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Metabolized rapidly",
+     "e": "Wrong. Bound drug is not metabolized."
+    }
+   ],
+   "topic": "Protein binding"
+  },
+  {
+   "q": "Plasma protein binding acts as a reservoir because:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Binding is irreversible",
+     "e": "Wrong. It is reversible."
+    },
+    {
+     "t": "Bound drug is excreted",
+     "e": "Wrong. It is not."
+    },
+    {
+     "t": "Binding increases clearance",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Drug unbinds when the free concentration falls",
+     "e": "Correct. The binding is reversible."
+    }
+   ],
+   "topic": "Protein binding"
+  },
+  {
+   "q": "Sulfonamides displacing bilirubin from albumin can cause:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Gray baby syndrome",
+     "e": "Wrong. Chloramphenicol."
+    },
+    {
+     "t": "Digoxin toxicity",
+     "e": "Wrong. Quinidine."
+    },
+    {
+     "t": "Kernicterus in neonates",
+     "e": "Correct. Increased free bilirubin causes bilirubin encephalopathy."
+    },
+    {
+     "t": "Anaphylaxis",
+     "e": "Wrong. Not the described effect."
+    }
+   ],
+   "topic": "Protein binding"
+  },
+  {
+   "q": "In liver or renal disease with low plasma proteins, which drug dose should be reduced?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Drugs with no protein binding",
+     "e": "Wrong. Not affected."
+    },
+    {
+     "t": "Highly protein-bound drugs such as warfarin",
+     "e": "Correct. More free drug is available."
+    },
+    {
+     "t": "Only IV fluids",
+     "e": "Wrong. Not relevant."
+    },
+    {
+     "t": "Drugs with high Vd only",
+     "e": "Wrong. Not specified."
+    }
+   ],
+   "topic": "Protein binding"
+  },
+  {
+   "q": "For a drug with very high plasma protein binding such as diazoxide, which administration is needed?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Rapid IV bolus",
+     "e": "Correct. To overcome binding and achieve effective free levels."
+    },
+    {
+     "t": "Slow infusion",
+     "e": "Wrong. Would be mostly bound."
+    },
+    {
+     "t": "Sublingual",
+     "e": "Wrong. Not specified."
+    },
+    {
+     "t": "Topical",
+     "e": "Wrong. Not relevant."
+    }
+   ],
+   "topic": "Protein binding"
+  },
+  {
+   "q": "Quinidine increases free digoxin by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Inducing its metabolism",
+     "e": "Wrong. The effect is the opposite."
+    },
+    {
+     "t": "Increasing its excretion",
+     "e": "Wrong. It decreases excretion."
+    },
+    {
+     "t": "Forming an inactive complex",
+     "e": "Wrong. Not the mechanism."
+    },
+    {
+     "t": "Displacing it from plasma and tissue proteins and reducing its renal excretion",
+     "e": "Correct. All three effects raise digoxin toxicity risk."
+    }
+   ],
+   "topic": "Tissue binding"
+  },
+  {
+   "q": "Volume of distribution (Vd) equals:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Plasma concentration divided by dose",
+     "e": "Wrong. Inverted."
+    },
+    {
+     "t": "Dose multiplied by clearance",
+     "e": "Wrong. Not Vd."
+    },
+    {
+     "t": "Amount of drug in the body divided by plasma concentration",
+     "e": "Correct. The apparent volume needed to contain the drug at plasma concentration."
+    },
+    {
+     "t": "Half-life divided by clearance",
+     "e": "Wrong. Not Vd."
+    }
+   ],
+   "topic": "Vd"
+  },
+  {
+   "q": "A high Vd indicates:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Drug confined to plasma",
+     "e": "Wrong. Low Vd."
+    },
+    {
+     "t": "Low plasma concentration; drug distributed widely to tissues",
+     "e": "Correct. Most of the drug is outside plasma."
+    },
+    {
+     "t": "High plasma concentration",
+     "e": "Wrong. Low Vd."
+    },
+    {
+     "t": "Rapid excretion",
+     "e": "Wrong. Not implied."
+    }
+   ],
+   "topic": "Vd"
+  },
+  {
+   "q": "Which factors increase Vd?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Unionized, lipid soluble, low plasma protein binding, high tissue binding",
+     "e": "Correct. These favour tissue distribution."
+    },
+    {
+     "t": "Ionized and highly plasma-protein bound",
+     "e": "Wrong. Reduce Vd."
+    },
+    {
+     "t": "Water solubility only",
+     "e": "Wrong. Reduces Vd."
+    },
+    {
+     "t": "Large size",
+     "e": "Wrong. Reduces Vd."
+    }
+   ],
+   "topic": "Vd"
+  },
+  {
+   "q": "In digoxin toxicity, hemodialysis is not helpful because:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Digoxin is highly protein bound in plasma",
+     "e": "Wrong. The issue is Vd."
+    },
+    {
+     "t": "Digoxin has a low Vd",
+     "e": "Wrong. It has a high Vd."
+    },
+    {
+     "t": "It is excreted unchanged",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "High Vd means most drug is in tissues",
+     "e": "Correct. Dialysis cannot remove tissue-bound drug."
+    }
+   ],
+   "topic": "Clinical significance"
+  },
+  {
+   "q": "In aspirin toxicity, hemodialysis can remove most of the drug because aspirin has:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A high Vd",
+     "e": "Wrong. That would limit dialysis."
+    },
+    {
+     "t": "High tissue binding",
+     "e": "Wrong. That limits dialysis."
+    },
+    {
+     "t": "A low Vd, so it is concentrated in blood",
+     "e": "Correct. It remains mainly in plasma."
+    },
+    {
+     "t": "High lipid solubility",
+     "e": "Wrong. That increases Vd."
+    }
+   ],
+   "topic": "Clinical significance"
+  },
+  {
+   "q": "Drugs with high Vd show:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Large fluctuations",
+     "e": "Wrong. The opposite."
+    },
+    {
+     "t": "Minimal fluctuation in blood concentration",
+     "e": "Correct. Tissues act as a reservoir."
+    },
+    {
+     "t": "No distribution",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Always shorter half-life",
+     "e": "Wrong. Not implied."
+    }
+   ],
+   "topic": "Clinical significance"
+  },
+  {
+   "q": "Steady state concentration is reached when:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Rate of elimination equals rate of administration",
+     "e": "Correct. This defines Css."
+    },
+    {
+     "t": "Dose is doubled",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Plasma protein binding is complete",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Vd falls to zero",
+     "e": "Wrong. Not the definition."
+    }
+   ],
+   "topic": "Css"
+  }
+ ]
+}

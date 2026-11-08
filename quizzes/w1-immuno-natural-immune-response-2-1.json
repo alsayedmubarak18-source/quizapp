@@ -1,0 +1,560 @@
+{
+ "id": "w1-immuno-natural-immune-response-2-1",
+ "title": "Complement System: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-immunology-natural-immune-response-2",
+ "questions": [
+  {
+   "q": "Complement proteins are mainly produced by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Plasma cells",
+     "e": "Wrong. Produce antibodies."
+    },
+    {
+     "t": "Hepatocytes",
+     "e": "Correct. Also monocytes and phagocytes."
+    },
+    {
+     "t": "Thymocytes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Red cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Complement proteins are absent from which fluids?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "CSF and urine",
+     "e": "Correct. Present in blood and extracellular fluids."
+    },
+    {
+     "t": "Blood and lymph",
+     "e": "Wrong. Present."
+    },
+    {
+     "t": "Interstitial fluid",
+     "e": "Wrong. Present."
+    },
+    {
+     "t": "Plasma",
+     "e": "Wrong. Present."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The core complement components are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "C1 to C4",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "C3 to C5 only",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "C10 to C20",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "C1 to C9",
+     "e": "Correct. Nine main proteins."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Complement proteins are thermolabile, meaning they:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Resist heat",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Work only at 4 C",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Are denatured at 56 C",
+     "e": "Correct. Heating serum inactivates complement."
+    },
+    {
+     "t": "Are activated by heat",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Complement constitutes about what portion of plasma proteins?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "About 50%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "About 5%",
+     "e": "Correct. Per the lecture summary."
+    },
+    {
+     "t": "About 0.1%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "About 90%",
+     "e": "Wrong. Too high."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Which pathway is initiated by IgM or IgG antigen-antibody complexes?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Classical pathway",
+     "e": "Correct. Starts with C1q binding."
+    },
+    {
+     "t": "Alternative pathway",
+     "e": "Wrong. Triggered by C3b on microbes."
+    },
+    {
+     "t": "Lectin pathway",
+     "e": "Wrong. Triggered by MBL."
+    },
+    {
+     "t": "None",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "In the classical pathway, C1q binding activates:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "C3 directly",
+     "e": "Wrong. Later step."
+    },
+    {
+     "t": "Factor B",
+     "e": "Wrong. Alternative pathway."
+    },
+    {
+     "t": "MBL",
+     "e": "Wrong. Lectin pathway."
+    },
+    {
+     "t": "C1r, then C1s",
+     "e": "Correct. C1s cleaves C4 and C2."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "The classical pathway C3 convertase is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "C3bBb",
+     "e": "Wrong. Alternative C3 convertase."
+    },
+    {
+     "t": "C4b2a3b",
+     "e": "Wrong. Classical C5 convertase."
+    },
+    {
+     "t": "C4b2a",
+     "e": "Correct. Formed after C1s cleaves C4 and C2."
+    },
+    {
+     "t": "C5b-9",
+     "e": "Wrong. MAC."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "The classical pathway C5 convertase is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "C4b2a",
+     "e": "Wrong. C3 convertase."
+    },
+    {
+     "t": "C4b2a3b",
+     "e": "Correct. C3b joins the C3 convertase."
+    },
+    {
+     "t": "C3bBbC3b",
+     "e": "Wrong. Alternative C5 convertase."
+    },
+    {
+     "t": "C5b-9",
+     "e": "Wrong. MAC."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "Which fragments are anaphylatoxins?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "C3a and C5a",
+     "e": "Correct. They increase inflammation and attract leukocytes."
+    },
+    {
+     "t": "C3b and C4b",
+     "e": "Wrong. Opsonins."
+    },
+    {
+     "t": "C5b and C6",
+     "e": "Wrong. MAC components."
+    },
+    {
+     "t": "C1q and C1r",
+     "e": "Wrong. Initiators."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "C5a is notable as:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "An opsonin",
+     "e": "Wrong. C3b."
+    },
+    {
+     "t": "A MAC pore",
+     "e": "Wrong. C9 polymer."
+    },
+    {
+     "t": "A regulatory protein",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A powerful chemotactic factor for leukocytes",
+     "e": "Correct. Also an anaphylatoxin."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "C3b functions as:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "An anaphylatoxin",
+     "e": "Wrong. C3a."
+    },
+    {
+     "t": "A pore-forming protein",
+     "e": "Wrong. MAC."
+    },
+    {
+     "t": "An opsonin that promotes phagocytosis",
+     "e": "Correct. Also removes immune complexes."
+    },
+    {
+     "t": "A chemotactic factor",
+     "e": "Wrong. C5a."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "The membrane attack complex consists of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "C1, C2, C3, C4",
+     "e": "Wrong. Early components."
+    },
+    {
+     "t": "C5b, C6, C7, C8 and C9",
+     "e": "Correct. Forms pores to lyse target cells."
+    },
+    {
+     "t": "Factor B and D",
+     "e": "Wrong. Alternative pathway."
+    },
+    {
+     "t": "MBL and MASP",
+     "e": "Wrong. Lectin pathway."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "MAC is especially effective against:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Gram-negative bacteria",
+     "e": "Correct. Causes lysis of the cell envelope."
+    },
+    {
+     "t": "Gram-positive bacteria with thick walls",
+     "e": "Wrong. Less susceptible."
+    },
+    {
+     "t": "Viruses without envelope",
+     "e": "Wrong. Not the usual target."
+    },
+    {
+     "t": "Human self cells",
+     "e": "Wrong. Regulated to protect them."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "Which pathway is slower and part of non-specific defence, triggered by microbial surfaces without antibody?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Classical pathway",
+     "e": "Wrong. Requires antibody."
+    },
+    {
+     "t": "Lectin pathway",
+     "e": "Wrong. MBL binding."
+    },
+    {
+     "t": "Intrinsic pathway",
+     "e": "Wrong. Coagulation."
+    },
+    {
+     "t": "Alternative pathway",
+     "e": "Correct. Also called the properdin pathway."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "The alternative pathway starts when:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "MBL binds mannose",
+     "e": "Wrong. Lectin pathway."
+    },
+    {
+     "t": "IgG binds antigen",
+     "e": "Wrong. Classical pathway."
+    },
+    {
+     "t": "C3b directly binds to a microbe",
+     "e": "Correct. After continuous low-level C3 cleavage."
+    },
+    {
+     "t": "C1q binds antibody",
+     "e": "Wrong. Classical pathway."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "In the alternative pathway, factor D:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Binds mannose",
+     "e": "Wrong. MBL."
+    },
+    {
+     "t": "Cleaves factor B into Ba and Bb",
+     "e": "Correct. Bb stays bound to C3b."
+    },
+    {
+     "t": "Stabilizes the C3 convertase",
+     "e": "Wrong. Properdin does that."
+    },
+    {
+     "t": "Forms the MAC",
+     "e": "Wrong. C5b-9."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "Properdin (factor P) function is to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Stabilize the C3bBb convertase",
+     "e": "Correct. Forms C3bBbP."
+    },
+    {
+     "t": "Cleave C4",
+     "e": "Wrong. C1s or MASP."
+    },
+    {
+     "t": "Activate C1",
+     "e": "Wrong. Classical."
+    },
+    {
+     "t": "Inhibit complement",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "The lectin pathway is activated by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "IgM",
+     "e": "Wrong. Classical."
+    },
+    {
+     "t": "Factor B",
+     "e": "Wrong. Alternative."
+    },
+    {
+     "t": "Properdin",
+     "e": "Wrong. Alternative."
+    },
+    {
+     "t": "Mannose-binding lectin binding microbial mannose",
+     "e": "Correct. No antibody required."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "The lectin pathway resembles the classical pathway because it:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Uses factor D",
+     "e": "Wrong. Alternative."
+    },
+    {
+     "t": "Needs antibody",
+     "e": "Wrong. It does not."
+    },
+    {
+     "t": "Cleaves C4 and C2 to form the C4bC2a C3 convertase",
+     "e": "Correct. After MBL activates the C1-like enzyme."
+    },
+    {
+     "t": "Skips C3",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pathways"
+  },
+  {
+   "q": "Deficiency of C3 or factor B leads to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Neisseria infections only",
+     "e": "Wrong. C3b, C6, C8 per lecture."
+    },
+    {
+     "t": "Severe bacterial infections",
+     "e": "Correct. Defective opsonization and lysis."
+    },
+    {
+     "t": "Hereditary angioedema",
+     "e": "Wrong. C1 inhibitor."
+    },
+    {
+     "t": "SLE only",
+     "e": "Wrong. Early components."
+    }
+   ],
+   "topic": "Deficiencies"
+  },
+  {
+   "q": "Deficiency of C6 or C8 predisposes to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Severe Neisseria infections",
+     "e": "Correct. Terminal components needed for MAC."
+    },
+    {
+     "t": "Hereditary angioedema",
+     "e": "Wrong. C1 inhibitor."
+    },
+    {
+     "t": "SLE",
+     "e": "Wrong. Early components."
+    },
+    {
+     "t": "Viral hepatitis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Deficiencies"
+  },
+  {
+   "q": "Deficiency of early components (C1, C2, C4) is associated with:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Neisseria infections",
+     "e": "Wrong. Terminal components."
+    },
+    {
+     "t": "Hereditary angioedema",
+     "e": "Wrong. C1-inhibitor."
+    },
+    {
+     "t": "Severe bacterial infections only",
+     "e": "Wrong. C3 and factor B."
+    },
+    {
+     "t": "SLE, glomerulonephritis and polymyositis",
+     "e": "Correct. Impaired immune complex clearance."
+    }
+   ],
+   "topic": "Deficiencies"
+  },
+  {
+   "q": "C1-inhibitor deficiency causes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "SLE",
+     "e": "Wrong. Early component deficiency."
+    },
+    {
+     "t": "Neisseria infections",
+     "e": "Wrong. Terminal deficiency."
+    },
+    {
+     "t": "Hereditary angioedema",
+     "e": "Correct. Uncontrolled C1 activation."
+    },
+    {
+     "t": "Gram-negative sepsis only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Deficiencies"
+  }
+ ]
+}
