@@ -1,0 +1,537 @@
+{
+ "id": "w3-gen-genetic-engineering-1-1",
+ "title": "Genetic Engineering 1 (Tools): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w3-genetics-genetic-engineering-1",
+ "questions": [
+  {
+   "q": "Genetic engineering is also known as:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Gene silencing only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Karyotyping",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Recombinant DNA technology",
+     "e": "Correct. Isolating, modifying and transferring genes."
+    },
+    {
+     "t": "Immunotherapy",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The goals of genetic engineering include:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only forensic work",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Understanding gene function, producing therapeutic proteins, correcting disease mutations",
+     "e": "Correct. Main goals."
+    },
+    {
+     "t": "Only cloning animals",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only diagnosing infection",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Restriction enzymes are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Molecular scissors that cut DNA at specific sequences",
+     "e": "Correct. Cornerstone of cloning."
+    },
+    {
+     "t": "Enzymes that join DNA",
+     "e": "Wrong. Ligase."
+    },
+    {
+     "t": "Carriers of genes",
+     "e": "Wrong. Vectors."
+    },
+    {
+     "t": "Amplifiers of DNA",
+     "e": "Wrong. Taq polymerase in PCR."
+    }
+   ],
+   "topic": "Tools"
+  },
+  {
+   "q": "Restriction enzymes typically recognize:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "RNA only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Proteins",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lipids",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Palindromic nucleotide sequences",
+     "e": "Correct. Leaving sticky or blunt ends."
+    }
+   ],
+   "topic": "Tools"
+  },
+  {
+   "q": "EcoRI cleaves DNA at the sequence:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "AAAAAA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "CCCGGG",
+     "e": "Wrong. Not EcoRI."
+    },
+    {
+     "t": "GAATTC",
+     "e": "Correct. A common example."
+    },
+    {
+     "t": "TATATA",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Tools"
+  },
+  {
+   "q": "DNA ligase function is to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cut DNA",
+     "e": "Wrong. Restriction enzyme."
+    },
+    {
+     "t": "Rejoin cut DNA fragments",
+     "e": "Correct. Used after restriction digestion."
+    },
+    {
+     "t": "Amplify DNA",
+     "e": "Wrong. PCR."
+    },
+    {
+     "t": "Deliver genes",
+     "e": "Wrong. Vector."
+    }
+   ],
+   "topic": "Tools"
+  },
+  {
+   "q": "A genetic vector is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "A carrier that delivers the target gene into the host cell",
+     "e": "Correct. E.g., plasmid, viral vector."
+    },
+    {
+     "t": "A cutting enzyme",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A host cell",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A DNA polymerase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Tools"
+  },
+  {
+   "q": "Plasmids are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Linear chromosomes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "RNA enzymes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Viral capsids",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Small circular self-replicating DNA molecules in bacteria",
+     "e": "Correct. Common vectors."
+    }
+   ],
+   "topic": "Vectors"
+  },
+  {
+   "q": "Which vectors are widely used in gene therapy?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Plasmids only",
+     "e": "Wrong. Mainly for cloning."
+    },
+    {
+     "t": "Restriction enzymes",
+     "e": "Wrong. Not vectors."
+    },
+    {
+     "t": "Modified viral vectors such as adenoviral and retroviral",
+     "e": "Correct. Used for delivery."
+    },
+    {
+     "t": "PCR primers",
+     "e": "Wrong. Not vectors."
+    }
+   ],
+   "topic": "Vectors"
+  },
+  {
+   "q": "BAC and YAC vectors are used to transfer:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Small plasmid fragments only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Large genetic fragments",
+     "e": "Correct. Artificial chromosomes."
+    },
+    {
+     "t": "RNA only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Proteins",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vectors"
+  },
+  {
+   "q": "Vector choice depends on:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Size of the gene and type of target cell",
+     "e": "Correct. Selection criteria."
+    },
+    {
+     "t": "Color of the colony",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Patient age only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Type of buffer",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vectors"
+  },
+  {
+   "q": "PCR is used to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cut DNA",
+     "e": "Wrong. Restriction enzyme."
+    },
+    {
+     "t": "Ligate DNA",
+     "e": "Wrong. Ligase."
+    },
+    {
+     "t": "Translate RNA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Amplify minute amounts of DNA millions of times",
+     "e": "Correct. Core molecular technique."
+    }
+   ],
+   "topic": "PCR"
+  },
+  {
+   "q": "The three repeating steps of PCR are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Extension, translation, transcription",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ligation, digestion, transformation",
+     "e": "Wrong. Cloning steps."
+    },
+    {
+     "t": "Denaturation, annealing, extension",
+     "e": "Correct. About 95 C, 50-65 C, 72 C."
+    },
+    {
+     "t": "Replication, repair, recombination",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PCR"
+  },
+  {
+   "q": "Denaturation in PCR occurs at about:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "72 C",
+     "e": "Wrong. Extension."
+    },
+    {
+     "t": "95 C",
+     "e": "Correct. Separates DNA strands."
+    },
+    {
+     "t": "50-65 C",
+     "e": "Wrong. Annealing."
+    },
+    {
+     "t": "37 C",
+     "e": "Wrong. Not PCR denaturation."
+    }
+   ],
+   "topic": "PCR"
+  },
+  {
+   "q": "Extension step in PCR occurs at about:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "72 C",
+     "e": "Correct. Taq polymerase synthesizes DNA."
+    },
+    {
+     "t": "95 C",
+     "e": "Wrong. Denaturation."
+    },
+    {
+     "t": "50-65 C",
+     "e": "Wrong. Annealing."
+    },
+    {
+     "t": "4 C",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "PCR"
+  },
+  {
+   "q": "Taq polymerase is used in PCR because it is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cheap only",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "Able to cut DNA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A ligase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Resistant to high temperatures",
+     "e": "Correct. Survives denaturation."
+    }
+   ],
+   "topic": "PCR"
+  },
+  {
+   "q": "In gene cloning, the gene and vector are cut with:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Different random enzymes",
+     "e": "Wrong. Not compatible."
+    },
+    {
+     "t": "Taq polymerase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The same restriction enzyme",
+     "e": "Correct. Compatible ends."
+    },
+    {
+     "t": "RNA polymerase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cloning"
+  },
+  {
+   "q": "Introducing the recombinant vector into a host cell is called:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Transcription",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Transformation",
+     "e": "Correct. Followed by selection."
+    },
+    {
+     "t": "Translation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Denaturation",
+     "e": "Wrong. PCR step."
+    }
+   ],
+   "topic": "Cloning"
+  },
+  {
+   "q": "The correct order of gene cloning steps is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Isolate gene, cut gene and vector, ligate, transform host, select cells",
+     "e": "Correct. Basic cloning workflow."
+    },
+    {
+     "t": "Transform, ligate, cut, isolate, select",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Select, isolate, ligate, cut, transform",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Ligate, select, isolate, transform, cut",
+     "e": "Wrong. Wrong order."
+    }
+   ],
+   "topic": "Cloning"
+  },
+  {
+   "q": "Sanger sequencing is characterized by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Millions of fragments at once",
+     "e": "Wrong. NGS."
+    },
+    {
+     "t": "Rapid whole genome sequencing",
+     "e": "Wrong. NGS."
+    },
+    {
+     "t": "Lowest cost per base",
+     "e": "Wrong. NGS."
+    },
+    {
+     "t": "Very high accuracy, suited to short fragments or verification, slower and costlier per base",
+     "e": "Correct. Compared with NGS."
+    }
+   ],
+   "topic": "Sequencing"
+  },
+  {
+   "q": "Next-generation sequencing:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Reads only one fragment at a time",
+     "e": "Wrong. Sanger."
+    },
+    {
+     "t": "Is more expensive per base",
+     "e": "Wrong. Sanger."
+    },
+    {
+     "t": "Analyzes millions of fragments simultaneously at low cost per base",
+     "e": "Correct. Suited to whole-genome sequencing."
+    },
+    {
+     "t": "Is used only for verification",
+     "e": "Wrong. Sanger."
+    }
+   ],
+   "topic": "Sequencing"
+  },
+  {
+   "q": "The first successful recombinant DNA experiment was by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Watson and Crick",
+     "e": "Wrong. Double helix."
+    },
+    {
+     "t": "Cohen and Boyer",
+     "e": "Correct. Early 1970s milestone."
+    },
+    {
+     "t": "Doudna and Charpentier",
+     "e": "Wrong. CRISPR."
+    },
+    {
+     "t": "Mendel",
+     "e": "Wrong. Inheritance."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "The first recombinant drug approved was:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Human insulin (Humulin)",
+     "e": "Correct. Produced by genetically modified E. coli."
+    },
+    {
+     "t": "Penicillin",
+     "e": "Wrong. Natural product."
+    },
+    {
+     "t": "Insulin extracted from pigs",
+     "e": "Wrong. Not recombinant."
+    },
+    {
+     "t": "Growth hormone from cadavers",
+     "e": "Wrong. Not recombinant."
+    }
+   ],
+   "topic": "History"
+  }
+ ]
+}

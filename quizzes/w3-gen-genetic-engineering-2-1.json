@@ -1,0 +1,652 @@
+{
+ "id": "w3-gen-genetic-engineering-2-1",
+ "title": "Genetic Engineering 2 (CRISPR and Gene Therapy): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w3-genetics-genetic-engineering-2",
+ "questions": [
+  {
+   "q": "CRISPR-Cas9 is derived from:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A viral genome",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A human enzyme",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A natural bacterial immune system against viruses",
+     "e": "Correct. Adapted as a gene-editing tool."
+    },
+    {
+     "t": "A plant hormone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "CRISPR"
+  },
+  {
+   "q": "In CRISPR-Cas9, Cas9 is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The guide RNA",
+     "e": "Wrong. gRNA guides it."
+    },
+    {
+     "t": "A molecular scissor enzyme",
+     "e": "Correct. Cuts both DNA strands."
+    },
+    {
+     "t": "A ligase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A vector",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "CRISPR"
+  },
+  {
+   "q": "The guide RNA (gRNA):",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Directs Cas9 to a specific target sequence",
+     "e": "Correct. Complementary to the target."
+    },
+    {
+     "t": "Cuts DNA",
+     "e": "Wrong. Cas9."
+    },
+    {
+     "t": "Repairs DNA",
+     "e": "Wrong. Cell machinery."
+    },
+    {
+     "t": "Amplifies DNA",
+     "e": "Wrong. PCR."
+    }
+   ],
+   "topic": "CRISPR"
+  },
+  {
+   "q": "Cas9 creates:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A single nick only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "RNA cleavage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Protein cleavage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A double-strand break",
+     "e": "Correct. Repaired by the cell."
+    }
+   ],
+   "topic": "CRISPR"
+  },
+  {
+   "q": "The double-strand break is repaired by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Only PCR",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Restriction ligation only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "NHEJ or homology-directed repair",
+     "e": "Correct. Natural mechanisms."
+    },
+    {
+     "t": "Translation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "CRISPR"
+  },
+  {
+   "q": "Compared with ZFN and TALEN, CRISPR-Cas9 is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The most complex",
+     "e": "Wrong. ZFN."
+    },
+    {
+     "t": "Easiest and least costly to design and most widely used",
+     "e": "Correct. Flexible and precise."
+    },
+    {
+     "t": "Larger in size",
+     "e": "Wrong. TALEN."
+    },
+    {
+     "t": "Least precise",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "CRISPR"
+  },
+  {
+   "q": "Which gene-editing tool uses zinc-finger proteins?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "ZFN",
+     "e": "Correct. Precise but complex and costly."
+    },
+    {
+     "t": "TALEN",
+     "e": "Wrong. Different proteins."
+    },
+    {
+     "t": "CRISPR-Cas9",
+     "e": "Wrong. Uses gRNA."
+    },
+    {
+     "t": "PCR",
+     "e": "Wrong. Not editing."
+    }
+   ],
+   "topic": "CRISPR"
+  },
+  {
+   "q": "The Nobel Prize in Chemistry for CRISPR-Cas9 was awarded to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Watson and Crick",
+     "e": "Wrong. Double helix."
+    },
+    {
+     "t": "Cohen and Boyer",
+     "e": "Wrong. Recombinant DNA."
+    },
+    {
+     "t": "Sanger",
+     "e": "Wrong. Sequencing."
+    },
+    {
+     "t": "Charpentier and Doudna",
+     "e": "Correct. Landmark milestone."
+    }
+   ],
+   "topic": "CRISPR"
+  },
+  {
+   "q": "Gene therapy is defined as:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Using antibiotics",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Transplanting organs",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Introducing, modifying or replacing genetic material to treat or prevent disease",
+     "e": "Correct. General definition."
+    },
+    {
+     "t": "Radiation treatment",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Gene therapy"
+  },
+  {
+   "q": "Somatic gene therapy targets:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Reproductive cells",
+     "e": "Wrong. Germline."
+    },
+    {
+     "t": "Body cells and is not heritable",
+     "e": "Correct. Approved for clinical use."
+    },
+    {
+     "t": "Embryos only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bacteria",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Gene therapy"
+  },
+  {
+   "q": "Germline gene therapy:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Targets reproductive cells and is passed to offspring",
+     "e": "Correct. Not approved in most countries."
+    },
+    {
+     "t": "Is not heritable",
+     "e": "Wrong. Somatic."
+    },
+    {
+     "t": "Is the only approved form",
+     "e": "Wrong. Somatic is."
+    },
+    {
+     "t": "Targets only liver cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Gene therapy"
+  },
+  {
+   "q": "Which form of gene therapy is approved clinically in most countries?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Germline",
+     "e": "Wrong. Not approved."
+    },
+    {
+     "t": "Both equally",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Neither",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Somatic",
+     "e": "Correct. Germline is not."
+    }
+   ],
+   "topic": "Gene therapy"
+  },
+  {
+   "q": "In vivo gene therapy means:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cells are modified outside the body",
+     "e": "Wrong. Ex vivo."
+    },
+    {
+     "t": "Embryos are edited",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The vector is injected directly into the patient",
+     "e": "Correct. Simpler procedure."
+    },
+    {
+     "t": "Gene therapy in a test tube only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Delivery"
+  },
+  {
+   "q": "Ex vivo gene therapy:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Injects vector directly",
+     "e": "Wrong. In vivo."
+    },
+    {
+     "t": "Modifies patient cells outside the body, allowing finer control",
+     "e": "Correct. E.g., CRISPR for sickle cell disease."
+    },
+    {
+     "t": "Edits germline",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Needs no cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Delivery"
+  },
+  {
+   "q": "Which is an in vivo example?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Treatment of spinal muscular atrophy",
+     "e": "Correct. Zolgensma."
+    },
+    {
+     "t": "Sickle cell treatment with CRISPR",
+     "e": "Wrong. Ex vivo."
+    },
+    {
+     "t": "CAR-T cells",
+     "e": "Wrong. Ex vivo."
+    },
+    {
+     "t": "PGT",
+     "e": "Wrong. Not therapy."
+    }
+   ],
+   "topic": "Delivery"
+  },
+  {
+   "q": "Zolgensma treats:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Hemophilia B",
+     "e": "Wrong. Hemgenix."
+    },
+    {
+     "t": "Retinal vision loss",
+     "e": "Wrong. Luxturna."
+    },
+    {
+     "t": "Sickle cell disease",
+     "e": "Wrong. Casgevy."
+    },
+    {
+     "t": "Spinal muscular atrophy in infants",
+     "e": "Correct. Gene therapy."
+    }
+   ],
+   "topic": "Clinical examples"
+  },
+  {
+   "q": "Casgevy is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Therapy for SMA",
+     "e": "Wrong. Zolgensma."
+    },
+    {
+     "t": "Therapy for hemophilia B",
+     "e": "Wrong. Hemgenix."
+    },
+    {
+     "t": "The first approved CRISPR-based therapy for sickle cell disease and thalassemia",
+     "e": "Correct. Landmark."
+    },
+    {
+     "t": "A COVID vaccine",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clinical examples"
+  },
+  {
+   "q": "Luxturna treats:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Hemophilia B",
+     "e": "Wrong. Hemgenix."
+    },
+    {
+     "t": "Inherited retinal vision loss",
+     "e": "Correct. Gene therapy."
+    },
+    {
+     "t": "SMA",
+     "e": "Wrong. Zolgensma."
+    },
+    {
+     "t": "Thalassemia",
+     "e": "Wrong. Casgevy."
+    }
+   ],
+   "topic": "Clinical examples"
+  },
+  {
+   "q": "Hemgenix is for:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hemophilia B",
+     "e": "Correct. Gene therapy."
+    },
+    {
+     "t": "Sickle cell disease",
+     "e": "Wrong. Casgevy."
+    },
+    {
+     "t": "Retinal disease",
+     "e": "Wrong. Luxturna."
+    },
+    {
+     "t": "SMA",
+     "e": "Wrong. Zolgensma."
+    }
+   ],
+   "topic": "Clinical examples"
+  },
+  {
+   "q": "CAR-T cell therapy involves:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Injecting antibodies",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Editing germline cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Transplanting donor marrow",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Engineering a patient's T cells to express a synthetic receptor recognizing cancer cells",
+     "e": "Correct. Then reinfusing them."
+    }
+   ],
+   "topic": "CAR-T"
+  },
+  {
+   "q": "CAR-T therapy has had notable success in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "All solid tumors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Viral infections",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Certain blood cancers and resistant lymphomas",
+     "e": "Correct. Clinical success."
+    },
+    {
+     "t": "Diabetes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "CAR-T"
+  },
+  {
+   "q": "mRNA vaccines work by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Inserting DNA into the genome",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Delivering mRNA so cells temporarily produce an antigenic protein",
+     "e": "Correct. Immune system builds immunity."
+    },
+    {
+     "t": "Injecting live virus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Editing genes permanently",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "mRNA vaccines"
+  },
+  {
+   "q": "Which are examples of mRNA vaccines?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Pfizer-BioNTech and Moderna COVID-19 vaccines",
+     "e": "Correct. Leading example."
+    },
+    {
+     "t": "BCG vaccine",
+     "e": "Wrong. Attenuated bacterium."
+    },
+    {
+     "t": "Oral polio vaccine",
+     "e": "Wrong. Live virus."
+    },
+    {
+     "t": "Tetanus toxoid",
+     "e": "Wrong. Toxoid."
+    }
+   ],
+   "topic": "mRNA vaccines"
+  },
+  {
+   "q": "Preimplantation genetic testing (PGT) is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Analyzing fetal DNA in maternal blood",
+     "e": "Wrong. NIPT."
+    },
+    {
+     "t": "A confirmatory tissue test",
+     "e": "Wrong. Amnio or CVS."
+    },
+    {
+     "t": "A treatment",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Screening IVF embryos before transfer",
+     "e": "Correct. Early detection."
+    }
+   ],
+   "topic": "Diagnosis"
+  },
+  {
+   "q": "NIPT analyzes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Embryo biopsy",
+     "e": "Wrong. PGT."
+    },
+    {
+     "t": "Amniotic fluid",
+     "e": "Wrong. Amniocentesis."
+    },
+    {
+     "t": "Cell-free fetal DNA in maternal blood",
+     "e": "Correct. Non-invasive."
+    },
+    {
+     "t": "Placental villi",
+     "e": "Wrong. CVS."
+    }
+   ],
+   "topic": "Diagnosis"
+  },
+  {
+   "q": "Confirmatory prenatal diagnostic tests are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "NIPT only",
+     "e": "Wrong. Screening."
+    },
+    {
+     "t": "Amniocentesis and chorionic villus sampling",
+     "e": "Correct. Invasive."
+    },
+    {
+     "t": "PGT only",
+     "e": "Wrong. Embryo."
+    },
+    {
+     "t": "PCR only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Diagnosis"
+  },
+  {
+   "q": "Human insulin from genetically modified E. coli has been produced since:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "1982",
+     "e": "Correct. First recombinant drug."
+    },
+    {
+     "t": "1950",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "2000",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "2020",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Biopharming"
+  },
+  {
+   "q": "A key ethical concern is the distinction between:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bacteria and viruses",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "PCR and sequencing",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Plasmids and vectors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Somatic therapy and germline intervention, and treatment versus enhancement",
+     "e": "Correct. Core ethical issues."
+    }
+   ],
+   "topic": "Ethics"
+  }
+ ]
+}

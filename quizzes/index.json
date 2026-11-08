@@ -48,5 +48,13 @@
  "w2-pharma-pharmacodynamics-1.json",
  "w2-path-tissue-injury-1-1.json",
  "w2-path-tissue-injury-2-1.json",
- "w2-immuno-specific-recognition-1.json"
+ "w2-immuno-specific-recognition-1.json",
+ "w3-para-immunity-evasion-1.json",
+ "w3-immuno-antibody-immunity-1-1.json",
+ "w3-immuno-antibody-immunity-2-1.json",
+ "w3-path-regeneration-healing-1.json",
+ "w3-path-neoplasia-1-1.json",
+ "w3-path-neoplasia-2-1.json",
+ "w3-gen-genetic-engineering-1-1.json",
+ "w3-gen-genetic-engineering-2-1.json"
 ]

@@ -1,0 +1,652 @@
+{
+ "id": "w3-path-neoplasia-2-1",
+ "title": "Neoplasia 2 (Carcinogenesis and Hallmarks): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w3-pathology-abnormal-tissue-growth-2",
+ "questions": [
+  {
+   "q": "Carcinogenesis is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A single-event process",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A multistep process from accumulation of multiple mutations",
+     "e": "Correct. Tumor progression follows."
+    },
+    {
+     "t": "Reversible inflammation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only inherited",
+     "e": "Wrong. Can be acquired."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Genetic damage in cancer may be:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Acquired from chemicals, radiation, viruses or inherited in the germ line",
+     "e": "Correct. Two sources."
+    },
+    {
+     "t": "Only acquired",
+     "e": "Wrong. Also inherited."
+    },
+    {
+     "t": "Only inherited",
+     "e": "Wrong. Also acquired."
+    },
+    {
+     "t": "Never genetic",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Tumor progression means:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Tumor shrinks",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tumor becomes benign",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tumor stops growing",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tumors become more aggressive and acquire greater malignant potential over time",
+     "e": "Correct. Due to further mutations."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Proto-oncogenes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Suppress tumors",
+     "e": "Wrong. Tumor suppressors."
+    },
+    {
+     "t": "Repair DNA",
+     "e": "Wrong. DNA repair genes."
+    },
+    {
+     "t": "Promote cell growth and mitosis",
+     "e": "Correct. Mutant forms are oncogenes."
+    },
+    {
+     "t": "Cause apoptosis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Genes"
+  },
+  {
+   "q": "Oncogenes act as:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Recessive",
+     "e": "Wrong. Tumor suppressors."
+    },
+    {
+     "t": "Dominant: mutation of a single allele can cause transformation",
+     "e": "Correct. E.g., RAS, MYC, WNT."
+    },
+    {
+     "t": "Requiring both alleles damaged",
+     "e": "Wrong. Tumor suppressors."
+    },
+    {
+     "t": "Normal genes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Genes"
+  },
+  {
+   "q": "Tumor suppressor genes require:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Damage to both alleles for transformation",
+     "e": "Correct. E.g., p53, Rb, BRCA1/2."
+    },
+    {
+     "t": "Damage to one allele",
+     "e": "Wrong. Oncogenes."
+    },
+    {
+     "t": "Overexpression",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Viral integration only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Genes"
+  },
+  {
+   "q": "Which is a tumor suppressor gene?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "RAS",
+     "e": "Wrong. Oncogene."
+    },
+    {
+     "t": "MYC",
+     "e": "Wrong. Oncogene."
+    },
+    {
+     "t": "WNT",
+     "e": "Wrong. Oncogene."
+    },
+    {
+     "t": "P53",
+     "e": "Correct. RAS, WNT and MYC are oncogenes."
+    }
+   ],
+   "topic": "Genes"
+  },
+  {
+   "q": "Which gene is commonly mutated in human cancers and encodes a signaling molecule?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "p53",
+     "e": "Wrong. Tumor suppressor."
+    },
+    {
+     "t": "Rb",
+     "e": "Wrong. Tumor suppressor."
+    },
+    {
+     "t": "RAS",
+     "e": "Correct. Oncogene."
+    },
+    {
+     "t": "BRCA1",
+     "e": "Wrong. Tumor suppressor."
+    }
+   ],
+   "topic": "Genes"
+  },
+  {
+   "q": "Tumor suppressor genes are normally:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Positive regulators",
+     "e": "Wrong. Proto-oncogenes."
+    },
+    {
+     "t": "Negative regulators of the cell cycle",
+     "e": "Correct. Loss lets growth proceed."
+    },
+    {
+     "t": "Growth factors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Apoptosis inhibitors",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Genes"
+  },
+  {
+   "q": "The five classes of genes affected in cancer include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Growth regulators, tumor suppressors, apoptosis regulators, DNA repair genes, tumor-host interaction genes",
+     "e": "Correct. Per lecture."
+    },
+    {
+     "t": "Only oncogenes",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "Only tumor suppressors",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "Only DNA repair genes",
+     "e": "Wrong. Incomplete."
+    }
+   ],
+   "topic": "Genes"
+  },
+  {
+   "q": "Self-sufficiency in growth signals results from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Loss of Rb",
+     "e": "Wrong. Insensitivity to inhibition."
+    },
+    {
+     "t": "BCL2 overexpression",
+     "e": "Wrong. Evasion of apoptosis."
+    },
+    {
+     "t": "E-cadherin loss",
+     "e": "Wrong. Invasion."
+    },
+    {
+     "t": "Oncogenes acting autonomously without normal growth-promoting signals",
+     "e": "Correct. E.g., receptor overexpression."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "Which can cause oncogenic activation?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Loss of p53 only",
+     "e": "Wrong. Different hallmark."
+    },
+    {
+     "t": "Loss of E-cadherin only",
+     "e": "Wrong. Invasion."
+    },
+    {
+     "t": "Growth factor overexpression, receptor mutation, signaling molecule mutation, transcription factor overactivity",
+     "e": "Correct. Several mechanisms."
+    },
+    {
+     "t": "Reduced mitoses",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "Insensitivity to growth-inhibitory signals involves:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Gain of RAS",
+     "e": "Wrong. Self-sufficiency."
+    },
+    {
+     "t": "Loss of tumor suppressor genes such as Rb and p53",
+     "e": "Correct. Both copies lost."
+    },
+    {
+     "t": "BCL2 overexpression",
+     "e": "Wrong. Apoptosis."
+    },
+    {
+     "t": "Loss of immune recognition",
+     "e": "Wrong. Immune evasion."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "Rb regulates:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The G1-S checkpoint of the cell cycle",
+     "e": "Correct. Tumor suppressor."
+    },
+    {
+     "t": "The G2-M checkpoint only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Apoptosis directly",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "DNA repair only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "p53 is called the guardian of the genome because it:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Promotes growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Blocks apoptosis",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Activates oncogenes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Monitors DNA damage and hypoxia, triggers repair or apoptosis",
+     "e": "Correct. Central stress monitor."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "Activated p53 drives transcription of p21, causing:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cell proliferation",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Mutation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "G1-S cell cycle block allowing DNA repair",
+     "e": "Correct. If irreparable, senescence or apoptosis."
+    },
+    {
+     "t": "Angiogenesis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "A cell with abnormal p53:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Is protected from cancer",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Cannot repair DNA or signal apoptosis and may become cancerous",
+     "e": "Correct. Loss of guardian function."
+    },
+    {
+     "t": "Undergoes apoptosis normally",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Has a normal G1 block",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "BCL-2 is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "An anti-apoptotic protein",
+     "e": "Correct. BAX and BAK are pro-apoptotic."
+    },
+    {
+     "t": "A pro-apoptotic protein",
+     "e": "Wrong. BAX/BAK."
+    },
+    {
+     "t": "A tumor suppressor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A growth factor",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "About 85% of follicular lymphomas carry a translocation causing:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "p53 loss",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "RAS mutation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Rb loss",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "BCL2 overexpression",
+     "e": "Correct. Protects tumor cells from apoptosis."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "The first step of tumor invasion is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Migration",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "ECM degradation",
+     "e": "Wrong. Second."
+    },
+    {
+     "t": "Loosening of cell-cell contacts through E-cadherin inactivation",
+     "e": "Correct. Then ECM degradation and migration."
+    },
+    {
+     "t": "Angiogenesis",
+     "e": "Wrong. Not the first step."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "Tumor cells evade immune surveillance by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Boosting NK cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Being invisible to lymphoid cells or activating inhibitory pathways",
+     "e": "Correct. Two ways."
+    },
+    {
+     "t": "Presenting more antigen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increasing MHC",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Hallmarks"
+  },
+  {
+   "q": "Tumor grade refers to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Degree of resemblance to the tissue of origin (differentiation)",
+     "e": "Correct. Higher malignancy with less differentiation."
+    },
+    {
+     "t": "Tumor size and spread",
+     "e": "Wrong. Staging."
+    },
+    {
+     "t": "Number of metastases",
+     "e": "Wrong. Staging."
+    },
+    {
+     "t": "Age of patient",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Grading"
+  },
+  {
+   "q": "Which tumor has the highest degree of malignancy?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Well differentiated",
+     "e": "Wrong. Lowest grade."
+    },
+    {
+     "t": "Moderately differentiated",
+     "e": "Wrong. Intermediate."
+    },
+    {
+     "t": "Benign tumor",
+     "e": "Wrong. Not malignant."
+    },
+    {
+     "t": "Anaplastic (undifferentiated)",
+     "e": "Correct. Least resemblance."
+    }
+   ],
+   "topic": "Grading"
+  },
+  {
+   "q": "Staging of cancer is based on:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cell differentiation",
+     "e": "Wrong. Grading."
+    },
+    {
+     "t": "Rate of mitosis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Size of primary, lymph node spread and metastases",
+     "e": "Correct. TNM."
+    },
+    {
+     "t": "Patient age",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Staging"
+  },
+  {
+   "q": "In the TNM system, N represents:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Tumor size",
+     "e": "Wrong. T."
+    },
+    {
+     "t": "Regional lymph node involvement",
+     "e": "Correct. N0 to N3."
+    },
+    {
+     "t": "Metastases",
+     "e": "Wrong. M."
+    },
+    {
+     "t": "Necrosis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Staging"
+  },
+  {
+   "q": "Which stage has the best prognosis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "T1N0M0",
+     "e": "Correct. Small, no nodes, no metastasis."
+    },
+    {
+     "t": "T4N3M1",
+     "e": "Wrong. Worst prognosis."
+    },
+    {
+     "t": "T2N2M1",
+     "e": "Wrong. Poor."
+    },
+    {
+     "t": "T3N1M1",
+     "e": "Wrong. Poor."
+    }
+   ],
+   "topic": "Staging"
+  },
+  {
+   "q": "PSA is a tumor marker for:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Colon cancer",
+     "e": "Wrong. CEA."
+    },
+    {
+     "t": "Hepatocellular carcinoma",
+     "e": "Wrong. AFP."
+    },
+    {
+     "t": "Breast cancer",
+     "e": "Wrong. Not listed."
+    },
+    {
+     "t": "Prostatic adenocarcinoma",
+     "e": "Correct. CEA is for colon cancer; AFP for hepatocellular carcinoma."
+    }
+   ],
+   "topic": "Diagnosis"
+  },
+  {
+   "q": "AFP is a tumor marker for:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Prostate cancer",
+     "e": "Wrong. PSA."
+    },
+    {
+     "t": "Colon cancer",
+     "e": "Wrong. CEA."
+    },
+    {
+     "t": "Hepatocellular carcinoma",
+     "e": "Correct. Alpha-fetoprotein."
+    },
+    {
+     "t": "Lung cancer",
+     "e": "Wrong. Not listed."
+    }
+   ],
+   "topic": "Diagnosis"
+  }
+ ]
+}

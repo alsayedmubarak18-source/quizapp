@@ -1,0 +1,652 @@
+{
+ "id": "w3-path-neoplasia-1-1",
+ "title": "Neoplasia 1: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w3-pathology-abnormal-tissue-growth-1",
+ "questions": [
+  {
+   "q": "Neoplasia literally means:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cell death",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "New growth",
+     "e": "Correct. A neoplasm is a tumor."
+    },
+    {
+     "t": "Cell shrinkage",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inflammation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "A neoplasm is characterized by growth that is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Autonomous, irreversible, uncontrolled, progressive and purposeless",
+     "e": "Correct. Not regulated by normal controls."
+    },
+    {
+     "t": "Reversible when stimulus stops",
+     "e": "Wrong. Hyperplasia."
+    },
+    {
+     "t": "Limited and purposeful",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Controlled by hormones only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "The study of tumors is called:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cytology",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Histology",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Embryology",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Oncology",
+     "e": "Correct. From oncos."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "All tumors have two components:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Capsule and nucleus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cytoplasm and membrane",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Parenchyma and supporting stroma",
+     "e": "Correct. Neoplastic cells plus host-derived stroma."
+    },
+    {
+     "t": "Epithelium and bone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Components"
+  },
+  {
+   "q": "The tumor parenchyma consists of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Connective tissue and vessels",
+     "e": "Wrong. Stroma."
+    },
+    {
+     "t": "Transformed neoplastic cells",
+     "e": "Correct. Stroma is non-neoplastic."
+    },
+    {
+     "t": "Inflammatory cells",
+     "e": "Wrong. Stroma."
+    },
+    {
+     "t": "Fat only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Components"
+  },
+  {
+   "q": "Benign tumors are named by adding the suffix:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "-oma to the cell of origin",
+     "e": "Correct. E.g., fibroma, chondroma."
+    },
+    {
+     "t": "-sarcoma",
+     "e": "Wrong. Malignant mesenchymal."
+    },
+    {
+     "t": "-carcinoma",
+     "e": "Wrong. Malignant epithelial."
+    },
+    {
+     "t": "-itis",
+     "e": "Wrong. Inflammation."
+    }
+   ],
+   "topic": "Nomenclature"
+  },
+  {
+   "q": "A benign tumor of fibrous tissue is a:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Fibrosarcoma",
+     "e": "Wrong. Malignant."
+    },
+    {
+     "t": "Chondroma",
+     "e": "Wrong. Cartilage."
+    },
+    {
+     "t": "Lipoma",
+     "e": "Wrong. Fat."
+    },
+    {
+     "t": "Fibroma",
+     "e": "Correct. Malignant is fibrosarcoma."
+    }
+   ],
+   "topic": "Nomenclature"
+  },
+  {
+   "q": "An adenoma is a:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Malignant glandular tumor",
+     "e": "Wrong. Adenocarcinoma."
+    },
+    {
+     "t": "Mesenchymal tumor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Benign epithelial tumor forming glands",
+     "e": "Correct. Malignant is adenocarcinoma."
+    },
+    {
+     "t": "Benign finger-like tumor only",
+     "e": "Wrong. Papilloma."
+    }
+   ],
+   "topic": "Nomenclature"
+  },
+  {
+   "q": "A papilloma is a:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Malignant gland tumor",
+     "e": "Wrong. Adenocarcinoma."
+    },
+    {
+     "t": "Benign epithelial neoplasm growing on a surface",
+     "e": "Correct. Finger-like."
+    },
+    {
+     "t": "Muscle tumor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bone tumor",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Nomenclature"
+  },
+  {
+   "q": "Malignant tumors of mesenchymal origin are called:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Sarcomas",
+     "e": "Correct. Epithelial ones are carcinomas."
+    },
+    {
+     "t": "Carcinomas",
+     "e": "Wrong. Epithelial."
+    },
+    {
+     "t": "Adenomas",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Papillomas",
+     "e": "Wrong. Benign."
+    }
+   ],
+   "topic": "Nomenclature"
+  },
+  {
+   "q": "Malignant tumors of epithelial origin are called:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Sarcomas",
+     "e": "Wrong. Mesenchymal."
+    },
+    {
+     "t": "Lymphomas",
+     "e": "Wrong. Lymphoid."
+    },
+    {
+     "t": "Leukemias",
+     "e": "Wrong. Blood cells."
+    },
+    {
+     "t": "Carcinomas",
+     "e": "Correct. Mesenchymal are sarcomas."
+    }
+   ],
+   "topic": "Nomenclature"
+  },
+  {
+   "q": "Which pair is correct?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lipoma malignant",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Osteoma malignant",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Leiomyoma benign, leiomyosarcoma malignant",
+     "e": "Correct. Smooth muscle tumors."
+    },
+    {
+     "t": "Hepatocellular carcinoma benign",
+     "e": "Wrong. Malignant."
+    }
+   ],
+   "topic": "Nomenclature"
+  },
+  {
+   "q": "Hepatoma is an exception because it is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A benign liver tumor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A malignant tumor despite the -oma suffix",
+     "e": "Correct. Also called hepatocellular carcinoma."
+    },
+    {
+     "t": "A bone tumor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A fat tumor",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Nomenclature"
+  },
+  {
+   "q": "Benign tumor gross features include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Solitary, well circumscribed, encapsulated, smooth cut surface",
+     "e": "Correct. Usually without necrosis."
+    },
+    {
+     "t": "Ill-defined margins",
+     "e": "Wrong. Malignant."
+    },
+    {
+     "t": "Hemorrhage and necrosis",
+     "e": "Wrong. Malignant."
+    },
+    {
+     "t": "Invasion of surroundings",
+     "e": "Wrong. Malignant."
+    }
+   ],
+   "topic": "Benign"
+  },
+  {
+   "q": "Microscopically benign tumor cells show:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Pleomorphism",
+     "e": "Wrong. Malignant."
+    },
+    {
+     "t": "Atypical mitoses",
+     "e": "Wrong. Malignant."
+    },
+    {
+     "t": "Increased N/C ratio",
+     "e": "Wrong. Malignant."
+    },
+    {
+     "t": "Differentiation resembling the tissue of origin with few or no mitoses",
+     "e": "Correct. Monomorphic."
+    }
+   ],
+   "topic": "Benign"
+  },
+  {
+   "q": "Benign tumors:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Always metastasize",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Invade surrounding tissue",
+     "e": "Wrong. Malignant."
+    },
+    {
+     "t": "Do not metastasize and do not recur if completely removed",
+     "e": "Correct. Expansive growth."
+    },
+    {
+     "t": "Commonly recur",
+     "e": "Wrong. Malignant."
+    }
+   ],
+   "topic": "Benign"
+  },
+  {
+   "q": "Carcinoma in situ means:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Invasive carcinoma",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Malignant changes in full thickness of epithelium without invasion of the basement membrane",
+     "e": "Correct. Microscopic change."
+    },
+    {
+     "t": "Benign tumor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Metastatic cancer",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "CIS"
+  },
+  {
+   "q": "Carcinoma in situ features include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Pleomorphism, hyperchromatism, disturbed polarity, excess mitoses",
+     "e": "Correct. All features of malignancy."
+    },
+    {
+     "t": "Invasion through basement membrane",
+     "e": "Wrong. Not in situ."
+    },
+    {
+     "t": "Distant metastasis",
+     "e": "Wrong. Not in situ."
+    },
+    {
+     "t": "Capsule formation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "CIS"
+  },
+  {
+   "q": "Malignant tumors grow by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Pure expansion",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Encapsulation",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Regression",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Progressive infiltration, invasion and destruction of surrounding tissue",
+     "e": "Correct. Rather than expansion."
+    }
+   ],
+   "topic": "Malignant"
+  },
+  {
+   "q": "Malignant tumors commonly show:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A true capsule",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Smooth cut surface",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Hemorrhage and necrosis because growth outpaces blood supply",
+     "e": "Correct. Ill-defined margins."
+    },
+    {
+     "t": "Slow growth",
+     "e": "Wrong. Benign."
+    }
+   ],
+   "topic": "Malignant"
+  },
+  {
+   "q": "Cellular anaplasia includes:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Uniform nuclei",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Pleomorphism, nuclear enlargement, hyperchromasia, increased N/C ratio, atypical mitoses",
+     "e": "Correct. Features of malignancy."
+    },
+    {
+     "t": "Absent mitoses",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Normal N/C ratio",
+     "e": "Wrong. Benign."
+    }
+   ],
+   "topic": "Malignant"
+  },
+  {
+   "q": "Well-differentiated cancers:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Retain functions of normal counterparts, e.g., keratin production",
+     "e": "Correct. Anaplastic ones less so."
+    },
+    {
+     "t": "Never produce products",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Have the worst prognosis",
+     "e": "Wrong. Anaplastic."
+    },
+    {
+     "t": "Look nothing like origin",
+     "e": "Wrong. Anaplastic."
+    }
+   ],
+   "topic": "Malignant"
+  },
+  {
+   "q": "Paraneoplastic syndromes are caused by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Direct invasion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Metastasis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Infection",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Abnormal products of the tumor, e.g., ACTH causing Cushing syndrome",
+     "e": "Correct. Occur in about 10%."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "Cachexia is characterized by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Weight gain",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fever only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Weakness and wasting due to anemia, malnutrition and toxemia",
+     "e": "Correct. Effect of malignancy."
+    },
+    {
+     "t": "Bone growth",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "Hematogenous spread is favored by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Carcinomas",
+     "e": "Wrong. Lymphatic."
+    },
+    {
+     "t": "Sarcomas",
+     "e": "Correct. Carcinomas favor lymphatics."
+    },
+    {
+     "t": "Benign tumors",
+     "e": "Wrong. Do not spread."
+    },
+    {
+     "t": "Papillomas",
+     "e": "Wrong. Benign."
+    }
+   ],
+   "topic": "Spread"
+  },
+  {
+   "q": "Lymphatic spread is typical of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Carcinomas",
+     "e": "Correct. Hematogenous is typical of sarcomas."
+    },
+    {
+     "t": "Sarcomas",
+     "e": "Wrong. Hematogenous."
+    },
+    {
+     "t": "Lipomas",
+     "e": "Wrong. Benign."
+    },
+    {
+     "t": "Adenomas",
+     "e": "Wrong. Benign."
+    }
+   ],
+   "topic": "Spread"
+  },
+  {
+   "q": "The most common sites of blood-borne metastasis (2L, 2B) are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Skin, heart, spleen, eye",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Kidney, thyroid, stomach, colon",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Muscle, fat, nail, hair",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Liver, lung, bone and brain",
+     "e": "Correct. Common sites."
+    }
+   ],
+   "topic": "Spread"
+  },
+  {
+   "q": "Krukenberg tumor results from:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hematogenous spread to lung",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lymphatic spread to neck",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Transcoelomic spread of gastric carcinoma to the ovaries, often bilateral",
+     "e": "Correct. Seeding in body cavities."
+    },
+    {
+     "t": "Direct invasion of the uterus",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Spread"
+  }
+ ]
+}

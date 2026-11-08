@@ -1,0 +1,629 @@
+{
+ "id": "w3-path-regeneration-healing-1",
+ "title": "Regeneration and Healing: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w3-pathology-regeneration-healing",
+ "questions": [
+  {
+   "q": "After the offending agent is removed, damaged tissue is repaired by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hypertrophy and hyperplasia",
+     "e": "Wrong. Adaptations."
+    },
+    {
+     "t": "Necrosis and apoptosis",
+     "e": "Wrong. Cell death."
+    },
+    {
+     "t": "Regeneration and fibrosis (scar formation)",
+     "e": "Correct. The two repair processes."
+    },
+    {
+     "t": "Metaplasia and dysplasia",
+     "e": "Wrong. Not repair."
+    }
+   ],
+   "topic": "Repair"
+  },
+  {
+   "q": "Regeneration is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Deposition of collagen",
+     "e": "Wrong. Fibrosis."
+    },
+    {
+     "t": "Proliferation of residual cells to restore damaged tissue",
+     "e": "Correct. Requires proliferative capacity or stem cells."
+    },
+    {
+     "t": "Change of cell type",
+     "e": "Wrong. Metaplasia."
+    },
+    {
+     "t": "Cell death",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Repair"
+  },
+  {
+   "q": "Regeneration is most often seen in epithelia of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Skin, intestines and liver",
+     "e": "Correct. Abundant tissue stem cells."
+    },
+    {
+     "t": "Brain and heart",
+     "e": "Wrong. Permanent tissues."
+    },
+    {
+     "t": "Cartilage",
+     "e": "Wrong. Poor capacity."
+    },
+    {
+     "t": "Nerve",
+     "e": "Wrong. Permanent."
+    }
+   ],
+   "topic": "Repair"
+  },
+  {
+   "q": "Labile tissues are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Minimally replicating tissues",
+     "e": "Wrong. Stable."
+    },
+    {
+     "t": "Non-dividing tissues",
+     "e": "Wrong. Permanent."
+    },
+    {
+     "t": "Tissues made of neurons",
+     "e": "Wrong. Permanent."
+    },
+    {
+     "t": "Continuously dividing tissues",
+     "e": "Correct. E.g., bone marrow, surface epithelia."
+    }
+   ],
+   "topic": "Proliferative capacity"
+  },
+  {
+   "q": "Which is a labile tissue?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Neurons",
+     "e": "Wrong. Permanent."
+    },
+    {
+     "t": "Cardiac muscle",
+     "e": "Wrong. Permanent."
+    },
+    {
+     "t": "Skin epidermis",
+     "e": "Correct. Surface epithelia."
+    },
+    {
+     "t": "Kidney",
+     "e": "Wrong. Stable."
+    }
+   ],
+   "topic": "Proliferative capacity"
+  },
+  {
+   "q": "Stable tissues:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Divide continuously",
+     "e": "Wrong. Labile."
+    },
+    {
+     "t": "Have minimal replicative activity but can proliferate after injury",
+     "e": "Correct. E.g., kidney, fibroblasts, endothelium."
+    },
+    {
+     "t": "Cannot proliferate",
+     "e": "Wrong. Permanent."
+    },
+    {
+     "t": "Are all epithelial surfaces",
+     "e": "Wrong. Labile."
+    }
+   ],
+   "topic": "Proliferative capacity"
+  },
+  {
+   "q": "Permanent tissues include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Neurons and cardiac muscle cells",
+     "e": "Correct. Terminally differentiated."
+    },
+    {
+     "t": "Epidermis",
+     "e": "Wrong. Labile."
+    },
+    {
+     "t": "Fibroblasts",
+     "e": "Wrong. Stable."
+    },
+    {
+     "t": "Bone marrow",
+     "e": "Wrong. Labile."
+    }
+   ],
+   "topic": "Proliferative capacity"
+  },
+  {
+   "q": "Injury to permanent tissues results in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Complete regeneration",
+     "e": "Wrong. Not possible."
+    },
+    {
+     "t": "Hyperplasia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Metaplasia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Scar formation",
+     "e": "Correct. Irreversible injury."
+    }
+   ],
+   "topic": "Proliferative capacity"
+  },
+  {
+   "q": "Which growth factors stimulate fibroblast proliferation and collagen synthesis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "VEGF only",
+     "e": "Wrong. Angiogenesis."
+    },
+    {
+     "t": "TNF only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "TGF-beta and FGF",
+     "e": "Correct. Act on fibroblasts."
+    },
+    {
+     "t": "Histamine",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fibrosis"
+  },
+  {
+   "q": "VEGF is responsible for:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Collagen synthesis",
+     "e": "Wrong. TGF-beta."
+    },
+    {
+     "t": "New blood vessel formation",
+     "e": "Correct. Supports fibroblasts."
+    },
+    {
+     "t": "Fever",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Phagocytosis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fibrosis"
+  },
+  {
+   "q": "Cytokines and growth factors triggering repair are produced mainly by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Macrophages",
+     "e": "Correct. Also terminate inflammation."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Red cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Platelets only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fibrosis"
+  },
+  {
+   "q": "Granulation tissue consists of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Dense collagen",
+     "e": "Wrong. Mature scar."
+    },
+    {
+     "t": "Pus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Necrotic tissue",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "New capillaries, macrophages and fibroblasts in loose ECM",
+     "e": "Correct. Seen in the first 3-5 days."
+    }
+   ],
+   "topic": "Granulation tissue"
+  },
+  {
+   "q": "Granulation tissue forms during the first:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "1 hour",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "6 months",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "3 to 5 days of repair",
+     "e": "Correct. Then collagen builds the scar."
+    },
+    {
+     "t": "1 year",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Granulation tissue"
+  },
+  {
+   "q": "The sequence of repair by connective tissue is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Remodeling, angiogenesis, fibroblasts",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Angiogenesis, fibroblast migration and proliferation, ECM deposition, remodeling",
+     "e": "Correct. Steps of repair."
+    },
+    {
+     "t": "ECM deposition first",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Contraction first",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Granulation tissue"
+  },
+  {
+   "q": "Angiogenesis occurs by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Vasculogenesis and neovascularization",
+     "e": "Correct. Two processes."
+    },
+    {
+     "t": "Metaplasia and hyperplasia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Apoptosis and necrosis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fibrosis only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Angiogenesis"
+  },
+  {
+   "q": "Vasculogenesis is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Sprouting from existing vessels",
+     "e": "Wrong. Neovascularization."
+    },
+    {
+     "t": "Vessel regression",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Clot formation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Formation of vessels from angioblasts (endothelial precursors)",
+     "e": "Correct. Neovascularization uses existing vessels."
+    }
+   ],
+   "topic": "Angiogenesis"
+  },
+  {
+   "q": "Collagen deposition in an organ in abnormally large amounts is called:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Keloid",
+     "e": "Wrong. Skin only."
+    },
+    {
+     "t": "Granuloma",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fibrosis",
+     "e": "Correct. Scar for skin or limb."
+    },
+    {
+     "t": "Metaplasia",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fibrosis"
+  },
+  {
+   "q": "Healing by first intention occurs in:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A deep wound with wide edges",
+     "e": "Wrong. Second intention."
+    },
+    {
+     "t": "A clean uninfected surgical incision closed with sutures",
+     "e": "Correct. Thin scar."
+    },
+    {
+     "t": "Infected wounds only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Burns only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Wound healing"
+  },
+  {
+   "q": "In first intention healing:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "A small amount of granulation tissue forms and a thin scar results",
+     "e": "Correct. Epithelium bridges the gap."
+    },
+    {
+     "t": "Large granulation tissue forms",
+     "e": "Wrong. Second intention."
+    },
+    {
+     "t": "Wound contraction is marked",
+     "e": "Wrong. Second intention."
+    },
+    {
+     "t": "The scar is thick",
+     "e": "Wrong. Second intention."
+    }
+   ],
+   "topic": "Wound healing"
+  },
+  {
+   "q": "Healing by second intention differs because:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "There is less granulation tissue",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "There is no inflammation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The scar is thinner",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "There is more granulation tissue, more collagen and a thicker scar",
+     "e": "Correct. Larger defects."
+    }
+   ],
+   "topic": "Wound healing"
+  },
+  {
+   "q": "Wound contraction is caused by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Plasma cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Myofibroblasts",
+     "e": "Correct. In second intention."
+    },
+    {
+     "t": "Eosinophils",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Wound healing"
+  },
+  {
+   "q": "A skin wound is usually closed with a dense scar by about:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1 day",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "4 to 6 weeks",
+     "e": "Correct. In second intention."
+    },
+    {
+     "t": "1 hour",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "1 year",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Wound healing"
+  },
+  {
+   "q": "Which factor impairs healing?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Infection, diabetes, poor perfusion, mechanical stress",
+     "e": "Correct. Listed factors."
+    },
+    {
+     "t": "Good blood supply",
+     "e": "Wrong. Aids healing."
+    },
+    {
+     "t": "Clean wounds",
+     "e": "Wrong. Aids healing."
+    },
+    {
+     "t": "Adequate nutrition",
+     "e": "Wrong. Aids healing."
+    }
+   ],
+   "topic": "Impaired healing"
+  },
+  {
+   "q": "Diabetes impairs healing by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increasing collagen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increasing angiogenesis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Reducing infection",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Metabolic abnormality, vascular narrowing and reduced neutrophil and macrophage function",
+     "e": "Correct. Also increases infection risk."
+    }
+   ],
+   "topic": "Impaired healing"
+  },
+  {
+   "q": "Keloids are scars that:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Regress slowly within the margins",
+     "e": "Wrong. Hypertrophic scars."
+    },
+    {
+     "t": "Are thin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Grow beyond the margins of the injury and do not regress",
+     "e": "Correct. Excessive repair."
+    },
+    {
+     "t": "Are granuloma",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Excessive repair"
+  },
+  {
+   "q": "Hypertrophic scars:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Spread beyond margins",
+     "e": "Wrong. Keloid."
+    },
+    {
+     "t": "Develop after injury and usually regress slowly",
+     "e": "Correct. Stay within wound margins."
+    },
+    {
+     "t": "Never regress",
+     "e": "Wrong. Keloid."
+    },
+    {
+     "t": "Are cancerous",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Excessive repair"
+  },
+  {
+   "q": "Excessive scarring in organs causes:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Pulmonary fibrosis and cirrhosis",
+     "e": "Correct. Serious disorders."
+    },
+    {
+     "t": "Pneumonia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Gastritis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Appendicitis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Excessive repair"
+  }
+ ]
+}

@@ -1,0 +1,468 @@
+{
+ "id": "w3-para-immunity-evasion-1",
+ "title": "Immunity to Parasites and Immune Evasion: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w3-parasitology-mechanisms-of-host-invasion",
+ "questions": [
+  {
+   "q": "Evasion is defined as:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Resistance offered by the host",
+     "e": "Wrong. That is immunity."
+    },
+    {
+     "t": "Production of antibodies by the host",
+     "e": "Wrong. Host response."
+    },
+    {
+     "t": "The ability of the pathogen to escape the immune response to gain access to host tissue and cause damage",
+     "e": "Correct. Opposite to host immunity."
+    },
+    {
+     "t": "Killing of parasites by drugs",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The clinical picture of a parasitic infection depends on:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only parasite size",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The balance between strength of immune response and efficacy of evasion",
+     "e": "Correct. Whichever takes the upper hand."
+    },
+    {
+     "t": "Only host age",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only the drug used",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Sequestration means:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The parasite hides inside host cells, inaccessible to the immune response",
+     "e": "Correct. An anatomic or physiologic barrier."
+    },
+    {
+     "t": "The parasite changes its antigens",
+     "e": "Wrong. Antigenic modification."
+    },
+    {
+     "t": "The parasite lives in the gut lumen",
+     "e": "Wrong. Luminal habitat."
+    },
+    {
+     "t": "The parasite suppresses immunity",
+     "e": "Wrong. Immunosuppression."
+    }
+   ],
+   "topic": "Sequestration"
+  },
+  {
+   "q": "Plasmodium evades immunity by living inside:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Macrophages",
+     "e": "Wrong. Leishmania."
+    },
+    {
+     "t": "Hepatocytes only",
+     "e": "Wrong. Not stated."
+    },
+    {
+     "t": "Neurons",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Red blood cells",
+     "e": "Correct. Intracellular habitat makes it unrecognized."
+    }
+   ],
+   "topic": "Sequestration"
+  },
+  {
+   "q": "Leishmania lives inside:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Red blood cells",
+     "e": "Wrong. Plasmodium."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Macrophages",
+     "e": "Correct. Rupture releases parasites to destroy more macrophages."
+    },
+    {
+     "t": "Intestinal epithelium",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Sequestration"
+  },
+  {
+   "q": "How does Leishmania resist phagocyte killing?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Binds antibody Fc",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inhibits phagosome-lysosome fusion and escapes into cytoplasm via pores",
+     "e": "Correct. Resists microbicidal mechanisms."
+    },
+    {
+     "t": "Produces beta-lactamase",
+     "e": "Wrong. Bacterial."
+    },
+    {
+     "t": "Hides in the thymus",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Phagocytosis resistance"
+  },
+  {
+   "q": "Visceral leishmaniasis worsens because of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Immunosuppression leading to secondary infections",
+     "e": "Correct. Many macrophages are infected."
+    },
+    {
+     "t": "Increased antibody levels",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Iron overload",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Excess complement",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Immunosuppression"
+  },
+  {
+   "q": "Why are intestinal parasites such as Ascaris less exposed to immune factors?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "They are intracellular",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "They have antigenic variation",
+     "e": "Wrong. Different mechanism."
+    },
+    {
+     "t": "They shed their teguments",
+     "e": "Wrong. Schistosoma."
+    },
+    {
+     "t": "They live in the lumen, away from mucosal immune factors",
+     "e": "Correct. Luminal habitat."
+    }
+   ],
+   "topic": "Luminal habitat"
+  },
+  {
+   "q": "Larval migration helps evasion because:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "It hides in RBCs",
+     "e": "Wrong. Sequestration."
+    },
+    {
+     "t": "It mimics host antigens",
+     "e": "Wrong. Mimicry."
+    },
+    {
+     "t": "The migrating larva escapes the locally elicited immune response",
+     "e": "Correct. Moves from the site."
+    },
+    {
+     "t": "It forms blocking antibodies",
+     "e": "Wrong. Different mechanism."
+    }
+   ],
+   "topic": "Parasite movement"
+  },
+  {
+   "q": "Adult Ancylostoma evades immunity by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Antigenic mimicry",
+     "e": "Wrong. Schistosoma."
+    },
+    {
+     "t": "Moving away from inflamed tissue to fresh areas",
+     "e": "Correct. Movement."
+    },
+    {
+     "t": "Residing in RBCs",
+     "e": "Wrong. Plasmodium."
+    },
+    {
+     "t": "Blocking antibodies",
+     "e": "Wrong. Different."
+    }
+   ],
+   "topic": "Parasite movement"
+  },
+  {
+   "q": "Antigen variation is characteristic of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Trypanosoma species",
+     "e": "Correct. Many variants exhaust the immune response."
+    },
+    {
+     "t": "Ascaris",
+     "e": "Wrong. Luminal habitat."
+    },
+    {
+     "t": "Schistosoma only",
+     "e": "Wrong. Disguise or mimicry."
+    },
+    {
+     "t": "Ancylostoma",
+     "e": "Wrong. Movement."
+    }
+   ],
+   "topic": "Antigenic modification"
+  },
+  {
+   "q": "Antigenic disguise by adult Schistosoma means:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Changing its surface antigen constantly",
+     "e": "Wrong. Variation."
+    },
+    {
+     "t": "Shedding surface proteins",
+     "e": "Wrong. Surface turnover."
+    },
+    {
+     "t": "Living in macrophages",
+     "e": "Wrong. Sequestration."
+    },
+    {
+     "t": "Covering itself with host proteins to be seen as self",
+     "e": "Correct. Not attacked."
+    }
+   ],
+   "topic": "Antigenic modification"
+  },
+  {
+   "q": "Surface turnover refers to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hiding in RBCs",
+     "e": "Wrong. Sequestration."
+    },
+    {
+     "t": "Producing blocking antibodies",
+     "e": "Wrong. Different."
+    },
+    {
+     "t": "Shedding teguments with surface proteins to neutralize antibodies at a distance",
+     "e": "Correct. Parasite synthesizes new proteins."
+    },
+    {
+     "t": "Antigen variation",
+     "e": "Wrong. Different."
+    }
+   ],
+   "topic": "Antigenic modification"
+  },
+  {
+   "q": "Antigenic mimicry is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Coating with host proteins from outside",
+     "e": "Wrong. Disguise."
+    },
+    {
+     "t": "Producing antigens similar to host antigens",
+     "e": "Correct. Eg Schistosoma."
+    },
+    {
+     "t": "Shedding of tegument",
+     "e": "Wrong. Surface turnover."
+    },
+    {
+     "t": "Invasion of macrophages",
+     "e": "Wrong. Sequestration."
+    }
+   ],
+   "topic": "Antigenic modification"
+  },
+  {
+   "q": "Blocking antibodies:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Cover the parasite antigen and prevent other antibodies from binding without destructive reaction",
+     "e": "Correct. Induced by the parasite."
+    },
+    {
+     "t": "Kill the parasite directly",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Activate complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Neutralize toxins",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Blocking antibodies"
+  },
+  {
+   "q": "Which parasite can use more than one evasion mechanism?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "None",
+     "e": "Wrong. Parasites use multiple."
+    },
+    {
+     "t": "Only Ascaris",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only Plasmodium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Schistosoma",
+     "e": "Correct. Disguise, mimicry and surface turnover."
+    }
+   ],
+   "topic": "Summary"
+  },
+  {
+   "q": "Immunity is defined as:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Escape of pathogens",
+     "e": "Wrong. Evasion."
+    },
+    {
+     "t": "Hiding in cells",
+     "e": "Wrong. Sequestration."
+    },
+    {
+     "t": "Resistance offered by the host against microorganisms or foreign antigens",
+     "e": "Correct. Systemic reaction with antibodies and chemicals."
+    },
+    {
+     "t": "Antigen change",
+     "e": "Wrong. Variation."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Trypanosomes exhaust the immune response by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Hiding in RBCs",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Producing many variants, giving time to replicate",
+     "e": "Correct. Antigen variation."
+    },
+    {
+     "t": "Mimicking host antigens",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Living in the gut",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Antigenic modification"
+  },
+  {
+   "q": "Which parasite lives in RBCs and so avoids immune recognition?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Plasmodium",
+     "e": "Correct. Malaria."
+    },
+    {
+     "t": "Leishmania",
+     "e": "Wrong. Macrophage."
+    },
+    {
+     "t": "Ascaris",
+     "e": "Wrong. Gut lumen."
+    },
+    {
+     "t": "Schistosoma",
+     "e": "Wrong. Uses disguise."
+    }
+   ],
+   "topic": "Sequestration"
+  },
+  {
+   "q": "Surface turnover is useful because shed proteins:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Attract more antibodies to parasite",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Activate T cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Kill macrophages",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Neutralize antibody away from the parasite",
+     "e": "Correct. Gives time for new mechanisms."
+    }
+   ],
+   "topic": "Antigenic modification"
+  }
+ ]
+}

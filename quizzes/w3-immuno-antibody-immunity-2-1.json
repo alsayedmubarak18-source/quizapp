@@ -1,0 +1,629 @@
+{
+ "id": "w3-immuno-antibody-immunity-2-1",
+ "title": "Antibody Immunity 2 (Structure, Isotypes, Functions): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w3-immunology-antibody-immunity-2",
+ "questions": [
+  {
+   "q": "A typical antibody consists of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Four identical chains",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "One heavy and one light chain",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Three chains",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Two identical heavy chains and two identical light chains",
+     "e": "Correct. Linked by disulfide bonds."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "The Fab region is responsible for:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Complement activation",
+     "e": "Wrong. Fc."
+    },
+    {
+     "t": "Placental transfer",
+     "e": "Wrong. Fc of IgG."
+    },
+    {
+     "t": "Antigen recognition and binding",
+     "e": "Correct. Fc mediates effector functions."
+    },
+    {
+     "t": "Mast cell binding",
+     "e": "Wrong. Fc of IgE."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "The Fc region is responsible for:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Antigen recognition",
+     "e": "Wrong. Fab."
+    },
+    {
+     "t": "Many biological (effector) functions",
+     "e": "Correct. E.g., complement activation and Fc receptor binding."
+    },
+    {
+     "t": "Hypervariability",
+     "e": "Wrong. V regions."
+    },
+    {
+     "t": "Light chain type",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Valence of most antibodies is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Bivalent",
+     "e": "Correct. Two antigen-binding sites."
+    },
+    {
+     "t": "Monovalent",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tetravalent",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Decavalent only",
+     "e": "Wrong. IgM."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "A single antibody contains:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "One kappa and one lambda",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Four light chains",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No light chains",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Either two kappa or two lambda light chains",
+     "e": "Correct. Never one of each."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "The heavy chain type determines:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Antigen specificity alone",
+     "e": "Wrong. Variable regions."
+    },
+    {
+     "t": "Light chain type",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The immunoglobulin class (isotype)",
+     "e": "Correct. Gamma, alpha, mu, delta, epsilon."
+    },
+    {
+     "t": "Affinity only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Which heavy chain defines IgG?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Mu",
+     "e": "Wrong. IgM."
+    },
+    {
+     "t": "Gamma",
+     "e": "Correct. IgG."
+    },
+    {
+     "t": "Alpha",
+     "e": "Wrong. IgA."
+    },
+    {
+     "t": "Epsilon",
+     "e": "Wrong. IgE."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Variable regions determine:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "What the antibody recognizes (antigen specificity)",
+     "e": "Correct. Constant regions determine what it does."
+    },
+    {
+     "t": "Effector functions",
+     "e": "Wrong. Constant regions."
+    },
+    {
+     "t": "Isotype",
+     "e": "Wrong. Constant regions."
+    },
+    {
+     "t": "Half-life",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "V(D)J recombination generates:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Isotype switching",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "MHC polymorphism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Diversity of antigen-binding sites",
+     "e": "Correct. Random joining of V, D, J segments."
+    }
+   ],
+   "topic": "Diversity"
+  },
+  {
+   "q": "Which is the most abundant serum immunoglobulin?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IgM",
+     "e": "Wrong. 5-10%."
+    },
+    {
+     "t": "IgA",
+     "e": "Wrong. 10-15%."
+    },
+    {
+     "t": "IgG",
+     "e": "Correct. About 70-80%."
+    },
+    {
+     "t": "IgE",
+     "e": "Wrong. 0.002%."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "Which immunoglobulin crosses the placenta?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "IgM",
+     "e": "Wrong. Pentamer too large."
+    },
+    {
+     "t": "IgG",
+     "e": "Correct. Only IgG."
+    },
+    {
+     "t": "IgA",
+     "e": "Wrong. Not transplacental."
+    },
+    {
+     "t": "IgE",
+     "e": "Wrong. Does not cross."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "IgM in a newborn indicates:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Intrauterine infection",
+     "e": "Correct. IgM does not cross the placenta."
+    },
+    {
+     "t": "Normal maternal transfer",
+     "e": "Wrong. IgG."
+    },
+    {
+     "t": "Allergy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vaccination only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "IgM is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A monomer",
+     "e": "Wrong. BCR monomer only."
+    },
+    {
+     "t": "A dimer in mucosa",
+     "e": "Wrong. IgA."
+    },
+    {
+     "t": "Bound to mast cells",
+     "e": "Wrong. IgE."
+    },
+    {
+     "t": "A pentamer, the first antibody produced in response to infection",
+     "e": "Correct. High avidity despite low affinity."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "Although IgM has lower affinity than IgG, it has higher avidity because of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Its size only",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "Its half-life",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "Its pentameric structure",
+     "e": "Correct. Many binding sites."
+    },
+    {
+     "t": "Its light chain",
+     "e": "Wrong. Not the reason."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "Secretory IgA is found in:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Placenta",
+     "e": "Wrong. IgG."
+    },
+    {
+     "t": "Mucosal secretions: tears, saliva, intestine, milk",
+     "e": "Correct. A dimer."
+    },
+    {
+     "t": "Mast cell surface",
+     "e": "Wrong. IgE."
+    },
+    {
+     "t": "Pentamer in blood",
+     "e": "Wrong. IgM."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "IgA in breast milk protects:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The gastrointestinal tract of neonates",
+     "e": "Correct. Newborn protection."
+    },
+    {
+     "t": "The skin only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The placenta",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The thymus",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "IgD is mainly found:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "In milk",
+     "e": "Wrong. IgA."
+    },
+    {
+     "t": "On mast cells",
+     "e": "Wrong. IgE."
+    },
+    {
+     "t": "Across the placenta",
+     "e": "Wrong. IgG."
+    },
+    {
+     "t": "On the B cell surface as BCR",
+     "e": "Correct. Serum function unknown."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "IgE is responsible for:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Mucosal protection",
+     "e": "Wrong. IgA."
+    },
+    {
+     "t": "Complement activation",
+     "e": "Wrong. IgG and IgM."
+    },
+    {
+     "t": "Allergic reactions and defence against parasitic worms",
+     "e": "Correct. Bound to mast cells and basophils."
+    },
+    {
+     "t": "Placental transfer",
+     "e": "Wrong. IgG."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "Reaginic antibody refers to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "IgG",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgE",
+     "e": "Correct. Heat labile and does not cross the placenta."
+    },
+    {
+     "t": "IgA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgM",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Isotypes"
+  },
+  {
+   "q": "Class switching preserves:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Antigen specificity (variable region)",
+     "e": "Correct. Only the constant region changes."
+    },
+    {
+     "t": "Isotype",
+     "e": "Wrong. This changes."
+    },
+    {
+     "t": "Heavy chain constant region",
+     "e": "Wrong. This changes."
+    },
+    {
+     "t": "Complement binding",
+     "e": "Wrong. Not preserved."
+    }
+   ],
+   "topic": "Class switching"
+  },
+  {
+   "q": "Which antibody is best at opsonization?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "IgE",
+     "e": "Wrong. Mast cells."
+    },
+    {
+     "t": "IgD",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgA",
+     "e": "Wrong. Mucosal."
+    },
+    {
+     "t": "IgG",
+     "e": "Correct. Fc receptor binding on phagocytes."
+    }
+   ],
+   "topic": "Functions"
+  },
+  {
+   "q": "Agglutination is more effective with:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IgG",
+     "e": "Wrong. Less effective."
+    },
+    {
+     "t": "IgE",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgM, which is decavalent",
+     "e": "Correct. Compared with bivalent IgG."
+    },
+    {
+     "t": "IgD",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Functions"
+  },
+  {
+   "q": "ADCC is used to destroy:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Viruses by neutralization",
+     "e": "Wrong. Not ADCC."
+    },
+    {
+     "t": "Large organisms such as worms, coated with antibody",
+     "e": "Correct. IgG is best."
+    },
+    {
+     "t": "Toxins",
+     "e": "Wrong. Neutralization."
+    },
+    {
+     "t": "Soluble antigens",
+     "e": "Wrong. Precipitation."
+    }
+   ],
+   "topic": "Functions"
+  },
+  {
+   "q": "Which antibodies activate the classical complement pathway?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "IgG and IgM",
+     "e": "Correct. Lead to lysis and inflammation."
+    },
+    {
+     "t": "IgA and IgE",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgD only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgE only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Functions"
+  },
+  {
+   "q": "A monoclonal antibody is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A mixture of antibodies from many clones",
+     "e": "Wrong. Polyclonal."
+    },
+    {
+     "t": "A T cell receptor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A complement protein",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Produced by one clone of B cells with very specific action",
+     "e": "Correct. Used for diagnosis and therapy."
+    }
+   ],
+   "topic": "Monoclonal Abs"
+  },
+  {
+   "q": "Anti-Rh monoclonal antibody is used to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Treat allergy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Detect viruses only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Prevent Rh incompatibility",
+     "e": "Correct. A clinical application."
+    },
+    {
+     "t": "Cause graft rejection",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Monoclonal Abs"
+  },
+  {
+   "q": "Anti-CD3 monoclonal antibodies are used for:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Detecting hormones",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Immunosuppression to prevent graft rejection",
+     "e": "Correct. Clinical application."
+    },
+    {
+     "t": "Passive immunity to tetanus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Treating allergy",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Monoclonal Abs"
+  }
+ ]
+}

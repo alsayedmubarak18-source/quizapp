@@ -1,0 +1,537 @@
+{
+ "id": "w3-immuno-antibody-immunity-1-1",
+ "title": "Antibody Immunity 1 (B Cells and Activation): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w3-immunology-antibody-immunity-1",
+ "questions": [
+  {
+   "q": "Humoral immunity is mediated by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "T cells directly",
+     "e": "Wrong. Cell-mediated."
+    },
+    {
+     "t": "Complement only",
+     "e": "Wrong. Innate."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Innate."
+    },
+    {
+     "t": "Antibodies produced by B cells",
+     "e": "Correct. B cell derived."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Which is a function of humoral immunity?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Killing infected cells directly",
+     "e": "Wrong. T cells."
+    },
+    {
+     "t": "Producing thymic hormones",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Destruction of extracellular pathogens and preventing spread of intracellular pathogens",
+     "e": "Correct. Antibodies act in extracellular fluids."
+    },
+    {
+     "t": "Forming scars",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "B cell activation into plasma cells usually requires:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antigen and helper T cells",
+     "e": "Correct. Triggered by antigen."
+    },
+    {
+     "t": "Complement only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "MAC",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Naive B cells are those that:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Have never been exposed to the antigen",
+     "e": "Correct. Naive."
+    },
+    {
+     "t": "Secrete antibodies",
+     "e": "Wrong. Plasma cells."
+    },
+    {
+     "t": "Are long-lived dormant memory cells",
+     "e": "Wrong. Memory."
+    },
+    {
+     "t": "Are short-lived antibody secretors",
+     "e": "Wrong. Plasmablasts."
+    }
+   ],
+   "topic": "B cell types"
+  },
+  {
+   "q": "Plasmablasts are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Long-lived non-proliferating cells",
+     "e": "Wrong. Plasma cells."
+    },
+    {
+     "t": "Dormant cells",
+     "e": "Wrong. Memory."
+    },
+    {
+     "t": "T cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Short-lived proliferating antibody-secreting cells with weaker affinity",
+     "e": "Correct. Early in infection."
+    }
+   ],
+   "topic": "B cell types"
+  },
+  {
+   "q": "Plasma cells are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Short-lived proliferating cells",
+     "e": "Wrong. Plasmablasts."
+    },
+    {
+     "t": "Dormant circulating cells",
+     "e": "Wrong. Memory."
+    },
+    {
+     "t": "Long-lived non-proliferating antibody-secreting cells with higher affinity",
+     "e": "Correct. Later in infection."
+    },
+    {
+     "t": "Antigen-presenting cells",
+     "e": "Wrong. Not primarily."
+    }
+   ],
+   "topic": "B cell types"
+  },
+  {
+   "q": "Memory B cells:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Secrete large amounts of antibody",
+     "e": "Wrong. Plasma cells."
+    },
+    {
+     "t": "Initiate a stronger, more rapid secondary response and share BCR with parent cell",
+     "e": "Correct. Dormant."
+    },
+    {
+     "t": "Are not antigen-specific",
+     "e": "Wrong. They are."
+    },
+    {
+     "t": "Are short-lived",
+     "e": "Wrong. Long-lived."
+    }
+   ],
+   "topic": "B cell types"
+  },
+  {
+   "q": "Clonal selection states that:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Lymphocytes express antigen-specific receptors before encountering antigen",
+     "e": "Correct. Antigen selects and expands the clone."
+    },
+    {
+     "t": "Antigen instructs lymphocytes to make new receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "All lymphocytes expand",
+     "e": "Wrong. Only specific ones."
+    },
+    {
+     "t": "T cells convert to B cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clonal selection"
+  },
+  {
+   "q": "The BCR is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A secreted protein",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A cytokine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A complement component",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A membrane-bound immunoglobulin",
+     "e": "Correct. Acts as the antigen receptor."
+    }
+   ],
+   "topic": "B cell molecules"
+  },
+  {
+   "q": "Immature B cells express:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IgG",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgE",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgM",
+     "e": "Correct. Mature ones express IgM and IgD."
+    },
+    {
+     "t": "IgA",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "B cell molecules"
+  },
+  {
+   "q": "Mature naive B cells express:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "IgG and IgA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgM and IgD",
+     "e": "Correct. On the surface."
+    },
+    {
+     "t": "IgE only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No Ig",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "B cell molecules"
+  },
+  {
+   "q": "CD40 on B cells is important for:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Interaction with CD40L on T cells",
+     "e": "Correct. T-B interactions."
+    },
+    {
+     "t": "Antigen binding",
+     "e": "Wrong. BCR."
+    },
+    {
+     "t": "Complement binding",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antibody secretion",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "B cell molecules"
+  },
+  {
+   "q": "B cells differ from T cells in that they recognize antigen:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only when processed on MHC",
+     "e": "Wrong. T cells."
+    },
+    {
+     "t": "Only on dendritic cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only as peptides",
+     "e": "Wrong. T cells."
+    },
+    {
+     "t": "In its free, unprocessed form",
+     "e": "Correct. No MHC presentation required initially."
+    }
+   ],
+   "topic": "Activation"
+  },
+  {
+   "q": "B cell activation occurs mainly in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Thymus",
+     "e": "Wrong. T cell maturation."
+    },
+    {
+     "t": "Bone marrow",
+     "e": "Wrong. B cell development."
+    },
+    {
+     "t": "Secondary lymphoid organs",
+     "e": "Correct. Lymph nodes, spleen, MALT."
+    },
+    {
+     "t": "Liver",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Activation"
+  },
+  {
+   "q": "T cell-dependent B cell activation requires help from:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "CD8+ cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "CD4+ T follicular helper cells",
+     "e": "Correct. Tfh."
+    },
+    {
+     "t": "NK cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mast cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "TD activation"
+  },
+  {
+   "q": "The second signal from Tfh cells to B cells is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "CD40L binding CD40 plus cytokines IL-21 and IL-4",
+     "e": "Correct. Costimulation."
+    },
+    {
+     "t": "MHC I binding",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "TLR4 signal",
+     "e": "Wrong. TI."
+    },
+    {
+     "t": "Complement C3d",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "TD activation"
+  },
+  {
+   "q": "In TD activation the B cell presents antigen to Tfh by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Peptide on MHC class I",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Intact antigen on surface",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antibody Fc",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Peptide on MHC class II",
+     "e": "Correct. After BCR endocytosis."
+    }
+   ],
+   "topic": "TD activation"
+  },
+  {
+   "q": "The germinal center reaction produces:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Only IgM",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "T cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Affinity maturation and class-switch recombination",
+     "e": "Correct. Followed by plasma and memory cells."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "TD activation"
+  },
+  {
+   "q": "Affinity maturation is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Change of isotype",
+     "e": "Wrong. Class switching."
+    },
+    {
+     "t": "Selection of B cells producing progressively higher-affinity antibodies",
+     "e": "Correct. Occurs in germinal centers."
+    },
+    {
+     "t": "Production of memory T cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Complement activation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "TD activation"
+  },
+  {
+   "q": "Class-switch recombination changes:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The heavy-chain isotype while preserving antigen specificity",
+     "e": "Correct. IgM to IgG, IgA or IgE."
+    },
+    {
+     "t": "The variable region",
+     "e": "Wrong. Not changed."
+    },
+    {
+     "t": "The light chain only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The antigen",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "TD activation"
+  },
+  {
+   "q": "Which are examples of T-independent antigens?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Soluble proteins",
+     "e": "Wrong. T-dependent."
+    },
+    {
+     "t": "Viral peptides on MHC",
+     "e": "Wrong. T cell antigens."
+    },
+    {
+     "t": "Haptens alone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bacterial capsular polysaccharides and LPS",
+     "e": "Correct. Highly repetitive antigens."
+    }
+   ],
+   "topic": "TI activation"
+  },
+  {
+   "q": "T-independent responses are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Slow with high affinity",
+     "e": "Wrong. TD."
+    },
+    {
+     "t": "Memory-rich",
+     "e": "Wrong. Weak memory."
+    },
+    {
+     "t": "Rapid, with lower affinity, mostly IgM",
+     "e": "Correct. Less functional versatility."
+    },
+    {
+     "t": "Always IgG",
+     "e": "Wrong. Mostly IgM."
+    }
+   ],
+   "topic": "TI activation"
+  },
+  {
+   "q": "LPS can activate B cells through:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "CD40L",
+     "e": "Wrong. TD."
+    },
+    {
+     "t": "TLR4 and BCR cross-linking",
+     "e": "Correct. Innate signals."
+    },
+    {
+     "t": "MHC II",
+     "e": "Wrong. TD."
+    },
+    {
+     "t": "IL-4 only",
+     "e": "Wrong. TD."
+    }
+   ],
+   "topic": "TI activation"
+  }
+ ]
+}

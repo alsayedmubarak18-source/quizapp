@@ -1,5 +1,5 @@
 // Service worker: يخزّن ملفات التطبيق عشان يفتح بسرعة وبدون نت، والشبكة أولًا عشان التحديثات توصل.
-const CACHE = 'quizapp-v33';
+const CACHE = 'quizapp-v34';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'store.js', 'progress.js', 'seed.js', 'curriculum.js', 'instructor.js', 'img/instructor.jpg', 'config.js', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'games/minerals.html'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
