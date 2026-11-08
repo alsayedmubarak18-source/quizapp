@@ -231,3 +231,9 @@ textarea.inp{resize:vertical}
 .kl{display:grid;gap:8px;margin-top:10px;max-height:58vh}
 .kc{width:100%;text-align:start;display:block;padding:10px 14px;border:1.5px solid var(--line)}.kq{display:block;font-weight:600;line-height:1.5}.kc small{color:var(--muted)}
 .msg.ok{color:var(--ok);font-weight:600}
+
+/* High-Yield + MEQ */
+.hy{margin-bottom:12px}.hy p{margin:6px 0;line-height:1.6}.hy ul{margin:6px 0 0;padding-inline-start:20px}.hy li{margin:5px 0;line-height:1.55}
+.hy .tbl{overflow-x:auto;margin-top:8px}.hy table{border-collapse:collapse;width:100%;font-size:14px}.hy th,.hy td{border:1px solid var(--line);padding:6px 8px;text-align:start;vertical-align:top;line-height:1.5}.hy th{background:var(--bg)}
+details.meq{margin-bottom:10px}details.meq summary{cursor:pointer;font-weight:700;line-height:1.55}
+details.meq .ans{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}details.meq .ans p{margin:5px 0;line-height:1.55}

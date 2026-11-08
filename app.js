@@ -2,10 +2,11 @@
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 const $app = document.getElementById('app');
 
-let store, CURRICULUM, GAMES, LINKS, INSTRUCTOR, PG;
+let store, CURRICULUM, GAMES, LINKS, COURSES, INSTRUCTOR, PG;
 try {
   ({ store } = await import('./store.js'));
-  ({ CURRICULUM, GAMES, LINKS } = await import('./curriculum.js'));
+  ({ CURRICULUM, GAMES, LINKS, COURSES } = await import('./curriculum.js'));
+  COURSES = COURSES || [];
   ({ INSTRUCTOR } = await import('./instructor.js'));
   PG = await import('./progress.js');
 } catch (e) {
@@ -16,7 +17,7 @@ try {
 }
 
 const LETTERS = ['أ', 'ب', 'ج', 'د', 'هـ', 'و'];
-const APP_VERSION = 'v29'; // لازم يطابق CACHE في sw.js
+const APP_VERSION = 'v30'; // لازم يطابق CACHE في sw.js
 const T = {
   ar: { dir: 'rtl', letters: LETTERS, exit: 'خروج', next: 'السؤال التالي', result: 'عرض النتيجة', ok: 'أحسنت، إجابة صحيحة!', bad: 'إجابة خاطئة، الصحيحة باللون الأخضر.',
     tip: 'اضغط على أي إجابة أخرى لتعرف لماذا هي خاطئة.', yok: 'إجابتك صحيحة. السبب:', ybad: 'إجابتك خاطئة. السبب:', right: 'هذه هي الصحيحة. السبب:', wrong: 'خاطئة. السبب:',
@@ -49,7 +50,7 @@ const typing = () => { const a = document.activeElement; return a && (a.tagName 
 
 store.watchQuizzes(list => {
   S.quizzes = list.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
-  if (['home', 'quizzes', 'teacher', 'blocks', 'block', 'week', 'lecture'].includes(S.view) && !typing()) render();
+  if (['home', 'quizzes', 'teacher', 'blocks', 'block', 'week', 'lecture', 'course'].includes(S.view) && !typing()) render();
 }, e => { S.err = 'تعذر تحميل الكويزات. راجع قواعد Firestore.'; console.error(e); });
 
 const backBar = (title, to = 'home') => `<div class="back"><button class="link" data-act="go" data-v="${to}">‹ رجوع</button><h2>${esc(title)}</h2></div>`;
@@ -132,6 +133,7 @@ const todayPlan = () => {
 const orderedQuizzes = () => {
   const out = [];
   CURRICULUM.forEach(b => b.weeks.forEach(w => w.items.forEach(i => quizzesOf(i.k).forEach(z => out.push(z)))));
+  COURSES.forEach(c => c.lectures.forEach(i => quizzesOf(i.k).forEach(z => out.push(z))));
   return out;
 };
 const planHtml = (pl, full) => {
@@ -219,13 +221,13 @@ views.perf = () => {
   else if (tab === 'plan') body = `<h3 class="lbt">مطلوب منك النهاردة</h3>${planHtml(pl, true)}`;
   else if (tab === 'weak') body = st.A ? (weakCards(st).replace(/<h3 class="lbt">.*?<\/h3>/, '') || '<div class="card empty">مفيش نقاط ضعف واضحة لحد دلوقتي. كمّل حل وهنحللها بعد 20 إجابة.</div>') : empty;
   else if (tab === 'prog') body = S.att.length ? `<div class="card">${chartSvg(tr.pts)}<p class="sub" style="margin:6px 0 0">${tr.delta === null ? 'محتاج 4 محاولات عشان نقارن بداياتك بمستواك الحالي.' : `متوسطك ${tr.delta >= 0 ? 'اتحسّن' : 'قلّ'} بـ <b dir="ltr">${tr.delta >= 0 ? '+' : ''}${tr.delta.toFixed(1)}</b> نقطة بين النصف الأول والتاني من محاولاتك.`}${tr.secPerQ ? ` متوسط وقتك <b dir="ltr">${Math.round(tr.secPerQ)}s</b> للسؤال.` : ''}</p></div>
-    <h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">Block ${b}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>` : empty;
+    <h3 class="lbt">By block</h3><div class="list">${Object.keys(byBlock).sort().map(b => `<div class="card prow"><b dir="ltr">${b === '0' ? 'Courses' : 'Block ' + b}</b>${barHtml(byBlock[b].n, byBlock[b].c)}</div>`).join('')}</div>` : empty;
   else if (tab === 'subj') {
     const cur = S.psub && st.subj.get(S.psub);
     if (!st.A) body = empty;
     else if (cur) body = `<button class="link" data-act="psub" data-id="">‹ كل المواد</button><h3 class="lbt" dir="ltr">${esc(cur.subject)}</h3><div class="card prow">${barHtml(cur.n, cur.c)}</div>
       <div class="scr"><h4 dir="ltr">Topics</h4>${(topBy[cur.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(t => `<div class="prow sm"><span dir="ltr">${esc(t.topic)}</span>${barHtml(t.n, t.c)}${t.c / t.n < PG.TARGET ? `<button class="btn small" data-act="practice" data-subject="${esc(t.subject)}" data-topic="${esc(t.topic)}">تدرّب</button>` : ''}</div>`).join('')}
-      <h4 dir="ltr">Lectures</h4>${(lecBy[cur.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(l => `<div class="prow sm"><span dir="ltr">W${l.week} · ${esc(l.name)}</span>${barHtml(l.n, l.c)}</div>`).join('')}</div>`;
+      <h4 dir="ltr">Lectures</h4>${(lecBy[cur.subject] || []).sort((a, b) => a.c / a.n - b.c / b.n).map(l => `<div class="prow sm"><span dir="ltr">${l.week ? 'W' + l.week + ' · ' : ''}${esc(l.name)}</span>${barHtml(l.n, l.c)}</div>`).join('')}</div>`;
     else body = `<p class="hint" style="margin:0 0 6px">مرتبة من الأضعف. اضغط على مادة تشوف مواضيعها ومحاضراتها.</p><div class="list">${bySubj.map(s => `<button class="card prow subj" data-act="psub" data-id="${esc(s.subject)}"><b dir="ltr">${esc(s.subject)}</b>${barHtml(s.n, s.c)}</button>`).join('')}</div>`;
   }
   $app.innerHTML = `${backBar('Performance')}
@@ -472,6 +474,7 @@ views.home = () => {
     <div class="tiles">
       <button class="tile help" data-act="go" data-v="help">${ico('📖', '#e6e0ff')}<div class="tx"><b>تعليمات الاستخدام</b><span>إزاي تستخدم التطبيق خطوة بخطوة</span></div></button>
       <button class="tile" data-act="go" data-v="blocks">${ico('📚', '#d5f3ea')}<div class="tx"><b>Semester 1</b><span>كويزات كل محاضرة حسب البلوك والأسبوع</span></div></button>
+      ${COURSES.map(c => `<button class="tile" data-act="course" data-id="${esc(c.id)}">${ico(c.icon || '📘', c.bg || '#dde7ff')}<div class="tx"><b dir="ltr">${esc(c.title)}</b><span dir="ltr">${c.lectures.length} lectures${c.sub ? ' · ' + esc(c.sub) : ''}</span></div></button>`).join('')}
       <button class="tile" data-act="go" data-v="perf">${ico('📊', '#dde7ff')}<div class="tx"><b>Performance &amp; Study Plan</b><span>مستواك، نقاط ضعفك، وخطة مذاكرة مخصصة</span></div></button>
       ${S.profile ? `<button class="tile" data-act="lbopen">${ico('🏆', '#fff0c9')}<div class="tx"><b>Leaderboard</b><span>ترتيب الأسبوع والشهر بـ Smart Score</span></div></button>
       <button class="tile" data-act="cardsopen">${ico('🃏', '#fde0ee')}<div class="tx"><b>Flashcards</b><span>${dueCount()} كارت مستحق من غلطاتك</span></div></button>` : ''}
@@ -488,7 +491,7 @@ views.home = () => {
 window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); S.installEv = e; if (S.view === 'home') render(); });
 
 /* ---------- curriculum navigation: Block > Week > Subject > Lecture ---------- */
-const SUBICO = { Pathology: ['🔬', '#ffe0e0'], Microbiology: ['🦠', '#dff6d2'], Parasitology: ['🪱', '#ffecc9'], Pharmacology: ['💊', '#dde7ff'], Immunology: ['🛡️', '#d9f0ff'], Genetics: ['🧬', '#f0e0ff'], Physiology: ['🫀', '#ffdfe8'], Theme: ['💡', '#fff3bf'], Embryology: ['👶', '#ffe6d6'], Histology: ['🔍', '#e6deff'], Clinical: ['🩺', '#d5f3ea'], Biochemistry: ['⚗️', '#e3f7c9'], Radiology: ['🩻', '#e1e8f0'], Anatomy: ['🦴', '#f5e8d3'] };
+const SUBICO = { Pathology: ['🔬', '#ffe0e0'], Microbiology: ['🦠', '#dff6d2'], Parasitology: ['🪱', '#ffecc9'], Pharmacology: ['💊', '#dde7ff'], Immunology: ['🛡️', '#d9f0ff'], Genetics: ['🧬', '#f0e0ff'], Physiology: ['🫀', '#ffdfe8'], Theme: ['💡', '#fff3bf'], Embryology: ['👶', '#ffe6d6'], Histology: ['🔍', '#e6deff'], Clinical: ['🩺', '#d5f3ea'], Biochemistry: ['⚗️', '#e3f7c9'], Radiology: ['🩻', '#e1e8f0'], Anatomy: ['🦴', '#f5e8d3'], Research: ['🔬', '#dde7ff'], Biostatistics: ['📊', '#dde7ff'] };
 const ico = (e, bg, cls = '') => `<i class="ico ${cls}" style="background:${bg}">${e}</i>`;
 const subIco = (s, cls) => { const [e, bg] = SUBICO[s] || ['📘', '#e5ecff']; return ico(e, bg, cls); };
 const BLKICO = { 1: ['🌱', '#dff6d2'], 2: ['🌿', '#d5f3ea'], 3: ['🌳', '#ffecc9'] };
@@ -498,7 +501,25 @@ const quizLec = z => z.lec || LINKS[z.id] || '';
 const quizzesOf = key => S.quizzes.filter(z => quizLec(z) === key);
 const findBlock = n => CURRICULUM.find(b => b.n === n);
 const findWeek = n => { for (const b of CURRICULUM) { const w = b.weeks.find(x => x.n === n); if (w) return w; } return null; };
-const findLec = key => { for (const b of CURRICULUM) for (const w of b.weeks) { const it = w.items.find(x => x.k === key); if (it) return { it, w, b }; } return null; };
+const findLec = key => {
+  for (const b of CURRICULUM) for (const w of b.weeks) { const it = w.items.find(x => x.k === key); if (it) return { it, w, b }; }
+  for (const c of COURSES) { const it = c.lectures.find(x => x.k === key); if (it) return { it, w: { n: 0 }, b: { n: 0 }, course: c }; }
+  return null;
+};
+/* محتوى إضافي لكل محاضرة (High-Yield + MEQ) من ملفات content/<key>.json. الفهرس: content/index.json */
+const CONTENT = { idx: null, data: {} };
+const cInfo = k => (CONTENT.idx && CONTENT.idx[k]) || null;
+const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+async function loadContent(k) {
+  if (CONTENT.data[k]) return CONTENT.data[k];
+  const r = await fetch('content/' + encodeURIComponent(k) + '.json', { cache: 'no-cache' });
+  if (!r.ok) throw new Error('missing');
+  return (CONTENT.data[k] = await r.json());
+}
+(async () => {
+  try { const r = await fetch('content/index.json', { cache: 'no-cache' }); CONTENT.idx = r.ok ? await r.json() : {}; } catch (e) { CONTENT.idx = {}; }
+  if (['lecture', 'course'].includes(S.view) && !typing()) render();
+})();
 const blockQuizCount = b => quizzesOf('block-' + b.n).length + b.weeks.reduce((s, w) => s + w.items.reduce((t, i) => t + quizzesOf(i.k).length, 0), 0);
 const weekQuizCount = w => w.items.reduce((t, i) => t + quizzesOf(i.k).length, 0);
 const quizCard = (z, ret) => `
@@ -538,17 +559,51 @@ views.week = () => {
         <span dir="ltr">${g ? '🎮 Game' + (nq ? ' · ' : '') : ''}${nq ? nq + ' quiz' + (nq === 1 ? '' : 'zes') : (g ? '' : 'Coming soon')}</span></div></button>`;
     }).join('')}</div>`).join('');
 };
+views.course = () => {
+  const c = COURSES.find(x => x.id === S.course) || COURSES[0];
+  if (!c) { views.home(); return; }
+  $app.innerHTML = `${backBar(c.title, 'home')}
+    ${c.sub ? `<p class="sub" dir="ltr">${esc(c.sub)}</p>` : ''}
+    <div class="list">${c.lectures.map((i, n) => {
+      const nq = quizzesOf(i.k).length, ci = cInfo(i.k);
+      const tags = [ci && ci.hy ? '⭐ High-Yield' : '', ci && ci.meq ? '✍️ MEQ' : '', nq ? nq + ' quiz' + (nq === 1 ? '' : 'zes') : ''].filter(Boolean).join(' · ');
+      return `<button class="tile lec" data-act="lec" data-k="${i.k}">${subIco(i.s)}<div class="tx"><b dir="ltr">${n + 1}. ${esc(i.c)}</b><span dir="ltr">${tags || 'Coming soon'}</span></div></button>`;
+    }).join('')}</div>`;
+};
 views.lecture = () => {
-  const f = findLec(S.lec), qz = quizzesOf(S.lec), g = GAMES[S.lec];
-  $app.innerHTML = `${backBar(f.it.c, 'week')}
-    <p class="sub" dir="ltr"><b>${esc(f.it.s)}</b> · Block ${f.b.n} · Week ${f.w.n}</p>
+  const f = findLec(S.lec), qz = quizzesOf(S.lec), g = GAMES[S.lec], ci = cInfo(S.lec);
+  if (f.course) S.course = f.course.id;
+  const extra = ci && (ci.hy || ci.meq) ? `<div class="tiles">
+      ${ci.hy ? `<button class="tile" data-act="notes">${ico('⭐', '#fff0c9')}<div class="tx"><b>High-Yield</b><span>ملخص النقاط الأهم في المحاضرة</span></div></button>` : ''}
+      ${ci.meq ? `<button class="tile" data-act="meq">${ico('✍️', '#e6e0ff')}<div class="tx"><b>MEQ Practice</b><span>أسئلة مقالية: جاوب الأول وبعدين شوف الإجابة</span></div></button>` : ''}</div>` : '';
+  $app.innerHTML = `${backBar(f.it.c, f.course ? 'course' : 'week')}
+    <p class="sub" dir="ltr"><b>${esc(f.it.s)}</b> · ${f.course ? esc(f.course.title) : `Block ${f.b.n} · Week ${f.w.n}`}</p>
     <label class="hint" for="name">اسمك (يظهر في الترتيب)</label>
     <input class="inp" id="name" maxlength="30" value="${esc(S.name)}" placeholder="اكتب اسمك" autocomplete="nickname">
     <p class="msg err">${esc(S.err)}</p>
+    ${extra}
     ${g ? `<a class="tile" href="${g.url}" style="text-decoration:none;color:inherit;margin-bottom:12px">${ico('🎮', '#ffe0e0')}<div class="tx"><b>${esc(g.title)}</b><span>مراجعة بالتفاعل وبدون ضغط</span></div></a>` : ''}
     ${qz.length ? `<div class="list">${qz.map(z => quizCard(z, 'lecture')).join('')}</div>` : ''}
-    ${!g && !qz.length ? `<div class="card empty" dir="ltr">Coming soon. Quizzes for this lecture will appear here automatically.</div>` : ''}`;
+    ${!g && !qz.length && !extra ? `<div class="card empty" dir="ltr">Coming soon. Quizzes for this lecture will appear here automatically.</div>` : ''}`;
 };
+function contentView(kind, title, draw) {
+  const k = S.lec, f = findLec(k), d = CONTENT.data[k];
+  if (!d) {
+    $app.innerHTML = `${backBar(title, 'lecture')}<div class="card empty">Loading…</div>`;
+    loadContent(k).then(() => { if (S.view === kind && S.lec === k) render(); })
+      .catch(() => { if (S.view === kind) $app.innerHTML = `${backBar(title, 'lecture')}<div class="card empty">تعذر تحميل المحتوى. تأكد من الإنترنت وحاول تاني.</div>`; });
+    return;
+  }
+  $app.innerHTML = `${backBar(title, 'lecture')}<p class="sub" dir="ltr"><b>${esc(d.title || (f && f.it.c) || '')}</b></p>${draw(d)}`;
+}
+views.notes = () => contentView('notes', '⭐ High-Yield', d => (d.sections || []).map(s => `
+  <section class="card hy" dir="ltr"><h3 class="lbt" style="margin-top:0">${esc(s.h)}</h3>
+    ${s.p ? `<p>${rich(s.p)}</p>` : ''}
+    ${s.items && s.items.length ? `<ul>${s.items.map(i => `<li>${rich(i)}</li>`).join('')}</ul>` : ''}
+    ${s.table ? `<div class="tbl"><table><thead><tr>${s.table.head.map(h => `<th>${rich(h)}</th>`).join('')}</tr></thead><tbody>${s.table.rows.map(r => `<tr>${r.map(c => `<td>${rich(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : ''}
+  </section>`).join('') || '<div class="card empty">لا يوجد محتوى.</div>');
+views.meq = () => contentView('meq', '✍️ MEQ Practice', d => `<p class="hint">جاوب في دماغك أو على ورقة، وبعدين اضغط على السؤال تشوف الإجابة النموذجية.</p>` + ((d.meq || []).map((q, i) => `
+  <details class="card meq" dir="ltr"><summary>${i + 1}. ${rich(q.q)}</summary><div class="ans">${(q.a || []).map(l => `<p>${rich(l)}</p>`).join('')}</div></details>`).join('') || '<div class="card empty">لا توجد أسئلة.</div>'));
 
 /* ---------- quizzes list + solo play ---------- */
 views.quizzes = () => {
@@ -899,6 +954,9 @@ $app.addEventListener('click', async e => {
     case 'blk': go('block', { blk: +b.dataset.n }); break;
     case 'wk': go('week', { wk: +b.dataset.n }); break;
     case 'lec': go('lecture', { lec: b.dataset.k }); break;
+    case 'course': go('course', { course: id }); break;
+    case 'notes': go('notes'); break;
+    case 'meq': go('meq'); break;
     case 'start': {
       S.ret = b.dataset.ret || 'quizzes';
       if (!S.name.trim()) { S.err = 'اكتب اسمك الأول.'; render(); break; }

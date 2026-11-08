@@ -706,3 +706,24 @@ export const CURRICULUM = [
 export const GAMES = {};
 // ربط تلقائي لكويزات جاهزة (فاضي حاليًا). 'block-2' = كويز شامل للبلوك.
 export const LINKS = {};
+
+// كورسات خارج نظام البلوكات (ترتيبها بتدرج المحتوى). المفتاح k بيربط الكويزات (lec) ومحتوى content/<k>.json.
+export const COURSES = [
+  {
+    id: 'research', title: 'Research Methods', sub: 'Research & Biostatistics', icon: '🔬', bg: '#dde7ff',
+    lectures: [
+      { k: 'research-introduction-to-methods', s: 'Research', c: 'Introduction to methods' },
+      { k: 'research-research-types', s: 'Research', c: 'Research types' },
+      { k: 'research-types-of-data', s: 'Research', c: 'Types of statistical data' },
+      { k: 'research-scales-of-measurement', s: 'Research', c: 'Scales of measurement' },
+      { k: 'research-presentation-of-data', s: 'Research', c: 'Presentation of data' },
+      { k: 'research-graphic-presentation', s: 'Research', c: 'Graphic presentation' },
+      { k: 'research-mathematical-presentation', s: 'Research', c: 'Mathematical presentation of data' },
+      { k: 'research-sampling-and-sample-size', s: 'Research', c: 'Sampling and sample size' },
+      { k: 'research-cohort-study', s: 'Research', c: 'Cohort study' },
+      { k: 'research-rct', s: 'Research', c: 'Randomized controlled trials (RCT)' },
+      { k: 'research-trusted-search-engines', s: 'Research', c: 'Trusted search engines' },
+      { k: 'research-scientific-writing', s: 'Research', c: 'Principles of scientific writing' }
+    ]
+  }
+];

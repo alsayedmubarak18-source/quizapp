@@ -1,0 +1,273 @@
+{
+ "k": "research-types-of-data",
+ "title": "Types of Statistical Data",
+ "sections": [
+  {
+   "h": "Exam focus",
+   "items": [
+    "This lecture is mostly tested inside scenarios: **\"Determine the study variables (outcome and independent variables and the type of each variable).\"**",
+    "**Variable roles come first:** dependent, independent and confounding variables (definition, or identify in a scenario).",
+    "**Then data types:** discrete vs continuous, nominal vs ordinal."
+   ]
+  },
+  {
+   "h": "A. Variable roles",
+   "table": {
+    "head": [
+     "Term",
+     "What to know"
+    ],
+    "rows": [
+     [
+      "Dependent (response / outcome)",
+      "The outcome or condition whose variation is being studied; the effect/result."
+     ],
+     [
+      "Independent (explanatory)",
+      "The input / cause / factor; what the researcher observes, changes or controls to see its effect on the dependent variable; the cause/risk factor."
+     ],
+     [
+      "Confounder",
+      "Like an independent variable/risk factor for the outcome; has an effect on and is associated with **both** the dependent and independent variables. If not controlled it distorts the true exposure–outcome relationship."
+     ],
+     [
+      "3 conditions of a confounder",
+      "1) Associated with the independent variable (exposure). 2) Associated with the dependent variable (an independent risk factor for the outcome). 3) Not on the causal pathway (not a mediator)."
+     ],
+     [
+      "Ways to control confounding",
+      "Randomization, restriction, matching, stratification, statistical adjustment."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Worked examples",
+   "table": {
+    "head": [
+     "Study",
+     "Dependent",
+     "Independent",
+     "Confounders"
+    ],
+    "rows": [
+     [
+      "Low-carb diet and weight loss",
+      "Weight",
+      "Type of diet",
+      "Age, sex, exercise intensity"
+     ],
+     [
+      "Smoking and lung function",
+      "Lung function",
+      "Smoking",
+      "Occupation, age"
+     ],
+     [
+      "Coffee and coronary heart disease",
+      "Risk of CHD",
+      "Coffee consumption",
+      "Smoking"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "B. Classification of data",
+   "table": {
+    "head": [
+     "Type",
+     "What to know"
+    ],
+    "rows": [
+     [
+      "Numerical (quantitative)",
+      "Numbers; measured on a numerical scale (height, weight, time, temperature, number of children)."
+     ],
+     [
+      "Categorical (qualitative)",
+      "Descriptive; each observation falls into one of two or several categories (comorbidities, hair colour, blood group)."
+     ],
+     [
+      "Discrete",
+      "Integers, only certain values; **counted** (number of hospital visits a year, seizures per week)."
+     ],
+     [
+      "Continuous",
+      "Any value within a range; **measured** (weight, height, age)."
+     ],
+     [
+      "Nominal",
+      "Unordered categories (sex: male/female; smoking status)."
+     ],
+     [
+      "Ordinal",
+      "Categories where **order matters** (stages of illness; opinion from very unhappy to happy)."
+     ],
+     [
+      "Ratio / interval",
+      "Numerical data is also classified as ratio or interval scales (explained in the Scales of Measurement lecture)."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "C. Answering \"Determine the study variables and their types\"",
+   "p": "Dependent = what is measured as the result. Independent = the group, treatment or exposure. Then give each its data type.",
+   "table": {
+    "head": [
+     "Scenario",
+     "Dependent (type)",
+     "Independent (type)"
+    ],
+    "rows": [
+     [
+      "Obese subjects, 2 treatments, weight differences",
+      "Weight difference (numerical, continuous)",
+      "Type of treatment (categorical, nominal)"
+     ],
+     [
+      "Smartwatch and insomnia",
+      "Insomnia (categorical: present/absent)",
+      "Wearing a smartwatch (categorical, nominal)"
+     ],
+     [
+      "3 treatment groups, systolic BP",
+      "Systolic BP (numerical, continuous)",
+      "Treatment group (categorical, nominal)"
+     ],
+     [
+      "Vitamin D before and after one drug",
+      "Serum vitamin D level (numerical, continuous)",
+      "Time of measurement: before / after"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Also review",
+   "table": {
+    "head": [
+     "Topic",
+     "Key points"
+    ],
+    "rows": [
+     [
+      "Data transformation",
+      "Continuous data can be reduced to ordinal or nominal, but **not the other way round**. It is easier to describe a population by proportions."
+     ],
+     [
+      "Variable vs constant",
+      "Variable: item under study that can change (age, sex, weight, blood group). Constant: a fixed value."
+     ],
+     [
+      "Descriptive vs inferential",
+      "Descriptive: organize, summarize, present. Inferential: generalize from samples to populations, hypothesis testing, relationships, predictions."
+     ],
+     [
+      "Parameter vs statistic",
+      "Parameter describes a population (Greek letters, e.g. µ). Statistic describes a sample (Roman letters, e.g. x̄, s)."
+     ],
+     [
+      "Primary vs secondary data",
+      "Primary: collected by the researcher (survey, experiment, trial). Secondary: collected by others (records, registries, published studies; meta-analysis, systematic reviews). **Data type = your relationship to the data; source type = the publication.**"
+     ],
+     [
+      "Secondary data: pros and cons",
+      "Pros: faster, cheaper, less effort. Cons: may be inadequate, may not meet your needs, outdated, variation in definitions, inaccurate or biased."
+     ],
+     [
+      "Likert scoring",
+      "5-point scale: strongly disagree = 1 … strongly agree = 5; total score is calculated; assumes equal steps between options."
+     ],
+     [
+      "Qualitative methods",
+      "Open-ended questionnaires, interviews, unstructured observation, focus groups (6–12 people), ethnography, literature review."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Common traps",
+   "items": [
+    "The exposure itself (smoking, vaping, diet) is the **independent** variable. The extra factor linked to both exposure and outcome (age, exercise) is the **confounder**.",
+    "If categories have an order (low / middle / high), the data are **ordinal**.",
+    "Counted = discrete (people, accidents). Measured = continuous (kg, height, age).",
+    "Dependent = response = outcome. Independent = explanatory."
+   ]
+  }
+ ],
+ "meq": [
+  {
+   "q": "In a research study, two groups of obese subjects were followed to compare the effect of two different treatments for reducing body weight. The distribution of weight differences of both groups was symmetric. Determine the study variables (outcome and independent variables and the type of each variable).",
+   "a": [
+    "Independent variable: type of treatment (two groups): categorical (nominal).",
+    "Dependent (outcome) variable: body weight difference: numerical (continuous)."
+   ]
+  },
+  {
+   "q": "A research study was started by a hypothesis that wearing smartwatches leads to insomnia. Determine the study variables (outcome and independent variables and the type of each variable).",
+   "a": [
+    "Independent variable: wearing a smartwatch (yes / no): categorical (nominal).",
+    "Dependent (outcome) variable: insomnia (present / absent): categorical (nominal)."
+   ]
+  },
+  {
+   "q": "A research study was conducted to compare the effect of different treatments on lowering systolic blood pressure. Three groups were studied: conventional treatment group, traditional treatment group, and control group. The mean systolic blood pressure of the three groups was calculated. Determine the study variables (dependent and independent variables and the type of each variable).",
+   "a": [
+    "Independent variable: treatment group (conventional / traditional / control): categorical (nominal).",
+    "Dependent variable: systolic blood pressure: numerical (continuous)."
+   ]
+  },
+  {
+   "q": "The objective of a research study is to study the effect of a new drug on treating Vitamin D deficiency. Serum vitamin D level was measured for one study group before and after the use of this new treatment. Determine the dependent variable in this study and its type.",
+   "a": [
+    "Dependent variable: serum vitamin D level.",
+    "Type: numerical (continuous), because it is measured."
+   ]
+  },
+  {
+   "q": "What is the explanatory / independent variable?",
+   "a": [
+    "The input / cause / factor: the variable the researcher observes, changes or controls to assess its effect on the dependent variable. It is the cause or risk factor."
+   ]
+  },
+  {
+   "q": "What is the dependent / response variable?",
+   "a": [
+    "The outcome or condition whose variation is being studied. It represents the effect or result."
+   ]
+  },
+  {
+   "q": "What is the confounding variable? Mention its conditions.",
+   "a": [
+    "A variable that, like an independent variable or risk factor, has an effect on and is associated with both the dependent and the independent variables. If it is not controlled it distorts the true relationship between exposure and outcome.",
+    "Conditions:",
+    "1. Associated with the independent variable (exposure).",
+    "2. Associated with the dependent variable (an independent risk factor for the outcome).",
+    "3. Not on the causal pathway (not a mediator)."
+   ]
+  },
+  {
+   "q": "Differentiate between discrete and continuous data, with examples.",
+   "a": [
+    "Discrete data: integers that can only take certain values; counted. Examples: number of hospital visits in a year, number of seizures per week.",
+    "Continuous data: can take any value within a range; measured. Examples: weight, height, age."
+   ]
+  },
+  {
+   "q": "Differentiate between nominal and ordinal data, with an example of each.",
+   "a": [
+    "Nominal data: categorical data in unordered categories. Examples: sex (male / female), smoking status (smoker / non-smoker).",
+    "Ordinal data: categorical data in which order is important. Examples: stages of an illness (1st, 2nd, 3rd), opinion of students (very unhappy to happy)."
+   ]
+  },
+  {
+   "q": "Mention the advantages and disadvantages of secondary data.",
+   "a": [
+    "Advantages: faster; less expensive; less activity and effort.",
+    "Disadvantages: may not be adequate; may not meet the specific needs of the researcher; outdated information; variation in definitions; inaccurate or biased."
+   ]
+  }
+ ]
+}
