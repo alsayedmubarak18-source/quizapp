@@ -1,0 +1,836 @@
+{
+ "id": "w11-clinical-rickets-1",
+ "title": "Rickets: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w11-clinical-rickets",
+ "questions": [
+  {
+   "q": "Rickets is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A disorder of adult bones after growth plate closure",
+     "e": "Wrong. Osteomalacia."
+    },
+    {
+     "t": "Excess bone density",
+     "e": "Wrong. Osteopetrosis."
+    },
+    {
+     "t": "Defective mineralization of growth-plate cartilage and osteoid in the growing skeleton",
+     "e": "Correct. Soft deformed bones."
+    },
+    {
+     "t": "An infection of bone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "Nutritional rickets peaks at about:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "5-10 years",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "3-18 months",
+     "e": "Correct. Infants and toddlers."
+    },
+    {
+     "t": "Adolescence",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Elderly",
+     "e": "Wrong. Osteomalacia."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "Osteomalacia differs from rickets by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Occurring after growth plates close, with only an osteoid mineralization defect",
+     "e": "Correct. Looser zones."
+    },
+    {
+     "t": "Occurring in infants",
+     "e": "Wrong. Rickets."
+    },
+    {
+     "t": "Widened physis",
+     "e": "Wrong. Rickets."
+    },
+    {
+     "t": "Normal osteoid",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "Osteomalacia features include:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cupping and fraying",
+     "e": "Wrong. Rickets."
+    },
+    {
+     "t": "Craniotabes",
+     "e": "Wrong. Rickets."
+    },
+    {
+     "t": "Rachitic rosary",
+     "e": "Wrong. Rickets."
+    },
+    {
+     "t": "Bone pain, Looser zones and proximal muscle weakness",
+     "e": "Correct. Adults."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "Chondrocytes in the hypertrophic zone of the growth plate must:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Divide",
+     "e": "Wrong. Proliferative zone."
+    },
+    {
+     "t": "Remain as resting cells",
+     "e": "Wrong. Reserve zone."
+    },
+    {
+     "t": "Undergo apoptosis so the matrix can mineralize",
+     "e": "Correct. Phosphate needed."
+    },
+    {
+     "t": "Become osteocytes directly",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Growth plate"
+  },
+  {
+   "q": "The proliferative zone is responsible for:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Resting supply",
+     "e": "Wrong. Reserve."
+    },
+    {
+     "t": "Longitudinal growth via columns of dividing cells",
+     "e": "Correct. Stacked."
+    },
+    {
+     "t": "Calcification",
+     "e": "Wrong. Provisional zone."
+    },
+    {
+     "t": "Apoptosis",
+     "e": "Wrong. Hypertrophic."
+    }
+   ],
+   "topic": "Growth plate"
+  },
+  {
+   "q": "In rickets the growth plate:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Widens with a disorganized, poorly mineralized hypertrophic zone",
+     "e": "Correct. Mineralization fails."
+    },
+    {
+     "t": "Narrows",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Closes early",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is normal",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Growth plate"
+  },
+  {
+   "q": "Vitamin D3 is formed in the skin from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cholesterol in liver",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ergosterol in humans",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Beta-carotene",
+     "e": "Wrong. Vitamin A."
+    },
+    {
+     "t": "7-dehydrocholesterol by UVB",
+     "e": "Correct. Then liver and kidney."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "The liver enzyme in vitamin D activation is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "1-alpha-hydroxylase",
+     "e": "Wrong. Kidney."
+    },
+    {
+     "t": "Aromatase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "25-hydroxylase (CYP2R1)",
+     "e": "Correct. Gives calcidiol."
+    },
+    {
+     "t": "Lipase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Renal 1-alpha-hydroxylase is stimulated by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "FGF23",
+     "e": "Wrong. Inhibits."
+    },
+    {
+     "t": "PTH and low phosphate",
+     "e": "Correct. Inhibited by FGF23 and high calcitriol."
+    },
+    {
+     "t": "High calcitriol",
+     "e": "Wrong. Inhibits."
+    },
+    {
+     "t": "High phosphate",
+     "e": "Wrong. Inhibits."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "The best clinical marker of vitamin D status is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "25(OH)D",
+     "e": "Correct. Calcidiol."
+    },
+    {
+     "t": "1,25(OH)2D",
+     "e": "Wrong. Variable."
+    },
+    {
+     "t": "PTH",
+     "e": "Wrong. Not specific."
+    },
+    {
+     "t": "Serum Ca",
+     "e": "Wrong. Not specific."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "The main effect of calcitriol on the intestine is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Decreasing absorption",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Increasing fat absorption",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increasing calcium (and phosphate) absorption",
+     "e": "Correct. Induces calcium-binding proteins."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Which is a risk factor for rickets?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "High dairy intake",
+     "e": "Wrong. Protective."
+    },
+    {
+     "t": "Daily sun exposure",
+     "e": "Wrong. Protective."
+    },
+    {
+     "t": "Dark skin, covering clothing, exclusive breastfeeding without vitamin D",
+     "e": "Correct. Plus little sunlight."
+    },
+    {
+     "t": "Vitamin D supplements",
+     "e": "Wrong. Protective."
+    }
+   ],
+   "topic": "Causes"
+  },
+  {
+   "q": "Which drugs can cause rickets?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Antibiotics generally",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Enzyme inducers such as some anticonvulsants and rifampicin",
+     "e": "Correct. Increase vitamin D breakdown."
+    },
+    {
+     "t": "Antacids only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Beta-blockers",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Causes"
+  },
+  {
+   "q": "Calciopenic rickets shows:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Low calcium and high PTH",
+     "e": "Correct. E.g., vitamin D deficiency."
+    },
+    {
+     "t": "Low phosphate and normal PTH",
+     "e": "Wrong. Phosphopenic."
+    },
+    {
+     "t": "High calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Normal PTH and calcium",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "X-linked hypophosphatemic rickets is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Calciopenic",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Due to vitamin C deficiency",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A form of osteoporosis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Phosphopenic, due to PHEX mutation, with normal Ca and low phosphate",
+     "e": "Correct. FGF23 excess."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "The final common pathway of rickets is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "High calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Low PTH",
+     "e": "Wrong. PTH is high."
+    },
+    {
+     "t": "Low phosphate",
+     "e": "Correct. PTH raises urinary phosphate loss."
+    },
+    {
+     "t": "High vitamin D",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pathophysiology"
+  },
+  {
+   "q": "In vitamin D deficiency, phosphate is low because:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "PTH is low",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Secondary hyperparathyroidism increases urinary phosphate loss",
+     "e": "Correct. Plus reduced absorption."
+    },
+    {
+     "t": "Phosphate is stored in bone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calcitonin is high",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pathophysiology"
+  },
+  {
+   "q": "Which is a skull/teeth feature of rickets?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Craniotabes, frontal bossing, delayed fontanelle closure and teething",
+     "e": "Correct. Skull signs."
+    },
+    {
+     "t": "Early fontanelle closure",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Early teething",
+     "e": "Wrong. Delayed."
+    },
+    {
+     "t": "Microcephaly only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "Rachitic rosary refers to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bowed tibia",
+     "e": "Wrong. Legs."
+    },
+    {
+     "t": "Widened wrist",
+     "e": "Wrong. Wrist."
+    },
+    {
+     "t": "Frontal bossing",
+     "e": "Wrong. Skull."
+    },
+    {
+     "t": "Beading at the costochondral junctions",
+     "e": "Correct. Chest sign."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "Harrison's sulcus is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Beading of ribs",
+     "e": "Wrong. Rosary."
+    },
+    {
+     "t": "Bowed legs",
+     "e": "Wrong. Legs."
+    },
+    {
+     "t": "A horizontal groove along the lower chest",
+     "e": "Correct. Chest sign."
+    },
+    {
+     "t": "Craniotabes",
+     "e": "Wrong. Skull."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "Leg deformities in rickets include:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Clubfoot",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Genu varum or valgum and bowing",
+     "e": "Correct. Delayed walking."
+    },
+    {
+     "t": "Hip dislocation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No deformity",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "Systemic features and complications include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hypotonia, tetany or seizures, dilated cardiomyopathy, recurrent chest infections",
+     "e": "Correct. Hypocalcemia."
+    },
+    {
+     "t": "Hypertension",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hyperreflexia only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hyperactivity",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "Radiologic features of rickets include:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increased density",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Narrow physis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Sclerosis only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cupping, fraying, splaying and widened physis",
+     "e": "Correct. Wrist and knee."
+    }
+   ],
+   "topic": "Radiology"
+  },
+  {
+   "q": "Thacher score is used to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Measure vitamin D",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Assess growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Grade radiographic severity of nutritional rickets",
+     "e": "Correct. Wrist and knee."
+    },
+    {
+     "t": "Grade fractures",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Radiology"
+  },
+  {
+   "q": "In nutritional vitamin D deficiency, ALP is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Low",
+     "e": "Wrong. Hypophosphatasia."
+    },
+    {
+     "t": "Markedly raised, with high PTH and low 25(OH)D",
+     "e": "Correct. Calcium low or normal."
+    },
+    {
+     "t": "Normal",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Slightly low",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Biochemistry"
+  },
+  {
+   "q": "VDDR type 1A is due to a defect in:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "CYP27B1 (1-alpha-hydroxylase) with low 1,25(OH)2D and normal 25(OH)D",
+     "e": "Correct. Treated with calcitriol."
+    },
+    {
+     "t": "VDR",
+     "e": "Wrong. VDDR 2A."
+    },
+    {
+     "t": "PHEX",
+     "e": "Wrong. XLH."
+    },
+    {
+     "t": "25-hydroxylase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Biochemistry"
+  },
+  {
+   "q": "VDDR type 2A has:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Low 1,25(OH)2D",
+     "e": "Wrong. VDDR 1A."
+    },
+    {
+     "t": "Normal calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Low PTH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A VDR defect with very high 1,25(OH)2D",
+     "e": "Correct. Needs high-dose calcitriol and calcium."
+    }
+   ],
+   "topic": "Biochemistry"
+  },
+  {
+   "q": "Which condition has low ALP and early tooth loss?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Nutritional rickets",
+     "e": "Wrong. High ALP."
+    },
+    {
+     "t": "Scurvy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hypophosphatasia",
+     "e": "Correct. ALPL variants."
+    },
+    {
+     "t": "Blount disease",
+     "e": "Wrong. Normal labs."
+    }
+   ],
+   "topic": "Differential"
+  },
+  {
+   "q": "Blount disease is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Vitamin D deficiency",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tibia vara with obesity and early walking, normal labs",
+     "e": "Correct. Mimics rickets."
+    },
+    {
+     "t": "Low ALP disease",
+     "e": "Wrong. Hypophosphatasia."
+    },
+    {
+     "t": "Fragile bone disease",
+     "e": "Wrong. OI."
+    }
+   ],
+   "topic": "Differential"
+  },
+  {
+   "q": "Scurvy differs from rickets by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Vitamin C deficiency with gum bleeding and subperiosteal bleeds",
+     "e": "Correct. Collagen defect."
+    },
+    {
+     "t": "Low vitamin D",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Low ALP",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "High PTH",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Differential"
+  },
+  {
+   "q": "Treatment of nutritional rickets includes:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Calcium only",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "Phosphate alone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bisphosphonates",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin D (stoss or 2000 IU/day for 3 months) plus calcium at least 500 mg/day",
+     "e": "Correct. Monitor Ca, ALP, X-ray."
+    }
+   ],
+   "topic": "Management"
+  },
+  {
+   "q": "XLH treatment is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Vitamin D alone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calcium only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Phosphate plus calcitriol, or burosumab",
+     "e": "Correct. Hereditary forms."
+    },
+    {
+     "t": "No treatment",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Management"
+  },
+  {
+   "q": "Hypocalcemic seizures in rickets are treated with:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Oral vitamin C",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IV calcium",
+     "e": "Correct. Supportive."
+    },
+    {
+     "t": "Bracing",
+     "e": "Wrong. For deformity."
+    },
+    {
+     "t": "Phosphate",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Management"
+  },
+  {
+   "q": "Recommended prevention vitamin D dose for infants 0-12 months is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "400 IU/day",
+     "e": "Correct. 600 IU after 12 months if inadequate."
+    },
+    {
+     "t": "4000 IU/day",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "40 IU/day",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No supplement",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Prevention"
+  },
+  {
+   "q": "Case: 14-month-old, breast-fed, dark skin, bowed legs, beaded ribs, low Ca/PO4, very high ALP, low 25(OH)D. Diagnosis?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "XLH",
+     "e": "Wrong. Normal Ca and 25(OH)D."
+    },
+    {
+     "t": "Scurvy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Blount disease",
+     "e": "Wrong. Normal labs."
+    },
+    {
+     "t": "Nutritional vitamin D deficiency rickets",
+     "e": "Correct. Classic."
+    }
+   ],
+   "topic": "Case"
+  }
+ ]
+}

@@ -1,0 +1,629 @@
+{
+ "id": "w11-bio-vitamins-bone-1",
+ "title": "Vitamins and Bone Metabolism (Coenzymes and Metabolic Pathways): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w11-biochemistry-coenzymes-metabolism",
+ "questions": [
+  {
+   "q": "Vitamins are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Inorganic minerals",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Energy sources",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hormones only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Organic nutrients required in small amounts for normal growth and health",
+     "e": "Correct. Not synthesized adequately."
+    }
+   ],
+   "topic": "General"
+  },
+  {
+   "q": "Fat-soluble vitamins are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "B and C",
+     "e": "Wrong. Water-soluble."
+    },
+    {
+     "t": "A, B, C",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A, D, E, K",
+     "e": "Correct. Water-soluble: B and C."
+    },
+    {
+     "t": "D and C only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "General"
+  },
+  {
+   "q": "Compared with water-soluble vitamins, fat-soluble vitamins:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Are excreted quickly",
+     "e": "Wrong. Water-soluble."
+    },
+    {
+     "t": "Need bile salts for absorption, are stored in the liver and can cause toxicity",
+     "e": "Correct. Deficiency late."
+    },
+    {
+     "t": "Have no storage",
+     "e": "Wrong. Water-soluble."
+    },
+    {
+     "t": "Never cause toxicity",
+     "e": "Wrong. Can."
+    }
+   ],
+   "topic": "General"
+  },
+  {
+   "q": "Good sources of vitamin D include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Sunlight, fish liver oil, fish and egg yolk",
+     "e": "Correct. Milk has moderate amounts."
+    },
+    {
+     "t": "Citrus fruit",
+     "e": "Wrong. Vitamin C."
+    },
+    {
+     "t": "Cereals",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Green vegetables",
+     "e": "Wrong. Vitamin K."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Calcitriol acts through:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A cell surface receptor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tyrosine kinase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ion channels",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "An intracellular receptor, like steroid hormones",
+     "e": "Correct. Gene transcription."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "The first hydroxylation of vitamin D occurs in the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Kidney at position 1",
+     "e": "Wrong. Second."
+    },
+    {
+     "t": "Skin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Liver at position 25",
+     "e": "Correct. Gives calcidiol, the plasma and storage form."
+    },
+    {
+     "t": "Intestine",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "The predominant form of vitamin D in plasma and the major storage form is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1,25-diOH-D3",
+     "e": "Wrong. Active, not main storage."
+    },
+    {
+     "t": "25-OH-D3 (calcidiol)",
+     "e": "Correct. Not calcitriol."
+    },
+    {
+     "t": "Cholecalciferol",
+     "e": "Wrong. Precursor."
+    },
+    {
+     "t": "Ergosterol",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "1-hydroxylase activity is increased by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Low plasma phosphate or low calcium via PTH",
+     "e": "Correct. Negative feedback by calcitriol."
+    },
+    {
+     "t": "High phosphate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "High calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "High calcitriol",
+     "e": "Wrong. Inhibits."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Calcitriol inhibits:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Calbindin synthesis",
+     "e": "Wrong. It induces it."
+    },
+    {
+     "t": "Osteoblasts",
+     "e": "Wrong. It stimulates them."
+    },
+    {
+     "t": "Calcium absorption",
+     "e": "Wrong. It increases."
+    },
+    {
+     "t": "PTH synthesis and 1-hydroxylase",
+     "e": "Correct. Negative feedback."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Calcitriol increases intestinal calcium uptake by inducing:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Calmodulin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Albumin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Calbindin",
+     "e": "Correct. Calcium-binding protein."
+    },
+    {
+     "t": "Collagen",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Calcitriol promotes bone mineralization by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Inhibiting osteoblasts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stimulating osteoblast alkaline phosphatase, raising local Ca x P product",
+     "e": "Correct. Phosphate freed."
+    },
+    {
+     "t": "Removing phosphate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Destroying collagen",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Vitamin D deficiency causes:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Rickets in children and osteomalacia in adults",
+     "e": "Correct. Soft bone."
+    },
+    {
+     "t": "Scurvy",
+     "e": "Wrong. Vitamin C."
+    },
+    {
+     "t": "Night blindness",
+     "e": "Wrong. Vitamin A."
+    },
+    {
+     "t": "Hemolytic anemia",
+     "e": "Wrong. Vitamin E."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Rickets is characterized by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "No matrix formation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Excess mineralization",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Normal bones",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Continued collagen matrix formation with incomplete mineralization",
+     "e": "Correct. Soft pliable bones."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Vitamin D deficiency is more common in northern latitudes because:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "More milk intake",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lower calcium intake only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Less skin synthesis due to reduced UV exposure",
+     "e": "Correct. Infants and elderly."
+    },
+    {
+     "t": "Higher sun exposure",
+     "e": "Wrong. Opposite."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Renal osteodystrophy results from:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Vitamin D excess",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chronic kidney disease: low active vitamin D and phosphate retention",
+     "e": "Correct. Hypocalcemia raises PTH."
+    },
+    {
+     "t": "Hypoparathyroidism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin C deficiency",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Hypervitaminosis D can cause:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hypercalcemia and metastatic calcification",
+     "e": "Correct. Polyuria and thirst."
+    },
+    {
+     "t": "Hypocalcemia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Night blindness",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bleeding",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Excess sunlight does not cause vitamin D toxicity because:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Skin cannot make vitamin D",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The liver blocks it",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Melanin always blocks",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Excess D3 is destroyed by sunlight itself",
+     "e": "Correct. Self-limiting."
+    }
+   ],
+   "topic": "Vitamin D"
+  },
+  {
+   "q": "Retinal is important for:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Clotting",
+     "e": "Wrong. Vitamin K."
+    },
+    {
+     "t": "Collagen synthesis",
+     "e": "Wrong. Vitamin C."
+    },
+    {
+     "t": "Vision as part of rhodopsin",
+     "e": "Correct. Night vision."
+    },
+    {
+     "t": "Bone mineralization via calbindin",
+     "e": "Wrong. Vitamin D."
+    }
+   ],
+   "topic": "Vitamin A"
+  },
+  {
+   "q": "Vitamin A deficiency causes:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Hemolytic anemia",
+     "e": "Wrong. Vitamin E."
+    },
+    {
+     "t": "Night blindness, keratinization and delayed bone and tooth growth",
+     "e": "Correct. Reduced mucus."
+    },
+    {
+     "t": "Bleeding",
+     "e": "Wrong. Vitamin K."
+    },
+    {
+     "t": "Scurvy",
+     "e": "Wrong. Vitamin C."
+    }
+   ],
+   "topic": "Vitamin A"
+  },
+  {
+   "q": "Vitamin E acts as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "A natural antioxidant protecting PUFAs",
+     "e": "Correct. Deficiency gives hemolytic anemia."
+    },
+    {
+     "t": "A clotting cofactor",
+     "e": "Wrong. Vitamin K."
+    },
+    {
+     "t": "A collagen cofactor",
+     "e": "Wrong. Vitamin C."
+    },
+    {
+     "t": "A visual pigment",
+     "e": "Wrong. Vitamin A."
+    }
+   ],
+   "topic": "Vitamin E"
+  },
+  {
+   "q": "Vitamin K is needed for synthesis of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Factor VIII",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fibrinogen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Albumin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Prothrombin and factors VII, IX, X",
+     "e": "Correct. 2, 7, 9, 10."
+    }
+   ],
+   "topic": "Vitamin K"
+  },
+  {
+   "q": "The antidote for dicumarol poisoning is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Vitamin E",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin D",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin K",
+     "e": "Correct. Reverses anticoagulation."
+    },
+    {
+     "t": "Vitamin A",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin K"
+  },
+  {
+   "q": "Vitamin K1 is found in:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Liver only",
+     "e": "Wrong. K2."
+    },
+    {
+     "t": "Green leafy vegetables",
+     "e": "Correct. K2 is from gut bacteria."
+    },
+    {
+     "t": "Synthetic only",
+     "e": "Wrong. K3."
+    },
+    {
+     "t": "Fish oil",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vitamin K"
+  },
+  {
+   "q": "Vitamin C is required for:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Collagen synthesis and iron absorption",
+     "e": "Correct. Keeps iron ferrous."
+    },
+    {
+     "t": "Clotting factor synthesis",
+     "e": "Wrong. Vitamin K."
+    },
+    {
+     "t": "Vision",
+     "e": "Wrong. Vitamin A."
+    },
+    {
+     "t": "Calcium absorption",
+     "e": "Wrong. Vitamin D."
+    }
+   ],
+   "topic": "Vitamin C"
+  },
+  {
+   "q": "Scurvy manifestations include:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Night blindness",
+     "e": "Wrong. Vitamin A."
+    },
+    {
+     "t": "Rickets",
+     "e": "Wrong. Vitamin D."
+    },
+    {
+     "t": "Hemolysis",
+     "e": "Wrong. Vitamin E."
+    },
+    {
+     "t": "Bleeding gums, delayed wound healing and weak capillaries",
+     "e": "Correct. Collagen defect."
+    }
+   ],
+   "topic": "Vitamin C"
+  },
+  {
+   "q": "In bone metabolism vitamin K acts by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Collagen synthesis",
+     "e": "Wrong. Vitamin C."
+    },
+    {
+     "t": "Regulating osteoblasts and osteoclasts",
+     "e": "Wrong. Vitamin A."
+    },
+    {
+     "t": "Gamma-carboxylation of osteocalcin supporting calcium binding",
+     "e": "Correct. Mineralization."
+    },
+    {
+     "t": "Inducing calbindin",
+     "e": "Wrong. Vitamin D."
+    }
+   ],
+   "topic": "Bone"
+  },
+  {
+   "q": "In bone metabolism vitamin C acts by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Carboxylating osteocalcin",
+     "e": "Wrong. Vitamin K."
+    },
+    {
+     "t": "Supporting collagen synthesis for the organic matrix (osteoid)",
+     "e": "Correct. Formation of matrix."
+    },
+    {
+     "t": "Regulating remodeling",
+     "e": "Wrong. Vitamin A."
+    },
+    {
+     "t": "Absorbing calcium",
+     "e": "Wrong. Vitamin D."
+    }
+   ],
+   "topic": "Bone"
+  }
+ ]
+}

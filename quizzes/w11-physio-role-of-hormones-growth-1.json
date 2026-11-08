@@ -1,0 +1,606 @@
+{
+ "id": "w11-physio-role-of-hormones-growth-1",
+ "title": "Role of Hormones in Growth and Development: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w11-physiology-role-of-hormones",
+ "questions": [
+  {
+   "q": "Growth is defined as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Quantitative increase in size or number of cells",
+     "e": "Correct. Hyperplasia and hypertrophy."
+    },
+    {
+     "t": "Qualitative maturation",
+     "e": "Wrong. Development."
+    },
+    {
+     "t": "Cell differentiation only",
+     "e": "Wrong. Development."
+    },
+    {
+     "t": "Functional adaptation only",
+     "e": "Wrong. Development."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Development refers to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increase in height only",
+     "e": "Wrong. Growth."
+    },
+    {
+     "t": "Weight gain",
+     "e": "Wrong. Growth."
+    },
+    {
+     "t": "Cell number increase",
+     "e": "Wrong. Growth."
+    },
+    {
+     "t": "Qualitative maturation and specialization with increased functional complexity",
+     "e": "Correct. Milestones."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Infants triple their birth weight and increase length by 50% in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The first month",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The 5th year",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The first year",
+     "e": "Correct. Rapid growth."
+    },
+    {
+     "t": "Adolescence",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Stages"
+  },
+  {
+   "q": "The anterior fontanelle closes at:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "2-3 months",
+     "e": "Wrong. Posterior."
+    },
+    {
+     "t": "9-18 months",
+     "e": "Correct. Posterior at 2-3 months."
+    },
+    {
+     "t": "5 years",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "At birth",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Stages"
+  },
+  {
+   "q": "The brain reaches 90% of adult size by about:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "5 years",
+     "e": "Correct. Childhood stage."
+    },
+    {
+     "t": "1 year",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "15 years",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "20 years",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Stages"
+  },
+  {
+   "q": "Permanent teeth begin to replace primary teeth at about:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "1 year",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "12 years",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "15 years",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "6 years",
+     "e": "Correct. Childhood."
+    }
+   ],
+   "topic": "Stages"
+  },
+  {
+   "q": "Genetics accounts for about what proportion of variation in adult height?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "10%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "30%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "80%",
+     "e": "Correct. Genetic blueprint."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Genetics"
+  },
+  {
+   "q": "Target height for boys is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "(Father + Mother - 13) / 2",
+     "e": "Wrong. Girls."
+    },
+    {
+     "t": "(Father + Mother + 13 cm) / 2",
+     "e": "Correct. Girls: minus 13."
+    },
+    {
+     "t": "Father + Mother",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "(Father + 13) / 2",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Genetics"
+  },
+  {
+   "q": "GH is secreted by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Somatotrophs of the anterior pituitary",
+     "e": "Correct. 30-40% of cells."
+    },
+    {
+     "t": "Posterior pituitary",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Liver",
+     "e": "Wrong. IGF-1."
+    },
+    {
+     "t": "Thyroid",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "GH"
+  },
+  {
+   "q": "GH secretion is highest during:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Fasting only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Continuous secretion",
+     "e": "Wrong. Pulsatile."
+    },
+    {
+     "t": "Exercise only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Deep sleep, in a pulsatile pattern",
+     "e": "Correct. Bursts."
+    }
+   ],
+   "topic": "GH"
+  },
+  {
+   "q": "GHRH and somatostatin:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Inhibit and stimulate respectively",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Both stimulate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stimulate and inhibit GH respectively",
+     "e": "Correct. Hypothalamic control."
+    },
+    {
+     "t": "Both inhibit",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "GH"
+  },
+  {
+   "q": "GH and IGF-1 feedback acts by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Stimulating GHRH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inhibiting GHRH and stimulating somatostatin",
+     "e": "Correct. Negative feedback."
+    },
+    {
+     "t": "Inhibiting somatostatin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No feedback",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "GH"
+  },
+  {
+   "q": "Direct metabolic effects of GH include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Increased protein synthesis, lipolysis and diabetogenic effect",
+     "e": "Correct. Anabolic."
+    },
+    {
+     "t": "Decreased protein synthesis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Decreased lipolysis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hypoglycemia",
+     "e": "Wrong. Diabetogenic raises glucose."
+    }
+   ],
+   "topic": "GH"
+  },
+  {
+   "q": "GH promotes growth mainly through:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Insulin only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Thyroxine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cortisol",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IGF-1 (somatomedin C) from liver and tissues",
+     "e": "Correct. Indirect effect."
+    }
+   ],
+   "topic": "GH"
+  },
+  {
+   "q": "IGF-1 promotes linear bone growth by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Closing epiphyses",
+     "e": "Wrong. Estrogen."
+    },
+    {
+     "t": "Osteoclast activation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chondrocyte proliferation at epiphyseal plates",
+     "e": "Correct. Also muscle and organ growth."
+    },
+    {
+     "t": "Inhibiting cartilage",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "GH"
+  },
+  {
+   "q": "Thyroid hormones in fetal life are critical for:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only muscle growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "CNS myelination, neuronal migration and synaptogenesis",
+     "e": "Correct. Deficiency gives irreversible defects."
+    },
+    {
+     "t": "Pancreatic growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No role",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Thyroid"
+  },
+  {
+   "q": "Postnatally thyroid hormones act:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Permissively with GH/IGF-1 and promote bone maturation",
+     "e": "Correct. Permissive."
+    },
+    {
+     "t": "Antagonistically to GH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only in adults",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "To close growth plates",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Thyroid"
+  },
+  {
+   "q": "Insulin is the primary anabolic hormone:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only in adults",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only in puberty",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Never anabolic",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "In utero, stimulated by maternal nutrients",
+     "e": "Correct. Fetal growth."
+    }
+   ],
+   "topic": "Insulin"
+  },
+  {
+   "q": "Maternal hyperglycemia leads to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Fetal growth restriction",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Low birth weight",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fetal macrosomia via increased fetal insulin",
+     "e": "Correct. Excess nutrient storage."
+    },
+    {
+     "t": "No change",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Insulin"
+  },
+  {
+   "q": "Poorly controlled type 1 diabetes in children causes:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Excess growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Growth retardation despite normal or high GH, since insulin is missing",
+     "e": "Correct. Anabolic signal absent."
+    },
+    {
+     "t": "Normal growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Early puberty",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Insulin"
+  },
+  {
+   "q": "Androgens in puberty:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Stimulate GH/IGF-1 and have anabolic effects on bone and muscle",
+     "e": "Correct. Testosterone, DHEA."
+    },
+    {
+     "t": "Inhibit GH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Close epiphyses mainly",
+     "e": "Wrong. Estrogen."
+    },
+    {
+     "t": "Reduce muscle",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Sex hormones"
+  },
+  {
+   "q": "Estrogen:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Delays epiphyseal fusion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inhibits GH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Has no growth role",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is the most potent stimulator of epiphyseal closure and drives the pubertal spurt in girls",
+     "e": "Correct. Aromatase deficiency gives tall stature."
+    }
+   ],
+   "topic": "Sex hormones"
+  },
+  {
+   "q": "Aromatase deficiency or estrogen resistance causes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Short stature",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Early closure",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Continued linear growth and tall stature",
+     "e": "Correct. No epiphyseal closure."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Sex hormones"
+  },
+  {
+   "q": "Chronic glucocorticoid excess:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Stimulates growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inhibits GH, causes protein catabolism and suppresses bone growth",
+     "e": "Correct. Anti-growth."
+    },
+    {
+     "t": "Increases collagen synthesis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is permissive only",
+     "e": "Wrong. At physiological levels."
+    }
+   ],
+   "topic": "Glucocorticoids"
+  },
+  {
+   "q": "Vitamin D deficiency causes ___ in children:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Rickets",
+     "e": "Correct. Osteomalacia in adults."
+    },
+    {
+     "t": "Scurvy",
+     "e": "Wrong. Vitamin C."
+    },
+    {
+     "t": "Tetany only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Osteopetrosis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vit D"
+  },
+  {
+   "q": "During sleep deprivation, growth in children:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increases",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is unaffected",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is faster",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Can be impaired because GH is released in deep sleep",
+     "e": "Correct. Sleep matters."
+    }
+   ],
+   "topic": "Environment"
+  }
+ ]
+}
