@@ -1,0 +1,652 @@
+{
+ "id": "w4-histo-female-genital-1",
+ "title": "Female Genital Histology 1 (Ovary, Tube, Uterus, Cervix, Vagina): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w4-histology-genital-histology-1",
+ "questions": [
+  {
+   "q": "The ovary is covered by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Simple squamous epithelium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Germinal epithelium (cuboidal) over the tunica albuginea",
+     "e": "Correct. Outermost layer."
+    },
+    {
+     "t": "Stratified squamous",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Transitional epithelium",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Ovary"
+  },
+  {
+   "q": "The ovarian cortex contains:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Stroma and ovarian follicles",
+     "e": "Correct. Medulla is vascular loose CT."
+    },
+    {
+     "t": "Only blood vessels",
+     "e": "Wrong. Medulla."
+    },
+    {
+     "t": "Only smooth muscle",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only the hilum",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Ovary"
+  },
+  {
+   "q": "The ovarian medulla is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Dense follicles",
+     "e": "Wrong. Cortex."
+    },
+    {
+     "t": "Germinal epithelium",
+     "e": "Wrong. Outer."
+    },
+    {
+     "t": "Tunica albuginea",
+     "e": "Wrong. Capsule."
+    },
+    {
+     "t": "Loose highly vascular connective tissue",
+     "e": "Correct. Inner part."
+    }
+   ],
+   "topic": "Ovary"
+  },
+  {
+   "q": "Primordial follicles contain:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A secondary oocyte",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Multiple layers of granulosa cells",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "A primary oocyte arrested in prophase of meiosis I with one layer of squamous follicular cells",
+     "e": "Correct. Peripheral cortex."
+    },
+    {
+     "t": "An antrum",
+     "e": "Wrong. Later."
+    }
+   ],
+   "topic": "Follicles"
+  },
+  {
+   "q": "The unilaminar primary follicle has:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Squamous cells",
+     "e": "Wrong. Primordial."
+    },
+    {
+     "t": "An enlarged oocyte with zona pellucida and one cuboidal layer",
+     "e": "Correct. About 40 um."
+    },
+    {
+     "t": "Several granulosa layers and antrum",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "A corona radiata only",
+     "e": "Wrong. Mature."
+    }
+   ],
+   "topic": "Follicles"
+  },
+  {
+   "q": "Multilaminar primary follicles result from:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "FSH inducing granulosa cell proliferation into several layers",
+     "e": "Correct. Theca folliculi forms."
+    },
+    {
+     "t": "LH surge",
+     "e": "Wrong. Ovulation."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Progesterone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Follicles"
+  },
+  {
+   "q": "Theca interna cells:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Form the outer fibrous layer",
+     "e": "Wrong. Theca externa."
+    },
+    {
+     "t": "Make the zona pellucida",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Produce progesterone only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Secrete androgens that granulosa cells convert to estrogen",
+     "e": "Correct. Inner vascular layer."
+    }
+   ],
+   "topic": "Follicles"
+  },
+  {
+   "q": "The secondary follicle is characterized by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A single layer of cells",
+     "e": "Wrong. Primordial."
+    },
+    {
+     "t": "No oocyte",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A follicular antrum with liquor folliculi",
+     "e": "Correct. Oocyte pushed to one side."
+    },
+    {
+     "t": "A corpus luteum",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Follicles"
+  },
+  {
+   "q": "The mature Graafian follicle contains an ovum which is a:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Primary oocyte",
+     "e": "Wrong. Earlier."
+    },
+    {
+     "t": "Secondary oocyte surrounded by zona pellucida and corona radiata",
+     "e": "Correct. Linked by cumulus oophorus."
+    },
+    {
+     "t": "Mature ovum with 23 chromatids",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Polar body",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Follicles"
+  },
+  {
+   "q": "The cumulus oophorus is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "A mass of cells connecting the ovum to the follicle wall",
+     "e": "Correct. Mature follicle."
+    },
+    {
+     "t": "The outer fibrous capsule",
+     "e": "Wrong. Theca externa."
+    },
+    {
+     "t": "The cavity fluid",
+     "e": "Wrong. Liquor folliculi."
+    },
+    {
+     "t": "The zona pellucida",
+     "e": "Wrong. Glycoprotein layer."
+    }
+   ],
+   "topic": "Follicles"
+  },
+  {
+   "q": "Ovulation occurs under the effect of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "FSH",
+     "e": "Wrong. Growth of follicles."
+    },
+    {
+     "t": "Progesterone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "LH of the anterior pituitary at mid-cycle",
+     "e": "Correct. Collagenase from granulosa cells helps rupture."
+    }
+   ],
+   "topic": "Ovulation"
+  },
+  {
+   "q": "The fallopian tube mucosa is lined by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Stratified squamous",
+     "e": "Wrong. Vagina."
+    },
+    {
+     "t": "Transitional",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Simple columnar partially ciliated epithelium with peg cells",
+     "e": "Correct. Ciliated and secretory cells."
+    },
+    {
+     "t": "Simple cuboidal",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Tube"
+  },
+  {
+   "q": "Peg cells are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Ciliated cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Non-ciliated secretory cells of the tube",
+     "e": "Correct. Among the ciliated cells."
+    },
+    {
+     "t": "Smooth muscle",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stem cells of ovary",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Tube"
+  },
+  {
+   "q": "The musculosa of the uterine tube is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Inner circular and outer longitudinal smooth muscle",
+     "e": "Correct. Ill-defined."
+    },
+    {
+     "t": "Skeletal muscle",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Absent",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Three layers",
+     "e": "Wrong. Myometrium."
+    }
+   ],
+   "topic": "Tube"
+  },
+  {
+   "q": "The uterine wall layers from inside out are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Perimetrium, myometrium, endometrium",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Mucosa, adventitia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Endometrium only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Endometrium, myometrium, perimetrium",
+     "e": "Correct. Three layers."
+    }
+   ],
+   "topic": "Uterus"
+  },
+  {
+   "q": "Endometrial glands are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Branched alveolar",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Absent",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Simple coiled tubular glands",
+     "e": "Correct. In lamina propria."
+    },
+    {
+     "t": "Compound tubuloalveolar",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Uterus"
+  },
+  {
+   "q": "The stratum functionalis of the endometrium:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Is the regenerative layer",
+     "e": "Wrong. Basalis."
+    },
+    {
+     "t": "Is shed in menstruation and is hormone responsive, supplied by spiral arteries",
+     "e": "Correct. Superficial thick layer."
+    },
+    {
+     "t": "Is supplied by straight arteries",
+     "e": "Wrong. Basalis."
+    },
+    {
+     "t": "Does not change",
+     "e": "Wrong. Basalis."
+    }
+   ],
+   "topic": "Uterus"
+  },
+  {
+   "q": "The stratum basalis:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Is the deep reserve layer supplied by straight arteries that regenerates the functionalis",
+     "e": "Correct. Not shed."
+    },
+    {
+     "t": "Is shed in menstruation",
+     "e": "Wrong. Functionalis."
+    },
+    {
+     "t": "Is supplied by spiral arteries",
+     "e": "Wrong. Functionalis."
+    },
+    {
+     "t": "Is hormone responsive",
+     "e": "Wrong. Functionalis is."
+    }
+   ],
+   "topic": "Uterus"
+  },
+  {
+   "q": "The myometrium has how many muscle layers?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Two",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "One",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Five",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Three poorly defined layers",
+     "e": "Correct. Submucosum, vasculare, supravasculare."
+    }
+   ],
+   "topic": "Uterus"
+  },
+  {
+   "q": "The thick, richly vascular middle layer of myometrium is the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Stratum submucosum",
+     "e": "Wrong. Inner."
+    },
+    {
+     "t": "Stratum supravasculare",
+     "e": "Wrong. Outer."
+    },
+    {
+     "t": "Stratum vasculare",
+     "e": "Correct. Circular and oblique fibers around vessels."
+    },
+    {
+     "t": "Stratum basalis",
+     "e": "Wrong. Endometrium."
+    }
+   ],
+   "topic": "Uterus"
+  },
+  {
+   "q": "The perimetrium is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Smooth muscle",
+     "e": "Wrong. Myometrium."
+    },
+    {
+     "t": "Loose connective tissue covered by mesothelium (serosa)",
+     "e": "Correct. Outer layer."
+    },
+    {
+     "t": "Glandular epithelium",
+     "e": "Wrong. Endometrium."
+    },
+    {
+     "t": "Dense bone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Uterus"
+  },
+  {
+   "q": "The endocervix is lined by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Columnar partially ciliated epithelium with cervical glands",
+     "e": "Correct. Exocervix is squamous."
+    },
+    {
+     "t": "Stratified squamous non-keratinized",
+     "e": "Wrong. Exocervix."
+    },
+    {
+     "t": "Transitional",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Simple squamous",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cervix"
+  },
+  {
+   "q": "The exocervix is covered by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Columnar epithelium",
+     "e": "Wrong. Endocervix."
+    },
+    {
+     "t": "Keratinized squamous",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cuboidal",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stratified squamous non-keratinized epithelium rich in glycogen",
+     "e": "Correct. Vaginal surface."
+    }
+   ],
+   "topic": "Cervix"
+  },
+  {
+   "q": "The transformation zone is important because:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "It makes progesterone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "It is the site of fertilization",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "It is the junction where cervical cancer and cysts commonly develop",
+     "e": "Correct. Between endo- and exocervix."
+    },
+    {
+     "t": "It produces sperm",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cervix"
+  },
+  {
+   "q": "Cervical mucus around ovulation is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Scanty and viscid",
+     "e": "Wrong. After ovulation if pregnant."
+    },
+    {
+     "t": "Abundant, thin and watery, easing sperm passage",
+     "e": "Correct. Proliferative phase."
+    },
+    {
+     "t": "Absent",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Acidic and thick",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cervix"
+  },
+  {
+   "q": "The vagina is lined by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Stratified squamous non-keratinized epithelium rich in glycogen",
+     "e": "Correct. Lactic acid from bacteria gives acidity."
+    },
+    {
+     "t": "Simple columnar",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Keratinized",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Transitional",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vagina"
+  },
+  {
+   "q": "Vaginal lubricating mucus comes from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Vaginal glands",
+     "e": "Wrong. None."
+    },
+    {
+     "t": "Bartholin only",
+     "e": "Wrong. Not in this lecture."
+    },
+    {
+     "t": "Endometrial glands",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cervical glands because the vagina has no glands",
+     "e": "Correct. No vaginal glands."
+    }
+   ],
+   "topic": "Vagina"
+  },
+  {
+   "q": "Vaginal elasticity during parturition is due to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Keratin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Skeletal muscle",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Elastic fibers in lamina propria and adventitia",
+     "e": "Correct. Allows temporary distension."
+    },
+    {
+     "t": "Glands",
+     "e": "Wrong. None."
+    }
+   ],
+   "topic": "Vagina"
+  }
+ ]
+}

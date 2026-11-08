@@ -1,0 +1,422 @@
+{
+ "id": "w5-embryo-gastrulation-1",
+ "title": "Gastrulation and Germ Layers: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w5-embryology-gastrulation-germ-layers",
+ "questions": [
+  {
+   "q": "Gastrulation is the process by which:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The bilaminar disc becomes trilaminar",
+     "e": "Correct. Occurs in the 3rd week."
+    },
+    {
+     "t": "The zygote divides",
+     "e": "Wrong. Cleavage."
+    },
+    {
+     "t": "The blastocyst implants",
+     "e": "Wrong. Implantation."
+    },
+    {
+     "t": "The neural tube closes",
+     "e": "Wrong. Neurulation."
+    }
+   ],
+   "topic": "Gastrulation"
+  },
+  {
+   "q": "Gastrulation occurs during the:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "1st week",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "2nd week",
+     "e": "Wrong. Bilaminar disc forms."
+    },
+    {
+     "t": "8th week",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "3rd week",
+     "e": "Correct. Third week of development."
+    }
+   ],
+   "topic": "Gastrulation"
+  },
+  {
+   "q": "The shape of the germ disc changes from:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Oval to round",
+     "e": "Wrong. Reverse."
+    },
+    {
+     "t": "Cylindrical to flat",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Flat and rounded to oval then pear-shaped",
+     "e": "Correct. Shape changes."
+    },
+    {
+     "t": "Pear-shaped to round",
+     "e": "Wrong. Reverse."
+    }
+   ],
+   "topic": "Gastrulation"
+  },
+  {
+   "q": "The primitive streak forms at the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cranial end of the hypoblast",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Caudal end of the epiblast",
+     "e": "Correct. Appears as a groove."
+    },
+    {
+     "t": "Lateral edge of the disc",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Center of the yolk sac",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Primitive streak"
+  },
+  {
+   "q": "The cranial end of the primitive streak forms the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Primitive node and primitive pit",
+     "e": "Correct. Cranial end."
+    },
+    {
+     "t": "Cloacal membrane",
+     "e": "Wrong. Caudal."
+    },
+    {
+     "t": "Buccopharyngeal membrane",
+     "e": "Wrong. Cranial of disc, not of streak."
+    },
+    {
+     "t": "Amniotic cavity",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Primitive streak"
+  },
+  {
+   "q": "Which cells give rise to endoderm and intraembryonic mesoderm?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Hypoblast cells",
+     "e": "Wrong. Replaced by endoderm."
+    },
+    {
+     "t": "Cytotrophoblast",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Syncytiotrophoblast",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Epiblast cells invaginating through the primitive streak",
+     "e": "Correct. The remaining epiblast forms ectoderm."
+    }
+   ],
+   "topic": "Germ layers"
+  },
+  {
+   "q": "The source of all 3 germ layers is the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hypoblast",
+     "e": "Wrong. Displaced."
+    },
+    {
+     "t": "Cytotrophoblast",
+     "e": "Wrong. Trophoblast layer."
+    },
+    {
+     "t": "Epiblast",
+     "e": "Correct. Gives all tissues and organs."
+    },
+    {
+     "t": "Syncytiotrophoblast",
+     "e": "Wrong. Trophoblast layer."
+    }
+   ],
+   "topic": "Germ layers"
+  },
+  {
+   "q": "The ectoderm is formed by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Invaginating cells",
+     "e": "Wrong. They form endoderm and mesoderm."
+    },
+    {
+     "t": "Epiblast cells that remain on the surface",
+     "e": "Correct. Do not invaginate."
+    },
+    {
+     "t": "Hypoblast",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Yolk sac cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Germ layers"
+  },
+  {
+   "q": "The prechordal plate is formed by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Elongation of endodermal cells at the cranial end of the disc",
+     "e": "Correct. Becomes buccopharyngeal membrane."
+    },
+    {
+     "t": "Epiblast at caudal end",
+     "e": "Wrong. Primitive streak."
+    },
+    {
+     "t": "Mesoderm cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cloacal cells",
+     "e": "Wrong. Caudal."
+    }
+   ],
+   "topic": "Prechordal plate"
+  },
+  {
+   "q": "The prechordal plate forms the:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cloacal membrane",
+     "e": "Wrong. Caudal."
+    },
+    {
+     "t": "Notochord",
+     "e": "Wrong. Different structure."
+    },
+    {
+     "t": "Amnion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Buccopharyngeal membrane",
+     "e": "Correct. Future mouth."
+    }
+   ],
+   "topic": "Prechordal plate"
+  },
+  {
+   "q": "Intraembryonic mesoderm spreads in all directions EXCEPT at:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lateral edges only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only the primitive streak",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Buccopharyngeal membrane, cloacal membrane and the midline",
+     "e": "Correct. Three regions."
+    },
+    {
+     "t": "It spreads everywhere",
+     "e": "Wrong. Three exceptions."
+    }
+   ],
+   "topic": "Mesoderm"
+  },
+  {
+   "q": "At day 17 the intraembryonic mesoderm differentiates into:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Ectoderm, endoderm, mesoderm",
+     "e": "Wrong. Germ layers."
+    },
+    {
+     "t": "Paraxial, intermediate and lateral plate mesoderm",
+     "e": "Correct. Three parts."
+    },
+    {
+     "t": "Somatic and splanchnic only",
+     "e": "Wrong. Lateral plate divisions."
+    },
+    {
+     "t": "Epiblast and hypoblast",
+     "e": "Wrong. Bilaminar disc."
+    }
+   ],
+   "topic": "Mesoderm"
+  },
+  {
+   "q": "The intraembryonic coelom divides the lateral plate mesoderm into:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Somatic and splanchnic layers",
+     "e": "Correct. Formed by fusion of small cavities."
+    },
+    {
+     "t": "Paraxial and intermediate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Epiblast and hypoblast",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Amnion and chorion",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mesoderm"
+  },
+  {
+   "q": "Development of the notochord passes through which sequence?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Neurenteric canal, notochordal process, definitive notochord",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Definitive notochord first",
+     "e": "Wrong. Last stage."
+    },
+    {
+     "t": "Prechordal plate, primitive pit only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Notochordal process, notochordal canal, neurenteric canal, definitive notochord",
+     "e": "Correct. Lecture sequence."
+    }
+   ],
+   "topic": "Notochord"
+  },
+  {
+   "q": "Primary chorionic villi appear at the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "End of 3rd week",
+     "e": "Wrong. Tertiary."
+    },
+    {
+     "t": "During 4th week",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "End of 2nd week and beginning of 3rd week",
+     "e": "Correct. Cytotrophoblast core."
+    },
+    {
+     "t": "At fertilization",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Villi"
+  },
+  {
+   "q": "Tertiary chorionic villi are formed of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Syncytiotrophoblast only",
+     "e": "Wrong. Primary."
+    },
+    {
+     "t": "Cytotrophoblast, syncytiotrophoblast, extraembryonic mesoderm and chorionic blood vessels",
+     "e": "Correct. Contain vessels."
+    },
+    {
+     "t": "Cytotrophoblast only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Epiblast and hypoblast",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Villi"
+  },
+  {
+   "q": "Secondary chorionic villi form during the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "3rd week, with a mesoderm core",
+     "e": "Correct. Between primary and tertiary stages."
+    },
+    {
+     "t": "1st week",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "8th week",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "After birth",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Villi"
+  },
+  {
+   "q": "The outer cytotrophoblastic shell is formed when:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Villi degenerate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Amnion fuses with chorion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Decidua is shed",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cytotrophoblast extensions of neighboring villi contact each other after passing through the syncytiotrophoblast",
+     "e": "Correct. Reach the endometrium."
+    }
+   ],
+   "topic": "Villi"
+  }
+ ]
+}

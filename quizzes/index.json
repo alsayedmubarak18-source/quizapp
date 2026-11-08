@@ -56,5 +56,18 @@
  "w3-path-neoplasia-1-1.json",
  "w3-path-neoplasia-2-1.json",
  "w3-gen-genetic-engineering-1-1.json",
- "w3-gen-genetic-engineering-2-1.json"
+ "w3-gen-genetic-engineering-2-1.json",
+ "w4-gen-genetic-material-1.json",
+ "w4-pharma-autonomic-drugs-1-1.json",
+ "w4-pharma-autonomic-drugs-2-1.json",
+ "w4-physio-hpg-axis-1.json",
+ "w4-physio-female-hormonal-system-1.json",
+ "w4-embryo-fertilization-1.json",
+ "w4-histo-female-genital-1.json",
+ "w5-embryo-implantation-1.json",
+ "w5-embryo-gastrulation-1.json",
+ "w5-physio-female-sexual-cycle-1.json",
+ "w5-physio-spermatogenesis-1.json",
+ "w5-genetics-aneuploidy-1.json",
+ "w5-genetics-inheritance-1.json"
 ]

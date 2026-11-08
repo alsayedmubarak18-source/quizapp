@@ -1,0 +1,468 @@
+{
+ "id": "w5-physio-female-sexual-cycle-1",
+ "title": "Female Sexual Cycle: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w5-physiology-female-sexual-cycle",
+ "questions": [
+  {
+   "q": "The normal menstrual cycle length is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "10-14 days",
+     "e": "Wrong. Too short."
+    },
+    {
+     "t": "40-60 days",
+     "e": "Wrong. Too long."
+    },
+    {
+     "t": "Exactly 30 days always",
+     "e": "Wrong. Variable."
+    },
+    {
+     "t": "21-35 days, average 28",
+     "e": "Correct. Normal range."
+    }
+   ],
+   "topic": "Cycle"
+  },
+  {
+   "q": "Menarche usually occurs at:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "5-8 years",
+     "e": "Wrong. Precocious."
+    },
+    {
+     "t": "18-22 years",
+     "e": "Wrong. Late."
+    },
+    {
+     "t": "10-16 years, average 13",
+     "e": "Correct. First menstrual bleeding."
+    },
+    {
+     "t": "45-55 years",
+     "e": "Wrong. Menopause."
+    }
+   ],
+   "topic": "Cycle"
+  },
+  {
+   "q": "Menopause occurs at about:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "30-35 years",
+     "e": "Wrong. Premature."
+    },
+    {
+     "t": "45-55 years, average 51",
+     "e": "Correct. Permanent cessation."
+    },
+    {
+     "t": "60-65 years",
+     "e": "Wrong. Late."
+    },
+    {
+     "t": "13 years",
+     "e": "Wrong. Menarche."
+    }
+   ],
+   "topic": "Cycle"
+  },
+  {
+   "q": "Normal duration and amount of menstrual flow are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "5 (±2) days and 30-80 ml",
+     "e": "Correct. Normal values."
+    },
+    {
+     "t": "1 day and 5 ml",
+     "e": "Wrong. Too little."
+    },
+    {
+     "t": "10 days and 200 ml",
+     "e": "Wrong. Menorrhagia."
+    },
+    {
+     "t": "3 weeks and 100 ml",
+     "e": "Wrong. Abnormal."
+    }
+   ],
+   "topic": "Cycle"
+  },
+  {
+   "q": "The ovarian cycle phases are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Menstrual, proliferative, secretory",
+     "e": "Wrong. Uterine phases."
+    },
+    {
+     "t": "Menarche, menopause",
+     "e": "Wrong. Not phases."
+    },
+    {
+     "t": "Menstrual and luteal only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Follicular phase, ovulation, luteal phase",
+     "e": "Correct. Ovary."
+    }
+   ],
+   "topic": "Ovarian cycle"
+  },
+  {
+   "q": "The follicular phase is driven mainly by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Progesterone",
+     "e": "Wrong. Luteal."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Pregnancy."
+    },
+    {
+     "t": "FSH from the anterior pituitary",
+     "e": "Correct. Matures the follicle."
+    },
+    {
+     "t": "Oxytocin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Ovarian cycle"
+  },
+  {
+   "q": "As the follicle grows it secretes:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Progesterone only",
+     "e": "Wrong. Luteal."
+    },
+    {
+     "t": "Estrogen, which thickens the endometrium",
+     "e": "Correct. Proliferation."
+    },
+    {
+     "t": "LH",
+     "e": "Wrong. Pituitary."
+    },
+    {
+     "t": "Prolactin",
+     "e": "Wrong. Pituitary."
+    }
+   ],
+   "topic": "Ovarian cycle"
+  },
+  {
+   "q": "Ovulation is triggered by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "An LH surge",
+     "e": "Correct. Follicle bursts."
+    },
+    {
+     "t": "An FSH surge alone",
+     "e": "Wrong. Not sufficient."
+    },
+    {
+     "t": "A rise in progesterone",
+     "e": "Wrong. After ovulation."
+    },
+    {
+     "t": "A fall in estrogen",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Ovarian cycle"
+  },
+  {
+   "q": "The corpus luteum secretes mainly:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "FSH",
+     "e": "Wrong. Pituitary."
+    },
+    {
+     "t": "GnRH",
+     "e": "Wrong. Hypothalamus."
+    },
+    {
+     "t": "Oxytocin",
+     "e": "Wrong. Posterior pituitary."
+    },
+    {
+     "t": "Progesterone",
+     "e": "Correct. Maintains endometrium."
+    }
+   ],
+   "topic": "Ovarian cycle"
+  },
+  {
+   "q": "If fertilization does not occur:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The corpus luteum grows",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "LH rises",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The corpus luteum degenerates and progesterone falls",
+     "e": "Correct. Leads to menstruation."
+    },
+    {
+     "t": "Estrogen rises further",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Ovarian cycle"
+  },
+  {
+   "q": "Menstrual phase is caused by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Rising estrogen",
+     "e": "Wrong. Proliferative."
+    },
+    {
+     "t": "Progesterone withdrawal and spiral artery vasoconstriction causing hypoxia",
+     "e": "Correct. Functional layer sheds."
+    },
+    {
+     "t": "LH surge",
+     "e": "Wrong. Ovulation."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Pregnancy."
+    }
+   ],
+   "topic": "Uterine cycle"
+  },
+  {
+   "q": "The proliferative phase lasts approximately:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Days 6-14",
+     "e": "Correct. Rising estrogen."
+    },
+    {
+     "t": "Days 1-5",
+     "e": "Wrong. Menstrual."
+    },
+    {
+     "t": "Days 15-28",
+     "e": "Wrong. Secretory."
+    },
+    {
+     "t": "Days 28-35",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Uterine cycle"
+  },
+  {
+   "q": "In the proliferative phase endometrial stromal cells produce:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Progesterone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "FSH",
+     "e": "Wrong. Pituitary."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Placenta."
+    },
+    {
+     "t": "VEGF, increasing angiogenesis",
+     "e": "Correct. Under estrogen."
+    }
+   ],
+   "topic": "Uterine cycle"
+  },
+  {
+   "q": "The secretory phase (days 15-28) is dominated by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Estrogen alone",
+     "e": "Wrong. Proliferative."
+    },
+    {
+     "t": "FSH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Progesterone, which causes spiral arteriole coiling and glandular secretion",
+     "e": "Correct. Corpus luteum."
+    },
+    {
+     "t": "Menstrual bleeding",
+     "e": "Wrong. Menstrual phase."
+    }
+   ],
+   "topic": "Uterine cycle"
+  },
+  {
+   "q": "Basal body temperature rises after ovulation because of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Estrogen",
+     "e": "Wrong. Not the cause."
+    },
+    {
+     "t": "Progesterone",
+     "e": "Correct. Thermogenic effect."
+    },
+    {
+     "t": "FSH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "LH",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Other changes"
+  },
+  {
+   "q": "Cervical mucus around ovulation shows:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "High spinnbarkeit (thin, stretchy)",
+     "e": "Correct. Estrogen effect."
+    },
+    {
+     "t": "Thick and scanty",
+     "e": "Wrong. Luteal phase."
+    },
+    {
+     "t": "No change",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Acidic and sticky",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Other changes"
+  },
+  {
+   "q": "Amenorrhea is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Excessive bleeding",
+     "e": "Wrong. Menorrhagia."
+    },
+    {
+     "t": "Painful periods",
+     "e": "Wrong. Dysmenorrhea."
+    },
+    {
+     "t": "Bleeding between cycles",
+     "e": "Wrong. Metrorrhagia."
+    },
+    {
+     "t": "Absence of menstruation in a woman of reproductive age",
+     "e": "Correct. Primary or secondary."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Primary amenorrhea means:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cessation after normal periods",
+     "e": "Wrong. Secondary."
+    },
+    {
+     "t": "Scanty periods",
+     "e": "Wrong. Hypomenorrhea."
+    },
+    {
+     "t": "Periods never occurred",
+     "e": "Correct. Not secondary."
+    },
+    {
+     "t": "Painful periods",
+     "e": "Wrong. Dysmenorrhea."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Bleeding between cycles is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Menorrhagia",
+     "e": "Wrong. Heavy menses."
+    },
+    {
+     "t": "Metrorrhagia",
+     "e": "Correct. Intermenstrual."
+    },
+    {
+     "t": "Oligomenorrhea",
+     "e": "Wrong. Infrequent."
+    },
+    {
+     "t": "Dysmenorrhea",
+     "e": "Wrong. Painful."
+    }
+   ],
+   "topic": "Disorders"
+  },
+  {
+   "q": "Oligomenorrhea means:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Reduced frequency of periods",
+     "e": "Correct. Infrequent cycles."
+    },
+    {
+     "t": "Heavy bleeding",
+     "e": "Wrong. Menorrhagia."
+    },
+    {
+     "t": "Scanty bleeding",
+     "e": "Wrong. Hypomenorrhea."
+    },
+    {
+     "t": "Painful periods",
+     "e": "Wrong. Dysmenorrhea."
+    }
+   ],
+   "topic": "Disorders"
+  }
+ ]
+}

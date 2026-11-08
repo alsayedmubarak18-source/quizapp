@@ -1,0 +1,514 @@
+{
+ "id": "w4-pharma-autonomic-drugs-1-1",
+ "title": "Cholinergic Agonists: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w4-pharmacology-autonomic-drugs-1",
+ "questions": [
+  {
+   "q": "Muscarinic receptors are blocked by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "d-Tubocurarine",
+     "e": "Wrong. Nm blocker."
+    },
+    {
+     "t": "Atropine",
+     "e": "Correct. Nicotinic receptors are not."
+    },
+    {
+     "t": "Hexamethonium",
+     "e": "Wrong. Ganglion blocker."
+    },
+    {
+     "t": "Propranolol",
+     "e": "Wrong. Beta blocker."
+    }
+   ],
+   "topic": "Receptors"
+  },
+  {
+   "q": "M2 receptors are located mainly in the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Heart",
+     "e": "Correct. M3 in smooth muscle and glands."
+    },
+    {
+     "t": "Smooth muscle and glands",
+     "e": "Wrong. M3."
+    },
+    {
+     "t": "Autonomic ganglia",
+     "e": "Wrong. M1."
+    },
+    {
+     "t": "Neuromuscular junction",
+     "e": "Wrong. Nm."
+    }
+   ],
+   "topic": "Receptors"
+  },
+  {
+   "q": "M3 receptors are found in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Heart",
+     "e": "Wrong. M2."
+    },
+    {
+     "t": "Ganglia",
+     "e": "Wrong. M1."
+    },
+    {
+     "t": "Skeletal muscle",
+     "e": "Wrong. Nm."
+    },
+    {
+     "t": "Smooth muscle and secretory glands",
+     "e": "Correct. Mediate contraction and secretion."
+    }
+   ],
+   "topic": "Receptors"
+  },
+  {
+   "q": "Nm receptors are at the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Autonomic ganglia",
+     "e": "Wrong. Nn."
+    },
+    {
+     "t": "Heart",
+     "e": "Wrong. M2."
+    },
+    {
+     "t": "Neuromuscular junction",
+     "e": "Correct. Blocked by d-tubocurarine."
+    },
+    {
+     "t": "Salivary glands",
+     "e": "Wrong. M3."
+    }
+   ],
+   "topic": "Receptors"
+  },
+  {
+   "q": "Direct-acting cholinergic agonists include:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Physostigmine and neostigmine",
+     "e": "Wrong. Indirect."
+    },
+    {
+     "t": "Acetylcholine, methacholine, carbachol, bethanechol, pilocarpine",
+     "e": "Correct. Choline esters and alkaloids."
+    },
+    {
+     "t": "Atropine",
+     "e": "Wrong. Antagonist."
+    },
+    {
+     "t": "Organophosphates",
+     "e": "Wrong. Indirect irreversible."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Indirect-acting parasympathomimetics act by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Inhibiting cholinesterase so ACh accumulates",
+     "e": "Correct. Reversible or irreversible."
+    },
+    {
+     "t": "Binding receptors directly",
+     "e": "Wrong. Direct."
+    },
+    {
+     "t": "Blocking nicotinic receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Releasing noradrenaline",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Organophosphorus compounds are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Reversible cholinesterase inhibitors",
+     "e": "Wrong. Physostigmine, neostigmine."
+    },
+    {
+     "t": "Direct agonists",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antimuscarinics",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Irreversible cholinesterase inhibitors",
+     "e": "Correct. Indirect cholinergics."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "ACh action on the heart causes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Tachycardia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increased AV conduction",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bradycardia, decreased contractility and slowed AV conduction",
+     "e": "Correct. Negative chronotropic, inotropic, dromotropic."
+    },
+    {
+     "t": "Increased contractility",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "ACh effects"
+  },
+  {
+   "q": "ACh causes vasodilation through:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Alpha-1 blockade",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "NO release, guanylate cyclase and increased cGMP",
+     "e": "Correct. Lowers BP."
+    },
+    {
+     "t": "Beta-2 stimulation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Histamine release",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "ACh effects"
+  },
+  {
+   "q": "ACh effect on the eye:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Miosis, spasm of accommodation, decreased IOP",
+     "e": "Correct. Increased drainage."
+    },
+    {
+     "t": "Mydriasis",
+     "e": "Wrong. Atropine."
+    },
+    {
+     "t": "Cycloplegia",
+     "e": "Wrong. Atropine."
+    },
+    {
+     "t": "Increased IOP",
+     "e": "Wrong. Atropine."
+    }
+   ],
+   "topic": "ACh effects"
+  },
+  {
+   "q": "ACh effects on GIT and urinary tract:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Relaxation of walls",
+     "e": "Wrong. Atropine."
+    },
+    {
+     "t": "Contraction of sphincters",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Contraction of walls and relaxation of sphincters",
+     "e": "Correct. Increased tone and motility."
+    }
+   ],
+   "topic": "ACh effects"
+  },
+  {
+   "q": "ACh effect on glands is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Decrease in secretions",
+     "e": "Wrong. Atropine."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Marked increase in secretions, with profuse watery saliva",
+     "e": "Correct. Gastric, salivary, bronchial, lacrimal."
+    },
+    {
+     "t": "Only sweat decrease",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "ACh effects"
+  },
+  {
+   "q": "ACh nicotinic reversal (atropine then large ACh) produces:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Bradycardia",
+     "e": "Wrong. Muscarinic."
+    },
+    {
+     "t": "Increased HR and BP",
+     "e": "Correct. Sympathetic ganglion stimulation unmasked."
+    },
+    {
+     "t": "Hypotension",
+     "e": "Wrong. Muscarinic."
+    },
+    {
+     "t": "Miosis",
+     "e": "Wrong. Muscarinic."
+    }
+   ],
+   "topic": "ACh effects"
+  },
+  {
+   "q": "Why is ACh not used clinically?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Very short duration, widespread effects, not effective orally",
+     "e": "Correct. 5-20 seconds IV."
+    },
+    {
+     "t": "Too selective",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Long duration",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Too expensive",
+     "e": "Wrong. Not the reason."
+    }
+   ],
+   "topic": "Choline esters"
+  },
+  {
+   "q": "Bethanechol is widely used for:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bronchial asthma",
+     "e": "Wrong. Contraindicated."
+    },
+    {
+     "t": "Glaucoma only",
+     "e": "Wrong. Not the main use."
+    },
+    {
+     "t": "Hypertension",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Atony of the GIT and urinary retention",
+     "e": "Correct. Selective on GIT and bladder."
+    }
+   ],
+   "topic": "Choline esters"
+  },
+  {
+   "q": "Which choline ester resists both acetyl and butyryl cholinesterase and has little nicotinic action?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Methacholine",
+     "e": "Wrong. Hydrolyzed by both."
+    },
+    {
+     "t": "Acetylcholine",
+     "e": "Wrong. Rapidly hydrolyzed."
+    },
+    {
+     "t": "Bethanechol",
+     "e": "Correct. Longer duration, oral effective."
+    },
+    {
+     "t": "Pilocarpine",
+     "e": "Wrong. Alkaloid."
+    }
+   ],
+   "topic": "Choline esters"
+  },
+  {
+   "q": "Methacholine is used for:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Treating urinary retention",
+     "e": "Wrong. Bethanechol."
+    },
+    {
+     "t": "Diagnosis of bronchial asthma",
+     "e": "Correct. Rarely used therapeutically."
+    },
+    {
+     "t": "Xerostomia",
+     "e": "Wrong. Pilocarpine."
+    },
+    {
+     "t": "Motion sickness",
+     "e": "Wrong. Scopolamine."
+    }
+   ],
+   "topic": "Choline esters"
+  },
+  {
+   "q": "The drug of choice for xerostomia after head and neck radiation is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Pilocarpine",
+     "e": "Correct. Strong effect on exocrine glands."
+    },
+    {
+     "t": "Bethanechol",
+     "e": "Wrong. Not the choice."
+    },
+    {
+     "t": "Atropine",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Neostigmine",
+     "e": "Wrong. Not the choice."
+    }
+   ],
+   "topic": "Pilocarpine"
+  },
+  {
+   "q": "Which condition contraindicates all cholinergic agonists?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Urinary retention",
+     "e": "Wrong. An indication."
+    },
+    {
+     "t": "Glaucoma",
+     "e": "Wrong. Not contraindicated."
+    },
+    {
+     "t": "Xerostomia",
+     "e": "Wrong. An indication."
+    },
+    {
+     "t": "Bronchial asthma",
+     "e": "Correct. Also peptic ulcer, hyperthyroidism, coronary insufficiency."
+    }
+   ],
+   "topic": "Safety"
+  },
+  {
+   "q": "Hyperthyroidism is a contraindication because cholinergics may:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cause bradycardia only",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "Increase thyroxine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Precipitate atrial fibrillation by reducing ERP",
+     "e": "Correct. Per lecture."
+    },
+    {
+     "t": "Cause glaucoma",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Safety"
+  },
+  {
+   "q": "Treatment of cholinergic toxicity is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Neostigmine",
+     "e": "Wrong. Worsens it."
+    },
+    {
+     "t": "Atropine plus supportive and symptomatic therapy",
+     "e": "Correct. Muscarinic blockade."
+    },
+    {
+     "t": "Pilocarpine",
+     "e": "Wrong. Worsens it."
+    },
+    {
+     "t": "Bethanechol",
+     "e": "Wrong. Worsens it."
+    }
+   ],
+   "topic": "Safety"
+  },
+  {
+   "q": "Muscarinic side effects include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Salivation, sweating, lacrimation, bradycardia, bronchospasm",
+     "e": "Correct. Extension of actions."
+    },
+    {
+     "t": "Mydriasis and dry mouth",
+     "e": "Wrong. Anticholinergic."
+    },
+    {
+     "t": "Tachycardia",
+     "e": "Wrong. Anticholinergic."
+    },
+    {
+     "t": "Urinary retention",
+     "e": "Wrong. Anticholinergic."
+    }
+   ],
+   "topic": "Safety"
+  }
+ ]
+}

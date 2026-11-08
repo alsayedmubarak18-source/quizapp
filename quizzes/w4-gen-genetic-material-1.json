@@ -1,0 +1,491 @@
+{
+ "id": "w4-gen-genetic-material-1",
+ "title": "Genetic Material: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w4-genetics-genetic-material",
+ "questions": [
+  {
+   "q": "Genes are physically composed of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "RNA",
+     "e": "Wrong. Not the genetic material of cells here."
+    },
+    {
+     "t": "DNA",
+     "e": "Correct. Genes are contained in chromosomes and consist of DNA."
+    },
+    {
+     "t": "Histones",
+     "e": "Wrong. Packaging proteins."
+    },
+    {
+     "t": "Lipids",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The normal human nucleus contains:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "46 chromosomes: 22 pairs of autosomes and one pair of sex chromosomes",
+     "e": "Correct. Half from each parent."
+    },
+    {
+     "t": "23 chromosomes",
+     "e": "Wrong. Gamete number."
+    },
+    {
+     "t": "44 chromosomes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "48 chromosomes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Chromosomes"
+  },
+  {
+   "q": "Autosomes are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "The X and Y chromosomes",
+     "e": "Wrong. Sex chromosomes."
+    },
+    {
+     "t": "Mitochondrial DNA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Sister chromatids",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The 22 pairs that are not sex chromosomes",
+     "e": "Correct. Members of a pair are homologs."
+    }
+   ],
+   "topic": "Chromosomes"
+  },
+  {
+   "q": "Homologous chromosomes are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Identical copies from replication",
+     "e": "Wrong. Sister chromatids."
+    },
+    {
+     "t": "Two chromosomes from the same parent always",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Members of a pair with very similar DNA, one from each parent",
+     "e": "Correct. Not identical copies."
+    },
+    {
+     "t": "X and Y",
+     "e": "Wrong. Not homologous in the usual sense."
+    }
+   ],
+   "topic": "Chromosomes"
+  },
+  {
+   "q": "Sister chromatids result from:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Meiotic crossing over",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "DNA replication in the S phase",
+     "e": "Correct. Two identical strands."
+    },
+    {
+     "t": "Fertilization",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Translation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Chromosomes"
+  },
+  {
+   "q": "Somatic cells are ___ and gametes are ___.",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Diploid; haploid",
+     "e": "Correct. 46 versus 23 chromosomes."
+    },
+    {
+     "t": "Haploid; diploid",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Triploid; haploid",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Diploid; diploid",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Chromosomes"
+  },
+  {
+   "q": "Trisomy 21 is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A sex chromosome aneuploidy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Polyploidy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A mutation of one base",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The most common autosomal aneuploidy compatible with survival",
+     "e": "Correct. Causes Down syndrome."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "45,X causes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Klinefelter syndrome",
+     "e": "Wrong. 47,XXY."
+    },
+    {
+     "t": "Down syndrome",
+     "e": "Wrong. Trisomy 21."
+    },
+    {
+     "t": "Turner syndrome",
+     "e": "Correct. 47,XXY causes Klinefelter."
+    },
+    {
+     "t": "Edwards syndrome",
+     "e": "Wrong. Not in this lecture."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "47,XXY causes:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Turner syndrome",
+     "e": "Wrong. 45,X."
+    },
+    {
+     "t": "Klinefelter syndrome",
+     "e": "Correct. Abnormal sex-chromosome number."
+    },
+    {
+     "t": "Down syndrome",
+     "e": "Wrong. Trisomy 21."
+    },
+    {
+     "t": "Triploidy",
+     "e": "Wrong. 69 chromosomes."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "Uniparental disomy is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Both homologs of a pair inherited from one parent",
+     "e": "Correct. Can unmask recessive disease."
+    },
+    {
+     "t": "An extra whole haploid set",
+     "e": "Wrong. Polyploidy."
+    },
+    {
+     "t": "Loss of one chromosome",
+     "e": "Wrong. Monosomy."
+    },
+    {
+     "t": "A balanced translocation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "UPD of imprinted regions can cause:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Down syndrome",
+     "e": "Wrong. Trisomy."
+    },
+    {
+     "t": "Turner syndrome",
+     "e": "Wrong. Monosomy X."
+    },
+    {
+     "t": "Cystic fibrosis only",
+     "e": "Wrong. Unmasked recessive disease, not imprinting."
+    },
+    {
+     "t": "Prader-Willi or Angelman syndrome",
+     "e": "Correct. Imprinting disorders."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "Triploidy is typically due to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Nondisjunction in meiosis I only",
+     "e": "Wrong. Aneuploidy."
+    },
+    {
+     "t": "Deletion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fertilization of one egg by two sperm (dispermy)",
+     "e": "Correct. 69 chromosomes."
+    },
+    {
+     "t": "Translocation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "A cell with an exact multiple of the haploid number is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Aneuploid",
+     "e": "Wrong. Not an exact multiple."
+    },
+    {
+     "t": "Euploid",
+     "e": "Correct. Polyploid if more than 2n."
+    },
+    {
+     "t": "Monosomic",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mosaic",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "DNA nucleotide consists of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Deoxyribose, a phosphate and a base",
+     "e": "Correct. Subunit of DNA."
+    },
+    {
+     "t": "Ribose, phosphate and uracil",
+     "e": "Wrong. RNA."
+    },
+    {
+     "t": "Amino acid and phosphate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Sugar only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "DNA"
+  },
+  {
+   "q": "Complementary base pairing is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A with C and T with G",
+     "e": "Wrong. Wrong pairing."
+    },
+    {
+     "t": "A with G",
+     "e": "Wrong. Purine-purine."
+    },
+    {
+     "t": "T with U",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A with T and C with G",
+     "e": "Correct. Basis of replication."
+    }
+   ],
+   "topic": "DNA"
+  },
+  {
+   "q": "The two DNA strands are held together by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Peptide bonds",
+     "e": "Wrong. Proteins."
+    },
+    {
+     "t": "Ionic bonds only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hydrogen bonds between bases (backbone linked by phosphodiester bonds)",
+     "e": "Correct. Backbone is covalent."
+    },
+    {
+     "t": "Disulfide bonds",
+     "e": "Wrong. Proteins."
+    }
+   ],
+   "topic": "DNA"
+  },
+  {
+   "q": "DNA is first wound around a histone core to form a:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Solenoid",
+     "e": "Wrong. Higher-order."
+    },
+    {
+     "t": "Nucleosome",
+     "e": "Correct. Then solenoid and loops."
+    },
+    {
+     "t": "Telomere",
+     "e": "Wrong. Chromosome end."
+    },
+    {
+     "t": "Centromere",
+     "e": "Wrong. Constriction."
+    }
+   ],
+   "topic": "Coiling"
+  },
+  {
+   "q": "Euchromatin is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Lightly staining and actively expressed",
+     "e": "Correct. Heterochromatin is dark and inactive."
+    },
+    {
+     "t": "Darkly staining and inactive",
+     "e": "Wrong. Heterochromatin."
+    },
+    {
+     "t": "Made of repetitive DNA mainly",
+     "e": "Wrong. Heterochromatin."
+    },
+    {
+     "t": "Found only in Y chromosome",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Coiling"
+  },
+  {
+   "q": "Heterochromatin is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Lightly staining and active",
+     "e": "Wrong. Euchromatin."
+    },
+    {
+     "t": "A histone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "RNA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Darkly staining, largely inactive repetitive DNA",
+     "e": "Correct. Contrast with euchromatin."
+    }
+   ],
+   "topic": "Coiling"
+  },
+  {
+   "q": "Which structure marks the chromosome constriction that divides arms?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Telomere",
+     "e": "Wrong. End caps."
+    },
+    {
+     "t": "Satellite",
+     "e": "Wrong. Small distal segment."
+    },
+    {
+     "t": "Centromere",
+     "e": "Correct. Position classifies chromosomes."
+    },
+    {
+     "t": "Nucleosome",
+     "e": "Wrong. Packaging unit."
+    }
+   ],
+   "topic": "Chromosome structure"
+  },
+  {
+   "q": "Telomeres are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Constriction points",
+     "e": "Wrong. Centromere."
+    },
+    {
+     "t": "Specialized chromosome ends",
+     "e": "Correct. Protect the chromosome."
+    },
+    {
+     "t": "DNA packaging proteins",
+     "e": "Wrong. Histones."
+    },
+    {
+     "t": "Sister chromatids",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Chromosome structure"
+  }
+ ]
+}

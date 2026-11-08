@@ -1,0 +1,514 @@
+{
+ "id": "w4-pharma-autonomic-drugs-2-1",
+ "title": "Cholinergic Antagonists: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w4-pharmacology-autonomic-drugs-2",
+ "questions": [
+  {
+   "q": "Atropine blocks:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Nicotinic receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "All muscarinic receptors, competitively and non-selectively",
+     "e": "Correct. Antimuscarinic."
+    },
+    {
+     "t": "Alpha receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Beta receptors",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mechanism"
+  },
+  {
+   "q": "Atropine is derived from:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Atropa belladonna",
+     "e": "Correct. Hyoscine from Hyoscyamus niger."
+    },
+    {
+     "t": "Datura only",
+     "e": "Wrong. Also source of atropine."
+    },
+    {
+     "t": "Digitalis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Opium",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mechanism"
+  },
+  {
+   "q": "Atropine crosses the CSF because it is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A quaternary amine",
+     "e": "Wrong. Does not cross."
+    },
+    {
+     "t": "Highly polar",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Protein bound",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A tertiary amine",
+     "e": "Correct. Well distributed."
+    }
+   ],
+   "topic": "Pharmacokinetics"
+  },
+  {
+   "q": "Atropine effect on the eye:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Miosis",
+     "e": "Wrong. Cholinergic."
+    },
+    {
+     "t": "Decreased IOP",
+     "e": "Wrong. Cholinergic."
+    },
+    {
+     "t": "Mydriasis, cycloplegia, loss of light reflex, raised IOP",
+     "e": "Correct. Passive mydriasis."
+    },
+    {
+     "t": "Increased lacrimation",
+     "e": "Wrong. Cholinergic."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "Atropine heart effect at therapeutic doses:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only bradycardia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Initial transient bradycardia followed by tachycardia",
+     "e": "Correct. Then peripheral vagal block."
+    },
+    {
+     "t": "Decreased AV conduction",
+     "e": "Wrong. Increases it."
+    },
+    {
+     "t": "Hypotension",
+     "e": "Wrong. Only in toxic doses."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "Atropine decreases:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Secretions: sweat, salivary, gastric, bronchial, lacrimal",
+     "e": "Correct. Dry mouth."
+    },
+    {
+     "t": "Heart rate only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IOP",
+     "e": "Wrong. Raises it."
+    },
+    {
+     "t": "Sphincter tone",
+     "e": "Wrong. Contracts sphincters."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "Atropine effect on bronchi:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bronchoconstriction",
+     "e": "Wrong. Cholinergic."
+    },
+    {
+     "t": "Increased secretions",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bronchodilation with decreased but viscid secretions",
+     "e": "Correct. Used with long-acting beta agonists."
+    }
+   ],
+   "topic": "Effects"
+  },
+  {
+   "q": "Atropine is used for bradycardia induced by beta-blockers because it:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Blocks beta receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stimulates alpha receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Blocks cardiac M2 receptors, increasing sympathetic dominance and HR",
+     "e": "Correct. Also heart block."
+    },
+    {
+     "t": "Reduces conduction",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "The best drug for motion sickness is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Atropine",
+     "e": "Wrong. Less effective."
+    },
+    {
+     "t": "Scopolamine (hyoscine)",
+     "e": "Correct. Oral or transdermal."
+    },
+    {
+     "t": "Ipratropium",
+     "e": "Wrong. Bronchodilator."
+    },
+    {
+     "t": "Pirenzepine",
+     "e": "Wrong. Peptic ulcer."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "Antimuscarinics help parkinsonism because they:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Inhibit basal ganglia cholinergic activity",
+     "e": "Correct. Adjuvant therapy."
+    },
+    {
+     "t": "Increase dopamine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Block dopamine receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stimulate nicotinic receptors",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "Acute dystonia from antipsychotics is treated with:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Neostigmine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pilocarpine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bethanechol",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Parenteral benztropine",
+     "e": "Correct. Antimuscarinic."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "Which agent is a bronchodilator antimuscarinic?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Pirenzepine",
+     "e": "Wrong. M1 for ulcer."
+    },
+    {
+     "t": "Oxybutynin",
+     "e": "Wrong. Urinary."
+    },
+    {
+     "t": "Ipratropium or tiotropium",
+     "e": "Correct. Used in asthma/COPD."
+    },
+    {
+     "t": "Homatropine",
+     "e": "Wrong. Eye."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "Pirenzepine is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A non-selective M blocker",
+     "e": "Wrong. Atropine."
+    },
+    {
+     "t": "A selective M1 blocker used in peptic ulcer",
+     "e": "Correct. Adjuvant."
+    },
+    {
+     "t": "A nicotinic blocker",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A mydriatic",
+     "e": "Wrong. Not its use."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "Which are mydriatic cycloplegics?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Homatropine, cyclopentolate, tropicamide",
+     "e": "Correct. Eye examination."
+    },
+    {
+     "t": "Ipratropium",
+     "e": "Wrong. Respiratory."
+    },
+    {
+     "t": "Oxybutynin",
+     "e": "Wrong. Urinary."
+    },
+    {
+     "t": "Benztropine",
+     "e": "Wrong. Parkinson."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "In iritis and iridocyclitis atropine:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Causes adhesions",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Lowers IOP",
+     "e": "Wrong. Raises it."
+    },
+    {
+     "t": "Contracts pupil",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Prevents adhesions and relieves pain partially",
+     "e": "Correct. Post-inflammatory."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "Oxybutynin is used for:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Asthma",
+     "e": "Wrong. Ipratropium."
+    },
+    {
+     "t": "Ulcer",
+     "e": "Wrong. Pirenzepine."
+    },
+    {
+     "t": "Overactive bladder and spastic bladder",
+     "e": "Correct. Genitourinary antimuscarinic."
+    },
+    {
+     "t": "Motion sickness",
+     "e": "Wrong. Scopolamine."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "Atropine is given pre-anaesthesia to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increase secretions",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Reduce salivary and bronchial secretions and protect the heart from vagal tone",
+     "e": "Correct. Given 30 min before."
+    },
+    {
+     "t": "Cause bradycardia",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Constrict pupils",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Uses"
+  },
+  {
+   "q": "Common side effects of atropine include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Dry mouth, constipation, tachycardia, blurred vision",
+     "e": "Correct. Antimuscarinic."
+    },
+    {
+     "t": "Salivation and diarrhea",
+     "e": "Wrong. Cholinergic."
+    },
+    {
+     "t": "Bradycardia and miosis",
+     "e": "Wrong. Cholinergic."
+    },
+    {
+     "t": "Hypersalivation",
+     "e": "Wrong. Cholinergic."
+    }
+   ],
+   "topic": "Side effects"
+  },
+  {
+   "q": "Atropine fever occurs especially in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Elderly in cold",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Neonates only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Athletes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Children and hot environments",
+     "e": "Correct. Reduced sweating."
+    }
+   ],
+   "topic": "Side effects"
+  },
+  {
+   "q": "Atropine causes urinary retention commonly in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Children",
+     "e": "Wrong. Not the main."
+    },
+    {
+     "t": "Pregnant women",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Elderly (e.g., prostatic hypertrophy)",
+     "e": "Correct. Contraindicated."
+    },
+    {
+     "t": "Neonates",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Side effects"
+  },
+  {
+   "q": "Atropine is contraindicated in:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Bradycardia",
+     "e": "Wrong. An indication."
+    },
+    {
+     "t": "Closed-angle glaucoma, prostatic hypertrophy, paralytic ileus",
+     "e": "Correct. Also hyperthermia."
+    },
+    {
+     "t": "Motion sickness",
+     "e": "Wrong. An indication."
+    },
+    {
+     "t": "Heart block",
+     "e": "Wrong. An indication."
+    }
+   ],
+   "topic": "Safety"
+  },
+  {
+   "q": "Compared with atropine, hyoscine (scopolamine):",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Is shorter acting and more potent on the eye and secretions with mainly central depression",
+     "e": "Correct. Atropine is longer acting and more potent on heart and bronchi."
+    },
+    {
+     "t": "Is longer acting",
+     "e": "Wrong. Atropine."
+    },
+    {
+     "t": "Is more potent on the heart",
+     "e": "Wrong. Atropine."
+    },
+    {
+     "t": "Has no CNS effects",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Comparison"
+  }
+ ]
+}

@@ -1,0 +1,698 @@
+{
+ "id": "w5-physio-spermatogenesis-1",
+ "title": "Male Sex Hormones and Spermatogenesis: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w5-physiology-spermatogenesis",
+ "questions": [
+  {
+   "q": "Testosterone is secreted by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Sertoli cells",
+     "e": "Wrong. Secrete inhibin, ABP, AMH."
+    },
+    {
+     "t": "Spermatogonia",
+     "e": "Wrong. Germ cells."
+    },
+    {
+     "t": "Prostate",
+     "e": "Wrong. Accessory gland."
+    },
+    {
+     "t": "Leydig (interstitial) cells",
+     "e": "Correct. Between seminiferous tubules."
+    }
+   ],
+   "topic": "Hormones"
+  },
+  {
+   "q": "LH acts on:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Sertoli cells",
+     "e": "Wrong. FSH target."
+    },
+    {
+     "t": "Prostate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Leydig cells to stimulate testosterone synthesis",
+     "e": "Correct. LH target."
+    },
+    {
+     "t": "Epididymis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "HPG axis"
+  },
+  {
+   "q": "FSH acts on:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Leydig cells",
+     "e": "Wrong. LH target."
+    },
+    {
+     "t": "Sertoli cells, stimulating ABP and inhibin",
+     "e": "Correct. FSH target."
+    },
+    {
+     "t": "Seminal vesicles",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adrenal cortex",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "HPG axis"
+  },
+  {
+   "q": "Inhibin B selectively suppresses:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "FSH",
+     "e": "Correct. Negative feedback from Sertoli cells."
+    },
+    {
+     "t": "LH",
+     "e": "Wrong. Testosterone does this."
+    },
+    {
+     "t": "GnRH only",
+     "e": "Wrong. Not selective."
+    },
+    {
+     "t": "Prolactin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "HPG axis"
+  },
+  {
+   "q": "Testosterone feedback mainly decreases:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "FSH only",
+     "e": "Wrong. Inhibin."
+    },
+    {
+     "t": "Inhibin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "ABP",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "LH, and GnRH pulse amplitude",
+     "e": "Correct. Negative feedback."
+    }
+   ],
+   "topic": "HPG axis"
+  },
+  {
+   "q": "Androgen-binding protein (ABP) from Sertoli cells:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Carries testosterone in plasma",
+     "e": "Wrong. SHBG."
+    },
+    {
+     "t": "Converts T to DHT",
+     "e": "Wrong. 5-alpha-reductase."
+    },
+    {
+     "t": "Concentrates testosterone within the seminiferous tubules",
+     "e": "Correct. Needed for spermatogenesis."
+    },
+    {
+     "t": "Causes regression of Mullerian ducts",
+     "e": "Wrong. AMH."
+    }
+   ],
+   "topic": "Sertoli cells"
+  },
+  {
+   "q": "Anti-Mullerian hormone prevents development of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Wolffian ducts",
+     "e": "Wrong. Testosterone supports them."
+    },
+    {
+     "t": "Female internal sex organs in the male fetus",
+     "e": "Correct. Mullerian duct regression."
+    },
+    {
+     "t": "Prostate",
+     "e": "Wrong. DHT supports it."
+    },
+    {
+     "t": "Testes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Sertoli cells"
+  },
+  {
+   "q": "The blood-testis barrier is maintained by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Sertoli cells",
+     "e": "Correct. Tight junctions."
+    },
+    {
+     "t": "Leydig cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Epididymis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Seminal vesicles",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Sertoli cells"
+  },
+  {
+   "q": "Spermiation is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Formation of spermatogonia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ejaculation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Maturation in epididymis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Release of sperm from Sertoli cells into the tubule lumen",
+     "e": "Correct. Controlled by FSH and testosterone."
+    }
+   ],
+   "topic": "Sertoli cells"
+  },
+  {
+   "q": "Sperm acquire progressive motility in the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Seminiferous tubule",
+     "e": "Wrong. Immature."
+    },
+    {
+     "t": "Vas deferens ampulla",
+     "e": "Wrong. Reservoir."
+    },
+    {
+     "t": "Epididymis",
+     "e": "Correct. Maturation."
+    },
+    {
+     "t": "Urethra",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Ducts"
+  },
+  {
+   "q": "The main reservoir of sperm before ejaculation is the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Epididymis head",
+     "e": "Wrong. Maturation."
+    },
+    {
+     "t": "Ampulla of the vas deferens",
+     "e": "Correct. Storage."
+    },
+    {
+     "t": "Prostate",
+     "e": "Wrong. Gland."
+    },
+    {
+     "t": "Seminal vesicle",
+     "e": "Wrong. Fluid."
+    }
+   ],
+   "topic": "Ducts"
+  },
+  {
+   "q": "Seminal vesicle fluid is rich in:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Fructose, prostaglandins and fibrinogen",
+     "e": "Correct. 60-70% of semen."
+    },
+    {
+     "t": "Citric acid only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fibrinolysin",
+     "e": "Wrong. Prostate."
+    },
+    {
+     "t": "Mucus only",
+     "e": "Wrong. Bulbourethral."
+    }
+   ],
+   "topic": "Glands"
+  },
+  {
+   "q": "Prostaglandins of seminal fluid enhance fertilization by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Clotting semen",
+     "e": "Wrong. Fibrinogen."
+    },
+    {
+     "t": "Neutralizing urethral acidity",
+     "e": "Wrong. Cowper's gland."
+    },
+    {
+     "t": "Lysing the coagulum",
+     "e": "Wrong. Fibrinolysin."
+    },
+    {
+     "t": "Increasing cervical receptivity and reversing uterine/tubal peristalsis",
+     "e": "Correct. Helps sperm transport."
+    }
+   ],
+   "topic": "Glands"
+  },
+  {
+   "q": "The prostate secretes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Acidic fluid",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fructose-rich fluid",
+     "e": "Wrong. Seminal vesicle."
+    },
+    {
+     "t": "Milky alkaline fluid containing clotting enzymes and fibrinolysin",
+     "e": "Correct. pH 6.0-6.5."
+    },
+    {
+     "t": "Mucus only",
+     "e": "Wrong. Bulbourethral."
+    }
+   ],
+   "topic": "Glands"
+  },
+  {
+   "q": "The bulbourethral glands secrete:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Fibrinogen",
+     "e": "Wrong. Seminal vesicle."
+    },
+    {
+     "t": "Mucus that neutralizes urethral acidity and lubricates",
+     "e": "Correct. Cowper's glands."
+    },
+    {
+     "t": "Testosterone",
+     "e": "Wrong. Leydig."
+    },
+    {
+     "t": "Inhibin",
+     "e": "Wrong. Sertoli."
+    }
+   ],
+   "topic": "Glands"
+  },
+  {
+   "q": "The enzyme converting testosterone to DHT is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "5-alpha-reductase",
+     "e": "Correct. Prostate, external genitalia."
+    },
+    {
+     "t": "Aromatase",
+     "e": "Wrong. Makes estradiol."
+    },
+    {
+     "t": "Hydroxylase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lipase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Metabolism"
+  },
+  {
+   "q": "DHT is particularly important for development of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Epididymis and vas deferens",
+     "e": "Wrong. Testosterone."
+    },
+    {
+     "t": "Seminal vesicles",
+     "e": "Wrong. Testosterone."
+    },
+    {
+     "t": "Testes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Prostate, penis, scrotum",
+     "e": "Correct. External genitalia."
+    }
+   ],
+   "topic": "Metabolism"
+  },
+  {
+   "q": "Testosterone in the fetus promotes development of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Mullerian ducts",
+     "e": "Wrong. Regress under AMH."
+    },
+    {
+     "t": "Uterus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Wolffian ducts into epididymis, vas deferens, seminal vesicles and ejaculatory ducts",
+     "e": "Correct. Sex differentiation."
+    },
+    {
+     "t": "Ovary",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fetal life"
+  },
+  {
+   "q": "In plasma testosterone is mainly bound to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Albumin only",
+     "e": "Wrong. Weaker."
+    },
+    {
+     "t": "Sex hormone-binding globulin (SHBG)",
+     "e": "Correct. Strong binding."
+    },
+    {
+     "t": "Free form",
+     "e": "Wrong. Small amount."
+    },
+    {
+     "t": "Transferrin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Transport"
+  },
+  {
+   "q": "Testosterone's anabolic effect includes:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Increased amino acid transport and protein synthesis",
+     "e": "Correct. Muscle mass up about 50%."
+    },
+    {
+     "t": "Increased protein breakdown",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Decreased muscle mass",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Decreased erythropoiesis",
+     "e": "Wrong. It increases."
+    }
+   ],
+   "topic": "Adult effects"
+  },
+  {
+   "q": "Testosterone's effect on hair is to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increase scalp hair",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Eliminate body hair",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increase pubic, facial, axillary and body hair while decreasing scalp hair",
+     "e": "Correct. Male pattern."
+    }
+   ],
+   "topic": "Adult effects"
+  },
+  {
+   "q": "Testosterone increases basal metabolic rate by about:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "50%",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "0%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "5-10%",
+     "e": "Correct. Lecture value."
+    },
+    {
+     "t": "Decrease by 10%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Adult effects"
+  },
+  {
+   "q": "Epiphyseal closure is ultimately promoted by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "DHT",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Estrogen derived from aromatization of testosterone",
+     "e": "Correct. Not testosterone directly."
+    },
+    {
+     "t": "Inhibin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "FSH",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Adult effects"
+  },
+  {
+   "q": "Exogenous testosterone (anabolic steroids) causes infertility because:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Serum T rises but LH/FSH are suppressed so intratesticular T falls",
+     "e": "Correct. Negative feedback."
+    },
+    {
+     "t": "It raises intratesticular T",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "It increases FSH",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "It increases sperm count",
+     "e": "Wrong. Opposite."
+    }
+   ],
+   "topic": "Clinical"
+  },
+  {
+   "q": "Normal scrotal temperature is about:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "37 C",
+     "e": "Wrong. Core."
+    },
+    {
+     "t": "40 C",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "30 C",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "34-35 C",
+     "e": "Correct. 2-3 C below core."
+    }
+   ],
+   "topic": "Temperature"
+  },
+  {
+   "q": "Heat exchange that cools arterial blood to the testis occurs in the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Epididymis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vas deferens",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pampiniform plexus",
+     "e": "Correct. Countercurrent exchange."
+    },
+    {
+     "t": "Prostatic plexus",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Temperature"
+  },
+  {
+   "q": "Cryptorchidism leads to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increased sperm count",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Impaired spermatogenesis and higher malignancy risk",
+     "e": "Correct. Exposure to core temperature."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increased testosterone only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Temperature"
+  },
+  {
+   "q": "Varicocele impairs fertility by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Raising scrotal temperature",
+     "e": "Correct. Dilated pampiniform veins."
+    },
+    {
+     "t": "Lowering temperature",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Blocking vas deferens",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Reducing LH",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Temperature"
+  },
+  {
+   "q": "Which vitamin/mineral is essential for spermatogonial differentiation?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Vitamin K",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin C only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Iodine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin A",
+     "e": "Correct. Deficiency halts spermatogenesis."
+    }
+   ],
+   "topic": "Nutrition"
+  },
+  {
+   "q": "Klinefelter syndrome (47,XXY) causes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Increased spermatogenesis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Normal testes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Primary testicular failure",
+     "e": "Correct. Genetic cause of infertility."
+    },
+    {
+     "t": "Secondary hypogonadism from pituitary failure",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Chromosomal"
+  }
+ ]
+}

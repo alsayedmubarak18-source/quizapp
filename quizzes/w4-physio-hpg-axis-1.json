@@ -1,0 +1,468 @@
+{
+ "id": "w4-physio-hpg-axis-1",
+ "title": "Hypothalamic-Pituitary-Gonadal Axis: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w4-physiology-hypothalamic-pituitary-gonadal-axis",
+ "questions": [
+  {
+   "q": "Anterior pituitary hormones are delivered from the hypothalamus via:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The hypophyseal portal system",
+     "e": "Correct. Hypothalamic hormones reach the anterior pituitary by blood."
+    },
+    {
+     "t": "Axonal transport",
+     "e": "Wrong. Posterior pituitary."
+    },
+    {
+     "t": "Cerebrospinal fluid",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lymph",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Anatomy"
+  },
+  {
+   "q": "Oxytocin and ADH reach the posterior pituitary via:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Portal blood",
+     "e": "Wrong. Anterior."
+    },
+    {
+     "t": "Lymphatics",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "CSF",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Axonal transport down the hypothalamic-hypophyseal tract",
+     "e": "Correct. Synthesized in the hypothalamus."
+    }
+   ],
+   "topic": "Anatomy"
+  },
+  {
+   "q": "Gonadotropes secrete:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "ACTH",
+     "e": "Wrong. Corticotropes."
+    },
+    {
+     "t": "TSH",
+     "e": "Wrong. Thyrotropes."
+    },
+    {
+     "t": "LH and FSH",
+     "e": "Correct. Target gonads."
+    },
+    {
+     "t": "Prolactin",
+     "e": "Wrong. Lactotropes."
+    }
+   ],
+   "topic": "Anterior pituitary"
+  },
+  {
+   "q": "Lactotropes secrete prolactin which acts on:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The thyroid",
+     "e": "Wrong. TSH."
+    },
+    {
+     "t": "The breasts",
+     "e": "Correct. Milk production."
+    },
+    {
+     "t": "The adrenal cortex",
+     "e": "Wrong. ACTH."
+    },
+    {
+     "t": "The liver",
+     "e": "Wrong. GH."
+    }
+   ],
+   "topic": "Anterior pituitary"
+  },
+  {
+   "q": "Which hormone does the hypothalamus release to control LH and FSH?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "GnRH, pulsatile",
+     "e": "Correct. Pulsatile secretion is key."
+    },
+    {
+     "t": "TRH",
+     "e": "Wrong. Thyroid axis."
+    },
+    {
+     "t": "CRH",
+     "e": "Wrong. Adrenal axis."
+    },
+    {
+     "t": "GHRH",
+     "e": "Wrong. Growth hormone."
+    }
+   ],
+   "topic": "HPG axis"
+  },
+  {
+   "q": "The HPG axis sequence is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "LH, GnRH, steroids",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "ACTH, cortisol, GnRH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "TSH, T3, LH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "GnRH, then LH and FSH, then gonadal steroids",
+     "e": "Correct. Steroids feed back negatively."
+    }
+   ],
+   "topic": "HPG axis"
+  },
+  {
+   "q": "Feedback of sex steroids in the HPG axis is usually:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Positive always",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Absent",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Negative on hypothalamus and pituitary",
+     "e": "Correct. Dominant mechanism."
+    },
+    {
+     "t": "Only on the testis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Feedback"
+  },
+  {
+   "q": "The preovulatory LH surge is caused by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Negative estrogen feedback",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Switch of estrogen feedback to positive at mid-cycle",
+     "e": "Correct. Triggers ovulation."
+    },
+    {
+     "t": "Inhibin",
+     "e": "Wrong. Negative feedback."
+    },
+    {
+     "t": "Progesterone alone",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Feedback"
+  },
+  {
+   "q": "Inhibin from the ovary:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Gives negative feedback on the pituitary",
+     "e": "Correct. Activin is positive."
+    },
+    {
+     "t": "Gives positive feedback",
+     "e": "Wrong. Activin."
+    },
+    {
+     "t": "Stimulates LH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is secreted by the pituitary",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Feedback"
+  },
+  {
+   "q": "Activin gives:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Negative feedback",
+     "e": "Wrong. Inhibin."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Feedback only on testes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Positive feedback on the pituitary",
+     "e": "Correct. Opposite of inhibin."
+    }
+   ],
+   "topic": "Feedback"
+  },
+  {
+   "q": "In males, testosterone selectively inhibits:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "FSH secretion",
+     "e": "Wrong. Inhibin does this."
+    },
+    {
+     "t": "GnRH only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "LH secretion",
+     "e": "Correct. Long loop."
+    },
+    {
+     "t": "Prolactin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Male axis"
+  },
+  {
+   "q": "In males, inhibin from Sertoli cells selectively inhibits:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "LH",
+     "e": "Wrong. Testosterone."
+    },
+    {
+     "t": "FSH",
+     "e": "Correct. Selective feedback."
+    },
+    {
+     "t": "Prolactin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "TSH",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Male axis"
+  },
+  {
+   "q": "In the testis, LH acts on:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Leydig cells to produce testosterone",
+     "e": "Correct. Masculinizing effects."
+    },
+    {
+     "t": "Sertoli cells to make inhibin",
+     "e": "Wrong. FSH."
+    },
+    {
+     "t": "Spermatogonia directly",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Epididymis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Male axis"
+  },
+  {
+   "q": "FSH plus local testosterone act on:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Leydig cells",
+     "e": "Wrong. LH."
+    },
+    {
+     "t": "Prostate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Seminal vesicles",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Sertoli cells to support spermatogenesis and produce inhibin",
+     "e": "Correct. Spermatogenesis."
+    }
+   ],
+   "topic": "Male axis"
+  },
+  {
+   "q": "Which gland-hormone pair is correct?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Thyroid: ACTH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pineal: insulin",
+     "e": "Wrong. Melatonin."
+    },
+    {
+     "t": "Ovary: estrogen, progesterone, inhibin",
+     "e": "Correct. Testis: testosterone, inhibin."
+    },
+    {
+     "t": "Thymus: oxytocin",
+     "e": "Wrong. Thymosin."
+    }
+   ],
+   "topic": "Endocrine glands"
+  },
+  {
+   "q": "Pineal gland secretes:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Thymosin",
+     "e": "Wrong. Thymus."
+    },
+    {
+     "t": "Melatonin",
+     "e": "Correct. Per summary."
+    },
+    {
+     "t": "Insulin",
+     "e": "Wrong. Pancreas."
+    },
+    {
+     "t": "Calcitonin",
+     "e": "Wrong. Thyroid."
+    }
+   ],
+   "topic": "Endocrine glands"
+  },
+  {
+   "q": "Negative feedback is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Opposing the initial change to maintain homeostasis",
+     "e": "Correct. Dominant in hormonal axes."
+    },
+    {
+     "t": "Amplifying the change",
+     "e": "Wrong. Positive feedback."
+    },
+    {
+     "t": "Absent in hormones",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only neural",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Feedback"
+  },
+  {
+   "q": "Positive feedback is exemplified by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Thyroid axis regulation",
+     "e": "Wrong. Negative."
+    },
+    {
+     "t": "Cortisol feedback",
+     "e": "Wrong. Negative."
+    },
+    {
+     "t": "Insulin feedback",
+     "e": "Wrong. Not relevant."
+    },
+    {
+     "t": "The LH surge before ovulation",
+     "e": "Correct. Amplifies the change."
+    }
+   ],
+   "topic": "Feedback"
+  },
+  {
+   "q": "In the HPT (thyroid) and HPA axes, end hormones inhibit:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Only the thyroid",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only the adrenal",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Both hypothalamus and pituitary",
+     "e": "Correct. Negative feedback."
+    },
+    {
+     "t": "Nothing",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Axes"
+  },
+  {
+   "q": "Which hormone is NOT made by the anterior pituitary?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "FSH",
+     "e": "Wrong. Anterior."
+    },
+    {
+     "t": "Oxytocin",
+     "e": "Correct. Made in hypothalamus, released from posterior pituitary."
+    },
+    {
+     "t": "Prolactin",
+     "e": "Wrong. Anterior."
+    },
+    {
+     "t": "GH",
+     "e": "Wrong. Anterior."
+    }
+   ],
+   "topic": "Endocrine glands"
+  }
+ ]
+}

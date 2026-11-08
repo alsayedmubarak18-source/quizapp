@@ -1,0 +1,652 @@
+{
+ "id": "w4-physio-female-hormonal-system-1",
+ "title": "Female Hormonal System: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w4-physiology-female-hormonal-system",
+ "questions": [
+  {
+   "q": "The most potent estrogen is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Estriol",
+     "e": "Wrong. High in pregnancy but weaker."
+    },
+    {
+     "t": "Estrone",
+     "e": "Wrong. Weaker."
+    },
+    {
+     "t": "Estradiol",
+     "e": "Correct. Estrone and estriol are weaker; estriol is high in pregnancy."
+    },
+    {
+     "t": "Progesterone",
+     "e": "Wrong. Not an estrogen."
+    }
+   ],
+   "topic": "Estrogen"
+  },
+  {
+   "q": "The major source of estrogen in the non-pregnant female is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Adrenal medulla",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Theca interna cells of the Graafian follicle",
+     "e": "Correct. Granulosa cells also contribute."
+    },
+    {
+     "t": "Corpus albicans",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pituitary",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Estrogen"
+  },
+  {
+   "q": "Estrogen has its two peaks of secretion:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Just before ovulation and in the mid-luteal phase",
+     "e": "Correct. Two peaks."
+    },
+    {
+     "t": "At menstruation and at ovulation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only during menstruation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "At the end of the luteal phase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Estrogen"
+  },
+  {
+   "q": "Estrogen feedback on FSH and LH can be:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only negative",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only positive",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "None",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Both negative and positive",
+     "e": "Correct. Positive at mid-cycle."
+    }
+   ],
+   "topic": "Estrogen"
+  },
+  {
+   "q": "Which is an effect of estrogen?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Decreases clotting factors",
+     "e": "Wrong. Increases them."
+    },
+    {
+     "t": "Increases LDL",
+     "e": "Wrong. Decreases."
+    },
+    {
+     "t": "Increases HDL and decreases LDL and total cholesterol",
+     "e": "Correct. Metabolic effect."
+    },
+    {
+     "t": "Decreases bone growth",
+     "e": "Wrong. Increases bone growth."
+    }
+   ],
+   "topic": "Estrogen"
+  },
+  {
+   "q": "Estrogen's effect on cervical mucus is to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Make it thick and scanty",
+     "e": "Wrong. Progesterone."
+    },
+    {
+     "t": "Increase secretion, making it thin and watery",
+     "e": "Correct. Facilitates sperm passage."
+    },
+    {
+     "t": "Stop secretion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Make it acidic",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Estrogen"
+  },
+  {
+   "q": "Estrogen promotes breast growth by enhancing:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Ductal development",
+     "e": "Correct. Progesterone enhances lobular development."
+    },
+    {
+     "t": "Lobular development",
+     "e": "Wrong. Progesterone."
+    },
+    {
+     "t": "Milk secretion",
+     "e": "Wrong. Prolactin."
+    },
+    {
+     "t": "Milk ejection",
+     "e": "Wrong. Oxytocin."
+    }
+   ],
+   "topic": "Estrogen"
+  },
+  {
+   "q": "The most biologically active progestin is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Estradiol",
+     "e": "Wrong. Estrogen."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Placental hormone."
+    },
+    {
+     "t": "Relaxin",
+     "e": "Wrong. Not a progestin."
+    },
+    {
+     "t": "Progesterone",
+     "e": "Correct. Produced by corpus luteum and placenta."
+    }
+   ],
+   "topic": "Progesterone"
+  },
+  {
+   "q": "Progesterone effect on the endometrium:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Increases proliferation",
+     "e": "Wrong. Estrogen."
+    },
+    {
+     "t": "Causes shedding",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Decreases endometrial growth and increases secretions",
+     "e": "Correct. Antagonizes estrogen."
+    },
+    {
+     "t": "No effect",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Progesterone"
+  },
+  {
+   "q": "Progesterone raises body temperature by about:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "5 degrees C",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "1 degree C",
+     "e": "Correct. A known effect."
+    },
+    {
+     "t": "0.01 degree C",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "It lowers temperature",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Progesterone"
+  },
+  {
+   "q": "Progesterone makes cervical mucus:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Thick, forming a natural barrier to sperm",
+     "e": "Correct. Contrast with estrogen."
+    },
+    {
+     "t": "Thin and watery",
+     "e": "Wrong. Estrogen."
+    },
+    {
+     "t": "Absent",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Alkaline",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Progesterone"
+  },
+  {
+   "q": "Progesterone increases respiratory rate by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Blocking CO2",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increasing O2 uptake",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Reducing sensitivity",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Making the respiratory system more sensitive to CO2",
+     "e": "Correct. Metabolic effect."
+    }
+   ],
+   "topic": "Progesterone"
+  },
+  {
+   "q": "Progesterone induces natriuresis by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Blocking ADH",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increasing GFR only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Competing for aldosterone receptors",
+     "e": "Correct. Sodium loss."
+    },
+    {
+     "t": "Activating renin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Progesterone"
+  },
+  {
+   "q": "Inhibin and activin come from:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Theca cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Granulosa cells",
+     "e": "Correct. Inhibin inhibits FSH; activin stimulates FSH."
+    },
+    {
+     "t": "Posterior pituitary",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Placenta only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Inhibin"
+  },
+  {
+   "q": "hCG is secreted by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Syncytiotrophoblast cells of the placenta",
+     "e": "Correct. Detectable 6-8 days after conception."
+    },
+    {
+     "t": "Cytotrophoblast",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Corpus luteum",
+     "e": "Wrong. It is maintained by hCG."
+    },
+    {
+     "t": "Maternal pituitary",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "The key function of hCG is to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cause ovulation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Induce labor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Suppress prolactin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Maintain the corpus luteum",
+     "e": "Correct. So estrogen and progesterone continue."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "hCG peaks at about:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "At delivery",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "At week 30",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "10-12 weeks",
+     "e": "Correct. Then declines."
+    },
+    {
+     "t": "At ovulation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "hCG also has:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Intrinsic insulin activity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Intrinsic TSH activity",
+     "e": "Correct. Thyrotropic effect."
+    },
+    {
+     "t": "Intrinsic GH activity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antidiuretic activity",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "Up to the 8th week of gestation, progesterone comes from the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Corpus luteum",
+     "e": "Correct. Then placenta takes over by 12 weeks."
+    },
+    {
+     "t": "Placenta only",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Adrenal",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pituitary",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "Human placental lactogen (hPL):",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increases insulin sensitivity",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Causes labor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Maintains corpus luteum",
+     "e": "Wrong. hCG."
+    },
+    {
+     "t": "Increases maternal insulin resistance and mobilizes fatty acids",
+     "e": "Correct. Lactogenic and anabolic."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "Relaxin functions include:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Stimulating uterine contraction",
+     "e": "Wrong. Oxytocin."
+    },
+    {
+     "t": "Milk synthesis",
+     "e": "Wrong. Prolactin."
+    },
+    {
+     "t": "Relaxing pelvic ligaments and inhibiting uterine contractions",
+     "e": "Correct. Softens cervix at term."
+    },
+    {
+     "t": "Ovulation",
+     "e": "Wrong. LH."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "During pregnancy FSH and LH are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increased",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Suppressed by estrogen and progesterone",
+     "e": "Correct. Inhibitory feedback."
+    },
+    {
+     "t": "Unchanged",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pulsatile as normal",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "The maternal anterior pituitary during pregnancy:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Enlarges by at least 50%",
+     "e": "Correct. Increased ACTH, TSH and prolactin."
+    },
+    {
+     "t": "Shrinks",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is unchanged",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stops secreting",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "Increased aldosterone during pregnancy causes:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Sodium loss",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Potassium retention",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Polyuria",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Sodium and water retention",
+     "e": "Correct. Maternal adaptation."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "Maternal PTH rises in pregnancy to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lower calcium",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increase bone deposition",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Maintain maternal calcium while supplying the fetus",
+     "e": "Correct. Mobilizes maternal bone calcium."
+    },
+    {
+     "t": "Reduce vitamin D",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pregnancy"
+  },
+  {
+   "q": "Suckling stimulates prolactin by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Stimulating dopamine",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Inhibiting dopamine release",
+     "e": "Correct. Dopamine normally inhibits prolactin."
+    },
+    {
+     "t": "Blocking oxytocin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Releasing GnRH",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Lactation"
+  },
+  {
+   "q": "Oxytocin in lactation causes:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Milk ejection by contraction of myoepithelial cells",
+     "e": "Correct. Milk let-down."
+    },
+    {
+     "t": "Milk synthesis",
+     "e": "Wrong. Prolactin."
+    },
+    {
+     "t": "Ovulation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Breast involution",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Lactation"
+  },
+  {
+   "q": "High prolactin during lactation:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Stimulates GnRH",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Increases FSH",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Has no effect on gonadotropins",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inhibits GnRH, reducing FSH and LH",
+     "e": "Correct. Lactational suppression of ovulation."
+    }
+   ],
+   "topic": "Lactation"
+  }
+ ]
+}

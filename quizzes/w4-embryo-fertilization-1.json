@@ -1,0 +1,468 @@
+{
+ "id": "w4-embryo-fertilization-1",
+ "title": "Fertilization and Cleavage: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w4-embryology-fertilization",
+ "questions": [
+  {
+   "q": "Fertilization is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Implantation in the uterus",
+     "e": "Wrong. Different event."
+    },
+    {
+     "t": "Union of sperm and ovum to form a zygote",
+     "e": "Correct. Occurs in the ampulla."
+    },
+    {
+     "t": "Division of the zygote",
+     "e": "Wrong. Cleavage."
+    },
+    {
+     "t": "Release of the oocyte",
+     "e": "Wrong. Ovulation."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "The normal site of fertilization is the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Ampulla of the uterine tube",
+     "e": "Correct. Not the uterine cavity."
+    },
+    {
+     "t": "Uterine cavity",
+     "e": "Wrong. Implantation site."
+    },
+    {
+     "t": "Cervical canal",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Posterior fornix",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "How many sperms are deposited in the vagina and how many reach the site of fertilization?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "2 million; all reach",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "20 million; 10 reach",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "1 billion; 1000 reach",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "200-600 million deposited; 200-300 reach",
+     "e": "Correct. Large attrition."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "Capacitation is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Fusion with the oocyte",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Release of acrosomal enzymes",
+     "e": "Wrong. Acrosome reaction."
+    },
+    {
+     "t": "Functional maturation of sperm in the female tract allowing acrosome reaction",
+     "e": "Correct. Removes coating from sperm head."
+    },
+    {
+     "t": "Cortical reaction",
+     "e": "Wrong. Block to polyspermy."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "The acrosome reaction releases:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cortical granules",
+     "e": "Wrong. Oocyte."
+    },
+    {
+     "t": "Hyaluronidase and zona lysin (acrosin)",
+     "e": "Correct. Penetrate corona and zona."
+    },
+    {
+     "t": "Testosterone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "hCG",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "Hyaluronidase is used to penetrate the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Corona radiata",
+     "e": "Correct. Zona lysin for zona pellucida."
+    },
+    {
+     "t": "Zona pellucida",
+     "e": "Wrong. Zona lysin."
+    },
+    {
+     "t": "Plasma membrane",
+     "e": "Wrong. Fusion."
+    },
+    {
+     "t": "Cervical mucus",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "The zona (cortical) reaction:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Allows more sperm entry",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Starts capacitation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Causes ovulation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Prevents a second sperm from entering the fertilized ovum",
+     "e": "Correct. Block to polyspermy."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "When does the oocyte complete the second meiotic division?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "At ovulation",
+     "e": "Wrong. Arrested in metaphase II."
+    },
+    {
+     "t": "At birth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "After sperm penetration",
+     "e": "Correct. Fertilization triggers completion."
+    },
+    {
+     "t": "Before fertilization",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "Results of fertilization include:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Haploid zygote",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Restoration of diploid number, sex determination, start of cleavage",
+     "e": "Correct. Also variation."
+    },
+    {
+     "t": "Menstruation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ovulation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "The sex of the embryo is determined by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The sperm (X or Y)",
+     "e": "Correct. The ovum always carries X."
+    },
+    {
+     "t": "The ovum",
+     "e": "Wrong. Always X."
+    },
+    {
+     "t": "The uterus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The corona radiata",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "Dispermy leads to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Parthenogenesis",
+     "e": "Wrong. Development without fertilization."
+    },
+    {
+     "t": "Ectopic pregnancy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Twins",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Triploidy",
+     "e": "Correct. Two sperm fertilize one ovum."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "Parthenogenesis is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Fertilization by two sperm",
+     "e": "Wrong. Dispermy."
+    },
+    {
+     "t": "Division into two embryos",
+     "e": "Wrong. Twinning."
+    },
+    {
+     "t": "Development of an ovum without fertilization",
+     "e": "Correct. Abnormality."
+    },
+    {
+     "t": "Implantation outside uterus",
+     "e": "Wrong. Ectopic."
+    }
+   ],
+   "topic": "Fertilization"
+  },
+  {
+   "q": "Cleavage is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Meiosis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Repeated mitosis of the zygote increasing cell number",
+     "e": "Correct. Without growth in total size."
+    },
+    {
+     "t": "Fertilization",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Implantation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cleavage"
+  },
+  {
+   "q": "Cleavage cells are called:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Blastomeres",
+     "e": "Correct. Increase in number."
+    },
+    {
+     "t": "Trophoblasts",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Embryoblasts",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Gametes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cleavage"
+  },
+  {
+   "q": "The morula consists of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "2 blastomeres",
+     "e": "Wrong. Early."
+    },
+    {
+     "t": "100 cells with cavity",
+     "e": "Wrong. Blastocyst."
+    },
+    {
+     "t": "A single cell",
+     "e": "Wrong. Zygote."
+    },
+    {
+     "t": "16 blastomeres",
+     "e": "Correct. Reaches uterus on days 4-5."
+    }
+   ],
+   "topic": "Cleavage"
+  },
+  {
+   "q": "The morula reaches the uterine cavity on:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Day 1",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Day 14",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Days 4-5",
+     "e": "Correct. After cleavage in the tube."
+    },
+    {
+     "t": "Day 21",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cleavage"
+  },
+  {
+   "q": "The zona pellucida surrounding the early embryo is lost at the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Zygote stage",
+     "e": "Wrong. Still present."
+    },
+    {
+     "t": "Blastocyst stage",
+     "e": "Correct. Allows implantation."
+    },
+    {
+     "t": "Morula stage",
+     "e": "Wrong. Still present."
+    },
+    {
+     "t": "2-cell stage",
+     "e": "Wrong. Still present."
+    }
+   ],
+   "topic": "Cleavage"
+  },
+  {
+   "q": "The blastocyst cavity is called the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Blastocele",
+     "e": "Correct. Formed by fusion of small fluid cavities."
+    },
+    {
+     "t": "Amniotic cavity",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Yolk sac",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Exocoelom",
+     "e": "Wrong. Later."
+    }
+   ],
+   "topic": "Cleavage"
+  },
+  {
+   "q": "The blastocyst separates cells into:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Ectoderm and endoderm",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Amnion and chorion",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Epiblast only",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Embryoblast (inner cell mass) and trophoblast (outer)",
+     "e": "Correct. Embryonic and abembryonic poles."
+    }
+   ],
+   "topic": "Cleavage"
+  },
+  {
+   "q": "The embryonic pole of the blastocyst is where the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Trophoblast only is located",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Zona is thickest",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Embryoblast is located",
+     "e": "Correct. Opposite is the abembryonic pole."
+    },
+    {
+     "t": "Sperm enters",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cleavage"
+  }
+ ]
+}

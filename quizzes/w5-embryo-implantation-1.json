@@ -1,0 +1,445 @@
+{
+ "id": "w5-embryo-implantation-1",
+ "title": "Implantation: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w5-embryology-implantation",
+ "questions": [
+  {
+   "q": "Implantation is defined as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Embedding of the blastocyst into the endometrium",
+     "e": "Correct. Begins at the end of the 1st week."
+    },
+    {
+     "t": "Union of sperm and ovum",
+     "e": "Wrong. That is fertilization."
+    },
+    {
+     "t": "Division of the zygote",
+     "e": "Wrong. That is cleavage."
+    },
+    {
+     "t": "Release of the oocyte",
+     "e": "Wrong. That is ovulation."
+    }
+   ],
+   "topic": "Implantation"
+  },
+  {
+   "q": "Implantation begins at the end of the ___ week and is completed by the end of the ___ week.",
+   "correct": 3,
+   "options": [
+    {
+     "t": "2nd; 4th",
+     "e": "Wrong. Too late."
+    },
+    {
+     "t": "3rd; 5th",
+     "e": "Wrong. Too late."
+    },
+    {
+     "t": "Zero; 1st",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "1st; 2nd",
+     "e": "Correct. Timing from the lecture."
+    }
+   ],
+   "topic": "Implantation"
+  },
+  {
+   "q": "The normal site of implantation is the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lower uterine segment",
+     "e": "Wrong. This gives placenta praevia."
+    },
+    {
+     "t": "Uterine tube",
+     "e": "Wrong. Tubal ectopic."
+    },
+    {
+     "t": "Upper part of the posterior wall of the uterus near the fundus",
+     "e": "Correct. Normal site."
+    },
+    {
+     "t": "Ovary",
+     "e": "Wrong. Ovarian ectopic."
+    }
+   ],
+   "topic": "Implantation"
+  },
+  {
+   "q": "The first step in the mechanism of implantation is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Fibrin clot formation",
+     "e": "Wrong. Late step."
+    },
+    {
+     "t": "Degeneration of the zona pellucida exposing the trophoblast",
+     "e": "Correct. Then trophoblast forms 2 layers, adhesion, implantation."
+    },
+    {
+     "t": "Repair of endometrium",
+     "e": "Wrong. Late step."
+    },
+    {
+     "t": "Formation of the primitive streak",
+     "e": "Wrong. Third week."
+    }
+   ],
+   "topic": "Implantation"
+  },
+  {
+   "q": "Which sequence is correct?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Zona degeneration, trophoblast 2 layers, adhesion, implantation, fibrin clot, endometrial repair",
+     "e": "Correct. Order from the lecture."
+    },
+    {
+     "t": "Adhesion, zona degeneration, fibrin clot, implantation",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Fibrin clot, adhesion, implantation, zona degeneration",
+     "e": "Wrong. Wrong order."
+    },
+    {
+     "t": "Implantation, adhesion, zona degeneration",
+     "e": "Wrong. Wrong order."
+    }
+   ],
+   "topic": "Implantation"
+  },
+  {
+   "q": "Implantation in the lower uterine segment causes:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Tubal pregnancy",
+     "e": "Wrong. Extrauterine."
+    },
+    {
+     "t": "Abdominal pregnancy",
+     "e": "Wrong. Extrauterine."
+    },
+    {
+     "t": "Hydatidiform mole",
+     "e": "Wrong. Not described here."
+    },
+    {
+     "t": "Placenta praevia",
+     "e": "Correct. Intrauterine abnormal site."
+    }
+   ],
+   "topic": "Abnormal sites"
+  },
+  {
+   "q": "In which type of placenta praevia does the placenta cover the internal os completely?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Marginalis",
+     "e": "Wrong. Reaches only the edge of the os."
+    },
+    {
+     "t": "Lateralis (parietalis)",
+     "e": "Wrong. Partial."
+    },
+    {
+     "t": "Centralis",
+     "e": "Correct. Marginalis reaches the margin; lateralis is partial."
+    },
+    {
+     "t": "None of them",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Abnormal sites"
+  },
+  {
+   "q": "Which is an extrauterine (ectopic) site of implantation?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lower uterine segment",
+     "e": "Wrong. Intrauterine."
+    },
+    {
+     "t": "Uterine tube",
+     "e": "Correct. Most common ectopic site."
+    },
+    {
+     "t": "Fundus of the uterus",
+     "e": "Wrong. Normal."
+    },
+    {
+     "t": "Posterior wall of uterus",
+     "e": "Wrong. Normal."
+    }
+   ],
+   "topic": "Abnormal sites"
+  },
+  {
+   "q": "The endometrium of the pregnant uterus is called the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Decidua",
+     "e": "Correct. Shed after birth."
+    },
+    {
+     "t": "Chorion",
+     "e": "Wrong. Fetal membrane."
+    },
+    {
+     "t": "Amnion",
+     "e": "Wrong. Fetal membrane."
+    },
+    {
+     "t": "Myometrium",
+     "e": "Wrong. Muscle layer."
+    }
+   ],
+   "topic": "Decidua"
+  },
+  {
+   "q": "During the 2nd week the trophoblast differentiates into:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Epiblast and hypoblast",
+     "e": "Wrong. Embryoblast derivatives."
+    },
+    {
+     "t": "Amnion and chorion",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Ectoderm and endoderm",
+     "e": "Wrong. Third week."
+    },
+    {
+     "t": "Cytotrophoblast and syncytiotrophoblast",
+     "e": "Correct. Two layers."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "The cytotrophoblast is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The outer multinucleated layer",
+     "e": "Wrong. Syncytiotrophoblast."
+    },
+    {
+     "t": "A layer of columnar epiblast",
+     "e": "Wrong. Embryoblast."
+    },
+    {
+     "t": "The inner layer of mononucleated cells with clear boundaries",
+     "e": "Correct. Mitotically active."
+    },
+    {
+     "t": "The yolk sac wall",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "The syncytiotrophoblast is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The inner mononucleated layer",
+     "e": "Wrong. Cytotrophoblast."
+    },
+    {
+     "t": "The outer multinucleated layer without distinct cell boundaries",
+     "e": "Correct. Invades endometrium."
+    },
+    {
+     "t": "Cuboidal cells next to blastocele",
+     "e": "Wrong. Hypoblast."
+    },
+    {
+     "t": "Extraembryonic mesoderm",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "The embryoblast differentiates into a bilaminar disc formed of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Epiblast and hypoblast",
+     "e": "Correct. Bilaminar disc."
+    },
+    {
+     "t": "Ectoderm and mesoderm",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cytotrophoblast and syncytiotrophoblast",
+     "e": "Wrong. Trophoblast."
+    },
+    {
+     "t": "Amnion and yolk sac",
+     "e": "Wrong. Cavities."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "The epiblast is composed of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cuboidal cells adjacent to the blastocele",
+     "e": "Wrong. Hypoblast."
+    },
+    {
+     "t": "Multinucleated cells",
+     "e": "Wrong. Syncytiotrophoblast."
+    },
+    {
+     "t": "Mesenchymal cells",
+     "e": "Wrong. Extraembryonic mesoderm."
+    },
+    {
+     "t": "Columnar cells adjacent to the cytotrophoblast",
+     "e": "Correct. Floor of amniotic cavity."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "The hypoblast is composed of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Columnar cells next to cytotrophoblast",
+     "e": "Wrong. Epiblast."
+    },
+    {
+     "t": "Squamous cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cuboidal cells adjacent to the blastocele",
+     "e": "Correct. Roof of yolk sac."
+    },
+    {
+     "t": "Syncytial cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "The two cavities formed in the 2nd week are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Blastocele and chorionic cavity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Amniotic cavity and yolk sac cavity",
+     "e": "Correct. Appear in relation to the bilaminar disc."
+    },
+    {
+     "t": "Pericardial and peritoneal",
+     "e": "Wrong. Later."
+    },
+    {
+     "t": "Amniotic and pleural",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "The extraembryonic coelom (chorionic cavity) forms by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Fusion of multiple cavities in the extraembryonic mesoderm",
+     "e": "Correct. Chorionic vesicle."
+    },
+    {
+     "t": "Splitting of the epiblast",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fusion of the amniotic and yolk sac cavities",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Degeneration of the zona",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "The part of extraembryonic mesoderm surrounding the amniotic cavity is the:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Splanchnic layer",
+     "e": "Wrong. Around the yolk sac."
+    },
+    {
+     "t": "Connecting stalk",
+     "e": "Wrong. Connects the embryo to the trophoblast."
+    },
+    {
+     "t": "Extraembryonic coelom",
+     "e": "Wrong. A cavity, not a layer."
+    },
+    {
+     "t": "Somatic layer",
+     "e": "Correct. Splanchnic surrounds the yolk sac."
+    }
+   ],
+   "topic": "2nd week"
+  },
+  {
+   "q": "Heuser's membrane lines the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Amniotic cavity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Blastocele wall only after birth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Yolk sac",
+     "e": "Correct. Primary yolk sac."
+    },
+    {
+     "t": "Extraembryonic coelom",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "2nd week"
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "id": "w5-genetics-aneuploidy-1",
+ "title": "Aneuploidy and Human Disorders: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w5-genetics-aneuploidy-disorders",
+ "questions": [
+  {
+   "q": "Aneuploidy is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Loss or gain of one or more chromosomes",
+     "e": "Correct. Not complete sets."
+    },
+    {
+     "t": "Addition of a complete haploid set",
+     "e": "Wrong. Polyploidy."
+    },
+    {
+     "t": "Structural rearrangement",
+     "e": "Wrong. Not numerical."
+    },
+    {
+     "t": "Point mutation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Loss of a single chromosome is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Trisomy",
+     "e": "Wrong. Gain of one."
+    },
+    {
+     "t": "Tetrasomy",
+     "e": "Wrong. Gain of two."
+    },
+    {
+     "t": "Polyploidy",
+     "e": "Wrong. Complete sets."
+    },
+    {
+     "t": "Monosomy",
+     "e": "Correct. 45 chromosomes."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Which statement about monosomy and trisomy is correct?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Autosomal monosomies are common in live births",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Trisomy never survives",
+     "e": "Wrong. Some do."
+    },
+    {
+     "t": "Autosomal monosomies are nearly always incompatible with survival to term",
+     "e": "Correct. Deficit is less tolerated."
+    },
+    {
+     "t": "They are equally tolerated",
+     "e": "Wrong. Excess is better tolerated."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Triploidy can be caused by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Nondisjunction in mitosis only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Dispermy or failure of a maturation division",
+     "e": "Correct. Usually miscarries."
+    },
+    {
+     "t": "Robertsonian translocation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "X-inactivation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Polyploidy"
+  },
+  {
+   "q": "The most common cause of aneuploidy is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Nondisjunction in meiosis",
+     "e": "Correct. Failure of disjunction."
+    },
+    {
+     "t": "Deletion",
+     "e": "Wrong. Structural."
+    },
+    {
+     "t": "Inversion",
+     "e": "Wrong. Structural."
+    },
+    {
+     "t": "Point mutation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Nondisjunction"
+  },
+  {
+   "q": "Nondisjunction in meiosis I produces a gamete with:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Two sister chromatids of one homolog",
+     "e": "Wrong. Meiosis II."
+    },
+    {
+     "t": "No chromosomes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Normal complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Both homologs of one chromosome pair",
+     "e": "Correct. Meiosis II gives two copies of one homolog."
+    }
+   ],
+   "topic": "Nondisjunction"
+  },
+  {
+   "q": "Mosaicism results from:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Meiotic nondisjunction in the mother",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Dispermy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Nondisjunction in an early embryonic mitotic division",
+     "e": "Correct. Two or more cell lines from one zygote."
+    },
+    {
+     "t": "Translocation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mosaicism"
+  },
+  {
+   "q": "Trisomy 21 occurs in about:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1 in 10 births",
+     "e": "Wrong. Too high."
+    },
+    {
+     "t": "1 in 700-1000 live births",
+     "e": "Correct. Most common autosomal aneuploidy."
+    },
+    {
+     "t": "1 in 100,000",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "1 in 6000",
+     "e": "Wrong. Trisomy 18."
+    }
+   ],
+   "topic": "Down syndrome"
+  },
+  {
+   "q": "About what percentage of Down syndrome is due to nondisjunction?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "95%",
+     "e": "Correct. Remainder mostly translocations."
+    },
+    {
+     "t": "50%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "5%",
+     "e": "Wrong. Reverse."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not all."
+    }
+   ],
+   "topic": "Down syndrome"
+  },
+  {
+   "q": "The extra chromosome 21 is maternal in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "10%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "50%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Never",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "90-95% of cases",
+     "e": "Correct. Maternal age effect."
+    }
+   ],
+   "topic": "Down syndrome"
+  },
+  {
+   "q": "The most common cardiac defect in Down syndrome is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Coarctation of aorta",
+     "e": "Wrong. Turner."
+    },
+    {
+     "t": "Tetralogy only",
+     "e": "Wrong. Not the most common."
+    },
+    {
+     "t": "Atrioventricular canal defect",
+     "e": "Correct. About 40% have heart defects."
+    },
+    {
+     "t": "Mitral stenosis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Down syndrome"
+  },
+  {
+   "q": "Down syndrome carries a leukemia risk that is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Unchanged",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "15-20 times higher",
+     "e": "Correct. Compared to the general population."
+    },
+    {
+     "t": "Lower",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "2 times higher",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Down syndrome"
+  },
+  {
+   "q": "A consistent feature of Down syndrome is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hypotonia",
+     "e": "Correct. Highly consistent."
+    },
+    {
+     "t": "Hypertonia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tall stature",
+     "e": "Wrong. Short."
+    },
+    {
+     "t": "Webbed neck",
+     "e": "Wrong. Turner."
+    }
+   ],
+   "topic": "Down syndrome"
+  },
+  {
+   "q": "Annual screening in Down syndrome includes:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Serum calcium only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Liver biopsy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chest X-ray",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Thyroid hormone levels",
+     "e": "Correct. Hypothyroidism is common."
+    }
+   ],
+   "topic": "Down syndrome"
+  },
+  {
+   "q": "Robertsonian translocation involves:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Exchange between any chromosomes with 46 total",
+     "e": "Wrong. Reciprocal."
+    },
+    {
+     "t": "Loss of long arms",
+     "e": "Wrong. Short arms lost."
+    },
+    {
+     "t": "Fusion of long arms of two acrocentric chromosomes, total number 45",
+     "e": "Correct. Functionally balanced."
+    },
+    {
+     "t": "Extra chromosome",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Translocation"
+  },
+  {
+   "q": "Which are acrocentric chromosomes?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1, 2, 3, 4, 5",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "13, 14, 15, 21, 22",
+     "e": "Correct. Robertsonian candidates."
+    },
+    {
+     "t": "X and Y",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "16, 17, 18",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Translocation"
+  },
+  {
+   "q": "Edwards syndrome is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Trisomy 18",
+     "e": "Correct. Second most common autosomal trisomy."
+    },
+    {
+     "t": "Trisomy 21",
+     "e": "Wrong. Down."
+    },
+    {
+     "t": "Trisomy 13",
+     "e": "Wrong. Patau."
+    },
+    {
+     "t": "45,X",
+     "e": "Wrong. Turner."
+    }
+   ],
+   "topic": "Edwards"
+  },
+  {
+   "q": "Features of trisomy 18 include:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Webbed neck and short stature",
+     "e": "Wrong. Turner."
+    },
+    {
+     "t": "Orofacial clefts and polydactyly",
+     "e": "Wrong. Patau."
+    },
+    {
+     "t": "Tall stature with hypogonadism",
+     "e": "Wrong. Klinefelter."
+    },
+    {
+     "t": "Short sternum, small mouth, clenched hands, omphalocele",
+     "e": "Correct. Severe malformations."
+    }
+   ],
+   "topic": "Edwards"
+  },
+  {
+   "q": "Edwards syndrome survival: about ___ die within weeks.",
+   "correct": 2,
+   "options": [
+    {
+     "t": "5%",
+     "e": "Wrong. Too low."
+    },
+    {
+     "t": "95%",
+     "e": "Wrong. Patau in first year."
+    },
+    {
+     "t": "50%",
+     "e": "Correct. Only 5-8% survive to 12 months."
+    },
+    {
+     "t": "0%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Edwards"
+  },
+  {
+   "q": "Patau syndrome is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Trisomy 18",
+     "e": "Wrong. Edwards."
+    },
+    {
+     "t": "Trisomy 13",
+     "e": "Correct. About 1 per 10,000 births."
+    },
+    {
+     "t": "Trisomy 21",
+     "e": "Wrong. Down."
+    },
+    {
+     "t": "47,XXY",
+     "e": "Wrong. Klinefelter."
+    }
+   ],
+   "topic": "Patau"
+  },
+  {
+   "q": "Features of Patau syndrome include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Orofacial clefts, microphthalmia and postaxial polydactyly",
+     "e": "Correct. Distinctive pattern."
+    },
+    {
+     "t": "Webbed neck",
+     "e": "Wrong. Turner."
+    },
+    {
+     "t": "Gynecomastia",
+     "e": "Wrong. Klinefelter."
+    },
+    {
+     "t": "Single palmar crease only",
+     "e": "Wrong. Not specific."
+    }
+   ],
+   "topic": "Patau"
+  },
+  {
+   "q": "Turner syndrome karyotype is typically:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "47,XXY",
+     "e": "Wrong. Klinefelter."
+    },
+    {
+     "t": "47,XXX",
+     "e": "Wrong. Triple X."
+    },
+    {
+     "t": "47,XYY",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "45,X",
+     "e": "Correct. Monosomy X."
+    }
+   ],
+   "topic": "Turner"
+  },
+  {
+   "q": "Features of Turner syndrome include:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Tall stature",
+     "e": "Wrong. Klinefelter."
+    },
+    {
+     "t": "Severe intellectual disability",
+     "e": "Wrong. Intelligence usually normal."
+    },
+    {
+     "t": "Short stature, neck webbing, streak gonads, coarctation of aorta",
+     "e": "Correct. Gonadal dysgenesis."
+    },
+    {
+     "t": "Normal ovaries",
+     "e": "Wrong. Streak gonads."
+    }
+   ],
+   "topic": "Turner"
+  },
+  {
+   "q": "Turner mosaics with Y material are predisposed to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Leukemia",
+     "e": "Wrong. Down."
+    },
+    {
+     "t": "Gonadoblastoma",
+     "e": "Correct. In streak tissue."
+    },
+    {
+     "t": "Cardiac failure",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Osteoporosis only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Turner"
+  },
+  {
+   "q": "Treatment of Turner syndrome includes:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Growth hormone and estrogen replacement",
+     "e": "Correct. Secondary sexual characteristics and bone."
+    },
+    {
+     "t": "Testosterone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Thyroidectomy",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chemotherapy",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Turner"
+  },
+  {
+   "q": "Klinefelter syndrome is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "45,X",
+     "e": "Wrong. Turner."
+    },
+    {
+     "t": "Trisomy 21",
+     "e": "Wrong. Down."
+    },
+    {
+     "t": "47,XYY only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "47,XXY with primary hypogonadism and tall stature",
+     "e": "Correct. Often found in fertility clinics."
+    }
+   ],
+   "topic": "Klinefelter"
+  },
+  {
+   "q": "Sex chromosome aneuploidies are less severe mainly because of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Extra autosomes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mitochondrial inheritance",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "X inactivation",
+     "e": "Correct. Dosage compensation."
+    },
+    {
+     "t": "Imprinting",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Sex chromosomes"
+  },
+  {
+   "q": "47,XXX and 47,XYY are associated with:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Severe malformations",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Slight IQ reduction and few physical problems",
+     "e": "Correct. About 1/1000."
+    },
+    {
+     "t": "Early death",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Complete infertility always",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Sex chromosomes"
+  }
+ ]
+}

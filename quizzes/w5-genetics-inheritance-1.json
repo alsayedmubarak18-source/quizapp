@@ -1,0 +1,606 @@
+{
+ "id": "w5-genetics-inheritance-1",
+ "title": "Autosomal and Sex-Linked Inheritance: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w5-genetics-autosomal-sex-linked",
+ "questions": [
+  {
+   "q": "A heterozygote has:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Two identical alleles",
+     "e": "Wrong. Homozygous."
+    },
+    {
+     "t": "Two different alleles at a locus",
+     "e": "Correct. Aa."
+    },
+    {
+     "t": "One allele at an X-linked locus in a male",
+     "e": "Wrong. Hemizygous."
+    },
+    {
+     "t": "No alleles",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Terms"
+  },
+  {
+   "q": "A male with an X-linked gene is described as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hemizygous",
+     "e": "Correct. One copy."
+    },
+    {
+     "t": "Homozygous",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Heterozygous",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mosaic",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Terms"
+  },
+  {
+   "q": "A carrier is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "An affected person",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A homozygous normal",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A hemizygous male only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "An unaffected heterozygote for a recessive disorder",
+     "e": "Correct. Can transmit the allele."
+    }
+   ],
+   "topic": "Terms"
+  },
+  {
+   "q": "Does severity define dominance?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Yes, severe means dominant",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Yes, always",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No, a severe disorder can still be recessive",
+     "e": "Correct. Dominance concerns heterozygote expression."
+    },
+    {
+     "t": "Only for X-linked",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Terms"
+  },
+  {
+   "q": "A dominant trait is expressed:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only with two copies",
+     "e": "Wrong. Recessive."
+    },
+    {
+     "t": "With only one copy of the allele",
+     "e": "Correct. Heterozygote shows it."
+    },
+    {
+     "t": "Only in males",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Never in heterozygotes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Dominance"
+  },
+  {
+   "q": "In a pedigree a square represents:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "A male",
+     "e": "Correct. Circle is female."
+    },
+    {
+     "t": "A female",
+     "e": "Wrong. Circle."
+    },
+    {
+     "t": "Sex unspecified",
+     "e": "Wrong. Diamond."
+    },
+    {
+     "t": "A deceased person",
+     "e": "Wrong. Slash."
+    }
+   ],
+   "topic": "Pedigree"
+  },
+  {
+   "q": "A double line between partners denotes:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Divorce",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Twins",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Affected status",
+     "e": "Wrong. Shading."
+    },
+    {
+     "t": "Consanguinity",
+     "e": "Correct. Related partners."
+    }
+   ],
+   "topic": "Pedigree"
+  },
+  {
+   "q": "An arrow in a pedigree marks the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Carrier",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Deceased",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Proband",
+     "e": "Correct. Index case."
+    },
+    {
+     "t": "Adopted",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pedigree"
+  },
+  {
+   "q": "In autosomal dominant inheritance, Dd x dd gives affected offspring in:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "25%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "50% of pregnancies",
+     "e": "Correct. Each pregnancy independent."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "0%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "AD"
+  },
+  {
+   "q": "Features of autosomal dominant inheritance include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Successive generations affected and male-to-male transmission possible",
+     "e": "Correct. Both sexes transmit."
+    },
+    {
+     "t": "Skipping generations typical",
+     "e": "Wrong. Recessive."
+    },
+    {
+     "t": "Only males affected",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No male-to-male transmission",
+     "e": "Wrong. Possible in AD."
+    }
+   ],
+   "topic": "AD"
+  },
+  {
+   "q": "Parents: one heterozygous affected, one unaffected, three unaffected children. Risk for the next child:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "0%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "25%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "50%",
+     "e": "Correct. Independent events."
+    }
+   ],
+   "topic": "AD"
+  },
+  {
+   "q": "Two carrier parents of an AR disorder: risk of an affected child is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "50%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "25%",
+     "e": "Correct. Aa x Aa."
+    },
+    {
+     "t": "0%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "AR"
+  },
+  {
+   "q": "One carrier x one non-carrier unaffected parent (AR): children are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "25% affected",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "50% carriers, none affected",
+     "e": "Correct. Aa x AA."
+    },
+    {
+     "t": "All affected",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "All carriers",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "AR"
+  },
+  {
+   "q": "Carrier x affected (AR): each child has:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "50% chance of being affected",
+     "e": "Correct. Aa x aa."
+    },
+    {
+     "t": "25%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "100%",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "0%",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "AR"
+  },
+  {
+   "q": "Cystic fibrosis is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Autosomal dominant",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "X-linked recessive",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Y-linked",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Autosomal recessive",
+     "e": "Correct. Lung and digestive problems."
+    }
+   ],
+   "topic": "AR"
+  },
+  {
+   "q": "Which are X-linked recessive disorders?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cystic fibrosis",
+     "e": "Wrong. AR."
+    },
+    {
+     "t": "Down syndrome",
+     "e": "Wrong. Aneuploidy."
+    },
+    {
+     "t": "Hemophilia, color blindness, Duchenne muscular dystrophy",
+     "e": "Correct. Males more severely affected."
+    },
+    {
+     "t": "Huntington",
+     "e": "Wrong. AD."
+    }
+   ],
+   "topic": "X-linked"
+  },
+  {
+   "q": "X-linked recessive disorders are transmitted:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only father to son",
+     "e": "Wrong. Y-linked."
+    },
+    {
+     "t": "From a carrier mother",
+     "e": "Correct. Males more severely affected."
+    },
+    {
+     "t": "Only from affected mother",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Never to males",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "X-linked"
+  },
+  {
+   "q": "Y-linked (holandric) traits pass:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "From father to all sons",
+     "e": "Correct. Via the Y chromosome."
+    },
+    {
+     "t": "From mother to sons",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "From father to daughters",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "To both sexes equally",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Y-linked"
+  },
+  {
+   "q": "The X chromosome is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Acrocentric",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Smaller than Y",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Gene-poor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Submetacentric with about 900-1400 protein-coding genes",
+     "e": "Correct. Larger than Y."
+    }
+   ],
+   "topic": "X chromosome"
+  },
+  {
+   "q": "X-inactivation is initiated by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "SRY",
+     "e": "Wrong. Y gene."
+    },
+    {
+     "t": "SHOX",
+     "e": "Wrong. Escapes inactivation."
+    },
+    {
+     "t": "XIST long non-coding RNA",
+     "e": "Correct. Coats the same X."
+    },
+    {
+     "t": "AMH",
+     "e": "Wrong. Hormone."
+    }
+   ],
+   "topic": "X inactivation"
+  },
+  {
+   "q": "The inactive X appears as a:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Philadelphia chromosome",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Barr body",
+     "e": "Correct. Condensed in interphase."
+    },
+    {
+     "t": "Ring chromosome",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chiasma",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "X inactivation"
+  },
+  {
+   "q": "Females are mosaics for X-linked expression because:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Either the maternal or paternal X is randomly inactivated in each cell",
+     "e": "Correct. Pattern maintained in daughter cells."
+    },
+    {
+     "t": "They have 3 X chromosomes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Both X always active",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only maternal X inactivated",
+     "e": "Wrong. Random."
+    }
+   ],
+   "topic": "X inactivation"
+  },
+  {
+   "q": "The SHOX gene is in the pseudoautosomal region and:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Is inactivated",
+     "e": "Wrong. Escapes."
+    },
+    {
+     "t": "Determines male sex",
+     "e": "Wrong. SRY."
+    },
+    {
+     "t": "Is only on Y",
+     "e": "Wrong. Both X and Y."
+    },
+    {
+     "t": "Escapes X-inactivation; loss causes short stature of Turner syndrome",
+     "e": "Correct. Skeletal development."
+    }
+   ],
+   "topic": "SHOX"
+  },
+  {
+   "q": "In the indifferent stage the gonads are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Already testes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Already ovaries",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bipotential",
+     "e": "Correct. Can become testes or ovaries."
+    },
+    {
+     "t": "Absent",
+     "e": "Wrong. Genital ridges appear around week 5."
+    }
+   ],
+   "topic": "Sex development"
+  },
+  {
+   "q": "Without AMH the Mullerian ducts develop into:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Epididymis and vas",
+     "e": "Wrong. Wolffian."
+    },
+    {
+     "t": "Uterine tubes, uterus and cervix",
+     "e": "Correct. Female pathway."
+    },
+    {
+     "t": "Prostate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Testes",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Sex development"
+  },
+  {
+   "q": "Male testis development usually begins with:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "SRY on the Y chromosome",
+     "e": "Correct. Testis-determining."
+    },
+    {
+     "t": "WNT4",
+     "e": "Wrong. Female pathway."
+    },
+    {
+     "t": "FOXL2",
+     "e": "Wrong. Female pathway."
+    },
+    {
+     "t": "XIST",
+     "e": "Wrong. X-inactivation."
+    }
+   ],
+   "topic": "Sex development"
+  }
+ ]
+}
