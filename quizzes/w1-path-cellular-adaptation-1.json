@@ -1,0 +1,514 @@
+{
+ "id": "w1-path-cellular-adaptation-1",
+ "title": "Cellular Adaptation: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-pathology-cellular-adaptation",
+ "questions": [
+  {
+   "q": "Cellular adaptation is best defined as:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Irreversible changes leading to cell death",
+     "e": "Wrong. This is cell death."
+    },
+    {
+     "t": "Reversible changes in cell size, number, phenotype, or function in response to stress",
+     "e": "Correct. This is the definition of adaptation."
+    },
+    {
+     "t": "Genetic mutation of cells",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Formation of a tumor",
+     "e": "Wrong. Neoplasia is not adaptation."
+    }
+   ],
+   "topic": "Adaptation"
+  },
+  {
+   "q": "Which is a physiologic adaptation?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Uterine enlargement in pregnancy",
+     "e": "Correct. Hormone (estrogen) stimulation is physiologic."
+    },
+    {
+     "t": "Cardiac hypertrophy in hypertension",
+     "e": "Wrong. This is pathologic."
+    },
+    {
+     "t": "Squamous change in smokers' bronchi",
+     "e": "Wrong. This is pathologic metaplasia."
+    },
+    {
+     "t": "Muscle atrophy after denervation",
+     "e": "Wrong. This is pathologic."
+    }
+   ],
+   "topic": "Adaptation"
+  },
+  {
+   "q": "Hypertrophy is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increase in the number of cells",
+     "e": "Wrong. This is hyperplasia."
+    },
+    {
+     "t": "Decrease in cell size",
+     "e": "Wrong. This is atrophy."
+    },
+    {
+     "t": "Change of cell type",
+     "e": "Wrong. This is metaplasia."
+    },
+    {
+     "t": "Increase in the size of individual cells",
+     "e": "Correct. This enlarges the organ."
+    }
+   ],
+   "topic": "Hypertrophy"
+  },
+  {
+   "q": "The uterus enlarges in pregnancy mainly because of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Atrophy",
+     "e": "Wrong. The uterus gets larger, not smaller."
+    },
+    {
+     "t": "Metaplasia",
+     "e": "Wrong. No cell type change."
+    },
+    {
+     "t": "Hypertrophy due to estrogen",
+     "e": "Correct. Estrogen stimulates smooth muscle growth, with some hyperplasia."
+    },
+    {
+     "t": "Neoplasia",
+     "e": "Wrong. Not a tumor."
+    }
+   ],
+   "topic": "Hypertrophy"
+  },
+  {
+   "q": "A hypertensive patient has a heart wall thicker than 2 cm. Which adaptation is this?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Physiologic hyperplasia",
+     "e": "Wrong. Not about cell number."
+    },
+    {
+     "t": "Pathologic hypertrophy",
+     "e": "Correct. Increased workload thickens the wall."
+    },
+    {
+     "t": "Atrophy",
+     "e": "Wrong. The wall is thicker."
+    },
+    {
+     "t": "Metaplasia",
+     "e": "Wrong. No cell type change."
+    }
+   ],
+   "topic": "Hypertrophy"
+  },
+  {
+   "q": "What is the normal thickness of the left ventricle wall?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "1 to 1.5 cm",
+     "e": "Correct. Hypertrophy is above 2 cm."
+    },
+    {
+     "t": "0.2 to 0.5 cm",
+     "e": "Wrong. Too thin."
+    },
+    {
+     "t": "2 to 3 cm",
+     "e": "Wrong. This is hypertrophic."
+    },
+    {
+     "t": "3 to 4 cm",
+     "e": "Wrong. Far above normal."
+    }
+   ],
+   "topic": "Hypertrophy"
+  },
+  {
+   "q": "Cardiac hypertrophy mechanism involves:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increased cell division",
+     "e": "Wrong. This describes hyperplasia."
+    },
+    {
+     "t": "Increased protein degradation",
+     "e": "Wrong. This causes atrophy."
+    },
+    {
+     "t": "Loss of nuclei",
+     "e": "Wrong. Not part of hypertrophy."
+    },
+    {
+     "t": "Increased protein synthesis",
+     "e": "Correct. Signaling pathways raise protein synthesis, enlarging cells."
+    }
+   ],
+   "topic": "Hypertrophy"
+  },
+  {
+   "q": "Hyperplasia can occur only in tissues that:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Are made of permanent cells",
+     "e": "Wrong. Permanent cells cannot divide."
+    },
+    {
+     "t": "Have a high blood supply only",
+     "e": "Wrong. Not the requirement."
+    },
+    {
+     "t": "Have cells capable of replication",
+     "e": "Correct. Proliferation is required."
+    },
+    {
+     "t": "Are malignant",
+     "e": "Wrong. Hyperplasia is not neoplasia."
+    }
+   ],
+   "topic": "Hyperplasia"
+  },
+  {
+   "q": "Liver regeneration after partial hepatectomy is an example of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Pathologic hyperplasia",
+     "e": "Wrong. Not a pathologic stimulus."
+    },
+    {
+     "t": "Compensatory hyperplasia",
+     "e": "Correct. Residual hepatocytes proliferate."
+    },
+    {
+     "t": "Hormonal hyperplasia",
+     "e": "Wrong. Driven by growth factors."
+    },
+    {
+     "t": "Metaplasia",
+     "e": "Wrong. No change of cell type."
+    }
+   ],
+   "topic": "Hyperplasia"
+  },
+  {
+   "q": "Postpartum breast enlargement is an example of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Hormone-induced physiologic hyperplasia",
+     "e": "Correct. Ductal epithelium proliferates."
+    },
+    {
+     "t": "Pathologic hypertrophy",
+     "e": "Wrong. Not pathologic."
+    },
+    {
+     "t": "Atrophy",
+     "e": "Wrong. The breast enlarges."
+    },
+    {
+     "t": "Neoplasia",
+     "e": "Wrong. Not a tumor."
+    }
+   ],
+   "topic": "Hyperplasia"
+  },
+  {
+   "q": "Endometrial hyperplasia results from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Androgens",
+     "e": "Wrong. This causes BPH."
+    },
+    {
+     "t": "Chronic reflux",
+     "e": "Wrong. This causes columnar metaplasia of the esophagus."
+    },
+    {
+     "t": "Reduced blood supply",
+     "e": "Wrong. This causes atrophy."
+    },
+    {
+     "t": "Disturbed estrogen-progesterone balance",
+     "e": "Correct. Excess or inappropriate hormonal stimulation."
+    }
+   ],
+   "topic": "Hyperplasia"
+  },
+  {
+   "q": "Persistent pathologic endometrial hyperplasia carries a risk of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Squamous carcinoma of the lung",
+     "e": "Wrong. Linked to bronchial metaplasia."
+    },
+    {
+     "t": "Barrett's adenocarcinoma",
+     "e": "Wrong. Linked to esophageal metaplasia."
+    },
+    {
+     "t": "Endometrial carcinoma",
+     "e": "Correct. It can set the stage for cancer."
+    },
+    {
+     "t": "No risk",
+     "e": "Wrong. Pathologic hyperplasia has malignant potential."
+    }
+   ],
+   "topic": "Hyperplasia"
+  },
+  {
+   "q": "BPH is induced by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Estrogen",
+     "e": "Wrong. This acts on the endometrium."
+    },
+    {
+     "t": "Androgens",
+     "e": "Correct. This causes glandular and stromal proliferation."
+    },
+    {
+     "t": "Insulin",
+     "e": "Wrong. Not the cause."
+    },
+    {
+     "t": "Cortisol",
+     "e": "Wrong. Not the cause."
+    }
+   ],
+   "topic": "Hyperplasia"
+  },
+  {
+   "q": "BPH predisposes to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Urinary obstruction and infections",
+     "e": "Correct. Enlarged prostate blocks urine flow."
+    },
+    {
+     "t": "Renal agenesis",
+     "e": "Wrong. Not related."
+    },
+    {
+     "t": "Bone atrophy",
+     "e": "Wrong. Not related."
+    },
+    {
+     "t": "Hypospadias",
+     "e": "Wrong. A congenital defect."
+    }
+   ],
+   "topic": "Hyperplasia"
+  },
+  {
+   "q": "Hyperplasia differs from neoplasia because it is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Always malignant",
+     "e": "Wrong. It is not."
+    },
+    {
+     "t": "Autonomous",
+     "e": "Wrong. Neoplasia is autonomous."
+    },
+    {
+     "t": "Irreversible",
+     "e": "Wrong. It is reversible."
+    },
+    {
+     "t": "Reversible once the stimulus is removed",
+     "e": "Correct. Growth regresses without the signal."
+    }
+   ],
+   "topic": "Hyperplasia"
+  },
+  {
+   "q": "Atrophy is a decrease in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cell size only",
+     "e": "Wrong. Number can fall also."
+    },
+    {
+     "t": "Cell number only",
+     "e": "Wrong. Size falls too."
+    },
+    {
+     "t": "Cell size and number",
+     "e": "Correct. The organ shrinks."
+    },
+    {
+     "t": "Blood supply only",
+     "e": "Wrong. This is a cause, not the definition."
+    }
+   ],
+   "topic": "Atrophy"
+  },
+  {
+   "q": "Which mechanism leads to atrophy?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increased protein synthesis",
+     "e": "Wrong. This causes hypertrophy."
+    },
+    {
+     "t": "Decreased protein synthesis and increased degradation",
+     "e": "Correct. This shrinks the cell."
+    },
+    {
+     "t": "Increased DNA replication",
+     "e": "Wrong. This causes hyperplasia."
+    },
+    {
+     "t": "Increased ATP",
+     "e": "Wrong. Not a mechanism."
+    }
+   ],
+   "topic": "Atrophy"
+  },
+  {
+   "q": "Which is a cause of atrophy?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Immobilization of a limb",
+     "e": "Correct. Decreased workload causes disuse atrophy."
+    },
+    {
+     "t": "Increased hormone stimulation",
+     "e": "Wrong. This causes growth."
+    },
+    {
+     "t": "Chronic smoking",
+     "e": "Wrong. This causes metaplasia."
+    },
+    {
+     "t": "Weight lifting",
+     "e": "Wrong. This causes hypertrophy."
+    }
+   ],
+   "topic": "Atrophy"
+  },
+  {
+   "q": "Breast and endometrial atrophy in menopause are due to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increased workload",
+     "e": "Wrong. Not applicable."
+    },
+    {
+     "t": "Chronic irritation",
+     "e": "Wrong. Not applicable."
+    },
+    {
+     "t": "Genetic mutation",
+     "e": "Wrong. Not applicable."
+    },
+    {
+     "t": "Loss of hormonal stimulation",
+     "e": "Correct. Estrogen falls after menopause."
+    }
+   ],
+   "topic": "Atrophy"
+  },
+  {
+   "q": "Metaplasia is defined as:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Increase in cell number",
+     "e": "Wrong. This is hyperplasia."
+    },
+    {
+     "t": "Decrease in cell size",
+     "e": "Wrong. This is atrophy."
+    },
+    {
+     "t": "Change of one adult cell type to another",
+     "e": "Correct. The new type is better able to survive stress."
+    },
+    {
+     "t": "Disorganized growth of cells",
+     "e": "Wrong. This is dysplasia."
+    }
+   ],
+   "topic": "Metaplasia"
+  },
+  {
+   "q": "In chronic smokers, bronchial columnar epithelium is replaced by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Transitional epithelium",
+     "e": "Wrong. Not the change seen."
+    },
+    {
+     "t": "Squamous epithelium",
+     "e": "Correct. This is squamous metaplasia."
+    },
+    {
+     "t": "Cuboidal epithelium",
+     "e": "Wrong. Not the change seen."
+    },
+    {
+     "t": "Glandular epithelium",
+     "e": "Wrong. The bronchus is already columnar."
+    }
+   ],
+   "topic": "Metaplasia"
+  },
+  {
+   "q": "Barrett's esophagus results from chronic reflux and shows:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Squamous replaced by columnar epithelium",
+     "e": "Correct. Persistent stimulus raises adenocarcinoma risk."
+    },
+    {
+     "t": "Columnar replaced by squamous epithelium",
+     "e": "Wrong. This is the bronchial change."
+    },
+    {
+     "t": "Atrophy of the mucosa",
+     "e": "Wrong. Not described."
+    },
+    {
+     "t": "Hyperplasia of squamous cells",
+     "e": "Wrong. Not described."
+    }
+   ],
+   "topic": "Metaplasia"
+  }
+ ]
+}

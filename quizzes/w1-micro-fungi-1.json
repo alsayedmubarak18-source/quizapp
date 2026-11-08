@@ -1,0 +1,514 @@
+{
+ "id": "w1-micro-fungi-1",
+ "title": "Fungi: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-microbiology-fungi",
+ "questions": [
+  {
+   "q": "Fungal cell walls contain:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Chitin and beta-glucan",
+     "e": "Correct. These are key wall components."
+    },
+    {
+     "t": "Peptidoglycan",
+     "e": "Wrong. Bacterial wall."
+    },
+    {
+     "t": "Cholesterol only",
+     "e": "Wrong. Not the wall component."
+    },
+    {
+     "t": "Teichoic acid only",
+     "e": "Wrong. Gram positive bacteria."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "The fungal plasma membrane contains:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cholesterol only",
+     "e": "Wrong. Animal cells."
+    },
+    {
+     "t": "Lipopolysaccharide",
+     "e": "Wrong. Gram-negative outer membrane."
+    },
+    {
+     "t": "Mycolic acid",
+     "e": "Wrong. Mycobacteria."
+    },
+    {
+     "t": "Ergosterol",
+     "e": "Correct. This is why many antibiotics do not work on fungi."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Fungal ribosomes are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "70S",
+     "e": "Wrong. Bacterial."
+    },
+    {
+     "t": "60S",
+     "e": "Wrong. Not a ribosome type."
+    },
+    {
+     "t": "80S",
+     "e": "Correct. Eukaryotic."
+    },
+    {
+     "t": "50S",
+     "e": "Wrong. Bacterial subunit."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "All fungi are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Autotrophs",
+     "e": "Wrong. They cannot photosynthesize."
+    },
+    {
+     "t": "Heterotrophs and essentially aerobic",
+     "e": "Correct. They have limited anaerobic ability."
+    },
+    {
+     "t": "Obligate anaerobes",
+     "e": "Wrong. Mostly aerobic."
+    },
+    {
+     "t": "Acellular",
+     "e": "Wrong. They are eukaryotic cells."
+    }
+   ],
+   "topic": "Physiology"
+  },
+  {
+   "q": "Fungi are best described as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Eukaryotic microorganisms",
+     "e": "Correct. They have chromosomes, ribosomes, mitochondria."
+    },
+    {
+     "t": "Prokaryotes",
+     "e": "Wrong. Bacteria."
+    },
+    {
+     "t": "Acellular agents",
+     "e": "Wrong. Viruses."
+    },
+    {
+     "t": "Plants",
+     "e": "Wrong. Fungi are a separate kingdom."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Pityriasis versicolor is an example of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Subcutaneous mycosis",
+     "e": "Wrong. Mycetoma."
+    },
+    {
+     "t": "Systemic mycosis",
+     "e": "Wrong. Histoplasmosis."
+    },
+    {
+     "t": "Mycotoxicosis",
+     "e": "Wrong. Toxin ingestion."
+    },
+    {
+     "t": "Superficial mycosis",
+     "e": "Correct. Affects skin, hair or nails."
+    }
+   ],
+   "topic": "Mycoses"
+  },
+  {
+   "q": "Mycetoma is an example of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Superficial mycosis",
+     "e": "Wrong. Pityriasis versicolor."
+    },
+    {
+     "t": "Systemic mycosis",
+     "e": "Wrong. Histoplasmosis."
+    },
+    {
+     "t": "Subcutaneous mycosis (implantation)",
+     "e": "Correct. Also called mycosis of implantation."
+    },
+    {
+     "t": "Opportunistic mycosis",
+     "e": "Wrong. Occurs in immunosuppression."
+    }
+   ],
+   "topic": "Mycoses"
+  },
+  {
+   "q": "Histoplasmosis is a:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Superficial mycosis",
+     "e": "Wrong. Skin only."
+    },
+    {
+     "t": "Systemic (deep) mycosis",
+     "e": "Correct. Deep infection."
+    },
+    {
+     "t": "Mycotoxicosis",
+     "e": "Wrong. Toxins."
+    },
+    {
+     "t": "Subcutaneous mycosis",
+     "e": "Wrong. Implantation."
+    }
+   ],
+   "topic": "Mycoses"
+  },
+  {
+   "q": "Mycotoxicosis is caused by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Toxins in mouldy food",
+     "e": "Correct. For example aflatoxins."
+    },
+    {
+     "t": "Fungal invasion of deep organs",
+     "e": "Wrong. Systemic mycosis."
+    },
+    {
+     "t": "Fungi in skin",
+     "e": "Wrong. Superficial mycosis."
+    },
+    {
+     "t": "Fungal implantation after trauma",
+     "e": "Wrong. Subcutaneous mycosis."
+    }
+   ],
+   "topic": "Mycoses"
+  },
+  {
+   "q": "Aflatoxin is produced by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Candida albicans",
+     "e": "Wrong. Not an aflatoxin producer."
+    },
+    {
+     "t": "Histoplasma",
+     "e": "Wrong. Systemic pathogen."
+    },
+    {
+     "t": "Penicillium",
+     "e": "Wrong. Produces penicillin."
+    },
+    {
+     "t": "Aspergillus flavus on peanuts and grains",
+     "e": "Correct. In damp humid storage."
+    }
+   ],
+   "topic": "Mycoses"
+  },
+  {
+   "q": "Opportunistic mycoses occur in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Healthy individuals only",
+     "e": "Wrong. They need a weakened host."
+    },
+    {
+     "t": "Only plants",
+     "e": "Wrong. Not relevant."
+    },
+    {
+     "t": "Patients with immunosuppression",
+     "e": "Correct. Underlying conditions cause susceptibility."
+    },
+    {
+     "t": "Neonates only",
+     "e": "Wrong. Not specific."
+    }
+   ],
+   "topic": "Mycoses"
+  },
+  {
+   "q": "A hypha is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A mass of interwoven filaments",
+     "e": "Wrong. That is a mycelium."
+    },
+    {
+     "t": "A microscopic branching filament that may be septate or non-septate",
+     "e": "Correct. The building block of a mould."
+    },
+    {
+     "t": "A spore produced by budding",
+     "e": "Wrong. Blastospore."
+    },
+    {
+     "t": "A resting stage",
+     "e": "Wrong. Chlamydospore."
+    }
+   ],
+   "topic": "Morphology"
+  },
+  {
+   "q": "A visible mass of interwoven hyphae is called:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Mycelium",
+     "e": "Correct. It is visible to the eye."
+    },
+    {
+     "t": "Hypha",
+     "e": "Wrong. Microscopic filament."
+    },
+    {
+     "t": "Conidium",
+     "e": "Wrong. A spore."
+    },
+    {
+     "t": "Yeast",
+     "e": "Wrong. A budding unicellular fungus."
+    }
+   ],
+   "topic": "Morphology"
+  },
+  {
+   "q": "A yeast reproduces by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Binary fission",
+     "e": "Wrong. Bacteria."
+    },
+    {
+     "t": "Conjugation via pili",
+     "e": "Wrong. Bacteria."
+    },
+    {
+     "t": "Hyphal fragmentation only",
+     "e": "Wrong. Not typical for yeasts."
+    },
+    {
+     "t": "Budding",
+     "e": "Correct. It forms blastospores."
+    }
+   ],
+   "topic": "Morphology"
+  },
+  {
+   "q": "Dimorphism in fungi means:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Two nuclei per cell",
+     "e": "Wrong. Not the meaning."
+    },
+    {
+     "t": "Two cell walls",
+     "e": "Wrong. Not the meaning."
+    },
+    {
+     "t": "A fungus occurs in two different forms",
+     "e": "Correct. Mould and yeast forms."
+    },
+    {
+     "t": "Two spore types only",
+     "e": "Wrong. Not the meaning."
+    }
+   ],
+   "topic": "Morphology"
+  },
+  {
+   "q": "A resting spore formed when a cell swells and develops a thick wall is a:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Arthrospore",
+     "e": "Wrong. Formed by septation and fragmentation of a hypha."
+    },
+    {
+     "t": "Chlamydospore",
+     "e": "Correct. It is a thick-walled resistant stage."
+    },
+    {
+     "t": "Blastospore",
+     "e": "Wrong. Formed by budding."
+    },
+    {
+     "t": "Sporangiospore",
+     "e": "Wrong. Formed inside a sporangium."
+    }
+   ],
+   "topic": "Spores"
+  },
+  {
+   "q": "An arthrospore is formed by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Septation followed by fragmentation of a hypha",
+     "e": "Correct. This describes arthrospore."
+    },
+    {
+     "t": "Budding of a yeast cell",
+     "e": "Wrong. Blastospore."
+    },
+    {
+     "t": "Swelling with a thick wall",
+     "e": "Wrong. Chlamydospore."
+    },
+    {
+     "t": "Production inside a sporangium",
+     "e": "Wrong. Sporangiospore."
+    }
+   ],
+   "topic": "Spores"
+  },
+  {
+   "q": "A conidium is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A spore produced within a sporangium",
+     "e": "Wrong. Sporangiospore."
+    },
+    {
+     "t": "A single yeast bud",
+     "e": "Wrong. Blastospore."
+    },
+    {
+     "t": "A thick-walled resting cell",
+     "e": "Wrong. Chlamydospore."
+    },
+    {
+     "t": "An external spore produced on a conidiophore",
+     "e": "Correct. Important in identification."
+    }
+   ],
+   "topic": "Spores"
+  },
+  {
+   "q": "Sporangiospores are produced:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Externally on a conidiophore",
+     "e": "Wrong. Conidia."
+    },
+    {
+     "t": "By budding",
+     "e": "Wrong. Blastospores."
+    },
+    {
+     "t": "Within a swollen sporangium on a sporangiophore",
+     "e": "Correct. Internal spore formation."
+    },
+    {
+     "t": "By hyphal fragmentation",
+     "e": "Wrong. Arthrospores."
+    }
+   ],
+   "topic": "Spores"
+  },
+  {
+   "q": "Which phylum is characterized by sexual ascospores?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Basidiomycota",
+     "e": "Wrong. Basidiospores."
+    },
+    {
+     "t": "Ascomycota",
+     "e": "Correct. Class Ascomycetes."
+    },
+    {
+     "t": "Zygomycota",
+     "e": "Wrong. Zygospores."
+    },
+    {
+     "t": "Fungi Imperfecti",
+     "e": "Wrong. No sexual stage observed."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Basidiomycota form which sexual spores?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Basidiospores",
+     "e": "Correct. Class Basidiomycetes."
+    },
+    {
+     "t": "Ascospores",
+     "e": "Wrong. Ascomycota."
+    },
+    {
+     "t": "Zygospores",
+     "e": "Wrong. Zygomycota."
+    },
+    {
+     "t": "Sporangiospores",
+     "e": "Wrong. Asexual."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Fungi are classified mainly on the basis of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Gram stain",
+     "e": "Wrong. Bacteria."
+    },
+    {
+     "t": "Capsid symmetry",
+     "e": "Wrong. Viruses."
+    },
+    {
+     "t": "Baltimore class",
+     "e": "Wrong. Viruses."
+    },
+    {
+     "t": "Sexual, asexual or combined reproduction",
+     "e": "Correct. This divides them into four groups."
+    }
+   ],
+   "topic": "Classification"
+  }
+ ]
+}

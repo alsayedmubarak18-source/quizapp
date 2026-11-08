@@ -1,0 +1,468 @@
+{
+ "id": "w1-path-cell-injury-1",
+ "title": "Cell Injury: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-pathology-cell-injury",
+ "questions": [
+  {
+   "q": "Cells respond to stress in three main ways. Which list is correct?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Adaptation, regeneration, fibrosis",
+     "e": "Wrong. Regeneration and fibrosis are repair outcomes, not responses to stress."
+    },
+    {
+     "t": "Adaptation, reversible injury, cell death",
+     "e": "Correct. These are the three outcomes of cell stress."
+    },
+    {
+     "t": "Hypertrophy, hyperplasia, atrophy",
+     "e": "Wrong. These are only types of adaptation."
+    },
+    {
+     "t": "Necrosis, apoptosis, autolysis",
+     "e": "Wrong. These are only forms of cell death."
+    }
+   ],
+   "topic": "Cell response"
+  },
+  {
+   "q": "Which statement best defines hypoxia as a cause of cell injury?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Loss of aerobic oxidative respiration",
+     "e": "Correct. Hypoxia means reduced oxygen supply that impairs aerobic respiration."
+    },
+    {
+     "t": "Loss of blood supply to a tissue",
+     "e": "Wrong. That is ischemia, a different term."
+    },
+    {
+     "t": "Damage by temperature or radiation",
+     "e": "Wrong. That is injury by physical agents."
+    },
+    {
+     "t": "Excess intake of nutrients",
+     "e": "Wrong. That is a nutritional imbalance."
+    }
+   ],
+   "topic": "Causes of injury"
+  },
+  {
+   "q": "A farmer is exposed to a pesticide and develops liver cell injury. Which cause of cell injury is this?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Physical agents",
+     "e": "Wrong. Physical agents include trauma, temperature, and radiation."
+    },
+    {
+     "t": "Immunologic reaction",
+     "e": "Wrong. An immune mechanism is not involved here."
+    },
+    {
+     "t": "Genetic derangement",
+     "e": "Wrong. No inherited defect is described."
+    },
+    {
+     "t": "Chemical agents and toxins",
+     "e": "Correct. Pesticides are chemical agents."
+    }
+   ],
+   "topic": "Causes of injury"
+  },
+  {
+   "q": "Which of the following is a key difference between ischemia and hypoxia?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Ischemia is low oxygen, hypoxia is loss of blood supply",
+     "e": "Wrong. The definitions are reversed."
+    },
+    {
+     "t": "They are identical terms",
+     "e": "Wrong. They are related but not identical."
+    },
+    {
+     "t": "Ischemia is loss of blood supply, hypoxia is low oxygen",
+     "e": "Correct. Ischemia removes blood flow, so it also cuts nutrients and removes waste."
+    },
+    {
+     "t": "Hypoxia always causes necrosis, ischemia never does",
+     "e": "Wrong. Both can be reversible or irreversible depending on severity."
+    }
+   ],
+   "topic": "Causes of injury"
+  },
+  {
+   "q": "What does the term 'gross features' of a disease refer to?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Changes seen only under light microscopy",
+     "e": "Wrong. These are microscopic features."
+    },
+    {
+     "t": "Changes visible to the naked eye in size, colour, consistency",
+     "e": "Correct. Gross means macroscopic."
+    },
+    {
+     "t": "Changes in serum markers",
+     "e": "Wrong. These are laboratory findings."
+    },
+    {
+     "t": "Changes in clinical symptoms",
+     "e": "Wrong. These are clinical manifestations."
+    }
+   ],
+   "topic": "Morphology"
+  },
+  {
+   "q": "Which pair of mechanisms is among the main abnormalities in cell injury?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "ATP depletion and damage to DNA, proteins and membranes",
+     "e": "Correct. Both are listed as core mechanisms of injury."
+    },
+    {
+     "t": "Increased ATP and reduced calcium",
+     "e": "Wrong. Injury lowers ATP and raises intracellular calcium."
+    },
+    {
+     "t": "Increased protein synthesis and DNA repair",
+     "e": "Wrong. These are not the main injury mechanisms."
+    },
+    {
+     "t": "Reduced membrane permeability and mitochondrial gain",
+     "e": "Wrong. Injury increases permeability and impairs mitochondria."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "ATP depletion most directly impairs which structure?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cell wall",
+     "e": "Wrong. Human cells have no cell wall."
+    },
+    {
+     "t": "Ribosomal RNA sequence",
+     "e": "Wrong. ATP loss does not alter RNA sequence."
+    },
+    {
+     "t": "Hemoglobin binding of oxygen",
+     "e": "Wrong. This does not depend on cellular ATP."
+    },
+    {
+     "t": "Na+/K+ ATPase pump",
+     "e": "Correct. This pump is ATP-dependent, so its failure causes ionic imbalance."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "A rise in intracellular calcium activates which enzyme that degrades membrane phospholipids?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Endonucleases",
+     "e": "Wrong. These cause DNA injury."
+    },
+    {
+     "t": "Proteases",
+     "e": "Wrong. These break cellular proteins."
+    },
+    {
+     "t": "Phospholipases",
+     "e": "Correct. Phospholipases break down membrane phospholipids."
+    },
+    {
+     "t": "ATPase",
+     "e": "Wrong. This causes further ATP depletion."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Increased intracellular calcium activates endonucleases. What is the consequence?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Membrane phospholipid loss",
+     "e": "Wrong. This is due to phospholipases."
+    },
+    {
+     "t": "DNA injury",
+     "e": "Correct. Endonucleases fragment DNA."
+    },
+    {
+     "t": "Protein breakdown",
+     "e": "Wrong. This is due to proteases."
+    },
+    {
+     "t": "Glycogen storage",
+     "e": "Wrong. Not related to calcium-activated endonucleases."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Which protein released from damaged mitochondria triggers apoptosis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Cytochrome c",
+     "e": "Correct. Its release is a trigger for apoptosis."
+    },
+    {
+     "t": "Caspase inhibitor",
+     "e": "Wrong. This blocks, not triggers, apoptosis."
+    },
+    {
+     "t": "Troponin",
+     "e": "Wrong. This is a cardiac injury marker."
+    },
+    {
+     "t": "Albumin",
+     "e": "Wrong. A plasma protein, unrelated."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Which of the following is an early change in reversible cell injury?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Nuclear fragmentation",
+     "e": "Wrong. This marks irreversible injury."
+    },
+    {
+     "t": "Complete nuclear dissolution",
+     "e": "Wrong. Karyolysis is a necrotic change."
+    },
+    {
+     "t": "Membrane rupture",
+     "e": "Wrong. This is a feature of irreversible injury."
+    },
+    {
+     "t": "Changes mainly in the cytoplasm, not the nucleus",
+     "e": "Correct. Early reversible changes are cytoplasmic; nuclear damage is usually irreversible."
+    }
+   ],
+   "topic": "Reversible injury"
+  },
+  {
+   "q": "What are the two patterns of reversible cell injury?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Pyknosis and karyolysis",
+     "e": "Wrong. These are nuclear changes in necrosis."
+    },
+    {
+     "t": "Hypertrophy and atrophy",
+     "e": "Wrong. These are adaptations."
+    },
+    {
+     "t": "Cellular swelling and fatty change",
+     "e": "Correct. These are the two recognized patterns."
+    },
+    {
+     "t": "Apoptosis and necrosis",
+     "e": "Wrong. These are forms of cell death."
+    }
+   ],
+   "topic": "Reversible injury"
+  },
+  {
+   "q": "Cellular swelling (hydropic degeneration) is due to failure of which mechanism?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Calcium release from stores",
+     "e": "Wrong. This is not the cause of swelling."
+    },
+    {
+     "t": "ATP-dependent Na+/K+ pump",
+     "e": "Correct. Failure lets Na+ in, and water follows."
+    },
+    {
+     "t": "Glycogen synthesis",
+     "e": "Wrong. Not related."
+    },
+    {
+     "t": "Lysosomal exocytosis",
+     "e": "Wrong. Not the primary cause."
+    }
+   ],
+   "topic": "Cellular swelling"
+  },
+  {
+   "q": "In cellular swelling, why does water enter the cell?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Water follows the Na+ that has entered the cell",
+     "e": "Correct. Osmotic imbalance draws water in."
+    },
+    {
+     "t": "Because K+ enters the cell",
+     "e": "Wrong. K+ is lost from the cell."
+    },
+    {
+     "t": "Because ATP production increases",
+     "e": "Wrong. ATP generation falls."
+    },
+    {
+     "t": "Because lipids accumulate",
+     "e": "Wrong. This describes fatty change."
+    }
+   ],
+   "topic": "Cellular swelling"
+  },
+  {
+   "q": "What is the typical gross appearance of an organ with cellular swelling?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Small and shrunken",
+     "e": "Wrong. This describes atrophy."
+    },
+    {
+     "t": "Yellow and greasy",
+     "e": "Wrong. This describes fatty change."
+    },
+    {
+     "t": "Chalky white",
+     "e": "Wrong. This describes fat necrosis."
+    },
+    {
+     "t": "Swollen and pale",
+     "e": "Correct. Capillaries are compressed, making the organ pale."
+    }
+   ],
+   "topic": "Cellular swelling"
+  },
+  {
+   "q": "Microscopy of renal tubules after hypotension shows swollen cells with small clear vacuoles and normal nuclei. The diagnosis is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Coagulative necrosis",
+     "e": "Wrong. Nuclei would be lost."
+    },
+    {
+     "t": "Fatty change",
+     "e": "Wrong. Fatty change has lipid vacuoles, typically in hepatocytes."
+    },
+    {
+     "t": "Hydropic degeneration",
+     "e": "Correct. Clear vacuoles with intact nuclei indicate reversible swelling."
+    },
+    {
+     "t": "Apoptosis",
+     "e": "Wrong. Apoptosis shows shrunken cells."
+    }
+   ],
+   "topic": "Cellular swelling"
+  },
+  {
+   "q": "A chronic alcoholic dies. The liver is enlarged, yellow with a greasy cut surface. What is the most likely change?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cellular swelling",
+     "e": "Wrong. The organ would be pale, not yellow and greasy."
+    },
+    {
+     "t": "Fatty change (steatosis)",
+     "e": "Correct. Triglyceride-filled vacuoles produce a yellow greasy liver."
+    },
+    {
+     "t": "Caseous necrosis",
+     "e": "Wrong. This is cheesy tissue typical of TB."
+    },
+    {
+     "t": "Atrophy",
+     "e": "Wrong. The liver would be small, not enlarged."
+    }
+   ],
+   "topic": "Fatty change"
+  },
+  {
+   "q": "Fatty change is mostly seen in which cells?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Cells participating in fat metabolism, such as hepatocytes",
+     "e": "Correct. Liver and heart are metabolically active organs."
+    },
+    {
+     "t": "Neurons",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "Red blood cells",
+     "e": "Wrong. They have no organelles for this."
+    },
+    {
+     "t": "Squamous epithelium",
+     "e": "Wrong. Not involved in fat metabolism."
+    }
+   ],
+   "topic": "Fatty change"
+  },
+  {
+   "q": "Increased eosinophilia of injured cytoplasm is caused by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Accumulation of calcium",
+     "e": "Wrong. This produces basophilic deposits."
+    },
+    {
+     "t": "Increased nuclear DNA",
+     "e": "Wrong. Not the cause."
+    },
+    {
+     "t": "Fat vacuoles",
+     "e": "Wrong. These appear as clear spaces."
+    },
+    {
+     "t": "Loss of RNA that normally binds hematoxylin",
+     "e": "Correct. Less blue staining makes the cytoplasm look pinker."
+    }
+   ],
+   "topic": "Eosinophilia"
+  },
+  {
+   "q": "Irreversible cell injury results mainly from which two processes?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hypertrophy and hyperplasia",
+     "e": "Wrong. These are adaptations."
+    },
+    {
+     "t": "Cellular swelling and fatty change",
+     "e": "Wrong. These are reversible patterns."
+    },
+    {
+     "t": "Membrane rupture and autolysis by lysosomal enzymes",
+     "e": "Correct. These lead to cell death."
+    },
+    {
+     "t": "Increased ATP and DNA repair",
+     "e": "Wrong. These favour survival."
+    }
+   ],
+   "topic": "Irreversible injury"
+  }
+ ]
+}

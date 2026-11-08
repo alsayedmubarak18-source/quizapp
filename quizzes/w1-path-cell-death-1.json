@@ -1,0 +1,468 @@
+{
+ "id": "w1-path-cell-death-1",
+ "title": "Cell Death: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-pathology-cell-death",
+ "questions": [
+  {
+   "q": "The two main forms of cell death are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Necrosis and apoptosis",
+     "e": "Correct. These are the two major forms."
+    },
+    {
+     "t": "Atrophy and metaplasia",
+     "e": "Wrong. Both are adaptations."
+    },
+    {
+     "t": "Hypertrophy and hyperplasia",
+     "e": "Wrong. Both are adaptations."
+    },
+    {
+     "t": "Autolysis and regeneration",
+     "e": "Wrong. Regeneration is repair, not death."
+    }
+   ],
+   "topic": "Cell death"
+  },
+  {
+   "q": "Which feature best defines necrosis?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Programmed cell suicide without inflammation",
+     "e": "Wrong. This describes apoptosis."
+    },
+    {
+     "t": "Increase in cell number",
+     "e": "Wrong. This is hyperplasia."
+    },
+    {
+     "t": "Change of one adult cell type to another",
+     "e": "Wrong. This is metaplasia."
+    },
+    {
+     "t": "Cells rupture and release contents, causing local inflammation",
+     "e": "Correct. Loss of membrane integrity leads to leakage and inflammation."
+    }
+   ],
+   "topic": "Necrosis"
+  },
+  {
+   "q": "Which sequence of nuclear changes occurs in necrosis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Karyolysis, pyknosis, karyorrhexis",
+     "e": "Wrong. The order is wrong."
+    },
+    {
+     "t": "Karyorrhexis, karyolysis, pyknosis",
+     "e": "Wrong. The order is wrong."
+    },
+    {
+     "t": "Pyknosis, karyorrhexis, karyolysis",
+     "e": "Correct. Shrinkage, then fragmentation, then dissolution."
+    },
+    {
+     "t": "Pyknosis, karyolysis, karyorrhexis",
+     "e": "Wrong. Karyolysis is the last step."
+    }
+   ],
+   "topic": "Necrosis"
+  },
+  {
+   "q": "Pyknosis is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Fragmentation of the nucleus",
+     "e": "Wrong. That is karyorrhexis."
+    },
+    {
+     "t": "Nuclear shrinkage with condensed DNA",
+     "e": "Correct. DNA condenses into a solid shrunken mass."
+    },
+    {
+     "t": "Complete dissolution of the nucleus",
+     "e": "Wrong. That is karyolysis."
+    },
+    {
+     "t": "Cytoplasmic swelling",
+     "e": "Wrong. Not a nuclear change."
+    }
+   ],
+   "topic": "Necrosis"
+  },
+  {
+   "q": "Why do necrotic cells appear more eosinophilic?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Increased binding of eosin to denatured cytoplasmic proteins",
+     "e": "Correct. Denatured proteins take up more eosin."
+    },
+    {
+     "t": "Increased DNA content",
+     "e": "Wrong. DNA binds hematoxylin."
+    },
+    {
+     "t": "Accumulation of lipid",
+     "e": "Wrong. Lipid is washed out as clear space."
+    },
+    {
+     "t": "Calcium salt deposits",
+     "e": "Wrong. Calcium looks basophilic."
+    }
+   ],
+   "topic": "Necrosis"
+  },
+  {
+   "q": "Which pattern of necrosis is characteristic of ischemia in solid organs such as heart and kidney?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Liquefactive necrosis",
+     "e": "Wrong. Typical of infection and brain infarcts."
+    },
+    {
+     "t": "Caseous necrosis",
+     "e": "Wrong. Typical of tuberculosis."
+    },
+    {
+     "t": "Fat necrosis",
+     "e": "Wrong. Typical of pancreatitis."
+    },
+    {
+     "t": "Coagulative necrosis",
+     "e": "Correct. Preserved tissue outlines with loss of nuclei, called infarction."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "Cerebral infarction produces which type of necrosis?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Coagulative necrosis",
+     "e": "Wrong. This is typical of solid organs such as the heart and kidney."
+    },
+    {
+     "t": "Fibrinoid necrosis",
+     "e": "Wrong. Seen in vessel walls in immune reactions."
+    },
+    {
+     "t": "Liquefactive necrosis",
+     "e": "Correct. The brain liquefies even when sterile."
+    },
+    {
+     "t": "Caseous necrosis",
+     "e": "Wrong. Seen in tuberculosis."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "A lung biopsy shows granulomas with cheesy, amorphous granular pink centres. This is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Coagulative necrosis",
+     "e": "Wrong. Outlines would be preserved."
+    },
+    {
+     "t": "Caseous necrosis",
+     "e": "Correct. Characteristic of tuberculosis and some fungal infections."
+    },
+    {
+     "t": "Fat necrosis",
+     "e": "Wrong. Seen with pancreatic lipases."
+    },
+    {
+     "t": "Gangrenous necrosis",
+     "e": "Wrong. A clinical term for limb necrosis."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "Which infection typically produces caseous necrosis?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Tuberculosis",
+     "e": "Correct. Mycobacterial infection gives cheese-like necrosis."
+    },
+    {
+     "t": "Streptococcal pharyngitis",
+     "e": "Wrong. Not typical for caseation."
+    },
+    {
+     "t": "Viral gastroenteritis",
+     "e": "Wrong. Not typical for caseation."
+    },
+    {
+     "t": "Urinary tract infection by E. coli",
+     "e": "Wrong. Usually gives suppuration, not caseation."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "Chalky white lesions in the peritoneum of a patient with acute pancreatitis are due to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Coagulation of proteins",
+     "e": "Wrong. This describes coagulative necrosis."
+    },
+    {
+     "t": "Immune complex deposition",
+     "e": "Wrong. This describes fibrinoid necrosis."
+    },
+    {
+     "t": "Liquefaction by neutrophil enzymes",
+     "e": "Wrong. This is liquefactive necrosis."
+    },
+    {
+     "t": "Fat saponification by calcium combining with fatty acids",
+     "e": "Correct. Released lipases digest fat, and fatty acids bind calcium."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "Fat necrosis microscopically shows:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Preserved outlines of eosinophilic cells with no nuclei",
+     "e": "Wrong. This describes coagulative necrosis."
+    },
+    {
+     "t": "Pink amorphous material in vessel walls",
+     "e": "Wrong. This describes fibrinoid necrosis."
+    },
+    {
+     "t": "Shadowy outlines of fat cells surrounded by basophilic calcium",
+     "e": "Correct. Calcium soaps appear basophilic."
+    },
+    {
+     "t": "Shrunken cells with apoptotic bodies",
+     "e": "Wrong. This describes apoptosis."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "Traumatic fat necrosis is classically seen in which organ?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Kidney",
+     "e": "Wrong. Not the classic site."
+    },
+    {
+     "t": "Breast",
+     "e": "Correct. Trauma to the breast fat causes it."
+    },
+    {
+     "t": "Brain",
+     "e": "Wrong. Brain gives liquefactive necrosis."
+    },
+    {
+     "t": "Spleen",
+     "e": "Wrong. Not the classic site."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "What is the difference between dry and wet gangrene?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Dry stays intact; wet liquefies after bacterial infection",
+     "e": "Correct. Superimposed infection causes liquefaction."
+    },
+    {
+     "t": "Dry is caused by infection, wet by ischemia",
+     "e": "Wrong. Both arise from ischemia; infection makes it wet."
+    },
+    {
+     "t": "Dry occurs in the brain, wet in the limbs",
+     "e": "Wrong. Gangrene typically applies to limbs."
+    },
+    {
+     "t": "They are the same",
+     "e": "Wrong. They differ in appearance and infection."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "Fibrinoid necrosis is most commonly seen in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Tuberculosis",
+     "e": "Wrong. This gives caseous necrosis."
+    },
+    {
+     "t": "Acute pancreatitis",
+     "e": "Wrong. This gives fat necrosis."
+    },
+    {
+     "t": "Cerebral infarct",
+     "e": "Wrong. This gives liquefactive necrosis."
+    },
+    {
+     "t": "Immune-mediated vascular injury",
+     "e": "Correct. Immune complexes and plasma proteins deposit in vessel walls."
+    }
+   ],
+   "topic": "Patterns"
+  },
+  {
+   "q": "Which serum marker is used to diagnose myocardial infarction?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Amylase",
+     "e": "Wrong. A pancreatic marker."
+    },
+    {
+     "t": "ALT",
+     "e": "Wrong. A liver marker."
+    },
+    {
+     "t": "Troponin",
+     "e": "Correct. It leaks from damaged cardiac cells."
+    },
+    {
+     "t": "Lipase",
+     "e": "Wrong. A pancreatic marker."
+    }
+   ],
+   "topic": "Lab diagnosis"
+  },
+  {
+   "q": "Raised amylase and lipase indicate necrosis of which organ?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Heart",
+     "e": "Wrong. Troponin is used for the heart."
+    },
+    {
+     "t": "Pancreas",
+     "e": "Correct. These pancreatic enzymes leak after injury."
+    },
+    {
+     "t": "Liver",
+     "e": "Wrong. AST and ALT are used for the liver."
+    },
+    {
+     "t": "Kidney",
+     "e": "Wrong. Not these enzymes."
+    }
+   ],
+   "topic": "Lab diagnosis"
+  },
+  {
+   "q": "Apoptosis is best described as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Programmed cell death without harmful inflammation",
+     "e": "Correct. Also called cellular suicide."
+    },
+    {
+     "t": "Uncontrolled death from severe injury",
+     "e": "Wrong. This describes necrosis."
+    },
+    {
+     "t": "Reversible cell swelling",
+     "e": "Wrong. This is reversible injury."
+    },
+    {
+     "t": "Replacement of one cell type by another",
+     "e": "Wrong. This is metaplasia."
+    }
+   ],
+   "topic": "Apoptosis"
+  },
+  {
+   "q": "Which enzymes drive apoptosis?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Lipases",
+     "e": "Wrong. Involved in fat necrosis."
+    },
+    {
+     "t": "Amylases",
+     "e": "Wrong. Digestive enzymes."
+    },
+    {
+     "t": "Phospholipases",
+     "e": "Wrong. Involved in membrane injury by calcium."
+    },
+    {
+     "t": "Caspases",
+     "e": "Correct. Their activation leads to nuclease and protease activity."
+    }
+   ],
+   "topic": "Apoptosis"
+  },
+  {
+   "q": "Which are the two pathways of caspase activation?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Coagulative and liquefactive pathways",
+     "e": "Wrong. These are patterns of necrosis."
+    },
+    {
+     "t": "Hypertrophic and hyperplastic pathways",
+     "e": "Wrong. Not apoptosis pathways."
+    },
+    {
+     "t": "Mitochondrial and death receptor pathways",
+     "e": "Correct. These are the two recognized pathways."
+    },
+    {
+     "t": "Intrinsic and idiopathic pathways",
+     "e": "Wrong. Not valid terms."
+    }
+   ],
+   "topic": "Apoptosis"
+  },
+  {
+   "q": "Which is a morphologic feature of apoptosis?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cell swelling and membrane rupture",
+     "e": "Wrong. This describes necrosis."
+    },
+    {
+     "t": "Cell shrinkage and apoptotic bodies",
+     "e": "Correct. Membrane-bound fragments are phagocytosed."
+    },
+    {
+     "t": "Karyolysis with inflammation",
+     "e": "Wrong. This is necrosis."
+    },
+    {
+     "t": "Pus formation",
+     "e": "Wrong. Occurs in liquefactive necrosis."
+    }
+   ],
+   "topic": "Apoptosis"
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "id": "w1-para-intro-1",
+ "title": "Fundamentals of Parasite Biology: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-parasitology-intro",
+ "questions": [
+  {
+   "q": "Parasitism is a type of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Relationship in which both partners benefit",
+     "e": "Wrong. That is mutualism."
+    },
+    {
+     "t": "Relationship in which neither is affected",
+     "e": "Wrong. Not parasitism."
+    },
+    {
+     "t": "Predation with immediate death of the host",
+     "e": "Wrong. Parasites typically live on or within a host."
+    },
+    {
+     "t": "Symbiotic relationship in which one partner benefits and the other is harmed",
+     "e": "Correct. The parasite benefits and the host is harmed."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The organism that is harmed in a parasitic relationship is called the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Parasite",
+     "e": "Wrong. The parasite is the beneficiary."
+    },
+    {
+     "t": "Vector",
+     "e": "Wrong. A carrier, not necessarily the harmed partner."
+    },
+    {
+     "t": "Host",
+     "e": "Correct. The parasite lives on or in the host."
+    },
+    {
+     "t": "Commensal",
+     "e": "Wrong. A commensal is neither harmed nor helped."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Parasites are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Prokaryotes",
+     "e": "Wrong. Bacteria."
+    },
+    {
+     "t": "Eukaryotic organisms with an organized nucleus inside a nuclear membrane",
+     "e": "Correct. This distinguishes them from bacteria."
+    },
+    {
+     "t": "Acellular agents",
+     "e": "Wrong. Viruses."
+    },
+    {
+     "t": "Free-living organisms not dependent on a host",
+     "e": "Wrong. Parasites are metabolically dependent on a host."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The parasite is metabolically dependent on the host and:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Causes harm to this host",
+     "e": "Correct. Part of the definition."
+    },
+    {
+     "t": "Provides nutrients to the host",
+     "e": "Wrong. That would be mutualism."
+    },
+    {
+     "t": "Has no effect on the host",
+     "e": "Wrong. That would be commensalism."
+    },
+    {
+     "t": "Lives only outside the host",
+     "e": "Wrong. Parasites live on or within it."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Endoparasites include:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Mosquitoes and ticks",
+     "e": "Wrong. Ectoparasites."
+    },
+    {
+     "t": "Fleas and lice",
+     "e": "Wrong. Ectoparasites."
+    },
+    {
+     "t": "Mites only",
+     "e": "Wrong. Ectoparasites."
+    },
+    {
+     "t": "Protozoa and helminths",
+     "e": "Correct. Both live inside the host."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Protozoa are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Large multicellular worms",
+     "e": "Wrong. Helminths."
+    },
+    {
+     "t": "Blood-sucking arthropods",
+     "e": "Wrong. Ectoparasites."
+    },
+    {
+     "t": "Microscopic one-celled parasitic organisms",
+     "e": "Correct. Infectious to humans."
+    },
+    {
+     "t": "Acellular particles",
+     "e": "Wrong. Viruses."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Helminths (metazoa) are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Single-celled organisms",
+     "e": "Wrong. Protozoa."
+    },
+    {
+     "t": "Large multicellular organisms",
+     "e": "Correct. They include flat and round worms."
+    },
+    {
+     "t": "Arthropods",
+     "e": "Wrong. Ectoparasites."
+    },
+    {
+     "t": "Prions",
+     "e": "Wrong. Not parasites."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Which two groups of helminths infect humans?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Platyhelminths and Nemathelminthes",
+     "e": "Correct. Flat worms and round worms."
+    },
+    {
+     "t": "Protozoa and arthropods",
+     "e": "Wrong. Not helminth groups."
+    },
+    {
+     "t": "Amoebae and ciliates",
+     "e": "Wrong. Protozoa."
+    },
+    {
+     "t": "Mites and ticks",
+     "e": "Wrong. Ectoparasites."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Platyhelminths include:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Nematodes only",
+     "e": "Wrong. Nemathelminths."
+    },
+    {
+     "t": "Amoebae and flagellates",
+     "e": "Wrong. Protozoa."
+    },
+    {
+     "t": "Lice and fleas",
+     "e": "Wrong. Ectoparasites."
+    },
+    {
+     "t": "Trematodes and cestodes",
+     "e": "Correct. Flukes and tapeworms."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Trematodes are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Segmented flat worms",
+     "e": "Wrong. Cestodes."
+    },
+    {
+     "t": "Round worms",
+     "e": "Wrong. Nematodes."
+    },
+    {
+     "t": "Flatworms (flukes), for example Schistosoma",
+     "e": "Correct. Leaf-like flat worms."
+    },
+    {
+     "t": "Protozoa",
+     "e": "Wrong. One-celled."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Cestodes are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Round worms such as Ascaris",
+     "e": "Wrong. Nematodes."
+    },
+    {
+     "t": "Flat, segmented worms such as Taenia",
+     "e": "Correct. Tapeworms."
+    },
+    {
+     "t": "Flukes such as Schistosoma",
+     "e": "Wrong. Trematodes."
+    },
+    {
+     "t": "Amoebae",
+     "e": "Wrong. Protozoa."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Nematodes are exemplified by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Ascaris and hookworm",
+     "e": "Correct. Round worms."
+    },
+    {
+     "t": "Taenia",
+     "e": "Wrong. A cestode."
+    },
+    {
+     "t": "Schistosoma",
+     "e": "Wrong. A trematode."
+    },
+    {
+     "t": "Entamoeba",
+     "e": "Wrong. A protozoan."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Ascaris is classified as:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cestode",
+     "e": "Wrong. Segmented flat worm."
+    },
+    {
+     "t": "Trematode",
+     "e": "Wrong. Fluke."
+    },
+    {
+     "t": "Protozoan",
+     "e": "Wrong. Single-celled."
+    },
+    {
+     "t": "Nematode (roundworm)",
+     "e": "Correct. It is a round worm."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Schistosoma adult worm is a:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cestode",
+     "e": "Wrong. Segmented tapeworm."
+    },
+    {
+     "t": "Nematode",
+     "e": "Wrong. Round worm."
+    },
+    {
+     "t": "Trematode",
+     "e": "Correct. Flat worm."
+    },
+    {
+     "t": "Ectoparasite",
+     "e": "Wrong. Arthropod."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Taenia is a:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Nematode",
+     "e": "Wrong. Round worm."
+    },
+    {
+     "t": "Cestode",
+     "e": "Correct. Flat segmented worm."
+    },
+    {
+     "t": "Trematode",
+     "e": "Wrong. Fluke."
+    },
+    {
+     "t": "Protozoan",
+     "e": "Wrong. Single-celled."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Which are ectoparasites?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Ticks, fleas, lice and mites",
+     "e": "Correct. They attach to or burrow into skin."
+    },
+    {
+     "t": "Ascaris and hookworm",
+     "e": "Wrong. Endoparasites."
+    },
+    {
+     "t": "Entamoeba and Giardia",
+     "e": "Wrong. Endoparasites."
+    },
+    {
+     "t": "Schistosoma and Taenia",
+     "e": "Wrong. Endoparasites."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Why are mosquitoes classed as ectoparasites?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "They live inside the gut",
+     "e": "Wrong. They are external."
+    },
+    {
+     "t": "They are protozoa",
+     "e": "Wrong. They are arthropods."
+    },
+    {
+     "t": "They are metabolically independent",
+     "e": "Wrong. They need blood meals for survival."
+    },
+    {
+     "t": "They depend on a blood meal from a human host",
+     "e": "Correct. Blood-sucking arthropods."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Which statement distinguishes endoparasites from ectoparasites?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Endoparasites are always viruses",
+     "e": "Wrong. They are protozoa and helminths."
+    },
+    {
+     "t": "Ectoparasites are always microscopic",
+     "e": "Wrong. They are usually arthropods."
+    },
+    {
+     "t": "Endoparasites live inside the host; ectoparasites live on the skin or attach to it",
+     "e": "Correct. Location differentiates them."
+    },
+    {
+     "t": "They are the same",
+     "e": "Wrong. They are classified differently."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Entamoeba histolytica trophozoite is an example of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A helminth",
+     "e": "Wrong. Multicellular."
+    },
+    {
+     "t": "A protozoan",
+     "e": "Correct. Amoeba."
+    },
+    {
+     "t": "An ectoparasite",
+     "e": "Wrong. An arthropod."
+    },
+    {
+     "t": "A fungus",
+     "e": "Wrong. Not a fungus."
+    }
+   ],
+   "topic": "Classification"
+  }
+ ]
+}

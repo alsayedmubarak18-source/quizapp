@@ -1,0 +1,537 @@
+{
+ "id": "w1-micro-virus-1",
+ "title": "General Virology: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-microbiology-virus",
+ "questions": [
+  {
+   "q": "Viruses are best defined as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Obligate intracellular parasites with an RNA or DNA genome and a protein coat",
+     "e": "Correct. They cannot replicate outside host cells."
+    },
+    {
+     "t": "Free-living cells with ribosomes",
+     "e": "Wrong. They have no ribosomes."
+    },
+    {
+     "t": "Eukaryotic microbes",
+     "e": "Wrong. They are acellular."
+    },
+    {
+     "t": "Bacteria without cell walls",
+     "e": "Wrong. Not true."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The complete infective viral particle is the:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Capsid",
+     "e": "Wrong. Protein shell."
+    },
+    {
+     "t": "Nucleocapsid",
+     "e": "Wrong. Capsid plus nucleic acid."
+    },
+    {
+     "t": "Capsomere",
+     "e": "Wrong. A morphologic unit of the capsid."
+    },
+    {
+     "t": "Virion",
+     "e": "Correct. Complete infectious unit."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "The capsid together with the enclosed nucleic acid is the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Virion",
+     "e": "Wrong. Whole particle."
+    },
+    {
+     "t": "Envelope",
+     "e": "Wrong. Outer lipid layer."
+    },
+    {
+     "t": "Nucleocapsid",
+     "e": "Correct. Capsid + genome."
+    },
+    {
+     "t": "Spike",
+     "e": "Wrong. Glycoprotein projection."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Morphologic units of the capsid seen by electron microscopy are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Spikes",
+     "e": "Wrong. Envelope glycoproteins."
+    },
+    {
+     "t": "Capsomeres",
+     "e": "Correct. They make up the capsid surface."
+    },
+    {
+     "t": "Virions",
+     "e": "Wrong. Whole particles."
+    },
+    {
+     "t": "Plasmids",
+     "e": "Wrong. Bacterial DNA."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "The viral envelope is composed of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Lipid, protein and carbohydrate",
+     "e": "Correct. It lies outside the capsid."
+    },
+    {
+     "t": "Peptidoglycan",
+     "e": "Wrong. Bacteria."
+    },
+    {
+     "t": "Chitin",
+     "e": "Wrong. Fungi."
+    },
+    {
+     "t": "Nucleic acid",
+     "e": "Wrong. Genome."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Spikes of enveloped viruses are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Part of the nucleic acid",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Capsid proteins only",
+     "e": "Wrong. They come from the envelope."
+    },
+    {
+     "t": "Lipid droplets",
+     "e": "Wrong. Not true."
+    },
+    {
+     "t": "Highly antigenic glycoprotein projections",
+     "e": "Correct. They arise from the envelope."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "A capsid with 20 equal sides is described as:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Helical",
+     "e": "Wrong. Spiral."
+    },
+    {
+     "t": "Complex",
+     "e": "Wrong. Neither icosahedral nor helical."
+    },
+    {
+     "t": "Icosahedral",
+     "e": "Correct. The virus appears spherical."
+    },
+    {
+     "t": "Bacilliform",
+     "e": "Wrong. Not a capsid symmetry in this lecture."
+    }
+   ],
+   "topic": "Morphology"
+  },
+  {
+   "q": "A spiral-shaped capsid is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Icosahedral",
+     "e": "Wrong. 20 sides."
+    },
+    {
+     "t": "Helical",
+     "e": "Correct. One of the three symmetries."
+    },
+    {
+     "t": "Complex",
+     "e": "Wrong. Neither."
+    },
+    {
+     "t": "Cubic",
+     "e": "Wrong. Not used here."
+    }
+   ],
+   "topic": "Morphology"
+  },
+  {
+   "q": "Virus classification starts at the level of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Order",
+     "e": "Correct. Order (virales), then family (viridae)."
+    },
+    {
+     "t": "Species",
+     "e": "Wrong. The lowest level."
+    },
+    {
+     "t": "Genus",
+     "e": "Wrong. Below family."
+    },
+    {
+     "t": "Kingdom",
+     "e": "Wrong. Not used."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "The Baltimore classification divides viruses into how many classes?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Three",
+     "e": "Wrong. Too few."
+    },
+    {
+     "t": "Five",
+     "e": "Wrong. Too few."
+    },
+    {
+     "t": "Ten",
+     "e": "Wrong. Too many."
+    },
+    {
+     "t": "Seven",
+     "e": "Correct. Based on genome type and replication strategy."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Baltimore classification is based on:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Capsid shape only",
+     "e": "Wrong. Not the basis."
+    },
+    {
+     "t": "Host range only",
+     "e": "Wrong. Not the basis."
+    },
+    {
+     "t": "Genetic content and replication strategy",
+     "e": "Correct. Genome and mRNA production."
+    },
+    {
+     "t": "Gram reaction",
+     "e": "Wrong. Bacteria."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "A (+) sense ssRNA virus genome:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Must be copied first to make mRNA",
+     "e": "Wrong. That is (-) sense."
+    },
+    {
+     "t": "Codes directly for protein",
+     "e": "Correct. It acts as mRNA."
+    },
+    {
+     "t": "Is double-stranded DNA",
+     "e": "Wrong. Another class."
+    },
+    {
+     "t": "Reverse transcribes only",
+     "e": "Wrong. Another class."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Most viral infections are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Subclinical",
+     "e": "Correct. Not severe enough to produce symptoms."
+    },
+    {
+     "t": "Fatal",
+     "e": "Wrong. Rarely."
+    },
+    {
+     "t": "Chronic",
+     "e": "Wrong. Not most."
+    },
+    {
+     "t": "Malignant",
+     "e": "Wrong. Rarely."
+    }
+   ],
+   "topic": "Pathogenesis"
+  },
+  {
+   "q": "Which virus is an example of silent lifelong subclinical infection?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "HIV",
+     "e": "Wrong. Long silent period then disease."
+    },
+    {
+     "t": "HBV",
+     "e": "Wrong. Chronic disease with relapses."
+    },
+    {
+     "t": "Herpes simplex",
+     "e": "Wrong. Reactivation to acute disease."
+    },
+    {
+     "t": "CMV",
+     "e": "Correct. It can remain silent for life."
+    }
+   ],
+   "topic": "Pathogenesis"
+  },
+  {
+   "q": "Which virus shows a long silent period before disease?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "CMV",
+     "e": "Wrong. Silent for life."
+    },
+    {
+     "t": "Herpes",
+     "e": "Wrong. Reactivation."
+    },
+    {
+     "t": "HIV",
+     "e": "Correct. Silent period precedes disease."
+    },
+    {
+     "t": "HBV",
+     "e": "Wrong. Chronic relapsing disease."
+    }
+   ],
+   "topic": "Pathogenesis"
+  },
+  {
+   "q": "Which viruses are linked to cancers?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "CMV and VZV",
+     "e": "Wrong. Not listed as oncogenic."
+    },
+    {
+     "t": "EBV, HPV, HBV and HCV",
+     "e": "Correct. Chronic infection can lead to cancer."
+    },
+    {
+     "t": "Measles and mumps",
+     "e": "Wrong. Not listed."
+    },
+    {
+     "t": "Rabies and polio",
+     "e": "Wrong. Not listed."
+    }
+   ],
+   "topic": "Pathogenesis"
+  },
+  {
+   "q": "Cells can respond to viral infection by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "No change, death, or transformation",
+     "e": "Correct. The three possible responses."
+    },
+    {
+     "t": "Only death",
+     "e": "Wrong. Not the only one."
+    },
+    {
+     "t": "Only transformation",
+     "e": "Wrong. Not the only one."
+    },
+    {
+     "t": "Only hypertrophy",
+     "e": "Wrong. Not listed."
+    }
+   ],
+   "topic": "Cellular pathogenesis"
+  },
+  {
+   "q": "Which is a direct cause of cell damage by viruses?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Host immune response",
+     "e": "Wrong. Indirect damage."
+    },
+    {
+     "t": "Inflammation",
+     "e": "Wrong. Indirect damage."
+    },
+    {
+     "t": "Integration of viral genome",
+     "e": "Wrong. Indirect damage."
+    },
+    {
+     "t": "Shutoff of cell macromolecular synthesis",
+     "e": "Correct. Also diversion of energy and competition for ribosomes."
+    }
+   ],
+   "topic": "Cellular pathogenesis"
+  },
+  {
+   "q": "Which is an indirect mechanism of viral cell damage?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Competition of viral mRNA for ribosomes",
+     "e": "Wrong. Direct damage."
+    },
+    {
+     "t": "Shutoff of macromolecular synthesis",
+     "e": "Wrong. Direct damage."
+    },
+    {
+     "t": "Host immune response",
+     "e": "Correct. Also integration, mutations and inflammation."
+    },
+    {
+     "t": "Diversion of cell energy",
+     "e": "Wrong. Direct damage."
+    }
+   ],
+   "topic": "Cellular pathogenesis"
+  },
+  {
+   "q": "The place where a virus first replicates after entry is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Secondary replication site",
+     "e": "Wrong. Occurs later in target organs."
+    },
+    {
+     "t": "Primary replication site",
+     "e": "Correct. Followed by systemic spread."
+    },
+    {
+     "t": "Latency site",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Tropism site",
+     "e": "Wrong. Not the definition."
+    }
+   ],
+   "topic": "Course of infection"
+  },
+  {
+   "q": "Viral affinity for specific tissues is called:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Cell tropism",
+     "e": "Correct. Defines which tissues a virus infects."
+    },
+    {
+     "t": "Latency",
+     "e": "Wrong. Remains silent."
+    },
+    {
+     "t": "Persistence",
+     "e": "Wrong. Low-level replication."
+    },
+    {
+     "t": "Dimorphism",
+     "e": "Wrong. A fungal feature."
+    }
+   ],
+   "topic": "Course of infection"
+  },
+  {
+   "q": "Which arm of immunity mainly clears virus infection, and which protects against reinfection?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Humoral clears; cellular protects against reinfection",
+     "e": "Wrong. Reversed."
+    },
+    {
+     "t": "Both only clear",
+     "e": "Wrong. Not complete."
+    },
+    {
+     "t": "Neither",
+     "e": "Wrong. Both play roles."
+    },
+    {
+     "t": "Cellular clears; humoral protects against reinfection",
+     "e": "Correct. Cell-mediated clears; antibodies prevent reinfection."
+    }
+   ],
+   "topic": "Immunity"
+  },
+  {
+   "q": "True latency, where the virus stays completely latent after primary infection, is seen in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "HIV and HBV",
+     "e": "Wrong. These show persistence."
+    },
+    {
+     "t": "CMV and EBV",
+     "e": "Wrong. Listed as persistence."
+    },
+    {
+     "t": "HSV and VZV",
+     "e": "Correct. Complete latency."
+    },
+    {
+     "t": "Measles only",
+     "e": "Wrong. Not an example."
+    }
+   ],
+   "topic": "Immunity"
+  }
+ ]
+}

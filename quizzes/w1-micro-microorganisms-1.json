@@ -1,0 +1,491 @@
+{
+ "id": "w1-micro-microorganisms-1",
+ "title": "Microorganisms: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-microbiology-microorganisms",
+ "questions": [
+  {
+   "q": "Which statement defines microorganisms correctly?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only single-celled organisms",
+     "e": "Wrong. Some microbes are multicellular and viruses are acellular."
+    },
+    {
+     "t": "Organisms that may be unicellular, multicellular, or acellular",
+     "e": "Correct. Viruses are acellular microbes."
+    },
+    {
+     "t": "Only organisms that cause disease",
+     "e": "Wrong. Many microbes are beneficial commensals."
+    },
+    {
+     "t": "Organisms visible to the naked eye",
+     "e": "Wrong. Microbes cannot be seen without a microscope."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "The normal bacteria residing in the human body are called:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Microbiota (microbiome)",
+     "e": "Correct. These are the commensal community of the body."
+    },
+    {
+     "t": "Pathogens",
+     "e": "Wrong. Pathogens cause disease."
+    },
+    {
+     "t": "Probiotics",
+     "e": "Wrong. Probiotics are beneficial bacteria taken as supplements or foods."
+    },
+    {
+     "t": "Prebiotics",
+     "e": "Wrong. These are non-digestible substances that feed gut microbes."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Who first observed live microorganisms, which he called animalcules?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Robert Koch",
+     "e": "Wrong. Known for pure cultures and the germ theory."
+    },
+    {
+     "t": "Edward Jenner",
+     "e": "Wrong. Developed the smallpox vaccine."
+    },
+    {
+     "t": "Alexander Fleming",
+     "e": "Wrong. Discovered penicillin."
+    },
+    {
+     "t": "Antoni van Leeuwenhoek",
+     "e": "Correct. He used simple microscopes to see microbes in teeth scrapings and rain water."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Who developed binomial nomenclature?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Louis Pasteur",
+     "e": "Wrong. Known for pasteurization and vaccines."
+    },
+    {
+     "t": "Joseph Lister",
+     "e": "Wrong. Introduced antiseptic surgery."
+    },
+    {
+     "t": "Carolus Linnaeus",
+     "e": "Correct. He is the father of modern taxonomy."
+    },
+    {
+     "t": "John Tyndall",
+     "e": "Wrong. Described Tyndallization."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "In the name Staphylococcus aureus, 'aureus' is the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Genus",
+     "e": "Wrong. Staphylococcus is the genus."
+    },
+    {
+     "t": "Species identifier",
+     "e": "Correct. The name has a genus followed by a species."
+    },
+    {
+     "t": "Family",
+     "e": "Wrong. Not part of the binomial."
+    },
+    {
+     "t": "Order",
+     "e": "Wrong. Not part of the binomial."
+    }
+   ],
+   "topic": "Taxonomy"
+  },
+  {
+   "q": "Which scientist proposed the germ theory of disease and disproved spontaneous generation?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Louis Pasteur",
+     "e": "Correct. He linked microbes to disease and fermentation."
+    },
+    {
+     "t": "Beijerinck",
+     "e": "Wrong. Discovered viruses and nitrogen-fixing bacteria."
+    },
+    {
+     "t": "d'Herelle",
+     "e": "Wrong. Discovered bacteriophages."
+    },
+    {
+     "t": "Linnaeus",
+     "e": "Wrong. Taxonomy."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Heating a liquid to kill bacteria is known as:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Tyndallization",
+     "e": "Wrong. Repeated boiling and cooling to kill spores."
+    },
+    {
+     "t": "Fermentation",
+     "e": "Wrong. A metabolic process."
+    },
+    {
+     "t": "Antisepsis",
+     "e": "Wrong. Use of chemicals on living tissue."
+    },
+    {
+     "t": "Pasteurization",
+     "e": "Correct. Discovered by Pasteur."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "John Tyndall is credited with:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Smallpox vaccine",
+     "e": "Wrong. Edward Jenner."
+    },
+    {
+     "t": "Discovery of penicillin",
+     "e": "Wrong. Alexander Fleming."
+    },
+    {
+     "t": "Sterilization by repeated boiling and cooling",
+     "e": "Correct. This kills microbes and their spores."
+    },
+    {
+     "t": "Gram stain",
+     "e": "Wrong. Hans Christian Gram."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Who is the father of modern antiseptic surgery, using phenol (carbolic acid)?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Robert Koch",
+     "e": "Wrong. Pure cultures and postulates."
+    },
+    {
+     "t": "Joseph Lister",
+     "e": "Correct. He applied germ theory to surgery."
+    },
+    {
+     "t": "Louis Pasteur",
+     "e": "Wrong. Developed vaccines and pasteurization."
+    },
+    {
+     "t": "Leeuwenhoek",
+     "e": "Wrong. Discovered microbes."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Robert Koch is best known for:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Isolating bacteria in pure culture and proving specific microbes cause specific diseases",
+     "e": "Correct. He discovered Mycobacterium tuberculosis."
+    },
+    {
+     "t": "Discovering penicillin",
+     "e": "Wrong. Alexander Fleming."
+    },
+    {
+     "t": "Discovering the first virus",
+     "e": "Wrong. Beijerinck and Ivanovsky."
+    },
+    {
+     "t": "Introducing binomial nomenclature",
+     "e": "Wrong. Linnaeus."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Martinus Beijerinck's two major discoveries were:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Penicillin and streptomycin",
+     "e": "Wrong. Fleming and Waksman."
+    },
+    {
+     "t": "Bacteriophages and anthrax vaccine",
+     "e": "Wrong. d'Herelle and Pasteur."
+    },
+    {
+     "t": "BCG and cephalosporin",
+     "e": "Wrong. Calmette-Guerin and Abraham."
+    },
+    {
+     "t": "Tobacco mosaic virus and nitrogen-fixing bacteria",
+     "e": "Correct. Both are credited to Beijerinck."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Who discovered bacteriophages?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Beijerinck",
+     "e": "Wrong. Discovered TMV."
+    },
+    {
+     "t": "Lister",
+     "e": "Wrong. Antisepsis."
+    },
+    {
+     "t": "Félix d'Hérelle",
+     "e": "Correct. Bacteriophages infect and replicate within bacteria."
+    },
+    {
+     "t": "Jenner",
+     "e": "Wrong. Smallpox vaccine."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Which year and scientist match the smallpox vaccine?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1928, Fleming",
+     "e": "Wrong. Penicillin."
+    },
+    {
+     "t": "1796, Edward Jenner",
+     "e": "Correct. Jenner developed the first vaccine."
+    },
+    {
+     "t": "1921, Calmette and Guérin",
+     "e": "Wrong. BCG vaccine."
+    },
+    {
+     "t": "1942, Waksman",
+     "e": "Wrong. Streptomycin."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Which pair is correctly matched?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Waksman, streptomycin",
+     "e": "Correct. Selman Waksman discovered streptomycin in 1942."
+    },
+    {
+     "t": "Fleming, cephalosporin",
+     "e": "Wrong. Cephalosporin was Abraham; Fleming found penicillin."
+    },
+    {
+     "t": "Koch, rabies vaccine",
+     "e": "Wrong. Rabies vaccine was Pasteur's."
+    },
+    {
+     "t": "Calmette and Guérin, penicillin",
+     "e": "Wrong. They developed BCG."
+    }
+   ],
+   "topic": "History"
+  },
+  {
+   "q": "Which branch of microbiology studies fungi?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bacteriology",
+     "e": "Wrong. Study of bacteria."
+    },
+    {
+     "t": "Virology",
+     "e": "Wrong. Study of viruses."
+    },
+    {
+     "t": "Phycology",
+     "e": "Wrong. Study of algae."
+    },
+    {
+     "t": "Mycology",
+     "e": "Correct. Mycology is the study of fungi."
+    }
+   ],
+   "topic": "Branches"
+  },
+  {
+   "q": "Phycology (algology) is the study of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Parasites",
+     "e": "Wrong. Parasitology."
+    },
+    {
+     "t": "Fungi",
+     "e": "Wrong. Mycology."
+    },
+    {
+     "t": "Algae",
+     "e": "Correct. Phycology deals with algae."
+    },
+    {
+     "t": "Viruses",
+     "e": "Wrong. Virology."
+    }
+   ],
+   "topic": "Branches"
+  },
+  {
+   "q": "Pharmaceutical microbiology deals with:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only wastewater treatment",
+     "e": "Wrong. That is industrial microbiology."
+    },
+    {
+     "t": "Microbes that produce antibiotics, enzymes, vaccines or contaminate drugs",
+     "e": "Correct. This is applied microbiology."
+    },
+    {
+     "t": "Only taxonomy",
+     "e": "Wrong. Not its scope."
+    },
+    {
+     "t": "Only viral replication",
+     "e": "Wrong. Not its scope."
+    }
+   ],
+   "topic": "Branches"
+  },
+  {
+   "q": "Which organism is used to produce streptomycin?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Streptomyces",
+     "e": "Correct. It produces aminoglycosides such as streptomycin."
+    },
+    {
+     "t": "Penicillium",
+     "e": "Wrong. Produces penicillins."
+    },
+    {
+     "t": "Corynebacterium glutamicum",
+     "e": "Wrong. Produces L-glutamate and L-lysine."
+    },
+    {
+     "t": "Clostridium novyi",
+     "e": "Wrong. An oncolytic bacterium."
+    }
+   ],
+   "topic": "Applications"
+  },
+  {
+   "q": "Corynebacterium glutamicum is used industrially to produce:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Penicillin",
+     "e": "Wrong. Penicillium."
+    },
+    {
+     "t": "Vinegar",
+     "e": "Wrong. Fermentation products."
+    },
+    {
+     "t": "Streptomycin",
+     "e": "Wrong. Streptomyces."
+    },
+    {
+     "t": "L-glutamate and L-lysine",
+     "e": "Correct. Amino acid production."
+    }
+   ],
+   "topic": "Applications"
+  },
+  {
+   "q": "Which are examples of oncolytic bacteria?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "E. coli and Penicillium",
+     "e": "Wrong. Not named as oncolytic."
+    },
+    {
+     "t": "Streptomyces and TMV",
+     "e": "Wrong. Not oncolytic bacteria."
+    },
+    {
+     "t": "Clostridium novyi and Listeria monocytogenes",
+     "e": "Correct. They are used to attack tumor cells."
+    },
+    {
+     "t": "Bacteriophages and prions",
+     "e": "Wrong. Not oncolytic bacteria."
+    }
+   ],
+   "topic": "Applications"
+  },
+  {
+   "q": "Non-digestible dietary substances that promote the growth of gut microbes are called:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Probiotics",
+     "e": "Wrong. Live beneficial bacteria."
+    },
+    {
+     "t": "Prebiotics",
+     "e": "Correct. They feed beneficial microbes."
+    },
+    {
+     "t": "Antibiotics",
+     "e": "Wrong. Kill bacteria."
+    },
+    {
+     "t": "Pathogens",
+     "e": "Wrong. Cause disease."
+    }
+   ],
+   "topic": "Applications"
+  }
+ ]
+}

@@ -1,0 +1,537 @@
+{
+ "id": "w1-micro-bacteriology-1",
+ "title": "Bacteriology: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-microbiology-bacteriology",
+ "questions": [
+  {
+   "q": "Gram classification was developed by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Carl Woese",
+     "e": "Wrong. Developed 16S rRNA classification."
+    },
+    {
+     "t": "Robert Koch",
+     "e": "Wrong. Pathogenic classification."
+    },
+    {
+     "t": "Linnaeus",
+     "e": "Wrong. Binomial nomenclature."
+    },
+    {
+     "t": "Hans Christian Gram",
+     "e": "Correct. It is based on cell wall staining."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Which classification uses 16S rRNA gene sequencing?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Morphologic classification",
+     "e": "Wrong. Based on shape."
+    },
+    {
+     "t": "Gram classification",
+     "e": "Wrong. Based on staining."
+    },
+    {
+     "t": "Genetic classification",
+     "e": "Correct. Developed by Carl Woese."
+    },
+    {
+     "t": "Physiological classification",
+     "e": "Wrong. Based on metabolism."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Classification of bacteria by shape (cocci, bacilli) is the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Pathogenic classification",
+     "e": "Wrong. Koch."
+    },
+    {
+     "t": "Morphologic classification",
+     "e": "Correct. First developed by Leeuwenhoek."
+    },
+    {
+     "t": "Genetic classification",
+     "e": "Wrong. Woese."
+    },
+    {
+     "t": "Physiological classification",
+     "e": "Wrong. Metabolism."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Metagenomics is useful for classifying:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Unculturable bacteria",
+     "e": "Correct. It studies the whole genetic material of a sample."
+    },
+    {
+     "t": "Only viruses",
+     "e": "Wrong. Not limited to viruses."
+    },
+    {
+     "t": "Only fungi",
+     "e": "Wrong. Not limited to fungi."
+    },
+    {
+     "t": "Only gram-negative bacteria",
+     "e": "Wrong. Not related."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Which organisation is responsible for virus nomenclature?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "ICSP",
+     "e": "Wrong. Prokaryotes (bacteria)."
+    },
+    {
+     "t": "ICTF",
+     "e": "Wrong. Fungi."
+    },
+    {
+     "t": "WFP",
+     "e": "Wrong. A parasitology federation, not a taxonomic authority."
+    },
+    {
+     "t": "ICTV",
+     "e": "Correct. International Committee on Taxonomy of Viruses."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Which statement about the bacterial cell wall is correct?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "It is made of chitin",
+     "e": "Wrong. Chitin is in fungi."
+    },
+    {
+     "t": "It contains ergosterol",
+     "e": "Wrong. Ergosterol is in fungal membranes."
+    },
+    {
+     "t": "It is made of peptidoglycan and differentiates Gram positive from Gram negative",
+     "e": "Correct. Gram positive has a thick peptidoglycan layer."
+    },
+    {
+     "t": "It is absent in all bacteria",
+     "e": "Wrong. Most bacteria have one."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "The polysaccharide layer that protects bacteria from phagocytosis is the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Flagellum",
+     "e": "Wrong. Motility."
+    },
+    {
+     "t": "Capsule",
+     "e": "Correct. Polysaccharide capsule protects against phagocytosis and aids adhesion."
+    },
+    {
+     "t": "Pilus",
+     "e": "Wrong. Adhesion and conjugation."
+    },
+    {
+     "t": "Plasmid",
+     "e": "Wrong. Extra-chromosomal DNA."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Pili (fimbriae) are made of which protein?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Pilin",
+     "e": "Correct. Pili are used for adhesion and conjugation."
+    },
+    {
+     "t": "Flagellin",
+     "e": "Wrong. Flagella."
+    },
+    {
+     "t": "Peptidoglycan",
+     "e": "Wrong. Cell wall."
+    },
+    {
+     "t": "Chitin",
+     "e": "Wrong. Fungal wall."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Flagella are composed of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Pilin",
+     "e": "Wrong. Pili."
+    },
+    {
+     "t": "Ergosterol",
+     "e": "Wrong. Fungal membrane."
+    },
+    {
+     "t": "Cellulose",
+     "e": "Wrong. Plant wall."
+    },
+    {
+     "t": "Flagellin",
+     "e": "Correct. Provides motility."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Bacterial ribosomes are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "80S",
+     "e": "Wrong. Eukaryotic."
+    },
+    {
+     "t": "60S",
+     "e": "Wrong. Not a bacterial ribosome."
+    },
+    {
+     "t": "70S, made of 30S and 50S subunits",
+     "e": "Correct. This differs from 80S eukaryotic ribosomes."
+    },
+    {
+     "t": "90S",
+     "e": "Wrong. Not a ribosome type."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "The bacterial nucleoid contains:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Multiple linear chromosomes",
+     "e": "Wrong. Eukaryotic feature."
+    },
+    {
+     "t": "A single circular double-stranded DNA chromosome",
+     "e": "Correct. Not enclosed by a nuclear membrane."
+    },
+    {
+     "t": "Single-stranded RNA genome",
+     "e": "Wrong. A viral feature."
+    },
+    {
+     "t": "Histone-bound chromatin",
+     "e": "Wrong. Eukaryotic feature."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Plasmids are important because they:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Carry transferable antibiotic resistance genes",
+     "e": "Correct. They are extra-chromosomal DNA."
+    },
+    {
+     "t": "Produce ATP",
+     "e": "Wrong. Not their role."
+    },
+    {
+     "t": "Make up the cell wall",
+     "e": "Wrong. Not their role."
+    },
+    {
+     "t": "Store energy as granules",
+     "e": "Wrong. Inclusion bodies do that."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Inclusion bodies in bacteria serve as:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Motility organs",
+     "e": "Wrong. Flagella."
+    },
+    {
+     "t": "Protein synthesis sites",
+     "e": "Wrong. Ribosomes."
+    },
+    {
+     "t": "Genetic exchange tubes",
+     "e": "Wrong. Pili."
+    },
+    {
+     "t": "Energy stores",
+     "e": "Correct. They are organic or inorganic granules."
+    }
+   ],
+   "topic": "Structure"
+  },
+  {
+   "q": "Bacteria that use CO2 as a carbon source are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Heterotrophs",
+     "e": "Wrong. They use organic carbon such as glucose."
+    },
+    {
+     "t": "Psychrophiles",
+     "e": "Wrong. Classified by temperature."
+    },
+    {
+     "t": "Autotrophs",
+     "e": "Correct. Lithotrophs use CO2."
+    },
+    {
+     "t": "Halophiles",
+     "e": "Wrong. Classified by salt."
+    }
+   ],
+   "topic": "Physiology"
+  },
+  {
+   "q": "Most pathogenic bacteria are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Psychrophiles",
+     "e": "Wrong. Grow at 0-20 C."
+    },
+    {
+     "t": "Mesophiles growing best at 37 C",
+     "e": "Correct. Mesophiles grow at 20-40 C."
+    },
+    {
+     "t": "Thermophiles",
+     "e": "Wrong. Grow at 40-90 C."
+    },
+    {
+     "t": "Halophiles",
+     "e": "Wrong. Salt-loving."
+    }
+   ],
+   "topic": "Physiology"
+  },
+  {
+   "q": "Mycobacterium tuberculosis is a(n):",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Obligate aerobe",
+     "e": "Correct. It cannot grow without oxygen."
+    },
+    {
+     "t": "Obligate anaerobe",
+     "e": "Wrong. Clostridium and Bacteroides are examples."
+    },
+    {
+     "t": "Facultative anaerobe",
+     "e": "Wrong. E. coli and Staphylococcus are examples."
+    },
+    {
+     "t": "Microaerophile",
+     "e": "Wrong. Helicobacter is an example."
+    }
+   ],
+   "topic": "Physiology"
+  },
+  {
+   "q": "Which organism is a facultative anaerobe?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Clostridium",
+     "e": "Wrong. Obligate anaerobe."
+    },
+    {
+     "t": "Pseudomonas",
+     "e": "Wrong. Obligate aerobe."
+    },
+    {
+     "t": "Bacteroides",
+     "e": "Wrong. Obligate anaerobe."
+    },
+    {
+     "t": "Escherichia coli",
+     "e": "Correct. It can grow with or without oxygen."
+    }
+   ],
+   "topic": "Physiology"
+  },
+  {
+   "q": "Helicobacter species are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Obligate aerobic",
+     "e": "Wrong. Cannot be correct."
+    },
+    {
+     "t": "Obligate anaerobic",
+     "e": "Wrong. Cannot be correct."
+    },
+    {
+     "t": "Microaerophilic",
+     "e": "Correct. They need only a small amount of oxygen."
+    },
+    {
+     "t": "Facultative anaerobic",
+     "e": "Wrong. Not correct for Helicobacter."
+    }
+   ],
+   "topic": "Physiology"
+  },
+  {
+   "q": "Vibrio cholerae grows best at which pH?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Acidic",
+     "e": "Wrong. Lactobacilli."
+    },
+    {
+     "t": "Alkaline, about 8.2",
+     "e": "Correct. It is a basophile."
+    },
+    {
+     "t": "Neutral",
+     "e": "Wrong. E. coli."
+    },
+    {
+     "t": "Strongly acidic below 3",
+     "e": "Wrong. Not its optimum."
+    }
+   ],
+   "topic": "Physiology"
+  },
+  {
+   "q": "Bacterial growth refers to an increase in:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Number of cells",
+     "e": "Correct. Not size."
+    },
+    {
+     "t": "Cell size",
+     "e": "Wrong. Bacteria divide rather than enlarge."
+    },
+    {
+     "t": "Cell wall thickness",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Ribosome size",
+     "e": "Wrong. Not the definition."
+    }
+   ],
+   "topic": "Growth"
+  },
+  {
+   "q": "The most common asexual reproduction in bacteria is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Conjugation",
+     "e": "Wrong. Gene transfer, not division."
+    },
+    {
+     "t": "Budding",
+     "e": "Wrong. Typical of yeasts."
+    },
+    {
+     "t": "Sporulation",
+     "e": "Wrong. A survival process."
+    },
+    {
+     "t": "Binary fission",
+     "e": "Correct. One cell divides into two identical daughters."
+    }
+   ],
+   "topic": "Growth"
+  },
+  {
+   "q": "In which growth phase do dead cells equal new cells?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lag phase",
+     "e": "Wrong. Adaptation."
+    },
+    {
+     "t": "Logarithmic phase",
+     "e": "Wrong. Constant division rate."
+    },
+    {
+     "t": "Stationary phase",
+     "e": "Correct. Net growth is zero."
+    },
+    {
+     "t": "Decline phase",
+     "e": "Wrong. Death exceeds division."
+    }
+   ],
+   "topic": "Growth"
+  },
+  {
+   "q": "DNA transfer via a sex pilus is called:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Transformation",
+     "e": "Wrong. Uptake of free DNA."
+    },
+    {
+     "t": "Conjugation",
+     "e": "Correct. Often involves plasmids."
+    },
+    {
+     "t": "Transduction",
+     "e": "Wrong. Via bacteriophages."
+    },
+    {
+     "t": "Binary fission",
+     "e": "Wrong. Vertical transmission."
+    }
+   ],
+   "topic": "Gene transfer"
+  }
+ ]
+}

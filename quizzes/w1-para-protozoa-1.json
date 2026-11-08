@@ -1,0 +1,537 @@
+{
+ "id": "w1-para-protozoa-1",
+ "title": "Medically Important Protozoa: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w1-parasitology-protozoa",
+ "questions": [
+  {
+   "q": "Which protozoon is a large intestinal amoeba?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Giardia lamblia",
+     "e": "Wrong. Small intestinal flagellate."
+    },
+    {
+     "t": "Plasmodium",
+     "e": "Wrong. Sporozoon of blood."
+    },
+    {
+     "t": "Entamoeba histolytica",
+     "e": "Correct. It lives in the large intestine."
+    },
+    {
+     "t": "Endolimax nana",
+     "e": "Wrong. A non-pathogenic commensal."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Balantidium coli belongs to which group?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Amoebae",
+     "e": "Wrong. Entamoeba."
+    },
+    {
+     "t": "Ciliates",
+     "e": "Correct. Ciliophora."
+    },
+    {
+     "t": "Flagellates",
+     "e": "Wrong. Giardia."
+    },
+    {
+     "t": "Sporozoa",
+     "e": "Wrong. Plasmodium."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Giardia lamblia belongs to the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Flagellates",
+     "e": "Correct. Small intestinal protozoa."
+    },
+    {
+     "t": "Ciliates",
+     "e": "Wrong. Balantidium."
+    },
+    {
+     "t": "Amoebae",
+     "e": "Wrong. Entamoeba."
+    },
+    {
+     "t": "Sporozoa",
+     "e": "Wrong. Plasmodium."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "Which of the following is a non-pathogenic amoeba?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Entamoeba histolytica",
+     "e": "Wrong. Pathogenic."
+    },
+    {
+     "t": "Balantidium coli",
+     "e": "Wrong. Pathogenic ciliate."
+    },
+    {
+     "t": "Giardia",
+     "e": "Wrong. Pathogenic flagellate."
+    },
+    {
+     "t": "Entamoeba coli",
+     "e": "Correct. A harmless commensal that may be confused with E. histolytica."
+    }
+   ],
+   "topic": "Classification"
+  },
+  {
+   "q": "The word histolytica literally means:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Water lover",
+     "e": "Wrong. Not the meaning."
+    },
+    {
+     "t": "Gut dweller only",
+     "e": "Wrong. Not the meaning."
+    },
+    {
+     "t": "Tissue destroyer",
+     "e": "Correct. It causes intestinal and extraintestinal infection."
+    },
+    {
+     "t": "Blood feeder",
+     "e": "Wrong. Not the meaning."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "E. histolytica has how many hosts and what type of life cycle?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Two hosts, indirect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "One host, direct life cycle",
+     "e": "Correct. Humans are the definitive host."
+    },
+    {
+     "t": "Needs mosquito vector",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Intermediate host is a snail",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "The infective stage of E. histolytica is the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Mature cyst",
+     "e": "Correct. Never the trophozoite."
+    },
+    {
+     "t": "Trophozoite",
+     "e": "Wrong. Destroyed by saliva and gastric acid."
+    },
+    {
+     "t": "Merozoite",
+     "e": "Wrong. Not part of this life cycle."
+    },
+    {
+     "t": "Sporozoite",
+     "e": "Wrong. Not part of this life cycle."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "Which feature describes the E. histolytica trophozoite?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Kidney-shaped macronucleus",
+     "e": "Wrong. That is Balantidium."
+    },
+    {
+     "t": "Ventral sucking disk",
+     "e": "Wrong. That is Giardia."
+    },
+    {
+     "t": "Two nuclei and four flagella pairs",
+     "e": "Wrong. That is Giardia."
+    },
+    {
+     "t": "Central karyosome, fine peripheral chromatin, pseudopodia",
+     "e": "Correct. Cytoplasm has ectoplasm and endoplasm."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "The E. histolytica cyst contains:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A kidney-shaped macronucleus",
+     "e": "Wrong. Balantidium."
+    },
+    {
+     "t": "Four pairs of flagella",
+     "e": "Wrong. Giardia."
+    },
+    {
+     "t": "One to four nuclei and may show cigar-shaped chromatoid bodies",
+     "e": "Correct. Nuclei identical to the trophozoite."
+    },
+    {
+     "t": "A ventral sucking disc",
+     "e": "Wrong. Giardia trophozoite."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "Where does excystation of E. histolytica occur?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Stomach",
+     "e": "Wrong. Cysts pass through the acid."
+    },
+    {
+     "t": "Small intestine",
+     "e": "Correct. After passing stomach acid, trypsin lyses the cyst wall."
+    },
+    {
+     "t": "Large intestine",
+     "e": "Wrong. Trophozoites migrate there afterwards."
+    },
+    {
+     "t": "Liver",
+     "e": "Wrong. Not the site."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "Where do E. histolytica trophozoites live?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Mucous and submucous layers of the large intestine",
+     "e": "Correct. This is their habitat."
+    },
+    {
+     "t": "Duodenum and upper jejunum",
+     "e": "Wrong. Giardia."
+    },
+    {
+     "t": "Red blood cells",
+     "e": "Wrong. Not their habitat."
+    },
+    {
+     "t": "Lumen of the stomach",
+     "e": "Wrong. Not their habitat."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "Which stool form usually contains E. histolytica cysts?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Diarrheal stool",
+     "e": "Wrong. Trophozoites typically."
+    },
+    {
+     "t": "Urine",
+     "e": "Wrong. Not applicable."
+    },
+    {
+     "t": "Bile",
+     "e": "Wrong. Not applicable."
+    },
+    {
+     "t": "Formed stool",
+     "e": "Correct. Trophozoites are found in diarrheal stool."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "Why are trophozoites not infective by mouth?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "They are too large",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "They lack a nucleus",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "They are rapidly destroyed outside the body and cannot survive saliva and gastric acid",
+     "e": "Correct. Cysts are the transmitting stage."
+    },
+    {
+     "t": "They are always killed in the colon",
+     "e": "Wrong. Not the reason."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "A hallmark intestinal lesion of amoebiasis is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Fatty stool floating on water",
+     "e": "Wrong. Giardiasis."
+    },
+    {
+     "t": "Flask-shaped ulcer in the large intestine",
+     "e": "Correct. Seen in invasive intestinal amoebiasis."
+    },
+    {
+     "t": "Villous atrophy of the duodenum",
+     "e": "Wrong. Giardiasis."
+    },
+    {
+     "t": "Granuloma of the lung",
+     "e": "Wrong. Not typical."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "The most common extra-intestinal site of amoebiasis is the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Liver",
+     "e": "Correct. Spread is via the portal blood."
+    },
+    {
+     "t": "Brain",
+     "e": "Wrong. Less common."
+    },
+    {
+     "t": "Lung",
+     "e": "Wrong. Less common."
+    },
+    {
+     "t": "Skin",
+     "e": "Wrong. Less common."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "Which is true about amoebic liver abscess?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Stool always shows cysts",
+     "e": "Wrong. Often negative."
+    },
+    {
+     "t": "Metronidazole is not effective",
+     "e": "Wrong. It is the drug of choice."
+    },
+    {
+     "t": "It is caused by Giardia",
+     "e": "Wrong. Caused by E. histolytica."
+    },
+    {
+     "t": "Stool exam is often negative so serology is helpful",
+     "e": "Correct. The lesion is closed, with no cysts or trophozoites in stool."
+    }
+   ],
+   "topic": "E. histolytica"
+  },
+  {
+   "q": "The drug of choice for amoebic dysentery is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Chloroquine",
+     "e": "Wrong. Not first line here."
+    },
+    {
+     "t": "Penicillin",
+     "e": "Wrong. Antibacterial."
+    },
+    {
+     "t": "Metronidazole",
+     "e": "Correct. 500-750 mg three times daily for 5-10 days."
+    },
+    {
+     "t": "Albendazole",
+     "e": "Wrong. Anthelminthic."
+    }
+   ],
+   "topic": "Treatment"
+  },
+  {
+   "q": "Which feature identifies Balantidium coli?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Central karyosome",
+     "e": "Wrong. E. histolytica."
+    },
+    {
+     "t": "Large kidney-shaped macronucleus and small micronucleus",
+     "e": "Correct. Also has cilia and rapid motility."
+    },
+    {
+     "t": "Ventral sucking disc",
+     "e": "Wrong. Giardia."
+    },
+    {
+     "t": "Chromatoid bodies",
+     "e": "Wrong. E. histolytica cysts."
+    }
+   ],
+   "topic": "Balantidium"
+  },
+  {
+   "q": "Why does Balantidium coli never form extraintestinal abscesses?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Because the trophozoite is large",
+     "e": "Correct. The large size prevents bloodstream spread."
+    },
+    {
+     "t": "Because it lacks cilia",
+     "e": "Wrong. It has cilia."
+    },
+    {
+     "t": "Because it is non-pathogenic",
+     "e": "Wrong. It is pathogenic."
+    },
+    {
+     "t": "Because it infects only the stomach",
+     "e": "Wrong. It infects the colon."
+    }
+   ],
+   "topic": "Balantidium"
+  },
+  {
+   "q": "Which is true about Giardia lamblia?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "It causes flask-shaped ulcers",
+     "e": "Wrong. E. histolytica."
+    },
+    {
+     "t": "It is a ciliate",
+     "e": "Wrong. It is a flagellate."
+    },
+    {
+     "t": "Its infective stage is the trophozoite",
+     "e": "Wrong. The cyst is infective."
+    },
+    {
+     "t": "It lives in the duodenum and upper jejunum and does not invade tissue",
+     "e": "Correct. It adheres with a ventral sucking disc."
+    }
+   ],
+   "topic": "Giardia"
+  },
+  {
+   "q": "Giardia cysts are important in spread because they:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Invade the mucosa",
+     "e": "Wrong. Giardia does not invade."
+    },
+    {
+     "t": "Are the stage found only in diarrheal stool",
+     "e": "Wrong. Cysts are typical in non-diarrheal stool."
+    },
+    {
+     "t": "Are resistant to chlorine and survive months in cold water",
+     "e": "Correct. They are the infective stage."
+    },
+    {
+     "t": "Cause steatorrhea directly",
+     "e": "Wrong. Trophozoites cause the symptoms."
+    }
+   ],
+   "topic": "Giardia"
+  },
+  {
+   "q": "Malabsorption of fat in giardiasis produces:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Bloody mucoid stool",
+     "e": "Wrong. Amoebic dysentery."
+    },
+    {
+     "t": "Steatorrhea with offensive pale fatty stool and no blood",
+     "e": "Correct. The stool floats in water."
+    },
+    {
+     "t": "Liver abscess",
+     "e": "Wrong. Amoebiasis."
+    },
+    {
+     "t": "Dysentery with perforation",
+     "e": "Wrong. Balantidiasis."
+    }
+   ],
+   "topic": "Giardia"
+  },
+  {
+   "q": "The test used when stool is negative but giardiasis is strongly suspected is the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "String test (duodenal aspirate)",
+     "e": "Correct. Sampling the upper small intestine."
+    },
+    {
+     "t": "Blood film",
+     "e": "Wrong. For malaria."
+    },
+    {
+     "t": "Skin snip",
+     "e": "Wrong. Not applicable."
+    },
+    {
+     "t": "Urine culture",
+     "e": "Wrong. Not applicable."
+    }
+   ],
+   "topic": "Giardia"
+  }
+ ]
+}
