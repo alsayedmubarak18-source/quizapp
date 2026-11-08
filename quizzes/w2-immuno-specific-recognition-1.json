@@ -1,0 +1,537 @@
+{
+ "id": "w2-immuno-specific-recognition-1",
+ "title": "Specific Immune Recognition (MHC and T cells): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-immunology-specific-immune-recognition",
+ "questions": [
+  {
+   "q": "MHC genes are located on:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Chromosome 6",
+     "e": "Correct. Code for class I and II molecules."
+    },
+    {
+     "t": "Chromosome 1",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "X chromosome",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chromosome 21",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "MHC"
+  },
+  {
+   "q": "MHC class I is present on:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only APCs",
+     "e": "Wrong. Class II."
+    },
+    {
+     "t": "Only red blood cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only T cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "All nucleated cells",
+     "e": "Correct. Present peptides to CD8+ T cells."
+    }
+   ],
+   "topic": "MHC"
+  },
+  {
+   "q": "MHC class II is found on:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "All nucleated cells",
+     "e": "Wrong. Class I."
+    },
+    {
+     "t": "Platelets",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Professional APCs: B cells, macrophages, dendritic cells",
+     "e": "Correct. Present to CD4+ T cells."
+    },
+    {
+     "t": "Hepatocytes only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "MHC"
+  },
+  {
+   "q": "CD8 binds to which part of MHC class I?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "beta-2 domain",
+     "e": "Wrong. Class II with CD4."
+    },
+    {
+     "t": "alpha-3 domain",
+     "e": "Correct. Invariant portion."
+    },
+    {
+     "t": "Peptide cleft",
+     "e": "Wrong. Binds antigen peptide."
+    },
+    {
+     "t": "CLIP",
+     "e": "Wrong. Class II placeholder."
+    }
+   ],
+   "topic": "MHC"
+  },
+  {
+   "q": "CD4 binds to which part of MHC class II?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "beta-2 domain",
+     "e": "Correct. Invariant portion."
+    },
+    {
+     "t": "alpha-3 domain",
+     "e": "Wrong. CD8 with class I."
+    },
+    {
+     "t": "Peptide cleft",
+     "e": "Wrong. Binds antigen."
+    },
+    {
+     "t": "TCR",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "MHC"
+  },
+  {
+   "q": "MHC class I presents peptides from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Endocytic vesicles",
+     "e": "Wrong. Class II."
+    },
+    {
+     "t": "Plasma only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lymph",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The cell cytosol (endogenous antigens)",
+     "e": "Correct. Class II presents vesicular antigens."
+    }
+   ],
+   "topic": "MHC"
+  },
+  {
+   "q": "MHC class II presents peptides from:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cytosolic proteins",
+     "e": "Wrong. Class I."
+    },
+    {
+     "t": "Nuclear DNA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Internalized extracellular antigens in endocytic vesicles",
+     "e": "Correct. Recognized by CD4+ T cells."
+    },
+    {
+     "t": "Mitochondria",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "MHC"
+  },
+  {
+   "q": "Helper T cells recognize antigen presented by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "MHC class I",
+     "e": "Wrong. Cytotoxic T cells."
+    },
+    {
+     "t": "MHC class II",
+     "e": "Correct. CD4+ T cells."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Free antibodies",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Presentation"
+  },
+  {
+   "q": "Cytotoxic T cells recognize antigen presented by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "MHC class I on infected or tumor cells",
+     "e": "Correct. CD8+ T cells."
+    },
+    {
+     "t": "MHC class II only",
+     "e": "Wrong. Helper T cells."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "BCR",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Presentation"
+  },
+  {
+   "q": "Mature dendritic cells express:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Low MHC",
+     "e": "Wrong. Immature."
+    },
+    {
+     "t": "No receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antibodies",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "High MHC and costimulators",
+     "e": "Correct. To activate naive T cells in lymph nodes."
+    }
+   ],
+   "topic": "Presentation"
+  },
+  {
+   "q": "Immature dendritic cells:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Express high costimulators",
+     "e": "Wrong. Mature cells."
+    },
+    {
+     "t": "Stay in the thymus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Capture microbial antigens in epithelium and migrate to lymph nodes",
+     "e": "Correct. Maturation follows."
+    },
+    {
+     "t": "Produce antibodies",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Presentation"
+  },
+  {
+   "q": "In the class I pathway, peptides are transported to the:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lysosome",
+     "e": "Wrong. Class II."
+    },
+    {
+     "t": "Endoplasmic reticulum, then bind class I MHC",
+     "e": "Correct. Then Golgi to surface."
+    },
+    {
+     "t": "Nucleus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Plasma",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Class I pathway"
+  },
+  {
+   "q": "In the class II pathway, the CLIP peptide:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Occupies the cleft of newly made class II molecules and is lost in vesicles",
+     "e": "Correct. Replaced by antigen peptide."
+    },
+    {
+     "t": "Binds CD8",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is a class I peptide",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Is secreted",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Class II pathway"
+  },
+  {
+   "q": "CD4+ T cells are specific for peptides derived mainly from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cytosolic viral proteins",
+     "e": "Wrong. CD8."
+    },
+    {
+     "t": "Self DNA",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lipids",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Extracellular proteins",
+     "e": "Correct. Presented on class II."
+    }
+   ],
+   "topic": "Class II pathway"
+  },
+  {
+   "q": "The T cell receptor consists of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Two heavy chains",
+     "e": "Wrong. Antibody."
+    },
+    {
+     "t": "A single chain only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "An alpha and a beta chain, each with V and C regions",
+     "e": "Correct. Membrane-bound, not secreted."
+    },
+    {
+     "t": "Secreted form",
+     "e": "Wrong. TCRs are not secreted."
+    }
+   ],
+   "topic": "TCR"
+  },
+  {
+   "q": "TCR diversity arises from:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Mutation in all cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Gene rearrangement and recombination",
+     "e": "Correct. Diverse repertoire."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antibody secretion",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "TCR"
+  },
+  {
+   "q": "In positive selection, T cells that survive:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Bind self-MHC with low affinity",
+     "e": "Correct. Receive positive signals and mature in the medulla."
+    },
+    {
+     "t": "Bind very strongly to self-peptide",
+     "e": "Wrong. Negative selection."
+    },
+    {
+     "t": "Fail to recognize self-MHC",
+     "e": "Wrong. Die by neglect."
+    },
+    {
+     "t": "Bind only complement",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Selection"
+  },
+  {
+   "q": "Negative selection eliminates thymocytes that:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bind weakly",
+     "e": "Wrong. Positive selection."
+    },
+    {
+     "t": "Express CD4",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Are mature",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bind too strongly to self peptide-MHC",
+     "e": "Correct. Prevents autoimmunity."
+    }
+   ],
+   "topic": "Selection"
+  },
+  {
+   "q": "A thymocyte with TCR affinity for MHC II becomes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "CD8+ cytotoxic T cell",
+     "e": "Wrong. MHC-I restricted."
+    },
+    {
+     "t": "B cell",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "CD4+ helper T cell",
+     "e": "Correct. MHC-II restricted."
+    },
+    {
+     "t": "NK cell",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Selection"
+  },
+  {
+   "q": "CD8+ T cells are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "MHC-II restricted",
+     "e": "Wrong. CD4+."
+    },
+    {
+     "t": "MHC-I restricted",
+     "e": "Correct. Recognize specific peptides presented by class I."
+    },
+    {
+     "t": "Antibody-secreting",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antigen-presenting",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Selection"
+  },
+  {
+   "q": "T cells are activated when the TCR contacts:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Antigen presented on another host cell with MHC",
+     "e": "Correct. E.g., macrophage or infected cell."
+    },
+    {
+     "t": "Free antigen in plasma",
+     "e": "Wrong. Not enough."
+    },
+    {
+     "t": "Complement C3b",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgG",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Activation"
+  },
+  {
+   "q": "The cell-mediated immunity mainly protects against:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Extracellular toxins only",
+     "e": "Wrong. Antibodies."
+    },
+    {
+     "t": "Allergy only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Radiation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Intracellular infections",
+     "e": "Correct. Viruses and intracellular bacteria."
+    }
+   ],
+   "topic": "Activation"
+  },
+  {
+   "q": "Immature dendritic cells migrate to lymph nodes attracted by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Antibodies",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chemokines produced in the nodes",
+     "e": "Correct. Maturation occurs during migration."
+    },
+    {
+     "t": "Histamine",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Presentation"
+  }
+ ]
+}

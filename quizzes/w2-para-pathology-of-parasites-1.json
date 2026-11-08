@@ -1,0 +1,468 @@
+{
+ "id": "w2-para-pathology-of-parasites-1",
+ "title": "Pathogenicity of Parasites: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-parasitology-pathology-of-parasites",
+ "questions": [
+  {
+   "q": "Parasitic infection differs from parasitic disease in that:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Disease has clinical symptoms while infection may not",
+     "e": "Correct. Distinction depends on symptoms."
+    },
+    {
+     "t": "Infection always causes death",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Disease has no symptoms",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "They are identical",
+     "e": "Wrong. They differ."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Symptomatic parasitic infection may be due to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only vitamin deficiency",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only genetic defects",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only antibiotics",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Direct damage, systemic effect of metabolic end products, or hypersensitivity",
+     "e": "Correct. Three mechanisms."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Which is NOT a listed mechanism of parasite pathogenicity?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Local skin manifestations",
+     "e": "Wrong. Listed."
+    },
+    {
+     "t": "Mechanical obstruction",
+     "e": "Wrong. Listed."
+    },
+    {
+     "t": "Production of capsule polysaccharide",
+     "e": "Correct. Not listed in this lecture."
+    },
+    {
+     "t": "Malnutrition and anemia",
+     "e": "Wrong. Listed."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Cercarial dermatitis is an example of:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Mechanical obstruction",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Local skin manifestation from skin penetration",
+     "e": "Correct. Itchy macular and papular eruption."
+    },
+    {
+     "t": "Malabsorption",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pressure symptoms",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Skin"
+  },
+  {
+   "q": "A macule is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "A flat area of redness due to vasodilatation",
+     "e": "Correct. Local redness."
+    },
+    {
+     "t": "A raised area due to edema",
+     "e": "Wrong. Papule."
+    },
+    {
+     "t": "A fluid-filled blister",
+     "e": "Wrong. Not described."
+    },
+    {
+     "t": "A skin ulcer",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Skin"
+  },
+  {
+   "q": "A papule is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A flat red area",
+     "e": "Wrong. Macule."
+    },
+    {
+     "t": "A necrotic area",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A pigmented area",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A raised area from edema and inflammatory infiltration",
+     "e": "Correct. Contains eosinophils and mediators."
+    }
+   ],
+   "topic": "Skin"
+  },
+  {
+   "q": "Itching at the site of parasite penetration is due to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Bacterial toxins",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lymphatic obstruction",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Histamine released from mast cells",
+     "e": "Correct. Important inflammatory mediator."
+    },
+    {
+     "t": "Iron deficiency",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Skin"
+  },
+  {
+   "q": "Systemic allergy and toxemia occur when:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Parasite stays in the skin",
+     "e": "Wrong. Local manifestation."
+    },
+    {
+     "t": "The immune system fails to localize the parasite, which reaches the circulation",
+     "e": "Correct. Parasite and metabolites spread."
+    },
+    {
+     "t": "The parasite obstructs the bowel",
+     "e": "Wrong. Mechanical obstruction."
+    },
+    {
+     "t": "The parasite forms a cyst",
+     "e": "Wrong. Pressure symptoms."
+    }
+   ],
+   "topic": "Allergy"
+  },
+  {
+   "q": "Which are systemic manifestations of parasite allergy or toxemia?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Fever, urticaria, bronchial asthma, eosinophilia",
+     "e": "Correct. Systemic immune response."
+    },
+    {
+     "t": "Flask ulcer",
+     "e": "Wrong. Local tissue damage."
+    },
+    {
+     "t": "Lymphedema",
+     "e": "Wrong. Obstruction."
+    },
+    {
+     "t": "Hydatid cyst",
+     "e": "Wrong. Space-occupying lesion."
+    }
+   ],
+   "topic": "Allergy"
+  },
+  {
+   "q": "Mechanical tissue damage by parasites results from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Antibodies",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Iron deficiency",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vitamin loss",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lytic enzymes that cause tissue lysis and ulcers",
+     "e": "Correct. Produced at the habitat."
+    }
+   ],
+   "topic": "Mechanical damage"
+  },
+  {
+   "q": "Flask-shaped ulcers are produced by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Giardia",
+     "e": "Wrong. Does not invade."
+    },
+    {
+     "t": "Ascaris",
+     "e": "Wrong. Obstruction."
+    },
+    {
+     "t": "Entamoeba histolytica",
+     "e": "Correct. Enzymes lyse intestinal cells to reach submucosa."
+    },
+    {
+     "t": "Hookworm",
+     "e": "Wrong. Anemia."
+    }
+   ],
+   "topic": "Mechanical damage"
+  },
+  {
+   "q": "Heavy Ascaris infection can lead to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lymphedema",
+     "e": "Wrong. Filariasis."
+    },
+    {
+     "t": "Intestinal obstruction",
+     "e": "Correct. Nematode in the small intestine."
+    },
+    {
+     "t": "Flask ulcers",
+     "e": "Wrong. Amoebiasis."
+    },
+    {
+     "t": "Brain cysts",
+     "e": "Wrong. Hydatid disease."
+    }
+   ],
+   "topic": "Obstruction"
+  },
+  {
+   "q": "Filarial worms live in the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Lymphatic vessels, mainly of the lower limbs",
+     "e": "Correct. Obstruction causes lymphedema."
+    },
+    {
+     "t": "Small intestine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Liver",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lung",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Obstruction"
+  },
+  {
+   "q": "Lymphedema in filariasis is due to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Hypoproteinemia",
+     "e": "Wrong. Malabsorption."
+    },
+    {
+     "t": "Iron deficiency",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Direct skin penetration",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Obstruction of lymphatic drainage with fluid accumulation in the interstitium",
+     "e": "Correct. Edema of the lower limb."
+    }
+   ],
+   "topic": "Obstruction"
+  },
+  {
+   "q": "Hydatid cyst in the liver causes disease through:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lymphatic obstruction",
+     "e": "Wrong. Filariasis."
+    },
+    {
+     "t": "Skin penetration",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Space-occupying effect destroying parenchyma",
+     "e": "Correct. Pressure symptoms."
+    },
+    {
+     "t": "Malabsorption",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pressure"
+  },
+  {
+   "q": "A hydatid cyst in the brain causes:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lymphedema",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Focal manifestations depending on the site",
+     "e": "Correct. Destroys brain cells."
+    },
+    {
+     "t": "Anemia",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Dermatitis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Pressure"
+  },
+  {
+   "q": "Parasites of the small intestine lead to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Malabsorption of nutrients",
+     "e": "Correct. Large absorptive surface is damaged."
+    },
+    {
+     "t": "Constipation only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Enhanced absorption",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "No nutrient change",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Malabsorption"
+  },
+  {
+   "q": "Malabsorption of proteins leads to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Anemia only",
+     "e": "Wrong. Iron, folate, B12."
+    },
+    {
+     "t": "Lymphedema",
+     "e": "Wrong. Obstruction."
+    },
+    {
+     "t": "Fatty stool only",
+     "e": "Wrong. Fat malabsorption."
+    },
+    {
+     "t": "Hypoproteinemia and edema",
+     "e": "Correct. Low plasma proteins."
+    }
+   ],
+   "topic": "Malabsorption"
+  },
+  {
+   "q": "Malabsorption of iron, folate or vitamin B12 causes:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hypoproteinemia",
+     "e": "Wrong. Protein malabsorption."
+    },
+    {
+     "t": "Steatorrhea",
+     "e": "Wrong. Fat malabsorption."
+    },
+    {
+     "t": "Anemia",
+     "e": "Correct. Nutritional anemia."
+    },
+    {
+     "t": "Urticaria",
+     "e": "Wrong. Allergy."
+    }
+   ],
+   "topic": "Malabsorption"
+  },
+  {
+   "q": "Heavy infection by Ancylostoma (hookworm) classically produces:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lymphedema",
+     "e": "Wrong. Filariasis."
+    },
+    {
+     "t": "Hemorrhagic and iron deficiency anemia",
+     "e": "Correct. Blood loss plus malabsorption."
+    },
+    {
+     "t": "Brain cysts",
+     "e": "Wrong. Hydatid."
+    },
+    {
+     "t": "Cercarial dermatitis",
+     "e": "Wrong. Schistosoma."
+    }
+   ],
+   "topic": "Malabsorption"
+  }
+ ]
+}

@@ -1,0 +1,468 @@
+{
+ "id": "w2-micro-microbial-dynamics-1",
+ "title": "Microbial Dynamics: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-microbiology-microbial-dynamics",
+ "questions": [
+  {
+   "q": "Microbial dynamics refers to:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Study of viral structure only",
+     "e": "Wrong. Too narrow."
+    },
+    {
+     "t": "Study of changes and interactions of microbial populations over time and space",
+     "e": "Correct. Includes growth, reproduction, death and interactions."
+    },
+    {
+     "t": "Study of antibiotic resistance only",
+     "e": "Wrong. Too narrow."
+    },
+    {
+     "t": "Study of fungal taxonomy",
+     "e": "Wrong. Not the definition."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "Growth in microbiology is defined as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Orderly increase in the sum of all components of an organism",
+     "e": "Correct. In unicellular organisms this raises cell number."
+    },
+    {
+     "t": "Increase in cell size only",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Death of microbes",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Only DNA replication",
+     "e": "Wrong. Too narrow."
+    }
+   ],
+   "topic": "Definition"
+  },
+  {
+   "q": "Bacteria reproduce by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Budding",
+     "e": "Wrong. Typical of yeasts."
+    },
+    {
+     "t": "Meiosis",
+     "e": "Wrong. Not used by bacteria."
+    },
+    {
+     "t": "Sporulation as reproduction",
+     "e": "Wrong. Spores are survival forms."
+    },
+    {
+     "t": "Binary fission",
+     "e": "Correct. The cell divides into two identical daughter cells."
+    }
+   ],
+   "topic": "Reproduction"
+  },
+  {
+   "q": "During binary fission, the transverse septum originates from:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Nuclear membrane",
+     "e": "Wrong. Bacteria lack one."
+    },
+    {
+     "t": "Capsule",
+     "e": "Wrong. Not involved."
+    },
+    {
+     "t": "Plasma membrane and cell wall",
+     "e": "Correct. It divides the cell into two parts."
+    },
+    {
+     "t": "Flagella",
+     "e": "Wrong. Not involved."
+    }
+   ],
+   "topic": "Reproduction"
+  },
+  {
+   "q": "The daughter cells after binary fission:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Have different chromosome numbers",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Receive an identical set of chromosomes",
+     "e": "Correct. Genetically identical offspring."
+    },
+    {
+     "t": "Are always motile",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Are always larger than the parent",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Reproduction"
+  },
+  {
+   "q": "The viable count includes:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Only living bacteria",
+     "e": "Correct. Excludes dead cells."
+    },
+    {
+     "t": "Living and dead bacteria",
+     "e": "Wrong. That is the total count."
+    },
+    {
+     "t": "Only dead bacteria",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only spores",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Growth curve"
+  },
+  {
+   "q": "The total count includes:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only living cells",
+     "e": "Wrong. Viable count."
+    },
+    {
+     "t": "Only Gram negative cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only spores",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Both living and dead bacteria",
+     "e": "Correct. Unlike viable count."
+    }
+   ],
+   "topic": "Growth curve"
+  },
+  {
+   "q": "Bacterial count is useful in the examination of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Blood films",
+     "e": "Wrong. Not the use."
+    },
+    {
+     "t": "Skin biopsies",
+     "e": "Wrong. Not the use."
+    },
+    {
+     "t": "Water and milk",
+     "e": "Correct. Used for quality control."
+    },
+    {
+     "t": "Urine casts",
+     "e": "Wrong. Not the use."
+    }
+   ],
+   "topic": "Growth curve"
+  },
+  {
+   "q": "How many phases does the bacterial growth curve have?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Two",
+     "e": "Wrong. Too few."
+    },
+    {
+     "t": "Four",
+     "e": "Correct. Lag, logarithmic, stationary, decline."
+    },
+    {
+     "t": "Three",
+     "e": "Wrong. Too few."
+    },
+    {
+     "t": "Five",
+     "e": "Wrong. Too many."
+    }
+   ],
+   "topic": "Growth curve"
+  },
+  {
+   "q": "In the lag phase:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Cells increase in size without multiplying",
+     "e": "Correct. Enzymes accumulate until growth can start."
+    },
+    {
+     "t": "Cells multiply at the maximum rate",
+     "e": "Wrong. Log phase."
+    },
+    {
+     "t": "Growth ceases with balanced death",
+     "e": "Wrong. Stationary phase."
+    },
+    {
+     "t": "Progressive cell death occurs",
+     "e": "Wrong. Decline phase."
+    }
+   ],
+   "topic": "Lag phase"
+  },
+  {
+   "q": "Antibiotics have little effect during which phase?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Logarithmic phase",
+     "e": "Wrong. Antibiotics act best."
+    },
+    {
+     "t": "Rapid division phase",
+     "e": "Wrong. Antibiotics act best."
+    },
+    {
+     "t": "None",
+     "e": "Wrong. They have a phase-dependent effect."
+    },
+    {
+     "t": "Lag phase",
+     "e": "Correct. Cells are not actively dividing."
+    }
+   ],
+   "topic": "Lag phase"
+  },
+  {
+   "q": "Cells multiply at the maximum rate during the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lag phase",
+     "e": "Wrong. Adaptation."
+    },
+    {
+     "t": "Stationary phase",
+     "e": "Wrong. Balanced."
+    },
+    {
+     "t": "Logarithmic phase",
+     "e": "Correct. Constant generation time."
+    },
+    {
+     "t": "Decline phase",
+     "e": "Wrong. Dying."
+    }
+   ],
+   "topic": "Log phase"
+  },
+  {
+   "q": "Antibiotics (e.g., beta-lactams) act best in which phase?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lag phase",
+     "e": "Wrong. Little effect."
+    },
+    {
+     "t": "Logarithmic phase",
+     "e": "Correct. Actively dividing cells are most susceptible."
+    },
+    {
+     "t": "Stationary phase",
+     "e": "Wrong. Reduced effect."
+    },
+    {
+     "t": "Decline phase",
+     "e": "Wrong. Not best."
+    }
+   ],
+   "topic": "Log phase"
+  },
+  {
+   "q": "The log phase ends when:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Nutrients are exhausted or toxic products accumulate",
+     "e": "Correct. Growth is inhibited."
+    },
+    {
+     "t": "Antibiotics are added",
+     "e": "Wrong. Not the cause."
+    },
+    {
+     "t": "DNA is lost",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cells enter the thymus",
+     "e": "Wrong. Not relevant."
+    }
+   ],
+   "topic": "Log phase"
+  },
+  {
+   "q": "Which events characterize the stationary phase?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Maximum multiplication",
+     "e": "Wrong. Log phase."
+    },
+    {
+     "t": "Enzyme accumulation",
+     "e": "Wrong. Lag phase."
+    },
+    {
+     "t": "Progressive death only",
+     "e": "Wrong. Decline phase."
+    },
+    {
+     "t": "Balance between multiplication and death with growth ceasing",
+     "e": "Correct. Count remains stationary."
+    }
+   ],
+   "topic": "Stationary phase"
+  },
+  {
+   "q": "Exotoxins, antibiotics and spore formation are produced mostly in the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Lag phase",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "Log phase",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "Stationary phase",
+     "e": "Correct. Important feature of this phase."
+    },
+    {
+     "t": "Decline phase",
+     "e": "Wrong. Not typical."
+    }
+   ],
+   "topic": "Stationary phase"
+  },
+  {
+   "q": "In the decline phase:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cells divide maximally",
+     "e": "Wrong. Log phase."
+    },
+    {
+     "t": "There is progressive death of cells",
+     "e": "Correct. Some survivors use breakdown products of dead cells."
+    },
+    {
+     "t": "Cells adapt to the medium",
+     "e": "Wrong. Lag phase."
+    },
+    {
+     "t": "Counts are stable",
+     "e": "Wrong. Stationary phase."
+    }
+   ],
+   "topic": "Decline phase"
+  },
+  {
+   "q": "Which phase surviving cells feed on breakdown products of dead bacteria?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Decline (death) phase",
+     "e": "Correct. Some living bacteria remain."
+    },
+    {
+     "t": "Lag phase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Log phase",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stationary phase",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Decline phase"
+  },
+  {
+   "q": "Continuous culture keeps cells in the exponential phase by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Adding antibiotics",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lowering temperature to 4 C",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Removing oxygen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Repeatedly transferring them to fresh medium of identical composition while growing",
+     "e": "Correct. Maintains exponential growth."
+    }
+   ],
+   "topic": "Continuous culture"
+  },
+  {
+   "q": "In the typical growth curve, the cell number plotted is commonly shown as:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Linear dry weight only",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "Cell colour",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Logarithm of the number of viable cells against time",
+     "e": "Correct. Standard presentation."
+    },
+    {
+     "t": "Plasmid number",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Growth curve"
+  }
+ ]
+}

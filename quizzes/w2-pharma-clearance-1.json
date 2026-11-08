@@ -1,0 +1,560 @@
+{
+ "id": "w2-pharma-clearance-1",
+ "title": "Clearance and Excretion: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-pharmacology-pharmacokinetics-3",
+ "questions": [
+  {
+   "q": "Clearance is defined as:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Fraction of dose reaching circulation",
+     "e": "Wrong. Bioavailability."
+    },
+    {
+     "t": "Rate of elimination by all routes relative to drug concentration",
+     "e": "Correct. Cl = rate of elimination / concentration."
+    },
+    {
+     "t": "Apparent volume containing the drug",
+     "e": "Wrong. Vd."
+    },
+    {
+     "t": "Time to halve concentration",
+     "e": "Wrong. Half-life."
+    }
+   ],
+   "topic": "Clearance"
+  },
+  {
+   "q": "At steady state, dosing rate equals:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Clearance x Css",
+     "e": "Correct. Dosing rate = Cl x Css."
+    },
+    {
+     "t": "Vd x Css",
+     "e": "Wrong. Not the relationship."
+    },
+    {
+     "t": "Half-life x Css",
+     "e": "Wrong. Not the relationship."
+    },
+    {
+     "t": "F divided by Cl",
+     "e": "Wrong. Not the relationship."
+    }
+   ],
+   "topic": "Clearance"
+  },
+  {
+   "q": "Constant (linear) clearance is characterized by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A constant amount eliminated per unit time",
+     "e": "Wrong. Zero order."
+    },
+    {
+     "t": "Saturable elimination",
+     "e": "Wrong. Non-linear."
+    },
+    {
+     "t": "Dose-dependent clearance",
+     "e": "Wrong. Non-linear."
+    },
+    {
+     "t": "A constant fraction of drug eliminated per unit time",
+     "e": "Correct. First-order kinetics."
+    }
+   ],
+   "topic": "Clearance"
+  },
+  {
+   "q": "Which drug follows variable (zero-order) kinetics?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Penicillin",
+     "e": "Wrong. Most drugs are first order."
+    },
+    {
+     "t": "Propranolol",
+     "e": "Wrong. First order."
+    },
+    {
+     "t": "Phenytoin",
+     "e": "Correct. Also salicylic acid, ethanol, theophylline."
+    },
+    {
+     "t": "Digoxin",
+     "e": "Wrong. First order."
+    }
+   ],
+   "topic": "Clearance"
+  },
+  {
+   "q": "Which statement about zero-order kinetics is correct?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It occurs with most drugs",
+     "e": "Wrong. It is the minority."
+    },
+    {
+     "t": "A constant amount is eliminated per unit time and Css is harder to maintain",
+     "e": "Correct. Elimination system is saturated."
+    },
+    {
+     "t": "Clearance stays constant",
+     "e": "Wrong. Variable clearance."
+    },
+    {
+     "t": "It is dose-independent",
+     "e": "Wrong. Dose-dependent."
+    }
+   ],
+   "topic": "Clearance"
+  },
+  {
+   "q": "To be excreted, a drug generally must be:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Water soluble (ionized)",
+     "e": "Correct. Lipid soluble drugs are reabsorbed until metabolized."
+    },
+    {
+     "t": "Highly lipid soluble",
+     "e": "Wrong. Reabsorbed."
+    },
+    {
+     "t": "Bound to albumin",
+     "e": "Wrong. Bound drug is not filtered."
+    },
+    {
+     "t": "Unionized",
+     "e": "Wrong. Reabsorbed."
+    }
+   ],
+   "topic": "Excretion"
+  },
+  {
+   "q": "The main site of drug excretion is the:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Lung",
+     "e": "Wrong. Mainly inhalational anaesthetics."
+    },
+    {
+     "t": "Skin",
+     "e": "Wrong. Minor."
+    },
+    {
+     "t": "Saliva",
+     "e": "Wrong. Minor."
+    },
+    {
+     "t": "Kidney",
+     "e": "Correct. Also bile, lung, saliva, milk, sweat."
+    }
+   ],
+   "topic": "Excretion"
+  },
+  {
+   "q": "Renal excretion involves:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Filtration only",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "Secretion only",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "Glomerular filtration, passive tubular reabsorption and active tubular secretion",
+     "e": "Correct. Three processes."
+    },
+    {
+     "t": "Metabolism only",
+     "e": "Wrong. Not excretion."
+    }
+   ],
+   "topic": "Excretion"
+  },
+  {
+   "q": "Increased plasma protein binding of a drug:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increases excretion",
+     "e": "Wrong. Opposite."
+    },
+    {
+     "t": "Decreases free drug and decreases excretion",
+     "e": "Correct. Bound drug is not filtered."
+    },
+    {
+     "t": "Has no effect",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increases metabolism",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Excretion"
+  },
+  {
+   "q": "Aspirin toxicity is treated by alkalinizing urine with NaHCO3 because:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "It increases ionization of the weak acid and thus its excretion",
+     "e": "Correct. Ion trapping."
+    },
+    {
+     "t": "It reduces aspirin absorption",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "It increases protein binding",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "It stimulates liver enzymes",
+     "e": "Wrong. Not the reason."
+    }
+   ],
+   "topic": "Excretion"
+  },
+  {
+   "q": "Which agents acidify urine?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "NaHCO3 and acetazolamide",
+     "e": "Wrong. Alkalinizing agents."
+    },
+    {
+     "t": "Probenecid",
+     "e": "Wrong. Blocks tubular secretion."
+    },
+    {
+     "t": "Furosemide",
+     "e": "Wrong. Not an acidifier here."
+    },
+    {
+     "t": "NH4Cl and vitamin C",
+     "e": "Correct. Acidifying agents."
+    }
+   ],
+   "topic": "Excretion"
+  },
+  {
+   "q": "Probenecid prolongs penicillin action by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Inducing enzymes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increasing GFR",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Competing for active tubular secretion",
+     "e": "Correct. Carrier system is non-selective."
+    },
+    {
+     "t": "Binding penicillin in plasma",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Excretion"
+  },
+  {
+   "q": "Which decreases drug excretion?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Increased renal blood flow",
+     "e": "Wrong. Increases filtration."
+    },
+    {
+     "t": "Renal disease",
+     "e": "Correct. Reduced renal function."
+    },
+    {
+     "t": "Low molecular weight",
+     "e": "Wrong. Increases excretion."
+    },
+    {
+     "t": "Alkalinization for acids",
+     "e": "Wrong. Increases excretion."
+    }
+   ],
+   "topic": "Excretion"
+  },
+  {
+   "q": "Enterohepatic circulation involves:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Glucuronide conjugates deconjugated by gut bacteria and reabsorbed",
+     "e": "Correct. Seen with estrogens."
+    },
+    {
+     "t": "Direct renal reabsorption",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lung excretion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Salivary excretion",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Biliary excretion"
+  },
+  {
+   "q": "Antibiotics can reduce the effect of drugs undergoing enterohepatic circulation because they:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Increase renal excretion",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Induce CYP",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increase protein binding",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Kill gut bacteria that deconjugate the drug",
+     "e": "Correct. No reabsorption of free drug."
+    }
+   ],
+   "topic": "Biliary excretion"
+  },
+  {
+   "q": "Basic drugs tend to concentrate in milk because milk is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Alkaline",
+     "e": "Wrong. Would trap acids."
+    },
+    {
+     "t": "Neutral",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Acidic",
+     "e": "Correct. Ion trapping of bases."
+    },
+    {
+     "t": "Highly protein bound",
+     "e": "Wrong. Not the reason."
+    }
+   ],
+   "topic": "Milk excretion"
+  },
+  {
+   "q": "Which drug excreted in milk may harm infants?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Water",
+     "e": "Wrong. Not a drug."
+    },
+    {
+     "t": "Tetracycline, chloramphenicol, morphine, lithium",
+     "e": "Correct. Listed examples."
+    },
+    {
+     "t": "Vitamin D only",
+     "e": "Wrong. Not listed."
+    },
+    {
+     "t": "Aminoglycosides only",
+     "e": "Wrong. Not listed."
+    }
+   ],
+   "topic": "Milk excretion"
+  },
+  {
+   "q": "Bioavailability (F) is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Fraction of a dose reaching the systemic circulation",
+     "e": "Correct. Ranges from 0 to 1."
+    },
+    {
+     "t": "Volume of distribution",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Elimination rate",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Half-life",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Bioavailability"
+  },
+  {
+   "q": "Bioavailability after IV injection is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "0",
+     "e": "Wrong. No drug."
+    },
+    {
+     "t": "0.5",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Variable",
+     "e": "Wrong. Always 100%."
+    },
+    {
+     "t": "1 (100%)",
+     "e": "Correct. Entire dose enters circulation."
+    }
+   ],
+   "topic": "Bioavailability"
+  },
+  {
+   "q": "Which is a cause of low oral bioavailability?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IV administration",
+     "e": "Wrong. F = 1."
+    },
+    {
+     "t": "High potency",
+     "e": "Wrong. Not relevant."
+    },
+    {
+     "t": "Extensive first-pass metabolism or poor absorption",
+     "e": "Correct. E.g., aminoglycosides not absorbed."
+    },
+    {
+     "t": "Low molecular weight",
+     "e": "Wrong. Not a cause."
+    }
+   ],
+   "topic": "Bioavailability"
+  },
+  {
+   "q": "Lidocaine has low oral bioavailability because:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "It is not absorbed",
+     "e": "Wrong. Not the reason."
+    },
+    {
+     "t": "It is extensively metabolized in the liver",
+     "e": "Correct. First-pass effect."
+    },
+    {
+     "t": "It is destroyed by HCl",
+     "e": "Wrong. Penicillin."
+    },
+    {
+     "t": "It binds to food",
+     "e": "Wrong. Not the reason."
+    }
+   ],
+   "topic": "Bioavailability"
+  },
+  {
+   "q": "Insulin is destroyed orally mainly by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Digestive enzymes in the gut lumen",
+     "e": "Correct. Hence parenteral use."
+    },
+    {
+     "t": "MAO in gut wall",
+     "e": "Wrong. Catecholamines."
+    },
+    {
+     "t": "Hepatic CYP",
+     "e": "Wrong. Not main."
+    },
+    {
+     "t": "Renal excretion",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Bioavailability"
+  },
+  {
+   "q": "Half-life depends on:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Dose only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bioavailability only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Protein binding only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Clearance and volume of distribution (t1/2 = 0.693 x Vd / Cl)",
+     "e": "Correct. Both determine it."
+    }
+   ],
+   "topic": "Half-life"
+  },
+  {
+   "q": "Steady state is usually reached after:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "1 half-life",
+     "e": "Wrong. Too early."
+    },
+    {
+     "t": "10 half-lives",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "4 to 5 half-lives",
+     "e": "Correct. Elimination is also complete after 4-5 half-lives."
+    },
+    {
+     "t": "Immediately",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Half-life"
+  }
+ ]
+}

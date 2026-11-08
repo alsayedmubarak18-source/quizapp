@@ -1,0 +1,629 @@
+{
+ "id": "w2-micro-antimicrobial-susceptibility-1",
+ "title": "Antimicrobial Susceptibility: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-microbiology-antimicrobial-susceptibility",
+ "questions": [
+  {
+   "q": "Antibiotics are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Synthetic chemical compounds only",
+     "e": "Wrong. Those are chemical antimicrobials."
+    },
+    {
+     "t": "Only antiviral drugs",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only antifungal drugs",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Antimicrobial substances produced by living microorganisms",
+     "e": "Correct. For example penicillins, cephalosporins, aminoglycosides."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Sulphonamides are an example of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Natural antibiotics",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vaccines",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chemical (synthetic) antimicrobials",
+     "e": "Correct. Synthetically produced."
+    },
+    {
+     "t": "Antibodies",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "A bacteriostatic drug:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Kills bacteria",
+     "e": "Wrong. Bactericidal."
+    },
+    {
+     "t": "Prevents active multiplication; growth may resume when the drug is stopped",
+     "e": "Correct. Host defences are needed to clear infection."
+    },
+    {
+     "t": "Stimulates growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Has no effect",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Why is host immunity essential with bacteriostatic drugs?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Bacteria can regrow after the drug is stopped",
+     "e": "Correct. Phagocytosis helps eliminate the infection."
+    },
+    {
+     "t": "They kill the host immune cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "They are always toxic",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "They activate complement",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Broad-spectrum antibiotics are active against:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only Gram-positive",
+     "e": "Wrong. Narrow."
+    },
+    {
+     "t": "Only fungi",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only viruses",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Both Gram-positive and Gram-negative bacteria",
+     "e": "Correct. Narrow spectrum are limited to particular species."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The cornerstone of antimicrobial therapy is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Complete sterilization of the host",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Broad toxicity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Selective toxicity",
+     "e": "Correct. Inhibit microbes without harming the host."
+    },
+    {
+     "t": "Immune suppression",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Principles"
+  },
+  {
+   "q": "Which are the four major bacterial drug targets?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Mitochondria, Golgi, ER, nucleus",
+     "e": "Wrong. Eukaryotic organelles."
+    },
+    {
+     "t": "Cell wall, ribosomes, nucleic acids, cell membrane",
+     "e": "Correct. Differ from human cells."
+    },
+    {
+     "t": "Capsid, envelope, spikes, tail",
+     "e": "Wrong. Viral parts."
+    },
+    {
+     "t": "Flagella, pili, capsule, spores",
+     "e": "Wrong. Surface structures, not main drug targets."
+    }
+   ],
+   "topic": "Principles"
+  },
+  {
+   "q": "Why are antivirals hard to design?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Viruses depend on host cell machinery",
+     "e": "Correct. Selective inhibition without host harm is difficult."
+    },
+    {
+     "t": "Viruses have cell walls",
+     "e": "Wrong. They do not."
+    },
+    {
+     "t": "Viruses have 70S ribosomes",
+     "e": "Wrong. They have no ribosomes."
+    },
+    {
+     "t": "Viruses are extracellular",
+     "e": "Wrong. They are obligate intracellular."
+    }
+   ],
+   "topic": "Principles"
+  },
+  {
+   "q": "Penicillins and cephalosporins act by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Blocking 30S ribosomes",
+     "e": "Wrong. Tetracyclines, aminoglycosides."
+    },
+    {
+     "t": "Inhibiting DNA gyrase",
+     "e": "Wrong. Fluoroquinolones."
+    },
+    {
+     "t": "Binding ergosterol",
+     "e": "Wrong. Amphotericin B."
+    },
+    {
+     "t": "Inhibiting transpeptidases and blocking peptidoglycan formation",
+     "e": "Correct. Cell wall synthesis inhibition."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Echinocandins act on fungi by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Binding ergosterol",
+     "e": "Wrong. Amphotericin B."
+    },
+    {
+     "t": "Inhibiting DNA gyrase",
+     "e": "Wrong. Fluoroquinolones."
+    },
+    {
+     "t": "Inhibiting synthesis of beta-glucan in the cell wall",
+     "e": "Correct. Fungal cell wall inhibitors."
+    },
+    {
+     "t": "Inhibiting RNA polymerase",
+     "e": "Wrong. Rifampin."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Which drugs inhibit the 50S ribosomal subunit?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Tetracyclines and aminoglycosides",
+     "e": "Wrong. 30S inhibitors."
+    },
+    {
+     "t": "Chloramphenicol, macrolides, clindamycin",
+     "e": "Correct. 50S inhibitors."
+    },
+    {
+     "t": "Sulfonamides and trimethoprim",
+     "e": "Wrong. Folate pathway."
+    },
+    {
+     "t": "Fluoroquinolones",
+     "e": "Wrong. DNA gyrase."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Which drugs inhibit the 30S ribosomal subunit?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Tetracyclines and aminoglycosides",
+     "e": "Correct. 30S inhibitors."
+    },
+    {
+     "t": "Macrolides",
+     "e": "Wrong. 50S inhibitors."
+    },
+    {
+     "t": "Clindamycin",
+     "e": "Wrong. 50S inhibitor."
+    },
+    {
+     "t": "Chloramphenicol",
+     "e": "Wrong. 50S inhibitor."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Bacterial ribosomes are 70S, which allows selective toxicity because human ribosomes are:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "60S",
+     "e": "Wrong. A subunit, not the whole."
+    },
+    {
+     "t": "90S",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "50S",
+     "e": "Wrong. Bacterial subunit."
+    },
+    {
+     "t": "80S",
+     "e": "Correct. 60S and 40S subunits."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Sulfonamides inhibit:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Dihydrofolate reductase",
+     "e": "Wrong. Trimethoprim."
+    },
+    {
+     "t": "DNA gyrase",
+     "e": "Wrong. Fluoroquinolones."
+    },
+    {
+     "t": "Folic acid synthesis",
+     "e": "Correct. No tetrahydrofolate means no purines and thymidine."
+    },
+    {
+     "t": "RNA polymerase",
+     "e": "Wrong. Rifampin."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Trimethoprim inhibits:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Folic acid synthesis from PABA",
+     "e": "Wrong. Sulfonamides."
+    },
+    {
+     "t": "Dihydrofolate reductase",
+     "e": "Correct. Blocks conversion to tetrahydrofolate."
+    },
+    {
+     "t": "Topoisomerase IV",
+     "e": "Wrong. Fluoroquinolones."
+    },
+    {
+     "t": "Transpeptidase",
+     "e": "Wrong. Beta-lactams."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Fluoroquinolones act by inhibiting:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "DNA gyrase and topoisomerase IV",
+     "e": "Correct. DNA supercoils cannot be relieved."
+    },
+    {
+     "t": "Dihydrofolate reductase",
+     "e": "Wrong. Trimethoprim."
+    },
+    {
+     "t": "Peptidoglycan synthesis",
+     "e": "Wrong. Beta-lactams."
+    },
+    {
+     "t": "Ergosterol synthesis",
+     "e": "Wrong. Azoles."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Rifampin inhibits:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "DNA gyrase",
+     "e": "Wrong. Fluoroquinolones."
+    },
+    {
+     "t": "Cell wall synthesis",
+     "e": "Wrong. Beta-lactams."
+    },
+    {
+     "t": "30S ribosome",
+     "e": "Wrong. Aminoglycosides."
+    },
+    {
+     "t": "Bacterial RNA polymerase",
+     "e": "Correct. No mRNA synthesis."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Flucytosine is converted to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Penicillin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ergosterol",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "5-fluorouracil that inhibits thymidylate synthetase",
+     "e": "Correct. Blocks dTMP synthesis."
+    },
+    {
+     "t": "Folic acid",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Amphotericin B and azoles act on:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Peptidoglycan",
+     "e": "Wrong. Bacterial."
+    },
+    {
+     "t": "Fungal membrane ergosterol",
+     "e": "Correct. Human membranes have cholesterol."
+    },
+    {
+     "t": "DNA gyrase",
+     "e": "Wrong. Bacterial."
+    },
+    {
+     "t": "70S ribosomes",
+     "e": "Wrong. Bacterial."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Which enzyme confers resistance by cleaving the beta-lactam ring?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Beta-lactamase",
+     "e": "Correct. Enzymatic inactivation of penicillins and cephalosporins."
+    },
+    {
+     "t": "Transpeptidase",
+     "e": "Wrong. Target of beta-lactams."
+    },
+    {
+     "t": "DNA gyrase",
+     "e": "Wrong. Target of quinolones."
+    },
+    {
+     "t": "Reverse transcriptase",
+     "e": "Wrong. Viral enzyme."
+    }
+   ],
+   "topic": "Resistance"
+  },
+  {
+   "q": "Methylation of 23S rRNA causes resistance to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Streptomycin",
+     "e": "Wrong. Mutation in 30S."
+    },
+    {
+     "t": "Penicillin",
+     "e": "Wrong. Beta-lactamase or porin changes."
+    },
+    {
+     "t": "Rifampin",
+     "e": "Wrong. RNA polymerase change."
+    },
+    {
+     "t": "Erythromycin",
+     "e": "Correct. Target modification."
+    }
+   ],
+   "topic": "Resistance"
+  },
+  {
+   "q": "Efflux pumps cause resistance by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Destroying the drug",
+     "e": "Wrong. Enzymatic inactivation."
+    },
+    {
+     "t": "Changing the target",
+     "e": "Wrong. Target modification."
+    },
+    {
+     "t": "Expelling the antibiotic, as with tetracyclines",
+     "e": "Correct. Active efflux."
+    },
+    {
+     "t": "Blocking plasmid transfer",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Resistance"
+  },
+  {
+   "q": "Plasmid-mediated resistance is clinically important because it:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Occurs only through mutation",
+     "e": "Wrong. That is chromosomal."
+    },
+    {
+     "t": "Transfers easily by conjugation and often carries multi-drug resistance",
+     "e": "Correct. Especially in Gram-negative rods."
+    },
+    {
+     "t": "Has lower frequency than chromosomal",
+     "e": "Wrong. It is higher."
+    },
+    {
+     "t": "Cannot spread",
+     "e": "Wrong. It can spread."
+    }
+   ],
+   "topic": "Resistance"
+  },
+  {
+   "q": "In the Kirby-Bauer method, the zone of inhibition is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "The clear area around a disc where growth is prevented",
+     "e": "Correct. Compared with CLSI/EUCAST standards."
+    },
+    {
+     "t": "The area of dense growth",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The disc diameter",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The concentration in broth",
+     "e": "Wrong. MIC."
+    }
+   ],
+   "topic": "Testing"
+  },
+  {
+   "q": "MIC is defined as:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "The concentration killing 99.9%",
+     "e": "Wrong. MBC."
+    },
+    {
+     "t": "The disc zone diameter",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The peak serum level",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The lowest antibiotic concentration that inhibits visible growth",
+     "e": "Correct. Quantitative measure of susceptibility."
+    }
+   ],
+   "topic": "Testing"
+  },
+  {
+   "q": "MBC is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The lowest concentration that inhibits growth",
+     "e": "Wrong. MIC."
+    },
+    {
+     "t": "The disc zone size",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The lowest concentration that kills 99.9% or more of bacteria",
+     "e": "Correct. Determined by subculture onto antibiotic-free agar."
+    },
+    {
+     "t": "The highest tolerated dose",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Testing"
+  },
+  {
+   "q": "An MBC much greater than the MIC indicates:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Bactericidal action",
+     "e": "Wrong. MBC close to MIC."
+    },
+    {
+     "t": "Bacteriostatic action",
+     "e": "Correct. MBC approximately equal to MIC indicates bactericidal."
+    },
+    {
+     "t": "Resistance only",
+     "e": "Wrong. Not necessarily."
+    },
+    {
+     "t": "Viral infection",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Testing"
+  }
+ ]
+}

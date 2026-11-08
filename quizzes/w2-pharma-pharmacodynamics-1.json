@@ -1,0 +1,583 @@
+{
+ "id": "w2-pharma-pharmacodynamics-1",
+ "title": "Pharmacodynamics: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-pharmacology-codynamics",
+ "questions": [
+  {
+   "q": "Most drugs act by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Binding to specific receptors",
+     "e": "Correct. Cell membrane or intracellular."
+    },
+    {
+     "t": "Physical properties only",
+     "e": "Wrong. Few drugs."
+    },
+    {
+     "t": "Chemical neutralization only",
+     "e": "Wrong. Few drugs."
+    },
+    {
+     "t": "Structural analog only",
+     "e": "Wrong. Few drugs."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Antacids act by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Receptor binding",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Osmosis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Gene regulation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Direct chemical neutralization of gastric HCl",
+     "e": "Correct. Chemical interaction."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Magnesium sulfate acts as a laxative by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Receptor activation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chelation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Osmotic effect",
+     "e": "Correct. Physical or physicochemical property."
+    },
+    {
+     "t": "Enzyme inhibition",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "5-Fluorouracil acts as:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A receptor agonist",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A structural analog of uracil incorporated into RNA",
+     "e": "Correct. Alters cellular components."
+    },
+    {
+     "t": "An osmotic agent",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "An antacid",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mechanisms"
+  },
+  {
+   "q": "Which receptors are ligand-gated ion channels?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Nicotinic, GABA-A, 5-HT3 and glutamate receptors",
+     "e": "Correct. Ionotropic receptors."
+    },
+    {
+     "t": "Beta-adrenergic receptors",
+     "e": "Wrong. GPCRs."
+    },
+    {
+     "t": "Insulin receptor",
+     "e": "Wrong. Tyrosine kinase."
+    },
+    {
+     "t": "Steroid receptors",
+     "e": "Wrong. Intracellular."
+    }
+   ],
+   "topic": "Signaling"
+  },
+  {
+   "q": "Ionotropic receptor effects occur within:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Seconds",
+     "e": "Wrong. GPCRs."
+    },
+    {
+     "t": "Minutes",
+     "e": "Wrong. Tyrosine kinase."
+    },
+    {
+     "t": "Hours to days",
+     "e": "Wrong. Intracellular receptors."
+    },
+    {
+     "t": "Milliseconds",
+     "e": "Correct. Fast synaptic transmission."
+    }
+   ],
+   "topic": "Signaling"
+  },
+  {
+   "q": "G-protein: Gs does what?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Inhibits adenylyl cyclase",
+     "e": "Wrong. Gi."
+    },
+    {
+     "t": "Opens ion channels directly",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Stimulates adenylyl cyclase",
+     "e": "Correct. Gi inhibits it."
+    },
+    {
+     "t": "Phosphorylates tyrosine",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Signaling"
+  },
+  {
+   "q": "Which are GPCR examples?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Nicotinic receptors",
+     "e": "Wrong. Ionotropic."
+    },
+    {
+     "t": "Muscarinic, adrenergic, dopaminergic, opiate receptors",
+     "e": "Correct. G-protein coupled."
+    },
+    {
+     "t": "Insulin receptor",
+     "e": "Wrong. Tyrosine kinase."
+    },
+    {
+     "t": "Thyroid hormone receptor",
+     "e": "Wrong. Intracellular."
+    }
+   ],
+   "topic": "Signaling"
+  },
+  {
+   "q": "Second messengers of GPCRs include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "cAMP, IP3, DAG, Ca2+",
+     "e": "Correct. Regulated by G proteins."
+    },
+    {
+     "t": "Insulin",
+     "e": "Wrong. Hormone."
+    },
+    {
+     "t": "Albumin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Plasmids",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Signaling"
+  },
+  {
+   "q": "The insulin receptor is a:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Ionotropic receptor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "GPCR",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Intracellular receptor",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tyrosine kinase-linked receptor",
+     "e": "Correct. Effects in minutes."
+    }
+   ],
+   "topic": "Signaling"
+  },
+  {
+   "q": "Steroid hormone receptors are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Membrane GPCRs",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ion channels",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Intracellular receptors regulating gene expression",
+     "e": "Correct. Slow onset of hours."
+    },
+    {
+     "t": "Tyrosine kinases",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Signaling"
+  },
+  {
+   "q": "Why don't glucocorticoids immediately relieve acute asthma?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "They are not absorbed",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Intracellular receptor effects need new protein synthesis",
+     "e": "Correct. Slow onset 30 min to hours."
+    },
+    {
+     "t": "They block GPCRs",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "They are inactive",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Signaling"
+  },
+  {
+   "q": "Affinity is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Degree of drug binding to its receptor",
+     "e": "Correct. Not activation."
+    },
+    {
+     "t": "Ability to activate the receptor",
+     "e": "Wrong. Intrinsic activity."
+    },
+    {
+     "t": "Maximum effect",
+     "e": "Wrong. Efficacy."
+    },
+    {
+     "t": "Potency in vivo",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Agonists"
+  },
+  {
+   "q": "Intrinsic activity (efficacy) is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Strength of binding",
+     "e": "Wrong. Affinity."
+    },
+    {
+     "t": "Dose giving half effect",
+     "e": "Wrong. Potency."
+    },
+    {
+     "t": "Time to onset",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Ability to activate the receptor and produce maximal effect",
+     "e": "Correct. Agonists have it."
+    }
+   ],
+   "topic": "Agonists"
+  },
+  {
+   "q": "An antagonist has:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Intrinsic activity but no affinity",
+     "e": "Wrong. Impossible."
+    },
+    {
+     "t": "Both high",
+     "e": "Wrong. Full agonist."
+    },
+    {
+     "t": "Affinity but no intrinsic activity",
+     "e": "Correct. Blocks the agonist."
+    },
+    {
+     "t": "Neither",
+     "e": "Wrong. No action."
+    }
+   ],
+   "topic": "Agonists"
+  },
+  {
+   "q": "A partial agonist has:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "No affinity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Adequate affinity but low intrinsic activity",
+     "e": "Correct. Cannot produce maximal response."
+    },
+    {
+     "t": "High intrinsic activity",
+     "e": "Wrong. Full agonist."
+    },
+    {
+     "t": "Irreversible binding",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Agonists"
+  },
+  {
+   "q": "Pentazocine is an example of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Partial agonist",
+     "e": "Correct. Acts as antagonist when full agonist present."
+    },
+    {
+     "t": "Inverse agonist",
+     "e": "Wrong. Beta-carbolines."
+    },
+    {
+     "t": "Competitive antagonist",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Physiological antagonist",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Agonists"
+  },
+  {
+   "q": "An inverse agonist:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only blocks the agonist",
+     "e": "Wrong. Neutral antagonist."
+    },
+    {
+     "t": "Mimics the agonist",
+     "e": "Wrong. Agonist."
+    },
+    {
+     "t": "Is irreversible",
+     "e": "Wrong. Not necessarily."
+    },
+    {
+     "t": "Blocks agonist and produces the opposite effect",
+     "e": "Correct. E.g., beta-carbolines vs benzodiazepines."
+    }
+   ],
+   "topic": "Agonists"
+  },
+  {
+   "q": "Competitive antagonism shifts the agonist curve:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Downward with loss of parallelism",
+     "e": "Wrong. Irreversible."
+    },
+    {
+     "t": "To the left",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "To the right with parallelism maintained",
+     "e": "Correct. Surmountable by more agonist."
+    },
+    {
+     "t": "Not at all",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Antagonism"
+  },
+  {
+   "q": "Which pair is a competitive antagonist example?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Phenoxybenzamine at alpha receptors",
+     "e": "Wrong. Irreversible."
+    },
+    {
+     "t": "Naloxone at opioid receptors",
+     "e": "Correct. Also propranolol at beta receptors."
+    },
+    {
+     "t": "Protamine with heparin",
+     "e": "Wrong. Chemical antagonism."
+    },
+    {
+     "t": "Epinephrine with histamine",
+     "e": "Wrong. Physiological antagonism."
+    }
+   ],
+   "topic": "Antagonism"
+  },
+  {
+   "q": "Phenoxybenzamine is an example of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Irreversible antagonist of alpha receptors",
+     "e": "Correct. Lowers maximal response."
+    },
+    {
+     "t": "Competitive antagonist",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Partial agonist",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chemical antagonist",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Antagonism"
+  },
+  {
+   "q": "Duration of an irreversible antagonist depends on:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Its elimination half-life",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Protein binding",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Renal function",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Rate of synthesis of new receptors",
+     "e": "Correct. Not elimination rate."
+    }
+   ],
+   "topic": "Antagonism"
+  },
+  {
+   "q": "Epinephrine versus histamine in anaphylaxis is an example of:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Competitive antagonism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chemical antagonism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Physiological (functional) antagonism",
+     "e": "Correct. Opposite physiological actions."
+    },
+    {
+     "t": "Physical antagonism",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Antagonism"
+  },
+  {
+   "q": "Protamine neutralizing heparin is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Physiological antagonism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chemical antagonism",
+     "e": "Correct. Positive vs negative charge."
+    },
+    {
+     "t": "Physical antagonism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Competitive antagonism",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Antagonism"
+  },
+  {
+   "q": "Activated charcoal adsorbing strychnine is:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Physical antagonism",
+     "e": "Correct. Reduces absorption."
+    },
+    {
+     "t": "Chemical antagonism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Receptor antagonism",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Physiological antagonism",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Antagonism"
+  }
+ ]
+}

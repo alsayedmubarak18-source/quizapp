@@ -39,5 +39,14 @@
  "w1-immuno-overview-1.json",
  "w1-immuno-cellular-structural-elements-1.json",
  "w1-immuno-natural-immune-response-1-1.json",
- "w1-immuno-natural-immune-response-2-1.json"
+ "w1-immuno-natural-immune-response-2-1.json",
+ "w2-micro-microbial-dynamics-1.json",
+ "w2-micro-antimicrobial-susceptibility-1.json",
+ "w2-para-pathology-of-parasites-1.json",
+ "w2-para-host-pathogen-interaction-1.json",
+ "w2-pharma-clearance-1.json",
+ "w2-pharma-pharmacodynamics-1.json",
+ "w2-path-tissue-injury-1-1.json",
+ "w2-path-tissue-injury-2-1.json",
+ "w2-immuno-specific-recognition-1.json"
 ]

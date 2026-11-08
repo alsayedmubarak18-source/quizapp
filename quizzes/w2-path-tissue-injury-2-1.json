@@ -1,0 +1,583 @@
+{
+ "id": "w2-path-tissue-injury-2-1",
+ "title": "Response to Tissue Injury 2 (Inflammation Morphology and Chronic): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-pathology-tissue-injury-2",
+ "questions": [
+  {
+   "q": "Serous inflammation is characterized by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Pus formation",
+     "e": "Wrong. Suppurative."
+    },
+    {
+     "t": "Watery, protein-poor fluid accumulation",
+     "e": "Correct. Effusion if in a cavity."
+    },
+    {
+     "t": "Fibrin deposition",
+     "e": "Wrong. Fibrinous."
+    },
+    {
+     "t": "Local epithelial defect",
+     "e": "Wrong. Ulcer."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "A skin blister from a burn or herpes infection is an example of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Serous inflammation",
+     "e": "Correct. Fluid beneath the epidermis."
+    },
+    {
+     "t": "Fibrinous inflammation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Suppurative inflammation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Granulomatous inflammation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "Fibrinous inflammation commonly affects:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Skin only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Brain",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pleura and pericardium",
+     "e": "Correct. Large vascular leaks."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "Organization of fibrinous exudate leads to:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Complete cure always",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Scar tissue and functional impairment",
+     "e": "Correct. Instead of resolution."
+    },
+    {
+     "t": "Granuloma",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "Acute suppurative inflammation is characterized by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Watery fluid",
+     "e": "Wrong. Serous."
+    },
+    {
+     "t": "Pus formation",
+     "e": "Correct. Pyogenic organisms."
+    },
+    {
+     "t": "Fibrin",
+     "e": "Wrong. Fibrinous."
+    },
+    {
+     "t": "Giant cells",
+     "e": "Wrong. Granulomatous."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "Pyogenic organisms include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Staphylococci, streptococci, meningococci",
+     "e": "Correct. Cause pus."
+    },
+    {
+     "t": "Mycobacteria",
+     "e": "Wrong. Granuloma."
+    },
+    {
+     "t": "Viruses",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "Parasites",
+     "e": "Wrong. Not typical."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "Pus is formed by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Fibrinogen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lymphocytes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Plasma cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lysosomal enzymes liquefying necrotic tissue, fibrin and pus cells",
+     "e": "Correct. Creamy fluid."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "Pus contains:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Only water",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only fibrin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Living and dead bacteria, liquefied tissue, exudate, leukocytes",
+     "e": "Correct. Composition."
+    },
+    {
+     "t": "Only RBCs",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "An ulcer is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Collection of pus",
+     "e": "Wrong. Abscess."
+    },
+    {
+     "t": "Local surface defect from necrosis and epithelial loss",
+     "e": "Correct. E.g., peptic ulcer, bed sores."
+    },
+    {
+     "t": "Granuloma",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Effusion",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "Which are ulcer examples?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Peptic ulcers, ischemic diabetic ulcers, bed sores",
+     "e": "Correct. Listed examples."
+    },
+    {
+     "t": "Pleural effusion",
+     "e": "Wrong. Serous."
+    },
+    {
+     "t": "Liver abscess",
+     "e": "Wrong. Suppurative."
+    },
+    {
+     "t": "TB granuloma",
+     "e": "Wrong. Chronic granulomatous."
+    }
+   ],
+   "topic": "Acute morphology"
+  },
+  {
+   "q": "Fever in inflammation is mediated by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Histamine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bradykinin",
+     "e": "Wrong. Pain."
+    },
+    {
+     "t": "Fibrin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "TNF and IL-1 acting on the hypothalamus",
+     "e": "Correct. Cytokines."
+    }
+   ],
+   "topic": "Systemic effects"
+  },
+  {
+   "q": "Leukocytosis is caused by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Direct neutrophil division in blood",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Thymic release",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cytokines stimulating leukocyte production in bone marrow",
+     "e": "Correct. Systemic effect."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Systemic effects"
+  },
+  {
+   "q": "An acute-phase protein indicating inflammation is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Albumin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "C-reactive protein",
+     "e": "Correct. Produced in response to cytokines."
+    },
+    {
+     "t": "Hemoglobin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Insulin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Systemic effects"
+  },
+  {
+   "q": "Chronic inflammation is best defined as:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "A prolonged reaction to persistent stimuli with inflammation, tissue injury and scarring together",
+     "e": "Correct. Injury and repair coexist."
+    },
+    {
+     "t": "A short reaction with neutrophils",
+     "e": "Wrong. Acute."
+    },
+    {
+     "t": "A neoplastic process",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A purely degenerative change",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Chronic"
+  },
+  {
+   "q": "The central cell of chronic inflammation is the:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Neutrophil",
+     "e": "Wrong. Acute."
+    },
+    {
+     "t": "Eosinophil",
+     "e": "Wrong. Allergy and parasites."
+    },
+    {
+     "t": "Mast cell",
+     "e": "Wrong. Not central."
+    },
+    {
+     "t": "Macrophage",
+     "e": "Correct. Activated by T cell cytokines."
+    }
+   ],
+   "topic": "Chronic"
+  },
+  {
+   "q": "Which is an example of chronic inflammation?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Insect bite only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Burn blister",
+     "e": "Wrong. Serous acute."
+    },
+    {
+     "t": "Tuberculosis, rheumatoid arthritis, bronchial asthma",
+     "e": "Correct. Persistent infection, autoimmune, allergic."
+    },
+    {
+     "t": "Boil only",
+     "e": "Wrong. Acute suppurative."
+    }
+   ],
+   "topic": "Chronic"
+  },
+  {
+   "q": "Macrophages in the liver are called:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Microglia",
+     "e": "Wrong. CNS."
+    },
+    {
+     "t": "Kupffer cells",
+     "e": "Correct. Tissue-specific names."
+    },
+    {
+     "t": "Alveolar macrophages",
+     "e": "Wrong. Lung."
+    },
+    {
+     "t": "Sinus histiocytes",
+     "e": "Wrong. Spleen and lymph nodes."
+    }
+   ],
+   "topic": "Chronic cells"
+  },
+  {
+   "q": "Microglial cells are macrophages in the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Central nervous system",
+     "e": "Correct. Tissue macrophage."
+    },
+    {
+     "t": "Liver",
+     "e": "Wrong. Kupffer cells."
+    },
+    {
+     "t": "Lung",
+     "e": "Wrong. Alveolar macrophages."
+    },
+    {
+     "t": "Spleen",
+     "e": "Wrong. Sinus histiocytes."
+    }
+   ],
+   "topic": "Chronic cells"
+  },
+  {
+   "q": "Eosinophils participate in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Bacterial pus",
+     "e": "Wrong. Neutrophils."
+    },
+    {
+     "t": "Antibody production",
+     "e": "Wrong. Plasma cells."
+    },
+    {
+     "t": "Antigen presentation only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IgE-mediated allergic reactions and parasitic infections",
+     "e": "Correct. Granules toxic to parasites."
+    }
+   ],
+   "topic": "Chronic cells"
+  },
+  {
+   "q": "Plasma cells are characterized by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Bilobed nucleus",
+     "e": "Wrong. Eosinophil."
+    },
+    {
+     "t": "Small dark nucleus with scanty cytoplasm",
+     "e": "Wrong. Lymphocyte."
+    },
+    {
+     "t": "Basophilic cytoplasm and an eccentric nucleus",
+     "e": "Correct. They produce antibodies."
+    },
+    {
+     "t": "Large phagocytic cell",
+     "e": "Wrong. Macrophage."
+    }
+   ],
+   "topic": "Chronic cells"
+  },
+  {
+   "q": "Plasma cells develop from:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Monocytes",
+     "e": "Wrong. Macrophages."
+    },
+    {
+     "t": "Activated B lymphocytes",
+     "e": "Correct. Antibody producers."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Platelets",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Chronic cells"
+  },
+  {
+   "q": "Granulomatous inflammation consists of:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Aggregates of activated epithelioid macrophages",
+     "e": "Correct. A chronic pattern."
+    },
+    {
+     "t": "Collections of neutrophils",
+     "e": "Wrong. Pus."
+    },
+    {
+     "t": "Fibrin deposits",
+     "e": "Wrong. Fibrinous."
+    },
+    {
+     "t": "Eosinophils only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Granuloma"
+  },
+  {
+   "q": "A caseating granuloma is typical of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Sarcoidosis",
+     "e": "Wrong. Non-caseating."
+    },
+    {
+     "t": "Viral hepatitis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Burns",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tuberculosis",
+     "e": "Correct. Central caseous necrosis."
+    }
+   ],
+   "topic": "Granuloma"
+  },
+  {
+   "q": "Giant cells in granuloma are formed by:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Fusion of neutrophils",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Division of lymphocytes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fusion of activated macrophages",
+     "e": "Correct. Multinucleate."
+    },
+    {
+     "t": "Plasma cell merging",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Granuloma"
+  },
+  {
+   "q": "A typical granuloma includes:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Only neutrophils and pus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Epithelioid macrophages, collar of lymphocytes, giant cells, central necrosis",
+     "e": "Correct. Features."
+    },
+    {
+     "t": "Only fat cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only fibrin",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Granuloma"
+  }
+ ]
+}

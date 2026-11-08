@@ -1,0 +1,491 @@
+{
+ "id": "w2-para-host-pathogen-interaction-1",
+ "title": "Host-Parasite Relationship and Life Cycles: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-parasitology-host-pathogen-interaction",
+ "questions": [
+  {
+   "q": "Why do we study parasite life cycles?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only to name the parasite",
+     "e": "Wrong. Too narrow."
+    },
+    {
+     "t": "To avoid laboratory tests",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "To classify vitamins",
+     "e": "Wrong. Not relevant."
+    },
+    {
+     "t": "To recognize the clinical picture, trace the diagnostic stage, and find the weakest link for control",
+     "e": "Correct. Key reasons given."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The definitive host harbors:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The larval stage",
+     "e": "Wrong. Intermediate host."
+    },
+    {
+     "t": "Only the egg",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The adult or sexually mature stage",
+     "e": "Correct. Sexual reproduction occurs there."
+    },
+    {
+     "t": "Only the cyst",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "The intermediate host harbors:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The adult sexual stage",
+     "e": "Wrong. Definitive host."
+    },
+    {
+     "t": "The larval or sexually immature stage",
+     "e": "Correct. Not the adult."
+    },
+    {
+     "t": "No parasite",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only trophozoites",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "The infective stage is the stage:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Responsible for human infection",
+     "e": "Correct. Humans are exposed to it."
+    },
+    {
+     "t": "Identified in laboratory samples",
+     "e": "Wrong. Diagnostic stage."
+    },
+    {
+     "t": "That lives in the habitat",
+     "e": "Wrong. Not the definition."
+    },
+    {
+     "t": "Found only in the snail",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "The diagnostic stage is the stage:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "That infects humans",
+     "e": "Wrong. Infective stage."
+    },
+    {
+     "t": "That multiplies in the intermediate host",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "That is always the egg",
+     "e": "Wrong. Not always."
+    },
+    {
+     "t": "That can be identified in laboratory samples",
+     "e": "Correct. Used for diagnosis."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "The habitat of a parasite is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "The environment outside the body",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The vector",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The organ, tissue or cell where it finally resides in the human host",
+     "e": "Correct. For example lungs for Paragonimus."
+    },
+    {
+     "t": "The diagnostic sample",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Cestode life cycle: humans typically acquire infection by:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Skin penetration of cercariae",
+     "e": "Wrong. Schistosoma."
+    },
+    {
+     "t": "Ingesting encysted larvae in meat of an infected animal",
+     "e": "Correct. Except Echinococcus where eggs are infective."
+    },
+    {
+     "t": "Mosquito bite",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inhaling cysts",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cestodes"
+  },
+  {
+   "q": "In Echinococcus granulosus the infective stage is the:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Eggs",
+     "e": "Correct. An exception among cestodes."
+    },
+    {
+     "t": "Encysted larvae in meat",
+     "e": "Wrong. Typical cestode route."
+    },
+    {
+     "t": "Cercariae",
+     "e": "Wrong. Trematode."
+    },
+    {
+     "t": "Trophozoite",
+     "e": "Wrong. Protozoa."
+    }
+   ],
+   "topic": "Cestodes"
+  },
+  {
+   "q": "Where does the adult cestode mature?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "In the snail",
+     "e": "Wrong. Trematode intermediate host."
+    },
+    {
+     "t": "In grazing animals",
+     "e": "Wrong. Intermediate host."
+    },
+    {
+     "t": "In water plants",
+     "e": "Wrong. Trematode intermediate."
+    },
+    {
+     "t": "In the human intestine",
+     "e": "Correct. Final host."
+    }
+   ],
+   "topic": "Cestodes"
+  },
+  {
+   "q": "In trematode life cycles, eggs hatch into:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Cercariae directly infecting humans",
+     "e": "Wrong. Later stage."
+    },
+    {
+     "t": "Trophozoites",
+     "e": "Wrong. Protozoa."
+    },
+    {
+     "t": "Miracidia that invade a snail",
+     "e": "Correct. First intermediate host."
+    },
+    {
+     "t": "Cysticerci",
+     "e": "Wrong. Cestode larva."
+    }
+   ],
+   "topic": "Trematodes"
+  },
+  {
+   "q": "Which trematode does NOT require a second intermediate host?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Paragonimus",
+     "e": "Wrong. Needs crab or crayfish."
+    },
+    {
+     "t": "Schistosoma",
+     "e": "Correct. Cercariae directly penetrate human skin."
+    },
+    {
+     "t": "Fasciola",
+     "e": "Wrong. Uses plants as second host."
+    },
+    {
+     "t": "Clonorchis",
+     "e": "Wrong. Uses fish."
+    }
+   ],
+   "topic": "Trematodes"
+  },
+  {
+   "q": "Humans are infected with most trematodes by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Ingesting encysted metacercariae in water plants or animals",
+     "e": "Correct. Schistosoma is the exception."
+    },
+    {
+     "t": "Direct cercarial penetration for all",
+     "e": "Wrong. Only Schistosoma."
+    },
+    {
+     "t": "Insect bite",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Inhalation",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Trematodes"
+  },
+  {
+   "q": "Protozoa (except sporozoa) have a:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Life cycle with a snail host",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Indirect life cycle with two hosts",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Life cycle with a larval stage in arthropods",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Direct life cycle with one host",
+     "e": "Correct. Only trophozoite and cyst stages."
+    }
+   ],
+   "topic": "Protozoa"
+  },
+  {
+   "q": "In protozoa, the stage responsible for transmission is the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Trophozoite",
+     "e": "Wrong. Active, pathogenic stage."
+    },
+    {
+     "t": "Miracidium",
+     "e": "Wrong. Trematode."
+    },
+    {
+     "t": "Cyst",
+     "e": "Correct. Non-motile resistant form."
+    },
+    {
+     "t": "Egg",
+     "e": "Wrong. Not in this group."
+    }
+   ],
+   "topic": "Protozoa"
+  },
+  {
+   "q": "The protozoan trophozoite is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "The resistant form",
+     "e": "Wrong. Cyst."
+    },
+    {
+     "t": "The active form that multiplies and causes pathology",
+     "e": "Correct. Attaches to habitat."
+    },
+    {
+     "t": "The infective stage",
+     "e": "Wrong. Cyst."
+    },
+    {
+     "t": "A larval stage in snails",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Protozoa"
+  },
+  {
+   "q": "Paragonimus westermani infection is acquired by:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Eating raw or undercooked shellfish carrying metacercariae",
+     "e": "Correct. Crab and crayfish are second intermediate hosts."
+    },
+    {
+     "t": "Skin penetration",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mosquito bite",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Drinking contaminated milk",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Paragonimus"
+  },
+  {
+   "q": "The habitat of Paragonimus westermani is the:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Liver",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Large intestine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Brain",
+     "e": "Wrong. Not typical."
+    },
+    {
+     "t": "Lungs",
+     "e": "Correct. Adults are encapsulated there."
+    }
+   ],
+   "topic": "Paragonimus"
+  },
+  {
+   "q": "The diagnostic stage of Paragonimus is the:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Adult worm in blood",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Metacercariae in urine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Eggs in sputum (sometimes stool)",
+     "e": "Correct. Coughed eggs are swallowed."
+    },
+    {
+     "t": "Cysts in stool",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Paragonimus"
+  },
+  {
+   "q": "Chronic paragonimiasis may mimic:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Appendicitis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Bronchitis or tuberculosis with blood-tinged sputum",
+     "e": "Correct. Pulmonary symptoms."
+    },
+    {
+     "t": "Malaria",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Hepatitis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Paragonimus"
+  },
+  {
+   "q": "Paragonimus first intermediate host is a:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Snail",
+     "e": "Correct. Second is crab or crayfish."
+    },
+    {
+     "t": "Fish",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Mosquito",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pig",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Paragonimus"
+  },
+  {
+   "q": "Parasite clinical picture results from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Only toxins from bacteria",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only the number of eggs",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only vitamin loss",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tissue injury plus host reaction along its journey and at its habitat",
+     "e": "Correct. Wide range of manifestations."
+    }
+   ],
+   "topic": "Clinical picture"
+  }
+ ]
+}

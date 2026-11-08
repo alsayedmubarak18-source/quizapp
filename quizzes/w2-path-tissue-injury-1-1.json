@@ -1,0 +1,560 @@
+{
+ "id": "w2-path-tissue-injury-1-1",
+ "title": "Response to Tissue Injury 1 (Acute Inflammation): High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-pathology-tissue-injury-1",
+ "questions": [
+  {
+   "q": "Inflammation is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "A tumor growth process",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A host response to infection and tissue damage",
+     "e": "Correct. Brings cells and molecules to the needed site."
+    },
+    {
+     "t": "A genetic disease",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A degenerative change",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "The purpose of inflammation is to:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Eliminate the cause of injury and remove its consequences",
+     "e": "Correct. E.g., microbes, necrotic cells."
+    },
+    {
+     "t": "Create scar only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Suppress immunity",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Produce necrosis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Basics"
+  },
+  {
+   "q": "Acute inflammation is characterized by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Insidious onset and fibrosis",
+     "e": "Wrong. Chronic."
+    },
+    {
+     "t": "Lymphocytes and macrophages predominantly",
+     "e": "Wrong. Chronic."
+    },
+    {
+     "t": "Duration of years",
+     "e": "Wrong. Chronic."
+    },
+    {
+     "t": "Rapid onset, short duration, exudation and neutrophils",
+     "e": "Correct. Minutes to days."
+    }
+   ],
+   "topic": "Acute"
+  },
+  {
+   "q": "Chronic inflammation shows:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Neutrophil predominance",
+     "e": "Wrong. Acute."
+    },
+    {
+     "t": "Rapid onset",
+     "e": "Wrong. Acute."
+    },
+    {
+     "t": "Insidious onset, long duration, lymphocytes, macrophages, fibrosis",
+     "e": "Correct. Days to years."
+    },
+    {
+     "t": "Fluid exudate only",
+     "e": "Wrong. Acute."
+    }
+   ],
+   "topic": "Chronic"
+  },
+  {
+   "q": "Which is a cardinal sign of inflammation?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Cyanosis",
+     "e": "Wrong. Not listed."
+    },
+    {
+     "t": "Loss of function",
+     "e": "Correct. Also heat, redness, swelling, pain."
+    },
+    {
+     "t": "Pallor",
+     "e": "Wrong. Not listed."
+    },
+    {
+     "t": "Numbness",
+     "e": "Wrong. Not listed."
+    }
+   ],
+   "topic": "Signs"
+  },
+  {
+   "q": "Redness and heat result from:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Vasodilatation",
+     "e": "Correct. Increased blood flow."
+    },
+    {
+     "t": "Vascular constriction",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fibrosis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Necrosis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vascular"
+  },
+  {
+   "q": "Swelling (edema) in acute inflammation is due to:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Vasoconstriction",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lymphocyte proliferation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fat deposition",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Increased vascular permeability with exudate",
+     "e": "Correct. Protein-rich fluid leaks."
+    }
+   ],
+   "topic": "Vascular"
+  },
+  {
+   "q": "An exudate is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Protein-poor fluid",
+     "e": "Wrong. Transudate or serous fluid."
+    },
+    {
+     "t": "A cell type",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Protein-rich fluid",
+     "e": "Correct. In contrast to a transudate."
+    },
+    {
+     "t": "Pus only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Vascular"
+  },
+  {
+   "q": "The correct order of leukocyte events is:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Transmigration, margination, adhesion",
+     "e": "Wrong. Not the order."
+    },
+    {
+     "t": "Margination, firm adhesion, transmigration, chemotaxis",
+     "e": "Correct. Sequence in the cellular response."
+    },
+    {
+     "t": "Adhesion, chemotaxis, margination",
+     "e": "Wrong. Not the order."
+    },
+    {
+     "t": "Chemotaxis, margination, adhesion",
+     "e": "Wrong. Not the order."
+    }
+   ],
+   "topic": "Cellular"
+  },
+  {
+   "q": "Phagocytosis involves:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Recognition, engulfment, killing and degradation",
+     "e": "Correct. Three steps."
+    },
+    {
+     "t": "Only recognition",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "Only engulfment",
+     "e": "Wrong. Incomplete."
+    },
+    {
+     "t": "Antibody secretion",
+     "e": "Wrong. Not part."
+    }
+   ],
+   "topic": "Cellular"
+  },
+  {
+   "q": "Bacterial infections mainly recruit:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Lymphocytes",
+     "e": "Wrong. Viral infections."
+    },
+    {
+     "t": "Eosinophils",
+     "e": "Wrong. Allergy."
+    },
+    {
+     "t": "Plasma cells",
+     "e": "Wrong. Chronic."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Correct. First responders."
+    }
+   ],
+   "topic": "Cellular"
+  },
+  {
+   "q": "Viral infections predominantly recruit:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Bacterial."
+    },
+    {
+     "t": "Eosinophils",
+     "e": "Wrong. Allergic."
+    },
+    {
+     "t": "Lymphocytes",
+     "e": "Correct. Not neutrophils."
+    },
+    {
+     "t": "Basophils",
+     "e": "Wrong. Not stated."
+    }
+   ],
+   "topic": "Cellular"
+  },
+  {
+   "q": "Neutrophils predominate in the first:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "1 hour only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "6-24 hours",
+     "e": "Correct. Then apoptosis at 24-48 hours."
+    },
+    {
+     "t": "1 week",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "1 month",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cellular"
+  },
+  {
+   "q": "After neutrophils, which cells replace them?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Monocytes",
+     "e": "Correct. They persist longer."
+    },
+    {
+     "t": "Eosinophils",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Platelets",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Red cells",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Cellular"
+  },
+  {
+   "q": "Histamine is derived from:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Platelets",
+     "e": "Wrong. Serotonin."
+    },
+    {
+     "t": "Liver",
+     "e": "Wrong. Plasma mediators."
+    },
+    {
+     "t": "Neutrophils",
+     "e": "Wrong. Leukotrienes."
+    },
+    {
+     "t": "Mast cells, preformed",
+     "e": "Correct. First mediator of vasodilatation."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Serotonin comes from:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Mast cells",
+     "e": "Wrong. Histamine."
+    },
+    {
+     "t": "Macrophages",
+     "e": "Wrong. Cytokines."
+    },
+    {
+     "t": "Platelets",
+     "e": "Correct. A vasoactive amine."
+    },
+    {
+     "t": "Hepatocytes",
+     "e": "Wrong. Complement."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Which mediators are preformed?",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Prostaglandins",
+     "e": "Wrong. Synthesized."
+    },
+    {
+     "t": "Histamine and serotonin",
+     "e": "Correct. Others are synthesized de novo."
+    },
+    {
+     "t": "Cytokines",
+     "e": "Wrong. Synthesized."
+    },
+    {
+     "t": "Nitric oxide",
+     "e": "Wrong. Synthesized."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Prostaglandins (PGE2) cause:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Pain, fever and vasodilatation",
+     "e": "Correct. Cyclooxygenase pathway."
+    },
+    {
+     "t": "Neutrophil chemotaxis mainly",
+     "e": "Wrong. Leukotrienes."
+    },
+    {
+     "t": "Phagocytosis",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fibrosis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Leukotrienes are produced via:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Cyclooxygenase pathway",
+     "e": "Wrong. Prostaglandins."
+    },
+    {
+     "t": "Complement cascade",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Kinin system",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lipoxygenase pathway",
+     "e": "Correct. They are chemotactic for neutrophils."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Cytokines TNF and IL-1 cause:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Only pain",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Direct bacterial killing only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Fever and leukocytosis",
+     "e": "Correct. Systemic effects."
+    },
+    {
+     "t": "Anemia only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Chemokines are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Lipid mediators",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cytokines that attract cells to the site (chemotactic cytokines)",
+     "e": "Correct. Chemotaxis."
+    },
+    {
+     "t": "Complement fragments",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Vasoactive amines",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Plasma-derived mediators include:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Complement, kinins, coagulation and fibrinolytic factors",
+     "e": "Correct. Synthesized in the liver."
+    },
+    {
+     "t": "Histamine and serotonin",
+     "e": "Wrong. Cell derived."
+    },
+    {
+     "t": "Prostaglandins",
+     "e": "Wrong. Cell derived."
+    },
+    {
+     "t": "ROS",
+     "e": "Wrong. Cell derived."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Bradykinin mediates:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Fever only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Phagocytosis only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Chemotaxis only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Pain, vasodilatation and increased permeability",
+     "e": "Correct. A kinin."
+    }
+   ],
+   "topic": "Mediators"
+  },
+  {
+   "q": "Which is a possible fate of acute inflammation?",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Hyperplasia only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Metaplasia only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Resolution, fibrosis, spread, or progression to chronic",
+     "e": "Correct. Four outcomes."
+    },
+    {
+     "t": "Apoptosis of the host",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Fate"
+  }
+ ]
+}
