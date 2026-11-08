@@ -1,0 +1,721 @@
+{
+ "id": "w2-immuno-antigens-1",
+ "title": "Antigens: High-Yield Quiz",
+ "lang": "en",
+ "lec": "w2-immunology-cellular-pathway",
+ "questions": [
+  {
+   "q": "An antigen is a substance that:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Generates a specific immune response producing antibodies and/or sensitized T cells",
+     "e": "Correct. Usually protein, sometimes polysaccharide."
+    },
+    {
+     "t": "Only enhances immune response without being immunogenic",
+     "e": "Wrong. That is an adjuvant."
+    },
+    {
+     "t": "Always causes allergy",
+     "e": "Wrong. That is an allergen."
+    },
+    {
+     "t": "Is always a self molecule",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Bacterial somatic O, flagellar H and capsular K antigens are examples of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Autoantigens",
+     "e": "Wrong. Self antigens."
+    },
+    {
+     "t": "Alloantigens",
+     "e": "Wrong. Same species."
+    },
+    {
+     "t": "Tumor antigens",
+     "e": "Wrong. Tumor cells."
+    },
+    {
+     "t": "Microbial antigens",
+     "e": "Correct. Structural antigens of microbes."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "An autoantigen is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "A foreign microbial protein",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A drug hapten",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A self protein or complex recognized by the immune system in autoimmune disease",
+     "e": "Correct. Normally not targeted."
+    },
+    {
+     "t": "An antigen shared by unrelated species",
+     "e": "Wrong. Heterophile."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Alloantigens are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Antigens identical across species",
+     "e": "Wrong. Heterophile."
+    },
+    {
+     "t": "Antigens differing between members of the same species, e.g., ABO red cell antigens",
+     "e": "Correct. Same species."
+    },
+    {
+     "t": "Antigens from tumors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Self antigens in autoimmunity",
+     "e": "Wrong. Autoantigens."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Adjuvants are substances that:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Are non-immunogenic but enhance immunogenicity of an added immunogen",
+     "e": "Correct. E.g., alum, Freund's."
+    },
+    {
+     "t": "Are strong immunogens alone",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Cause tolerance",
+     "e": "Wrong. Tolerogens."
+    },
+    {
+     "t": "Cause allergy",
+     "e": "Wrong. Allergens."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "An epitope is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "The whole antigen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The antibody binding site",
+     "e": "Wrong. Paratope."
+    },
+    {
+     "t": "A cytokine",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "The antigenic determinant, the part of the antigen that binds antibody",
+     "e": "Correct. 4-5 amino acids or sugar residues."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "An epitope is made up of approximately:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "50 amino acids",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A whole protein",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "4-5 amino acids or monosaccharide residues",
+     "e": "Correct. Determines specificity."
+    },
+    {
+     "t": "1 nucleotide",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "A tolerogen:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Activates T cells non-specifically",
+     "e": "Wrong. Superantigen."
+    },
+    {
+     "t": "Evokes specific immune non-responsiveness depending on its molecular form",
+     "e": "Correct. May become an immunogen if form changes."
+    },
+    {
+     "t": "Enhances immunity",
+     "e": "Wrong. Adjuvant."
+    },
+    {
+     "t": "Causes anaphylaxis",
+     "e": "Wrong. Allergen."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "T-independent antigens:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Stimulate B cells directly without T cell help",
+     "e": "Correct. T-dependent need T cells."
+    },
+    {
+     "t": "Need Th help",
+     "e": "Wrong. T-dependent."
+    },
+    {
+     "t": "Activate only T cells",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Are always proteins",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Definitions"
+  },
+  {
+   "q": "Which factor is the first property influencing immunogenicity?",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Color",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Solubility only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Temperature",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Foreignness",
+     "e": "Correct. Self molecules are not immunogenic."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Compounds smaller than 1000 Daltons (e.g., penicillin, aspirin) are:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Strongly immunogenic",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Superantigens",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Not immunogenic alone",
+     "e": "Correct. Haptens."
+    },
+    {
+     "t": "Always tolerogens",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Compounds above 6000 Daltons are generally:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Non-immunogenic",
+     "e": "Wrong. <1000."
+    },
+    {
+     "t": "Immunogenic",
+     "e": "Correct. Larger gives stronger antigenicity."
+    },
+    {
+     "t": "Haptens",
+     "e": "Wrong. Small."
+    },
+    {
+     "t": "Tolerogens",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "The most potent immunogens chemically are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Proteins",
+     "e": "Correct. More complex means more immunogenic."
+    },
+    {
+     "t": "Lipids",
+     "e": "Wrong. Less."
+    },
+    {
+     "t": "Nucleic acids",
+     "e": "Wrong. Less."
+    },
+    {
+     "t": "Polysaccharides",
+     "e": "Wrong. Less."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Antigenicity of a polysaccharide can be enhanced by:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Dilution",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Heating only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Removing all epitopes",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Conjugation to a protein",
+     "e": "Correct. Carrier."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Regarding route of administration:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IV is always best",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Oral is best",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Subcutaneous and IM routes are best; IV antigens go to the spleen, SC to local lymph nodes",
+     "e": "Correct. Different lymphoid organs."
+    },
+    {
+     "t": "Route is irrelevant",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Regarding antigen dose:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Higher always better",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Very low or very high doses may cause unresponsiveness; optimum dose and boosters are best",
+     "e": "Correct. Dose matters."
+    },
+    {
+     "t": "Lower always better",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Dose does not matter",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Which is an adjuvant?",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Aluminum hydroxide (alum) in diphtheria toxoid",
+     "e": "Correct. Also Freund's adjuvant, BCG."
+    },
+    {
+     "t": "Penicillin",
+     "e": "Wrong. Hapten."
+    },
+    {
+     "t": "Insulin",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Aspirin",
+     "e": "Wrong. Hapten."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Freund's adjuvant is composed of:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Alum and saline",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Live attenuated virus",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Lipopolysaccharide only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Killed tubercle bacilli, mineral oil and detergent",
+     "e": "Correct. Lecture."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Host factors affecting immune response include:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Only diet",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Only the antigen dose",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Genotype (MHC genes) and extremes of age",
+     "e": "Correct. Genetically controlled."
+    },
+    {
+     "t": "Nothing",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Immunogenicity"
+  },
+  {
+   "q": "Exogenous antigens are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Generated inside by viral infection",
+     "e": "Wrong. Endogenous."
+    },
+    {
+     "t": "Entering from outside and trapped by APCs",
+     "e": "Correct. E.g., bacteria, pollen."
+    },
+    {
+     "t": "Self proteins",
+     "e": "Wrong. Autoantigens."
+    },
+    {
+     "t": "Tumor markers only",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Types"
+  },
+  {
+   "q": "Endogenous antigens are:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Generated inside body cells due to infection or metabolism",
+     "e": "Correct. Not from outside."
+    },
+    {
+     "t": "Inhaled",
+     "e": "Wrong. Exogenous."
+    },
+    {
+     "t": "Injected",
+     "e": "Wrong. Exogenous."
+    },
+    {
+     "t": "Food allergens",
+     "e": "Wrong. Exogenous."
+    }
+   ],
+   "topic": "Types"
+  },
+  {
+   "q": "A hapten is:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "A complete antigen",
+     "e": "Wrong. Immunogen."
+    },
+    {
+     "t": "A superantigen",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "An antibody",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "A low molecular weight compound that induces a response only when coupled to a larger carrier",
+     "e": "Correct. Penicillin, aspirin, neomycin."
+    }
+   ],
+   "topic": "Types"
+  },
+  {
+   "q": "A complete antigen (immunogen):",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Needs a carrier",
+     "e": "Wrong. Hapten."
+    },
+    {
+     "t": "Is always small",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Induces an immune response by itself, usually >10,000 Da",
+     "e": "Correct. Protein or polysaccharide."
+    },
+    {
+     "t": "Is a tolerogen",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Types"
+  },
+  {
+   "q": "Heterophile antigens are:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "Found only in the same species",
+     "e": "Wrong. Alloantigens."
+    },
+    {
+     "t": "Shared by unrelated species or tissues, causing cross-reactive antibodies",
+     "e": "Correct. Clinically useful for diagnosis."
+    },
+    {
+     "t": "Self antigens",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tumor-specific",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Heterophile"
+  },
+  {
+   "q": "The Weil-Felix reaction uses cross-reaction between rickettsial antibodies and:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Proteus antigens",
+     "e": "Correct. Supports diagnosis of typhus."
+    },
+    {
+     "t": "Sheep RBCs",
+     "e": "Wrong. Paul-Bunnell."
+    },
+    {
+     "t": "Cardiac tissue",
+     "e": "Wrong. Rheumatic fever."
+    },
+    {
+     "t": "Human RBCs",
+     "e": "Wrong. Cold agglutinin."
+    }
+   ],
+   "topic": "Heterophile"
+  },
+  {
+   "q": "The Paul-Bunnell test detects antibodies that react with sheep RBCs in:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Typhus",
+     "e": "Wrong. Weil-Felix."
+    },
+    {
+     "t": "Mycoplasma pneumonia",
+     "e": "Wrong. Cold agglutinin."
+    },
+    {
+     "t": "Rheumatic fever",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "EBV infectious mononucleosis",
+     "e": "Correct. Heterophile antibodies."
+    }
+   ],
+   "topic": "Heterophile"
+  },
+  {
+   "q": "Cold agglutinins are seen in:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "Typhus",
+     "e": "Wrong. Weil-Felix."
+    },
+    {
+     "t": "Infectious mononucleosis",
+     "e": "Wrong. Paul-Bunnell."
+    },
+    {
+     "t": "Mycoplasma (atypical) pneumonia",
+     "e": "Correct. Antibodies react with RBCs."
+    },
+    {
+     "t": "Syphilis",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Heterophile"
+  },
+  {
+   "q": "Rheumatic fever involves cross-reactivity between:",
+   "correct": 1,
+   "options": [
+    {
+     "t": "EBV and sheep RBCs",
+     "e": "Wrong. Paul-Bunnell."
+    },
+    {
+     "t": "Group A streptococcal antigens and cardiac tissue, by molecular mimicry",
+     "e": "Correct. Cross-reactive."
+    },
+    {
+     "t": "Proteus and rickettsiae",
+     "e": "Wrong. Weil-Felix."
+    },
+    {
+     "t": "Mycoplasma and RBCs",
+     "e": "Wrong. Cold agglutinin."
+    }
+   ],
+   "topic": "Heterophile"
+  },
+  {
+   "q": "Superantigens cause:",
+   "correct": 0,
+   "options": [
+    {
+     "t": "Non-specific polyclonal T cell activation and massive cytokine release",
+     "e": "Correct. Rash, fever, multiorgan failure."
+    },
+    {
+     "t": "Specific B cell activation",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Tolerance",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Memory formation",
+     "e": "Wrong. No memory cells."
+    }
+   ],
+   "topic": "Superantigens"
+  },
+  {
+   "q": "Superantigens bind:",
+   "correct": 3,
+   "options": [
+    {
+     "t": "Processed peptides in the MHC groove",
+     "e": "Wrong. Conventional antigens."
+    },
+    {
+     "t": "Only B cell receptors",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Complement",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "Directly to MHC II and non-specifically to the TCR without processing",
+     "e": "Correct. Huge numbers of Th cells."
+    }
+   ],
+   "topic": "Superantigens"
+  },
+  {
+   "q": "The key cytokine contributing to superantigen toxicity is:",
+   "correct": 2,
+   "options": [
+    {
+     "t": "IL-4 only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "IL-10 only",
+     "e": "Wrong. Not correct."
+    },
+    {
+     "t": "TNF-alpha",
+     "e": "Correct. With IL-1, IL-2, IL-6, IFN-gamma."
+    },
+    {
+     "t": "TGF-beta",
+     "e": "Wrong. Not correct."
+    }
+   ],
+   "topic": "Superantigens"
+  }
+ ]
+}
